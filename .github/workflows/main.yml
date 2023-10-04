@@ -1,0 +1,27 @@
+name: refresh getcapabilities
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 14 * * *"    #runs at 12:30 UTC everyday
+
+permissions: write-all
+
+jobs:
+  refresh_config:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: execute py script
+        run: |
+          python main.py
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "refresh getcapabilities"
+          git push
