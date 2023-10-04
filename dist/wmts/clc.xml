@@ -1,0 +1,1056 @@
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
+  <ows:ServiceIdentification>
+    <ows:Title>WMS/WMTS/TMS server</ows:Title>
+    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>WMS</ows:Keyword>
+      <ows:Keyword>WMTS</ows:Keyword>
+      <ows:Keyword>TMS</ows:Keyword>
+      <ows:Keyword>Docker</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType>OGC WMTS</ows:ServiceType>
+    <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+    <ows:Fees>none</ows:Fees>
+    <ows:AccessConstraints>none</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>ROK4 Team</ows:ProviderName>
+    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ServiceContact>
+      <ows:IndividualName />
+      <ows:PositionName />
+      <ows:ContactInfo>
+        <ows:Phone>
+          <ows:Voice />
+          <ows:Facsimile />
+        </ows:Phone>
+        <ows:Address>
+          <ows:DeliveryPoint />
+          <ows:City />
+          <ows:AdministrativeArea />
+          <ows:PostalCode />
+          <ows:Country />
+          <ows:ElectronicMailAddress />
+        </ows:Address>
+      </ows:ContactInfo>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>KVP</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetTile">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>KVP</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetFeatureInfo">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>KVP</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <Contents>
+    <Layer>
+      <ows:Title>Raster CORINE Land Cover - 2000 r&#233;vis&#233;e</ows:Title>
+      <ows:Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 2000 en 44 postes pour la M&#233;tropole. CORINE Land Cover est une base de donn&#233;es d&#8217;occupation des sols produite dans le cadre du programme europ&#233;en d&#8217;observation de la Terre Copernicus. Cet inventaire biophysique de l&#8217;occupation des terres fournit une information g&#233;ographique de r&#233;f&#233;rence pour 39 &#201;tats europ&#233;ens. La continuit&#233; du programme et la diffusion des donn&#233;es CORINE Land Cover sont pilot&#233;es par l'Agence europ&#233;enne pour l'environnement. Le producteur pour la France est le Service de la donn&#233;e et des &#233;tudes statistiques du minist&#232;re charg&#233; de l&#8217;&#233;cologie. L'utilisation de cette base de donn&#233;es permet des applications vari&#233;es adapt&#233;es aux probl&#233;matiques de l'environnement et &#224; celles de l'am&#233;nagement du territoire : production cartographique, exploitation &#224; des fins statistiques ou bien encore analyses g&#233;ographiques en combinaison avec d'autres bases de donn&#233;es. Outil de connaissance et d'analyse, CORINE Land Cover apporte &#233;galement une aide &#224; la d&#233;cision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'am&#233;nagement de l'espace. La base de donn&#233;es CORINE Land Cover 2000 r&#233;vis&#233;e, dite CLC 2000 r&#233;vis&#233;e, est une correction de CLC 2000 r&#233;alis&#233;e &#224; partir d'images satellitaires de l'ann&#233;e 2000 et de donn&#233;es d'appui. </ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.68494 41.1779</ows:LowerCorner>
+        <ows:UpperCorner>10.8556 51.1827</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>LANDCOVER.GRID.CLC00R_FR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>CORINE Land Cover - France m&#233;tropolitaine</ows:Title>
+        <ows:Abstract>L&#233;gende des couches CORINE Land Cover - France m&#233;tropolitaine</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>CLC_FR</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>CORINE Land Cover - France m&#233;tropolitaine</ows:Identifier>
+        <LegendURL format="" xlink:href="" width="300" height="1205" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>2</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>5</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>11</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>247</MinTileCol>
+            <MaxTileCol>271</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>383</MaxTileRow>
+            <MinTileCol>495</MinTileCol>
+            <MaxTileCol>542</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>683</MinTileRow>
+            <MaxTileRow>766</MaxTileRow>
+            <MinTileCol>991</MinTileCol>
+            <MaxTileCol>1085</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1367</MinTileRow>
+            <MaxTileRow>1533</MaxTileRow>
+            <MinTileCol>1983</MinTileCol>
+            <MaxTileCol>2171</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2735</MinTileRow>
+            <MaxTileRow>3066</MaxTileRow>
+            <MinTileCol>3966</MinTileCol>
+            <MaxTileCol>4343</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Raster CORINE Land Cover - France m&#233;tropolitaine - 2000</ows:Title>
+      <ows:Abstract>Inventaire biophysique de l'occupation des sols en 2000 en 44 postes. CORINE Land Cover est une base de donn&#233;es d&#8217;occupation des sols produite dans le cadre du programme europ&#233;en d&#8217;observation de la Terre Copernicus. Cet inventaire biophysique de l&#8217;occupation des terres fournit une information g&#233;ographique de r&#233;f&#233;rence pour 39 &#201;tats europ&#233;ens. La continuit&#233; du programme et la diffusion des donn&#233;es CORINE Land Cover sont pilot&#233;es par l'Agence europ&#233;enne pour l'environnement. Le producteur pour la France est le Service de la donn&#233;e et des &#233;tudes statistiques du minist&#232;re charg&#233; de l&#8217;&#233;cologie. L'utilisation de cette base de donn&#233;es permet des applications vari&#233;es adapt&#233;es aux probl&#233;matiques de l'environnement et &#224; celles de l'am&#233;nagement du territoire : production cartographique, exploitation &#224; des fins statistiques ou bien encore analyses g&#233;ographiques en combinaison avec d'autres bases de donn&#233;es. Outil de connaissance et d'analyse, CORINE Land Cover apporte &#233;galement une aide &#224; la d&#233;cision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et plus g&#233;n&#233;ralement de l'am&#233;nagement de l'espace. La base de donn&#233;es CORINE Land Cover 2000, dite CLC 2000, a &#233;t&#233; r&#233;alis&#233;e &#224; partir d'images satellitaires de l'ann&#233;e 2000 et de donn&#233;es d'appui.</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.68494 41.1779</ows:LowerCorner>
+        <ows:UpperCorner>10.8556 51.1827</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>LANDCOVER.GRID.CLC00_FR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>CORINE Land Cover - France m&#233;tropolitaine</ows:Title>
+        <ows:Abstract>L&#233;gende des couches CORINE Land Cover - France m&#233;tropolitaine</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>CLC_FR</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>CORINE Land Cover - France m&#233;tropolitaine</ows:Identifier>
+        <LegendURL format="" xlink:href="" width="300" height="1205" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>2</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>5</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>11</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>247</MinTileCol>
+            <MaxTileCol>271</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>383</MaxTileRow>
+            <MinTileCol>495</MinTileCol>
+            <MaxTileCol>542</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>683</MinTileRow>
+            <MaxTileRow>766</MaxTileRow>
+            <MinTileCol>991</MinTileCol>
+            <MaxTileCol>1085</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1367</MinTileRow>
+            <MaxTileRow>1533</MaxTileRow>
+            <MinTileCol>1983</MinTileCol>
+            <MaxTileCol>2171</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Raster CORINE Land Cover - France m&#233;tropolitaine - 2006 r&#233;vis&#233;e</ows:Title>
+      <ows:Abstract>Inventaire biophysique de l'occupation des sols en 2006 en 44 postes pour la m&#233;tropole . CORINE Land Cover est une base de donn&#233;es d&#8217;occupation des sols produite dans le cadre du programme europ&#233;en d&#8217;observation de la Terre Copernicus. Cet inventaire biophysique de l&#8217;occupation des terres fournit une information g&#233;ographique de r&#233;f&#233;rence pour 39 &#201;tats europ&#233;ens. La continuit&#233; du programme et la diffusion des donn&#233;es CORINE Land Cover sont pilot&#233;es par l'Agence europ&#233;enne pour l'environnement. Le producteur pour la France est le Service de la donn&#233;e et des &#233;tudes statistiques du minist&#232;re charg&#233; de l&#8217;&#233;cologie. L'utilisation de cette base de donn&#233;es permet des applications vari&#233;es adapt&#233;es aux probl&#233;matiques de l'environnement et &#224; celles de l'am&#233;nagement du territoire : production cartographique, exploitation &#224; des fins statistiques ou bien encore analyses g&#233;ographiques en combinaison avec d'autres bases de donn&#233;es. Outil de connaissance et d'analyse, CORINE Land Cover apporte &#233;galement une aide &#224; la d&#233;cision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et plus g&#233;n&#233;ralement de l'am&#233;nagement de l'espace. La base de donn&#233;es CORINE Land Cover 2006 r&#233;vis&#233;e, dite CLC 2006 r&#233;vis&#233;e, est une correction de CLC 2006 r&#233;alis&#233;e &#224; partir d'images satellitaires de l'ann&#233;e 2006 pour la m&#233;tropole, d'images satellitaires prises entre 2005 et 2008 pour les DOM et de donn&#233;es d'appui.</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.91689 41.0278</ows:LowerCorner>
+        <ows:UpperCorner>11.0883 51.2963</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>LANDCOVER.GRID.CLC06R_FR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>CORINE Land Cover - France m&#233;tropolitaine</ows:Title>
+        <ows:Abstract>L&#233;gende des couches CORINE Land Cover - France m&#233;tropolitaine</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>CLC_FR</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>CORINE Land Cover - France m&#233;tropolitaine</ows:Identifier>
+        <LegendURL format="" xlink:href="" width="300" height="1205" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>2</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>5</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>11</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>247</MinTileCol>
+            <MaxTileCol>271</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>383</MaxTileRow>
+            <MinTileCol>495</MinTileCol>
+            <MaxTileCol>543</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>767</MaxTileRow>
+            <MinTileCol>990</MinTileCol>
+            <MaxTileCol>1087</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>1535</MaxTileRow>
+            <MinTileCol>1980</MinTileCol>
+            <MaxTileCol>2174</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Raster CORINE Land Cover - France m&#233;tropolitaine - 2006</ows:Title>
+      <ows:Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 2006 en 44 postes. CORINE Land Cover est une base de donn&#233;es d&#8217;occupation des sols produite dans le cadre du programme europ&#233;en d&#8217;observation de la Terre Copernicus. Cet inventaire biophysique de l&#8217;occupation des terres fournit une information g&#233;ographique de r&#233;f&#233;rence pour 39 &#201;tats europ&#233;ens. La continuit&#233; du programme et la diffusion des donn&#233;es CORINE Land Cover sont pilot&#233;es par l'Agence europ&#233;enne pour l'environnement. Le producteur pour la France est le Service de l'observation et des statistiques du minist&#232;re charg&#233; de l'environnement. L'utilisation de cette base de donn&#233;es permet des applications vari&#233;es adapt&#233;es aux probl&#233;matiques de l'environnement et &#224; celles de l'am&#233;nagement du territoire : production cartographique, exploitation &#224; des fins statistiques ou bien encore analyses g&#233;ographiques en combinaison avec d'autres bases de donn&#233;es. Outil de connaissance et d'analyse, CORINE Land Cover apporte &#233;galement une aide &#224; la d&#233;cision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et plus g&#233;n&#233;ralement de l'am&#233;nagement de l'espace. La base de donn&#233;es CORINE Land Cover 2006, dite CLC 2006, a &#233;t&#233; r&#233;alis&#233;e &#224; partir de CLC 2000 r&#233;vis&#233;e et de la base des changements 2000-2006.</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.68494 41.1779</ows:LowerCorner>
+        <ows:UpperCorner>10.8556 51.1827</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>LANDCOVER.GRID.CLC06_FR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>CORINE Land Cover - France m&#233;tropolitaine</ows:Title>
+        <ows:Abstract>L&#233;gende des couches CORINE Land Cover - France m&#233;tropolitaine</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>CLC_FR</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>CORINE Land Cover - France m&#233;tropolitaine</ows:Identifier>
+        <LegendURL format="" xlink:href="" width="300" height="1205" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>2</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>5</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>11</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>247</MinTileCol>
+            <MaxTileCol>271</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>383</MaxTileRow>
+            <MinTileCol>495</MinTileCol>
+            <MaxTileCol>542</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>683</MinTileRow>
+            <MaxTileRow>766</MaxTileRow>
+            <MinTileCol>991</MinTileCol>
+            <MaxTileCol>1085</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1367</MinTileRow>
+            <MaxTileRow>1533</MaxTileRow>
+            <MinTileCol>1983</MinTileCol>
+            <MaxTileCol>2171</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Raster CORINE Land Cover - 1990</ows:Title>
+      <ows:Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 1990 en 44 postes pour la M&#233;tropole. CORINE Land Cover est une base de donn&#233;es d&#8217;occupation des sols produite dans le cadre du programme europ&#233;en d&#8217;observation de la Terre Copernicus. Cet inventaire biophysique de l&#8217;occupation des terres fournit une information g&#233;ographique de r&#233;f&#233;rence pour 39 &#201;tats europ&#233;ens. La continuit&#233; du programme et la diffusion des donn&#233;es CORINE Land Cover sont pilot&#233;es par l'Agence europ&#233;enne pour l'environnement. Le producteur pour la France est le Service de la donn&#233;e et des &#233;tudes statistiques du minist&#232;re charg&#233; de l&#8217;&#233;cologie. L'utilisation de cette base de donn&#233;es permet des applications vari&#233;es adapt&#233;es aux probl&#233;matiques de l'environnement et &#224; celles de l'am&#233;nagement du territoire : production cartographique, exploitation &#224; des fins statistiques ou bien encore analyses g&#233;ographiques en combinaison avec d'autres bases de donn&#233;es. Outil de connaissance et d'analyse, CORINE Land Cover apporte &#233;galement une aide &#224; la d&#233;cision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'am&#233;nagement de l'espace. La base de donn&#233;es CORINE Land Cover 1990, dite CLC 1990, a &#233;t&#233; r&#233;alis&#233;e &#224; partir d'images satellitaires de l'ann&#233;e 1990 et de donn&#233;es d'appui. </ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.68494 41.1779</ows:LowerCorner>
+        <ows:UpperCorner>10.8556 51.1827</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>LANDCOVER.GRID.CLC90_FR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>CORINE Land Cover - France m&#233;tropolitaine</ows:Title>
+        <ows:Abstract>L&#233;gende des couches CORINE Land Cover - France m&#233;tropolitaine</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>CLC_FR</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>CORINE Land Cover - France m&#233;tropolitaine</ows:Identifier>
+        <LegendURL format="" xlink:href="" width="300" height="1205" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>2</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>5</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>11</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>247</MinTileCol>
+            <MaxTileCol>271</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>383</MaxTileRow>
+            <MinTileCol>495</MinTileCol>
+            <MaxTileCol>542</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>683</MinTileRow>
+            <MaxTileRow>766</MaxTileRow>
+            <MinTileCol>991</MinTileCol>
+            <MaxTileCol>1085</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1367</MinTileRow>
+            <MaxTileRow>1533</MaxTileRow>
+            <MinTileCol>1983</MinTileCol>
+            <MaxTileCol>2171</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2735</MinTileRow>
+            <MaxTileRow>3066</MaxTileRow>
+            <MinTileCol>3966</MinTileCol>
+            <MaxTileCol>4343</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <TileMatrixSet>
+      <ows:Identifier>PM</ows:Identifier>
+      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>0</ows:Identifier>
+        <ScaleDenominator>559082264.0287178958533332</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1</MatrixWidth>
+        <MatrixHeight>1</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>1</ows:Identifier>
+        <ScaleDenominator>279541132.0143589479266666</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>2</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>2</ows:Identifier>
+        <ScaleDenominator>139770566.0071792920643929</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>4</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>3</ows:Identifier>
+        <ScaleDenominator>69885283.0035896460321965</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8</MatrixWidth>
+        <MatrixHeight>8</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>4</ows:Identifier>
+        <ScaleDenominator>34942641.5017948619934032</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16</MatrixWidth>
+        <MatrixHeight>16</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>5</ows:Identifier>
+        <ScaleDenominator>17471320.7508974309967016</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32</MatrixWidth>
+        <MatrixHeight>32</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>8735660.3754487154983508</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>64</MatrixWidth>
+        <MatrixHeight>64</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>4367830.1877243577491754</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>128</MatrixWidth>
+        <MatrixHeight>128</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2183915.0938621788745877</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>256</MatrixWidth>
+        <MatrixHeight>256</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1091957.5469310894372938</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>512</MatrixWidth>
+        <MatrixHeight>512</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>545978.7734655464442426</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1024</MatrixWidth>
+        <MatrixHeight>1024</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>272989.3867327721563072</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2048</MatrixWidth>
+        <MatrixHeight>2048</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4096</MatrixWidth>
+        <MatrixHeight>4096</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>68247.3466831932167125</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8192</MatrixWidth>
+        <MatrixHeight>8192</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16384</MatrixWidth>
+        <MatrixHeight>16384</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32768</MatrixWidth>
+        <MatrixHeight>32768</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>65536</MatrixWidth>
+        <MatrixHeight>65536</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>131072</MatrixWidth>
+        <MatrixHeight>131072</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>262144</MatrixWidth>
+        <MatrixHeight>262144</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1066.3647919248930199</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>524288</MatrixWidth>
+        <MatrixHeight>524288</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>533.1823959624465100</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1048576</MatrixWidth>
+        <MatrixHeight>1048576</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>21</ows:Identifier>
+        <ScaleDenominator>266.5911979812228585</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2097152</MatrixWidth>
+        <MatrixHeight>2097152</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>WGS84G</ows:Identifier>
+      <ows:SupportedCRS>IGNF:WGS84G</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>0</ows:Identifier>
+        <ScaleDenominator>279541132.0143588675418869</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>1</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>1</ows:Identifier>
+        <ScaleDenominator>139770566.0071794337709434</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>2</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>2</ows:Identifier>
+        <ScaleDenominator>69885283.0035897168854717</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8</MatrixWidth>
+        <MatrixHeight>4</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>3</ows:Identifier>
+        <ScaleDenominator>34942641.5017948584427359</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16</MatrixWidth>
+        <MatrixHeight>8</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>4</ows:Identifier>
+        <ScaleDenominator>17471320.7508974292213679</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32</MatrixWidth>
+        <MatrixHeight>16</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>5</ows:Identifier>
+        <ScaleDenominator>8735660.3754487146106840</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>64</MatrixWidth>
+        <MatrixHeight>32</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>4367830.1877243573053420</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>128</MatrixWidth>
+        <MatrixHeight>64</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>2183915.0938621786526710</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>256</MatrixWidth>
+        <MatrixHeight>128</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>1091957.5469310893263355</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>512</MatrixWidth>
+        <MatrixHeight>256</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>545978.7734655446631677</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1024</MatrixWidth>
+        <MatrixHeight>512</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>272989.3867327723315839</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2048</MatrixWidth>
+        <MatrixHeight>1024</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>136494.6933663861657919</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4096</MatrixWidth>
+        <MatrixHeight>2048</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>68247.3466831930828960</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8192</MatrixWidth>
+        <MatrixHeight>4096</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>34123.6733415965414480</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16384</MatrixWidth>
+        <MatrixHeight>8192</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>17061.8366707982518644</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32768</MatrixWidth>
+        <MatrixHeight>16384</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>8530.9183353991259322</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>65536</MatrixWidth>
+        <MatrixHeight>32768</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>4265.4591676995629661</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>131072</MatrixWidth>
+        <MatrixHeight>65536</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>2132.7295838497851874</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>262144</MatrixWidth>
+        <MatrixHeight>131072</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>1066.3647919248925937</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>524288</MatrixWidth>
+        <MatrixHeight>262144</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>533.1823959624462969</ScaleDenominator>
+        <TopLeftCorner>-180.0000000000000000 90.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1048576</MatrixWidth>
+        <MatrixHeight>524288</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+  </Contents>
+</Capabilities>

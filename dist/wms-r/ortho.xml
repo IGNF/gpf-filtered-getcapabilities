@@ -1,0 +1,212 @@
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS service</Name>
+    <Title>WMS/WMTS/TMS server</Title>
+    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>WMTS</Keyword>
+      <Keyword>TMS</Keyword>
+      <Keyword>Docker</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>ROK4 Team</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType />
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country />
+      </ContactAddress>
+      <ContactVoiceTelephone />
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress />
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>none</AccessConstraints>
+    <LayerLimit>2</LayerLimit>
+    <MaxWidth>10000</MaxWidth>
+    <MaxHeight>10000</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/x-bil;bits=32</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>text/html</Format>
+        <Format>text/xml</Format>
+        <Format>application/xml</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title>cache IGN</Title>
+      <Abstract>Cache IGN</Abstract>
+      <CRS>CRS:84</CRS>
+      <CRS>EPSG:3857</CRS>
+      <Layer queryable="1">
+        <Name>HR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
+        <Title>Ortho 20 cm</Title>
+        <Abstract>Le produit BD ORTHO&#174; V3 est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert. La BD ORTHO&#174; V3 se compose d'images num&#233;riques (sans habillage ni surcharge) et d'indications de g&#233;or&#233;f&#233;rencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000i&#232;me pour mettre en valeur le territoire, enrichir la visualisation des donn&#233;es et des projets. </Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.000000000</westBoundLongitude>
+          <eastBoundLongitude>180.000000000</eastBoundLongitude>
+          <southBoundLatitude>-89.000000000</southBoundLatitude>
+          <northBoundLatitude>89.000000000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2022</Name>
+        <Title>ortho-express IRC 2022</Title>
+        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2022</Name>
+        <Title>ortho-express 2022</Title>
+        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.TPM.OMBRES</Name>
+        <Title>Orthophotographies PCRS TPM traitement ombre</Title>
+        <Abstract>Orthophotographies tr&#232;s haute r&#233;solution avec traitements sur les ombres sur la communaut&#233; d'agglom&#233;rations de Toulon Provence M&#233;diterrann&#233;e. Diffusion limit&#233;e.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>5.744386740</westBoundLongitude>
+          <eastBoundLongitude>6.538805060</eastBoundLongitude>
+          <southBoundLatitude>42.960429630</southBoundLatitude>
+          <northBoundLatitude>43.247394540</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:LAMB93" minx="922979.011129579" miny="6210678.264465539" maxx="988915.841217765" maxy="6245120.969551470" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>178.571428571</MinScaleDenominator>
+        <MaxScaleDenominator>365714.285714286</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

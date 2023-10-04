@@ -1,0 +1,119 @@
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS service</Name>
+    <Title>WMS/WMTS/TMS server</Title>
+    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>WMTS</Keyword>
+      <Keyword>TMS</Keyword>
+      <Keyword>Docker</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>ROK4 Team</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType />
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country />
+      </ContactAddress>
+      <ContactVoiceTelephone />
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress />
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>none</AccessConstraints>
+    <LayerLimit>2</LayerLimit>
+    <MaxWidth>10000</MaxWidth>
+    <MaxHeight>10000</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/x-bil;bits=32</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>text/html</Format>
+        <Format>text/xml</Format>
+        <Format>application/xml</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title>cache IGN</Title>
+      <Abstract>Cache IGN</Abstract>
+      <CRS>CRS:84</CRS>
+      <CRS>EPSG:3857</CRS>
+      <Layer>
+        <Name>SCANEM40_PYR_PNG_FXX_LAMB93</Name>
+        <Title>SCANEM40 LAMB93 FXX 2012</Title>
+        <Abstract>Le produit SCAN Etat-major&#174; 40K est une collection d'images cartographiques num&#233;riques en couleurs, obtenues par scannage et assemblage g&#233;or&#233;f&#233;renc&#233; des cartes d'Etat-major au 1 : 40 000. Le produit SCAN Etat-major&#174; 40K se compose d'images num&#233;riques sans habillage ni surcharge et d'indications de g&#233;or&#233;f&#233;rencement. </Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.088895460</westBoundLongitude>
+          <eastBoundLongitude>10.961008730</eastBoundLongitude>
+          <southBoundLatitude>41.184410290</southBoundLatitude>
+          <northBoundLatitude>50.921800000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:LAMB93" minx="-63350.156944757" miny="6009115.534744730" maxx="1368966.252277638" maxy="7128563.374699610" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>14285.714285714</MinScaleDenominator>
+        <MaxScaleDenominator>117028571.428571418</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

@@ -1,0 +1,398 @@
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS service</Name>
+    <Title>WMS/WMTS/TMS server</Title>
+    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>WMTS</Keyword>
+      <Keyword>TMS</Keyword>
+      <Keyword>Docker</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>ROK4 Team</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType />
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country />
+      </ContactAddress>
+      <ContactVoiceTelephone />
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress />
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>none</AccessConstraints>
+    <LayerLimit>2</LayerLimit>
+    <MaxWidth>10000</MaxWidth>
+    <MaxHeight>10000</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/x-bil;bits=32</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>text/html</Format>
+        <Format>text/xml</Format>
+        <Format>application/xml</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title>cache IGN</Title>
+      <Abstract>Cache IGN</Abstract>
+      <CRS>CRS:84</CRS>
+      <CRS>EPSG:3857</CRS>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.1TE</Name>
+        <Title>Tron&#231;ons routiers 1TE</Title>
+        <Abstract>Tron&#231;ons routiers 1TE</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER 1TE</Name>
+          <Title>RESEAU ROUTIER 1TE</Title>
+          <Abstract>L&#233;gende securoute r&#233;seau routier 1TE</Abstract>
+          <LegendURL width="300" height="250">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>34942641.501794860</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.2TE48</Name>
+        <Title>Tron&#231;ons routiers 2TE48</Title>
+        <Abstract>Tron&#231;ons routiers 2TE48</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER 2TE48</Name>
+          <Title>RESEAU ROUTIER 2TE48</Title>
+          <Abstract>L&#233;gende securoute r&#233;seau routier 2TE48</Abstract>
+          <LegendURL width="300" height="203">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.ALL</Name>
+        <Title>Tous les franchissements</Title>
+        <Abstract>Tous les franchissements </Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>TOUS LES FRANCHISSEMENTS</Name>
+          <Title>TOUS LES FRANCHISSEMENTS</Title>
+          <Abstract>L&#233;gende securoute franchissements ALL</Abstract>
+          <LegendURL width="300" height="224">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.OA</Name>
+        <Title>Autres franchissements</Title>
+        <Abstract>Autres franchissements</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>AUTRES FRANCHISSEMENTS</Name>
+          <Title>AUTRES FRANCHISSEMENTS</Title>
+          <Abstract>L&#233;gende securoute franchissements OA</Abstract>
+          <LegendURL width="300" height="77">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.PN</Name>
+        <Title>Franchissements passage &#224; niveau</Title>
+        <Abstract>Franchissements passage &#224; niveau</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU</Name>
+          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU</Title>
+          <Abstract>L&#233;gende securoute franchissements PN</Abstract>
+          <LegendURL width="300" height="78">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.PND</Name>
+        <Title>Franchissements passage &#224; niveau difficile</Title>
+        <Abstract>Franchissements passage &#224; niveau difficile</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Name>
+          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Title>
+          <Abstract>L&#233;gende securoute franchissements PND</Abstract>
+          <LegendURL width="300" height="94">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE120</Name>
+        <Title>Tron&#231;ons routiers TE120</Title>
+        <Abstract>Tron&#231;ons routiers TE120</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE120</Name>
+          <Title>RESEAU ROUTIER TE120</Title>
+          <Abstract>L&#233;gende securoute r&#233;seau routier TE120</Abstract>
+          <LegendURL width="300" height="56">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE72</Name>
+        <Title>Tron&#231;ons routiers TE72</Title>
+        <Abstract>Tron&#231;ons routiers TE72</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE72</Name>
+          <Title>RESEAU ROUTIER TE72</Title>
+          <Abstract>L&#233;gende securoute r&#233;seau routier TE72</Abstract>
+          <LegendURL width="300" height="153">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE94</Name>
+        <Title>Tron&#231;ons routiers TE94</Title>
+        <Abstract>Tron&#231;ons routiers TE94</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE94</Name>
+          <Title>RESEAU ROUTIER TE94</Title>
+          <Abstract>L&#233;gende securoute r&#233;seau routier TE94</Abstract>
+          <LegendURL width="300" height="103">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>TRANSPORTS.DRONES.RESTRICTIONS</Name>
+        <Title>Restrictions UAS cat&#233;gorie Ouverte et A&#233;romod&#233;lisme</Title>
+        <Abstract>Repr&#233;sentation des zones soumises &#224; interdictions ou &#224; restrictions pour l&#8217;usage, &#224; titre de loisir, d&#8217;a&#233;ronefs t&#233;l&#233;pilot&#233;s (ou drones), sur le territoire m&#233;tropolitain, &#224; jour au 07-2020. Elle int&#232;gre partiellement les interdictions s'appuyant sur des donn&#233;es non publi&#233;es &#224; l'AIP et ne couvre pas les interdictions temporaires. Cette carte est bas&#233;e sur l&#8217;arr&#234;t&#233; &#171; espace &#187; du 09/11/2017. La repr&#233;sentation des zones soumises &#224; interdictions ou &#224; restrictions n&#8217;engage pas la responsabilit&#233; des producteurs de la donn&#233;e. Le contour des agglom&#233;rations est fourni &#224; titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-9.881468130</westBoundLongitude>
+          <eastBoundLongitude>11.678098690</eastBoundLongitude>
+          <southBoundLatitude>40.575989820</southBoundLatitude>
+          <northBoundLatitude>51.442817580</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.000521561" miny="4950000.000081423" maxx="1299999.999604395" maxy="6699999.999949973" />
+        <Attribution>
+          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>17061.836670798</MinScaleDenominator>
+        <MaxScaleDenominator>69885283.003589630</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

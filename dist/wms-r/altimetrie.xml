@@ -1,0 +1,555 @@
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS service</Name>
+    <Title>WMS/WMTS/TMS server</Title>
+    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>WMTS</Keyword>
+      <Keyword>TMS</Keyword>
+      <Keyword>Docker</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>ROK4 Team</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType />
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country />
+      </ContactAddress>
+      <ContactVoiceTelephone />
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress />
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>none</AccessConstraints>
+    <LayerLimit>2</LayerLimit>
+    <MaxWidth>10000</MaxWidth>
+    <MaxHeight>10000</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/x-bil;bits=32</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>text/html</Format>
+        <Format>text/xml</Format>
+        <Format>application/xml</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title>cache IGN</Title>
+      <Abstract>Cache IGN</Abstract>
+      <CRS>CRS:84</CRS>
+      <CRS>EPSG:3857</CRS>
+      <Layer>
+        <Name>ELEVATION.CONTOUR.LINE</Name>
+        <Title>Courbes de niveau</Title>
+        <Abstract>Le produit &#171; Courbes de niveau &#187; est un mod&#232;le num&#233;rique de terrain sous forme de courbes de m&#234;me altitude, appel&#233;es aussi &#171; isopl&#232;thes d&#8217;altitude &#187;, ou plus techniquement &#171; isohypses &#187;. Ces courbes permettent la description du relief fran&#231;ais.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE</Name>
+        <Title>MNT BDAlti V1</Title>
+        <Abstract>BDAlti V1 au pas de 25m</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-64.000000000</westBoundLongitude>
+          <eastBoundLongitude>168.000000000</eastBoundLongitude>
+          <southBoundLatitude>-23.000000000</southBoundLatitude>
+          <northBoundLatitude>52.000000000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:WGS84G" minx="-64.000000000" miny="-23.000000000" maxx="168.000000000" maxy="52.000000000" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1.226152693</MinScaleDenominator>
+        <MaxScaleDenominator>2511.160714286</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES</Name>
+        <Title>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</Title>
+        <Abstract>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-62.952807690</westBoundLongitude>
+          <eastBoundLongitude>45.304315330</eastBoundLongitude>
+          <southBoundLatitude>-13.007809420</southBoundLatitude>
+          <northBoundLatitude>51.105279680</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:WGS84G" minx="-62.952807690" miny="-13.007809420" maxx="45.304315330" maxy="51.105279680" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>0.153269087</MinScaleDenominator>
+        <MaxScaleDenominator>39.236886161</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
+        <Title>Estompage</Title>
+        <Abstract>Couche d'ombrage calcul&#233;e &#224; partir des donn&#233;es altim&#233;triques de l'IGN permettant de mieux appr&#233;hender le relief. L'estompage propos&#233; est r&#233;alis&#233; &#224; partir des donn&#233;es MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45&#176;, l'autre z&#233;nithal.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.186964670</westBoundLongitude>
+          <eastBoundLongitude>55.888402350</eastBoundLongitude>
+          <southBoundLatitude>-21.406913140</southBoundLatitude>
+          <northBoundLatitude>50.921800000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7033940.731836968" miny="-2440465.299339484" maxx="6221468.490851594" maxy="6607472.687901211" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>17061.836670798</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.SRTM3</Name>
+        <Title>MNT SRTM3</Title>
+        <Abstract>MNT SRTM3 construit par la NASA et le NGA.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.000416670</westBoundLongitude>
+          <eastBoundLongitude>180.000416670</eastBoundLongitude>
+          <southBoundLatitude>-56.000416670</southBoundLatitude>
+          <northBoundLatitude>61.000416670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:WGS84G" minx="-180.000416670" miny="-56.000416670" maxx="180.000416670" maxy="61.000416670" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2.452305385</MinScaleDenominator>
+        <MaxScaleDenominator>1255.580357143</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD</Name>
+        <Title>Seuils de pente pour l'agriculture</Title>
+        <Abstract>La carte exp&#233;rimentale des seuils de pente pour l'agriculture est d&#233;riv&#233;e du MNT RGEAlti, mod&#232;le num&#233;rique de terrain maill&#233; au pas de 1 m. Les seuils de repr&#233;sentation de cette carte sont : 7% &#224; 10% : bleu, 10% &#224; 15% : mauve, 15% &#224; 20% : orange, plus de 20% : rouge. Donn&#233;es disponibles en France M&#233;tropolitaine du 1/4265 au 1/69885283 - mise &#224; jour du 30/06/2017.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD</Name>
+          <Title>Valeur de pente en %</Title>
+          <Abstract>Valeur de pente en %</Abstract>
+          <LegendURL width="200" height="129">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>69885283.003589630</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>RGEALTI-MNT_PYR-ZIP_FXX_LAMB93_WMS</Name>
+        <Title>RGEALTI-MNT_PYR-ZIP_FXX_LAMB93_WMS1</Title>
+        <Abstract>MNT RGEALTI</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.320384170</westBoundLongitude>
+          <eastBoundLongitude>9.663138840</eastBoundLongitude>
+          <southBoundLatitude>41.315625460</southBoundLatitude>
+          <northBoundLatitude>51.121313770</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:LAMB93" minx="2482.248273666" miny="6023733.529840448" maxx="1258958.016463462" maxy="7144727.681720356" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3571.428571429</MinScaleDenominator>
+        <MaxScaleDenominator>3571428.571428571</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>RGEALTI-MNT_PYR-ZIP_MTQ_WGS84UTM20_WMS</Name>
+        <Title>RGEALTI-MNT_PYR-ZIP_MTQ_WGS84UTM20_WMS20160317</Title>
+        <Abstract>RGEALTI du MNT de la Martinique.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.237869000</westBoundLongitude>
+          <eastBoundLongitude>-60.797225470</eastBoundLongitude>
+          <southBoundLatitude>14.381067220</southBoundLatitude>
+          <northBoundLatitude>14.881760660</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:UTM20W84MART" minx="689572.059957398" miny="1590596.960914388" maxx="737533.774916752" maxy="1646416.879702487" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3571.428571429</MinScaleDenominator>
+        <MaxScaleDenominator>3571428.571428571</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>RGEALTI-MNT_PYR-ZIP_MYT_RGM04UTM38S_WMS</Name>
+        <Title>RGEALTI-MNT_PYR-ZIP_MYT_RGM04UTM38S_WMS_20151001</Title>
+        <Abstract>MNT RGEALTI de MaYotTe</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>44.972329800</westBoundLongitude>
+          <eastBoundLongitude>45.304315330</eastBoundLongitude>
+          <southBoundLatitude>-13.007809420</southBoundLatitude>
+          <northBoundLatitude>-12.627838530</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:RGM04UTM38S" minx="496994.997651344" miny="8561980.937878001" maxx="533048.799428520" maxy="8604019.629873119" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3571.428571429</MinScaleDenominator>
+        <MaxScaleDenominator>3571428.571428571</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>RGEALTI-MNT_PYR-ZIP_REU_RGR92UTM40S_WMS</Name>
+        <Title>RGEALTI-MNT_PYR-ZIP_REU_RGR92UTM40S_WMS</Title>
+        <Abstract>Mod&#232;le Num&#233;rique de la R&#233;union</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>55.196110970</westBoundLongitude>
+          <eastBoundLongitude>55.846564210</eastBoundLongitude>
+          <southBoundLatitude>-21.401258570</southBoundLatitude>
+          <northBoundLatitude>-20.844657690</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:RGR92UTM40S" minx="312307.350992236" miny="7632368.556997707" maxx="380442.128782203" maxy="7694612.605508389" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3571.428571429</MinScaleDenominator>
+        <MaxScaleDenominator>3571428.571428571</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>RGEALTI-MNT_PYR-ZIP_SPM_RGSPM06U21_WMS</Name>
+        <Title>RGEALTI-MNT_PYR-ZIP_SPM_RGSPM06U21_WMS_20170617</Title>
+        <Abstract>RGEALTI des MNT en PYR-ZIP pour SMP en RGSPM06U21</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-56.528713820</westBoundLongitude>
+          <eastBoundLongitude>-56.076711960</eastBoundLongitude>
+          <southBoundLatitude>46.742887860</southBoundLatitude>
+          <northBoundLatitude>47.150520520</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:RGSPM06U21" minx="535729.024953111" miny="5176700.649305612" maxx="570529.340502584" maxy="5222303.039405371" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3571.428571429</MinScaleDenominator>
+        <MaxScaleDenominator>3571428.571428571</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

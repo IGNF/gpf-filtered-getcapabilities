@@ -1,0 +1,119 @@
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS service</Name>
+    <Title>WMS/WMTS/TMS server</Title>
+    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>WMTS</Keyword>
+      <Keyword>TMS</Keyword>
+      <Keyword>Docker</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>ROK4 Team</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType />
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country />
+      </ContactAddress>
+      <ContactVoiceTelephone />
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress />
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>none</AccessConstraints>
+    <LayerLimit>2</LayerLimit>
+    <MaxWidth>10000</MaxWidth>
+    <MaxHeight>10000</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/x-bil;bits=32</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>text/html</Format>
+        <Format>text/xml</Format>
+        <Format>application/xml</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title>cache IGN</Title>
+      <Abstract>Cache IGN</Abstract>
+      <CRS>CRS:84</CRS>
+      <CRS>EPSG:3857</CRS>
+      <Layer>
+        <Name>EL.GridCoverage</Name>
+        <Title>Carte du relief</Title>
+        <Abstract>La couche altitude se compose d'un MNT (Mod&#232;le Num&#233;rique de Terrain) affich&#233; en teintes hypsom&#233;triques et issu de la BD ALTI&#174;. </Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>inspire_common:DEFAULT</Name>
+          <Title>Style INSPIRE</Title>
+          <Abstract>Style par d&#233;fault INSPIRE</Abstract>
+          <LegendURL width="100" height="100">
+            <Format />
+            <OnlineResource xlink:type="simple" xlink:href="" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>34123.673341597</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>
