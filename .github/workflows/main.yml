@@ -2,8 +2,8 @@ name: refresh getcapabilities
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "30 14 * * *"    #runs at 12:30 UTC everyday
+  schedule:
+    - cron: "30 14 * * 0"
 
 permissions: write-all
 
