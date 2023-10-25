@@ -7,7 +7,6 @@
       <Keyword>WMS</Keyword>
       <Keyword>WMTS</Keyword>
       <Keyword>TMS</Keyword>
-      <Keyword>Docker</Keyword>
     </KeywordList>
     <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
     <ContactInformation>
@@ -82,7 +81,173 @@
       <Title>cache IGN</Title>
       <Abstract>Cache IGN</Abstract>
       <CRS>CRS:84</CRS>
+      <CRS>EPSG:2154</CRS>
+      <CRS>IGNF:LAMB93</CRS>
+      <CRS>EPSG:21781</CRS>
+      <CRS>EPSG:23030</CRS>
+      <CRS>EPSG:23031</CRS>
+      <CRS>EPSG:23032</CRS>
+      <CRS>EPSG:27561</CRS>
+      <CRS>IGNF:LAMB1</CRS>
+      <CRS>EPSG:27562</CRS>
+      <CRS>IGNF:LAMB2</CRS>
+      <CRS>EPSG:27563</CRS>
+      <CRS>IGNF:LAMB3</CRS>
+      <CRS>EPSG:27564</CRS>
+      <CRS>IGNF:LAMB4</CRS>
+      <CRS>EPSG:27571</CRS>
+      <CRS>IGNF:LAMB1C</CRS>
+      <CRS>EPSG:27572</CRS>
+      <CRS>IGNF:LAMB2C</CRS>
+      <CRS>IGNF:LAMBE</CRS>
+      <CRS>EPSG:27573</CRS>
+      <CRS>IGNF:LAMB3C</CRS>
+      <CRS>EPSG:27574</CRS>
+      <CRS>IGNF:LAMB4C</CRS>
+      <CRS>EPSG:27581</CRS>
+      <CRS>EPSG:27582</CRS>
+      <CRS>EPSG:27583</CRS>
+      <CRS>EPSG:27584</CRS>
+      <CRS>EPSG:27591</CRS>
+      <CRS>EPSG:27592</CRS>
+      <CRS>EPSG:27593</CRS>
+      <CRS>EPSG:27594</CRS>
+      <CRS>EPSG:2969</CRS>
+      <CRS>IGNF:GUADFM49U20</CRS>
+      <CRS>EPSG:2970</CRS>
+      <CRS>IGNF:GUAD48UTM20</CRS>
+      <CRS>EPSG:2971</CRS>
+      <CRS>IGNF:CSG67UTM22</CRS>
+      <CRS>EPSG:2972</CRS>
+      <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>EPSG:2973</CRS>
+      <CRS>IGNF:MART38UTM20</CRS>
+      <CRS>EPSG:2975</CRS>
+      <CRS>IGNF:RGR92UTM40S</CRS>
+      <CRS>EPSG:2976</CRS>
+      <CRS>IGNF:TAHI51UTM06S</CRS>
+      <CRS>EPSG:2977</CRS>
+      <CRS>EPSG:2978</CRS>
+      <CRS>EPSG:2980</CRS>
+      <CRS>IGNF:MAYO50UTM38S</CRS>
+      <CRS>EPSG:2981</CRS>
+      <CRS>EPSG:2987</CRS>
+      <CRS>IGNF:STPM50UTM21</CRS>
+      <CRS>EPSG:2988</CRS>
+      <CRS>IGNF:WALL78UTM1S</CRS>
+      <CRS>EPSG:2989</CRS>
+      <CRS>EPSG:2990</CRS>
+      <CRS>EPSG:3034</CRS>
+      <CRS>EPSG:3035</CRS>
+      <CRS>EPSG:3042</CRS>
+      <CRS>EPSG:3043</CRS>
+      <CRS>EPSG:3044</CRS>
+      <CRS>EPSG:3170</CRS>
+      <CRS>EPSG:3171</CRS>
+      <CRS>EPSG:3172</CRS>
+      <CRS>EPSG:32620</CRS>
+      <CRS>IGNF:UTM20W84MART</CRS>
+      <CRS>EPSG:32621</CRS>
+      <CRS>EPSG:32622</CRS>
+      <CRS>EPSG:32630</CRS>
+      <CRS>IGNF:UTM30W84</CRS>
+      <CRS>EPSG:32631</CRS>
+      <CRS>IGNF:UTM31W84</CRS>
+      <CRS>EPSG:32632</CRS>
+      <CRS>IGNF:UTM32W84</CRS>
+      <CRS>EPSG:32701</CRS>
+      <CRS>IGNF:UTM01SW84</CRS>
+      <CRS>EPSG:32705</CRS>
+      <CRS>EPSG:32706</CRS>
+      <CRS>EPSG:32707</CRS>
+      <CRS>EPSG:32738</CRS>
+      <CRS>EPSG:32739</CRS>
+      <CRS>IGNF:UTM39SW84</CRS>
+      <CRS>EPSG:32740</CRS>
+      <CRS>EPSG:3296</CRS>
+      <CRS>IGNF:RGPFUTM5S</CRS>
+      <CRS>EPSG:3297</CRS>
+      <CRS>IGNF:RGPFUTM6S</CRS>
+      <CRS>EPSG:3298</CRS>
+      <CRS>IGNF:RGPFUTM7S</CRS>
+      <CRS>EPSG:3302</CRS>
+      <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>EPSG:3303</CRS>
+      <CRS>EPSG:3304</CRS>
+      <CRS>IGNF:TAHI79UTM6S</CRS>
+      <CRS>EPSG:3305</CRS>
+      <CRS>EPSG:3306</CRS>
+      <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:3942</CRS>
+      <CRS>IGNF:RGF93CC42</CRS>
+      <CRS>EPSG:3943</CRS>
+      <CRS>IGNF:RGF93CC43</CRS>
+      <CRS>EPSG:3944</CRS>
+      <CRS>IGNF:RGF93CC44</CRS>
+      <CRS>EPSG:3945</CRS>
+      <CRS>IGNF:RGF93CC45</CRS>
+      <CRS>EPSG:3946</CRS>
+      <CRS>IGNF:RGF93CC46</CRS>
+      <CRS>EPSG:3947</CRS>
+      <CRS>IGNF:RGF93CC47</CRS>
+      <CRS>EPSG:3948</CRS>
+      <CRS>IGNF:RGF93CC48</CRS>
+      <CRS>EPSG:3949</CRS>
+      <CRS>IGNF:RGF93CC49</CRS>
+      <CRS>EPSG:3950</CRS>
+      <CRS>IGNF:RGF93CC50</CRS>
+      <CRS>EPSG:4171</CRS>
+      <CRS>IGNF:RGF93G</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4275</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:4463</CRS>
+      <CRS>EPSG:4467</CRS>
+      <CRS>IGNF:RGSPM06U21</CRS>
+      <CRS>EPSG:4470</CRS>
+      <CRS>EPSG:4471</CRS>
+      <CRS>IGNF:RGM04UTM38S</CRS>
+      <CRS>EPSG:4558</CRS>
+      <CRS>EPSG:4559</CRS>
+      <CRS>EPSG:4621</CRS>
+      <CRS>EPSG:4622</CRS>
+      <CRS>EPSG:4623</CRS>
+      <CRS>EPSG:4624</CRS>
+      <CRS>EPSG:4625</CRS>
+      <CRS>EPSG:4626</CRS>
+      <CRS>EPSG:4627</CRS>
+      <CRS>EPSG:4628</CRS>
+      <CRS>EPSG:4629</CRS>
+      <CRS>EPSG:4630</CRS>
+      <CRS>EPSG:4632</CRS>
+      <CRS>EPSG:4633</CRS>
+      <CRS>EPSG:4636</CRS>
+      <CRS>EPSG:4637</CRS>
+      <CRS>EPSG:4638</CRS>
+      <CRS>EPSG:4639</CRS>
+      <CRS>EPSG:4641</CRS>
+      <CRS>EPSG:4642</CRS>
+      <CRS>EPSG:4643</CRS>
+      <CRS>EPSG:4644</CRS>
+      <CRS>EPSG:4687</CRS>
+      <CRS>EPSG:4688</CRS>
+      <CRS>EPSG:4689</CRS>
+      <CRS>EPSG:4690</CRS>
+      <CRS>EPSG:4691</CRS>
+      <CRS>EPSG:4692</CRS>
+      <CRS>EPSG:4749</CRS>
+      <CRS>EPSG:4807</CRS>
+      <CRS>IGNF:CSG67GEO</CRS>
+      <CRS>IGNF:GUAD48GEO</CRS>
+      <CRS>IGNF:GUADFM49GEO</CRS>
+      <CRS>IGNF:MART38GEO</CRS>
+      <CRS>IGNF:MAYO50GEO</CRS>
+      <CRS>IGNF:REUN47GAUSSL</CRS>
+      <CRS>IGNF:REUN47GEO</CRS>
+      <CRS>IGNF:RGFG95GEO</CRS>
+      <CRS>IGNF:STPM50GEO</CRS>
+      <CRS>IGNF:WGS84G</CRS>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10</Name>
         <Title>Carte de l'&#233;tat-major - environs de Paris (1818 - 1824)</Title>
@@ -107,8 +272,8 @@
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
@@ -138,8 +303,8 @@
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>17061.836670798</MinScaleDenominator>
@@ -169,8 +334,8 @@
           <Title>SCAN 50 historique</Title>
           <Abstract>L&#233;gende des la couche SCAN 50 historique</Abstract>
           <LegendURL width="300" height="8771">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950-legend.png" />
           </LegendURL>
         </Style>
         <Style>
@@ -178,8 +343,8 @@
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>17061.836670798</MinScaleDenominator>
@@ -209,8 +374,8 @@
           <Title>Donn&#233;es sans l&#233;gende</Title>
           <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>2132.729583850</MinScaleDenominator>
@@ -240,8 +405,8 @@
           <Title>Donn&#233;es sans l&#233;gende</Title>
           <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
@@ -271,8 +436,8 @@
           <Title>L&#233;gende du 1/1000000</Title>
           <Abstract>L&#233;gende associ&#233;e au Scan1000</Abstract>
           <LegendURL width="300" height="2200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SCAN1000_PYR-JPEG_WLD_WM-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>545978.773465546</MinScaleDenominator>
@@ -302,8 +467,8 @@
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>68247.346683193</MinScaleDenominator>
@@ -333,8 +498,8 @@
           <Title>L&#233;gende du 1/1000000</Title>
           <Abstract>L&#233;gende associ&#233;e au SCANREGIONAL</Abstract>
           <LegendURL width="300" height="2200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SCANREG_PYR-JPEG_WLD_WM-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>136494.693366386</MinScaleDenominator>

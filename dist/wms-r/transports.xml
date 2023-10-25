@@ -7,7 +7,6 @@
       <Keyword>WMS</Keyword>
       <Keyword>WMTS</Keyword>
       <Keyword>TMS</Keyword>
-      <Keyword>Docker</Keyword>
     </KeywordList>
     <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
     <ContactInformation>
@@ -82,7 +81,173 @@
       <Title>cache IGN</Title>
       <Abstract>Cache IGN</Abstract>
       <CRS>CRS:84</CRS>
+      <CRS>EPSG:2154</CRS>
+      <CRS>IGNF:LAMB93</CRS>
+      <CRS>EPSG:21781</CRS>
+      <CRS>EPSG:23030</CRS>
+      <CRS>EPSG:23031</CRS>
+      <CRS>EPSG:23032</CRS>
+      <CRS>EPSG:27561</CRS>
+      <CRS>IGNF:LAMB1</CRS>
+      <CRS>EPSG:27562</CRS>
+      <CRS>IGNF:LAMB2</CRS>
+      <CRS>EPSG:27563</CRS>
+      <CRS>IGNF:LAMB3</CRS>
+      <CRS>EPSG:27564</CRS>
+      <CRS>IGNF:LAMB4</CRS>
+      <CRS>EPSG:27571</CRS>
+      <CRS>IGNF:LAMB1C</CRS>
+      <CRS>EPSG:27572</CRS>
+      <CRS>IGNF:LAMB2C</CRS>
+      <CRS>IGNF:LAMBE</CRS>
+      <CRS>EPSG:27573</CRS>
+      <CRS>IGNF:LAMB3C</CRS>
+      <CRS>EPSG:27574</CRS>
+      <CRS>IGNF:LAMB4C</CRS>
+      <CRS>EPSG:27581</CRS>
+      <CRS>EPSG:27582</CRS>
+      <CRS>EPSG:27583</CRS>
+      <CRS>EPSG:27584</CRS>
+      <CRS>EPSG:27591</CRS>
+      <CRS>EPSG:27592</CRS>
+      <CRS>EPSG:27593</CRS>
+      <CRS>EPSG:27594</CRS>
+      <CRS>EPSG:2969</CRS>
+      <CRS>IGNF:GUADFM49U20</CRS>
+      <CRS>EPSG:2970</CRS>
+      <CRS>IGNF:GUAD48UTM20</CRS>
+      <CRS>EPSG:2971</CRS>
+      <CRS>IGNF:CSG67UTM22</CRS>
+      <CRS>EPSG:2972</CRS>
+      <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>EPSG:2973</CRS>
+      <CRS>IGNF:MART38UTM20</CRS>
+      <CRS>EPSG:2975</CRS>
+      <CRS>IGNF:RGR92UTM40S</CRS>
+      <CRS>EPSG:2976</CRS>
+      <CRS>IGNF:TAHI51UTM06S</CRS>
+      <CRS>EPSG:2977</CRS>
+      <CRS>EPSG:2978</CRS>
+      <CRS>EPSG:2980</CRS>
+      <CRS>IGNF:MAYO50UTM38S</CRS>
+      <CRS>EPSG:2981</CRS>
+      <CRS>EPSG:2987</CRS>
+      <CRS>IGNF:STPM50UTM21</CRS>
+      <CRS>EPSG:2988</CRS>
+      <CRS>IGNF:WALL78UTM1S</CRS>
+      <CRS>EPSG:2989</CRS>
+      <CRS>EPSG:2990</CRS>
+      <CRS>EPSG:3034</CRS>
+      <CRS>EPSG:3035</CRS>
+      <CRS>EPSG:3042</CRS>
+      <CRS>EPSG:3043</CRS>
+      <CRS>EPSG:3044</CRS>
+      <CRS>EPSG:3170</CRS>
+      <CRS>EPSG:3171</CRS>
+      <CRS>EPSG:3172</CRS>
+      <CRS>EPSG:32620</CRS>
+      <CRS>IGNF:UTM20W84MART</CRS>
+      <CRS>EPSG:32621</CRS>
+      <CRS>EPSG:32622</CRS>
+      <CRS>EPSG:32630</CRS>
+      <CRS>IGNF:UTM30W84</CRS>
+      <CRS>EPSG:32631</CRS>
+      <CRS>IGNF:UTM31W84</CRS>
+      <CRS>EPSG:32632</CRS>
+      <CRS>IGNF:UTM32W84</CRS>
+      <CRS>EPSG:32701</CRS>
+      <CRS>IGNF:UTM01SW84</CRS>
+      <CRS>EPSG:32705</CRS>
+      <CRS>EPSG:32706</CRS>
+      <CRS>EPSG:32707</CRS>
+      <CRS>EPSG:32738</CRS>
+      <CRS>EPSG:32739</CRS>
+      <CRS>IGNF:UTM39SW84</CRS>
+      <CRS>EPSG:32740</CRS>
+      <CRS>EPSG:3296</CRS>
+      <CRS>IGNF:RGPFUTM5S</CRS>
+      <CRS>EPSG:3297</CRS>
+      <CRS>IGNF:RGPFUTM6S</CRS>
+      <CRS>EPSG:3298</CRS>
+      <CRS>IGNF:RGPFUTM7S</CRS>
+      <CRS>EPSG:3302</CRS>
+      <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>EPSG:3303</CRS>
+      <CRS>EPSG:3304</CRS>
+      <CRS>IGNF:TAHI79UTM6S</CRS>
+      <CRS>EPSG:3305</CRS>
+      <CRS>EPSG:3306</CRS>
+      <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:3942</CRS>
+      <CRS>IGNF:RGF93CC42</CRS>
+      <CRS>EPSG:3943</CRS>
+      <CRS>IGNF:RGF93CC43</CRS>
+      <CRS>EPSG:3944</CRS>
+      <CRS>IGNF:RGF93CC44</CRS>
+      <CRS>EPSG:3945</CRS>
+      <CRS>IGNF:RGF93CC45</CRS>
+      <CRS>EPSG:3946</CRS>
+      <CRS>IGNF:RGF93CC46</CRS>
+      <CRS>EPSG:3947</CRS>
+      <CRS>IGNF:RGF93CC47</CRS>
+      <CRS>EPSG:3948</CRS>
+      <CRS>IGNF:RGF93CC48</CRS>
+      <CRS>EPSG:3949</CRS>
+      <CRS>IGNF:RGF93CC49</CRS>
+      <CRS>EPSG:3950</CRS>
+      <CRS>IGNF:RGF93CC50</CRS>
+      <CRS>EPSG:4171</CRS>
+      <CRS>IGNF:RGF93G</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4275</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:4463</CRS>
+      <CRS>EPSG:4467</CRS>
+      <CRS>IGNF:RGSPM06U21</CRS>
+      <CRS>EPSG:4470</CRS>
+      <CRS>EPSG:4471</CRS>
+      <CRS>IGNF:RGM04UTM38S</CRS>
+      <CRS>EPSG:4558</CRS>
+      <CRS>EPSG:4559</CRS>
+      <CRS>EPSG:4621</CRS>
+      <CRS>EPSG:4622</CRS>
+      <CRS>EPSG:4623</CRS>
+      <CRS>EPSG:4624</CRS>
+      <CRS>EPSG:4625</CRS>
+      <CRS>EPSG:4626</CRS>
+      <CRS>EPSG:4627</CRS>
+      <CRS>EPSG:4628</CRS>
+      <CRS>EPSG:4629</CRS>
+      <CRS>EPSG:4630</CRS>
+      <CRS>EPSG:4632</CRS>
+      <CRS>EPSG:4633</CRS>
+      <CRS>EPSG:4636</CRS>
+      <CRS>EPSG:4637</CRS>
+      <CRS>EPSG:4638</CRS>
+      <CRS>EPSG:4639</CRS>
+      <CRS>EPSG:4641</CRS>
+      <CRS>EPSG:4642</CRS>
+      <CRS>EPSG:4643</CRS>
+      <CRS>EPSG:4644</CRS>
+      <CRS>EPSG:4687</CRS>
+      <CRS>EPSG:4688</CRS>
+      <CRS>EPSG:4689</CRS>
+      <CRS>EPSG:4690</CRS>
+      <CRS>EPSG:4691</CRS>
+      <CRS>EPSG:4692</CRS>
+      <CRS>EPSG:4749</CRS>
+      <CRS>EPSG:4807</CRS>
+      <CRS>IGNF:CSG67GEO</CRS>
+      <CRS>IGNF:GUAD48GEO</CRS>
+      <CRS>IGNF:GUADFM49GEO</CRS>
+      <CRS>IGNF:MART38GEO</CRS>
+      <CRS>IGNF:MAYO50GEO</CRS>
+      <CRS>IGNF:REUN47GAUSSL</CRS>
+      <CRS>IGNF:REUN47GEO</CRS>
+      <CRS>IGNF:RGFG95GEO</CRS>
+      <CRS>IGNF:STPM50GEO</CRS>
+      <CRS>IGNF:WGS84G</CRS>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.1TE</Name>
         <Title>Tron&#231;ons routiers 1TE</Title>
@@ -107,8 +272,8 @@
           <Title>RESEAU ROUTIER 1TE</Title>
           <Abstract>L&#233;gende securoute r&#233;seau routier 1TE</Abstract>
           <LegendURL width="300" height="250">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.1TE-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -138,8 +303,8 @@
           <Title>RESEAU ROUTIER 2TE48</Title>
           <Abstract>L&#233;gende securoute r&#233;seau routier 2TE48</Abstract>
           <LegendURL width="300" height="203">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.2TE48-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -169,8 +334,8 @@
           <Title>TOUS LES FRANCHISSEMENTS</Title>
           <Abstract>L&#233;gende securoute franchissements ALL</Abstract>
           <LegendURL width="300" height="224">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.ALL.GE-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -200,8 +365,8 @@
           <Title>AUTRES FRANCHISSEMENTS</Title>
           <Abstract>L&#233;gende securoute franchissements OA</Abstract>
           <LegendURL width="300" height="77">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.OA.GE-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -231,8 +396,8 @@
           <Title>FRANCHISSEMENTS PASSAGE A NIVEAU</Title>
           <Abstract>L&#233;gende securoute franchissements PN</Abstract>
           <LegendURL width="300" height="78">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PN.GE-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -262,8 +427,8 @@
           <Title>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Title>
           <Abstract>L&#233;gende securoute franchissements PND</Abstract>
           <LegendURL width="300" height="94">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PND.GE-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -293,8 +458,8 @@
           <Title>RESEAU ROUTIER TE120</Title>
           <Abstract>L&#233;gende securoute r&#233;seau routier TE120</Abstract>
           <LegendURL width="300" height="56">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE120-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -324,8 +489,8 @@
           <Title>RESEAU ROUTIER TE72</Title>
           <Abstract>L&#233;gende securoute r&#233;seau routier TE72</Abstract>
           <LegendURL width="300" height="153">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE72-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
@@ -355,12 +520,43 @@
           <Title>RESEAU ROUTIER TE94</Title>
           <Abstract>L&#233;gende securoute r&#233;seau routier TE94</Abstract>
           <LegendURL width="300" height="103">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE94-legend.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>TRANSPORTNETWORKS.ROADS.DIRECTION</Name>
+        <Title>Sens de circulation</Title>
+        <Abstract>Affichage des sens de circulation du r&#233;seau routier</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>17061.836670798</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>TRANSPORTS.DRONES.RESTRICTIONS</Name>
@@ -386,8 +582,8 @@
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
-            <Format />
-            <OnlineResource xlink:type="simple" xlink:href="" />
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>17061.836670798</MinScaleDenominator>

@@ -7,7 +7,6 @@
       <Keyword>WMS</Keyword>
       <Keyword>WMTS</Keyword>
       <Keyword>TMS</Keyword>
-      <Keyword>Docker</Keyword>
     </KeywordList>
     <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
     <ContactInformation>
@@ -82,7 +81,700 @@
       <Title>cache IGN</Title>
       <Abstract>Cache IGN</Abstract>
       <CRS>CRS:84</CRS>
+      <CRS>EPSG:2154</CRS>
+      <CRS>IGNF:LAMB93</CRS>
+      <CRS>EPSG:21781</CRS>
+      <CRS>EPSG:23030</CRS>
+      <CRS>EPSG:23031</CRS>
+      <CRS>EPSG:23032</CRS>
+      <CRS>EPSG:27561</CRS>
+      <CRS>IGNF:LAMB1</CRS>
+      <CRS>EPSG:27562</CRS>
+      <CRS>IGNF:LAMB2</CRS>
+      <CRS>EPSG:27563</CRS>
+      <CRS>IGNF:LAMB3</CRS>
+      <CRS>EPSG:27564</CRS>
+      <CRS>IGNF:LAMB4</CRS>
+      <CRS>EPSG:27571</CRS>
+      <CRS>IGNF:LAMB1C</CRS>
+      <CRS>EPSG:27572</CRS>
+      <CRS>IGNF:LAMB2C</CRS>
+      <CRS>IGNF:LAMBE</CRS>
+      <CRS>EPSG:27573</CRS>
+      <CRS>IGNF:LAMB3C</CRS>
+      <CRS>EPSG:27574</CRS>
+      <CRS>IGNF:LAMB4C</CRS>
+      <CRS>EPSG:27581</CRS>
+      <CRS>EPSG:27582</CRS>
+      <CRS>EPSG:27583</CRS>
+      <CRS>EPSG:27584</CRS>
+      <CRS>EPSG:27591</CRS>
+      <CRS>EPSG:27592</CRS>
+      <CRS>EPSG:27593</CRS>
+      <CRS>EPSG:27594</CRS>
+      <CRS>EPSG:2969</CRS>
+      <CRS>IGNF:GUADFM49U20</CRS>
+      <CRS>EPSG:2970</CRS>
+      <CRS>IGNF:GUAD48UTM20</CRS>
+      <CRS>EPSG:2971</CRS>
+      <CRS>IGNF:CSG67UTM22</CRS>
+      <CRS>EPSG:2972</CRS>
+      <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>EPSG:2973</CRS>
+      <CRS>IGNF:MART38UTM20</CRS>
+      <CRS>EPSG:2975</CRS>
+      <CRS>IGNF:RGR92UTM40S</CRS>
+      <CRS>EPSG:2976</CRS>
+      <CRS>IGNF:TAHI51UTM06S</CRS>
+      <CRS>EPSG:2977</CRS>
+      <CRS>EPSG:2978</CRS>
+      <CRS>EPSG:2980</CRS>
+      <CRS>IGNF:MAYO50UTM38S</CRS>
+      <CRS>EPSG:2981</CRS>
+      <CRS>EPSG:2987</CRS>
+      <CRS>IGNF:STPM50UTM21</CRS>
+      <CRS>EPSG:2988</CRS>
+      <CRS>IGNF:WALL78UTM1S</CRS>
+      <CRS>EPSG:2989</CRS>
+      <CRS>EPSG:2990</CRS>
+      <CRS>EPSG:3034</CRS>
+      <CRS>EPSG:3035</CRS>
+      <CRS>EPSG:3042</CRS>
+      <CRS>EPSG:3043</CRS>
+      <CRS>EPSG:3044</CRS>
+      <CRS>EPSG:3170</CRS>
+      <CRS>EPSG:3171</CRS>
+      <CRS>EPSG:3172</CRS>
+      <CRS>EPSG:32620</CRS>
+      <CRS>IGNF:UTM20W84MART</CRS>
+      <CRS>EPSG:32621</CRS>
+      <CRS>EPSG:32622</CRS>
+      <CRS>EPSG:32630</CRS>
+      <CRS>IGNF:UTM30W84</CRS>
+      <CRS>EPSG:32631</CRS>
+      <CRS>IGNF:UTM31W84</CRS>
+      <CRS>EPSG:32632</CRS>
+      <CRS>IGNF:UTM32W84</CRS>
+      <CRS>EPSG:32701</CRS>
+      <CRS>IGNF:UTM01SW84</CRS>
+      <CRS>EPSG:32705</CRS>
+      <CRS>EPSG:32706</CRS>
+      <CRS>EPSG:32707</CRS>
+      <CRS>EPSG:32738</CRS>
+      <CRS>EPSG:32739</CRS>
+      <CRS>IGNF:UTM39SW84</CRS>
+      <CRS>EPSG:32740</CRS>
+      <CRS>EPSG:3296</CRS>
+      <CRS>IGNF:RGPFUTM5S</CRS>
+      <CRS>EPSG:3297</CRS>
+      <CRS>IGNF:RGPFUTM6S</CRS>
+      <CRS>EPSG:3298</CRS>
+      <CRS>IGNF:RGPFUTM7S</CRS>
+      <CRS>EPSG:3302</CRS>
+      <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>EPSG:3303</CRS>
+      <CRS>EPSG:3304</CRS>
+      <CRS>IGNF:TAHI79UTM6S</CRS>
+      <CRS>EPSG:3305</CRS>
+      <CRS>EPSG:3306</CRS>
+      <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:3942</CRS>
+      <CRS>IGNF:RGF93CC42</CRS>
+      <CRS>EPSG:3943</CRS>
+      <CRS>IGNF:RGF93CC43</CRS>
+      <CRS>EPSG:3944</CRS>
+      <CRS>IGNF:RGF93CC44</CRS>
+      <CRS>EPSG:3945</CRS>
+      <CRS>IGNF:RGF93CC45</CRS>
+      <CRS>EPSG:3946</CRS>
+      <CRS>IGNF:RGF93CC46</CRS>
+      <CRS>EPSG:3947</CRS>
+      <CRS>IGNF:RGF93CC47</CRS>
+      <CRS>EPSG:3948</CRS>
+      <CRS>IGNF:RGF93CC48</CRS>
+      <CRS>EPSG:3949</CRS>
+      <CRS>IGNF:RGF93CC49</CRS>
+      <CRS>EPSG:3950</CRS>
+      <CRS>IGNF:RGF93CC50</CRS>
+      <CRS>EPSG:4171</CRS>
+      <CRS>IGNF:RGF93G</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4275</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:4463</CRS>
+      <CRS>EPSG:4467</CRS>
+      <CRS>IGNF:RGSPM06U21</CRS>
+      <CRS>EPSG:4470</CRS>
+      <CRS>EPSG:4471</CRS>
+      <CRS>IGNF:RGM04UTM38S</CRS>
+      <CRS>EPSG:4558</CRS>
+      <CRS>EPSG:4559</CRS>
+      <CRS>EPSG:4621</CRS>
+      <CRS>EPSG:4622</CRS>
+      <CRS>EPSG:4623</CRS>
+      <CRS>EPSG:4624</CRS>
+      <CRS>EPSG:4625</CRS>
+      <CRS>EPSG:4626</CRS>
+      <CRS>EPSG:4627</CRS>
+      <CRS>EPSG:4628</CRS>
+      <CRS>EPSG:4629</CRS>
+      <CRS>EPSG:4630</CRS>
+      <CRS>EPSG:4632</CRS>
+      <CRS>EPSG:4633</CRS>
+      <CRS>EPSG:4636</CRS>
+      <CRS>EPSG:4637</CRS>
+      <CRS>EPSG:4638</CRS>
+      <CRS>EPSG:4639</CRS>
+      <CRS>EPSG:4641</CRS>
+      <CRS>EPSG:4642</CRS>
+      <CRS>EPSG:4643</CRS>
+      <CRS>EPSG:4644</CRS>
+      <CRS>EPSG:4687</CRS>
+      <CRS>EPSG:4688</CRS>
+      <CRS>EPSG:4689</CRS>
+      <CRS>EPSG:4690</CRS>
+      <CRS>EPSG:4691</CRS>
+      <CRS>EPSG:4692</CRS>
+      <CRS>EPSG:4749</CRS>
+      <CRS>EPSG:4807</CRS>
+      <CRS>IGNF:CSG67GEO</CRS>
+      <CRS>IGNF:GUAD48GEO</CRS>
+      <CRS>IGNF:GUADFM49GEO</CRS>
+      <CRS>IGNF:MART38GEO</CRS>
+      <CRS>IGNF:MAYO50GEO</CRS>
+      <CRS>IGNF:REUN47GAUSSL</CRS>
+      <CRS>IGNF:REUN47GEO</CRS>
+      <CRS>IGNF:RGFG95GEO</CRS>
+      <CRS>IGNF:STPM50GEO</CRS>
+      <CRS>IGNF:WGS84G</CRS>
+      <Layer>
+        <Name>OCSGE.CONSTRUCTIONS</Name>
+        <Title>Occupation du sol grande &#233;chelle - zones construites</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG).</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.CONSTRUCTIONS.2011</Name>
+        <Title>Occupation du sol grande &#233;chelle 2011 - zones contruites</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2011</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.CONSTRUCTIONS.2016</Name>
+        <Title>Occupation du sol grande &#233;chelle 2016 - zones contruites</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.CONSTRUCTIONS.2017</Name>
+        <Title>Occupation du sol grande &#233;chelle 2017 - zones contruites</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.CONSTRUCTIONS.2019</Name>
+        <Title>Occupation du sol grande &#233;chelle 2019 - zones contruites</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2019</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.291052180</westBoundLongitude>
+          <eastBoundLongitude>1.212196410</eastBoundLongitude>
+          <southBoundLatitude>43.304347460</southBoundLatitude>
+          <northBoundLatitude>44.086448520</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.COUVERTURE</Name>
+        <Title>Occupation du sol grande &#233;chelle - couverture</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.COUVERTURE.2011</Name>
+        <Title>Occupation du sol grande &#233;chelle 2011 - couverture</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG)1 Source : IGN - 2016</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.COUVERTURE.2016</Name>
+        <Title>Occupation du sol grande &#233;chelle 2016 - couverture</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.COUVERTURE.2017</Name>
+        <Title>Occupation du sol grande &#233;chelle 2017 - couverture</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.COUVERTURE.2019</Name>
+        <Title>Occupation du sol grande &#233;chelle 2019 - couverture</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2019</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.291052180</westBoundLongitude>
+          <eastBoundLongitude>1.212196410</eastBoundLongitude>
+          <southBoundLatitude>43.304347460</southBoundLatitude>
+          <northBoundLatitude>44.086448520</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.USAGE</Name>
+        <Title>Occupation du sol grande &#233;chelle - usage</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG).</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.USAGE.2011</Name>
+        <Title>Occupation du sol grande &#233;chelle 2011 - usage</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2011</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.USAGE.2016</Name>
+        <Title>Occupation du sol grande &#233;chelle 2016 - usage</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.USAGE.2017</Name>
+        <Title>Occupation du sol grande &#233;chelle 2017 - usage</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.664384670</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>14.239534790</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.USAGE.2019</Name>
+        <Title>Occupation du sol grande &#233;chelle 2019 - usage</Title>
+        <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG) Source : IGN - 2019</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.291052180</westBoundLongitude>
+          <eastBoundLongitude>1.212196410</eastBoundLongitude>
+          <southBoundLatitude>43.304347460</southBoundLatitude>
+          <northBoundLatitude>44.086448520</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.VISU.2016</Name>
+        <Title>Visualisation OCSGE 2016</Title>
+        <Abstract>R&#233;sultat IA agglom&#233;r&#233; &#224; l'ortho 2016</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.318516760</westBoundLongitude>
+          <eastBoundLongitude>1.225751230</eastBoundLongitude>
+          <southBoundLatitude>43.281506810</southBoundLatitude>
+          <northBoundLatitude>44.054254240</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-35457.123532323" miny="5354918.685903204" maxx="136450.002762829" maxy="5473841.994255110" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>OCSGE.VISU.2019</Name>
+        <Title>Visualisation OCSGE 2019</Title>
+        <Abstract>R&#233;sultat IA agglom&#233;r&#233; &#224; l'ortho 2019</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.321663620</westBoundLongitude>
+          <eastBoundLongitude>1.225751230</eastBoundLongitude>
+          <southBoundLatitude>43.281506810</southBoundLatitude>
+          <northBoundLatitude>44.108240350</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-35807.430385121" miny="5354918.685903204" maxx="136450.002762829" maxy="5482207.934545177" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>
