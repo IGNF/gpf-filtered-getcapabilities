@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9095" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8988" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -6843,7 +6843,6 @@
       <CRS>EPSG:68186405</CRS>
       <CRS>EPSG:68206405</CRS>
       <CRS>EPSG:69036405</CRS>
-      <CRS>EPSG:404000</CRS>
       <CRS>EPSG:310486003</CRS>
       <CRS>EPSG:210006000</CRS>
       <CRS>EPSG:110599000</CRS>
@@ -7191,6 +7190,7 @@
       <CRS>EPSG:110642000</CRS>
       <CRS>EPSG:310547358</CRS>
       <CRS>EPSG:310547359</CRS>
+      <CRS>EPSG:404000</CRS>
       <CRS>CRS:84</CRS>
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
@@ -7214,7 +7214,7 @@
           <northBoundLatitude>49.32495008</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-3.84955064" miny="41.32091748" maxx="9.6540527" maxy="49.32495008" />
-        <BoundingBox CRS="EPSG:4326" minx="49.32495008" miny="9.6540527" maxx="41.32091748" maxy="-3.84955064" />
+        <BoundingBox CRS="EPSG:4326" minx="41.32091748" miny="-3.84955064" maxx="49.32495008" maxy="9.6540527" />
         <Attribution>
           <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
@@ -7248,7 +7248,7 @@
           <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-180.0" miny="-85.0" maxx="180.0" maxy="85.0" />
-        <BoundingBox CRS="EPSG:4326" minx="85.0" miny="180.0" maxx="-85.0" maxy="-180.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-85.0" miny="-180.0" maxx="85.0" maxy="180.0" />
         <Attribution>
           <Title>Centre d'&#233;tudes et d'expertise sur les risques, l'environnement, la mobilit&#233; et l'am&#233;nagement</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.cerema.fr/" />

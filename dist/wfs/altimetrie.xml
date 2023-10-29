@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6571">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="14584">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -322,8 +322,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.83678733 51.12086835</ows:LowerCorner>
-        <ows:UpperCorner>-63.15340092 -21.3896732</ows:UpperCorner>
+        <ows:LowerCorner>-63.15340092 -21.3896732</ows:LowerCorner>
+        <ows:UpperCorner>55.83678733 51.12086835</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -335,8 +335,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.84453236 51.12965159</ows:LowerCorner>
-        <ows:UpperCorner>-63.18904211 -21.42727734</ows:UpperCorner>
+        <ows:LowerCorner>-63.18904211 -21.42727734</ows:LowerCorner>
+        <ows:UpperCorner>55.84453236 51.12965159</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
   </FeatureTypeList>

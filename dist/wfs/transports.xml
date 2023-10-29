@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6444">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="14454">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -322,8 +322,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.582677 50.700964</ows:LowerCorner>
-        <ows:UpperCorner>-61.598904 -21.335064</ows:UpperCorner>
+        <ows:LowerCorner>-61.598904 -21.335064</ows:LowerCorner>
+        <ows:UpperCorner>55.582677 50.700964</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -335,8 +335,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.516342 50.687222</ows:LowerCorner>
-        <ows:UpperCorner>-61.525833 -21.321536</ows:UpperCorner>
+        <ows:LowerCorner>-61.525833 -21.321536</ows:LowerCorner>
+        <ows:UpperCorner>55.516342 50.687222</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -348,8 +348,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>7.551737 49.489555</ows:LowerCorner>
-        <ows:UpperCorner>-1.645795 43.365423</ows:UpperCorner>
+        <ows:LowerCorner>-1.645795 43.365423</ows:LowerCorner>
+        <ows:UpperCorner>7.551737 49.489555</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -361,8 +361,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>7.529222 49.454422</ows:LowerCorner>
-        <ows:UpperCorner>-1.607808 43.436634</ows:UpperCorner>
+        <ows:LowerCorner>-1.607808 43.436634</ows:LowerCorner>
+        <ows:UpperCorner>7.529222 49.454422</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -374,8 +374,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>167.455278 50.960933</ows:LowerCorner>
-        <ows:UpperCorner>-149.611389 -22.588611</ows:UpperCorner>
+        <ows:LowerCorner>-149.611389 -22.588611</ows:LowerCorner>
+        <ows:UpperCorner>167.455278 50.960933</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -387,8 +387,8 @@
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>10.70000198 51.09333213</ows:LowerCorner>
-        <ows:UpperCorner>-7.99999703 40.84341536</ows:UpperCorner>
+        <ows:LowerCorner>-7.99999703 40.84341536</ows:LowerCorner>
+        <ows:UpperCorner>10.70000198 51.09333213</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
   </FeatureTypeList>

@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9095" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="18109" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -6843,7 +6843,6 @@
       <CRS>EPSG:68186405</CRS>
       <CRS>EPSG:68206405</CRS>
       <CRS>EPSG:69036405</CRS>
-      <CRS>EPSG:404000</CRS>
       <CRS>EPSG:310486003</CRS>
       <CRS>EPSG:210006000</CRS>
       <CRS>EPSG:110599000</CRS>
@@ -7191,6 +7190,7 @@
       <CRS>EPSG:110642000</CRS>
       <CRS>EPSG:310547358</CRS>
       <CRS>EPSG:310547359</CRS>
+      <CRS>EPSG:404000</CRS>
       <CRS>CRS:84</CRS>
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
@@ -7214,7 +7214,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7248,7 +7248,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7282,7 +7282,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7316,7 +7316,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7350,7 +7350,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7384,7 +7384,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7418,7 +7418,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7452,7 +7452,7 @@
           <northBoundLatitude>51.31504801</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="51.31504801" miny="55.83677582" maxx="-21.38982666" maxy="-63.15371169" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -7486,7 +7486,7 @@
           <northBoundLatitude>51.08124592</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-151.8222" miny="-22.35110166" maxx="166.4950423" maxy="51.08124592" />
-        <BoundingBox CRS="EPSG:4326" minx="51.08124592" miny="166.4950423" maxx="-22.35110166" maxy="-151.8222" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.35110166" miny="-151.8222" maxx="51.08124592" maxy="166.4950423" />
         <Attribution>
           <Title>Teragir</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
@@ -7520,7 +7520,7 @@
           <northBoundLatitude>51.08124592</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-151.8222" miny="-22.35110166" maxx="166.4950423" maxy="51.08124592" />
-        <BoundingBox CRS="EPSG:4326" minx="51.08124592" miny="166.4950423" maxx="-22.35110166" maxy="-151.8222" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.35110166" miny="-151.8222" maxx="51.08124592" maxy="166.4950423" />
         <Attribution>
           <Title>Teragir</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
@@ -7554,7 +7554,7 @@
           <northBoundLatitude>50.57954435</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-54.04547932" miny="-21.89954632" maxx="166.02236972" maxy="50.57954435" />
-        <BoundingBox CRS="EPSG:4326" minx="50.57954435" miny="166.02236972" maxx="-21.89954632" maxy="-54.04547932" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.89954632" miny="-54.04547932" maxx="50.57954435" maxy="166.02236972" />
         <Attribution>
           <Title>Teragir</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
@@ -7588,7 +7588,7 @@
           <northBoundLatitude>51.08898944</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-61.8098218" miny="-21.38929713" maxx="55.83665387" maxy="51.08898944" />
-        <BoundingBox CRS="EPSG:4326" minx="51.08898944" miny="55.83665387" maxx="-21.38929713" maxy="-61.8098218" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38929713" miny="-61.8098218" maxx="51.08898944" maxy="55.83665387" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7622,7 +7622,7 @@
           <northBoundLatitude>51.08898944</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.1533205" miny="-21.3896307" maxx="55.8366539" maxy="51.08898944" />
-        <BoundingBox CRS="EPSG:4326" minx="51.08898944" miny="55.8366539" maxx="-21.3896307" maxy="-63.1533205" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.3896307" miny="-63.1533205" maxx="51.08898944" maxy="55.8366539" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7656,7 +7656,7 @@
           <northBoundLatitude>50.57954435</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-54.04547932" miny="-21.89954632" maxx="166.02236972" maxy="50.57954435" />
-        <BoundingBox CRS="EPSG:4326" minx="50.57954435" miny="166.02236972" maxx="-21.89954632" maxy="-54.04547932" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.89954632" miny="-54.04547932" maxx="50.57954435" maxy="166.02236972" />
         <Attribution>
           <Title>Teragir</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
