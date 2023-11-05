@@ -249,37 +249,6 @@
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
       <Layer queryable="1">
-        <Name>DREAL.ZONAGE_PINEL</Name>
-        <Title>Zonage du dispositif Pinel en Bretagne 2020-2021</Title>
-        <Abstract>La r&#233;duction d'imp&#244;t &#171; Pinel &#187; (code g&#233;n&#233;ral des imp&#244;ts) s'applique &#224; l&#8217;investissement locatif r&#233;alis&#233; dans les zones o&#249; la tension entre l'offre et la demande de logements est la plus forte.  La loi n&#176;2019-1479 du 28 d&#233;cembre 2019 de finances pour 2020, pr&#233;voit &#224; titre exp&#233;rimental, un dispositif d&#233;rogatoire au droit commun pour la Bretagne. Ainsi, les communes ou parties de communes &#233;ligibles &#224; la r&#233;duction d'imp&#244;t &#171; Pinel &#187; sont fix&#233;es par arr&#234;t&#233; du pr&#233;fet de r&#233;gion. Cet arr&#234;t&#233; est pris apr&#232;s avis du pr&#233;sident du conseil r&#233;gional et du comit&#233; r&#233;gional de l'habitat et de l'h&#233;bergement. Cet article pr&#233;voit &#233;galement que le pr&#233;fet de r&#233;gion fixe,  par arr&#234;t&#233;, les plafonds de loyer  et de ressources du locataire pour chaque commune ou partie de commune &#233;ligible et par type de logement.  L&#8217;une des particularit&#233;s de cette exp&#233;rimentation r&#233;side dans l&#8217;&#233;ligibilit&#233; du dispositif qui peut &#234;tre limit&#233;e &#224; une partie seulement du  territoire communal. Lorsqu&#8217;une commune n&#8217;est &#233;ligible que pour une partie de son territoire, deux approches sont distingu&#233;es, &#224; savoir &#224; la maille de  l&#8217;IRIS (correspondant &#224; un quartier) ou &#224; la maille du carreau de 200 m&#232;tres sur 200 m&#232;tres.</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150115790</westBoundLongitude>
-          <eastBoundLongitude>-1.006871860</eastBoundLongitude>
-          <southBoundLatitude>47.271904390</southBoundLatitude>
-          <northBoundLatitude>48.906431180</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573308.267269198" miny="5986569.272384557" maxx="-112084.462749276" maxy="6258999.610598410" />
-        <Attribution>
-          <Title>Direction de l'habitat, de l'urbanisme et des paysages (DHUP)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologique-solidaire.gouv.fr/direction-generale-lamenagement-du-logement-et-nature-dgaln#e0" />
-          <LogoURL width="69" height="91">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dhup.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE.SECRET</Name>
         <Title>Surface moyenne des logements (secret signal&#233;)</Title>
         <Abstract>Surface moyenne des logements (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>

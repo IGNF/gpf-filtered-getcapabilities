@@ -458,6 +458,33 @@
         <MaxScaleDenominator>365714.285714286</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>PCRS.LAMB93</Name>
+        <Title>PCRS</Title>
+        <Abstract>Donn&#233;es du Plan Corps de Rue Simplifi&#233;</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-3.741824000</westBoundLongitude>
+          <eastBoundLongitude>4.242277000</eastBoundLongitude>
+          <southBoundLatitude>42.644453000</southBoundLatitude>
+          <northBoundLatitude>50.991047000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:LAMB93" minx="147070.418460533" miny="6171643.448788497" maxx="802004.826680290" maxy="7119705.593484234" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Donn&#233;es Brutes</Title>
+          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>178.571428571</MinScaleDenominator>
+        <MaxScaleDenominator>11702857.142857142</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>THR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Photographies a&#233;riennes tr&#232;s haute r&#233;solution</Title>
         <Abstract>Orthophotographies a&#233;riennes d'une r&#233;solution de 10cm &#224; 5cm selon disponibilit&#233;.</Abstract>

@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="18109" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9047" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7200,6 +7200,40 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-85.0" maxx="190941.13506943" maxy="5429477.24045303" />
       <Layer queryable="1">
+        <Name>CADASTRALPARCELS.COMMUNES</Name>
+        <Title>Communes - BD PARCELLAIRE</Title>
+        <Abstract>Affichage des communes cadastrales (NB : les contours des communes de la BD TOPO&#174; et de la BD PARCELLAIRE&#174; ne sont pas exactement superposables ; en effet, l'origine de la donn&#233;e n'est pas la m&#234;me pour ces deux ba ses (uniquement cadastre, &#233;ventuellement ajust&#233;, pour la BD PARCELLAIRE&#174;). Donn&#233;e &#233;tablie d'apr&#232;s les plans cadastraux transmis par la DGFiP (Direction g&#233;n&#233;rale des Finances publiques).</Abstract>
+        <KeywordList>
+          <Keyword>Parcelles cadastrales</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.15313141</westBoundLongitude>
+          <eastBoundLongitude>55.83668585</eastBoundLongitude>
+          <southBoundLatitude>-21.38974728</southBoundLatitude>
+          <northBoundLatitude>51.0888974</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.15313141" miny="-21.38974728" maxx="55.83668585" maxy="51.0888974" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38974728" miny="-63.15313141" maxx="51.0888974" maxy="55.83668585" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-CADASTRALPARCELS.COMMUNES</Name>
+          <Title>CADASTRALPARCELS.COMMUNES style</Title>
+          <Abstract>Default style for CADASTRALPARCELS.COMMUNES layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=CADASTRALPARCELS.COMMUNES" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
         <Name>CADASTRALPARCELS.GRAPHE</Name>
         <Title>Graphe de mosa&#239;quage des parcelles cadastrales</Title>
         <Abstract>Graphe de mosa&#239;quage des parcelles cadastrales</Abstract>
@@ -7230,6 +7264,40 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=CADASTRALPARCELS.GRAPHE" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>CADASTRALPARCELS.SECTIONS</Name>
+        <Title>Sections cadastrales - BD PARCELLAIRE</Title>
+        <Abstract>Affichage des divisions cadastrales (partie du plan cadastral correspondant &#224; une section ou &#224; une subdivision de section). Donn&#233;e &#233;tablie d'apr&#232;s les plans cadastraux transmis par la DGFiP (Direction g&#233;n&#233;rale des Finances publiques).</Abstract>
+        <KeywordList>
+          <Keyword>Parcelles cadastrales</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.15313141</westBoundLongitude>
+          <eastBoundLongitude>55.83668585</eastBoundLongitude>
+          <southBoundLatitude>-21.38974728</southBoundLatitude>
+          <northBoundLatitude>51.0888974</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.15313141" miny="-21.38974728" maxx="55.83668585" maxy="51.0888974" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38974728" miny="-63.15313141" maxx="51.0888974" maxy="55.83668585" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-CADASTRALPARCELS.SECTIONS</Name>
+          <Title>CADASTRALPARCELS.SECTIONS style</Title>
+          <Abstract>Default style for CADASTRALPARCELS.SECTIONS layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=CADASTRALPARCELS.SECTIONS" />
           </LegendURL>
         </Style>
       </Layer>
