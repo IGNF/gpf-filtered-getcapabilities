@@ -351,6 +351,37 @@
         <MaxScaleDenominator>69885283.003589630</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
+        <Title>Plan IGN v2</Title>
+        <Abstract>Cartographie multi-&#233;chelles sur le territoire national, issue des bases de donn&#233;es vecteur de l&#8217;IGN, mis &#224; jour r&#233;guli&#232;rement et r&#233;alis&#233;e selon un processus enti&#232;rement automatis&#233;.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-175.000000000</westBoundLongitude>
+          <eastBoundLongitude>175.000000000</eastBoundLongitude>
+          <southBoundLatitude>-85.000000000</southBoundLatitude>
+          <northBoundLatitude>85.000000000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19480910.888822876" miny="-19971868.880408570" maxx="19480910.888822876" maxy="19971868.880408563" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
+          <Title>Donn&#233;es GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
+          <Abstract>Style et l&#233;gende associ&#233;s au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
+          <LegendURL width="300" height="6000">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V1</Name>
         <Title>Plan Terrier V1 (XVIIIe si&#232;cle)</Title>
         <Abstract>Plan Terrier, cartographie ancienne du XVIII&#232;me si&#232;cle sur la Corse</Abstract>

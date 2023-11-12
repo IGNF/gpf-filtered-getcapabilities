@@ -351,6 +351,38 @@
         <MaxScaleDenominator>39.236886161</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES.MNS</Name>
+        <Title>Mod&#232;le num&#233;rique de surface</Title>
+        <Abstract>Mod&#232;le num&#233;rique de surface (MNS)</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.196777590</westBoundLongitude>
+          <eastBoundLongitude>55.863926030</eastBoundLongitude>
+          <southBoundLatitude>-21.433778410</southBoundLatitude>
+          <northBoundLatitude>51.220046620</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="IGNF:WGS84G" minx="-63.196777590" miny="-21.433778410" maxx="55.863926030" maxy="51.220046620" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso</Name>
+          <Title>Teinte Hypsom&#233;trique</Title>
+          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>0.019158636</MinScaleDenominator>
+        <MaxScaleDenominator>156.947544643</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
         <Title>Estompage</Title>
         <Abstract>Couche d'ombrage calcul&#233;e &#224; partir des donn&#233;es altim&#233;triques de l'IGN permettant de mieux appr&#233;hender le relief. L'estompage propos&#233; est r&#233;alis&#233; &#224; partir des donn&#233;es MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45&#176;, l'autre z&#233;nithal.</Abstract>
@@ -739,23 +771,6 @@
           <northBoundLatitude>-12.627838530</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:RGM04UTM38S" minx="496994.997651344" miny="8561980.937878001" maxx="533048.799428520" maxy="8604019.629873119" />
-        <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
         <Style>
           <Name>normal</Name>
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
@@ -769,6 +784,15 @@
           <Name>hypso</Name>
           <Title>Teinte Hypsom&#233;trique</Title>
           <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

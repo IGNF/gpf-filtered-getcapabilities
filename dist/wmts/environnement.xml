@@ -1362,13 +1362,13 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Title>
+        <ows:Abstract>L&#233;gende CDL PARCELS</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.MNHN.CDL.PARCELS-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>

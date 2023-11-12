@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9047" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10513" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7199,6 +7199,40 @@
         <northBoundLatitude>5429477.24045303</northBoundLatitude>
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-85.0" maxx="190941.13506943" maxy="5429477.24045303" />
+      <Layer queryable="1">
+        <Name>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE</Name>
+        <Title>Graphe de mosa&#239;quage du produit SCAN25</Title>
+        <Abstract>Le graphe de mosa&#239;quage du produit SCAN25 fournit le zonage utilis&#233; pour la mise &#224; jour des donn&#233;es SCAN25 ainsi que diff&#233;rentes m&#233;tadonn&#233;es. 12-2022</Abstract>
+        <KeywordList>
+          <Keyword>Graphe</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.20573225</westBoundLongitude>
+          <eastBoundLongitude>55.83667602</eastBoundLongitude>
+          <southBoundLatitude>-21.38985327</southBoundLatitude>
+          <northBoundLatitude>51.08938762</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-178.20573225" miny="-21.38985327" maxx="55.83667602" maxy="51.08938762" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38985327" miny="-178.20573225" maxx="51.08938762" maxy="55.83667602" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE</Name>
+          <Title>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE style</Title>
+          <Abstract>Default style for GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE" />
+          </LegendURL>
+        </Style>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>

@@ -310,6 +310,37 @@
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
+      <Layer>
+        <Name>LANDCOVER.FORESTINVENTORY.V1</Name>
+        <Title>Carte foresti&#232;re v1 (1987-2004)</Title>
+        <Abstract>La cartographie foresti&#232;re est une base de donn&#233;es cartographique des formations v&#233;g&#233;tales foresti&#232;res et naturelles. Elle couvre l'ensemble du territoire de France m&#233;tropolitaine. Elle est r&#233;alis&#233;e par interpr&#233;tation de photographies a&#233;riennes infrarouges et affin&#233;e par des contr&#244;les sur le terrain (le seuil minimal de surface cartographi&#233;e est de 2,25 ha).</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
       <Layer queryable="1">
         <Name>LANDCOVER.FORESTINVENTORY.V2</Name>
         <Title>Carte foresti&#232;re (v2 : 2006-)</Title>
@@ -426,6 +457,37 @@
           <Name>normal</Name>
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>PROTECTEDAREAS.APLG</Name>
+        <Title>Arr&#234;t&#233;s listes de sites d'int&#233;r&#234;t g&#233;ologique</Title>
+        <Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>82.645006140</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Mus&#233;um national d'Histoire naturelle</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <LogoURL width="50" height="57">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

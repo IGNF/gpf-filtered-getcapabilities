@@ -201,6 +201,121 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>D&#233;nominations g&#233;ographiques</ows:Title>
+      <ows:Abstract>Affichage des noms des villes, villages, lieux-dits ...</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.9692 -21.4969</ows:LowerCorner>
+        <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>GEOGRAPHICALNAMES.NAMES</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
+        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>D&#233;faut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>13</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>26</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>53</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>107</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>215</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>330</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>430</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>660</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>861</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1320</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>1723</MinTileRow>
+            <MaxTileRow>4597</MaxTileRow>
+            <MinTileCol>2640</MinTileCol>
+            <MaxTileCol>5369</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>3447</MinTileRow>
+            <MaxTileRow>9194</MaxTileRow>
+            <MinTileCol>5280</MinTileCol>
+            <MaxTileCol>10739</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>6894</MinTileRow>
+            <MaxTileRow>18388</MaxTileRow>
+            <MinTileCol>10561</MinTileCol>
+            <MaxTileCol>21478</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>13789</MinTileRow>
+            <MaxTileRow>36776</MaxTileRow>
+            <MinTileCol>21122</MinTileCol>
+            <MaxTileCol>42956</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>27579</MinTileRow>
+            <MaxTileRow>73553</MaxTileRow>
+            <MinTileCol>42245</MinTileCol>
+            <MaxTileCol>85912</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>55159</MinTileRow>
+            <MaxTileRow>147106</MaxTileRow>
+            <MinTileCol>84491</MinTileCol>
+            <MaxTileCol>171824</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Hydrographie</ows:Title>
       <ows:Abstract>Affichage des lacs, r&#233;servoirs, rivi&#232;res et cours d'eau en France.</ows:Abstract>
       <ows:WGS84BoundingBox>

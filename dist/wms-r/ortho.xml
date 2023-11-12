@@ -365,6 +365,37 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC</Name>
+        <Title>BDORTHO en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO en infrarouge fausses couleurs </Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-62.971687500</westBoundLongitude>
+          <eastBoundLongitude>55.846431160</eastBoundLongitude>
+          <southBoundLatitude>-21.401263110</southBoundLatitude>
+          <northBoundLatitude>51.112418910</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7009976.186893151" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6641203.469178601" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2022</Name>
         <Title>ortho-express IRC 2022</Title>
         <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte</Abstract>

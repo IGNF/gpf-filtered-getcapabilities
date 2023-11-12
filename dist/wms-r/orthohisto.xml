@@ -249,6 +249,163 @@
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965</Name>
+        <Title>Photographies a&#233;riennes historiques 1950-1965</Title>
+        <Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 50, telle qu'elle se pr&#233;sentait avant les grands am&#233;nagements des ann&#233;es 60. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-67.721379750</westBoundLongitude>
+          <eastBoundLongitude>55.846431160</eastBoundLongitude>
+          <southBoundLatitude>-21.401263110</southBoundLatitude>
+          <northBoundLatitude>51.094486560</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7538709.509587908" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6638024.350314717" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>BDORTHOHISTORIQUE</Name>
+          <Title>BDOrthoHistorique</Title>
+          <Abstract>noir rendu transparent</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>BDORTHOHISTORIQUEEXTRACTION</Name>
+          <Title>Style BDOrthoHistorique pour l'extraction</Title>
+          <Abstract>nodata blanc</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2021</Name>
+        <Title>ortho-express IRC 2021</Title>
+        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2012</Name>
+        <Title>BDORTHO 2012 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2012 en infrarouge fausses couleurs</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>6.609395340</westBoundLongitude>
+          <eastBoundLongitude>7.743633720</eastBoundLongitude>
+          <southBoundLatitude>43.446468230</southBoundLatitude>
+          <northBoundLatitude>44.377016930</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="735754.523700235" miny="5380177.664728738" maxx="862017.362600023" maxy="5523973.006675048" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2013</Name>
+        <Title>BDORTHO 2013 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2013 en infrarouge fausses couleurs.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-3.748707740</westBoundLongitude>
+          <eastBoundLongitude>7.171324640</eastBoundLongitude>
+          <southBoundLatitude>42.553802210</southBoundLatitude>
+          <northBoundLatitude>50.376657860</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5244300.730764172" maxx="798308.207238056" maxy="6511763.688182168" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2014</Name>
+        <Title>BDORTHO 2014 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2014 en infrarouge fausses couleurs.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-2.371530170</westBoundLongitude>
+          <eastBoundLongitude>7.226373450</eastBoundLongitude>
+          <southBoundLatitude>43.150841060</southBoundLatitude>
+          <northBoundLatitude>49.634135010</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-263997.530925286" miny="5334959.650105711" maxx="804436.212736032" maxy="6383153.917052398" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2015</Name>
         <Title>BDORTHO 2015 en infrarouge fausses couleurs</Title>
         <Abstract>BDORTHO 2015 en infrarouge fausses couleurs.</Abstract>
@@ -311,16 +468,39 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2019</Name>
-        <Title>BDORTHO 2019 en infrarouge fausses couleurs</Title>
-        <Abstract>BDORTHO 2019 en infrarouge fausses couleurs.</Abstract>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2017</Name>
+        <Title>BDORTHO 2017 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2017 en infrarouge fausses couleurs.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-3.748707740</westBoundLongitude>
-          <eastBoundLongitude>9.663144430</eastBoundLongitude>
-          <southBoundLatitude>41.312510030</southBoundLatitude>
-          <northBoundLatitude>50.192847810</northBoundLatitude>
+          <westBoundLongitude>-0.185295160</westBoundLongitude>
+          <eastBoundLongitude>7.743633720</eastBoundLongitude>
+          <southBoundLatitude>42.945353760</southBoundLatitude>
+          <northBoundLatitude>46.413720930</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5058546.675730910" maxx="1075696.317409458" maxy="6479740.910954712" />
+        <BoundingBox CRS="EPSG:3857" minx="-20626.962857658" miny="5303657.827411008" maxx="862017.362600023" maxy="5846897.984100092" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2018</Name>
+        <Title>BDORTHO 2018 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2018 en infrarouge fausses couleurs.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.170169040</westBoundLongitude>
+          <eastBoundLongitude>8.257649630</eastBoundLongitude>
+          <southBoundLatitude>2.104028140</southBoundLatitude>
+          <northBoundLatitude>51.112419950</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" miny="234272.000543479" maxx="919237.351960864" maxy="6641203.653589740" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -342,9 +522,86 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2019</Name>
+        <Title>BDORTHO 2019 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2019 en infrarouge fausses couleurs.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-3.748707740</westBoundLongitude>
+          <eastBoundLongitude>9.663144430</eastBoundLongitude>
+          <southBoundLatitude>41.312510030</southBoundLatitude>
+          <northBoundLatitude>50.192847810</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5058546.675730910" maxx="1075696.317409458" maxy="6479740.910954712" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2020</Name>
+        <Title>BDORTHO 2020 en infrarouge fausses couleurs</Title>
+        <Abstract>BDORTHO 2020 en infrarouge fausses couleurs.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-2.681417980</westBoundLongitude>
+          <eastBoundLongitude>7.743633720</eastBoundLongitude>
+          <southBoundLatitude>42.945353760</southBoundLatitude>
+          <northBoundLatitude>49.451229810</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-298494.084137528" miny="5303657.827411008" maxx="862017.362600023" maxy="6351775.384708240" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2020</Name>
         <Title>ORTHO-ASP_PAC2020</Title>
         <Abstract>ortho ASP PAC 2020</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2021</Name>
+        <Title>ORTHO-ASP_PAC2021</Title>
+        <Abstract>ortho ASP PAC 2021</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.499994630</westBoundLongitude>
           <eastBoundLongitude>179.499994630</eastBoundLongitude>
@@ -401,6 +658,37 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2021</Name>
+        <Title>ortho-express 2021</Title>
+        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.499994630</westBoundLongitude>
+          <eastBoundLongitude>179.499994630</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740</southBoundLatitude>
+          <northBoundLatitude>74.999999740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
@@ -466,9 +754,388 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2000</Name>
+        <Title>Photographies a&#233;riennes 2000</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2000.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.247206170</westBoundLongitude>
+          <eastBoundLongitude>7.134969210</eastBoundLongitude>
+          <southBoundLatitude>14.372027640</southBoundLatitude>
+          <northBoundLatitude>49.019291550</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="1616933.193126378" maxx="794261.139282885" maxy="6278135.400576929" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2000-2005</Name>
+        <Title>Photographies a&#233;riennes 2000-2005</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles pour les ann&#233;es 2000 &#224; 2005</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2001</Name>
+        <Title>Photographies a&#233;riennes 2001</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2001.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.247206170</westBoundLongitude>
+          <eastBoundLongitude>7.232339570</eastBoundLongitude>
+          <southBoundLatitude>4.471530490</southBoundLatitude>
+          <northBoundLatitude>50.376480550</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="498274.560977948" maxx="805100.358176443" maxy="6511732.738125990" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2002</Name>
+        <Title>Photographies a&#233;riennes 2002</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2002</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.247206170</westBoundLongitude>
+          <eastBoundLongitude>9.688606350</eastBoundLongitude>
+          <southBoundLatitude>4.498668380</southBoundLatitude>
+          <northBoundLatitude>50.376480550</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="501304.816641120" maxx="1078530.725378477" maxy="6511732.738125990" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2003</Name>
+        <Title>Photographies a&#233;riennes 2003</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2003.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.247206170</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>50.376480550</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6511732.738125990" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2004</Name>
+        <Title>Photographies a&#233;riennes 2004</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2004.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2005</Name>
         <Title>Photographies a&#233;riennes 2005</Title>
         <Abstract> Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2005.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2006</Name>
+        <Title>Photographies a&#233;riennes 2006</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2006.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2006-2010</Name>
+        <Title>Photographies a&#233;riennes 2006-2010</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles pour les ann&#233;es 2006 &#224; 2010</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2007</Name>
+        <Title>Photographies a&#233;riennes 2007</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2007.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2008</Name>
+        <Title>Photographies a&#233;riennes 2008</Title>
+        <Abstract> Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2008.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2009</Name>
+        <Title>Photographies a&#233;riennes 2009</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2009.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2010</Name>
+        <Title>Photographies a&#233;riennes 2010</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2010.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2011</Name>
+        <Title>Photographies a&#233;riennes 2011</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2011.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187136620</westBoundLongitude>
           <eastBoundLongitude>55.856111130</eastBoundLongitude>
@@ -507,6 +1174,29 @@
           <northBoundLatitude>51.094486560</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2012</Name>
+        <Title>Photographies a&#233;riennes 2012</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2012.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -528,6 +1218,68 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2013</Name>
+        <Title>Photographies a&#233;riennes 2013</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2013.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.090964670</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2014</Name>
+        <Title>Photographies a&#233;riennes 2014</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2014.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.094486560</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2015</Name>
         <Title>Photographies a&#233;riennes 2015</Title>
         <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2015.</Abstract>
@@ -538,6 +1290,68 @@
           <northBoundLatitude>51.094486560</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2016</Name>
+        <Title>Photographies a&#233;riennes 2016</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2016 (travail en cours).</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-178.187136620</westBoundLongitude>
+          <eastBoundLongitude>55.856111130</eastBoundLongitude>
+          <southBoundLatitude>-21.401329450</southBoundLatitude>
+          <northBoundLatitude>51.094486560</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2017</Name>
+        <Title>Photographies a&#233;riennes 2017</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2017</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.160706980</westBoundLongitude>
+          <eastBoundLongitude>55.846431160</eastBoundLongitude>
+          <southBoundLatitude>-21.401263110</southBoundLatitude>
+          <northBoundLatitude>50.385634440</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031017.739156759" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6513330.731579560" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
@@ -590,6 +1404,29 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2019</Name>
+        <Title>Photographies a&#233;riennes 2019</Title>
+        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2019</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-3.748707740</westBoundLongitude>
+          <eastBoundLongitude>9.663144430</eastBoundLongitude>
+          <southBoundLatitude>41.312510030</southBoundLatitude>
+          <northBoundLatitude>50.192847810</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5058546.675730910" maxx="1075696.317409458" maxy="6479740.910954712" />
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2020</Name>
         <Title>Photographies a&#233;riennes 2020</Title>
         <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2020</Abstract>
@@ -600,14 +1437,6 @@
           <northBoundLatitude>49.451229810</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-298494.084137528" miny="5303657.827411008" maxx="862017.362600023" maxy="6351775.384708240" />
-        <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
         <Style>
           <Name>normal</Name>
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
