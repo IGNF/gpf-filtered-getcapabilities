@@ -15,7 +15,6 @@ SERVICES_GETCAP_URLS = {
 def register_all_namespaces(filename):
     for _, node in ET.iterparse(filename, events=['start-ns']):
       if node[0] == 'wfs':
-        print("zizi")
         continue
       namespaces[node[0]] = node[1]
     for ns in namespaces:
