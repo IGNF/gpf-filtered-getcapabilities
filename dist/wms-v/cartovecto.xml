@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="18150" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10698" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7195,10 +7195,10 @@
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
         <eastBoundLongitude>190941.13506943</eastBoundLongitude>
-        <southBoundLatitude>-85.0</southBoundLatitude>
+        <southBoundLatitude>-90.0</southBoundLatitude>
         <northBoundLatitude>5429477.24045303</northBoundLatitude>
       </EX_GeographicBoundingBox>
-      <BoundingBox CRS="CRS:84" minx="-180.0" miny="-85.0" maxx="190941.13506943" maxy="5429477.24045303" />
+      <BoundingBox CRS="CRS:84" minx="-180.0" miny="-90.0" maxx="190941.13506943" maxy="5429477.24045303" />
       <Layer queryable="1">
         <Name>BDCARTO-ADMINISTRATIF_WLD_WGS84G</Name>
         <Title>bdcarto v5 administratif</Title>
