@@ -249,76 +249,14 @@
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
       <Layer queryable="1">
-        <Name>CADASTRALPARCELS.HEATMAP</Name>
-        <Title>D&#233;calage de la repr&#233;sentation cadastrale</Title>
-        <Abstract>Cartographie des d&#233;calages entre les donn&#233;es BD Parcellaire et Parcellaire Express</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
-        <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>DECALAGE DE LA REPRESENTATION CADASTRALE</Name>
-          <Title>DECALAGE DE LA REPRESENTATION CADASTRALE</Title>
-          <Abstract>L&#233;gende du d&#233;calage de la repr&#233;sentation cadastrale</Abstract>
-          <LegendURL width="300" height="140">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/CADASTRALPARCELS.HEATMAP-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>CADASTRALPARCELS.HISTO.2008-2013.PARCELS</Name>
-        <Title>Parcelles cadastrales historiques (2008-2013)</Title>
-        <Abstract>Limites des parcelles cadastrales historiques (2008-2013) issues de plans scann&#233;s et de plans num&#233;riques.</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.160706980</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.392229740</southBoundLatitude>
-          <northBoundLatitude>51.094486960</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031017.739156759" miny="-2438709.718419599" maxx="6216796.279352807" maxy="6638024.421214566" />
-        <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>533.182395962</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</Name>
         <Title>PCI vecteur</Title>
         <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
