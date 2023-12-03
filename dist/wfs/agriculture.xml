@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6821">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6433">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -367,48 +367,9 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>RPG.2014:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2014</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2014</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Agriculture</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07512792</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>RPG.2015:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2015</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2015</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Agriculture</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>RPG.2015:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2015</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2015</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Agriculture</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>RPG.2016:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2016</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2016</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -432,19 +393,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>RPG.2017:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2017</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2017</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Agriculture</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>RPG.2017:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2017</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2017</Abstract>
@@ -454,19 +402,6 @@
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>RPG.2018:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2018</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2018</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Usage des sols</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.08613261 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
@@ -484,19 +419,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>RPG.2019:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2019</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2019</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Usages des sols</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.07282825 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>RPG.2019:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2019</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2019</Abstract>
@@ -507,19 +429,6 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.07282825 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>RPG.2020:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2020</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2020.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Usages des sols</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -536,35 +445,9 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>RPG.2021:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) 2021</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Usages des sols</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>RPG.2021:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2021</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Usages des sols</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
-        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>RPG.LATEST:ilots_anonymes</Name>
-      <Title>Registre parcellaire graphique (RPG) Latest</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants Latest</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>

@@ -248,6 +248,68 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <Layer queryable="1">
+        <Name>BDCARTO_ETAT-MAJOR.NIVEAU3</Name>
+        <Title>BD CARTO Etat-major N3</Title>
+        <Abstract>BDCARTO ETAT-MAJOR NIVEAU 3</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150115790</westBoundLongitude>
+          <eastBoundLongitude>7.193835250</eastBoundLongitude>
+          <southBoundLatitude>42.642334820</southBoundLatitude>
+          <northBoundLatitude>51.093800740</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573308.267269198" miny="5257689.049214724" maxx="800814.076880702" maxy="6637902.789877408" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>BDCARTO_ETAT-MAJOR3</Name>
+          <Title>L&#233;gende du 1/1000000</Title>
+          <Abstract>L&#233;gende associ&#233;e a BDCARTO ETAT-MAJOR NIVEAU3</Abstract>
+          <LegendURL width="300" height="2200">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>BDCARTO_ETAT-MAJOR.NIVEAU4</Name>
+        <Title>BD CARTO Etat-major N4</Title>
+        <Abstract>BDCARTO ETAT-MAJOR NIVEAU 4</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.150472720</westBoundLongitude>
+          <eastBoundLongitude>9.570543240</eastBoundLongitude>
+          <southBoundLatitude>41.325209640</southBoundLatitude>
+          <northBoundLatitude>51.099054180</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>BDCARTO_ETAT-MAJOR4</Name>
+          <Title>L&#233;gende du 1/1000000</Title>
+          <Abstract>L&#233;gende associ&#233;e a BDCARTO ETAT-MAJOR NIVEAU4</Abstract>
+          <LegendURL width="300" height="2200">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR.NIVEAU4-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>
