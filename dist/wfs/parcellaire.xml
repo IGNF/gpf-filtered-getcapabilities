@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6433">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6886">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -393,24 +393,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:arrondissement</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
-        <ows:UpperCorner>55.83668587 51.0888974</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:batiment</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Arrondissements</Title>
+      <Abstract>Arrondissements juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -419,11 +403,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_limite_propriete</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Bornes de limite de propri&#233;t&#233;</Title>
+      <Abstract>Bornes de limite de propri&#233;t&#233; juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -431,12 +412,9 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_parcelle</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:batiment</Name>
+      <Title>PCI Vecteur : B&#226;timents</Title>
+      <Abstract>B&#226;timents juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -445,11 +423,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:commune</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Communes</Title>
+      <Abstract>Communes juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -458,11 +433,18 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:feuille</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Feuilles</Title>
+      <Abstract>Feuilles juillet 2023</Abstract>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
+        <ows:UpperCorner>55.83668587 51.0888974</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_parcelle</Name>
+      <Title>PCI Vecteur : Lien bornes parcelles</Title>
+      <Abstract>Lien bornes parcelles juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -471,11 +453,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:localisant</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Localisants</Title>
+      <Abstract>Localisants juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -484,11 +463,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Parcelles</Title>
+      <Abstract>Parcelles juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>
@@ -497,11 +473,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:subdivision_fiscale</Name>
-      <Title>PCI vecteur</Title>
-      <Abstract>Plan cadastral informatis&#233; vecteur de la DGFIP &#233;dition 01-2023.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Parcelles cadastrales</ows:Keyword>
-      </ows:Keywords>
+      <Title>PCI Vecteur : Subdivisions fiscales</Title>
+      <Abstract>Subdivisions fiscales juillet 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>

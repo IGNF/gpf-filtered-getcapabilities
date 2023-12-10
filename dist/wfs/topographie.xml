@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6431">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6886">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -315,8 +315,8 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>BDTOPO_V3:arrondissement</Name>
-      <Title>Arrondissements</Title>
-      <Abstract>Arrondissements &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Arrondissements</Title>
+      <Abstract>Arrondissements &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -329,8 +329,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:arrondissement_municipal</Name>
-      <Title>Arrondissements municipaux</Title>
-      <Abstract>Arrondissements municipaux &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Arrondissements municipaux</Title>
+      <Abstract>Arrondissements municipaux &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement_municipal</ows:Keyword>
@@ -343,8 +343,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:itineraire_autre</Name>
-      <Title>Autres itin&#233;raires</Title>
-      <Abstract>Autres itin&#233;raires &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Autres itin&#233;raires</Title>
+      <Abstract>Autres itin&#233;raires &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>itineraire_autre</ows:Keyword>
@@ -357,8 +357,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:aerodrome</Name>
-      <Title>A&#233;rodromes</Title>
-      <Abstract>A&#233;rodromes &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : A&#233;rodromes</Title>
+      <Abstract>A&#233;rodromes &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>aerodrome</ows:Keyword>
@@ -371,8 +371,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:bassin_versant_topographique</Name>
-      <Title>Bassins versants topographiques</Title>
-      <Abstract>Bassins versants topographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Bassins versants topographiques</Title>
+      <Abstract>Bassins versants topographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>bassin_versant_topographique</ows:Keyword>
@@ -385,8 +385,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:batiment</Name>
-      <Title>B&#226;timents</Title>
-      <Abstract>B&#226;timents &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : B&#226;timents</Title>
+      <Abstract>B&#226;timents &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment</ows:Keyword>
@@ -399,8 +399,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:canalisation</Name>
-      <Title>Canalisations</Title>
-      <Abstract>Canalisations &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Canalisations</Title>
+      <Abstract>Canalisations &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canalisation</ows:Keyword>
@@ -413,8 +413,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:cimetiere</Name>
-      <Title>Cimeti&#232;res</Title>
-      <Abstract>Cimeti&#232;res &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Cimeti&#232;res</Title>
+      <Abstract>Cimeti&#232;res &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cimetiere</ows:Keyword>
@@ -427,8 +427,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:collectivite_territoriale</Name>
-      <Title>Collectivit&#233;s territoriales</Title>
-      <Abstract>Collectivit&#233;s territoriales &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Collectivit&#233;s territoriales</Title>
+      <Abstract>Collectivit&#233;s territoriales &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>collectivite_territoriale</ows:Keyword>
@@ -441,8 +441,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:commune</Name>
-      <Title>Communes</Title>
-      <Abstract>Communes &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Communes</Title>
+      <Abstract>Communes &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -455,8 +455,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:condominium</Name>
-      <Title>Condominiums</Title>
-      <Abstract>Condominiums &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Condominiums</Title>
+      <Abstract>Condominiums &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>condominium</ows:Keyword>
@@ -469,8 +469,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_lineaire</Name>
-      <Title>Constructions lin&#233;aires</Title>
-      <Abstract>Constructions lin&#233;aires &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Constructions lin&#233;aires</Title>
+      <Abstract>Constructions lin&#233;aires &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_lineaire</ows:Keyword>
@@ -483,8 +483,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_ponctuelle</Name>
-      <Title>Constructions ponctuelles</Title>
-      <Abstract>Constructions ponctuelles &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Constructions ponctuelles</Title>
+      <Abstract>Constructions ponctuelles &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_ponctuelle</ows:Keyword>
@@ -497,8 +497,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_surfacique</Name>
-      <Title>Constructions surfaciques</Title>
-      <Abstract>Constructions surfaciques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Constructions surfaciques</Title>
+      <Abstract>Constructions surfaciques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_surfacique</ows:Keyword>
@@ -511,8 +511,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:cours_d_eau</Name>
-      <Title>Cours d'eau</Title>
-      <Abstract>Cours d'eau &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Cours d'eau</Title>
+      <Abstract>Cours d'eau &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cours_d_eau</ows:Keyword>
@@ -525,8 +525,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:departement</Name>
-      <Title>D&#233;partements</Title>
-      <Abstract>D&#233;partements &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : D&#233;partements</Title>
+      <Abstract>D&#233;partements &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>departement</ows:Keyword>
@@ -539,8 +539,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:detail_hydrographique</Name>
-      <Title>D&#233;tails hydrographiques</Title>
-      <Abstract>D&#233;tails hydrographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : D&#233;tails hydrographiques</Title>
+      <Abstract>D&#233;tails hydrographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_hydrographique</ows:Keyword>
@@ -553,8 +553,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:detail_orographique</Name>
-      <Title>D&#233;tails orographiques</Title>
-      <Abstract>D&#233;tails orographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : D&#233;tails orographiques</Title>
+      <Abstract>D&#233;tails orographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_orographique</ows:Keyword>
@@ -567,8 +567,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:epci</Name>
-      <Title>EPCI</Title>
-      <Abstract>EPCI &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : EPCI</Title>
+      <Abstract>EPCI &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>epci</ows:Keyword>
@@ -581,8 +581,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:erp</Name>
-      <Title>ERP</Title>
-      <Abstract>ERP &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : ERP</Title>
+      <Abstract>ERP &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>erp</ows:Keyword>
@@ -595,8 +595,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:foret_publique</Name>
-      <Title>For&#234;ts publiques</Title>
-      <Abstract>For&#234;ts publiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : For&#234;ts publiques</Title>
+      <Abstract>For&#234;ts publiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>foret_publique</ows:Keyword>
@@ -609,8 +609,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:haie</Name>
-      <Title>Haies</Title>
-      <Abstract>Haies &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Haies</Title>
+      <Abstract>Haies &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>haie</ows:Keyword>
@@ -623,8 +623,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:lieu_dit_non_habite</Name>
-      <Title>Lieux-dits non habit&#233;s</Title>
-      <Abstract>Lieux-dits non habit&#233;s &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Lieux-dits non habit&#233;s</Title>
+      <Abstract>Lieux-dits non habit&#233;s &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lieu_dit_non_habite</ows:Keyword>
@@ -637,8 +637,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:ligne_orographique</Name>
-      <Title>Lignes orographiques</Title>
-      <Abstract>Lignes orographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Lignes orographiques</Title>
+      <Abstract>Lignes orographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_orographique</ows:Keyword>
@@ -651,8 +651,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:ligne_electrique</Name>
-      <Title>Lignes &#233;lectriques</Title>
-      <Abstract>Lignes &#233;lectriques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Lignes &#233;lectriques</Title>
+      <Abstract>Lignes &#233;lectriques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_electrique</ows:Keyword>
@@ -665,8 +665,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:limite_terre_mer</Name>
-      <Title>Limites terre-mer</Title>
-      <Abstract>Limites terre-mer &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Limites terre-mer</Title>
+      <Abstract>Limites terre-mer &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>limite_terre_mer</ows:Keyword>
@@ -679,8 +679,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:non_communication</Name>
-      <Title>Non-communications</Title>
-      <Abstract>Non-communications &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Non-communications</Title>
+      <Abstract>Non-communications &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>non_communication</ows:Keyword>
@@ -693,8 +693,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:noeud_hydrographique</Name>
-      <Title>N&#339;uds hydrographiques</Title>
-      <Abstract>N&#339;uds hydrographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : N&#339;uds hydrographiques</Title>
+      <Abstract>N&#339;uds hydrographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>noeud_hydrographique</ows:Keyword>
@@ -707,8 +707,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:parc_ou_reserve</Name>
-      <Title>Parcs et r&#233;serves</Title>
-      <Abstract>Parcs et r&#233;serves &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Parcs et r&#233;serves</Title>
+      <Abstract>Parcs et r&#233;serves &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>parc_ou_reserve</ows:Keyword>
@@ -721,8 +721,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:piste_d_aerodrome</Name>
-      <Title>Pistes d'a&#233;rodrome</Title>
-      <Abstract>Pistes d'a&#233;rodrome &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Pistes d'a&#233;rodrome</Title>
+      <Abstract>Pistes d'a&#233;rodrome &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>piste_d_aerodrome</ows:Keyword>
@@ -735,8 +735,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:plan_d_eau</Name>
-      <Title>Plans d'eau</Title>
-      <Abstract>Plans d'eau &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Plans d'eau</Title>
+      <Abstract>Plans d'eau &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>plan_d_eau</ows:Keyword>
@@ -749,8 +749,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:point_de_repere</Name>
-      <Title>Points de rep&#232;re</Title>
-      <Abstract>Points de rep&#232;re &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Points de rep&#232;re</Title>
+      <Abstract>Points de rep&#232;re &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_de_repere</ows:Keyword>
@@ -763,8 +763,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:point_du_reseau</Name>
-      <Title>Points de r&#233;seau</Title>
-      <Abstract>Points de r&#233;seau &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Points de r&#233;seau</Title>
+      <Abstract>Points de r&#233;seau &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_du_reseau</ows:Keyword>
@@ -777,8 +777,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:poste_de_transformation</Name>
-      <Title>Postes de transformation</Title>
-      <Abstract>Postes de transformation &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Postes de transformation</Title>
+      <Abstract>Postes de transformation &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>poste_de_transformation</ows:Keyword>
@@ -791,8 +791,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:pylone</Name>
-      <Title>Pyl&#244;nes</Title>
-      <Abstract>Pyl&#244;nes &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Pyl&#244;nes</Title>
+      <Abstract>Pyl&#244;nes &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>pylone</ows:Keyword>
@@ -805,8 +805,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:route_numerotee_ou_nommee</Name>
-      <Title>Routes num&#233;rot&#233;es et routes nomm&#233;es</Title>
-      <Abstract>Routes num&#233;rot&#233;es et routes nomm&#233;es &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Routes num&#233;rot&#233;es et routes nomm&#233;es</Title>
+      <Abstract>Routes num&#233;rot&#233;es et routes nomm&#233;es &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>route_numerotee_ou_nommee</ows:Keyword>
@@ -819,8 +819,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:region</Name>
-      <Title>R&#233;gions</Title>
-      <Abstract>R&#233;gions &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : R&#233;gions</Title>
+      <Abstract>R&#233;gions &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>region</ows:Keyword>
@@ -833,8 +833,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:reservoir</Name>
-      <Title>R&#233;servoirs</Title>
-      <Abstract>R&#233;servoirs &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : R&#233;servoirs</Title>
+      <Abstract>R&#233;servoirs &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>reservoir</ows:Keyword>
@@ -847,8 +847,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:section_de_points_de_repere</Name>
-      <Title>Sections de points de rep&#232;re</Title>
-      <Abstract>Sections de points de rep&#232;re &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Sections de points de rep&#232;re</Title>
+      <Abstract>Sections de points de rep&#232;re &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>section_de_points_de_repere</ows:Keyword>
@@ -861,8 +861,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:surface_hydrographique</Name>
-      <Title>Surfaces hydrographiques</Title>
-      <Abstract>Surfaces hydrographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Surfaces hydrographiques</Title>
+      <Abstract>Surfaces hydrographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>surface_hydrographique</ows:Keyword>
@@ -875,8 +875,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:terrain_de_sport</Name>
-      <Title>Terrains de sport</Title>
-      <Abstract>Terrains de sport &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Terrains de sport</Title>
+      <Abstract>Terrains de sport &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>terrain_de_sport</ows:Keyword>
@@ -889,8 +889,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_hydrographie</Name>
-      <Title>Toponymies d'hydrographie</Title>
-      <Abstract>Toponymies d'hydrographie &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies d'hydrographie</Title>
+      <Abstract>Toponymies d'hydrographie &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_hydrographie</ows:Keyword>
@@ -903,8 +903,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_bati</Name>
-      <Title>Toponymies de b&#226;ti</Title>
-      <Abstract>Toponymies de b&#226;ti &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies de b&#226;ti</Title>
+      <Abstract>Toponymies de b&#226;ti &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_bati</ows:Keyword>
@@ -917,8 +917,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_lieux_nommes</Name>
-      <Title>Toponymies de lieux nomm&#233;s</Title>
-      <Abstract>Toponymies de lieux nomm&#233;s &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies de lieux nomm&#233;s</Title>
+      <Abstract>Toponymies de lieux nomm&#233;s &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_lieux_nommes</ows:Keyword>
@@ -931,8 +931,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_services_et_activites</Name>
-      <Title>Toponymies des services et activit&#233;s</Title>
-      <Abstract>Toponymies des services et activit&#233;s &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies des services et activit&#233;s</Title>
+      <Abstract>Toponymies des services et activit&#233;s &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_services_et_activites</ows:Keyword>
@@ -945,8 +945,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_transport</Name>
-      <Title>Toponymies des transports</Title>
-      <Abstract>Toponymies des transports &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies des transports</Title>
+      <Abstract>Toponymies des transports &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_transport</ows:Keyword>
@@ -959,8 +959,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie_zones_reglementees</Name>
-      <Title>Toponymies des zones r&#233;glement&#233;es</Title>
-      <Abstract>Toponymies des zones r&#233;glement&#233;es &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Toponymies des zones r&#233;glement&#233;es</Title>
+      <Abstract>Toponymies des zones r&#233;glement&#233;es &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie_zones_reglementees</ows:Keyword>
@@ -973,8 +973,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:transport_par_cable</Name>
-      <Title>Transports par c&#226;ble</Title>
-      <Abstract>Transports par c&#226;ble &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Transports par c&#226;ble</Title>
+      <Abstract>Transports par c&#226;ble &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>transport_par_cable</ows:Keyword>
@@ -987,8 +987,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_route</Name>
-      <Title>Tron&#231;ons de route</Title>
-      <Abstract>Tron&#231;ons de route &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Tron&#231;ons de route</Title>
+      <Abstract>Tron&#231;ons de route &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_route</ows:Keyword>
@@ -1001,8 +1001,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_voie_ferree</Name>
-      <Title>Tron&#231;ons de voie ferr&#233;e</Title>
-      <Abstract>Tron&#231;ons de voie ferr&#233;e &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Tron&#231;ons de voie ferr&#233;e</Title>
+      <Abstract>Tron&#231;ons de voie ferr&#233;e &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_voie_ferree</ows:Keyword>
@@ -1015,8 +1015,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_hydrographique</Name>
-      <Title>Tron&#231;ons hydrographiques</Title>
-      <Abstract>Tron&#231;ons hydrographiques &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Tron&#231;ons hydrographiques</Title>
+      <Abstract>Tron&#231;ons hydrographiques &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_hydrographique</ows:Keyword>
@@ -1029,8 +1029,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:voie_ferree_nommee</Name>
-      <Title>Voies ferr&#233;es nomm&#233;es</Title>
-      <Abstract>Voies ferr&#233;es nomm&#233;es &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Voies ferr&#233;es nomm&#233;es</Title>
+      <Abstract>Voies ferr&#233;es nomm&#233;es &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_ferree_nommee</ows:Keyword>
@@ -1043,8 +1043,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:voie_nommee</Name>
-      <Title>Voies nomm&#233;es</Title>
-      <Abstract>Voies nomm&#233;es &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Voies nomm&#233;es</Title>
+      <Abstract>Voies nomm&#233;es &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_nommee</ows:Keyword>
@@ -1057,8 +1057,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_activite_ou_d_interet</Name>
-      <Title>Zones d'activit&#233; et zones d'int&#233;r&#234;t</Title>
-      <Abstract>Zones d'activit&#233; et zones d'int&#233;r&#234;t &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Zones d'activit&#233; et zones d'int&#233;r&#234;t</Title>
+      <Abstract>Zones d'activit&#233; et zones d'int&#233;r&#234;t &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_activite_ou_d_interet</ows:Keyword>
@@ -1071,8 +1071,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_estran</Name>
-      <Title>Zones d'estran</Title>
-      <Abstract>Zones d'estran &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Zones d'estran</Title>
+      <Abstract>Zones d'estran &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_estran</ows:Keyword>
@@ -1085,8 +1085,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_habitation</Name>
-      <Title>Zones d'habitation</Title>
-      <Abstract>Zones d'habitation &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Zones d'habitation</Title>
+      <Abstract>Zones d'habitation &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_habitation</ows:Keyword>
@@ -1099,8 +1099,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_de_vegetation</Name>
-      <Title>Zones de v&#233;g&#233;tation</Title>
-      <Abstract>Zones de v&#233;g&#233;tation &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : Zones de v&#233;g&#233;tation</Title>
+      <Abstract>Zones de v&#233;g&#233;tation &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_de_vegetation</ows:Keyword>
@@ -1113,8 +1113,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:equipement_de_transport</Name>
-      <Title>&#201;quipements de transport</Title>
-      <Abstract>&#201;quipements de transport &#8722; BDTOPO &#233;dition de juin 2023</Abstract>
+      <Title>BDTOPO : &#201;quipements de transport</Title>
+      <Abstract>&#201;quipements de transport &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>equipement_de_transport</ows:Keyword>

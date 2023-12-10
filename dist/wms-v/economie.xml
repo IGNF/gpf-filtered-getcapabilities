@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10796" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="14988" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7468,6 +7468,40 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=INSEE.FILOSOFI.PART.INDIVIDUS.55.64.ANS.SECRET" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET</Name>
+        <Title>% de logements construits apr&#232;s 1990 (secret signal&#233;)</Title>
+        <Abstract>Part des logements construits apr&#232;s 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <KeywordList>
+          <Keyword>Statistiques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.23455255</westBoundLongitude>
+          <eastBoundLongitude>55.83464666</eastBoundLongitude>
+          <southBoundLatitude>-21.39086462</southBoundLatitude>
+          <northBoundLatitude>51.08790768</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <Attribution>
+          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET</Name>
+          <Title>INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET style</Title>
+          <Abstract>Default style for INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET" />
           </LegendURL>
         </Style>
       </Layer>
