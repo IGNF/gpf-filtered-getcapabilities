@@ -24,7 +24,7 @@ def getCapabilities(url):
   response = requests.get(url)
   if response.status_code != 200:
     return False
-  
+
   with open("originalCapa.xml", "w") as file:
     file.writelines(response.text)
 
@@ -32,6 +32,41 @@ def getCapabilities(url):
   capabilities = ET.parse("originalCapa.xml")
   os.remove("originalCapa.xml")
   return capabilities
+
+def createKeyServiceLayersFile(
+  url="https://geoservices.ign.fr/sites/default/files/2023-11/Ressources_de_services_web_2023-11-22.csv",
+  filePath="resources_by_key.csv"):
+  with requests.Session() as s:
+    download = s.get(url)
+    decoded_content = download.content.decode("latin1")
+    reader = csv.DictReader(decoded_content.splitlines(), delimiter=";")
+  with open(filePath, "w", newline='') as csvFile:
+    fieldnames = ["service", "key", "layer"]
+    writer = csv.DictWriter(csvFile, fieldnames=fieldnames, lineterminator='\n')
+    writer.writeheader()
+    for row in reader:
+      if row["Service"] == "WMTS":
+        service = "wmts"
+      elif row["Service"] == "WMS Raster":
+        service = "wms-r"
+      elif row["Service"] == "WMS Vecteur":
+        service = "wms-v"
+      elif row["Service"] == "WFS":
+        service = "wfs"
+      else:
+        continue
+
+      if row["Nom_Cle_Partagee"] == "cle personnelle *":
+        continue
+
+      newRow = {
+        "service": service,
+        "key": row["Nom_Cle_Partagee"],
+        "layer": row["Nom technique"]
+      }
+      writer.writerow(newRow)
+
+
 
 def keysServicesLayers(filePath="resources_by_key.csv"):
   rows = []
@@ -119,6 +154,7 @@ def writeFilteredGetCap(keysServicesLayers, key, service):
 
 
 if __name__ == "__main__":
+  createKeyServiceLayersFile()
   keyServiceLayersDict = keysServicesLayers()
   for key in keyServiceLayersDict.keys():
     print(key)
