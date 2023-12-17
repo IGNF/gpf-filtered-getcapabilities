@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6886">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="344">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -314,37 +314,9 @@
   </ows:OperationsMetadata>
   <FeatureTypeList>
     <FeatureType>
-      <Name>BDTOPO_V3:batiment</Name>
-      <Title>BDTOPO : B&#226;timents</Title>
-      <Abstract>B&#226;timents &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>batiment</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.153333951602676 -21.389720340767198</ows:LowerCorner>
-        <ows:UpperCorner>55.83675902644576 51.31271969371168</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDTOPO_V3:troncon_de_route</Name>
-      <Title>BDTOPO : Tron&#231;ons de route</Title>
-      <Abstract>Tron&#231;ons de route &#8722; BDTOPO &#233;dition de septembre 2023</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>troncon_de_route</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.153333951602676 -21.389720340767198</ows:LowerCorner>
-        <ows:UpperCorner>55.83675902644576 51.31271969371168</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle</Name>
       <Title>PCI Vecteur : Parcelles</Title>
-      <Abstract>Parcelles juillet 2023</Abstract>
+      <Abstract>Parcelles avril 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15331687 -21.38974726</ows:LowerCorner>

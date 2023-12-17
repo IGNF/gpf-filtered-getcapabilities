@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6884">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="183">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -312,60 +312,7 @@
       </ows:AllowedValues>
     </ows:Constraint>
   </ows:OperationsMetadata>
-  <FeatureTypeList>
-    <FeatureType>
-      <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965.GRAPHE-MOSAIQUAGE:graphe</Name>
-      <Title>Graphe de mosaiquage de la couche photographies a&#233;riennes historiques 1950-1965</Title>
-      <Abstract>Graphe de mosaiquage de la couche photographies a&#233;riennes historiques 1950-1965.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>BDORTHOHISTORIQUE</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.16065723 -21.39989736</ows:LowerCorner>
-        <ows:UpperCorner>55.84425655 51.08932742</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2000-2005:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2000-2005</Title>
-      <Abstract>Graphe de mosa&#239;quage BDORTHO 2000-2005</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Graphe</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-66.15805146 -21.39139475</ows:LowerCorner>
-        <ows:UpperCorner>55.85384065 51.10341491</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2006-2010:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2006-2010 </Title>
-      <Abstract>graphe bdortho millesimees</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Graphe</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-66.49159691 -21.42730308</ows:LowerCorner>
-        <ows:UpperCorner>55.84456069 51.09371245</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2011-2015</Title>
-      <Abstract>Graphe de mosa&#239;quage BDORTHO 2011-2015</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Graphe</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.16551154 -21.39990125</ows:LowerCorner>
-        <ows:UpperCorner>55.8442806 51.09371233</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-  </FeatureTypeList>
+  <FeatureTypeList />
   <fes:Filter_Capabilities>
     <fes:Conformance>
       <fes:Constraint name="ImplementsQuery">
