@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="629">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="6376">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -312,7 +312,502 @@
       </ows:AllowedValues>
     </ows:Constraint>
   </ows:OperationsMetadata>
-  <FeatureTypeList />
+  <FeatureTypeList>
+    <FeatureType>
+      <Name>BDCARTO_V5:aerodrome</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:arrondissement</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:arrondissement_municipal</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:bassin_versant_topographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:cimetiere</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:collectivite_territoriale</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:commune</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:commune_associee_ou_deleguee</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:construction_lineaire</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:construction_ponctuelle</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:construction_surfacique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:cours_d_eau</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:departement</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:detail_hydrographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:detail_orographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:epci</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:equipement_de_transport</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:lieu_dit_non_habite</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:ligne_electrique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:limite_terre_mer</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:noeud_hydrographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:occupation_du_sol</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:parc_ou_reserve</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:piste_d_aerodrome</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:plan_d_eau</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:region</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:reservoir</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:rond_point</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:route_numerotee_ou_nommee</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:surface_hydrographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:transport_par_cable</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:troncon_de_route</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:troncon_hydrographique</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:voie_ferree_nommee</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:zone_d_activite_ou_d_interet</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_V5:zone_d_habitation</Name>
+      <Title>BDCarto V5 22.1</Title>
+      <Abstract>BD CARTO&#174; V5</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDCARTO</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
+        <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>STATISTICALUNITS.IRIS:contours_iris</Name>
+      <Title>CONTOURS IRIS 2021</Title>
+      <Abstract>Contours g&#233;om&#233;triques des IRIS de l'INSEE &#233;dition 2022</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.8098218 -21.38929713</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>STATISTICALUNITS.IRISGE:iris_ge</Name>
+      <Title>IRIS Grande Echelle</Title>
+      <Abstract>Contours g&#233;om&#233;triques des IRIS de l'INSEE &#224; grande &#233;chelle toute la France 2022</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.1533205 -21.3896307</ows:LowerCorner>
+        <ows:UpperCorner>55.8366539 51.0889894</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+  </FeatureTypeList>
   <fes:Filter_Capabilities>
     <fes:Conformance>
       <fes:Constraint name="ImplementsQuery">
