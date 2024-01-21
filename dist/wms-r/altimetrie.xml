@@ -339,12 +339,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>0.153269087</MinScaleDenominator>
@@ -371,12 +371,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>0.019158636</MinScaleDenominator>
@@ -407,7 +407,7 @@
           <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>17061.836670798</MinScaleDenominator>
@@ -442,12 +442,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
@@ -465,7 +465,7 @@
           <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>2.452305385</MinScaleDenominator>
@@ -593,12 +593,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
@@ -633,12 +633,21 @@
           </LogoURL>
         </Attribution>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
@@ -647,15 +656,6 @@
           <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
@@ -691,12 +691,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
@@ -731,20 +731,20 @@
           </LogoURL>
         </Attribution>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <Style>
           <Name>normal</Name>
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
@@ -781,12 +781,12 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
@@ -821,29 +821,29 @@
           </LogoURL>
         </Attribution>
         <Style>
-          <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
@@ -870,15 +870,6 @@
           </LogoURL>
         </Attribution>
         <Style>
-          <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <Style>
           <Name>normal</Name>
           <Title>L&#233;gende g&#233;n&#233;rique</Title>
           <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
@@ -888,12 +879,21 @@
           </LegendURL>
         </Style>
         <Style>
-          <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Name>estompage_grayscale</Name>
+          <Title>Estompage</Title>
+          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>hypso_noalpha</Name>
+          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
+          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>3571.428571429</MinScaleDenominator>

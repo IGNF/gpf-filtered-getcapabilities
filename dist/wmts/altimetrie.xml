@@ -523,7 +523,7 @@
           <ows:Keyword>MNT</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>estompage_grayscale</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -653,15 +653,6 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.SRTM3</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Teinte Hypsom&#233;trique</ows:Title>
-        <ows:Abstract>Teinte hypsom&#233;trique</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>hypso</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
-      </Style>
-      <Style>
         <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
         <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
         <ows:Keywords>
@@ -677,7 +668,7 @@
           <ows:Keyword>MNT</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>estompage_grayscale</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="http://wxs.ign.fr/static/legends/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Style>
         <ows:Title>Teintes Hypsom&#233;triques Sans Transparence</ows:Title>
@@ -686,6 +677,15 @@
           <ows:Keyword>D&#233;faut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>hypso_noalpha</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Style>
+        <ows:Title>Estompage</ows:Title>
+        <ows:Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>MNT</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>estompage_grayscale</ows:Identifier>
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/x-bil;bits=32</Format>
