@@ -280,68 +280,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE.SECRET</Name>
-        <Title>Surface moyenne des logements (secret signal&#233;)</Title>
-        <Abstract>Surface moyenne des logements (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="434">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.NIVEAU.DE.VIE.SECRET</Name>
-        <Title>Niveau de vie winsoris&#233; des individus (secret signal&#233;)</Title>
-        <Abstract>Niveau de vie des individus, retrait&#233; des valeurs extr&#234;mes (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="455">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.NIVEAU.DE.VIE-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.ENFANTS.0.17.ANS.SECRET</Name>
         <Title>% des 0-17 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 0 &#224; 17 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
@@ -373,37 +311,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.PART.FAMILLES.MONOPARENTALES.SECRET</Name>
-        <Title>% familles monoparentales (secret signal&#233;)</Title>
-        <Abstract>Part des familles monoparentales (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="426">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.FAMILLES.MONOPARENTALES-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.INDIVIDUS.25.39.ANS.SECRET</Name>
         <Title>% des 25-39 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 25 &#224; 39 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
@@ -429,37 +336,6 @@
           <LegendURL width="300" height="377">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.INDIVIDUS.25.39.ANS-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.PART.INDIVIDUS.40.54.ANS.SECRET</Name>
-        <Title>% des 40-54 ans (secret signal&#233;)</Title>
-        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 40 &#224; 54 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="377">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.INDIVIDUS.40.54.ANS-tot-legend-2017.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
@@ -621,37 +497,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.PART.LOGEMENTS.CONSTRUITS.1970.1990.SECRET</Name>
-        <Title>% de logements construits entre 1970 et 1990 (secret signal&#233;)</Title>
-        <Abstract>Part des logements construits entre 1970 et 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="415">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.LOGEMENTS.CONSTRUITS.1970.1990-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.LOGEMENTS.SOCIAUX.SECRET</Name>
         <Title>% de logements sociaux (secret signal&#233;)</Title>
         <Abstract>Nombre de m&#233;nages habitant en logement social &#8211; voir d&#233;finition- (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
@@ -708,37 +553,6 @@
           <LegendURL width="300" height="426">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.MENAGES.1.PERSONNE-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.PART.MENAGES.5.PERSONNES.OUPLUS.SECRET</Name>
-        <Title>% m&#233;nages de 5 personnes ou + (secret signal&#233;)</Title>
-        <Abstract>Part des m&#233;nages de 5 personnes ou plus (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="397">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.MENAGES.5.PERSONNES.OUPLUS-tot-legend-2017.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
@@ -807,37 +621,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.PART.MENAGES.PROPRIETAIRES.SECRET</Name>
-        <Title>% m&#233;nages propri&#233;taires (secret signal&#233;)</Title>
-        <Abstract>Part des m&#233;nages propri&#233;taires (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="426">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.MENAGES.PROPRIETAIRES-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.PLUS.65.ANS.SECRET</Name>
         <Title>% des plus de 65 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de plus de 65 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
@@ -863,37 +646,6 @@
           <LegendURL width="300" height="396">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSSE.FILOSOFI.PART.PLUS.65.ANS-tot-legend-2017.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>INSEE.FILOSOFI.POPULATION</Name>
-        <Title>Densit&#233; de population</Title>
-        <Abstract>Nombre d'individus par km&#178; </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>INSEE</Name>
-          <Title>INSEE</Title>
-          <Abstract>L&#233;gende INSEE</Abstract>
-          <LegendURL width="300" height="458">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.POPULATION-tot-legend-2017.png" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
