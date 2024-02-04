@@ -200,6 +200,11 @@
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
