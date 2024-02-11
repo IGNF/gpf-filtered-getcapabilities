@@ -248,6 +248,99 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <Layer>
+        <Name>IRRADIATION.SOLAIRE</Name>
+        <Title>Irradiation solaire horizontale annuelle moyenne</Title>
+        <Abstract>Cette couche repr&#233;sente les valeurs annuelles horizontales moyennes (ie "re&#231;ues sur une surface horizontale") d'irradiation solaire exprim&#233;es en kWh/m&#178;. Les donn&#233;es sont issues de Solargis et calcul&#233;es sur une p&#233;riode 1994-2018. Pour plus d'informations : www.solargis.com</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.000000000</westBoundLongitude>
+          <eastBoundLongitude>10.000000000</eastBoundLongitude>
+          <southBoundLatitude>41.000000000</southBoundLatitude>
+          <northBoundLatitude>52.000000000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-667916.944759641" miny="5012341.663847514" maxx="1113194.907932736" maxy="6800125.454397307" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>irradiation</Name>
+          <Title>Irradiation solaire horizontale annuelle moyenne</Title>
+          <Abstract>Irradiation solaire horizontale annuelle moyenneB</Abstract>
+          <LegendURL width="300" height="212">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/IRRADIATION.SOLAIRE-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>136494.693366386</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>POTENTIEL.VENT.140M</Name>
+        <Title>Potentiel &#233;olien terrestre - gisement de vent &#224; 140m</Title>
+        <Abstract>Cartes de la moyenne 2000-2019 du vent moyen sur 10 minutes, &#224; 140m m&#232;tres de hauteur, sur toute la m&#233;tropole&#160;</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.012500000</westBoundLongitude>
+          <eastBoundLongitude>10.512500000</eastBoundLongitude>
+          <southBoundLatitude>40.987500000</southBoundLatitude>
+          <northBoundLatitude>51.512500000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-669308.438394557" miny="5010498.091496715" maxx="1170246.146964288" maxy="6712454.668415265" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>POTENTIEL.VENT.140M</Name>
+          <Title>POTENTIEL.VENT.140M</Title>
+          <Abstract>L&#233;gende ENR de la moyenne des vents &#224; 140m</Abstract>
+          <LegendURL width="300" height="185">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/POTENTIEL.VENT.140M-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>545978.773465546</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>POTENTIEL.VENT.160M</Name>
+        <Title>Potentiel &#233;olien terrestre - gisement de vent &#224; 160m</Title>
+        <Abstract>Cartes de la moyenne 2000-2019 du vent moyen sur 10 minutes, &#224; 160m m&#232;tres de hauteur, sur toute la m&#233;tropole&#160;</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.012500000</westBoundLongitude>
+          <eastBoundLongitude>10.512500000</eastBoundLongitude>
+          <southBoundLatitude>40.987500000</southBoundLatitude>
+          <northBoundLatitude>51.512500000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-669308.438394557" miny="5010498.091496715" maxx="1170246.146964288" maxy="6712454.668415265" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>POTENTIEL.VENT.160M</Name>
+          <Title>POTENTIEL.VENT.160M</Title>
+          <Abstract>L&#233;gende ENR de la moyenne des vents &#224; 160m</Abstract>
+          <LegendURL width="300" height="185">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/POTENTIEL.VENT.160M-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>545978.773465546</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>
