@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="24415" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="15688" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7202,19 +7202,19 @@
       <Layer queryable="1">
         <Name>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE</Name>
         <Title>Graphe de mosa&#239;quage du produit SCAN25</Title>
-        <Abstract>Le graphe de mosa&#239;quage du produit SCAN25 fournit le zonage utilis&#233; pour la mise &#224; jour des donn&#233;es SCAN25 ainsi que diff&#233;rentes m&#233;tadonn&#233;es. 12-2022</Abstract>
+        <Abstract>Le graphe de mosa&#239;quage du produit SCAN25 fournit le zonage utilis&#233; pour la mise &#224; jour des donn&#233;es SCAN25 ainsi que diff&#233;rentes m&#233;tadonn&#233;es. 07-2023</Abstract>
         <KeywordList>
           <Keyword>Graphe</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.20573225</westBoundLongitude>
-          <eastBoundLongitude>55.83667602</eastBoundLongitude>
-          <southBoundLatitude>-21.38985327</southBoundLatitude>
-          <northBoundLatitude>51.08938762</northBoundLatitude>
+          <westBoundLongitude>-178.2421875</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.597265625</southBoundLatitude>
+          <northBoundLatitude>51.16890625</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.20573225" miny="-21.38985327" maxx="55.83667602" maxy="51.08938762" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.38985327" miny="-178.20573225" maxx="51.08938762" maxy="55.83667602" />
+        <BoundingBox CRS="CRS:84" minx="-178.2421875" miny="-21.597265625" maxx="55.8984375" maxy="51.16890625" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.597265625" miny="-178.2421875" maxx="51.16890625" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
