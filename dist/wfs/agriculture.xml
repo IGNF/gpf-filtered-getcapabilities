@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="5799">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3455">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -448,6 +448,19 @@
       <Name>RPG.2021:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2021</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
+        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>RPG.2022:parcelles_graphiques</Name>
+      <Title>Registre parcellaire graphique (RPG) 2022</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>

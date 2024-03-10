@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11630" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11318" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7236,19 +7236,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE.SECRET</Name>
         <Title>Surface moyenne des logements (secret signal&#233;)</Title>
-        <Abstract>Surface moyenne des logements (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Surface moyenne des logements (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7270,19 +7271,19 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.NIVEAU.DE.VIE.SECRET</Name>
         <Title>Niveau de vie winsoris&#233; des individus (secret signal&#233;)</Title>
-        <Abstract>Niveau de vie des individus, retrait&#233; des valeurs extr&#234;mes (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Niveau de vie des individus, retrait&#233; des valeurs extr&#234;mes (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7304,19 +7305,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.ENFANTS.0.17.ANS.SECRET</Name>
         <Title>% des 0-17 ans  (secret signal&#233;)</Title>
-        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 0 &#224; 17 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 0 &#224; 17 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7338,19 +7340,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.FAMILLES.MONOPARENTALES.SECRET</Name>
         <Title>% familles monoparentales (secret signal&#233;)</Title>
-        <Abstract>Part des familles monoparentales  (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Part des familles monoparentales  (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7406,19 +7409,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.INDIVIDUS.40.54.ANS.SECRET</Name>
         <Title>% des 40-54 ans  (secret signal&#233;)</Title>
-        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 40 &#224; 54 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 40 &#224; 54 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7440,19 +7444,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.INDIVIDUS.55.64.ANS.SECRET</Name>
         <Title>% des 55-64 ans  (secret signal&#233;)</Title>
-        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 55 &#224; 64 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 55 &#224; 64 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
@@ -7474,19 +7479,20 @@
       <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET</Name>
         <Title>% de logements construits apr&#232;s 1990 (secret signal&#233;)</Title>
-        <Abstract>Part des logements construits apr&#232;s 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
+        <Abstract>Part des logements construits apr&#232;s 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es)
+</Abstract>
         <KeywordList>
           <Keyword>Statistiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.23455255</westBoundLongitude>
-          <eastBoundLongitude>55.83464666</eastBoundLongitude>
-          <southBoundLatitude>-21.39086462</southBoundLatitude>
-          <northBoundLatitude>51.08790768</northBoundLatitude>
+          <westBoundLongitude>-61.5234375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.23455255" miny="-21.39086462" maxx="55.83464666" maxy="51.08790768" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.39086462" miny="-61.23455255" maxx="51.08790768" maxy="55.83464666" />
+        <BoundingBox CRS="CRS:84" minx="-61.5234375" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.5234375" maxx="51.27109375" maxy="55.8984375" />
         <Attribution>
           <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
