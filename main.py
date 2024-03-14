@@ -34,7 +34,7 @@ def getCapabilities(url):
   return capabilities
 
 def createKeyServiceLayersFile(
-  url="https://geoservices.ign.fr/sites/default/files/2023-11/Ressources_de_services_web_2023-11-22.csv",
+  url="https://geoservices.ign.fr/sites/default/files/2024-03/Tableau%20suivi%20services-web%2004-03-2024.csv",
   filePath="resources_by_key.csv"):
   with requests.Session() as s:
     download = s.get(url)
@@ -56,12 +56,12 @@ def createKeyServiceLayersFile(
       else:
         continue
 
-      if row["Nom_Cle_Partagee"] == "cle personnelle *":
+      if row["Cle publique Geoportail"] == "cle personnelle *":
         continue
 
       newRow = {
         "service": service,
-        "key": row["Nom_Cle_Partagee"],
+        "key": row["Cle publique Geoportail"],
         "layer": row["Nom technique"]
       }
       writer.writerow(newRow)
