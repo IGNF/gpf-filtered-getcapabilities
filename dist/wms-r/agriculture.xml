@@ -238,6 +238,7 @@
       <CRS>EPSG:4692</CRS>
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
+      <CRS>EPSG:5490</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -312,15 +313,15 @@
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE.LATEST</Name>
-        <Title>Registre parcellaire graphique (RPG) Latest</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants Latest</Abstract>
+        <Title>Registre parcellaire graphique (RPG)</Title>
+        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.372500000</westBoundLongitude>
+          <eastBoundLongitude>55.925900000</eastBoundLongitude>
+          <southBoundLatitude>-21.475600000</southBoundLatitude>
+          <northBoundLatitude>51.312100000</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
           <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
@@ -331,15 +332,15 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          <Title>Donn&#233;es Brutes</Title>
+          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>LANDUSE.AGRICULTURE2007</Name>
@@ -801,6 +802,37 @@
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>LANDUSE.AGRICULTURE2022</Name>
+        <Title>Registre parcellaire graphique 2022</Title>
+        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372500000</westBoundLongitude>
+          <eastBoundLongitude>55.925900000</eastBoundLongitude>
+          <southBoundLatitude>-21.475600000</southBoundLatitude>
+          <northBoundLatitude>51.312100000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
+        <Attribution>
+          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Donn&#233;es Brutes</Title>
+          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>

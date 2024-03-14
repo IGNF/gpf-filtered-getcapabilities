@@ -238,6 +238,7 @@
       <CRS>EPSG:4692</CRS>
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
+      <CRS>EPSG:5490</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -435,37 +436,6 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2018</Name>
-        <Title>PLEIADES - 2018</Title>
-        <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2018</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.170169040</westBoundLongitude>
-          <eastBoundLongitude>55.864906500</eastBoundLongitude>
-          <southBoundLatitude>-21.409383220</southBoundLatitude>
-          <northBoundLatitude>51.084093040</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" miny="-2440760.645087240" maxx="6218852.944793838" maxy="6636182.309776641" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>white_is_transparent</Name>
-          <Title>Blanc est transparent</Title>
-          <Abstract>Remplacement du blanc (valeur de nodata) par du transparent</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer>
         <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2019</Name>
         <Title>PLEIADES - 2019</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2019</Abstract>
@@ -507,68 +477,6 @@
           <northBoundLatitude>51.111742350</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7032324.410679275" miny="-1461658.336788509" maxx="5044281.649333599" maxy="6641083.503520396" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>white_is_transparent</Name>
-          <Title>Blanc est transparent</Title>
-          <Abstract>Remplacement du blanc (valeur de nodata) par du transparent</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2021</Name>
-        <Title>PLEIADES - 2021</Title>
-        <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2021</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.823423080</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.401263110</southBoundLatitude>
-          <northBoundLatitude>51.130000730</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6882151.976362717" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6644321.642626621" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>white_is_transparent</Name>
-          <Title>Blanc est transparent</Title>
-          <Abstract>Remplacement du blanc (valeur de nodata) par du transparent</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022</Name>
-        <Title>PLEIADES - 2022</Title>
-        <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2022</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664767100</westBoundLongitude>
-          <eastBoundLongitude>55.721559920</eastBoundLongitude>
-          <southBoundLatitude>-21.373251410</southBoundLatitude>
-          <northBoundLatitude>51.111742350</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6864490.473457809" miny="-2436440.886917113" maxx="6202895.676501282" maxy="6641083.503520396" />
         <Attribution>
           <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
@@ -714,68 +622,6 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2015</Name>
-        <Title>SPOT 6-7 - 2015</Title>
-        <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2015. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la t&#233;l&#233;mesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.814139290</westBoundLongitude>
-          <eastBoundLongitude>55.856042780</eastBoundLongitude>
-          <southBoundLatitude>-21.410362840</southBoundLatitude>
-          <northBoundLatitude>51.106015230</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6881118.509587285" miny="-2440877.778951888" maxx="6217866.239996905" maxy="6640068.057554867" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2016</Name>
-        <Title>SPOT 6-7 - 2016</Title>
-        <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2016</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.850048340</westBoundLongitude>
-          <eastBoundLongitude>55.856247730</eastBoundLongitude>
-          <southBoundLatitude>-21.410362840</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6885115.886748156" miny="-2440877.778951888" maxx="6217889.054926543" maxy="6641180.194398536" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2017</Name>
         <Title>SPOT 6-7 - 2017</Title>
         <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2017</Abstract>
@@ -872,37 +718,6 @@
         <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2020</Name>
         <Title>SPOT 6-7 - 2020</Title>
         <Abstract>Agr&#233;gation des images SPOT 2020</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.571026220</westBoundLongitude>
-          <eastBoundLongitude>10.739428390</eastBoundLongitude>
-          <southBoundLatitude>41.259349040</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
-        <Attribution>
-          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2021</Name>
-        <Title>SPOT 6-7 - 2021</Title>
-        <Abstract>Agr&#233;gation des images SPOT 2021</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5.571026220</westBoundLongitude>
           <eastBoundLongitude>10.739428390</eastBoundLongitude>

@@ -238,6 +238,7 @@
       <CRS>EPSG:4692</CRS>
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
+      <CRS>EPSG:5490</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -987,37 +988,6 @@
           <LegendURL width="300" height="57">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.SIC-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>PROTECTEDAREAS.UNESCO</Name>
-        <Title>Sites inscrits au patrimoine mondial de l&#8217;UNESCO (biens naturels ou mixtes)</Title>
-        <Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est consid&#233;r&#233; comme h&#233;ritage commun de l'humanit&#233;. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Mus&#233;um national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
-          <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
