@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10563" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10304" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -7208,13 +7208,13 @@
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-3.84955064</westBoundLongitude>
-          <eastBoundLongitude>9.6540527</eastBoundLongitude>
-          <southBoundLatitude>41.32091748</southBoundLatitude>
-          <northBoundLatitude>49.32495008</northBoundLatitude>
+          <westBoundLongitude>-3.85125</westBoundLongitude>
+          <eastBoundLongitude>9.7475</eastBoundLongitude>
+          <southBoundLatitude>41.31265625</southBoundLatitude>
+          <northBoundLatitude>49.44546875</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-3.84955064" miny="41.32091748" maxx="9.6540527" maxy="49.32495008" />
-        <BoundingBox CRS="EPSG:4326" minx="41.32091748" miny="-3.84955064" maxx="49.32495008" maxy="9.6540527" />
+        <BoundingBox CRS="CRS:84" minx="-3.85125" miny="41.31265625" maxx="9.7475" maxy="49.44546875" />
+        <BoundingBox CRS="EPSG:4326" minx="41.31265625" miny="-3.85125" maxx="49.44546875" maxy="9.7475" />
         <Attribution>
           <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />

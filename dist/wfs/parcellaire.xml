@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3732">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3611">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -389,6 +389,16 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15313141 -21.38974728</ows:LowerCorner>
         <ows:UpperCorner>55.83668585 51.0888974</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>AOC-VITICOLES:aire_parcellaire</Name>
+      <Title>D&#233;limitation parcellaire AOC viticole</Title>
+      <Abstract>Selon les r&#232;glements europ&#233;ens n&#176;110/2008 du 15 janvier 2008, n&#176;1151/2012 du 21 novembre 2012 et n&#176;1308/2013 de l&#8217;OCM , le cahier des charges des appellations d&#233;finit l&#8217;aire g&#233;ographique. Le terme de &#171; d&#233;limitation parcellaire &#187; d&#233;signe une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations tr&#232;s localis&#233;es des &#233;l&#233;ments du milieu physique. Elle correspond &#224; l'aire de production de la mati&#232;re premi&#232;re. Elle est incluse dans l'aire g&#233;ographique. Donn&#233;es produites par l'Institut National des Origines et la Qualit&#233; (INAO)</Abstract>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-2.111875 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.589375 49.608125</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

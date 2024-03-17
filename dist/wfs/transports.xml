@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3731">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3650">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -393,67 +393,67 @@
     </FeatureType>
     <FeatureType>
       <Name>SECUROUT.TE:n_te_franchissement_p</Name>
-      <Title>Transports exceptionnels</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS 12-2022</Abstract>
+      <Title>Transports exceptionnels Franchissements</Title>
+      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.13063607 41.36959524</ows:LowerCorner>
-        <ows:UpperCorner>9.59719574 50.95387701</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>SECUROUT.TE:n_te_prescription</Name>
-      <Title>Transports exceptionnels</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS 12-2022</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>transport</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.13063607 41.36959524</ows:LowerCorner>
-        <ows:UpperCorner>9.59719574 50.95387701</ows:UpperCorner>
+        <ows:LowerCorner>-4.8 41.15</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>SECUROUT.TE:n_te_rel_franpres</Name>
-      <Title>Transports exceptionnels</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS 12-2022</Abstract>
+      <Title>Transports exceptionnels Lien franchissements - prescriptions</Title>
+      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.13063607 41.36959524</ows:LowerCorner>
-        <ows:UpperCorner>9.59719574 50.95387701</ows:UpperCorner>
+        <ows:LowerCorner>-4.8 41.15</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>SECUROUT.TE:n_te_rel_tronpres</Name>
-      <Title>Transports exceptionnels</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS 12-2022</Abstract>
+      <Name>SECUROUT.TE:n_te_prescription</Name>
+      <Title>Transports exceptionnels Prescriptions</Title>
+      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.13063607 41.36959524</ows:LowerCorner>
-        <ows:UpperCorner>9.59719574 50.95387701</ows:UpperCorner>
+        <ows:LowerCorner>-4.8 41.15</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>SECUROUT.TE:n_te_troncon_l</Name>
-      <Title>Transports exceptionnels</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS 12-2022</Abstract>
+      <Title>Transports exceptionnels Tron&#231;ons</Title>
+      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.13063607 41.36959524</ows:LowerCorner>
-        <ows:UpperCorner>9.59719574 50.95387701</ows:UpperCorner>
+        <ows:LowerCorner>-4.8 41.15</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>SECUROUT.TE:n_te_rel_tronpres</Name>
+      <Title>Transports exceptionnels lien tron&#231;on - prescription</Title>
+      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>transport</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.8 41.15</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
   </FeatureTypeList>

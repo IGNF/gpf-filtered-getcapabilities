@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3731">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3611">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -329,14 +329,14 @@
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS:arrete</Name>
       <Title>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD)</Title>
-      <Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition 203</Abstract>
+      <Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition octobre 203</Abstract>
       <ows:Keywords>
         <ows:Keyword>ZIPVA</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-151.44636283 -22.48733778</ows:LowerCorner>
-        <ows:UpperCorner>183.824153 51.04013008</ows:UpperCorner>
+        <ows:LowerCorner>-151.5234375 -22.562792969</ows:LowerCorner>
+        <ows:UpperCorner>166.46484375 51.095507812</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
   </FeatureTypeList>

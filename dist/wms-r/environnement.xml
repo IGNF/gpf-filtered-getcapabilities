@@ -653,6 +653,37 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>PROTECTEDAREAS.MNHN.CONSERVATOIRES</Name>
+        <Title>Terrains des conservatoires d'espaces naturels</Title>
+        <Abstract>Les conservatoires d'espaces naturels organisent la ma&#238;trise fonci&#232;re de terrains en vue d'assurer la protection des esp&#232;ces qui y r&#233;sident. 05-2022</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Mus&#233;um national d'Histoire naturelle</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <LogoURL width="50" height="57">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>PROTECTEDAREAS.APB</Name>
+          <Title>PROTECTEDAREAS.APB</Title>
+          <Abstract>L&#233;gende APB</Abstract>
+          <LegendURL width="300" height="71">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>PROTECTEDAREAS.MNHN.RN.PERIMETER</Name>
         <Title>p&#233;rim&#232;tres de protection de r&#233;serves naturelles</Title>
         <Abstract>Un p&#233;rim&#232;tre de protection peut &#234;tre institu&#233; en p&#233;riph&#233;rie d&#8217;une r&#233;serve naturelle. Il concerne des espaces qui n&#8217;ont pas &#233;t&#233; class&#233;s en r&#233;serve et qui constituent une zone &#171; tampon &#187; autour de l&#8217;espace class&#233;. Ils am&#233;liorent les &#233;changes &#233;cologiques entre la r&#233;serve et sa p&#233;riph&#233;rie. 04-2023</Abstract>

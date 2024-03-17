@@ -7200,36 +7200,138 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-90.0" maxx="190941.13506943" maxy="5429477.24045303" />
       <Layer queryable="1">
-        <Name>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</Name>
-        <Title>Masque de source du RGE Alti</Title>
-        <Abstract>Informations sur la pr&#233;cision du RGEAlti.</Abstract>
+        <Name>DELAISSES.AUTOROUTIERS</Name>
+        <Title>D&#233;laiss&#233;s autoroutiers</Title>
+        <Abstract>D&#233;laiss&#233;s autoroutiers</Abstract>
         <KeywordList>
-          <Keyword>Altitude</Keyword>
+          <Keyword>autoroute</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.18904211</westBoundLongitude>
-          <eastBoundLongitude>55.84453236</eastBoundLongitude>
-          <southBoundLatitude>-21.42727734</southBoundLatitude>
-          <northBoundLatitude>51.12965159</northBoundLatitude>
+          <westBoundLongitude>-1.82037281</westBoundLongitude>
+          <eastBoundLongitude>7.44945135</eastBoundLongitude>
+          <southBoundLatitude>42.38416313</southBoundLatitude>
+          <northBoundLatitude>48.64970511</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.18904211" miny="-21.42727734" maxx="55.84453236" maxy="51.12965159" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.42727734" miny="-63.18904211" maxx="51.12965159" maxy="55.84453236" />
+        <BoundingBox CRS="CRS:84" minx="-1.82037281" miny="42.38416313" maxx="7.44945135" maxy="48.64970511" />
+        <BoundingBox CRS="EPSG:4326" minx="42.38416313" miny="-1.82037281" maxx="48.64970511" maxy="7.44945135" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          <Title>Minist&#232;re de la Transition &#233;cologique et de la Coh&#233;sion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL height="171" width="294">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
           </LogoURL>
         </Attribution>
         <Style>
-          <Name>default-style-ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</Name>
-          <Title>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY style</Title>
-          <Abstract>Default style for ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY layer</Abstract>
+          <Name>default-style-DELAISSES.AUTOROUTIERS</Name>
+          <Title>DELAISSES.AUTOROUTIERS style</Title>
+          <Abstract>Default style for DELAISSES.AUTOROUTIERS layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=DELAISSES.AUTOROUTIERS" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POTENTIEL.SOLAIRE.SOL</Name>
+        <Title>Potentiel solaire sol</Title>
+        <Abstract>Zones potentiellements propices &#224; l'installation de solaire sol</Abstract>
+        <KeywordList>
+          <Keyword>solaire</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.48946912</westBoundLongitude>
+          <eastBoundLongitude>9.64895876</eastBoundLongitude>
+          <southBoundLatitude>41.35139616</southBoundLatitude>
+          <northBoundLatitude>50.96525701</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-5.48946912" miny="41.35139616" maxx="9.64895876" maxy="50.96525701" />
+        <BoundingBox CRS="EPSG:4326" minx="41.35139616" miny="-5.48946912" maxx="50.96525701" maxy="9.64895876" />
+        <Attribution>
+          <Title>Minist&#232;re de la Transition &#233;cologique et de la Coh&#233;sion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL height="171" width="294">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POTENTIEL.SOLAIRE.SOL</Name>
+          <Title>POTENTIEL.SOLAIRE.SOL style</Title>
+          <Abstract>Default style for POTENTIEL.SOLAIRE.SOL layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POTENTIEL.SOLAIRE.SOL" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>PUISSANCE.INSTALLEE.BIOMETHANE</Name>
+        <Title>Puissances cumul&#233;es des installations par commune biomethane</Title>
+        <Abstract>Puissances cumul&#233;es des installations par commune biomethane</Abstract>
+        <KeywordList>
+          <Keyword>biomethane</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.02148336</westBoundLongitude>
+          <eastBoundLongitude>8.29976706</eastBoundLongitude>
+          <southBoundLatitude>42.69620488</southBoundLatitude>
+          <northBoundLatitude>50.84309746</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-5.02148336" miny="42.69620488" maxx="8.29976706" maxy="50.84309746" />
+        <BoundingBox CRS="EPSG:4326" minx="42.69620488" miny="-5.02148336" maxx="50.84309746" maxy="8.29976706" />
+        <Attribution>
+          <Title>Minist&#232;re de la Transition &#233;cologique et de la Coh&#233;sion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL height="171" width="294">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-PUISSANCE.INSTALLEE.BIOMETHANE</Name>
+          <Title>PUISSANCE.INSTALLEE.BIOMETHANE style</Title>
+          <Abstract>Default style for PUISSANCE.INSTALLEE.BIOMETHANE layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=PUISSANCE.INSTALLEE.BIOMETHANE" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>PUISSANCE.INSTALLEE.METHANISATION</Name>
+        <Title>Puissances cumul&#233;es des installations par commune methanisation</Title>
+        <Abstract>Puissances cumul&#233;es des installations par commune methanisation</Abstract>
+        <KeywordList>
+          <Keyword>methanisation</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.02148336</westBoundLongitude>
+          <eastBoundLongitude>8.29976706</eastBoundLongitude>
+          <southBoundLatitude>42.69620488</southBoundLatitude>
+          <northBoundLatitude>50.84309746</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-5.02148336" miny="42.69620488" maxx="8.29976706" maxy="50.84309746" />
+        <BoundingBox CRS="EPSG:4326" minx="42.69620488" miny="-5.02148336" maxx="50.84309746" maxy="8.29976706" />
+        <Attribution>
+          <Title>Minist&#232;re de la Transition &#233;cologique et de la Coh&#233;sion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL height="171" width="294">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-PUISSANCE.INSTALLEE.METHANISATION</Name>
+          <Title>PUISSANCE.INSTALLEE.METHANISATION style</Title>
+          <Abstract>Default style for PUISSANCE.INSTALLEE.METHANISATION layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=PUISSANCE.INSTALLEE.METHANISATION" />
           </LegendURL>
         </Style>
       </Layer>

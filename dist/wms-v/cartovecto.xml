@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10563" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10296" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -6843,7 +6843,6 @@
       <CRS>EPSG:68186405</CRS>
       <CRS>EPSG:68206405</CRS>
       <CRS>EPSG:69036405</CRS>
-      <CRS>EPSG:404000</CRS>
       <CRS>EPSG:310486003</CRS>
       <CRS>EPSG:210006000</CRS>
       <CRS>EPSG:110599000</CRS>
@@ -7191,6 +7190,7 @@
       <CRS>EPSG:110642000</CRS>
       <CRS>EPSG:310547358</CRS>
       <CRS>EPSG:310547359</CRS>
+      <CRS>EPSG:404000</CRS>
       <CRS>CRS:84</CRS>
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
@@ -7426,6 +7426,40 @@
         </Style>
       </Layer>
       <Layer queryable="1">
+        <Name>COMMUNESTOURISTIQUES</Name>
+        <Title>Communes touristiques</Title>
+        <Abstract>Deux niveaux de classement sont pr&#233;vus pour les communes qui d&#233;veloppent d&#8217;une politique touristique sur leur territoire. Le premier niveau se mat&#233;rialise par l&#8217;obtention de la d&#233;nomination en commune touristique r&#233;gie par les articles L.133-11 et L.133-12 du code du tourisme.</Abstract>
+        <KeywordList>
+          <Keyword>station</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-54.140625</westBoundLongitude>
+          <eastBoundLongitude>166.11328125</eastBoundLongitude>
+          <southBoundLatitude>-22.123828125</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-54.140625" miny="-22.123828125" maxx="166.11328125" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.123828125" miny="-54.140625" maxx="51.27109375" maxy="166.11328125" />
+        <Attribution>
+          <Title>Teragir</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
+          <LogoURL height="198" width="255">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/teragir.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-COMMUNESTOURISTIQUES</Name>
+          <Title>COMMUNESTOURISTIQUES style</Title>
+          <Abstract>Default style for COMMUNESTOURISTIQUES layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=COMMUNESTOURISTIQUES" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
         <Name>PAVILLONBLEU</Name>
         <Title> Le Pavillon Bleu</Title>
         <Abstract>Le Pavillon Bleu est un label &#224; forte connotation touristique, symbole d'une qualit&#233; environnementale exemplaire.</Abstract>
@@ -7460,9 +7494,9 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>STATIONSVERTES</Name>
-        <Title>Stations vertes</Title>
-        <Abstract>Une Station Verte propose des s&#233;jours &#233;cotouristiques, porteurs de sens, en faveur d'un tourisme nature, authentique, humain et respectueux de l'environnement 11-2023</Abstract>
+        <Name>STATIONSCLASSEES</Name>
+        <Title>Stations class&#233;es</Title>
+        <Abstract>Deux niveaux de classement sont pr&#233;vus pour les communes qui d&#233;veloppent d&#8217;une politique touristique sur leur territoire. Le second niveau, plus &#233;lev&#233; que le premier, se mat&#233;rialise par le classement en station de tourisme tel que d&#233;fini par les articles L.133-13 &#224; L.133-16 du code du tourisme.</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -7470,11 +7504,45 @@
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-54.140625</westBoundLongitude>
           <eastBoundLongitude>166.11328125</eastBoundLongitude>
-          <southBoundLatitude>-21.948242188</southBoundLatitude>
-          <northBoundLatitude>50.744335938</northBoundLatitude>
+          <southBoundLatitude>-22.123828125</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-54.140625" miny="-21.948242188" maxx="166.11328125" maxy="50.744335938" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.948242188" miny="-54.140625" maxx="50.744335938" maxy="166.11328125" />
+        <BoundingBox CRS="CRS:84" minx="-54.140625" miny="-22.123828125" maxx="166.11328125" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.123828125" miny="-54.140625" maxx="51.27109375" maxy="166.11328125" />
+        <Attribution>
+          <Title>Teragir</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
+          <LogoURL height="198" width="255">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/teragir.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-STATIONSCLASSEES</Name>
+          <Title>STATIONSCLASSEES style</Title>
+          <Abstract>Default style for STATIONSCLASSEES layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=STATIONSCLASSEES" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>STATIONSVERTES</Name>
+        <Title>Stations vertes</Title>
+        <Abstract>Une Station Verte propose des s&#233;jours &#233;cotouristiques, porteurs de sens, en faveur d'un tourisme nature, authentique, humain et respectueux de l'environnement</Abstract>
+        <KeywordList>
+          <Keyword>station</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-54.140625</westBoundLongitude>
+          <eastBoundLongitude>166.11328125</eastBoundLongitude>
+          <southBoundLatitude>-22.123828125</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-54.140625" miny="-22.123828125" maxx="166.11328125" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.123828125" miny="-54.140625" maxx="51.27109375" maxy="166.11328125" />
         <Attribution>
           <Title>Teragir</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.teragir.org/" />
@@ -7564,7 +7632,7 @@
       <Layer queryable="1">
         <Name>VILLAGESETAPE</Name>
         <Title>Villages &#233;tapes</Title>
-        <Abstract>Communes de moins de 5 000 habitants, situ&#233;es &#224; moins de 5km d'un grand axe routier national 03-2023</Abstract>
+        <Abstract>Communes de moins de 5 000 habitants, situ&#233;es &#224; moins de 5km d'un grand axe routier national</Abstract>
         <KeywordList>
           <Keyword>village</Keyword>
         </KeywordList>

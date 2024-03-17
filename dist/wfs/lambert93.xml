@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3731">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3625">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -312,7 +312,28 @@
       </ows:AllowedValues>
     </ows:Constraint>
   </ows:OperationsMetadata>
-  <FeatureTypeList />
+  <FeatureTypeList>
+    <FeatureType>
+      <Name>GEOGRAPHICALGRIDSYSTEM.DFCI:carro_dfci_1x1_l93</Name>
+      <Title>Carroyages DFCI 1x1</Title>
+      <Abstract>Carroyages DFCI 1x1</Abstract>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-6.065 41.15</ows:LowerCorner>
+        <ows:UpperCorner>10.38 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>GEOGRAPHICALGRIDSYSTEM.DFCI:carro_dfci_2x2_l93</Name>
+      <Title>Carroyages DFCI 2x2</Title>
+      <Abstract>Carroyages DFCI 2x2</Abstract>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-6.065 41.15</ows:LowerCorner>
+        <ows:UpperCorner>10.38 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+  </FeatureTypeList>
   <fes:Filter_Capabilities>
     <fes:Conformance>
       <fes:Constraint name="ImplementsQuery">
