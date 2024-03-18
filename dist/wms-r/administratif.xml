@@ -281,6 +281,37 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>ADMINEXPRESS-COG.LATEST</Name>
+        <Title>ADMINEXPRESS COG</Title>
+        <Abstract>Limites administratives Express COG code officiel g&#233;ographique. 2023</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>55.925864580</eastBoundLongitude>
+          <southBoundLatitude>-21.475586670</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>ADMINEXPRESS-COG</Name>
+          <Title>L&#233;gende du 1/1000000</Title>
+          <Abstract>L&#233;gende associ&#233;e a ADMINEXPRESS-COG</Abstract>
+          <LegendURL width="300" height="600">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG.LATEST-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST</Name>
         <Title>Limites administratives mises &#224; jour en continu.</Title>
         <Abstract>Limites administratives mises &#224; jour en continu, &#233;dition Juillet 2023</Abstract>

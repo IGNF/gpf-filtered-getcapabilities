@@ -37,10 +37,10 @@ wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:commune_associee_ou_del
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:departement
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:epci
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:region
-wms-r,administratif,ADMINEXPRESS-COG.LATEST                
+wms-r,administratif,ADMINEXPRESS-COG.LATEST
 wms-r,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wms-r,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
-wmts,administratif,ADMINEXPRESS-COG.LATEST                
+wmts,administratif,ADMINEXPRESS-COG.LATEST
 wmts,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wmts,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
 wfs,adresse,BAN.DATA.GOUV:ban
@@ -476,7 +476,7 @@ wfs,environnement,MESURES_COMPENSATOIRES:emprises_polygones
 wfs,environnement,MESURES_COMPENSATOIRES:emprises_ponctuelles
 wfs,environnement,PROTECTEDAREAS.APG:apg
 wfs,environnement,PROTECTEDAREAS.APHN:aphn
-wfs,environnement,PROTECTEDAREAS.APLG:aplg 
+wfs,environnement,PROTECTEDAREAS.APLG:aplg
 wfs,environnement,PROTECTEDAREAS.BIOS:bios
 wfs,environnement,PROTECTEDAREAS.GP:gp
 wfs,environnement,PROTECTEDAREAS.INPG:inpg
@@ -534,7 +534,7 @@ wms-r,environnement,PROTECTEDAREAS.ZNIEFF1
 wms-r,environnement,PROTECTEDAREAS.ZNIEFF1.SEA
 wms-r,environnement,PROTECTEDAREAS.ZNIEFF2
 wms-r,environnement,PROTECTEDAREAS.ZNIEFF2.SEA
-wms-r,environnement,PROTECTEDAREAS.ZPR 
+wms-r,environnement,PROTECTEDAREAS.ZPR
 wms-r,environnement,PROTECTEDAREAS.ZPS
 wms-r,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES
 wms-v,environnement,DEBROUSSAILLEMENT
@@ -575,7 +575,7 @@ wmts,environnement,PROTECTEDAREAS.ZNIEFF1
 wmts,environnement,PROTECTEDAREAS.ZNIEFF1.SEA
 wmts,environnement,PROTECTEDAREAS.ZNIEFF2
 wmts,environnement,PROTECTEDAREAS.ZNIEFF2.SEA
-wmts,environnement,PROTECTEDAREAS.ZPR 
+wmts,environnement,PROTECTEDAREAS.ZPR
 wmts,environnement,PROTECTEDAREAS.ZPS
 wmts,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES
 wfs,essentiels,BDTOPO_V3:batiment
@@ -959,14 +959,14 @@ wms-v,topographie,BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84G
-wms-v,topographie,BDTOPO-GEOPO-VEGETATION_WLD_WGS84G 
+wms-v,topographie,BDTOPO-GEOPO-VEGETATION_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G
-wms-v,topographie,hedge.hedge 
+wms-v,topographie,hedge.hedge
 wms-v,topographie,TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE
 wmts,topographie,BUILDINGS.BUILDINGS
 wmts,topographie,GEOGRAPHICALNAMES.NAMES
-wmts,topographie,hedge.hedge 
+wmts,topographie,hedge.hedge
 wmts,topographie,HYDROGRAPHY.HYDROGRAPHY
 wmts,topographie,TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST
 wmts,topographie,TRANSPORTNETWORKS.RAILWAYS
@@ -1023,8 +1023,3 @@ wmts,transports,SECUROUTE.TE.TE72
 wmts,transports,SECUROUTE.TE.TE94
 wmts,transports,TRANSPORTNETWORKS.ROADS.DIRECTION
 wmts,transports,TRANSPORTS.DRONES.RESTRICTIONS
-wfs,,INPE
-wms-r,,ORTHOIMAGERY.ORTHO-SAT.SPOT.2022
-wms-v,,INPE
-wmts,,INPE
-wmts,,ORTHOIMAGERY.ORTHO-SAT.SPOT.2022

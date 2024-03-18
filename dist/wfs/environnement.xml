@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3650">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3511">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -340,6 +340,19 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>PROTECTEDAREAS.APLG:aplg</Name>
+      <Title>Arr&#234;t&#233;s listes de sites d'int&#233;r&#234;t g&#233;ologique</Title>
+      <Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>geologie</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.13927604 47.32788872</ows:LowerCorner>
+        <ows:UpperCorner>-1.13186347 48.88517694</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>LANDCOVER.FORESTINVENTORY.V1:resu_bdv1_shape</Name>
       <Title>BDFor&#234;t V1</Title>
       <Abstract>BDFor&#234;t V1</Abstract>
@@ -509,34 +522,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>PROTECTEDAREAS.PRSF:prs_fr</Name>
-      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
-      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>for&#234;t</ows:Keyword>
-        <ows:Keyword>secours</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-4.90241181 41.74721942</ows:LowerCorner>
-        <ows:UpperCorner>9.38950578 50.73142152</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>PRSF_BDD_GUF_2023:prs_guf</Name>
-      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
-      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>for&#234;t</ows:Keyword>
-        <ows:Keyword>secours</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2972</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-54.38154367 3.727489</ows:LowerCorner>
-        <ows:UpperCorner>-51.84944924 5.63054804</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>PRSF_BDD_GLP_2023:prs_glp</Name>
       <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
       <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
@@ -562,6 +547,34 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
         <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PROTECTEDAREAS.PRSF:prs_fr</Name>
+      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
+      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>for&#234;t</ows:Keyword>
+        <ows:Keyword>secours</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.90241181 41.74721942</ows:LowerCorner>
+        <ows:UpperCorner>9.38950578 50.73142152</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PRSF_BDD_GUF_2023:prs_guf</Name>
+      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
+      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>for&#234;t</ows:Keyword>
+        <ows:Keyword>secours</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2972</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-54.38154367 3.727489</ows:LowerCorner>
+        <ows:UpperCorner>-51.84944924 5.63054804</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

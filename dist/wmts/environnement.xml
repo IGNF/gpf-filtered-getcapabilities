@@ -3786,6 +3786,112 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>Zones_de_protection_renforc&#233;e</ows:Title>
+      <ows:Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
+        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>PROTECTEDAREAS.ZPR</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>PROTECTEDAREAS.BIOS</ows:Title>
+        <ows:Abstract>L&#233;gende BIOS</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>environnement</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.BIOS-legend.png" width="300" height="95" minScaleDenominator="2000" maxScaleDenominator="10000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>43</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>46</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>86</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>93</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>173</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>186</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>346</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>373</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>693</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>747</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1386</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1494</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2773</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2988</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>5547</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5976</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>11094</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>11953</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>22189</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>23906</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>44378</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>47813</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Sites NATURA 2000 au titre de la Directive Oiseaux</ows:Title>
       <ows:Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>

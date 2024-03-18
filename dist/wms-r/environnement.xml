@@ -1149,6 +1149,37 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>PROTECTEDAREAS.ZPR</Name>
+        <Title>Zones de protection renforc&#233;e </Title>
+        <Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521500</westBoundLongitude>
+          <eastBoundLongitude>82.645006140</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700</southBoundLatitude>
+          <northBoundLatitude>51.312119280</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Mus&#233;um national d'Histoire naturelle</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <LogoURL width="50" height="57">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Donn&#233;es sans l&#233;gende</Title>
+          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZPS</Name>
         <Title>Sites NATURA 2000 au titre de la Directive Oiseaux</Title>
         <Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</Abstract>

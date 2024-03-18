@@ -103,27 +103,6 @@
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>8</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>10</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>10</MinTileRow>
-            <MaxTileRow>17</MaxTileRow>
-            <MinTileCol>10</MinTileCol>
-            <MaxTileCol>20</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
             <MaxTileRow>71</MaxTileRow>
@@ -229,13 +208,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
@@ -343,13 +315,6 @@
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
             <MaxTileRow>71</MaxTileRow>
@@ -455,13 +420,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
@@ -569,13 +527,6 @@
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
             <MaxTileRow>71</MaxTileRow>
@@ -681,13 +632,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
@@ -795,13 +739,6 @@
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
             <MaxTileRow>71</MaxTileRow>
@@ -890,13 +827,13 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>SECUROUTE.TE.TE72</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>RESEAU ROUTIER TE72</ows:Title>
-        <ows:Abstract>L&#233;gende securoute r&#233;seau routier TE72</ows:Abstract>
+        <ows:Title>RESEAU ROUTIER TE94</ows:Title>
+        <ows:Abstract>L&#233;gende securoute r&#233;seau routier TE94</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>TE</ows:Keyword>
         </ows:Keywords>
-        <ows:Identifier>RESEAU ROUTIER TE72</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE72-legend.png" width="300" height="153" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+        <ows:Identifier>RESEAU ROUTIER TE94</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE94-legend.png" width="300" height="103" minScaleDenominator="8000" maxScaleDenominator="10000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -907,13 +844,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
@@ -1020,13 +950,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
