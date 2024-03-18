@@ -25,7 +25,7 @@ def getCapabilities(url):
   if response.status_code != 200:
     return False
 
-  with open("originalCapa.xml", "w") as file:
+  with open("originalCapa.xml", "w", encoding="utf-8") as file:
     file.writelines(response.text)
 
   register_all_namespaces("originalCapa.xml")
@@ -40,7 +40,7 @@ def createKeyServiceLayersFile(
     download = s.get(url)
     decoded_content = download.content.decode("latin1")
     reader = csv.DictReader(decoded_content.splitlines(), delimiter=";")
-  with open(filePath, "w", newline='') as csvFile:
+  with open(filePath, "w", newline='', encoding="utf-8") as csvFile:
     fieldnames = ["service", "key", "layer"]
     writer = csv.DictWriter(csvFile, fieldnames=fieldnames, lineterminator='\n')
     writer.writeheader()
@@ -58,11 +58,13 @@ def createKeyServiceLayersFile(
 
       if row["Cle publique Geoportail"] == "cle personnelle *":
         continue
+      if row["Cle publique Geoportail"] == "":
+        continue
 
       newRow = {
         "service": service,
         "key": row["Cle publique Geoportail"],
-        "layer": row["Nom technique"]
+        "layer": row["Nom technique"].strip()
       }
       writer.writerow(newRow)
 
@@ -71,7 +73,7 @@ def createKeyServiceLayersFile(
 def keysServicesLayers(filePath="resources_by_key.csv"):
   rows = []
   keys = []
-  with open(filePath) as csvfile:
+  with open(filePath, encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
     for row in reader:
       rows.append(row)
