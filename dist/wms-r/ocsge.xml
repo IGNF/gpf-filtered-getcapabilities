@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>OCSGE.CONSTRUCTIONS</Name>
         <Title>Occupation du sol grande &#233;chelle - zones construites</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG).</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Occupation du sol grande &#233;chelle 2011 - zones contruites</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2011</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Occupation du sol grande &#233;chelle 2016 - zones contruites</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Occupation du sol grande &#233;chelle 2017 - zones contruites</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>Occupation du sol grande &#233;chelle 2019 - zones contruites</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l&#8217;IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l&#8217;usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d&#8217;occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.291052180</westBoundLongitude>
-          <eastBoundLongitude>1.212196410</eastBoundLongitude>
-          <southBoundLatitude>43.304347460</southBoundLatitude>
-          <northBoundLatitude>44.086448520</northBoundLatitude>
+          <westBoundLongitude>-0.291052</westBoundLongitude>
+          <eastBoundLongitude>1.2122</eastBoundLongitude>
+          <southBoundLatitude>43.3043</southBoundLatitude>
+          <northBoundLatitude>44.0864</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>Occupation du sol grande &#233;chelle - couverture</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>Occupation du sol grande &#233;chelle 2011 - couverture</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG)1 Source : IGN - 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>Occupation du sol grande &#233;chelle 2016 - couverture</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>Occupation du sol grande &#233;chelle 2017 - couverture</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>Occupation du sol grande &#233;chelle 2019 - couverture</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.291052180</westBoundLongitude>
-          <eastBoundLongitude>1.212196410</eastBoundLongitude>
-          <southBoundLatitude>43.304347460</southBoundLatitude>
-          <northBoundLatitude>44.086448520</northBoundLatitude>
+          <westBoundLongitude>-0.291052</westBoundLongitude>
+          <eastBoundLongitude>1.2122</eastBoundLongitude>
+          <southBoundLatitude>43.3043</southBoundLatitude>
+          <northBoundLatitude>44.0864</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>Occupation du sol grande &#233;chelle - usage</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG).</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -595,10 +602,10 @@
         <Title>Occupation du sol grande &#233;chelle 2011 - usage</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2011</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -626,10 +633,10 @@
         <Title>Occupation du sol grande &#233;chelle 2016 - usage</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -657,10 +664,10 @@
         <Title>Occupation du sol grande &#233;chelle 2017 - usage</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG). Source : IGN - 2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664384670</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>14.239534790</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-61.6644</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>14.2395</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864447.901544945" miny="1601712.160843186" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -688,10 +695,10 @@
         <Title>Occupation du sol grande &#233;chelle 2019 - usage</Title>
         <Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG) Source : IGN - 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.291052180</westBoundLongitude>
-          <eastBoundLongitude>1.212196410</eastBoundLongitude>
-          <southBoundLatitude>43.304347460</southBoundLatitude>
-          <northBoundLatitude>44.086448520</northBoundLatitude>
+          <westBoundLongitude>-0.291052</westBoundLongitude>
+          <eastBoundLongitude>1.2122</eastBoundLongitude>
+          <southBoundLatitude>43.3043</southBoundLatitude>
+          <northBoundLatitude>44.0864</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-32399.780471872" miny="5358411.965671143" maxx="134941.087102634" maxy="5478830.051685754" />
         <Attribution>
@@ -719,10 +726,10 @@
         <Title>Visualisation OCSGE 2016</Title>
         <Abstract>R&#233;sultat IA agglom&#233;r&#233; &#224; l'ortho 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.318516760</westBoundLongitude>
-          <eastBoundLongitude>1.225751230</eastBoundLongitude>
-          <southBoundLatitude>43.281506810</southBoundLatitude>
-          <northBoundLatitude>44.054254240</northBoundLatitude>
+          <westBoundLongitude>-0.318517</westBoundLongitude>
+          <eastBoundLongitude>1.22575</eastBoundLongitude>
+          <southBoundLatitude>43.2815</southBoundLatitude>
+          <northBoundLatitude>44.0543</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-35457.123532323" miny="5354918.685903204" maxx="136450.002762829" maxy="5473841.994255110" />
         <Attribution>
@@ -750,10 +757,10 @@
         <Title>Visualisation OCSGE 2019</Title>
         <Abstract>R&#233;sultat IA agglom&#233;r&#233; &#224; l'ortho 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.321663620</westBoundLongitude>
-          <eastBoundLongitude>1.225751230</eastBoundLongitude>
-          <southBoundLatitude>43.281506810</southBoundLatitude>
-          <northBoundLatitude>44.108240350</northBoundLatitude>
+          <westBoundLongitude>-0.321664</westBoundLongitude>
+          <eastBoundLongitude>1.22575</eastBoundLongitude>
+          <southBoundLatitude>43.2815</southBoundLatitude>
+          <northBoundLatitude>44.1082</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-35807.430385121" miny="5354918.685903204" maxx="136450.002762829" maxy="5482207.934545177" />
         <Attribution>

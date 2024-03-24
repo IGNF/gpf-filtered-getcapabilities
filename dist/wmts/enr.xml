@@ -77,8 +77,8 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Opportunit&#233; d'injection au r&#233;seau biom&#233;thane</ows:Title>
-      <ows:Abstract>Opportunit&#233; d'injection au r&#233;seau biom&#233;thane</ows:Abstract>
+      <ows:Title>Cartographie biom&#233;thane d&#8217;acc&#232;s aux r&#233;seaux</ows:Title>
+      <ows:Abstract>Cette cartographie indique un premier ordre degrandeur du crit&#232;re technico-&#233;conomique exprim&#233; en euro/Normalm3/h (&#8364;/Nm3/h): plus la valeur de ce crit&#232;re est basse, meilleures sont les possibilit&#233;s pour les op&#233;rateurs de r&#233;seau de r&#233;aliser des renforcements pour accueillir du biom&#233;thane sur la zone. </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -91,7 +91,7 @@
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>ACCES.BIOMETHANE</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/ACCES.BIOMETHANE-legend.png" width="300" height="217" minScaleDenominator="2000" maxScaleDenominator="10000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/ACCES.BIOMETHANE-legend.png" width="300" height="150" minScaleDenominator="2000" maxScaleDenominator="10000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -178,20 +178,6 @@
             <MaxTileRow>24492</MaxTileRow>
             <MinTileCol>31830</MinTileCol>
             <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43822</MinTileRow>
-            <MaxTileRow>48985</MaxTileRow>
-            <MinTileCol>63660</MinTileCol>
-            <MaxTileCol>69020</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>87645</MinTileRow>
-            <MaxTileRow>97970</MaxTileRow>
-            <MinTileCol>127321</MinTileCol>
-            <MaxTileCol>138041</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
@@ -2180,8 +2166,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des points d'injection de biom&#233;thane</ows:Title>
-      <ows:Abstract>Localisation des points d'injection de biom&#233;thane</ows:Abstract>
+      <ows:Title>Points d'injection de Biom&#233;thane en France en service</ows:Title>
+      <ows:Abstract>Ce jeu de donn&#233;es pr&#233;sente la liste des points d'injection de biom&#233;thane dans les r&#233;seaux de gaz naturel en France et la capacit&#233; de production de biom&#233;thane en GWh/an</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2194,7 +2180,7 @@
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>POINTS.INJECTION.BIOMETHANE</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/POINTS.INJECTION.BIOMETHANE-legend.png" width="300" height="97" minScaleDenominator="2000" maxScaleDenominator="10000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/POINTS.INJECTION.BIOMETHANE-legend.png" width="300" height="235" minScaleDenominator="2000" maxScaleDenominator="10000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -2281,20 +2267,6 @@
             <MaxTileRow>24492</MaxTileRow>
             <MinTileCol>31830</MinTileCol>
             <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43822</MinTileRow>
-            <MaxTileRow>48985</MaxTileRow>
-            <MinTileCol>63660</MinTileCol>
-            <MaxTileCol>69020</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>87645</MinTileRow>
-            <MaxTileRow>97970</MaxTileRow>
-            <MinTileCol>127321</MinTileCol>
-            <MaxTileCol>138041</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>

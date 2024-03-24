@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,6 +249,146 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
+      <Layer queryable="1">
+        <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</Name>
+        <Title>Parcellaire cadastral</Title>
+        <Abstract>Parcellaire cadastral &#233;dition : 2023-07-01</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>PCI vecteur</Name>
+          <Title>PCI vecteur</Title>
+          <Abstract>L&#233;gende de la couche PCI vecteur</Abstract>
+          <LegendURL width="300" height="183">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/CADASTRALPARCELS.PARCELLAIRE_EXPRESS.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
+        <Title>Plan IGN v2</Title>
+        <Abstract>Cartographie multi-&#233;chelles sur le territoire national, issue des bases de donn&#233;es vecteur de l&#8217;IGN, mis &#224; jour r&#233;guli&#232;rement et r&#233;alis&#233;e selon un processus enti&#232;rement automatis&#233;.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-175</westBoundLongitude>
+          <eastBoundLongitude>175</eastBoundLongitude>
+          <southBoundLatitude>-85</southBoundLatitude>
+          <northBoundLatitude>85</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19480910.888822876" miny="-19971868.880408570" maxx="19480910.888822876" maxy="19971868.880408563" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
+          <Title>Donn&#233;es GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
+          <Abstract>Style et l&#233;gende associ&#233;s au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
+          <LegendURL width="300" height="6000">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST</Name>
+        <Title>Limites administratives mises &#224; jour en continu.</Title>
+        <Abstract>Limites administratives mises &#224; jour en continu, &#233;dition Juillet 2023</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS</Name>
+        <Title>Photographies a&#233;riennes</Title>
+        <Abstract>Photographies a&#233;riennes</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-89</southBoundLatitude>
+          <northBoundLatitude>89</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>533.182395962</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>

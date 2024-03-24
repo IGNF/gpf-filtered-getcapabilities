@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>FORETS.PUBLIQUES</Name>
         <Title>For&#234;ts publiques</Title>
         <Abstract>Localisation des for&#234;ts publiques domaniales et non domaniales (communales, sectionales, d&#233;partementales et d'&#233;tablissements publics) g&#233;r&#233;es par l'Office national des for&#234;ts (ONF).</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Carroyage DFCI</Title>
         <Abstract>Le &#171; carroyage DFCI &#187; est un syst&#232;me de maillage g&#233;ographique utilis&#233; en France par les acteurs de la D&#233;fense des For&#234;ts Contre les Incendies (DFCI). Le territoire m&#233;tropolitain est couvert par des carr&#233;s de 100 km de c&#244;t&#233;, identifiables par deux lettres. Chaque carr&#233; de 100 km est divis&#233; en 25 carr&#233;s de 20 km de c&#244;t&#233;, num&#233;rot&#233;s par des chiffres pairs de 0 &#224; 8. Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. L'unit&#233; &#233;l&#233;mentaire est un carreau de 2 kilom&#232;tres de c&#244;t&#233;, d&#233;fini par 6 caract&#232;res (exemple : KD42F7). Pour d&#233;signer un point &#224; l'int&#233;rieur de l'unit&#233; &#233;l&#233;mentaire, la pr&#233;cision est obtenue en d&#233;coupant ce carr&#233; en cinq zones num&#233;rot&#233;es de 1 &#224; 5. Il a &#233;t&#233; cr&#233;&#233; sur une grille qui s'appuie sur la projection Lambert II &#233;tendue. Depuis 2009, il est re-projet&#233; en Lambert 93 avec une l&#233;g&#232;re d&#233;formation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. Les carr&#233;s de 2 km sont d&#233;nomm&#233;s de A &#224; L (sauf I et J) pour les abscisses, et num&#233;rot&#233;s de 0 &#224; 9 pour les ordonn&#233;es. Date des donn&#233;es : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - P&#244;NT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Carte foresti&#232;re v1 (1987-2004)</Title>
         <Abstract>La cartographie foresti&#232;re est une base de donn&#233;es cartographique des formations v&#233;g&#233;tales foresti&#232;res et naturelles. Elle couvre l'ensemble du territoire de France m&#233;tropolitaine. Elle est r&#233;alis&#233;e par interpr&#233;tation de photographies a&#233;riennes infrarouges et affin&#233;e par des contr&#244;les sur le terrain (le seuil minimal de surface cartographi&#233;e est de 2,25 ha).</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Carte foresti&#232;re (v2 : 2006-)</Title>
         <Abstract>Localisation de 32 types de formations v&#233;g&#233;tales sur le territoire. Carte en cours de r&#233;alisation depuis 2006.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>Biotopes d'esp&#232;ces prot&#233;g&#233;es</Title>
         <Abstract>Conservation de l'habitat d'esp&#232;ces prot&#233;g&#233;es. Outil r&#233;glementaires de niveau d&#233;partemental. mise &#224; jour 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>Arr&#234;t&#233;s de protection de g&#233;otope</Title>
         <Abstract>Sites d'int&#233;r&#234;t g&#233;ologique faisant l'objet d&#8217;une interdiction de destruction, d'alt&#233;ration ou de d&#233;gradation du site, ainsi que de pr&#233;l&#232;vement, de destruction ou de d&#233;gradation de fossiles, min&#233;raux et concr&#233;tions pr&#233;sents sur ces sites appel&#233;s &#171; aires de protection de g&#233;otope&#187;.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>Arr&#234;t&#233;s de protection d&#8217;habitats naturels</Title>
         <Abstract>Dispositif visant &#224; prot&#233;ger un habitat naturel (r&#233;cif corallien, tourbi&#232;re, prairie, etc.) en tant que tel, sans qu'il soit besoin d'&#233;tablir qu'il constitue par ailleurs un habitat d'esp&#232;ces prot&#233;g&#233;es. Mise &#224; jour 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>Arr&#234;t&#233;s listes de sites d'int&#233;r&#234;t g&#233;ologique</Title>
         <Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>R&#233;serves de biosph&#232;re</Title>
         <Abstract>R&#233;serves naturelles reconnues par le Programme sur l'Homme et la Biosph&#232;re cr&#233;&#233; par l'Unesco. 09-2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>G&#233;oparcs</Title>
         <Abstract>Les g&#233;oparcs mondiaux UNESCO sont des espaces g&#233;ographiques unifi&#233;s, o&#249; les sites et paysages de port&#233;e g&#233;ologique internationale sont g&#233;r&#233;s selon un concept global de protection, d&#8217;&#233;ducation et de d&#233;veloppement durable</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>Inventaire National du Patrimoine G&#233;ologique (INPG)</Title>
         <Abstract>L'Inventaire National du Patrimoine G&#233;ologique (INPG) est un programme initi&#233; en 2007 de connaissance g&#233;ologique du territoire m&#233;tropolitain et outre-mer, dans lequel chaque site g&#233;ologique naturel est renseign&#233; sur une application web d&#233;di&#233;e (InvenTerre) de fa&#231;on textuelle avec une &#233;valuation patrimoniale et une cartographie associ&#233;es.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -595,10 +602,10 @@
         <Title>Conservatoire du littoral - sites sous responsabilit&#233; du conservatoire</Title>
         <Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces c&#244;tiers et lacustres. Leur acc&#232;s au public est encourag&#233; mais reste d&#233;fini dans des limites compatibles avec la vuln&#233;rabilit&#233; de chaque site</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -626,10 +633,10 @@
         <Title>Conservatoire du littoral : Les p&#233;rim&#232;tres autoris&#233;s</Title>
         <Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces c&#244;tiers et lacustres. Leur acc&#232;s au public est encourag&#233; mais reste d&#233;fini dans des limites compatibles avec la vuln&#233;rabilit&#233; de chaque site.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -657,10 +664,10 @@
         <Title>Terrains des conservatoires d'espaces naturels</Title>
         <Abstract>Les conservatoires d'espaces naturels organisent la ma&#238;trise fonci&#232;re de terrains en vue d'assurer la protection des esp&#232;ces qui y r&#233;sident. 05-2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -688,10 +695,10 @@
         <Title>p&#233;rim&#232;tres de protection de r&#233;serves naturelles</Title>
         <Abstract>Un p&#233;rim&#232;tre de protection peut &#234;tre institu&#233; en p&#233;riph&#233;rie d&#8217;une r&#233;serve naturelle. Il concerne des espaces qui n&#8217;ont pas &#233;t&#233; class&#233;s en r&#233;serve et qui constituent une zone &#171; tampon &#187; autour de l&#8217;espace class&#233;. Ils am&#233;liorent les &#233;changes &#233;cologiques entre la r&#233;serve et sa p&#233;riph&#233;rie. 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -719,10 +726,10 @@
         <Title>Parcs nationaux</Title>
         <Abstract>Les parcs nationaux sont de vastes espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est &#224; la fois de prot&#233;ger des processus &#233;cologiques &#224; large &#233;chelle et de fournir des possibilit&#233;s de d&#233;couverte de la nature. Mise &#224; jour 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -750,10 +757,10 @@
         <Title>Parcs naturels marins</Title>
         <Abstract>Zones maritimes identifi&#233;es pour leur biodiversit&#233; ou par les activit&#233;s humaines faisant l'objet de protection. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -781,10 +788,10 @@
         <Title>Parcs naturels r&#233;gionaux</Title>
         <Abstract>Les parcs naturels r&#233;gionaux ont pour but de valoriser de vastes espaces de fort int&#233;r&#234;t culturel et naturel, et de veiller au d&#233;veloppement durable de ces territoires dont le caract&#232;re rural est souvent tr&#232;s affirm&#233;. 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -812,10 +819,10 @@
         <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
         <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d'un bless&#233; par les services de secours. </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -843,10 +850,10 @@
         <Title>R&#233;serves biologiques</Title>
         <Abstract>Une r&#233;serve biologique est un espace prot&#233;g&#233; en milieu forestier ou en milieu associ&#233; &#224; la for&#234;t (landes, mares, tourbi&#232;res, dunes). Ce statut s'applique aux for&#234;ts g&#233;r&#233;es par l'Office National des For&#234;ts et a pour but la protection d'habitats remarquables ou repr&#233;sentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -874,10 +881,10 @@
         <Title>R&#233;serves Int&#233;grales de Parcs Nationaux</Title>
         <Abstract>Au sein d'un c&#339;ur de parc national, il peut &#234;tre institu&#233; une &#171; r&#233;serve int&#233;grale &#187; afin d'assurer, dans un but scientifique, une protection plus grande de certains &#233;l&#233;ments de la faune et de la flore. 05-2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -905,10 +912,10 @@
         <Title>R&#233;serves naturelles nationales</Title>
         <Abstract>Les r&#233;serves naturelles sont des espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversit&#233; que parfois sur celui de la g&#233;odiversit&#233;. 04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -936,10 +943,10 @@
         <Title>R&#233;serves Naturelles de Corse</Title>
         <Abstract>Les r&#233;serves naturelles sont des espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversit&#233; que parfois sur celui de la g&#233;odiversit&#233;. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -967,10 +974,10 @@
         <Title>R&#233;serves nationales de chasse et de faune sauvage</Title>
         <Abstract>Les r&#233;serves nationales de chasse et de faune sauvage sont des espaces prot&#233;g&#233;s terrestres ou marins dont la gestion est principalement assur&#233;e par l'Office National de la Chasse et de la Faune Sauvage.09-2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -998,10 +1005,10 @@
         <Title>Sites Natura 2000 au titre de la Directive Habitats</Title>
         <Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1029,10 +1036,10 @@
         <Title>Zones &#233;cologiques de nature remarquable (ZNIEFF1)</Title>
         <Abstract>Inventaire des espaces naturels abritant la nature remarquable 09-2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1060,10 +1067,10 @@
         <Title>Zones naturelles d&#8217;int&#233;r&#234;t &#233;cologique faunistique et floristique (ZNIEFF) marine type I</Title>
         <Abstract>Espaces marin homog&#232;nes d&#8217;un point de vue &#233;cologique abritant au moins une esp&#232;ce ou un habitat rare ou menac&#233;, d&#8217;int&#233;r&#234;t local ou r&#233;gional, national ou communautaire. Espaces marin d&#8217;int&#233;r&#234;t fonctionnel pour le fonctionnement &#233;cologique local.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1091,10 +1098,10 @@
         <Title>Zones fonctionnelles de nature remarquable (ZNIEFF2)</Title>
         <Abstract>Inventaire des espaces fonctionnels indispensables &#224; la nature remarquable.&lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1122,10 +1129,10 @@
         <Title>Zones naturelles d&#8217;int&#233;r&#234;t &#233;cologique faunistique et floristique (ZNIEFF) marine type II</Title>
         <Abstract>Grands ensembles naturels ou peu modifi&#233;s marin offrant des potentialit&#233;s biologiques importantes.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1153,10 +1160,10 @@
         <Title>Zones de protection renforc&#233;e </Title>
         <Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>82.645006140</eastBoundLongitude>
-          <southBoundLatitude>-53.627912700</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>82.645</eastBoundLongitude>
+          <southBoundLatitude>-53.6279</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
         <Attribution>
@@ -1184,10 +1191,10 @@
         <Title>Sites NATURA 2000 au titre de la Directive Oiseaux</Title>
         <Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -1215,10 +1222,10 @@
         <Title>R&#233;serves naturelles r&#233;gionales</Title>
         <Abstract>Les r&#233;serves naturelles r&#233;gionales sont g&#233;r&#233;es prioritairement &#224; des fins de conservation de la nature. Elles sont plac&#233;es sous la responsabilit&#233; exclusive des conseils r&#233;gionaux.04-2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>

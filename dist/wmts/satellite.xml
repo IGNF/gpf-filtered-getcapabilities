@@ -1650,8 +1650,8 @@
       <ows:Title>PLEIADES - 2022</ows:Title>
       <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2022</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-67.7132 -21.3733</ows:LowerCorner>
-        <ows:UpperCorner>55.7216 69.3108</ows:UpperCorner>
+        <ows:LowerCorner>-61.6648 -13.0259</ows:LowerCorner>
+        <ows:UpperCorner>45.3136 51.1117</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022</ows:Identifier>
       <Style isDefault="true">
@@ -1683,122 +1683,122 @@
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>2</TileMatrix>
-            <MinTileRow>0</MinTileRow>
+            <MinTileRow>1</MinTileRow>
             <MaxTileRow>2</MaxTileRow>
             <MinTileCol>1</MinTileCol>
             <MaxTileCol>2</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>3</TileMatrix>
-            <MinTileRow>1</MinTileRow>
+            <MinTileRow>2</MinTileRow>
             <MaxTileRow>4</MaxTileRow>
             <MinTileCol>2</MinTileCol>
             <MaxTileCol>5</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>4</TileMatrix>
-            <MinTileRow>3</MinTileRow>
+            <MinTileRow>5</MinTileRow>
             <MaxTileRow>8</MaxTileRow>
-            <MinTileCol>4</MinTileCol>
+            <MinTileCol>5</MinTileCol>
             <MaxTileCol>10</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>5</TileMatrix>
-            <MinTileRow>7</MinTileRow>
+            <MinTileRow>10</MinTileRow>
             <MaxTileRow>17</MaxTileRow>
-            <MinTileCol>9</MinTileCol>
+            <MinTileCol>10</MinTileCol>
             <MaxTileCol>20</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
-            <MinTileRow>14</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>19</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>34</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>40</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
-            <MinTileRow>29</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>39</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>68</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>80</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
-            <MinTileRow>58</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>79</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>137</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>160</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
-            <MinTileRow>117</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>159</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>274</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>320</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
-            <MinTileRow>234</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>319</MinTileCol>
-            <MaxTileCol>670</MaxTileCol>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>549</MaxTileRow>
+            <MinTileCol>336</MinTileCol>
+            <MaxTileCol>640</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>469</MinTileRow>
-            <MaxTileRow>1148</MaxTileRow>
-            <MinTileCol>638</MinTileCol>
-            <MaxTileCol>1340</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1098</MaxTileRow>
+            <MinTileCol>673</MinTileCol>
+            <MaxTileCol>1281</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>939</MinTileRow>
-            <MaxTileRow>2297</MaxTileRow>
-            <MinTileCol>1277</MinTileCol>
-            <MaxTileCol>2681</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2197</MaxTileRow>
+            <MinTileCol>1346</MinTileCol>
+            <MaxTileCol>2563</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>1878</MinTileRow>
-            <MaxTileRow>4594</MaxTileRow>
-            <MinTileCol>2555</MinTileCol>
-            <MaxTileCol>5363</MaxTileCol>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4394</MaxTileRow>
+            <MinTileCol>2692</MinTileCol>
+            <MaxTileCol>5127</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>3756</MinTileRow>
-            <MaxTileRow>9188</MaxTileRow>
-            <MinTileCol>5110</MinTileCol>
-            <MaxTileCol>10727</MaxTileCol>
+            <MinTileRow>5476</MinTileRow>
+            <MaxTileRow>8789</MaxTileRow>
+            <MinTileCol>5385</MinTileCol>
+            <MaxTileCol>10254</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>7513</MinTileRow>
-            <MaxTileRow>18376</MaxTileRow>
-            <MinTileCol>10220</MinTileCol>
-            <MaxTileCol>21455</MaxTileCol>
+            <MinTileRow>10953</MinTileRow>
+            <MaxTileRow>17579</MaxTileRow>
+            <MinTileCol>10771</MinTileCol>
+            <MaxTileCol>20508</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>15027</MinTileRow>
-            <MaxTileRow>36752</MaxTileRow>
-            <MinTileCol>20441</MinTileCol>
-            <MaxTileCol>42911</MaxTileCol>
+            <MinTileRow>21907</MinTileRow>
+            <MaxTileRow>35159</MaxTileRow>
+            <MinTileCol>21542</MinTileCol>
+            <MaxTileCol>41017</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>17</TileMatrix>
-            <MinTileRow>30055</MinTileRow>
-            <MaxTileRow>73504</MaxTileRow>
-            <MinTileCol>40882</MinTileCol>
-            <MaxTileCol>85823</MaxTileCol>
+            <MinTileRow>43815</MinTileRow>
+            <MaxTileRow>70319</MaxTileRow>
+            <MinTileCol>43084</MinTileCol>
+            <MaxTileCol>82034</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>18</TileMatrix>
-            <MinTileRow>60111</MinTileRow>
-            <MaxTileRow>147009</MaxTileRow>
-            <MinTileCol>81764</MinTileCol>
-            <MaxTileCol>171647</MaxTileCol>
+            <MinTileRow>87630</MinTileRow>
+            <MaxTileRow>140639</MaxTileRow>
+            <MinTileCol>86169</MinTileCol>
+            <MaxTileCol>164068</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>

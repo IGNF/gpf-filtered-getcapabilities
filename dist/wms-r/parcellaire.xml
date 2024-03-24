@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>Aire-Parcellaire</Name>
         <Title>D&#233;limitation parcellaire AOC viticole</Title>
         <Abstract>Selon les r&#232;glements europ&#233;ens n&#176;110/2008 du 15 janvier 2008, n&#176;1151/2012 du 21 novembre 2012 et n&#176;1308/2013 de l&#8217;OCM , le cahier des charges des appellations d&#233;finit l&#8217;aire g&#233;ographique. Le terme de &#171; d&#233;limitation parcellaire &#187; d&#233;signe une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations tr&#232;s localis&#233;es des &#233;l&#233;ments du milieu physique. Elle correspond &#224; l'aire de production de la mati&#232;re premi&#232;re. Elle est incluse dans l'aire g&#233;ographique. Donn&#233;es produites par l'Institut National des Origines et la Qualit&#233; (INAO)</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>D&#233;calage de la repr&#233;sentation cadastrale</Title>
         <Abstract>Cartographie des d&#233;calages entre les donn&#233;es BD Parcellaire et Parcellaire Express</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Parcelles cadastrales historiques (2008-2013)</Title>
         <Abstract>Limites des parcelles cadastrales historiques (2008-2013) issues de plans scann&#233;s et de plans num&#233;riques.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.160706980</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.392229740</southBoundLatitude>
-          <northBoundLatitude>51.094486960</northBoundLatitude>
+          <westBoundLongitude>-63.1607</westBoundLongitude>
+          <eastBoundLongitude>55.8464</eastBoundLongitude>
+          <southBoundLatitude>-21.3922</southBoundLatitude>
+          <northBoundLatitude>51.0945</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031017.739156759" miny="-2438709.718419599" maxx="6216796.279352807" maxy="6638024.421214566" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Parcellaire cadastral</Title>
         <Abstract>Parcellaire cadastral &#233;dition : 2023-07-01</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925900000</eastBoundLongitude>
-          <southBoundLatitude>-21.475600000</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676690.824966663" />
         <Attribution>
@@ -387,10 +394,10 @@
         <Title>BDPARCELLAIRE-IMAGE WM 2018-09-27</Title>
         <Abstract>Parcelles cadastrales.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.160706980</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.392229740</southBoundLatitude>
-          <northBoundLatitude>51.090964670</northBoundLatitude>
+          <westBoundLongitude>-63.1607</westBoundLongitude>
+          <eastBoundLongitude>55.8464</eastBoundLongitude>
+          <southBoundLatitude>-21.3922</southBoundLatitude>
+          <northBoundLatitude>51.091</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031017.739156759" miny="-2438709.718419599" maxx="6216796.279352807" maxy="6637400.120399268" />
         <Attribution>

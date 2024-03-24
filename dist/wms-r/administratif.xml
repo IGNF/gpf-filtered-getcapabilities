@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,6 +249,13 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>ADMINEXPRESS-COG-CARTO.LATEST</Name>
         <Title>ADMINEXPRESS COG CARTO</Title>
@@ -285,10 +292,10 @@
         <Title>ADMINEXPRESS COG</Title>
         <Abstract>Limites administratives Express COG code officiel g&#233;ographique. 2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Limites administratives mises &#224; jour en continu.</Title>
         <Abstract>Limites administratives mises &#224; jour en continu, &#233;dition Juillet 2023</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>

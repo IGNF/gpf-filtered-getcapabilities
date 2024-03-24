@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Name>
         <Title>Carte des pentes pour l'agriculture sur la m&#233;tropole</Title>
         <Abstract>Carte des zones ayant une valeur de pente sup&#233;rieure &#224; 10% - source : RGEALTI 2017 au pas de 5m - disponible jusqu'au 1/17062 - m&#233;tropole uniquement - mise &#224; jour le 12/10/2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.161392040</westBoundLongitude>
-          <eastBoundLongitude>56.001810250</eastBoundLongitude>
-          <southBoundLatitude>-21.544624580</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-63.1614</westBoundLongitude>
+          <eastBoundLongitude>56.0018</eastBoundLongitude>
+          <southBoundLatitude>-21.5446</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031093.999687123" miny="-2456938.999658408" maxx="6234093.000531528" maxy="6638833.999242652" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Cours d'eau BCAE derni&#232;re &#233;dition</Title>
         <Abstract>Le code rural et de la p&#234;che maritime pr&#233;voit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherb&#233;es le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2023 au 31 d&#233;cembre 2023. Pour les d&#233;partements non m&#233;tropolitains, veuillez-vous r&#233;f&#233;rer aux arr&#234;t&#233;s pr&#233;fectoraux relatifs aux BCAE.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Registre parcellaire graphique (RPG)</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372500000</westBoundLongitude>
-          <eastBoundLongitude>55.925900000</eastBoundLongitude>
-          <southBoundLatitude>-21.475600000</southBoundLatitude>
-          <northBoundLatitude>51.312100000</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Registre parcellaire graphique (RPG) 2007</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2007.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.263515790</westBoundLongitude>
-          <eastBoundLongitude>56.023733060</eastBoundLongitude>
-          <southBoundLatitude>-21.418997580</southBoundLatitude>
-          <northBoundLatitude>51.220336640</northBoundLatitude>
+          <westBoundLongitude>-63.2635</westBoundLongitude>
+          <eastBoundLongitude>56.0237</eastBoundLongitude>
+          <southBoundLatitude>-21.419</southBoundLatitude>
+          <northBoundLatitude>51.2203</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>Registre parcellaire graphique (RPG) 2008</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2008.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.263515790</westBoundLongitude>
-          <eastBoundLongitude>56.023733060</eastBoundLongitude>
-          <southBoundLatitude>-21.418997580</southBoundLatitude>
-          <northBoundLatitude>51.220336640</northBoundLatitude>
+          <westBoundLongitude>-63.2635</westBoundLongitude>
+          <eastBoundLongitude>56.0237</eastBoundLongitude>
+          <southBoundLatitude>-21.419</southBoundLatitude>
+          <northBoundLatitude>51.2203</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>Registre parcellaire graphique (RPG) 2009</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2009.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.263515790</westBoundLongitude>
-          <eastBoundLongitude>56.023733060</eastBoundLongitude>
-          <southBoundLatitude>-21.418997580</southBoundLatitude>
-          <northBoundLatitude>51.220336640</northBoundLatitude>
+          <westBoundLongitude>-63.2635</westBoundLongitude>
+          <eastBoundLongitude>56.0237</eastBoundLongitude>
+          <southBoundLatitude>-21.419</southBoundLatitude>
+          <northBoundLatitude>51.2203</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>Registre parcellaire graphique (RPG) 2010</Title>
         <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2010.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>Registre parcellaire graphique (RPG) 2011</Title>
         <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2011.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>Registre parcellaire graphique (RPG) 2012</Title>
         <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2012</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>Registre parcellaire graphique (RPG) 2013</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2013</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>Registre parcellaire graphique (RPG) 2014</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2014</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -595,10 +602,10 @@
         <Title>Registre parcellaire graphique 2015</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2015.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -626,10 +633,10 @@
         <Title>Registre parcellaire graphique 2016</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2016.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -657,10 +664,10 @@
         <Title> Registre parcellaire graphique 2017</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2017.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -688,10 +695,10 @@
         <Title>Registre parcellaire graphique 2018</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2018</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -719,10 +726,10 @@
         <Title>Registre parcellaire graphique 2019</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -750,10 +757,10 @@
         <Title>Registre parcellaire graphique 2020</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2020</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -781,10 +788,10 @@
         <Title>Registre parcellaire graphique 2021</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -812,10 +819,10 @@
         <Title>Registre parcellaire graphique 2022</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372500000</westBoundLongitude>
-          <eastBoundLongitude>55.925900000</eastBoundLongitude>
-          <southBoundLatitude>-21.475600000</southBoundLatitude>
-          <northBoundLatitude>51.312100000</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
@@ -843,10 +850,10 @@
         <Title>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000</Title>
         <Abstract>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l&#8217;Observatoire du d&#233;veloppement rural (ODR) en lien avec l&#8217;INRAE.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>

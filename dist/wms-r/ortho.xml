@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>HR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Ortho 20 cm</Title>
         <Abstract>Le produit BD ORTHO&#174; V3 est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert. La BD ORTHO&#174; V3 se compose d'images num&#233;riques (sans habillage ni surcharge) et d'indications de g&#233;or&#233;f&#233;rencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000i&#232;me pour mettre en valeur le territoire, enrichir la visualisation des donn&#233;es et des projets. </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.000000000</westBoundLongitude>
-          <eastBoundLongitude>180.000000000</eastBoundLongitude>
-          <southBoundLatitude>-89.000000000</southBoundLatitude>
-          <northBoundLatitude>89.000000000</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-89</southBoundLatitude>
+          <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es</Title>
         <Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition 02-01-2023 </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.309250770</westBoundLongitude>
-          <eastBoundLongitude>168.298110840</eastBoundLongitude>
-          <southBoundLatitude>-22.972307160</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-178.309</westBoundLongitude>
+          <eastBoundLongitude>168.298</eastBoundLongitude>
+          <southBoundLatitude>-22.9723</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" miny="-2628670.000403985" maxx="18734860.000178713" maxy="6676690.824966663" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Photographies a&#233;riennes</Title>
         <Abstract>Photographies a&#233;riennes</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.000000000</westBoundLongitude>
-          <eastBoundLongitude>180.000000000</eastBoundLongitude>
-          <southBoundLatitude>-89.000000000</southBoundLatitude>
-          <northBoundLatitude>89.000000000</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-89</southBoundLatitude>
+          <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Ortho 50 cm</Title>
         <Abstract>Le produit BD ORTHO&#174; est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.000000000</westBoundLongitude>
-          <eastBoundLongitude>180.000000000</eastBoundLongitude>
-          <southBoundLatitude>-89.000000000</southBoundLatitude>
-          <northBoundLatitude>89.000000000</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-89</southBoundLatitude>
+          <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
         <Style>
@@ -370,10 +377,10 @@
         <Title>BDORTHO en infrarouge fausses couleurs</Title>
         <Abstract>BDORTHO en infrarouge fausses couleurs </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-62.971687500</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.401263110</southBoundLatitude>
-          <northBoundLatitude>51.112418910</northBoundLatitude>
+          <westBoundLongitude>-62.9717</westBoundLongitude>
+          <eastBoundLongitude>55.8464</eastBoundLongitude>
+          <southBoundLatitude>-21.4013</southBoundLatitude>
+          <northBoundLatitude>51.1124</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7009976.186893151" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6641203.469178601" />
         <Attribution>
@@ -401,10 +408,10 @@
         <Title>ortho-express IRC 2023</Title>
         <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -432,10 +439,10 @@
         <Title>ortho-express 2023</Title>
         <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -463,10 +470,10 @@
         <Title>Orthophotographies PCRS TPM traitement ombre</Title>
         <Abstract>Orthophotographies tr&#232;s haute r&#233;solution avec traitements sur les ombres sur la communaut&#233; d'agglom&#233;rations de Toulon Provence M&#233;diterrann&#233;e. Diffusion limit&#233;e.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>5.744386740</westBoundLongitude>
-          <eastBoundLongitude>6.538805060</eastBoundLongitude>
-          <southBoundLatitude>42.960429630</southBoundLatitude>
-          <northBoundLatitude>43.247394540</northBoundLatitude>
+          <westBoundLongitude>5.74439</westBoundLongitude>
+          <eastBoundLongitude>6.53881</eastBoundLongitude>
+          <southBoundLatitude>42.9604</southBoundLatitude>
+          <northBoundLatitude>43.2474</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:LAMB93" minx="922979.011129579" miny="6210678.264465539" maxx="988915.841217765" maxy="6245120.969551470" />
         <Attribution>
@@ -494,10 +501,10 @@
         <Title>PCRS</Title>
         <Abstract>Donn&#233;es du Plan Corps de Rue Simplifi&#233;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.000000000</westBoundLongitude>
-          <eastBoundLongitude>10.000000000</eastBoundLongitude>
-          <southBoundLatitude>40.000000000</southBoundLatitude>
-          <northBoundLatitude>52.000000000</northBoundLatitude>
+          <westBoundLongitude>-5</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>40</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:LAMB93" minx="14409.692309676" miny="5877034.141047161" maxx="1300132.244088568" maxy="7239966.249635384" />
         <MetadataURL type="ISO19115:2003">
@@ -521,10 +528,10 @@
         <Title>Photographies a&#233;riennes tr&#232;s haute r&#233;solution</Title>
         <Abstract>Orthophotographies a&#233;riennes d'une r&#233;solution de 10cm &#224; 5cm selon disponibilit&#233;.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>0.035491220</westBoundLongitude>
-          <eastBoundLongitude>6.023526520</eastBoundLongitude>
-          <southBoundLatitude>43.153348760</southBoundLatitude>
-          <northBoundLatitude>49.696926620</northBoundLatitude>
+          <westBoundLongitude>0.0354912</westBoundLongitude>
+          <eastBoundLongitude>6.02353</eastBoundLongitude>
+          <southBoundLatitude>43.1533</southBoundLatitude>
+          <northBoundLatitude>49.6969</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="3950.864538032" miny="5335342.296170763" maxx="670535.904986179" maxy="6393953.372811806" />
         <Style>

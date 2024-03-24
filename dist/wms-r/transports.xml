@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>SECUROUTE.TE.1TE</Name>
         <Title>Tron&#231;ons routiers 1TE</Title>
         <Abstract>Tron&#231;ons routiers 1TE</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Tron&#231;ons routiers 2TE48</Title>
         <Abstract>Tron&#231;ons routiers 2TE48</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Tous les franchissements</Title>
         <Abstract>Tous les franchissements </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>Autres franchissements</Title>
         <Abstract>Autres franchissements</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>Franchissements passage &#224; niveau</Title>
         <Abstract>Franchissements passage &#224; niveau</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>Franchissements passage &#224; niveau difficile</Title>
         <Abstract>Franchissements passage &#224; niveau difficile</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>Tron&#231;ons routiers TE120</Title>
         <Abstract>Tron&#231;ons routiers TE120</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>Tron&#231;ons routiers TE72</Title>
         <Abstract>Tron&#231;ons routiers TE72</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>Tron&#231;ons routiers TE94</Title>
         <Abstract>Tron&#231;ons routiers TE94</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>Sens de circulation</Title>
         <Abstract>Affichage des sens de circulation du r&#233;seau routier</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>Restrictions UAS cat&#233;gorie Ouverte et A&#233;romod&#233;lisme</Title>
         <Abstract>Repr&#233;sentation des zones soumises &#224; interdictions ou &#224; restrictions pour l&#8217;usage, &#224; titre de loisir, d&#8217;a&#233;ronefs t&#233;l&#233;pilot&#233;s (ou drones), sur le territoire m&#233;tropolitain, &#224; jour au 07-2020. Elle int&#232;gre partiellement les interdictions s'appuyant sur des donn&#233;es non publi&#233;es &#224; l'AIP et ne couvre pas les interdictions temporaires. Cette carte est bas&#233;e sur l&#8217;arr&#234;t&#233; &#171; espace &#187; du 09/11/2017. La repr&#233;sentation des zones soumises &#224; interdictions ou &#224; restrictions n&#8217;engage pas la responsabilit&#233; des producteurs de la donn&#233;e. Le contour des agglom&#233;rations est fourni &#224; titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-9.881468130</westBoundLongitude>
-          <eastBoundLongitude>11.678098690</eastBoundLongitude>
-          <southBoundLatitude>40.575989820</southBoundLatitude>
-          <northBoundLatitude>51.442817580</northBoundLatitude>
+          <westBoundLongitude>-9.88147</westBoundLongitude>
+          <eastBoundLongitude>11.6781</eastBoundLongitude>
+          <southBoundLatitude>40.576</southBoundLatitude>
+          <northBoundLatitude>51.4428</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-1100000.000521561" miny="4950000.000081423" maxx="1299999.999604395" maxy="6699999.999949973" />
         <Attribution>

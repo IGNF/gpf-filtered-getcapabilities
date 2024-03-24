@@ -324,6 +324,112 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>Carroyage DFCI</ows:Title>
+      <ows:Abstract>Le &#171; carroyage DFCI &#187; est un syst&#232;me de maillage g&#233;ographique utilis&#233; en France par les acteurs de la D&#233;fense des For&#234;ts Contre les Incendies (DFCI). Le territoire m&#233;tropolitain est couvert par des carr&#233;s de 100 km de c&#244;t&#233;, identifiables par deux lettres. Chaque carr&#233; de 100 km est divis&#233; en 25 carr&#233;s de 20 km de c&#244;t&#233;, num&#233;rot&#233;s par des chiffres pairs de 0 &#224; 8. Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. L'unit&#233; &#233;l&#233;mentaire est un carreau de 2 kilom&#232;tres de c&#244;t&#233;, d&#233;fini par 6 caract&#232;res (exemple : KD42F7). Pour d&#233;signer un point &#224; l'int&#233;rieur de l'unit&#233; &#233;l&#233;mentaire, la pr&#233;cision est obtenue en d&#233;coupant ce carr&#233; en cinq zones num&#233;rot&#233;es de 1 &#224; 5. Il a &#233;t&#233; cr&#233;&#233; sur une grille qui s'appuie sur la projection Lambert II &#233;tendue. Depuis 2009, il est re-projet&#233; en Lambert 93 avec une l&#233;g&#232;re d&#233;formation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. Les carr&#233;s de 2 km sont d&#233;nomm&#233;s de A &#224; L (sauf I et J) pour les abscisses, et num&#233;rot&#233;s de 0 &#224; 9 pour les ordonn&#233;es. Date des donn&#233;es : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - P&#244;NT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>GEOGRAPHICALGRIDSYSTEM.DFCI</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
+        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>D&#233;faut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>R&#233;gions foresti&#232;res nationales</ows:Title>
       <ows:Abstract>Cette cartographie repr&#233;sente des zones homog&#232;nes du point de vue des types de for&#234;t ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
       <ows:WGS84BoundingBox>

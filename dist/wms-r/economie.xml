@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>DREAL.ZONAGE_PINEL</Name>
         <Title>Zonage du dispositif Pinel en Bretagne 2020-2021</Title>
         <Abstract>La r&#233;duction d'imp&#244;t &#171; Pinel &#187; (code g&#233;n&#233;ral des imp&#244;ts) s'applique &#224; l&#8217;investissement locatif r&#233;alis&#233; dans les zones o&#249; la tension entre l'offre et la demande de logements est la plus forte.  La loi n&#176;2019-1479 du 28 d&#233;cembre 2019 de finances pour 2020, pr&#233;voit &#224; titre exp&#233;rimental, un dispositif d&#233;rogatoire au droit commun pour la Bretagne. Ainsi, les communes ou parties de communes &#233;ligibles &#224; la r&#233;duction d'imp&#244;t &#171; Pinel &#187; sont fix&#233;es par arr&#234;t&#233; du pr&#233;fet de r&#233;gion. Cet arr&#234;t&#233; est pris apr&#232;s avis du pr&#233;sident du conseil r&#233;gional et du comit&#233; r&#233;gional de l'habitat et de l'h&#233;bergement. Cet article pr&#233;voit &#233;galement que le pr&#233;fet de r&#233;gion fixe,  par arr&#234;t&#233;, les plafonds de loyer  et de ressources du locataire pour chaque commune ou partie de commune &#233;ligible et par type de logement.  L&#8217;une des particularit&#233;s de cette exp&#233;rimentation r&#233;side dans l&#8217;&#233;ligibilit&#233; du dispositif qui peut &#234;tre limit&#233;e &#224; une partie seulement du  territoire communal. Lorsqu&#8217;une commune n&#8217;est &#233;ligible que pour une partie de son territoire, deux approches sont distingu&#233;es, &#224; savoir &#224; la maille de  l&#8217;IRIS (correspondant &#224; un quartier) ou &#224; la maille du carreau de 200 m&#232;tres sur 200 m&#232;tres.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150115790</westBoundLongitude>
-          <eastBoundLongitude>-1.006871860</eastBoundLongitude>
-          <southBoundLatitude>47.271904390</southBoundLatitude>
-          <northBoundLatitude>48.906431180</northBoundLatitude>
+          <westBoundLongitude>-5.15012</westBoundLongitude>
+          <eastBoundLongitude>-1.00687</eastBoundLongitude>
+          <southBoundLatitude>47.2719</southBoundLatitude>
+          <northBoundLatitude>48.9064</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573308.267269198" miny="5986569.272384557" maxx="-112084.462749276" maxy="6258999.610598410" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Surface moyenne des logements (secret signal&#233;)</Title>
         <Abstract>Surface moyenne des logements (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Niveau de vie winsoris&#233; des individus (secret signal&#233;)</Title>
         <Abstract>Niveau de vie des individus, retrait&#233; des valeurs extr&#234;mes (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>% des 0-17 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 0 &#224; 17 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>% familles monoparentales (secret signal&#233;)</Title>
         <Abstract>Part des familles monoparentales (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>% des 25-39 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 25 &#224; 39 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>% des 40-54 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 40 &#224; 54 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>% des 55-64 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de 55 &#224; 64 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>% de logements construits apr&#232;s 1990 (secret signal&#233;)</Title>
         <Abstract>Part des logements construits apr&#232;s 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>% de logements construits avant 1945 (secret signal&#233;)</Title>
         <Abstract>Part des logements construits avant 1945 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>% de logements collectifs (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages habitant en logement collectif (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -595,10 +602,10 @@
         <Title>% de logements construits entre 1945 et 1970 (secret signal&#233;)</Title>
         <Abstract>Part des logements construits entre 1945 et 1970 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -626,10 +633,10 @@
         <Title>% de logements construits entre 1970 et 1990 (secret signal&#233;)</Title>
         <Abstract>Part des logements construits entre 1970 et 1990 (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -657,10 +664,10 @@
         <Title>% de logements sociaux (secret signal&#233;)</Title>
         <Abstract>Nombre de m&#233;nages habitant en logement social &#8211; voir d&#233;finition- (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -688,10 +695,10 @@
         <Title>% m&#233;nages de 1 personne (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages de 1 personne (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -719,10 +726,10 @@
         <Title>% m&#233;nages de 5 personnes ou + (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages de 5 personnes ou plus (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -750,10 +757,10 @@
         <Title>% m&#233;nages en maison (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages vivant en maison (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -781,10 +788,10 @@
         <Title>% m&#233;nages pauvres (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages pauvres (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -812,10 +819,10 @@
         <Title>% m&#233;nages propri&#233;taires (secret signal&#233;)</Title>
         <Abstract>Part des m&#233;nages propri&#233;taires (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -843,10 +850,10 @@
         <Title>% des plus de 65 ans (secret signal&#233;)</Title>
         <Abstract>Nombre d&#8217;individus &#226;g&#233;s de plus de 65 ans dans la population (les cases hachur&#233;es correspondent aux donn&#233;es secr&#233;tis&#233;es) </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
@@ -874,10 +881,10 @@
         <Title>Densit&#233; de population</Title>
         <Abstract>Nombre d'individus par km&#178; </Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521500</westBoundLongitude>
-          <eastBoundLongitude>55.925864580</eastBoundLongitude>
-          <southBoundLatitude>-21.475586670</southBoundLatitude>
-          <northBoundLatitude>51.312119280</northBoundLatitude>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>

@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2012</Name>
         <Title>PLEIADES - 2012</Title>
         <Abstract>Agr&#233;gation des images Pl&#233;iades de l'ann&#233;e 2012.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-53.268643530</westBoundLongitude>
-          <eastBoundLongitude>55.554353340</eastBoundLongitude>
-          <southBoundLatitude>-21.353853400</southBoundLatitude>
-          <northBoundLatitude>50.603690180</northBoundLatitude>
+          <westBoundLongitude>-53.2686</westBoundLongitude>
+          <eastBoundLongitude>55.5544</eastBoundLongitude>
+          <southBoundLatitude>-21.3539</southBoundLatitude>
+          <northBoundLatitude>50.6037</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-5929838.273008007" miny="-2434122.187202831" maxx="6184282.325158397" maxy="6551488.253843570" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>PLEIADES - 2013</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2013.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>PLEIADES - 2014</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2014.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -347,10 +354,10 @@
         <Title>PLEIADES &#8211; 2015</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2015.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.196457770</westBoundLongitude>
-          <eastBoundLongitude>77.615594370</eastBoundLongitude>
-          <southBoundLatitude>-37.894191060</southBoundLatitude>
-          <northBoundLatitude>51.028296410</northBoundLatitude>
+          <westBoundLongitude>-178.196</westBoundLongitude>
+          <eastBoundLongitude>77.6156</eastBoundLongitude>
+          <southBoundLatitude>-37.8942</southBoundLatitude>
+          <northBoundLatitude>51.0283</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19836738.940121476" miny="-4564489.322513572" maxx="8640128.442885671" maxy="6626300.557173983" />
         <Attribution>
@@ -378,10 +385,10 @@
         <Title>PLEIADES - 2016</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-54.137335620</westBoundLongitude>
-          <eastBoundLongitude>55.844065760</eastBoundLongitude>
-          <southBoundLatitude>-21.319962420</southBoundLatitude>
-          <northBoundLatitude>50.654902700</northBoundLatitude>
+          <westBoundLongitude>-54.1373</westBoundLongitude>
+          <eastBoundLongitude>55.8441</eastBoundLongitude>
+          <southBoundLatitude>-21.32</southBoundLatitude>
+          <northBoundLatitude>50.6549</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6026540.634122952" miny="-2430071.837543234" maxx="6216532.964229284" maxy="6560475.539042274" />
         <Attribution>
@@ -409,10 +416,10 @@
         <Title>PLEIADES - 2017</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.179622840</westBoundLongitude>
-          <eastBoundLongitude>55.846500090</eastBoundLongitude>
-          <southBoundLatitude>-21.401263110</southBoundLatitude>
-          <northBoundLatitude>51.111742350</northBoundLatitude>
+          <westBoundLongitude>-63.1796</westBoundLongitude>
+          <eastBoundLongitude>55.8465</eastBoundLongitude>
+          <southBoundLatitude>-21.4013</southBoundLatitude>
+          <northBoundLatitude>51.1117</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7033123.443059877" miny="-2439789.747947861" maxx="6216803.952605306" maxy="6641083.503520396" />
         <Attribution>
@@ -440,10 +447,10 @@
         <Title>PLEIADES - 2018</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2018</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.170169040</westBoundLongitude>
-          <eastBoundLongitude>55.864906500</eastBoundLongitude>
-          <southBoundLatitude>-21.409383220</southBoundLatitude>
-          <northBoundLatitude>51.084093040</northBoundLatitude>
+          <westBoundLongitude>-63.1702</westBoundLongitude>
+          <eastBoundLongitude>55.8649</eastBoundLongitude>
+          <southBoundLatitude>-21.4094</southBoundLatitude>
+          <northBoundLatitude>51.0841</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" miny="-2440760.645087240" maxx="6218852.944793838" maxy="6636182.309776641" />
         <Attribution>
@@ -471,10 +478,10 @@
         <Title>PLEIADES - 2019</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2019</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.170169040</westBoundLongitude>
-          <eastBoundLongitude>55.864906500</eastBoundLongitude>
-          <southBoundLatitude>-21.409383220</southBoundLatitude>
-          <northBoundLatitude>51.111742350</northBoundLatitude>
+          <westBoundLongitude>-63.1702</westBoundLongitude>
+          <eastBoundLongitude>55.8649</eastBoundLongitude>
+          <southBoundLatitude>-21.4094</southBoundLatitude>
+          <northBoundLatitude>51.1117</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" miny="-2440760.645087240" maxx="6218852.944793838" maxy="6641083.503520396" />
         <Attribution>
@@ -502,10 +509,10 @@
         <Title>PLEIADES - 2020</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2020</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.172445010</westBoundLongitude>
-          <eastBoundLongitude>45.313553030</eastBoundLongitude>
-          <southBoundLatitude>-13.016858110</southBoundLatitude>
-          <northBoundLatitude>51.111742350</northBoundLatitude>
+          <westBoundLongitude>-63.1724</westBoundLongitude>
+          <eastBoundLongitude>45.3136</eastBoundLongitude>
+          <southBoundLatitude>-13.0169</southBoundLatitude>
+          <northBoundLatitude>51.1117</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7032324.410679275" miny="-1461658.336788509" maxx="5044281.649333599" maxy="6641083.503520396" />
         <Attribution>
@@ -533,10 +540,10 @@
         <Title>PLEIADES - 2021</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2021</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.823423080</westBoundLongitude>
-          <eastBoundLongitude>55.846431160</eastBoundLongitude>
-          <southBoundLatitude>-21.401263110</southBoundLatitude>
-          <northBoundLatitude>51.130000730</northBoundLatitude>
+          <westBoundLongitude>-61.8234</westBoundLongitude>
+          <eastBoundLongitude>55.8464</eastBoundLongitude>
+          <southBoundLatitude>-21.4013</southBoundLatitude>
+          <northBoundLatitude>51.13</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6882151.976362717" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6644321.642626621" />
         <Attribution>
@@ -564,10 +571,10 @@
         <Title>PLEIADES - 2022</Title>
         <Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2022</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.664767100</westBoundLongitude>
-          <eastBoundLongitude>55.721559920</eastBoundLongitude>
-          <southBoundLatitude>-21.373251410</southBoundLatitude>
-          <northBoundLatitude>51.111742350</northBoundLatitude>
+          <westBoundLongitude>-61.6648</westBoundLongitude>
+          <eastBoundLongitude>55.7216</eastBoundLongitude>
+          <southBoundLatitude>-21.3733</southBoundLatitude>
+          <northBoundLatitude>51.1117</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6864490.473457809" miny="-2436440.886917113" maxx="6202895.676501282" maxy="6641083.503520396" />
         <Attribution>
@@ -595,10 +602,10 @@
         <Title>Couche RapidEye 2010</Title>
         <Abstract>Image satellitaire de la France m&#233;tropolitaine effectu&#233;e en 2010 par les satellites de t&#233;l&#233;d&#233;tection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.807254650</westBoundLongitude>
-          <eastBoundLongitude>10.961008730</eastBoundLongitude>
-          <southBoundLatitude>41.201427490</southBoundLatitude>
-          <northBoundLatitude>50.921800000</northBoundLatitude>
+          <westBoundLongitude>-5.80725</westBoundLongitude>
+          <eastBoundLongitude>10.961</eastBoundLongitude>
+          <southBoundLatitude>41.2014</southBoundLatitude>
+          <northBoundLatitude>50.9218</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-646460.630544870" miny="5042097.725044372" maxx="1220173.910404226" maxy="6607472.687901211" />
         <Attribution>
@@ -626,10 +633,10 @@
         <Title>RAPIDEYE - 2011</Title>
         <Abstract>Image satellitaire de la France m&#233;tropolitaine effectu&#233;e en 2011 par les satellites de t&#233;l&#233;d&#233;tection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.807254650</westBoundLongitude>
-          <eastBoundLongitude>10.961008730</eastBoundLongitude>
-          <southBoundLatitude>41.022722590</southBoundLatitude>
-          <northBoundLatitude>51.175192570</northBoundLatitude>
+          <westBoundLongitude>-5.80725</westBoundLongitude>
+          <eastBoundLongitude>10.961</eastBoundLongitude>
+          <southBoundLatitude>41.0227</southBoundLatitude>
+          <northBoundLatitude>51.1752</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-646460.630544870" miny="5015693.818626023" maxx="1220173.910404226" maxy="6652341.963327354" />
         <Attribution>
@@ -657,10 +664,10 @@
         <Title>SPOT 6 - 2013</Title>
         <Abstract>Couche mill&#233;sim&#233;e SPOT 2013 agr&#233;geant les orthophotographies satellites du projet Geosud.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>0.563584700</westBoundLongitude>
-          <eastBoundLongitude>4.291908230</eastBoundLongitude>
-          <southBoundLatitude>44.880939420</southBoundLatitude>
-          <northBoundLatitude>50.387858440</northBoundLatitude>
+          <westBoundLongitude>0.563585</westBoundLongitude>
+          <eastBoundLongitude>4.29191</eastBoundLongitude>
+          <southBoundLatitude>44.8809</southBoundLatitude>
+          <northBoundLatitude>50.3879</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="62737.961822880" miny="5602797.268862667" maxx="477773.038695060" maxy="6513719.021558908" />
         <Attribution>
@@ -688,10 +695,10 @@
         <Title>SPOT 6 - 2014</Title>
         <Abstract>Couche mill&#233;sim&#233;e SPOT 2014 agr&#233;geant les orthophotographies satellites du projet Geosud.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.499994630</westBoundLongitude>
-          <eastBoundLongitude>179.499994630</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740</southBoundLatitude>
-          <northBoundLatitude>74.999999740</northBoundLatitude>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
@@ -719,10 +726,10 @@
         <Title>SPOT 6-7 - 2015</Title>
         <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2015. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la t&#233;l&#233;mesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.814139290</westBoundLongitude>
-          <eastBoundLongitude>55.856042780</eastBoundLongitude>
-          <southBoundLatitude>-21.410362840</southBoundLatitude>
-          <northBoundLatitude>51.106015230</northBoundLatitude>
+          <westBoundLongitude>-61.8141</westBoundLongitude>
+          <eastBoundLongitude>55.856</eastBoundLongitude>
+          <southBoundLatitude>-21.4104</southBoundLatitude>
+          <northBoundLatitude>51.106</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6881118.509587285" miny="-2440877.778951888" maxx="6217866.239996905" maxy="6640068.057554867" />
         <Attribution>
@@ -750,10 +757,10 @@
         <Title>SPOT 6-7 - 2016</Title>
         <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2016</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.850048340</westBoundLongitude>
-          <eastBoundLongitude>55.856247730</eastBoundLongitude>
-          <southBoundLatitude>-21.410362840</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-61.85</westBoundLongitude>
+          <eastBoundLongitude>55.8562</eastBoundLongitude>
+          <southBoundLatitude>-21.4104</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6885115.886748156" miny="-2440877.778951888" maxx="6217889.054926543" maxy="6641180.194398536" />
         <Attribution>
@@ -781,10 +788,10 @@
         <Title>SPOT 6-7 - 2017</Title>
         <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2017</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.853381540</westBoundLongitude>
-          <eastBoundLongitude>55.856247730</eastBoundLongitude>
-          <southBoundLatitude>-21.410362840</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-61.8534</westBoundLongitude>
+          <eastBoundLongitude>55.8562</eastBoundLongitude>
+          <southBoundLatitude>-21.4104</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-6885486.936874867" miny="-2440877.778951888" maxx="6217889.054926543" maxy="6641180.194398536" />
         <Attribution>
@@ -812,10 +819,10 @@
         <Title>SPOT 6-7 - 2018</Title>
         <Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2018</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.571026220</westBoundLongitude>
-          <eastBoundLongitude>10.739428390</eastBoundLongitude>
-          <southBoundLatitude>41.259349040</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
         <Attribution>
@@ -843,10 +850,10 @@
         <Title>SPOT 6-7 - 2019</Title>
         <Abstract>Agr&#233;gation des images SPOT</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.571026220</westBoundLongitude>
-          <eastBoundLongitude>10.739428390</eastBoundLongitude>
-          <southBoundLatitude>41.259349040</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
         <Attribution>
@@ -874,10 +881,10 @@
         <Title>SPOT 6-7 - 2020</Title>
         <Abstract>Agr&#233;gation des images SPOT 2020</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.571026220</westBoundLongitude>
-          <eastBoundLongitude>10.739428390</eastBoundLongitude>
-          <southBoundLatitude>41.259349040</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
         <Attribution>
@@ -905,10 +912,10 @@
         <Title>SPOT 6-7 - 2021</Title>
         <Abstract>Agr&#233;gation des images SPOT 2021</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.571026220</westBoundLongitude>
-          <eastBoundLongitude>10.739428390</eastBoundLongitude>
-          <southBoundLatitude>41.259349040</southBoundLatitude>
-          <northBoundLatitude>51.112287650</northBoundLatitude>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
         <Attribution>

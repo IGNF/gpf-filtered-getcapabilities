@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>IRRADIATION.SOLAIRE</Name>
         <Title>Irradiation solaire horizontale annuelle moyenne</Title>
         <Abstract>Cette couche repr&#233;sente les valeurs annuelles horizontales moyennes (ie "re&#231;ues sur une surface horizontale") d'irradiation solaire exprim&#233;es en kWh/m&#178;. Les donn&#233;es sont issues de Solargis et calcul&#233;es sur une p&#233;riode 1994-2018. Pour plus d'informations : www.solargis.com</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-6.000000000</westBoundLongitude>
-          <eastBoundLongitude>10.000000000</eastBoundLongitude>
-          <southBoundLatitude>41.000000000</southBoundLatitude>
-          <northBoundLatitude>52.000000000</northBoundLatitude>
+          <westBoundLongitude>-6</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>41</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-667916.944759641" miny="5012341.663847514" maxx="1113194.907932736" maxy="6800125.454397307" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>Potentiel &#233;olien terrestre - gisement de vent &#224; 140m</Title>
         <Abstract>Cartes de la moyenne 2000-2019 du vent moyen sur 10 minutes, &#224; 140m m&#232;tres de hauteur, sur toute la m&#233;tropole&#160;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-6.012500000</westBoundLongitude>
-          <eastBoundLongitude>10.512500000</eastBoundLongitude>
-          <southBoundLatitude>40.987500000</southBoundLatitude>
-          <northBoundLatitude>51.512500000</northBoundLatitude>
+          <westBoundLongitude>-6.0125</westBoundLongitude>
+          <eastBoundLongitude>10.5125</eastBoundLongitude>
+          <southBoundLatitude>40.9875</southBoundLatitude>
+          <northBoundLatitude>51.5125</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-669308.438394557" miny="5010498.091496715" maxx="1170246.146964288" maxy="6712454.668415265" />
         <Attribution>
@@ -316,10 +323,10 @@
         <Title>Potentiel &#233;olien terrestre - gisement de vent &#224; 160m</Title>
         <Abstract>Cartes de la moyenne 2000-2019 du vent moyen sur 10 minutes, &#224; 160m m&#232;tres de hauteur, sur toute la m&#233;tropole&#160;</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-6.012500000</westBoundLongitude>
-          <eastBoundLongitude>10.512500000</eastBoundLongitude>
-          <southBoundLatitude>40.987500000</southBoundLatitude>
-          <northBoundLatitude>51.512500000</northBoundLatitude>
+          <westBoundLongitude>-6.0125</westBoundLongitude>
+          <eastBoundLongitude>10.5125</eastBoundLongitude>
+          <southBoundLatitude>40.9875</southBoundLatitude>
+          <northBoundLatitude>51.5125</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-669308.438394557" miny="5010498.091496715" maxx="1170246.146964288" maxy="6712454.668415265" />
         <Attribution>

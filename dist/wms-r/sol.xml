@@ -78,8 +78,8 @@
       <Format>XML</Format>
     </Exception>
     <Layer>
-      <Title>cache IGN</Title>
-      <Abstract>Cache IGN</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
       <CRS>CRS:84</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>IGNF:LAMB93</CRS>
@@ -249,15 +249,22 @@
       <CRS>IGNF:RGFG95GEO</CRS>
       <CRS>IGNF:STPM50GEO</CRS>
       <CRS>IGNF:WGS84G</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180</westBoundLongitude>
+        <eastBoundLongitude>180</eastBoundLongitude>
+        <southBoundLatitude>-90</southBoundLatitude>
+        <northBoundLatitude>90</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer queryable="1">
         <Name>BDCARTO_ETAT-MAJOR.NIVEAU3</Name>
         <Title>BD CARTO Etat-major N3</Title>
         <Abstract>BDCARTO ETAT-MAJOR NIVEAU 3</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150115790</westBoundLongitude>
-          <eastBoundLongitude>7.193835250</eastBoundLongitude>
-          <southBoundLatitude>42.642334820</southBoundLatitude>
-          <northBoundLatitude>51.093800740</northBoundLatitude>
+          <westBoundLongitude>-5.15012</westBoundLongitude>
+          <eastBoundLongitude>7.19384</eastBoundLongitude>
+          <southBoundLatitude>42.6423</southBoundLatitude>
+          <northBoundLatitude>51.0938</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573308.267269198" miny="5257689.049214724" maxx="800814.076880702" maxy="6637902.789877408" />
         <Attribution>
@@ -285,10 +292,10 @@
         <Title>BD CARTO Etat-major N4</Title>
         <Abstract>BDCARTO ETAT-MAJOR NIVEAU 4</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.150472720</westBoundLongitude>
-          <eastBoundLongitude>9.570543240</eastBoundLongitude>
-          <southBoundLatitude>41.325209640</southBoundLatitude>
-          <northBoundLatitude>51.099054180</northBoundLatitude>
+          <westBoundLongitude>-5.15047</westBoundLongitude>
+          <eastBoundLongitude>9.57054</eastBoundLongitude>
+          <southBoundLatitude>41.3252</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
