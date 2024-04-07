@@ -658,6 +658,11 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
@@ -3027,48 +3032,6 @@
       <TileMatrixSetLink>
         <TileMatrixSet>PM</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>0</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>0</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>0</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>1</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>1</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>2</TileMatrix>
-            <MinTileRow>1</MinTileRow>
-            <MaxTileRow>2</MaxTileRow>
-            <MinTileCol>1</MinTileCol>
-            <MaxTileCol>2</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>2</MinTileRow>
-            <MaxTileRow>5</MaxTileRow>
-            <MinTileCol>2</MinTileCol>
-            <MaxTileCol>5</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>10</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>11</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>10</MinTileRow>
-            <MaxTileRow>21</MaxTileRow>
-            <MinTileCol>10</MinTileCol>
-            <MaxTileCol>23</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>

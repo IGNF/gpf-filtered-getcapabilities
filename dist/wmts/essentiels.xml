@@ -77,8 +77,8 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Parcellaire cadastral &#233;dition : 2024-01-01</ows:Title>
-      <ows:Abstract>Parcellaire cadastral &#233;dition : 2024-01-01</ows:Abstract>
+      <ows:Title>Parcellaire cadastral &#233;dition : 2023-07-01</ows:Title>
+      <ows:Abstract>Parcellaire cadastral &#233;dition : 2023-07-01</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -590,6 +590,13 @@
             <MaxTileRow>1048576</MaxTileRow>
             <MinTileCol>0</MinTileCol>
             <MaxTileCol>1048575</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>21</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>2097152</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>2097151</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
