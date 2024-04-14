@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4523">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3650">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -315,8 +315,8 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>BAN-PLUS:adresse</Name>
-      <Title>BAN PLUS 22.4</Title>
-      <Abstract>Base Nationale Adresse PLUS</Abstract>
+      <Title>BAN PLUS adresse</Title>
+      <Abstract>Base Nationale Adresse PLUS : adresse</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -328,8 +328,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_bati</Name>
-      <Title>BAN PLUS 22.4</Title>
-      <Abstract>Base Nationale Adresse PLUS</Abstract>
+      <Title>BAN PLUS lien adresse b&#226;ti</Title>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse b&#226;ti</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -341,8 +341,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_parcelle</Name>
-      <Title>BAN PLUS 22.4</Title>
-      <Abstract>Base Nationale Adresse PLUS</Abstract>
+      <Title>BAN PLUS lien adresse parcelle</Title>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse parcelle</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -354,8 +354,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_support</Name>
-      <Title>BAN PLUS 22.4</Title>
-      <Abstract>Base Nationale Adresse PLUS</Abstract>
+      <Title>BAN PLUS lien adresse support</Title>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse support</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -367,8 +367,8 @@
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_bati_parcelle</Name>
-      <Title>BAN PLUS 22.4</Title>
-      <Abstract>Base Nationale Adresse PLUS</Abstract>
+      <Title>BAN PLUS lien b&#226;ti parcelle</Title>
+      <Abstract>Base Nationale Adresse PLUS : lien b&#226;ti parcelle</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
