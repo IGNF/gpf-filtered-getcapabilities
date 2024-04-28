@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2362">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2368">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -522,20 +522,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>PRSF_BDD_GLP_2023:prs_glp</Name>
-      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
-      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>for&#234;t</ows:Keyword>
-        <ows:Keyword>secours</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::32620</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-61.80877874 15.84342129</ows:LowerCorner>
-        <ows:UpperCorner>-61.00764963 16.50991853</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>PRSF_BDD_REU_2023:prs_reu</Name>
       <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
       <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
@@ -547,6 +533,20 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
         <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PRSF_BDD_GLP_2023:prs_glp</Name>
+      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
+      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>for&#234;t</ows:Keyword>
+        <ows:Keyword>secours</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::32620</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.80877874 15.84342129</ows:LowerCorner>
+        <ows:UpperCorner>-61.00764963 16.50991853</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
