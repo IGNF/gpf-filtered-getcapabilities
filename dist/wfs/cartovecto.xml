@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4090">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2298">
   <ows:ServiceIdentification>
     <ows:Title />
     <ows:Abstract />
@@ -387,6 +387,16 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.640625 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>TRACES.RANDO.HIVERNALE:traces_rando_hivernale</Name>
+      <Title>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Title>
+      <Abstract>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Abstract>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>5.43859375 44.199804688</ows:LowerCorner>
+        <ows:UpperCorner>7.09890625 46.314335938</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

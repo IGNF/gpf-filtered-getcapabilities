@@ -846,6 +846,37 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>PROTECTEDAREAS.RAMSAR</Name>
+        <Title>Zones humides d'importance internationale</Title>
+        <Abstract>Un site Ramsar est un espace d&#233;sign&#233; en application de la Convention relative aux zones humides d'importance internationale, particuli&#232;rement comme habitats des oiseaux d'eau, dont le trait&#233; a &#233;t&#233; sign&#233; en 1971 sur les bords de la mer Caspienne (Iran). 16-11-2021</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Mus&#233;um national d'Histoire naturelle</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <LogoURL width="50" height="57">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>PROTECTEDAREAS.RAMSAR</Name>
+          <Title>PROTECTEDAREAS.RAMSAR</Title>
+          <Abstract>L&#233;gende RAMSAR</Abstract>
+          <LegendURL width="300" height="51">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.RAMSAR-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>PROTECTEDAREAS.RB</Name>
         <Title>R&#233;serves biologiques</Title>
         <Abstract>Une r&#233;serve biologique est un espace prot&#233;g&#233; en milieu forestier ou en milieu associ&#233; &#224; la for&#234;t (landes, mares, tourbi&#232;res, dunes). Ce statut s'applique aux for&#234;ts g&#233;r&#233;es par l'Office National des For&#234;ts et a pour but la protection d'habitats remarquables ou repr&#233;sentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
@@ -1026,6 +1057,37 @@
           <LegendURL width="300" height="57">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.SIC-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>PROTECTEDAREAS.UNESCO</Name>
+        <Title>Sites inscrits au patrimoine mondial de l&#8217;UNESCO (biens naturels ou mixtes)</Title>
+        <Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est consid&#233;r&#233; comme h&#233;ritage commun de l'humanit&#233;. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Mus&#233;um national d'Histoire naturelle</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <LogoURL width="50" height="57">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>

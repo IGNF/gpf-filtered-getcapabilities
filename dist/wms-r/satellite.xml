@@ -938,6 +938,68 @@
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2022</Name>
+        <Title>SPOT 6-7 - 2022</Title>
+        <Abstract>Agr&#233;gation des images SPOT 2022</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
+        <Attribution>
+          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2023</Name>
+        <Title>SPOT 6-7 - 2023</Title>
+        <Abstract>Agr&#233;gation des images SPOT 2023</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.57103</westBoundLongitude>
+          <eastBoundLongitude>10.7394</eastBoundLongitude>
+          <southBoundLatitude>41.2593</southBoundLatitude>
+          <northBoundLatitude>51.1123</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-620163.802006376" miny="5050671.178517254" maxx="1195507.699785626" maxy="6641180.194398536" />
+        <Attribution>
+          <Title>Centre national d'&#233;tudes spatiales (CNES)</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.cnes.fr/" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>
