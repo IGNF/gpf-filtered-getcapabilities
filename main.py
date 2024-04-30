@@ -56,14 +56,14 @@ def createKeyServiceLayersFile(
       else:
         continue
 
-      if row["Cle publique Geoportail"] == "cle personnelle *":
+      if row["Thématique"] == "cle personnelle *":
         continue
-      if row["Cle publique Geoportail"] == "":
+      if row["Thématique"] == "":
         continue
 
       newRow = {
         "service": service,
-        "key": row["Cle publique Geoportail"],
+        "key": row["Thématique"],
         "layer": row["Nom technique"].strip()
       }
       writer.writerow(newRow)
