@@ -1,4 +1,5 @@
 totp=`python3 update_annexes/totp.py --totp_key $3`
+echo $totp
 
 user=`curl --request POST \
 	  	  --url https://sso.geopf.fr/realms/geoplateforme/protocol/openid-connect/token \
