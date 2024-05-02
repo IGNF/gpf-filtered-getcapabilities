@@ -27,4 +27,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           totp_key: ${{ secrets.TOTP_KEY }}
         run: |
-          bash update_annexes/update_annexe.sh $username '$password' $totp_key
+          bash update_annexes/update_annexe.sh $username $password $totp_key
