@@ -1,13 +1,20 @@
-totp=`python3 update_annexes/totp.py --totp_key $3`
-echo $totp
+token=null
+compteur=0
+while [ "$token" == "null" ] && [[ compteur != 10 ]]
+do
+	sleep 5
+ 	compteur=$((compteur+1))
+	totp=`python3 update_annexes/totp.py --totp_key $3`
+	echo $totp
 
-user=`curl --request POST \
+	user=`curl --request POST \
 	  	  --url https://sso.geopf.fr/realms/geoplateforme/protocol/openid-connect/token \
 		  --header "content-type: application/x-www-form-urlencoded" \
 		  -d 'client_id=gpf-warehouse&username='$1'&password='$2'&client_secret=BK2G7Vvkn7UDc8cV7edbCnHdYminWVw2&grant_type=password&totp='$totp`
 
-token=`echo $user | jq '.access_token' | cut -d'"' -f2`
-echo $token	 
+	token=`echo $user | jq '.access_token' | cut -d'"' -f2`
+	echo $token
+done
 
 for dossier in `ls dist`
 do
