@@ -7,7 +7,7 @@ do
 	totp=`python3 update_annexes/totp.py --totp_key $3`
 	echo $totp
 
- 	echo 'client_id=gpf-warehouse&username='$1'&password='$2'&client_secret=BK2G7Vvkn7UDc8cV7edbCnHdYminWVw2&grant_type=password&totp='$totp
+ 	echo 'client_id=gpf-warehouse&username='$1'&passwod='$2'&client_secret=BK2G7Vvkn7UDc8cV7edbCnHdYminWVw2&grant_type=password&totp='$totp
 
 	curl --request POST \
 	  	  --url https://sso.geopf.fr/realms/geoplateforme/protocol/openid-connect/token \
