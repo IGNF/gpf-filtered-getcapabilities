@@ -1,0 +1,30 @@
+name: update_annexes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 15 * * 0"
+
+permissions: write-all
+
+jobs:
+  refresh_config:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: execute py script
+        shell: bash
+        env:
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          totp_key: ${{ secrets.TOTP_KEY }}
+        run: |
+          bash update_annexes/update_annexe.sh $username $password $totp_key
