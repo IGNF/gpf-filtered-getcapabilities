@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8412" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9831" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -6843,6 +6843,7 @@
       <CRS>EPSG:68186405</CRS>
       <CRS>EPSG:68206405</CRS>
       <CRS>EPSG:69036405</CRS>
+      <CRS>EPSG:404000</CRS>
       <CRS>EPSG:310486003</CRS>
       <CRS>EPSG:210006000</CRS>
       <CRS>EPSG:110599000</CRS>
@@ -7190,7 +7191,6 @@
       <CRS>EPSG:110642000</CRS>
       <CRS>EPSG:310547358</CRS>
       <CRS>EPSG:310547359</CRS>
-      <CRS>EPSG:404000</CRS>
       <CRS>CRS:84</CRS>
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
@@ -7511,7 +7511,7 @@
       </Layer>
       <Layer queryable="1">
         <Name>UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE</Name>
-        <Title>Accueil Police - Gendarmerie 2022.2</Title>
+        <Title>Accueil Police - Gendarmerie</Title>
         <Abstract>Les points d'accueil de la police et de gendarmerie comprennent les commissariats et les antennes de police.Ils permettent de d&#233;poser les plaintes et d'accomplir certaines d&#233;marches administratives. Les points d'accueil de police sont g&#233;n&#233;ralement situ&#233;s en ville et les gendarmeries en zone rurale, littorale ou de montagne.</Abstract>
         <KeywordList>
           <Keyword>D&#233;fense et s&#233;curit&#233;</Keyword>
