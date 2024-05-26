@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9831" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11071" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title />
@@ -6843,7 +6843,6 @@
       <CRS>EPSG:68186405</CRS>
       <CRS>EPSG:68206405</CRS>
       <CRS>EPSG:69036405</CRS>
-      <CRS>EPSG:404000</CRS>
       <CRS>EPSG:310486003</CRS>
       <CRS>EPSG:210006000</CRS>
       <CRS>EPSG:110599000</CRS>
@@ -7191,6 +7190,7 @@
       <CRS>EPSG:110642000</CRS>
       <CRS>EPSG:310547358</CRS>
       <CRS>EPSG:310547359</CRS>
+      <CRS>EPSG:404000</CRS>
       <CRS>CRS:84</CRS>
       <EX_GeographicBoundingBox>
         <westBoundLongitude>-180.0</westBoundLongitude>
@@ -7468,44 +7468,6 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.MUSEUM" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
-        <Name>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</Name>
-        <Title>Points de rep&#232;re routiers (PR)</Title>
-        <Abstract>Ensemble des points de rep&#232;re situ&#233;s sur les routes d&#233;partementales, nationales ou infrastructures autorouti&#232;res conc&#233;d&#233;es de France m&#233;tropolitaine. Edition 22.4</Abstract>
-        <KeywordList>
-          <Keyword>PR</Keyword>
-          <Keyword>autoroutes</Keyword>
-          <Keyword>point de rep&#232;re</Keyword>
-          <Keyword>routes d&#233;partementales</Keyword>
-          <Keyword>routes nationales</Keyword>
-        </KeywordList>
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.15371169</westBoundLongitude>
-          <eastBoundLongitude>55.83677582</eastBoundLongitude>
-          <southBoundLatitude>-21.38982666</southBoundLatitude>
-          <northBoundLatitude>51.31504801</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
-        <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>default-style-TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</Name>
-          <Title>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST style</Title>
-          <Abstract>Default style for TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST" />
           </LegendURL>
         </Style>
       </Layer>
