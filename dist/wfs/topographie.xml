@@ -1,7 +1,7 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4224">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2053">
   <ows:ServiceIdentification>
-    <ows:Title />
-    <ows:Abstract />
+    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
+    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -446,6 +446,20 @@
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDTOPO_V3:commune_associee_ou_deleguee</Name>
+      <Title>BDTOPO : Communes associ&#233;es ou d&#233;l&#233;gu&#233;es</Title>
+      <Abstract>Communes associ&#233;es ou d&#233;l&#233;gu&#233;es &#8722; BDTOPO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>commune_associee_ou_deleguee</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>

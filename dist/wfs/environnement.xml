@@ -1,7 +1,7 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4709">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2053">
   <ows:ServiceIdentification>
-    <ows:Title />
-    <ows:Abstract />
+    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
+    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -522,17 +522,17 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>PRSF_BDD_REU_2023:prs_reu</Name>
+      <Name>PROTECTEDAREAS.PRSF:prs_fr</Name>
       <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
       <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
       <ows:Keywords>
         <ows:Keyword>for&#234;t</ows:Keyword>
         <ows:Keyword>secours</ows:Keyword>
       </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2975</DefaultCRS>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
-        <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
+        <ows:LowerCorner>-4.90241181 41.74721942</ows:LowerCorner>
+        <ows:UpperCorner>9.38950578 50.73142152</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -550,6 +550,20 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>PRSF_BDD_REU_2023:prs_reu</Name>
+      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
+      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>for&#234;t</ows:Keyword>
+        <ows:Keyword>secours</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2975</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
+        <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>PRSF_BDD_GLP_2023:prs_glp</Name>
       <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
       <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
@@ -561,20 +575,6 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80877874 15.84342129</ows:LowerCorner>
         <ows:UpperCorner>-61.00764963 16.50991853</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>PROTECTEDAREAS.PRSF:prs_fr</Name>
-      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
-      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>for&#234;t</ows:Keyword>
-        <ows:Keyword>secours</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-4.90241181 41.74721942</ows:LowerCorner>
-        <ows:UpperCorner>9.38950578 50.73142152</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -630,6 +630,19 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>PROTECTEDAREAS.RNCF:rncfs</Name>
+      <Title>R&#233;serves nationales de chasse et de faune sauvage</Title>
+      <Abstract>Les r&#233;serves nationales de chasse et de faune sauvage sont des espaces prot&#233;g&#233;s terrestres ou marins dont la gestion est principalement assur&#233;e par l'Office National de la Chasse et de la Faune Sauvage. 09-2022</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Ecologie</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-2.911376953 42.592299805</ows:LowerCorner>
+        <ows:UpperCorner>8.239746094 48.967646484</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>PROTECTEDAREAS.RNN:rnn</Name>
       <Title>R&#233;serves naturelles nationales</Title>
       <Abstract>Les r&#233;serves naturelles sont des espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversit&#233; que parfois sur celui de la g&#233;odiversit&#233;. Mise &#224; jour 09-2022</Abstract>
@@ -640,6 +653,19 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -53.82703125</ows:LowerCorner>
         <ows:UpperCorner>82.265625 51.16890625</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PROTECTEDSITES.MNHN.RESERVES-REGIONALES:rnr</Name>
+      <Title>R&#233;serves naturelles r&#233;gionales</Title>
+      <Abstract>Les r&#233;serves naturelles r&#233;gionales sont g&#233;r&#233;es prioritairement &#224; des fins de conservation de la nature. Elles sont plac&#233;es sous la responsabilit&#233; exclusive des conseils r&#233;gionaux.09-2022</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Biodiversit&#233;</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.6198922 42.44788121</ows:LowerCorner>
+        <ows:UpperCorner>7.68631242 51.02328693</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
