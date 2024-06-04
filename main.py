@@ -34,7 +34,7 @@ def getCapabilities(url):
   return capabilities
 
 def createKeyServiceLayersFile(
-  url="https://geoservices.ign.fr/sites/default/files/2024-05/Tableau-suivi-services-web-31-05-2024.csv",
+  url="https://data.geopf.fr/annexes/ressources/capabilities/services.csv",
   filePath="resources_by_key.csv"):
   with requests.Session() as s:
     download = s.get(url)
