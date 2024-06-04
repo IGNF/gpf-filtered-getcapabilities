@@ -2,7 +2,7 @@
 Fournit des getCapabilities filtrés par thématiques pour les services de la géoplateforme.
 
 ### Données en entrée
-Se base sur le fichier "Tableau suivi services-web 25-04-2024.csv" disponible sur le site [géoservices](https://geoservices.ign.fr/documentation/services/tableau_ressources) et sur les getCapabilities géoplateforme
+Se base sur le fichier "services.csv" disponible à cette adresse https://data.geopf.fr/annexes/ressources/capabilities/services.csv et sur les getCapabilities géoplateforme
 
 ### Données en sortie
 1 fichier getCapabilities par service de diffusion (WMTS, WMS Raster, WMS Vecteur et WFS) et par thématique (ex "clef").
