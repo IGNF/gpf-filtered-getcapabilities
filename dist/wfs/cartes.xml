@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2127">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2254">
   <ows:ServiceIdentification>
     <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
     <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
@@ -313,6 +313,19 @@
     </ows:Constraint>
   </ows:OperationsMetadata>
   <FeatureTypeList>
+    <FeatureType>
+      <Name>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE:graphe_scan25</Name>
+      <Title>Graphe de mosa&#239;quage du produit SCAN25</Title>
+      <Abstract>Le graphe de mosa&#239;quage du produit SCAN25 fournit le zonage utilis&#233; pour la mise &#224; jour des donn&#233;es SCAN25 ainsi que diff&#233;rentes m&#233;tadonn&#233;es. 07-2023</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Graphe</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-178.2421875 -21.597265625</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.16890625</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
     <FeatureType>
       <Name>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950.GRAPHE:ta_france_cartes_50k_1950_date_wm</Name>
       <Title>Graphe de raccord du SCAN50 Historique de 1950</Title>

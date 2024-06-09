@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7056" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7271" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
@@ -450,8 +450,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>COMMUNESTOURISTIQUES</Name>
-        <Title>COMMUNES_TOURISTIQUES &#233;dition 2024-05-01</Title>
-        <Abstract>COMMUNES_TOURISTIQUES &#233;dition 2024-05-01</Abstract>
+        <Title>COMMUNES_TOURISTIQUES &#233;dition 2024-06-01</Title>
+        <Abstract>COMMUNES_TOURISTIQUES &#233;dition 2024-06-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -518,8 +518,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>STATIONSCLASSEES</Name>
-        <Title>STATIONS_CLASSEES &#233;dition 2024-05-01</Title>
-        <Abstract>STATIONS_CLASSEES &#233;dition 2024-05-01</Abstract>
+        <Title>STATIONS_CLASSEES &#233;dition 2024-06-01</Title>
+        <Abstract>STATIONS_CLASSEES &#233;dition 2024-06-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -552,8 +552,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>STATIONSVERTES</Name>
-        <Title>STATIONS_VERTES &#233;dition 2024-05-01</Title>
-        <Abstract>STATIONS_VERTES &#233;dition 2024-05-01</Abstract>
+        <Title>STATIONS_VERTES &#233;dition 2024-06-01</Title>
+        <Abstract>STATIONS_VERTES &#233;dition 2024-06-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -653,9 +653,33 @@
         </Style>
       </Layer>
       <Layer queryable="1">
+        <Name>TRACES.RANDO.HIVERNALE</Name>
+        <Title>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Title>
+        <Abstract>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>5.43859375</westBoundLongitude>
+          <eastBoundLongitude>7.09890625</eastBoundLongitude>
+          <southBoundLatitude>44.199804688</southBoundLatitude>
+          <northBoundLatitude>46.314335938</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="5.43859375" miny="44.199804688" maxx="7.09890625" maxy="46.314335938" />
+        <BoundingBox CRS="EPSG:4326" minx="44.199804688" miny="5.43859375" maxx="46.314335938" maxy="7.09890625" />
+        <Style>
+          <Name>default-style-TRACES.RANDO.HIVERNALE</Name>
+          <Title>TRACES.RANDO.HIVERNALE style</Title>
+          <Abstract>Default style for TRACES.RANDO.HIVERNALE layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=TRACES.RANDO.HIVERNALE" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
         <Name>VILLAGESETAPE</Name>
-        <Title>VILLAGES_ETAPE &#233;dition 2024-05-01</Title>
-        <Abstract>VILLAGES_ETAPE &#233;dition 2024-05-01</Abstract>
+        <Title>VILLAGES_ETAPE &#233;dition 2024-06-01</Title>
+        <Abstract>VILLAGES_ETAPE &#233;dition 2024-06-01</Abstract>
         <KeywordList>
           <Keyword>village</Keyword>
         </KeywordList>

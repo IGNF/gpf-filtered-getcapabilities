@@ -435,6 +435,37 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024</Name>
+        <Title>ORTHO-ASP_PAC2024</Title>
+        <Abstract>ortho ASP PAC 2024</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.5</westBoundLongitude>
+          <eastBoundLongitude>179.5</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <Attribution>
+          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>L&#233;gende g&#233;n&#233;rique</Title>
+          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023</Name>
         <Title>ortho-express 2023</Title>
         <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
