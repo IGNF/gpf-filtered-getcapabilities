@@ -986,6 +986,107 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>OCS GE 2010 - couvertures</ows:Title>
+      <ows:Abstract>Occupation du sol grande &#233;chelle 2010 - couvertures</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>OCSGE.COUVERTURE.2010</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>Donn&#233;es Brutes</ows:Title>
+        <ows:Abstract>Donn&#233;es brutes sans changement de palette</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>D&#233;faut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Occupation du sol grande &#233;chelle 2011 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande &#233;chelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calcul&#233;e &#224; partir de ces deux informations, d&#233;limite les espaces construits des espaces naturels, agricoles et forestiers. Les donn&#233;es respectent les pr&#233;conisations nationales pour la production des bases de donn&#233;es d'occupation des sols &#224; grande &#233;chelle (CNIG).&lt;/br&gt; Source : IGN - 2011</ows:Abstract>
       <ows:WGS84BoundingBox>
@@ -1693,6 +1794,107 @@
             <MaxTileRow>24482</MaxTileRow>
             <MinTileCol>31832</MinTileCol>
             <MaxTileCol>34508</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>OCS GE 2010 - usages</ows:Title>
+      <ows:Abstract>Occupation du sol grande &#233;chelle 2010 - usages</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>OCSGE.USAGE.2010</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>Donn&#233;es Brutes</ows:Title>
+        <ows:Abstract>Donn&#233;es brutes sans changement de palette</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>D&#233;faut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
