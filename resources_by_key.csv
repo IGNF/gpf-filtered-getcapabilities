@@ -207,14 +207,14 @@ wfs,cartovecto,BDCARTO_V5:troncon_hydrographique
 wfs,cartovecto,BDCARTO_V5:voie_ferree_nommee
 wfs,cartovecto,BDCARTO_V5:zone_d_activite_ou_d_interet
 wfs,cartovecto,BDCARTO_V5:zone_d_habitation
-wfs,cartovecto,LABELS.TOURISTIQUES:clef_verte
 wfs,cartovecto,LABELS.TOURISTIQUES:communes_touristiques
-wfs,cartovecto,LABELS.TOURISTIQUES:pavillon_bleu
 wfs,cartovecto,LABELS.TOURISTIQUES:stations_classees
 wfs,cartovecto,LABELS.TOURISTIQUES:stations_vertes
 wfs,cartovecto,LABELS.TOURISTIQUES:villages_etape
 wfs,cartovecto,STATISTICALUNITS.IRIS:contours_iris
 wfs,cartovecto,STATISTICALUNITS.IRISGE:iris_ge
+wfs,cartovecto,TERAGIR:clef_verte
+wfs,cartovecto,TERAGIR:pavillon_bleu
 wfs,cartovecto,TRACES.RANDO.HIVERNALE:traces_rando_hivernale
 wms-v,cartovecto,BDCARTO-ADMINISTRATIF_WLD_WGS84G
 wms-v,cartovecto,BDCARTO-BATI_WLD_WGS84G
@@ -701,6 +701,7 @@ wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023
+wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2023
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023
@@ -718,6 +719,7 @@ wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.COAST2000
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ILESDUNORD
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023
+wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2023
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023
