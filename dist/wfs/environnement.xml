@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3204">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2105">
   <ows:ServiceIdentification>
     <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
     <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
@@ -536,20 +536,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>PRSF_BDD_REU_2023:prs_reu</Name>
-      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
-      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>for&#234;t</ows:Keyword>
-        <ows:Keyword>secours</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2975</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
-        <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>PRSF_BDD_GLP_2023:prs_glp</Name>
       <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
       <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
@@ -575,6 +561,20 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-54.38154367 3.727489</ows:LowerCorner>
         <ows:UpperCorner>-51.84944924 5.63054804</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PRSF_BDD_REU_2023:prs_reu</Name>
+      <Title>Points de Rencontre de Secours en For&#234;t (PRSF)</Title>
+      <Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d&#8217;un bless&#233; par les services de secours.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>for&#234;t</ows:Keyword>
+        <ows:Keyword>secours</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2975</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
+        <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -1325,11 +1325,11 @@
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
-      <fes:Function name="centroid">
+      <fes:Function name="Centroid">
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
-          <fes:Argument name="geometry">
-            <fes:Type>gml:AbstractGeometryType</fes:Type>
+          <fes:Argument name="features">
+            <fes:Type>xs:string</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
@@ -3036,6 +3036,23 @@
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
           <fes:Argument name="data">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+        </fes:Arguments>
+      </fes:Function>
+      <fes:Function name="northFix">
+        <fes:Returns>xs:double</fes:Returns>
+        <fes:Arguments>
+          <fes:Argument name="targetCRS">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="point">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="angle">
+            <fes:Type>xs:double</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="sourceCRS">
             <fes:Type>xs:string</fes:Type>
           </fes:Argument>
         </fes:Arguments>
