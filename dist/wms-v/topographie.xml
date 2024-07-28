@@ -1,4 +1,4 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="6983" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7695" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
@@ -223,170 +223,172 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-BATI</Name>
-        <Title>BDTopo BATI &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo BATI &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
+        <Name>BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
+        <Title>BDTopo B&#226;timent &#233;dition 2024-06-15</Title>
+        <Abstract>BDTopo th&#232;me B&#226;timent &#233;dition 2024-06-15</Abstract>
+        <KeywordList>
+          <Keyword>visu bdtopo</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
         <Style>
-          <Name>default-style-BDTOPO-GEOPO-BATI</Name>
-          <Title>BDTOPO-GEOPO-BATI style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-BATI layer</Abstract>
+          <Name>default-style-BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
+          <Title>BDTOPO-GEOPO-BATI_WLD_WGS84G style</Title>
+          <Abstract>Default style for BDTOPO-GEOPO-BATI_WLD_WGS84G layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-BATI" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-BATI_WLD_WGS84G" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-HYDROGRAPHIE</Name>
-        <Title>BDTopo HYDROGRAPHIE &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo HYDROGRAPHIE &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
+        <Name>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
+        <Title>BDTopo Hydrographie &#233;dition 2024-06-15</Title>
+        <Abstract>BDTopo th&#232;me Hydrographie &#233;dition 2024-06-15</Abstract>
+        <KeywordList>
+          <Keyword>visu bdtopo</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
         <Style>
-          <Name>default-style-BDTOPO-GEOPO-HYDROGRAPHIE</Name>
-          <Title>BDTOPO-GEOPO-HYDROGRAPHIE style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-HYDROGRAPHIE layer</Abstract>
+          <Name>default-style-BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
+          <Title>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G style</Title>
+          <Abstract>Default style for BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-HYDROGRAPHIE" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-OROGRAPHIE</Name>
-        <Title>BDTopo OROGRAPHIE &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo OROGRAPHIE &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
+        <Name>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
+        <Title>BDTopo Orographie &#233;dition 2024-06-15</Title>
+        <Abstract>BDTopo th&#232;me Orographie &#233;dition 2024-06-15</Abstract>
+        <KeywordList>
+          <Keyword>visu bdtopo</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
         <Style>
-          <Name>default-style-BDTOPO-GEOPO-OROGRAPHIE</Name>
-          <Title>BDTOPO-GEOPO-OROGRAPHIE style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-OROGRAPHIE layer</Abstract>
+          <Name>default-style-BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
+          <Title>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G style</Title>
+          <Abstract>Default style for BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-OROGRAPHIE" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-RESEAU-ROUTIER</Name>
-        <Title>BDTopo RESEAU-ROUTIER &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo RESEAU-ROUTIER &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
+        <Name>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
+        <Title>BDTopo V&#233;g&#233;tation &#233;dition 2024-06-15</Title>
+        <Abstract>BDTopo th&#232;me V&#233;g&#233;tation &#233;dition 2024-06-15</Abstract>
+        <KeywordList>
+          <Keyword>visu bdtopo</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
         <Style>
-          <Name>default-style-BDTOPO-GEOPO-RESEAU-ROUTIER</Name>
-          <Title>BDTOPO-GEOPO-RESEAU-ROUTIER style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-RESEAU-ROUTIER layer</Abstract>
+          <Name>default-style-BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
+          <Title>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G style</Title>
+          <Abstract>Default style for BDTOPO-GEOPO-VEGETATION_WLD_WGS84G layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-RESEAU-ROUTIER" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-VEGETATION_WLD_WGS84G" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-TRANSPORT-ENERGIE</Name>
-        <Title>BDTopo TRANSPORT-ENERGIE &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo TRANSPORT-ENERGIE &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
+        <Name>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
+        <Title>BDTopo Zone d'activit&#233;s &#233;dition 2024-06-15</Title>
+        <Abstract>BDTopo th&#232;me Zone d'activit&#233;s &#233;dition 2024-06-15</Abstract>
+        <KeywordList>
+          <Keyword>visu bdtopo</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
         <Style>
-          <Name>default-style-BDTOPO-GEOPO-TRANSPORT-ENERGIE</Name>
-          <Title>BDTOPO-GEOPO-TRANSPORT-ENERGIE style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-TRANSPORT-ENERGIE layer</Abstract>
+          <Name>default-style-BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
+          <Title>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G style</Title>
+          <Abstract>Default style for BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-TRANSPORT-ENERGIE" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-VEGETATION</Name>
-        <Title>BDTopo VEGETATION &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo VEGETATION &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <Style>
-          <Name>default-style-BDTOPO-GEOPO-VEGETATION</Name>
-          <Title>BDTOPO-GEOPO-VEGETATION style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-VEGETATION layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-VEGETATION" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
-        <Name>BDTOPO-GEOPO-ZONE-ACTIVITES</Name>
-        <Title>BDTopo ZONE-ACTIVITES &#233;dition 2024-03-15</Title>
-        <Abstract>BDTopo ZONE-ACTIVITES &#233;dition 2024-03-15</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.28125</westBoundLongitude>
-          <eastBoundLongitude>55.8984375</eastBoundLongitude>
-          <southBoundLatitude>-21.77265625</southBoundLatitude>
-          <northBoundLatitude>51.9734375</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <Style>
-          <Name>default-style-BDTOPO-GEOPO-ZONE-ACTIVITES</Name>
-          <Title>BDTOPO-GEOPO-ZONE-ACTIVITES style</Title>
-          <Abstract>Default style for BDTOPO-GEOPO-ZONE-ACTIVITES layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-ZONE-ACTIVITES" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G" />
           </LegendURL>
         </Style>
       </Layer>
