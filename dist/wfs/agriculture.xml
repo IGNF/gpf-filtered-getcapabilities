@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2918">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3075">
   <ows:ServiceIdentification>
     <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
     <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
@@ -484,9 +484,35 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>RPG.LATEST:codes_cultures</Name>
+      <Title>Registre parcellaire graphique (RPG) : codes culture</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
+        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>RPG.LATEST:parcelles_graphiques</Name>
-      <Title>Registre parcellaire graphique (RPG) Latest</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants Latest</Abstract>
+      <Title>Registre parcellaire graphique (RPG) : parcelles graphiques</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
+        <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>RPG.LATEST:ilots_de_reference</Name>
+      <Title>Registre parcellaire graphique (RPG) : &#238;lots de r&#233;f&#233;rence</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>

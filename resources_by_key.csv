@@ -74,7 +74,11 @@ wfs,agriculture,RPG.2021:parcelles_graphiques
 wfs,agriculture,RPG.2022:codes_cultures
 wfs,agriculture,RPG.2022:parcelles_graphiques
 wfs,agriculture,RPG.LATEST:codes_cultures
+wfs,agriculture,RPG.LATEST:ilots_de_reference
+wfs,agriculture,RPG.LATEST:parcelles_graphiques
+wfs,agriculture,RPG.LATEST:codes_cultures
 wfs,agriculture,RPG.LATEST:ilots_anonymes
+wfs,agriculture,RPG.LATEST:ilots_de_reference
 wfs,agriculture,RPG.LATEST:parcelles_graphiques
 wms-r,agriculture,GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC
 wms-r,agriculture,HYDROGRAPHY.BCAE.LATEST
@@ -95,6 +99,7 @@ wms-r,agriculture,LANDUSE.AGRICULTURE2019
 wms-r,agriculture,LANDUSE.AGRICULTURE2020
 wms-r,agriculture,LANDUSE.AGRICULTURE2021
 wms-r,agriculture,LANDUSE.AGRICULTURE2022
+wms-r,agriculture,LANDUSE.AGRICULTURE2023
 wms-r,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC
 wmts,agriculture,HYDROGRAPHY.BCAE.LATEST
@@ -115,6 +120,7 @@ wmts,agriculture,LANDUSE.AGRICULTURE2019
 wmts,agriculture,LANDUSE.AGRICULTURE2020
 wmts,agriculture,LANDUSE.AGRICULTURE2021
 wmts,agriculture,LANDUSE.AGRICULTURE2022
+wmts,agriculture,LANDUSE.AGRICULTURE2023
 wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
 wfs,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra
