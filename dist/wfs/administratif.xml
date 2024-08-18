@@ -1,4 +1,4 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3152">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2232">
   <ows:ServiceIdentification>
     <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
     <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
@@ -522,19 +522,6 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
-      <Name>ADMINEXPRESS-COG.LATEST:chflieu_commune_associee_ou_deleguee</Name>
-      <Title>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e COG CARTO</Title>
-      <Abstract>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e ADMINEXPRESS COG CARTO</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Unit&#233;s administratives</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
-        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:chflieu_commune_associee_ou_deleguee</Name>
       <Title>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e COG CARTO</Title>
       <Abstract>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e ADMINEXPRESS COG CARTO</Abstract>
@@ -545,6 +532,19 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83662923 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.LATEST:chflieu_commune_associee_ou_deleguee</Name>
+      <Title>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e COG CARTO</Title>
+      <Abstract>Chef-lieu de commune associ&#233;e ou d&#233;l&#233;gu&#233;e ADMINEXPRESS COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unit&#233;s administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
