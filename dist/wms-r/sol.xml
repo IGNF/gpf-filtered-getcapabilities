@@ -318,6 +318,37 @@
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
+      <Layer queryable="1">
+        <Name>INRA.CARTE.SOLS</Name>
+        <Title>carte des sols France enti&#232;re</Title>
+        <Abstract>Identification des principaux types de sols.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.inrae.fr/" />
+          <LogoURL width="334" height="151">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/inrae.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>CARTE DES SOLS</Name>
+          <Title>CARTE DES SOLS</Title>
+          <Abstract>L&#233;gende de la carte des sols de l'INRA</Abstract>
+          <LegendURL width="300" height="620">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INRA.CARTE.SOLS-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>

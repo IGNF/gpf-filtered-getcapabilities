@@ -668,9 +668,6 @@ wms-r,ocsge,OCSGE.USAGE.2011
 wms-r,ocsge,OCSGE.USAGE.2016
 wms-r,ocsge,OCSGE.USAGE.2017
 wms-r,ocsge,OCSGE.USAGE.2019
-wmts,ocsge,OCSGE.USAGE.2016-2017
-wmts,ocsge,OCSGE.USAGE.2017-2020
-wmts,ocsge,OCSGE.USAGE.2021-2023
 wms-r,ocsge,OCSGE.VISU.2016
 wms-r,ocsge,OCSGE.VISU.2019
 wmts,ocsge,OCSGE.CONSTRUCTIONS
@@ -703,6 +700,9 @@ wmts,ocsge,OCSGE.USAGE.2014
 wmts,ocsge,OCSGE.USAGE.2016
 wmts,ocsge,OCSGE.USAGE.2017
 wmts,ocsge,OCSGE.USAGE.2019
+wmts,ocsge,OCSGE.USAGE.2016-2017
+wmts,ocsge,OCSGE.USAGE.2017-2020
+wmts,ocsge,OCSGE.USAGE.2021-2023
 wmts,ocsge,OCSGE.VISU.2016
 wmts,ocsge,OCSGE.VISU.2019
 wfs,ortho,ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS:arrete
@@ -950,10 +950,13 @@ wfs,sol,BDCARTO_ETAT-MAJOR.NIVEAU4:c_2_1_batiment
 wfs,sol,BDCARTO_ETAT-MAJOR.NIVEAU4:c_2_2_batiment_hors_zone_urbaine
 wfs,sol,BDCARTO_ETAT-MAJOR.NIVEAU4:c_3_zone_urbaine
 wfs,sol,BDCARTO_ETAT-MAJOR.NIVEAU4:z_1_chantier
+wfs,sol,INRA.CARTE.SOLS:geoportail_vf
 wms-r,sol,BDCARTO_ETAT-MAJOR.NIVEAU3
 wms-r,sol,BDCARTO_ETAT-MAJOR.NIVEAU4
+wms-r,sol,INRA.CARTE.SOLS
 wmts,sol,BDCARTO_ETAT-MAJOR.NIVEAU3
 wmts,sol,BDCARTO_ETAT-MAJOR.NIVEAU4
+wmts,sol,INRA.CARTE.SOLS
 wfs,topographie,BDTOPO_V3:aerodrome
 wfs,topographie,BDTOPO_V3:arrondissement
 wfs,topographie,BDTOPO_V3:arrondissement_municipal
