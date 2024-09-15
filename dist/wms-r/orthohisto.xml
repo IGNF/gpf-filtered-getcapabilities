@@ -307,15 +307,15 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1965-1980</Name>
-        <Title>BDOrtho Historique 1965-1980 25-09-2017</Title>
+        <Title>BDOrtho Historique 1965-1980</Title>
         <Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 1965 &#224; 1980. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-2.27523</westBoundLongitude>
-          <eastBoundLongitude>2.61963</eastBoundLongitude>
-          <southBoundLatitude>47.0831</southBoundLatitude>
-          <northBoundLatitude>49.0193</northBoundLatitude>
+          <westBoundLongitude>-5</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>42</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-253277.386038250" miny="5955654.614003399" maxx="291616.093626595" maxy="6278135.400576929" />
+        <BoundingBox CRS="EPSG:3857" minx="-556597.453966368" miny="5160979.444049783" maxx="1113194.907932736" maxy="6800125.454397307" />
         <Style>
           <Name>BDORTHOHISTORIQUE</Name>
           <Title>BDOrthoHistorique</Title>
