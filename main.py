@@ -152,7 +152,7 @@ def writeFilteredGetCap(keysServicesLayers, key, service):
     return False
 
   ET.indent(capabilities, space="  ", level=0)
-  capabilities.write("dist/{}/{}.xml".format(service, key))
+  capabilities.write("dist/{}/{}.xml".format(service, key), encoding="UTF-8", xml_declaration=True)
 
 
 if __name__ == "__main__":
