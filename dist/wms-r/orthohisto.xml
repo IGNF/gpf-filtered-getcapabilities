@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -258,8 +259,8 @@
       <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965</Name>
-        <Title>Photographies a&#233;riennes historiques 1950-1965</Title>
-        <Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 50, telle qu'elle se pr&#233;sentait avant les grands am&#233;nagements des ann&#233;es 60. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</Abstract>
+        <Title>Photographies aériennes historiques 1950-1965</Title>
+        <Abstract>Couverture en photographies aériennes de la France des années 50, telle qu'elle se présentait avant les grands aménagements des années 60. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-67.7214</westBoundLongitude>
           <eastBoundLongitude>55.8464</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7538709.509587908" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6638024.350314717" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -286,8 +287,8 @@
         </Style>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -308,7 +309,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1965-1980</Name>
         <Title>BDOrtho Historique 1965-1980</Title>
-        <Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 1965 &#224; 1980. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</Abstract>
+        <Abstract>Couverture en photographies aériennes de la France des années 1965 à 1980. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
           <eastBoundLongitude>10</eastBoundLongitude>
@@ -331,7 +332,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1980-1995</Name>
         <Title>Ortho Historique 1980-1995</Title>
-        <Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 11980 &#224; 1995. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</Abstract>
+        <Abstract>Couverture en photographies aériennes de la France des années 11980 à 1995. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
           <eastBoundLongitude>10</eastBoundLongitude>
@@ -340,7 +341,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-556597.453966368" miny="4865942.279503176" maxx="1113194.907932736" maxy="6800125.454397307" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -349,8 +350,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -362,7 +363,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2021</Name>
         <Title>ortho-express IRC 2021</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -371,7 +372,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -380,8 +381,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -402,7 +403,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="735754.523700235" miny="5380177.664728738" maxx="862017.362600023" maxy="5523973.006675048" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -411,8 +412,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -434,8 +435,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5244300.730764172" maxx="798308.207238056" maxy="6511763.688182168" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -457,8 +458,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-263997.530925286" miny="5334959.650105711" maxx="804436.212736032" maxy="6383153.917052398" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -479,7 +480,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-579822.546947447" miny="5208478.981760531" maxx="919136.033413123" maxy="6638024.350314717" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -488,8 +489,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -510,7 +511,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5059872.833932699" maxx="1075696.317409458" maxy="6478179.760751820" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -519,8 +520,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -542,8 +543,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-20626.962857658" miny="5303657.827411008" maxx="862017.362600023" maxy="5846897.984100092" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -564,7 +565,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" miny="234272.000543479" maxx="919237.351960864" maxy="6641203.653589740" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -573,8 +574,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -596,8 +597,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5058546.675730910" maxx="1075696.317409458" maxy="6479740.910954712" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -619,8 +620,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-298494.084137528" miny="5303657.827411008" maxx="862017.362600023" maxy="6351775.384708240" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -641,7 +642,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -650,8 +651,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -672,7 +673,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -681,8 +682,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -703,7 +704,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -712,8 +713,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -725,7 +726,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2021</Name>
         <Title>ortho-express 2021</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -734,7 +735,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -743,8 +744,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -765,7 +766,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -774,8 +775,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -786,8 +787,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX</Name>
-        <Title>Orthophotographie d&#8217;urgence Alex</Title>
-        <Abstract>Orthophotographie r&#233;alis&#233;e suite au passage de la temp&#234;te Alex dans les Alpes Maritimes</Abstract>
+        <Title>Orthophotographie d’urgence Alex</Title>
+        <Abstract>Orthophotographie réalisée suite au passage de la tempête Alex dans les Alpes Maritimes</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>7.07917</westBoundLongitude>
           <eastBoundLongitude>7.64199</eastBoundLongitude>
@@ -796,7 +797,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="788049.137663132" miny="5436002.666241908" maxx="850702.719311990" maxy="5494932.730982062" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -805,8 +806,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -817,8 +818,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2000-2005</Name>
-        <Title>Photographies a&#233;riennes 2000-2005</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles pour les ann&#233;es 2000 &#224; 2005</Abstract>
+        <Title>Photographies aériennes 2000-2005</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles pour les années 2000 à 2005</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -828,8 +829,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -840,8 +841,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2001</Name>
-        <Title>Photographies a&#233;riennes 2001</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2001.</Abstract>
+        <Title>Photographies aériennes 2001</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2001.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-61.2472</westBoundLongitude>
           <eastBoundLongitude>7.23234</eastBoundLongitude>
@@ -851,8 +852,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="498274.560977948" maxx="805100.358176443" maxy="6511732.738125990" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -863,8 +864,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2002</Name>
-        <Title>Photographies a&#233;riennes 2002</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2002</Abstract>
+        <Title>Photographies aériennes 2002</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2002</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-61.2472</westBoundLongitude>
           <eastBoundLongitude>9.68861</eastBoundLongitude>
@@ -874,8 +875,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="501304.816641120" maxx="1078530.725378477" maxy="6511732.738125990" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -886,8 +887,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2003</Name>
-        <Title>Photographies a&#233;riennes 2003</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2003.</Abstract>
+        <Title>Photographies aériennes 2003</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2003.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-61.2472</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -897,8 +898,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-6818007.803355043" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6511732.738125990" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -909,8 +910,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2004</Name>
-        <Title>Photographies a&#233;riennes 2004</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2004.</Abstract>
+        <Title>Photographies aériennes 2004</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2004.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -920,8 +921,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -932,8 +933,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2005</Name>
-        <Title>Photographies a&#233;riennes 2005</Title>
-        <Abstract> Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2005.</Abstract>
+        <Title>Photographies aériennes 2005</Title>
+        <Abstract> Prises de vues aériennes des territoires disponibles à la fin de l'année 2005.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -943,8 +944,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -955,8 +956,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2006</Name>
-        <Title>Photographies a&#233;riennes 2006</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2006.</Abstract>
+        <Title>Photographies aériennes 2006</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2006.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -966,8 +967,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -978,8 +979,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2006-2010</Name>
-        <Title>Photographies a&#233;riennes 2006-2010</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles pour les ann&#233;es 2006 &#224; 2010</Abstract>
+        <Title>Photographies aériennes 2006-2010</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles pour les années 2006 à 2010</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -989,8 +990,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1001,8 +1002,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2007</Name>
-        <Title>Photographies a&#233;riennes 2007</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2007.</Abstract>
+        <Title>Photographies aériennes 2007</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2007.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1012,8 +1013,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1024,8 +1025,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2008</Name>
-        <Title>Photographies a&#233;riennes 2008</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2008.</Abstract>
+        <Title>Photographies aériennes 2008</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2008.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1035,8 +1036,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1047,8 +1048,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2009</Name>
-        <Title>Photographies a&#233;riennes 2009</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2009.</Abstract>
+        <Title>Photographies aériennes 2009</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2009.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1058,8 +1059,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1070,8 +1071,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2010</Name>
-        <Title>Photographies a&#233;riennes 2010</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2010.</Abstract>
+        <Title>Photographies aériennes 2010</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2010.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1081,8 +1082,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1093,8 +1094,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2011</Name>
-        <Title>Photographies a&#233;riennes 2011</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2011.</Abstract>
+        <Title>Photographies aériennes 2011</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2011.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1103,7 +1104,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -1112,8 +1113,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1124,8 +1125,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2011-2015</Name>
-        <Title>Photographies a&#233;riennes 2011-2015</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles pour les ann&#233;es 2011 &#224; 2015</Abstract>
+        <Title>Photographies aériennes 2011-2015</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles pour les années 2011 à 2015</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1135,8 +1136,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1147,8 +1148,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2012</Name>
-        <Title>Photographies a&#233;riennes 2012</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2012.</Abstract>
+        <Title>Photographies aériennes 2012</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2012.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1158,8 +1159,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1170,8 +1171,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2013</Name>
-        <Title>Photographies a&#233;riennes 2013</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2013.</Abstract>
+        <Title>Photographies aériennes 2013</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2013.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1181,8 +1182,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6637400.120399268" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1193,8 +1194,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2014</Name>
-        <Title>Photographies a&#233;riennes 2014</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2014.</Abstract>
+        <Title>Photographies aériennes 2014</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2014.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1204,8 +1205,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1216,8 +1217,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2015</Name>
-        <Title>Photographies a&#233;riennes 2015</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2015.</Abstract>
+        <Title>Photographies aériennes 2015</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2015.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1227,8 +1228,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1239,8 +1240,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2016</Name>
-        <Title>Photographies a&#233;riennes 2016</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2016 (travail en cours).</Abstract>
+        <Title>Photographies aériennes 2016</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2016 (travail en cours).</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.187</westBoundLongitude>
           <eastBoundLongitude>55.8561</eastBoundLongitude>
@@ -1250,8 +1251,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-19835701.314449869" miny="-2439797.679803689" maxx="6217873.848684100" maxy="6638024.350314717" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1262,8 +1263,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2017</Name>
-        <Title>Photographies a&#233;riennes 2017</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2017</Abstract>
+        <Title>Photographies aériennes 2017</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2017</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.1607</westBoundLongitude>
           <eastBoundLongitude>55.8464</eastBoundLongitude>
@@ -1272,7 +1273,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031017.739156759" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6513330.731579560" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -1281,8 +1282,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1293,8 +1294,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2018</Name>
-        <Title>Photographies a&#233;riennes 2018</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2018</Abstract>
+        <Title>Photographies aériennes 2018</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2018</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
@@ -1303,7 +1304,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -1312,8 +1313,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1324,8 +1325,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2019</Name>
-        <Title>Photographies a&#233;riennes 2019</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2019</Abstract>
+        <Title>Photographies aériennes 2019</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2019</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-3.74871</westBoundLongitude>
           <eastBoundLongitude>9.66314</eastBoundLongitude>
@@ -1335,8 +1336,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-417304.236749603" miny="5058546.675730910" maxx="1075696.317409458" maxy="6479740.910954712" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -1347,8 +1348,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2020</Name>
-        <Title>Photographies a&#233;riennes 2020</Title>
-        <Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2020</Abstract>
+        <Title>Photographies aériennes 2020</Title>
+        <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2020</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-2.68142</westBoundLongitude>
           <eastBoundLongitude>7.74363</eastBoundLongitude>
@@ -1358,8 +1359,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-298494.084137528" miny="5303657.827411008" maxx="862017.362600023" maxy="6351775.384708240" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

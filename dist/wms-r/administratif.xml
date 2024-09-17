@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -259,7 +260,7 @@
       <Layer queryable="1">
         <Name>ADMINEXPRESS-COG-CARTO.LATEST</Name>
         <Title>ADMINEXPRESS COG-CARTO ; Edition : 2024-02-22</Title>
-        <Abstract>Limites administratives Express COG-CARTO code officiel g&#233;ographique ; Edition : 2024-02-22</Abstract>
+        <Abstract>Limites administratives Express COG-CARTO code officiel géographique ; Edition : 2024-02-22</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -290,7 +291,7 @@
       <Layer queryable="1">
         <Name>ADMINEXPRESS-COG.LATEST</Name>
         <Title>ADMINEXPRESS COG ; Edition : 2024-02-22</Title>
-        <Abstract>Limites administratives Express COG code officiel g&#233;ographique ; Edition : 2024-02-22</Abstract>
+        <Abstract>Limites administratives Express COG code officiel géographique ; Edition : 2024-02-22</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -299,7 +300,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -308,8 +309,8 @@
         </Attribution>
         <Style>
           <Name>ADMINEXPRESS-COG</Name>
-          <Title>L&#233;gende du 1/1000000</Title>
-          <Abstract>L&#233;gende associ&#233;e a ADMINEXPRESS-COG</Abstract>
+          <Title>Légende du 1/1000000</Title>
+          <Abstract>Légende associée a ADMINEXPRESS-COG</Abstract>
           <LegendURL width="300" height="600">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG.LATEST-legend.png" />
@@ -320,8 +321,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST</Name>
-        <Title>Limites administratives mises &#224; jour en continu.</Title>
-        <Abstract>Limites administratives mises &#224; jour en continu ; Edition : 2024-08-26</Abstract>
+        <Title>Limites administratives mises à jour en continu.</Title>
+        <Abstract>Limites administratives mises à jour en continu ; Edition : 2024-08-26</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -330,7 +331,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -339,8 +340,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

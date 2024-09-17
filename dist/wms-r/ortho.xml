@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -259,7 +260,7 @@
       <Layer queryable="1">
         <Name>HR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Ortho 20 cm</Title>
-        <Abstract>Le produit BD ORTHO&#174; V3 est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert. La BD ORTHO&#174; V3 se compose d'images num&#233;riques (sans habillage ni surcharge) et d'indications de g&#233;or&#233;f&#233;rencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000i&#232;me pour mettre en valeur le territoire, enrichir la visualisation des donn&#233;es et des projets. </Abstract>
+        <Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets. </Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -289,8 +290,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS</Name>
-        <Title>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es</Title>
-        <Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition 02-01-2023 </Abstract>
+        <Title>Zones interdites à la captation aérienne des données</Title>
+        <Abstract>Zones interdites à la captation aérienne des données (ZICAD) fixées par voie d'arrêté (arrêté du 02-01-2023 fixant la liste des zones interdites à la prise de vue aérienne par appareil photographique, cinématographique ou tout autre capteur). Édition 02-01-2023 </Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-178.309</westBoundLongitude>
           <eastBoundLongitude>168.298</eastBoundLongitude>
@@ -299,7 +300,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" miny="-2628670.000403985" maxx="18734860.000178713" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -308,8 +309,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -320,8 +321,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS</Name>
-        <Title>Photographies a&#233;riennes</Title>
-        <Abstract>Photographies a&#233;riennes</Abstract>
+        <Title>Photographies aériennes</Title>
+        <Abstract>Photographies aériennes</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
@@ -330,7 +331,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -339,8 +340,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -352,7 +353,7 @@
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO</Name>
         <Title>Ortho 50 cm</Title>
-        <Abstract>Le produit BD ORTHO&#174; est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert.</Abstract>
+        <Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
@@ -362,8 +363,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -384,7 +385,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7009976.186893151" miny="-2439789.747947861" maxx="6216796.279352807" maxy="6641203.469178601" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -393,8 +394,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -406,7 +407,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023</Name>
         <Title>ortho-express IRC 2023</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -415,7 +416,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -424,8 +425,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -437,7 +438,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024</Name>
         <Title>Ortho-express IRC 2024</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -446,7 +447,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -455,8 +456,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -477,7 +478,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -486,8 +487,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -499,7 +500,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023</Name>
         <Title>ortho-express 2023</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -508,7 +509,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -517,8 +518,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -530,7 +531,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2024</Name>
         <Title>Ortho-express 2024</Title>
-        <Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -539,7 +540,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -548,8 +549,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -561,7 +562,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.TPM.OMBRES</Name>
         <Title>Orthophotographies PCRS TPM traitement ombre</Title>
-        <Abstract>Orthophotographies tr&#232;s haute r&#233;solution avec traitements sur les ombres sur la communaut&#233; d'agglom&#233;rations de Toulon Provence M&#233;diterrann&#233;e. Diffusion limit&#233;e.</Abstract>
+        <Abstract>Orthophotographies très haute résolution avec traitements sur les ombres sur la communauté d'agglomérations de Toulon Provence Méditerrannée. Diffusion limitée.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>5.74439</westBoundLongitude>
           <eastBoundLongitude>6.53881</eastBoundLongitude>
@@ -570,7 +571,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:LAMB93" minx="922979.011129579" miny="6210678.264465539" maxx="988915.841217765" maxy="6245120.969551470" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -579,8 +580,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -592,7 +593,7 @@
       <Layer queryable="1">
         <Name>PCRS.LAMB93</Name>
         <Title>PCRS</Title>
-        <Abstract>Donn&#233;es du Plan Corps de Rue Simplifi&#233;</Abstract>
+        <Abstract>Données du Plan Corps de Rue Simplifié</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
           <eastBoundLongitude>10</eastBoundLongitude>
@@ -606,8 +607,8 @@
         </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Donn&#233;es Brutes</Title>
-          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
@@ -618,8 +619,8 @@
       </Layer>
       <Layer>
         <Name>THR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
-        <Title>Photographies a&#233;riennes tr&#232;s haute r&#233;solution</Title>
-        <Abstract>Orthophotographies a&#233;riennes d'une r&#233;solution de 10cm &#224; 5cm selon disponibilit&#233;.</Abstract>
+        <Title>Photographies aériennes très haute résolution</Title>
+        <Abstract>Orthophotographies aériennes d'une résolution de 10cm à 5cm selon disponibilité.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>0.0354912</westBoundLongitude>
           <eastBoundLongitude>6.02353</eastBoundLongitude>
@@ -629,8 +630,8 @@
         <BoundingBox CRS="EPSG:3857" minx="3950.864538032" miny="5335342.296170763" maxx="670535.904986179" maxy="6393953.372811806" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

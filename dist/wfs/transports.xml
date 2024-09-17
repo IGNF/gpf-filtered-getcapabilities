@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4643">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4136">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -316,7 +317,7 @@
     <FeatureType>
       <Name>DGAC-PEB_BDD_FXX_WM:fxx_peb_wm</Name>
       <Title>Plan d'exposition au bruit (PEB)</Title>
-      <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement expos&#233;s au bruit engendr&#233; par les a&#233;ronefs (A, B, C et/ou D et d&#233;finis &#224; partir des pr&#233;visions de d&#233;veloppement de l'activit&#233; a&#233;rienne, de l'extension pr&#233;visible des infrastructures et des proc&#233;dures de circulation a&#233;rienne.Pour en savoir plus Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie Date des donn&#233;es</Abstract>
+      <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne.Pour en savoir plus Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie Date des données</Abstract>
       <ows:Keywords>
         <ows:Keyword>Ville et urbanisme</ows:Keyword>
       </ows:Keywords>
@@ -329,7 +330,7 @@
     <FeatureType>
       <Name>DGAC-PEB-POI_BDD_WLD_WM:aerodrome_avec_peb_wm</Name>
       <Title>Plan d'exposition au bruit, documents d'approbation (PEB)</Title>
-      <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement expos&#233;s au bruit engendr&#233; par les a&#233;ronefs (A, B, C et/ou D et d&#233;finis &#224; partir des pr&#233;visions de d&#233;veloppement de l'activit&#233; a&#233;rienne, de l'extension pr&#233;visible des infrastructures et des proc&#233;dures de circulation a&#233;rienne. Pour en savoir plus Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie Date des donn&#233;es</Abstract>
+      <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne. Pour en savoir plus Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie Date des données</Abstract>
       <ows:Keywords>
         <ows:Keyword>Ville et urbanisme</ows:Keyword>
       </ows:Keywords>
@@ -341,8 +342,8 @@
     </FeatureType>
     <FeatureType>
       <Name>DGAC-PGS_BDD_FXX_WM:fxx_pgs_wm</Name>
-      <Title>Plan de g&#234;ne sonore (PGS)</Title>
-      <Abstract>Les plans de g&#234;ne sonore identifient trois type de zones de bruit (I, II, III) &#233;tablies sur la base du trafic estim&#233;, des proc&#233;dures de circulation a&#233;rienne applicables et des infrastructures qui seront en service dans l'ann&#233;e suivant la date de publication de l'arr&#234;t&#233; approuvant le PGS. Pour en savoir plus Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+      <Title>Plan de gêne sonore (PGS)</Title>
+      <Abstract>Les plans de gêne sonore identifient trois type de zones de bruit (I, II, III) établies sur la base du trafic estimé, des procédures de circulation aérienne applicables et des infrastructures qui seront en service dans l'année suivant la date de publication de l'arrêté approuvant le PGS. Pour en savoir plus Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
       <ows:Keywords>
         <ows:Keyword>Ville et urbanisme</ows:Keyword>
       </ows:Keywords>
@@ -354,8 +355,8 @@
     </FeatureType>
     <FeatureType>
       <Name>DGAC-PGS-POI_BDD_FXX_WM:aerodrome_avec_pgs_wm</Name>
-      <Title>Plan de g&#234;ne sonore, documents d'approbation (PGS)</Title>
-      <Abstract>Arr&#234;t&#233; pr&#233;fectoral d'approbation, pour chaque a&#233;rodrome, du plan de g&#234;ne sonore. Pour en savoir plus Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+      <Title>Plan de gêne sonore, documents d'approbation (PGS)</Title>
+      <Abstract>Arrêté préfectoral d'approbation, pour chaque aérodrome, du plan de gêne sonore. Pour en savoir plus Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
       <ows:Keywords>
         <ows:Keyword>Ville et urbanisme</ows:Keyword>
       </ows:Keywords>
@@ -367,8 +368,8 @@
     </FeatureType>
     <FeatureType>
       <Name>TRANSPORTS.AIRNOISE.DOCS:dgac_psa_poi_wm</Name>
-      <Title>Plan de servitudes a&#233;ronautiques, documents d'approbation (PSA)</Title>
-      <Abstract>Arr&#234;t&#233; minist&#233;riel ou d&#233;cret en Conseil d'Etat approuvant les servitudes a&#233;ronautiques aux abords de l'a&#233;rodrome. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable. Pour en savoir plus Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie Date des donn&#233;es</Abstract>
+      <Title>Plan de servitudes aéronautiques, documents d'approbation (PSA)</Title>
+      <Abstract>Arrêté ministériel ou décret en Conseil d'Etat approuvant les servitudes aéronautiques aux abords de l'aérodrome. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable. Pour en savoir plus Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie Date des données</Abstract>
       <ows:Keywords>
         <ows:Keyword>Ville et urbanisme</ows:Keyword>
       </ows:Keywords>
@@ -380,8 +381,8 @@
     </FeatureType>
     <FeatureType>
       <Name>TRANSPORTS.DRONES.RESTRICTIONS:carte_restriction_drones_lf</Name>
-      <Title>Restrictions UAS cat&#233;gorie Ouverte et A&#233;romod&#233;lisme </Title>
-      <Abstract>{quote}Zones soumises &#224; interdictions ou &#224; restrictions pour l&#8217;usage, &#224; titre de loisir, d&#8217;a&#233;ronefs t&#233;l&#233;pilot&#233;s (ou drones), sur le territoire m&#233;tropolitain, &#224; jour au 07-2024. Elle int&#232;gre partiellement les interdictions s'appuyant sur des donn&#233;es non publi&#233;es &#224; l'AIP et ne couvre pas les interdictions temporaires. Cette carte est bas&#233;e sur l&#8217;arr&#234;t&#233; &#171; espace &#187; du 30 mars 2017. La repr&#233;sentation des zones soumises &#224; interdictions ou &#224; restrictions n&#8217;engage pas la responsabilit&#233; des producteurs de la donn&#233;e. Le contour des agglom&#233;rations est fourni &#224; titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote}</Abstract>
+      <Title>Restrictions UAS catégorie Ouverte et Aéromodélisme </Title>
+      <Abstract>{quote}Zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, à jour au 07-2024. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 30 mars 2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote}</Abstract>
       <ows:Keywords>
         <ows:Keyword>Drone</ows:Keyword>
       </ows:Keywords>
@@ -394,7 +395,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:n_te_franchissement_p</Name>
       <Title>Transports exceptionnels Franchissements</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (tronçons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -407,7 +408,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:n_te_rel_franpres</Name>
       <Title>Transports exceptionnels Lien franchissements - prescriptions</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (tronçons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -420,7 +421,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:n_te_prescription</Name>
       <Title>Transports exceptionnels Prescriptions</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (tronçons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -432,8 +433,8 @@
     </FeatureType>
     <FeatureType>
       <Name>SECUROUT.TE:n_te_troncon_l</Name>
-      <Title>Transports exceptionnels Tron&#231;ons</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Title>Transports exceptionnels Tronçons</Title>
+      <Abstract>Transports exceptionnels (tronçons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -445,8 +446,8 @@
     </FeatureType>
     <FeatureType>
       <Name>SECUROUT.TE:n_te_rel_tronpres</Name>
-      <Title>Transports exceptionnels lien tron&#231;on - prescription</Title>
-      <Abstract>Transports exceptionnels (tron&#231;ons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Title>Transports exceptionnels lien tronçon - prescription</Title>
+      <Abstract>Transports exceptionnels (tronçons, franchissements et prescriptions) au format COVADIS</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>

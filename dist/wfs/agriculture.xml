@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2441">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4131">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -315,8 +316,8 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>HYDROGRAPHY.BCAE.LATEST:bcae_cours_eau</Name>
-      <Title>Cours d'eau BCAE derni&#232;re &#233;dition</Title>
-      <Abstract>Le code rural et de la p&#234;che maritime pr&#233;voit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherb&#233;es le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 d&#233;cembre 2024. Pour les d&#233;partements non m&#233;tropolitains, veuillez-vous r&#233;f&#233;rer aux arr&#234;t&#233;s pr&#233;fectoraux relatifs aux BCAE.</Abstract>
+      <Title>Cours d'eau BCAE dernière édition</Title>
+      <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 décembre 2024. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</Abstract>
       <ows:Keywords>
         <ows:Keyword>BCAE</ows:Keyword>
       </ows:Keywords>
@@ -328,8 +329,8 @@
     </FeatureType>
     <FeatureType>
       <Name>PRAIRIES.SENSIBLES.BCAE:prairies_sensibles</Name>
-      <Title>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000</Title>
-      <Abstract>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l&#8217;Observatoire du d&#233;veloppement rural (ODR) en lien avec l&#8217;INRAE.</Abstract>
+      <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>
+      <Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE.</Abstract>
       <ows:Keywords>
         <ows:Keyword>bcae</ows:Keyword>
         <ows:Keyword>prairie</ows:Keyword>
@@ -343,7 +344,7 @@
     <FeatureType>
       <Name>RPG.2010:rpg_2010</Name>
       <Title>Registre parcellaire graphique (RPG) 2010</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2010</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2010</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -356,7 +357,7 @@
     <FeatureType>
       <Name>RPG.2013:rpg_2013</Name>
       <Title>Registre parcellaire graphique (RPG) 2013</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2013</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -369,7 +370,7 @@
     <FeatureType>
       <Name>RPG.2015:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2015</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2015</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -382,7 +383,7 @@
     <FeatureType>
       <Name>RPG.2016:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2016</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2016</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -395,7 +396,7 @@
     <FeatureType>
       <Name>RPG.2017:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2017</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2017</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -408,7 +409,7 @@
     <FeatureType>
       <Name>RPG.2018:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2018</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2018</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usage des sols</ows:Keyword>
       </ows:Keywords>
@@ -421,7 +422,7 @@
     <FeatureType>
       <Name>RPG.2019:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2019</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2019</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -434,7 +435,7 @@
     <FeatureType>
       <Name>RPG.2020:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2020</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2020.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -447,7 +448,7 @@
     <FeatureType>
       <Name>RPG.2021:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2021</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -460,7 +461,7 @@
     <FeatureType>
       <Name>RPG.2022:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) 2022 : Codes des cultures</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -473,7 +474,7 @@
     <FeatureType>
       <Name>RPG.2022:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2022 : Parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -486,7 +487,7 @@
     <FeatureType>
       <Name>RPG.2023:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) 2023 : Codes des cultures</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2023</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -498,8 +499,8 @@
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:ilots_de_reference</Name>
-      <Title>Registre parcellaire graphique (RPG) 2023 : Ilots de r&#233;f&#233;rence</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2023</Abstract>
+      <Title>Registre parcellaire graphique (RPG) 2023 : Ilots de référence</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -512,7 +513,7 @@
     <FeatureType>
       <Name>RPG.2023:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2023 : Parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2023</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -525,7 +526,7 @@
     <FeatureType>
       <Name>RPG.LATEST:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) : codes culture</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -538,7 +539,7 @@
     <FeatureType>
       <Name>RPG.LATEST:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) : parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -550,8 +551,8 @@
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:ilots_de_reference</Name>
-      <Title>Registre parcellaire graphique (RPG) : &#238;lots de r&#233;f&#233;rence</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants</Abstract>
+      <Title>Registre parcellaire graphique (RPG) : îlots de référence</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -564,7 +565,7 @@
     <FeatureType>
       <Name>RPG.2011:rpg_2011</Name>
       <Title>Registre parcellaire graphique 2011</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2011.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2011.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usage des sols</ows:Keyword>
       </ows:Keywords>
@@ -577,7 +578,7 @@
     <FeatureType>
       <Name>RPG.2012:rpg_2012</Name>
       <Title>Registre parcellaire graphique 2012</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2012.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2012.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>

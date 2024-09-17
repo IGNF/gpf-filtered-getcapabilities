@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -258,8 +259,8 @@
       <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Name>
-        <Title>Carte des pentes pour l'agriculture sur la m&#233;tropole</Title>
-        <Abstract>Carte des zones ayant une valeur de pente sup&#233;rieure &#224; 10% - source : RGEALTI 2017 au pas de 5m - disponible jusqu'au 1/17062 - m&#233;tropole uniquement - mise &#224; jour le 12/10/2017</Abstract>
+        <Title>Carte des pentes pour l'agriculture sur la métropole</Title>
+        <Abstract>Carte des zones ayant une valeur de pente supérieure à 10% - source : RGEALTI 2017 au pas de 5m - disponible jusqu'au 1/17062 - métropole uniquement - mise à jour le 12/10/2017</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.1614</westBoundLongitude>
           <eastBoundLongitude>56.0018</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031093.999687123" miny="-2456938.999658408" maxx="6234093.000531528" maxy="6638833.999242652" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Name>
-          <Title>Donn&#233;es GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Title>
-          <Abstract>Style et l&#233;gende associ&#233;s au flux SLOPES.PAC</Abstract>
+          <Title>Données GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Title>
+          <Abstract>Style et légende associés au flux SLOPES.PAC</Abstract>
           <LegendURL width="300" height="50">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC-legend.png" />
@@ -289,8 +290,8 @@
       </Layer>
       <Layer>
         <Name>HYDROGRAPHY.BCAE.LATEST</Name>
-        <Title>Cours d'eau BCAE derni&#232;re &#233;dition</Title>
-        <Abstract>Le code rural et de la p&#234;che maritime pr&#233;voit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherb&#233;es le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 d&#233;cembre 2024. Pour les d&#233;partements non m&#233;tropolitains, veuillez-vous r&#233;f&#233;rer aux arr&#234;t&#233;s pr&#233;fectoraux relatifs aux BCAE.</Abstract>
+        <Title>Cours d'eau BCAE dernière édition</Title>
+        <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 décembre 2024. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5.15047</westBoundLongitude>
           <eastBoundLongitude>9.57054</eastBoundLongitude>
@@ -299,7 +300,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -308,8 +309,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -321,7 +322,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE.LATEST</Name>
         <Title>Registre parcellaire graphique (RPG)</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants &#233;dition 2023-01-01</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants édition 2023-01-01</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -330,7 +331,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -339,8 +340,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>Donn&#233;es Brutes</Title>
-          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
@@ -352,7 +353,7 @@
       <Layer>
         <Name>LANDUSE.AGRICULTURE2007</Name>
         <Title>Registre parcellaire graphique (RPG) 2007</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2007.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2007.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.2635</westBoundLongitude>
           <eastBoundLongitude>56.0237</eastBoundLongitude>
@@ -361,7 +362,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -370,8 +371,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -383,7 +384,7 @@
       <Layer>
         <Name>LANDUSE.AGRICULTURE2008</Name>
         <Title>Registre parcellaire graphique (RPG) 2008</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2008.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2008.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.2635</westBoundLongitude>
           <eastBoundLongitude>56.0237</eastBoundLongitude>
@@ -392,7 +393,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -401,8 +402,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -414,7 +415,7 @@
       <Layer>
         <Name>LANDUSE.AGRICULTURE2009</Name>
         <Title>Registre parcellaire graphique (RPG) 2009</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2009.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2009.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.2635</westBoundLongitude>
           <eastBoundLongitude>56.0237</eastBoundLongitude>
@@ -423,7 +424,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -432,8 +433,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -445,7 +446,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2010</Name>
         <Title>Registre parcellaire graphique (RPG) 2010</Title>
-        <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2010.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2010.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -454,7 +455,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -463,8 +464,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -476,7 +477,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2011</Name>
         <Title>Registre parcellaire graphique (RPG) 2011</Title>
-        <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2011.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2011.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -485,7 +486,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -494,8 +495,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -507,7 +508,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2012</Name>
         <Title>Registre parcellaire graphique (RPG) 2012</Title>
-        <Abstract>Registre parcellaire graphique : zones de culture d&#233;clar&#233;es par les exploitants en 2012</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2012</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -516,7 +517,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -525,8 +526,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -538,7 +539,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2013</Name>
         <Title>Registre parcellaire graphique (RPG) 2013</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2013</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -547,7 +548,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -556,8 +557,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -569,7 +570,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2014</Name>
         <Title>Registre parcellaire graphique (RPG) 2014</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2014</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -578,7 +579,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -587,8 +588,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -600,7 +601,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2015</Name>
         <Title>Registre parcellaire graphique 2015</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2015.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -609,7 +610,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -618,8 +619,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -631,7 +632,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2016</Name>
         <Title>Registre parcellaire graphique 2016</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2016.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -640,7 +641,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -649,8 +650,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -662,7 +663,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2017</Name>
         <Title> Registre parcellaire graphique 2017</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2017.</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-179.5</westBoundLongitude>
           <eastBoundLongitude>179.5</eastBoundLongitude>
@@ -671,7 +672,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -680,8 +681,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -693,7 +694,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2018</Name>
         <Title>Registre parcellaire graphique 2018</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2018</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -702,7 +703,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -711,8 +712,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -724,7 +725,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2019</Name>
         <Title>Registre parcellaire graphique 2019</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2019</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -733,7 +734,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -742,8 +743,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -755,7 +756,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2020</Name>
         <Title>Registre parcellaire graphique 2020</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2020</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -764,7 +765,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -773,8 +774,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -786,7 +787,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2021</Name>
         <Title>Registre parcellaire graphique 2021</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2021</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -795,7 +796,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -804,8 +805,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -817,7 +818,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2022</Name>
         <Title>Registre parcellaire graphique 2022</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2022</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -826,7 +827,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -835,8 +836,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>Donn&#233;es Brutes</Title>
-          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
@@ -848,7 +849,7 @@
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2023</Name>
         <Title>Registre parcellaire graphique 2023</Title>
-        <Abstract>Registre parcellaire graphique : zones de cultures d&#233;clar&#233;es par les exploitants en 2023</Abstract>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -857,7 +858,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -866,8 +867,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>Donn&#233;es Brutes</Title>
-          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
@@ -878,8 +879,8 @@
       </Layer>
       <Layer>
         <Name>PRAIRIES.SENSIBLES.BCAE</Name>
-        <Title>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000</Title>
-        <Abstract>Pr&#233;servation des prairies et p&#226;turages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l&#8217;Observatoire du d&#233;veloppement rural (ODR) en lien avec l&#8217;INRAE.</Abstract>
+        <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>
+        <Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5.15047</westBoundLongitude>
           <eastBoundLongitude>9.57054</eastBoundLongitude>
@@ -888,7 +889,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
-          <Title>Minist&#232;re de l'Agriculture et de la Souverainet&#233; Alimentaire</Title>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
           <LogoURL width="298" height="169">
             <Format>image/png</Format>
@@ -897,8 +898,8 @@
         </Attribution>
         <Style>
           <Name>nolegend</Name>
-          <Title>Donn&#233;es sans l&#233;gende</Title>
-          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <Title>Données sans légende</Title>
+          <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

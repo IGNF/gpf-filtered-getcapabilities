@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -78,17 +79,17 @@
   <Contents>
     <Layer>
       <ows:Title>Courbes de niveau</ows:Title>
-      <ows:Abstract>Le produit &#171; Courbes de niveau &#187; est un mod&#232;le num&#233;rique de terrain sous forme de courbes de m&#234;me altitude, appel&#233;es aussi &#171; isopl&#232;thes d&#8217;altitude &#187;, ou plus techniquement &#171; isohypses &#187;. Ces courbes permettent la description du relief fran&#231;ais.</ows:Abstract>
+      <ows:Abstract>Le produit « Courbes de niveau » est un modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude », ou plus techniquement « isohypses ». Ces courbes permettent la description du relief français.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.CONTOUR.LINE</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -200,10 +201,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -300,18 +301,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</ows:Title>
-      <ows:Abstract>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</ows:Abstract>
+      <ows:Title>Modèle Numérique de Terrain issu du RGEALTI</ows:Title>
+      <ows:Abstract>Modèle Numérique de Terrain issu du RGEALTI</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-62.9528 -13.0078</ows:LowerCorner>
         <ows:UpperCorner>45.3043 51.1053</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -387,18 +388,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Mod&#232;le num&#233;rique de surface</ows:Title>
-      <ows:Abstract>Mod&#232;le num&#233;rique de surface</ows:Abstract>
+      <ows:Title>Modèle numérique de surface</ows:Title>
+      <ows:Abstract>Modèle numérique de surface</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1968 -21.4338</ows:LowerCorner>
         <ows:UpperCorner>55.8639 51.22</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES.MNS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -510,7 +511,7 @@
     </Layer>
     <Layer>
       <ows:Title>Estompage</ows:Title>
-      <ows:Abstract>Couche d'ombrage calcul&#233;e &#224; partir des donn&#233;es altim&#233;triques de l'IGN permettant de mieux appr&#233;hender le relief. L'estompage propos&#233; est r&#233;alis&#233; &#224; partir des donn&#233;es MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45&#176;, l'autre z&#233;nithal.</ows:Abstract>
+      <ows:Abstract>Couche d'ombrage calculée à partir des données altimétriques de l'IGN permettant de mieux appréhender le relief. L'estompage proposé est réalisé à partir des données MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45°, l'autre zénithal.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.187 -21.4069</ows:LowerCorner>
         <ows:UpperCorner>55.8884 50.9218</ows:UpperCorner>
@@ -518,7 +519,7 @@
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>Estompage</ows:Title>
-        <ows:Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</ows:Abstract>
+        <ows:Abstract>Estompage calculé à partir de données en niveau de gris</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>MNT</ows:Keyword>
         </ows:Keywords>
@@ -653,35 +654,35 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.SRTM3</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Style>
-        <ows:Title>Teinte Hypsom&#233;trique</ows:Title>
-        <ows:Abstract>Teinte hypsom&#233;trique</ows:Abstract>
+        <ows:Title>Teinte Hypsométrique</ows:Title>
+        <ows:Abstract>Teinte hypsométrique</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>hypso</ows:Identifier>
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Style>
-        <ows:Title>Teintes Hypsom&#233;triques Sans Transparence</ows:Title>
-        <ows:Abstract>Teintes hypsom&#233;triques sans transparence</ows:Abstract>
+        <ows:Title>Teintes Hypsométriques Sans Transparence</ows:Title>
+        <ows:Abstract>Teintes hypsométriques sans transparence</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>hypso_noalpha</ows:Identifier>
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Style>
         <ows:Title>Estompage</ows:Title>
-        <ows:Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</ows:Abstract>
+        <ows:Abstract>Estompage calculé à partir de données en niveau de gris</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>MNT</ows:Keyword>
         </ows:Keywords>
@@ -767,7 +768,7 @@
     </Layer>
     <Layer>
       <ows:Title>Seuils de pente pour l'agriculture</ows:Title>
-      <ows:Abstract>La carte exp&#233;rimentale des seuils de pente pour l'agriculture est d&#233;riv&#233;e du MNT RGEAlti, mod&#232;le num&#233;rique de terrain maill&#233; au pas de 1 m. Les seuils de repr&#233;sentation de cette carte sont : 7% &#224; 10% : bleu, 10% &#224; 15% : mauve, 15% &#224; 20% : orange, plus de 20% : rouge. Donn&#233;es disponibles en France M&#233;tropolitaine du 1/4265 au 1/69885283 - mise &#224; jour du 30/06/2017.</ows:Abstract>
+      <ows:Abstract>La carte expérimentale des seuils de pente pour l'agriculture est dérivée du MNT RGEAlti, modèle numérique de terrain maillé au pas de 1 m. Les seuils de représentation de cette carte sont : 7% à 10% : bleu, 10% à 15% : mauve, 15% à 20% : orange, plus de 20% : rouge. Données disponibles en France Métropolitaine du 1/4265 au 1/69885283 - mise à jour du 30/06/2017.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -777,7 +778,7 @@
         <ows:Title>Valeur de pente en %</ows:Title>
         <ows:Abstract>Valeur de pente en %</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD-legend.png" width="200" height="129" minScaleDenominator="4265" maxScaleDenominator="69885283" />
@@ -895,7 +896,7 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Trait de c&#244;te Histolitt</ows:Title>
+      <ows:Title>Trait de côte Histolitt</ows:Title>
       <ows:Abstract>Formalisation de la limite entre le domaine terrestre et le domaine marin.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.2529 -21.51</ows:LowerCorner>
@@ -903,10 +904,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.LEVEL0</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1011,17 +1012,17 @@
     </Layer>
     <Layer>
       <ows:Title>Altitude</ows:Title>
-      <ows:Abstract>La couche altitude se compose d'un MNT (Mod&#232;le Num&#233;rique de Terrain) affich&#233; en teintes hypsom&#233;triques et issu de la BD ALTI&#174;. </ows:Abstract>
+      <ows:Abstract>La couche altitude se compose d'un MNT (Modèle Numérique de Terrain) affiché en teintes hypsométriques et issu de la BD ALTI®. </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.SLOPES</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1098,7 +1099,7 @@
     </Layer>
     <Layer>
       <ows:Title>Masque de source du RGE Alti</ows:Title>
-      <ows:Abstract>Informations sur la pr&#233;cision du RGEAlti.</ows:Abstract>
+      <ows:Abstract>Informations sur la précision du RGEAlti.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -1106,7 +1107,7 @@
       <ows:Identifier>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>Graphe de source du RGE Alti</ows:Title>
-        <ows:Abstract>L&#233;gende de la couche Graphe de source du RGE Alti</ows:Abstract>
+        <ows:Abstract>Légende de la couche Graphe de source du RGE Alti</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</ows:Keyword>
         </ows:Keywords>
@@ -1204,17 +1205,17 @@
     </Layer>
     <Layer>
       <ows:Title>Carte des pentes</ows:Title>
-      <ows:Abstract>Carte des zones ayant une valeur de pente sup&#233;rieure &#224; 30&#176;-35&#176;-40&#176;-45&#176; d'apr&#232;s la BD ALTI au pas de 5m</ows:Abstract>
+      <ows:Abstract>Carte des zones ayant une valeur de pente supérieure à 30°-35°-40°-45° d'après la BD ALTI au pas de 5m</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1614 -21.5446</ows:LowerCorner>
         <ows:UpperCorner>56.0018 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -77,8 +78,8 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Cartographie biom&#233;thane d&#8217;acc&#232;s aux r&#233;seaux</ows:Title>
-      <ows:Abstract>Cette cartographie indique un premier ordre degrandeur du crit&#232;re technico-&#233;conomique exprim&#233; en euro/Normalm3/h (&#8364;/Nm3/h): plus la valeur de ce crit&#232;re est basse, meilleures sont les possibilit&#233;s pour les op&#233;rateurs de r&#233;seau de r&#233;aliser des renforcements pour accueillir du biom&#233;thane sur la zone. </ows:Abstract>
+      <ows:Title>Cartographie biométhane d’accès aux réseaux</ows:Title>
+      <ows:Abstract>Cette cartographie indique un premier ordre degrandeur du critère technico-économique exprimé en euro/Normalm3/h (€/Nm3/h): plus la valeur de ce critère est basse, meilleures sont les possibilités pour les opérateurs de réseau de réaliser des renforcements pour accueillir du biométhane sur la zone. </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -86,7 +87,7 @@
       <ows:Identifier>ACCES.BIOMETHANE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ACCES.BIOMETHANE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des acc&#232;s biom&#233;thane</ows:Abstract>
+        <ows:Abstract>Légende ENR des accès biométhane</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
@@ -192,7 +193,7 @@
       <ows:Identifier>BESOIN.CHALEUR.INDUSTRIEL</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BESOIN.CHALEUR.INDUSTRIEL</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des besoins en chaleur industriels</ows:Abstract>
+        <ows:Abstract>Légende ENR des besoins en chaleur industriels</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -303,8 +304,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Estimation de besoins de chaleur - secteur r&#233;sidentiel</ows:Title>
-      <ows:Abstract>Estimation de besoins de chaleur - secteur r&#233;sidentiel</ows:Abstract>
+      <ows:Title>Estimation de besoins de chaleur - secteur résidentiel</ows:Title>
+      <ows:Abstract>Estimation de besoins de chaleur - secteur résidentiel</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -312,7 +313,7 @@
       <ows:Identifier>BESOIN.CHALEUR.RESIDENTIEL</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BESOIN.CHALEUR.RESIDENTIEL</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des besoins en chaleur r&#233;sidentiels</ows:Abstract>
+        <ows:Abstract>Légende ENR des besoins en chaleur résidentiels</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -432,7 +433,7 @@
       <ows:Identifier>BESOIN.CHALEUR.TERTIAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BESOIN.CHALEUR.TERTIAIRE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des besoins en chaleur tertiaires</ows:Abstract>
+        <ows:Abstract>Légende ENR des besoins en chaleur tertiaires</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -543,8 +544,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Estimation de besoins de froid - secteur r&#233;sidentiel</ows:Title>
-      <ows:Abstract>Estimation de besoins de froid - secteur r&#233;sidentiel</ows:Abstract>
+      <ows:Title>Estimation de besoins de froid - secteur résidentiel</ows:Title>
+      <ows:Abstract>Estimation de besoins de froid - secteur résidentiel</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -552,7 +553,7 @@
       <ows:Identifier>BESOIN.FROID.RESIDENTIEL</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BESOIN.FROID.RESIDENTIEL</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des besoins en froid r&#233;sidentiels</ows:Abstract>
+        <ows:Abstract>Légende ENR des besoins en froid résidentiels</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -672,7 +673,7 @@
       <ows:Identifier>BESOIN.FROID.TERTIAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BESOIN.FROID.TERTIAIRE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des besoins en froid tertiaires</ows:Abstract>
+        <ows:Abstract>Légende ENR des besoins en froid tertiaires</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -792,7 +793,7 @@
       <ows:Identifier>CADASTRES.SOLAIRES.LOCAUX</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>CADASTRES.SOLAIRES.LOCAUX</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des cadastres solaires locaux</ows:Abstract>
+        <ows:Abstract>Légende ENR des cadastres solaires locaux</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -889,8 +890,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Capacit&#233; d'acceuil pour le raccordement aux r&#233;seaux de transport et de distribution des installations de production d'&#233;lectricit&#233; - S3RENR (MW)</ows:Title>
-      <ows:Abstract>Capacit&#233;s d'acceuil en m&#233;gawatts disponibles pour le raccordement d'installations de production d'&#233;lectricit&#233; aux r&#233;seaux de transport et de distribution en France m&#233;tropolitaine (hors Corse) r&#233;serv&#233;es au titre du S3RENR. Capacit&#233;s restantes &#224; affecter (capacit&#233;s sans travaux et capacit&#233;s disponibles sur le r&#233;seau public de transport).</ows:Abstract>
+      <ows:Title>Capacité d'acceuil pour le raccordement aux réseaux de transport et de distribution des installations de production d'électricité - S3RENR (MW)</ows:Title>
+      <ows:Abstract>Capacités d'acceuil en mégawatts disponibles pour le raccordement d'installations de production d'électricité aux réseaux de transport et de distribution en France métropolitaine (hors Corse) réservées au titre du S3RENR. Capacités restantes à affecter (capacités sans travaux et capacités disponibles sur le réseau public de transport).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -898,7 +899,7 @@
       <ows:Identifier>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des capacit&#233;s d'acceuil &#233;lectriques</ows:Abstract>
+        <ows:Abstract>Légende ENR des capacités d'acceuil électriques</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -995,8 +996,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Consommation annuelle d&#8217;&#233;lectricit&#233; par commune</ows:Title>
-      <ows:Abstract>Consommation annuelle d&#8217;&#233;lectricit&#233; par commune</ows:Abstract>
+      <ows:Title>Consommation annuelle d’électricité par commune</ows:Title>
+      <ows:Abstract>Consommation annuelle d’électricité par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -1004,7 +1005,7 @@
       <ows:Identifier>CONSO.ELEC.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>CONSO.ELEC.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR de la consommation annuelle d'&#233;lectricit&#233; par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR de la consommation annuelle d'électricité par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -1110,7 +1111,7 @@
       <ows:Identifier>CONSO.GAZ.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>CONSO.GAZ.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR de la consommation annuelle de gaz par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR de la consommation annuelle de gaz par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>GAZ</ows:Keyword>
         </ows:Keywords>
@@ -1207,8 +1208,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>D&#233;laiss&#233;s autoroutiers</ows:Title>
-      <ows:Abstract>D&#233;laiss&#233;s autoroutiers</ows:Abstract>
+      <ows:Title>Délaissés autoroutiers</ows:Title>
+      <ows:Abstract>Délaissés autoroutiers</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1216,7 +1217,7 @@
       <ows:Identifier>DELAISSES.AUTOROUTIERS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>DELAISSES.AUTOROUTIERS</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des d&#233;laiss&#233;s autoroutiers</ows:Abstract>
+        <ows:Abstract>Légende ENR des délaissés autoroutiers</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>AUTOROUTE</ows:Keyword>
         </ows:Keywords>
@@ -1327,8 +1328,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires aeronautiques civiles</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires aeronautiques civiles</ows:Abstract>
+      <ows:Title>Contraintes réglementaires aeronautiques civiles</ows:Title>
+      <ows:Abstract>Contraintes réglementaires aeronautiques civiles</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1336,7 +1337,7 @@
       <ows:Identifier>ENR.AERO.CIVIL</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENR.AERO.CIVIL</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es &#224; l'a&#233;ronautique civil</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique civil</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1447,8 +1448,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires aeronautiques militaires</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires aeronautiques militaires</ows:Abstract>
+      <ows:Title>Contraintes réglementaires aeronautiques militaires</ows:Title>
+      <ows:Abstract>Contraintes réglementaires aeronautiques militaires</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1456,7 +1457,7 @@
       <ows:Identifier>ENR.AERO.MILITAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENR.AERO.MILITAIRE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es &#224; l'a&#233;ronautique militaire</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique militaire</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1568,7 +1569,7 @@
     </Layer>
     <Layer>
       <ows:Title>Grands sites de France</ows:Title>
-      <ows:Abstract>Emprise des sites appartenant au r&#233;seau Grand Site de France</ows:Abstract>
+      <ows:Abstract>Emprise des sites appartenant au réseau Grand Site de France</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1576,7 +1577,7 @@
       <ows:Identifier>ENR.GRANDS.SITES.FRANCE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENR.GRANDS.SITES.FRANCE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des grands sites de France</ows:Abstract>
+        <ows:Abstract>Légende ENR des grands sites de France</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Grands sites de France</ows:Keyword>
         </ows:Keywords>
@@ -1673,8 +1674,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires li&#233;es aux habitatons</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires li&#233;es aux habitations</ows:Abstract>
+      <ows:Title>Contraintes réglementaires liées aux habitatons</ows:Title>
+      <ows:Abstract>Contraintes réglementaires liées aux habitations</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -1682,7 +1683,7 @@
       <ows:Identifier>ENR.PERIMETRE.HABITATION</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PERIMETRE.HABITATION</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es aux habitations</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux habitations</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1788,8 +1789,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires li&#233;es aux pentes</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires li&#233;es aux pentes</ows:Abstract>
+      <ows:Title>Contraintes réglementaires liées aux pentes</ows:Title>
+      <ows:Abstract>Contraintes réglementaires liées aux pentes</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1797,7 +1798,7 @@
       <ows:Identifier>ENR.PERIMETRE.PENTE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PERIMETRE.PENTE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es aux pentes</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux pentes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1908,8 +1909,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires li&#233;es aux routes</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires li&#233;es aux routes</ows:Abstract>
+      <ows:Title>Contraintes réglementaires liées aux routes</ows:Title>
+      <ows:Abstract>Contraintes réglementaires liées aux routes</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -1917,7 +1918,7 @@
       <ows:Identifier>ENR.PERIMETRE.ROUTE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PERIMETRE.ROUTE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es aux routes</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux routes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -2023,8 +2024,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Contraintes r&#233;glementaires li&#233;es aux voies ferr&#233;es</ows:Title>
-      <ows:Abstract>Contraintes r&#233;glementaires li&#233;es aux voies ferr&#233;es</ows:Abstract>
+      <ows:Title>Contraintes réglementaires liées aux voies ferrées</ows:Title>
+      <ows:Abstract>Contraintes réglementaires liées aux voies ferrées</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2032,7 +2033,7 @@
       <ows:Identifier>ENR.PERIMETRE.VOIE.FERREE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PERIMETRE.VOIE.FERREE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des contraintes r&#233;glementaires li&#233;es aux voies ferr&#233;es</ows:Abstract>
+        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux voies ferrées</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -2124,8 +2125,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Estimation des besoins de chaleur des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Title>
-      <ows:Abstract>Estimation des besoins de chaleur des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Abstract>
+      <ows:Title>Estimation des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Title>
+      <ows:Abstract>Estimation des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2133,7 +2134,7 @@
       <ows:Identifier>ENREZO.BESOINS.CHAUD</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.BESOINS.CHAUD</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des estimations des besoins de chaleur des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Abstract>
+        <ows:Abstract>Légende ENR des estimations des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2230,8 +2231,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Estimation des besoins de froid des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Title>
-      <ows:Abstract>Estimation des besoins de froid des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Abstract>
+      <ows:Title>Estimation des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Title>
+      <ows:Abstract>Estimation des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2239,7 +2240,7 @@
       <ows:Identifier>ENREZO.BESOINS.FROID</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.BESOINS.FROID</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des estimations des besoins de froid des b&#226;timents des secteurs r&#233;sidentiels et tertiaires</ows:Abstract>
+        <ows:Abstract>Légende ENR des estimations des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -2345,7 +2346,7 @@
       <ows:Identifier>ENREZO.CHALEUR.FATALE.500.INDUSTRIES</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.CHALEUR.FATALE.500.INDUSTRIES</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des localisations et estimations du gisement de chaleur fatale des 500 plus gros sites industriels de France</ows:Abstract>
+        <ows:Abstract>Légende ENR des localisations et estimations du gisement de chaleur fatale des 500 plus gros sites industriels de France</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2442,8 +2443,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation et caract&#233;risation des Data Center en France</ows:Title>
-      <ows:Abstract>Localisation et caract&#233;risation des Data Center en France</ows:Abstract>
+      <ows:Title>Localisation et caractérisation des Data Center en France</ows:Title>
+      <ows:Abstract>Localisation et caractérisation des Data Center en France</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2451,7 +2452,7 @@
       <ows:Identifier>ENREZO.CHALEUR.FATALE.DATACENTER</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.CHALEUR.FATALE.DATACENTER</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des localisations et caract&#233;risations des Data Center en France</ows:Abstract>
+        <ows:Abstract>Légende ENR des localisations et caractérisations des Data Center en France</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Chaleur</ows:Keyword>
         </ows:Keywords>
@@ -2557,7 +2558,7 @@
       <ows:Identifier>ENREZO.CHALEUR.FATALE.STEP</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.CHALEUR.FATALE.STEP</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des localisations et estimations du gisement de chaleur fatale des STEP en France</ows:Abstract>
+        <ows:Abstract>Légende ENR des localisations et estimations du gisement de chaleur fatale des STEP en France</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2654,8 +2655,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Title>
-      <ows:Abstract>Zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Abstract>
+      <ows:Title>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Title>
+      <ows:Abstract>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2663,7 +2664,7 @@
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.CHAUD</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.ZONE.POTENTIEL.CHAUD</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Abstract>
+        <ows:Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2760,8 +2761,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones d&#8217;opportunit&#233; &#171; &#224; fort potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Title>
-      <ows:Abstract>Zones d&#8217;opportunit&#233; &#171; &#224; pfort otentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Abstract>
+      <ows:Title>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Title>
+      <ows:Abstract>Zones d’opportunité « à pfort otentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2769,7 +2770,7 @@
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FORT.CHAUD</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.ZONE.POTENTIEL.FORT.CHAUD</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des zones d&#8217;opportunit&#233; &#171; &#224; fort potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de chaleur</ows:Abstract>
+        <ows:Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2866,8 +2867,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones d&#8217;opportunit&#233; &#171; &#224; fort potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Title>
-      <ows:Abstract>Zones d&#8217;opportunit&#233; &#171; &#224; fort potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Abstract>
+      <ows:Title>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Title>
+      <ows:Abstract>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2875,7 +2876,7 @@
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FORT.FROID</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.ZONE.POTENTIEL.FORT.FROID</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des zones d&#8217;opportunit&#233; &#171; &#224; fort potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Abstract>
+        <ows:Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -2972,8 +2973,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Title>
-      <ows:Abstract>Zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Abstract>
+      <ows:Title>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Title>
+      <ows:Abstract>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -2981,7 +2982,7 @@
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FROID</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>ENREZO.ZONE.POTENTIEL.FROID</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des zones d&#8217;opportunit&#233; &#171; &#224; potentiel &#187; pour la cr&#233;ation ou l&#8217;extension de r&#233;seaux de froid</ows:Abstract>
+        <ows:Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -3078,8 +3079,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;seaux de distribution de gaz</ows:Title>
-      <ows:Abstract>R&#233;seaux de distribution de gaz</ows:Abstract>
+      <ows:Title>Réseaux de distribution de gaz</ows:Title>
+      <ows:Abstract>Réseaux de distribution de gaz</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3087,7 +3088,7 @@
       <ows:Identifier>GAZ.RESEAU.DISTRIBUTION</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>GAZ.RESEAU.DISTRIBUTION</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des r&#233;seaux de distribution de gaz</ows:Abstract>
+        <ows:Abstract>Légende ENR des réseaux de distribution de gaz</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Gaz</ows:Keyword>
         </ows:Keywords>
@@ -3184,8 +3185,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;seaux de transport de gaz</ows:Title>
-      <ows:Abstract>R&#233;seaux de transport de gaz</ows:Abstract>
+      <ows:Title>Réseaux de transport de gaz</ows:Title>
+      <ows:Abstract>Réseaux de transport de gaz</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3193,7 +3194,7 @@
       <ows:Identifier>GAZ.RESEAU.TRANSPORT</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>GAZ.RESEAU.TRANSPORT</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des r&#233;sseaux de transport de gaz</ows:Abstract>
+        <ows:Abstract>Légende ENR des résseaux de transport de gaz</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Gaz</ows:Keyword>
         </ows:Keywords>
@@ -3290,8 +3291,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des m&#226;ts &#233;olien</ows:Title>
-      <ows:Abstract>Localisation des m&#226;ts &#233;olien</ows:Abstract>
+      <ows:Title>Localisation des mâts éolien</ows:Title>
+      <ows:Abstract>Localisation des mâts éolien</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3299,7 +3300,7 @@
       <ows:Identifier>LOCALISATION.MATS.EOLIEN</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>LOCALISATION.MATS.EOLIEN</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des capacit&#233;s d'acceuil &#233;lectriques</ows:Abstract>
+        <ows:Abstract>Légende ENR des capacités d'acceuil électriques</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -3396,8 +3397,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>OFB zonages exclus des aires d'acc&#233;l&#233;ration</ows:Title>
-      <ows:Abstract>OFB zonages exclus des aires d'acc&#233;l&#233;ration</ows:Abstract>
+      <ows:Title>OFB zonages exclus des aires d'accélération</ows:Title>
+      <ows:Abstract>OFB zonages exclus des aires d'accélération</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3405,7 +3406,7 @@
       <ows:Identifier>OFB.ZONES.EXCLUES</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>OFB.ZONES.EXCLUES</ows:Title>
-        <ows:Abstract>L&#233;gende OFB des zonages exclus des aires d'acc&#233;l&#233;ration</ows:Abstract>
+        <ows:Abstract>Légende OFB des zonages exclus des aires d'accélération</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -3502,8 +3503,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>OFB zonages exclus des aires d'acc&#233;l&#233;ration sauf toitures</ows:Title>
-      <ows:Abstract>OFB zonages exclus des aires d'acc&#233;l&#233;ration sauf toitures</ows:Abstract>
+      <ows:Title>OFB zonages exclus des aires d'accélération sauf toitures</ows:Title>
+      <ows:Abstract>OFB zonages exclus des aires d'accélération sauf toitures</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3511,7 +3512,7 @@
       <ows:Identifier>OFB.ZONES.EXCLUES.SAUF.TOITURE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>OFB.ZONES.EXCLUES.SAUF.TOITURE</ows:Title>
-        <ows:Abstract>L&#233;gende OFB des zonages exclus des aires d'acc&#233;l&#233;ration sauf toitures</ows:Abstract>
+        <ows:Abstract>Légende OFB des zonages exclus des aires d'accélération sauf toitures</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -3608,8 +3609,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>OFB zones n&#233;cessitant l'avis du gestionnaire</ows:Title>
-      <ows:Abstract>OFB zones n&#233;cessitant l'avis du gestionnaire</ows:Abstract>
+      <ows:Title>OFB zones nécessitant l'avis du gestionnaire</ows:Title>
+      <ows:Abstract>OFB zones nécessitant l'avis du gestionnaire</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3617,7 +3618,7 @@
       <ows:Identifier>OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE</ows:Title>
-        <ows:Abstract>L&#233;gende OFB des zonages n&#233;cessitant l'avis du gestionnaire</ows:Abstract>
+        <ows:Abstract>Légende OFB des zonages nécessitant l'avis du gestionnaire</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -3714,8 +3715,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Parkings de plus de 500m&#178;</ows:Title>
-      <ows:Abstract>Parkings de plus de 500m&#178;</ows:Abstract>
+      <ows:Title>Parkings de plus de 500m²</ows:Title>
+      <ows:Abstract>Parkings de plus de 500m²</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3723,7 +3724,7 @@
       <ows:Identifier>PARKING.SUP.500</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PARKING.SUP.500</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des parkings de plus du 500m&#178;</ows:Abstract>
+        <ows:Abstract>Légende ENR des parkings de plus du 500m²</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PARKING</ows:Keyword>
         </ows:Keywords>
@@ -3834,8 +3835,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissance cumul&#233;e &#233;lectrique install&#233;e par fili&#232;re renouvelable par commune</ows:Title>
-      <ows:Abstract>Puissance cumul&#233;e &#233;lectrique install&#233;e par fili&#232;re renouvelable par commune</ows:Abstract>
+      <ows:Title>Puissance cumulée électrique installée par filière renouvelable par commune</ows:Title>
+      <ows:Abstract>Puissance cumulée électrique installée par filière renouvelable par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -3843,7 +3844,7 @@
       <ows:Identifier>PART.ENR.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PART.ENR.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des parts des &#233;nergies renouvelables par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR des parts des énergies renouvelables par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>COMMUNE</ows:Keyword>
         </ows:Keywords>
@@ -3954,8 +3955,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Points d'injection de Biom&#233;thane en France en service</ows:Title>
-      <ows:Abstract>Ce jeu de donn&#233;es pr&#233;sente la liste des points d'injection de biom&#233;thane dans les r&#233;seaux de gaz naturel en France et la capacit&#233; de production de biom&#233;thane en GWh/an</ows:Abstract>
+      <ows:Title>Points d'injection de Biométhane en France en service</ows:Title>
+      <ows:Abstract>Ce jeu de données présente la liste des points d'injection de biométhane dans les réseaux de gaz naturel en France et la capacité de production de biométhane en GWh/an</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -3963,7 +3964,7 @@
       <ows:Identifier>POINTS.INJECTION.BIOMETHANE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POINTS.INJECTION.BIOMETHANE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des points d'injection biom&#233;thane</ows:Abstract>
+        <ows:Abstract>Légende ENR des points d'injection biométhane</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
@@ -4060,8 +4061,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel &#233;olien terrestre - couche "cl&#233; en main"</ows:Title>
-      <ows:Abstract>Potentiel &#233;olien terrestre - couche "cl&#233; en main"</ows:Abstract>
+      <ows:Title>Potentiel éolien terrestre - couche "clé en main"</ows:Title>
+      <ows:Abstract>Potentiel éolien terrestre - couche "clé en main"</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -4069,7 +4070,7 @@
       <ows:Identifier>POTENTIEL.EOLIEN.REGLEMENTAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.EOLIEN.REGLE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel &#233;olien</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel éolien</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -4166,8 +4167,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel g&#233;othermique en PACA</ows:Title>
-      <ows:Abstract>Potentiel g&#233;othermique en PACA</ows:Abstract>
+      <ows:Title>Potentiel géothermique en PACA</ows:Title>
+      <ows:Abstract>Potentiel géothermique en PACA</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4175,7 +4176,7 @@
       <ows:Identifier>POTENTIEL.GEOTHERMIE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.GEOTHERMIE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel g&#233;othermique</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel géothermique</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>GEOTHERMIE</ows:Keyword>
         </ows:Keywords>
@@ -4286,8 +4287,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel hydro&#233;lectrique sur nouveaux ouvrages</ows:Title>
-      <ows:Abstract>Potentiel hydro&#233;lectrique sur nouveaux ouvrages</ows:Abstract>
+      <ows:Title>Potentiel hydroélectrique sur nouveaux ouvrages</ows:Title>
+      <ows:Abstract>Potentiel hydroélectrique sur nouveaux ouvrages</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4295,7 +4296,7 @@
       <ows:Identifier>POTENTIEL.HYDRO</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.HYDRO</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel hydro&#233;lectrique</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel hydroélectrique</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>HYDRO</ows:Keyword>
         </ows:Keywords>
@@ -4406,8 +4407,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel de d&#233;veloppement des r&#233;seaux de chaleur en PACA</ows:Title>
-      <ows:Abstract>Potentiel de d&#233;veloppement des r&#233;seaux de chaleur en PACA</ows:Abstract>
+      <ows:Title>Potentiel de développement des réseaux de chaleur en PACA</ows:Title>
+      <ows:Abstract>Potentiel de développement des réseaux de chaleur en PACA</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4415,7 +4416,7 @@
       <ows:Identifier>POTENTIEL.RESEAU.CHALEUR.PACA</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.RESEAU.CHALEUR.PACA</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel du r&#233;seau de chaleur en PACA</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel du réseau de chaleur en PACA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -4526,8 +4527,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel de d&#233;veloppement des r&#233;seaux de chaleur et de froid en PACA</ows:Title>
-      <ows:Abstract>Potentiel de d&#233;veloppement des r&#233;seaux de chaleur et de froid en PACA</ows:Abstract>
+      <ows:Title>Potentiel de développement des réseaux de chaleur et de froid en PACA</ows:Title>
+      <ows:Abstract>Potentiel de développement des réseaux de chaleur et de froid en PACA</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4535,7 +4536,7 @@
       <ows:Identifier>POTENTIEL.RESEAU.CHAUD.FROID.PACA</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.RESEAU.CHAUD.FROID.PACA</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel du r&#233;seau chaud/froid en PACA</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel du réseau chaud/froid en PACA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -4646,8 +4647,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title> Potentiel de d&#233;veloppement des r&#233;seaux de froid en PACA </ows:Title>
-      <ows:Abstract> Potentiel de d&#233;veloppement des r&#233;seaux de froid en PACA </ows:Abstract>
+      <ows:Title> Potentiel de développement des réseaux de froid en PACA </ows:Title>
+      <ows:Abstract> Potentiel de développement des réseaux de froid en PACA </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4655,7 +4656,7 @@
       <ows:Identifier>POTENTIEL.RESEAU.FROID.PACA</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.RESEAU.FROID.PACA</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel du r&#233;seau de froid en PACA</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel du réseau de froid en PACA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -4766,8 +4767,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel solaire sur toiture (m&#233;thode simplifi&#233;e)</ows:Title>
-      <ows:Abstract>Potentiel solaire sur toiture (m&#233;thode simplifi&#233;e)</ows:Abstract>
+      <ows:Title>Potentiel solaire sur toiture (méthode simplifiée)</ows:Title>
+      <ows:Abstract>Potentiel solaire sur toiture (méthode simplifiée)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4775,7 +4776,7 @@
       <ows:Identifier>POTENTIEL.SOLAIRE.BATIMENT</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.SOLAIRE.BATIMENT</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel solaire des b&#226;timents</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel solaire des bâtiments</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -4886,8 +4887,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovolta&#239;ques</ows:Title>
-      <ows:Abstract>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovolta&#239;ques</ows:Abstract>
+      <ows:Title>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovoltaïques</ows:Title>
+      <ows:Abstract>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovoltaïques</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -4895,7 +4896,7 @@
       <ows:Identifier>POTENTIEL.SOLAIRE.FRICHE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.SOLAIRE.FRICHE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel solaire des friches</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel solaire des friches</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -5006,8 +5007,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Unit&#233;s fonci&#232;res contenant des surfaces de stationnement non couvertes de plus de 500m&#178; (donn&#233;es d&#233;claratives)</ows:Title>
-      <ows:Abstract>Unit&#233;s fonci&#232;res contenant des surfaces de stationnement non couvertes de plus de 500m&#178; (donn&#233;es d&#233;claratives)</ows:Abstract>
+      <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Title>
+      <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -5015,7 +5016,7 @@
       <ows:Identifier>POTENTIEL.SOLAIRE.PARKING500</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.SOLAIRE.PARKING500</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel solaire des parkings</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel solaire des parkings</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -5112,8 +5113,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel solaire sur le r&#233;seau routier national (DIR)</ows:Title>
-      <ows:Abstract>Potentiel solaire sur le r&#233;seau routier national (DIR)</ows:Abstract>
+      <ows:Title>Potentiel solaire sur le réseau routier national (DIR)</ows:Title>
+      <ows:Abstract>Potentiel solaire sur le réseau routier national (DIR)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -5121,7 +5122,7 @@
       <ows:Identifier>POTENTIEL.SOLAIRE.RRN</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.SOLAIRE.RRN</ows:Title>
-        <ows:Abstract>L&#233;gende OFB du potentiel solaire sur le r&#233;seau routier national (DIR)</ows:Abstract>
+        <ows:Abstract>Légende OFB du potentiel solaire sur le réseau routier national (DIR)</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Solaire</ows:Keyword>
         </ows:Keywords>
@@ -5219,7 +5220,7 @@
     </Layer>
     <Layer>
       <ows:Title>Potentiel solaire sol</ows:Title>
-      <ows:Abstract>Zones potentiellements propices &#224; l'installation de solaire sol.</ows:Abstract>
+      <ows:Abstract>Zones potentiellements propices à l'installation de solaire sol.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -5227,7 +5228,7 @@
       <ows:Identifier>POTENTIEL.SOLAIRE.SOL</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POTENTIEL.SOLAIRE.SOL</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel solaire des sols</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel solaire des sols</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -5324,8 +5325,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissance cumul&#233;e install&#233;e des installations &#233;oliennes par commune</ows:Title>
-      <ows:Abstract>Puissance cumul&#233;e install&#233;e des installations &#233;oliennes par commune</ows:Abstract>
+      <ows:Title>Puissance cumulée installée des installations éoliennes par commune</ows:Title>
+      <ows:Abstract>Puissance cumulée installée des installations éoliennes par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -5333,7 +5334,7 @@
       <ows:Identifier>PROD.INSTALLATION.EOLIEN</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROD.INSTALLATION.EOLIEN</ows:Title>
-        <ows:Abstract>L&#233;gende ENR de la production des installations &#233;oliennes</ows:Abstract>
+        <ows:Abstract>Légende ENR de la production des installations éoliennes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -5444,8 +5445,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissance cumul&#233;e install&#233;e des installations hydrauliques par commune</ows:Title>
-      <ows:Abstract>Puissance cumul&#233;e install&#233;e des installations hydrauliques par commune</ows:Abstract>
+      <ows:Title>Puissance cumulée installée des installations hydrauliques par commune</ows:Title>
+      <ows:Abstract>Puissance cumulée installée des installations hydrauliques par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -5453,7 +5454,7 @@
       <ows:Identifier>PROD.INSTALLATION.HYDRO</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROD.INSTALLATION.HYDRO</ows:Title>
-        <ows:Abstract>L&#233;gende ENR de la production des installations hydros</ows:Abstract>
+        <ows:Abstract>Légende ENR de la production des installations hydros</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>HYDRO</ows:Keyword>
         </ows:Keywords>
@@ -5564,8 +5565,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissance cumul&#233;e install&#233;e des installations photovolta&#239;ques par commune</ows:Title>
-      <ows:Abstract>Puissance cumul&#233;e install&#233;e des installations photovolta&#239;ques par commune</ows:Abstract>
+      <ows:Title>Puissance cumulée installée des installations photovoltaïques par commune</ows:Title>
+      <ows:Abstract>Puissance cumulée installée des installations photovoltaïques par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -5573,7 +5574,7 @@
       <ows:Identifier>PROD.INSTALLATION.PV</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROD.INSTALLATION.PV</ows:Title>
-        <ows:Abstract>L&#233;gende ENR de la production des installations photovoltaiques</ows:Abstract>
+        <ows:Abstract>Légende ENR de la production des installations photovoltaiques</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PHOTOVOLTAIQUE</ows:Keyword>
         </ows:Keywords>
@@ -5684,8 +5685,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Productible en injection de biom&#233;thane annuel par commune</ows:Title>
-      <ows:Abstract>Productible en injection de biom&#233;thane annuel par commune</ows:Abstract>
+      <ows:Title>Productible en injection de biométhane annuel par commune</ows:Title>
+      <ows:Abstract>Productible en injection de biométhane annuel par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -5693,7 +5694,7 @@
       <ows:Identifier>PRODUCTIBLE.BIOMETHANE.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PRODUCTIBLE.BIOMETHANE.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR productible biom&#233;thane par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR productible biométhane par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -5804,8 +5805,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Productible en &#233;olien annuel par commune</ows:Title>
-      <ows:Abstract>Productible en &#233;olien annuel par commune</ows:Abstract>
+      <ows:Title>Productible en éolien annuel par commune</ows:Title>
+      <ows:Abstract>Productible en éolien annuel par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -5813,7 +5814,7 @@
       <ows:Identifier>PRODUCTIBLE.EOLIEN.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PRODUCTIBLE.EOLIEN.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR productible &#233;olien par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR productible éolien par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -5924,8 +5925,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Productible en m&#233;thanisation annuel par commune</ows:Title>
-      <ows:Abstract>Productible en m&#233;thanisation annuel par commune</ows:Abstract>
+      <ows:Title>Productible en méthanisation annuel par commune</ows:Title>
+      <ows:Abstract>Productible en méthanisation annuel par commune</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -5933,7 +5934,7 @@
       <ows:Identifier>PRODUCTIBLE.METHANISATION.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PRODUCTIBLE.METHANISATION.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR productible m&#233;thanisation par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR productible méthanisation par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>METHANISATION</ows:Keyword>
         </ows:Keywords>
@@ -6053,7 +6054,7 @@
       <ows:Identifier>PRODUCTIBLE.PHOTOVOLTAIQUE.COMMUNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PRODUCTIBLE.PHOTOVOLTAIQUE.COMMUNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR productible photovoltaique par commune</ows:Abstract>
+        <ows:Abstract>Légende ENR productible photovoltaique par commune</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PHOTOVOLTAIQUE</ows:Keyword>
         </ows:Keywords>
@@ -6164,8 +6165,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissances cumul&#233;es des installations par commune biom&#233;thane</ows:Title>
-      <ows:Abstract>Puissances cumul&#233;es des installations par commune biom&#233;thane</ows:Abstract>
+      <ows:Title>Puissances cumulées des installations par commune biométhane</ows:Title>
+      <ows:Abstract>Puissances cumulées des installations par commune biométhane</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6173,7 +6174,7 @@
       <ows:Identifier>PUISSANCE.INSTALLEE.BIOMETHANE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des puissances m&#233;thanisation et biom&#233;thane</ows:Abstract>
+        <ows:Abstract>Légende ENR des puissances méthanisation et biométhane</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PUISSANCE</ows:Keyword>
         </ows:Keywords>
@@ -6284,8 +6285,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Puissances cumul&#233;es des installations par commune m&#233;thanisation</ows:Title>
-      <ows:Abstract>Puissances cumul&#233;es des installations par commune m&#233;thanisation</ows:Abstract>
+      <ows:Title>Puissances cumulées des installations par commune méthanisation</ows:Title>
+      <ows:Abstract>Puissances cumulées des installations par commune méthanisation</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6293,7 +6294,7 @@
       <ows:Identifier>PUISSANCE.INSTALLEE.METHANISATION</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des puissances m&#233;thanisation et biom&#233;thane</ows:Abstract>
+        <ows:Abstract>Légende ENR des puissances méthanisation et biométhane</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PUISSANCE</ows:Keyword>
         </ows:Keywords>
@@ -6404,8 +6405,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Potentiel m&#233;thanisable par canton</ows:Title>
-      <ows:Abstract>Potentiel m&#233;thanisable par canton</ows:Abstract>
+      <ows:Title>Potentiel méthanisable par canton</ows:Title>
+      <ows:Abstract>Potentiel méthanisable par canton</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6413,7 +6414,7 @@
       <ows:Identifier>REPARTITION.POTENTIEL.METHANISATION.2050</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>REPARTITION.POTENTIEL.METHANISATION.2050</ows:Title>
-        <ows:Abstract>L&#233;gende ENR du potentiel m&#233;thanisation 2050</ows:Abstract>
+        <ows:Abstract>Légende ENR du potentiel méthanisation 2050</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>METHANISATION</ows:Keyword>
         </ows:Keywords>
@@ -6533,7 +6534,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.BIOGAZ</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.BIOGAZ</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production de chaleur biogaz</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production de chaleur biogaz</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -6644,8 +6645,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des installations de production d'&#233;lectricit&#233; pouvant valoriser de la chaleur</ows:Title>
-      <ows:Abstract>Localisation des installations de production d'&#233;lectricit&#233; pouvant valoriser de la chaleur</ows:Abstract>
+      <ows:Title>Localisation des installations de production d'électricité pouvant valoriser de la chaleur</ows:Title>
+      <ows:Abstract>Localisation des installations de production d'électricité pouvant valoriser de la chaleur</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6653,7 +6654,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.COGENERATION</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.COGENERATION</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production de chaleur cog&#233;n&#233;ration</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production de chaleur cogénération</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -6764,8 +6765,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des installations de production de chaleur par incin&#233;ration des d&#233;chets</ows:Title>
-      <ows:Abstract>Localisation des installations de production de chaleur par incin&#233;ration des d&#233;chets</ows:Abstract>
+      <ows:Title>Localisation des installations de production de chaleur par incinération des déchets</ows:Title>
+      <ows:Abstract>Localisation des installations de production de chaleur par incinération des déchets</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6773,7 +6774,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.DECHETS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.DECHETS</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production de chaleur d&#233;chets</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production de chaleur déchets</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -6884,8 +6885,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des installations de production de chaleur par m&#233;thanisation</ows:Title>
-      <ows:Abstract>Localisation des installations de production de chaleur par m&#233;thanisation</ows:Abstract>
+      <ows:Title>Localisation des installations de production de chaleur par méthanisation</ows:Title>
+      <ows:Abstract>Localisation des installations de production de chaleur par méthanisation</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -6893,7 +6894,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.METHANISATON</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.METHANISATON</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production de chaleur m&#233;thanisation</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production de chaleur méthanisation</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -7004,8 +7005,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des r&#233;seaux de chaleur et de froid en France</ows:Title>
-      <ows:Abstract>Localisation des r&#233;seaux de chaleur et de froid en France</ows:Abstract>
+      <ows:Title>Localisation des réseaux de chaleur et de froid en France</ows:Title>
+      <ows:Abstract>Localisation des réseaux de chaleur et de froid en France</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -7013,7 +7014,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RC</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.RC</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production r&#233;seaux de chaleur</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production réseaux de chaleur</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -7124,8 +7125,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des r&#233;seaux de chaleur en Bretagne</ows:Title>
-      <ows:Abstract>Localisation des r&#233;seaux de chaleur en Bretagne</ows:Abstract>
+      <ows:Title>Localisation des réseaux de chaleur en Bretagne</ows:Title>
+      <ows:Abstract>Localisation des réseaux de chaleur en Bretagne</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15012 47.2719</ows:LowerCorner>
         <ows:UpperCorner>-1.00687 48.9064</ows:UpperCorner>
@@ -7133,7 +7134,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RC.BRETAGNE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.RC.BRETAGNE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production r&#233;seaux de chaleur en Bretagne</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production réseaux de chaleur en Bretagne</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -7244,8 +7245,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des r&#233;seaux de chaleur en PACA</ows:Title>
-      <ows:Abstract>Localisation des r&#233;seaux de chaleur en PACA</ows:Abstract>
+      <ows:Title>Localisation des réseaux de chaleur en PACA</ows:Title>
+      <ows:Abstract>Localisation des réseaux de chaleur en PACA</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>4.22277 42.9758</ows:LowerCorner>
         <ows:UpperCorner>7.72777 45.1331</ows:UpperCorner>
@@ -7253,7 +7254,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RC.PACA</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.RC.PACA</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des sites de production r&#233;seaux de chaleur en PACA</ows:Abstract>
+        <ows:Abstract>Légende ENR des sites de production réseaux de chaleur en PACA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -7364,8 +7365,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des r&#233;seaux de chaleur et de froid lin&#233;aires</ows:Title>
-      <ows:Abstract>Localisation des r&#233;seaux de chaleur et de froid lin&#233;aires</ows:Abstract>
+      <ows:Title>Localisation des réseaux de chaleur et de froid linéaires</ows:Title>
+      <ows:Abstract>Localisation des réseaux de chaleur et de froid linéaires</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -7373,7 +7374,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des des r&#233;seaux de chaleur et de froid lin&#233;aires</ows:Abstract>
+        <ows:Abstract>Légende ENR des des réseaux de chaleur et de froid linéaires</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -7479,8 +7480,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Localisation des r&#233;seaux de chaleur et de froid ponctuels</ows:Title>
-      <ows:Abstract>Localisation des r&#233;seaux de chaleur et de froid ponctuels</ows:Abstract>
+      <ows:Title>Localisation des réseaux de chaleur et de froid ponctuels</ows:Title>
+      <ows:Abstract>Localisation des réseaux de chaleur et de froid ponctuels</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -7488,7 +7489,7 @@
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RCF.POINT</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>SITE.PRODUCTION.CHALEUR.RCF.POINT</ows:Title>
-        <ows:Abstract>L&#233;gende ENR des des r&#233;seaux de chaleur et de froid ponctuels</ows:Abstract>
+        <ows:Abstract>Légende ENR des des réseaux de chaleur et de froid ponctuels</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>

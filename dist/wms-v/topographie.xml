@@ -1,8 +1,9 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7575" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="6972" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-    <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+    <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+    <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
     <KeywordList>
       <Keyword>WMS</Keyword>
       <Keyword>GEOSERVER</Keyword>
@@ -10,14 +11,14 @@
     <OnlineResource xlink:type="simple" xlink:href="http://geoserver.org" />
     <ContactInformation>
       <ContactPersonPrimary>
-        <ContactPerson>G&#233;oportail SAV</ContactPerson>
+        <ContactPerson>Géoportail SAV</ContactPerson>
         <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
         <AddressType />
         <Address>73 avenue de Paris</Address>
-        <City>Saint Mand&#233;</City>
+        <City>Saint Mandé</City>
         <StateOrProvince />
         <PostCode>94160</PostCode>
         <Country>France</Country>
@@ -98,8 +99,8 @@
       <Format>JSON</Format>
     </Exception>
     <Layer>
-      <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-      <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+      <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+      <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
       <CRS>EPSG:2154</CRS>
       <CRS>EPSG:21781</CRS>
       <CRS>EPSG:23030</CRS>
@@ -224,8 +225,8 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
-        <Title>BDTopo B&#226;timent &#233;dition 2024-06-15</Title>
-        <Abstract>BDTopo th&#232;me B&#226;timent &#233;dition 2024-06-15</Abstract>
+        <Title>BDTopo Bâtiment édition 2024-06-15</Title>
+        <Abstract>BDTopo thème Bâtiment édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -239,7 +240,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -258,8 +259,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Hydrographie &#233;dition 2024-06-15</Title>
-        <Abstract>BDTopo th&#232;me Hydrographie &#233;dition 2024-06-15</Abstract>
+        <Title>BDTopo Hydrographie édition 2024-06-15</Title>
+        <Abstract>BDTopo thème Hydrographie édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -273,7 +274,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -292,8 +293,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Orographie &#233;dition 2024-06-15</Title>
-        <Abstract>BDTopo th&#232;me Orographie &#233;dition 2024-06-15</Abstract>
+        <Title>BDTopo Orographie édition 2024-06-15</Title>
+        <Abstract>BDTopo thème Orographie édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -307,7 +308,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -326,8 +327,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
-        <Title>BDTopo V&#233;g&#233;tation &#233;dition 2024-06-15</Title>
-        <Abstract>BDTopo th&#232;me V&#233;g&#233;tation &#233;dition 2024-06-15</Abstract>
+        <Title>BDTopo Végétation édition 2024-06-15</Title>
+        <Abstract>BDTopo thème Végétation édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -341,7 +342,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -360,8 +361,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
-        <Title>BDTopo Zone d'activit&#233;s &#233;dition 2024-06-15</Title>
-        <Abstract>BDTopo th&#232;me Zone d'activit&#233;s &#233;dition 2024-06-15</Abstract>
+        <Title>BDTopo Zone d'activités édition 2024-06-15</Title>
+        <Abstract>BDTopo thème Zone d'activités édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -375,7 +376,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -394,8 +395,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>POI.MUSEUM</Name>
-        <Title>Mus&#233;es</Title>
-        <Abstract>&#201;tablissement ouvert au public exposant une grande collection d'objets, de documents, etc., relatifs aux arts et aux sciences et pouvant servir &#224; leur histoire. Source : IGN BD Uni 2024</Abstract>
+        <Title>Musées</Title>
+        <Abstract>Établissement ouvert au public exposant une grande collection d'objets, de documents, etc., relatifs aux arts et aux sciences et pouvant servir à leur histoire. Source : IGN BD Uni 2024</Abstract>
         <KeywordList>
           <Keyword>Histoire et patrimoine</Keyword>
         </KeywordList>
@@ -428,13 +429,13 @@
       </Layer>
       <Layer queryable="1">
         <Name>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</Name>
-        <Title>Points de rep&#232;re routiers (PR)</Title>
-        <Abstract>Ensemble des points de rep&#232;re situ&#233;s sur les routes d&#233;partementales, nationales ou infrastructures autorouti&#232;res conc&#233;d&#233;es de France m&#233;tropolitaine. Edition 22.4</Abstract>
+        <Title>Points de repère routiers (PR)</Title>
+        <Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Edition 22.4</Abstract>
         <KeywordList>
           <Keyword>PR</Keyword>
           <Keyword>autoroutes</Keyword>
-          <Keyword>point de rep&#232;re</Keyword>
-          <Keyword>routes d&#233;partementales</Keyword>
+          <Keyword>point de repère</Keyword>
+          <Keyword>routes départementales</Keyword>
           <Keyword>routes nationales</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
@@ -447,7 +448,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15371169" miny="-21.38982666" maxx="55.83677582" maxy="51.31504801" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38982666" miny="-63.15371169" maxx="51.31504801" maxy="55.83677582" />
         <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
+          <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -467,9 +468,9 @@
       <Layer queryable="1">
         <Name>UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE</Name>
         <Title>Accueil Police - Gendarmerie</Title>
-        <Abstract>Les points d'accueil de la police et de gendarmerie comprennent les commissariats et les antennes de police.Ils permettent de d&#233;poser les plaintes et d'accomplir certaines d&#233;marches administratives. Les points d'accueil de police sont g&#233;n&#233;ralement situ&#233;s en ville et les gendarmeries en zone rurale, littorale ou de montagne.</Abstract>
+        <Abstract>Les points d'accueil de la police et de gendarmerie comprennent les commissariats et les antennes de police.Ils permettent de déposer les plaintes et d'accomplir certaines démarches administratives. Les points d'accueil de police sont généralement situés en ville et les gendarmeries en zone rurale, littorale ou de montagne.</Abstract>
         <KeywordList>
-          <Keyword>D&#233;fense et s&#233;curit&#233;</Keyword>
+          <Keyword>Défense et sécurité</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -481,7 +482,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -501,7 +502,7 @@
       <Layer queryable="1">
         <Name>hedge.hedge</Name>
         <Title>haies lineaires</Title>
-        <Abstract>Couche nationale de r&#233;f&#233;rence des haies lin&#233;aires en France m&#233;tropolitaine &#233;dition 2024-06-15</Abstract>
+        <Abstract>Couche nationale de référence des haies linéaires en France métropolitaine édition 2024-06-15</Abstract>
         <KeywordList>
           <Keyword>haie</Keyword>
         </KeywordList>
@@ -515,7 +516,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
         <Attribution>
-          <Title>Institut national de la statistique et des &#233;tudes &#233;conomiques (INSEE)</Title>
+          <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>

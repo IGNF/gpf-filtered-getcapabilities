@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -77,18 +78,18 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>D&#233;limitation parcellaire AOC viticole</ows:Title>
-      <ows:Abstract>Selon les r&#232;glements europ&#233;ens n&#176;110/2008 du 15 janvier 2008, n&#176;1151/2012 du 21 novembre 2012 et n&#176;1308/2013 de l&#8217;OCM , le cahier des charges des appellations d&#233;finit l&#8217;aire g&#233;ographique. Le terme de &#171; d&#233;limitation parcellaire &#187; d&#233;signe une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations tr&#232;s localis&#233;es des &#233;l&#233;ments du milieu physique. Elle correspond &#224; l'aire de production de la mati&#232;re premi&#232;re. Elle est incluse dans l'aire g&#233;ographique. Donn&#233;es produites par l'Institut National des Origines et la Qualit&#233; (INAO)</ows:Abstract>
+      <ows:Title>Délimitation parcellaire AOC viticole</ows:Title>
+      <ows:Abstract>Selon les règlements européens n°110/2008 du 15 janvier 2008, n°1151/2012 du 21 novembre 2012 et n°1308/2013 de l’OCM , le cahier des charges des appellations définit l’aire géographique. Le terme de « délimitation parcellaire » désigne une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations très localisées des éléments du milieu physique. Elle correspond à l'aire de production de la matière première. Elle est incluse dans l'aire géographique. Données produites par l'Institut National des Origines et la Qualité (INAO)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>Aire-Parcellaire</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -239,8 +240,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>D&#233;calage de la repr&#233;sentation cadastrale</ows:Title>
-      <ows:Abstract>Cartographie des d&#233;calages entre les donn&#233;es BD Parcellaire et Parcellaire Express</ows:Abstract>
+      <ows:Title>Décalage de la représentation cadastrale</ows:Title>
+      <ows:Abstract>Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
@@ -248,7 +249,7 @@
       <ows:Identifier>CADASTRALPARCELS.HEATMAP</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>DECALAGE DE LA REPRESENTATION CADASTRALE</ows:Title>
-        <ows:Abstract>L&#233;gende du d&#233;calage de la repr&#233;sentation cadastrale</ows:Abstract>
+        <ows:Abstract>Légende du décalage de la représentation cadastrale</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CADASTRE</ows:Keyword>
         </ows:Keywords>
@@ -360,7 +361,7 @@
     </Layer>
     <Layer>
       <ows:Title>Parcelles cadastrales historiques (2008-2013)</ows:Title>
-      <ows:Abstract>Limites des parcelles cadastrales historiques (2008-2013) issues de plans scann&#233;s et de plans num&#233;riques.</ows:Abstract>
+      <ows:Abstract>Limites des parcelles cadastrales historiques (2008-2013) issues de plans scannés et de plans numériques.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1607 -21.3922</ows:LowerCorner>
         <ows:UpperCorner>55.8464 51.0945</ows:UpperCorner>
@@ -368,7 +369,7 @@
       <ows:Identifier>CADASTRALPARCELS.HISTO.2008-2013.PARCELS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BD Parcellaire Noire et transparente</ows:Title>
-        <ows:Abstract>trac&#233; noir sur fond transparent</ows:Abstract>
+        <ows:Abstract>tracé noir sur fond transparent</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>noir</ows:Keyword>
           <ows:Keyword>transparent</ows:Keyword>
@@ -532,24 +533,24 @@
     </Layer>
     <Layer>
       <ows:Title>Parcellaire cadastral</ows:Title>
-      <ows:Abstract>Parcellaire cadastral &#233;dition : 2024-07-01</ows:Abstract>
+      <ows:Abstract>Parcellaire cadastral édition : 2024-07-01</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Style>
         <ows:Title>PCI vecteur</ows:Title>
-        <ows:Abstract>L&#233;gende de la couche PCI vecteur</ows:Abstract>
+        <ows:Abstract>Légende de la couche PCI vecteur</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Keyword>
         </ows:Keywords>
@@ -710,7 +711,7 @@
     </Layer>
     <Layer>
       <ows:Title>Parcelles cadastrales</ows:Title>
-      <ows:Abstract>Limites des parcelles cadastrales issues de plans scann&#233;s et de plans num&#233;riques.</ows:Abstract>
+      <ows:Abstract>Limites des parcelles cadastrales issues de plans scannés et de plans numériques.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1607 -21.3922</ows:LowerCorner>
         <ows:UpperCorner>55.8464 51.091</ows:UpperCorner>
@@ -718,7 +719,7 @@
       <ows:Identifier>CADASTRALPARCELS.PARCELS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>BD Parcellaire Noire et transparente</ows:Title>
-        <ows:Abstract>trac&#233; noir sur fond transparent</ows:Abstract>
+        <ows:Abstract>tracé noir sur fond transparent</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>noir</ows:Keyword>
           <ows:Keyword>transparent</ows:Keyword>
@@ -727,10 +728,10 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Style>
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />

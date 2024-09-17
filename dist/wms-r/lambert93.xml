@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -259,7 +260,7 @@
       <Layer>
         <Name>SCANEM40_PYR_PNG_FXX_LAMB93</Name>
         <Title>SCANEM40 LAMB93 FXX 2012</Title>
-        <Abstract>Le produit SCAN Etat-major&#174; 40K est une collection d'images cartographiques num&#233;riques en couleurs, obtenues par scannage et assemblage g&#233;or&#233;f&#233;renc&#233; des cartes d'Etat-major au 1 : 40 000. Le produit SCAN Etat-major&#174; 40K se compose d'images num&#233;riques sans habillage ni surcharge et d'indications de g&#233;or&#233;f&#233;rencement. </Abstract>
+        <Abstract>Le produit SCAN Etat-major® 40K est une collection d'images cartographiques numériques en couleurs, obtenues par scannage et assemblage géoréférencé des cartes d'Etat-major au 1 : 40 000. Le produit SCAN Etat-major® 40K se compose d'images numériques sans habillage ni surcharge et d'indications de géoréférencement. </Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-6.0889</westBoundLongitude>
           <eastBoundLongitude>10.961</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:LAMB93" minx="-63350.156944757" miny="6009115.534744730" maxx="1368966.252277638" maxy="7128563.374699610" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

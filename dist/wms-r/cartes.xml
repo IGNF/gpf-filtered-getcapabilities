@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -258,8 +259,8 @@
       <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10</Name>
-        <Title>Carte de l'&#233;tat-major - environs de Paris (1818 - 1824)</Title>
-        <Abstract>Carte des environs de Paris au 1 : 10 000 &#233;tablie entre 1818 et 1824.</Abstract>
+        <Title>Carte de l'état-major - environs de Paris (1818 - 1824)</Title>
+        <Abstract>Carte des environs de Paris au 1 : 10 000 établie entre 1818 et 1824.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>1.82682</westBoundLongitude>
           <eastBoundLongitude>2.79738</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="203360.511870901" miny="6171101.773973024" maxx="311402.983946982" maxy="6362557.156151623" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -289,8 +290,8 @@
       </Layer>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40</Name>
-        <Title>Carte de l'&#233;tat-major (1820-1866)</Title>
-        <Abstract>Carte fran&#231;aise en couleurs du XIX&#232; si&#232;cle en couleurs superposable aux cartes et donn&#233;es modernes.</Abstract>
+        <Title>Carte de l'état-major (1820-1866)</Title>
+        <Abstract>Carte française en couleurs du XIXè siècle en couleurs superposable aux cartes et données modernes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-6.08889</westBoundLongitude>
           <eastBoundLongitude>10.961</eastBoundLongitude>
@@ -299,7 +300,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-677811.999599672" miny="5039580.000160674" maxx="1220173.999459819" maxy="6670000.000859659" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -308,8 +309,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -321,7 +322,7 @@
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.MAPS.BDUNI.J1</Name>
         <Title>Plan IGN J+1</Title>
-        <Abstract>Repr&#233;sentation cartographique de la base de production du R&#233;f&#233;rentiel &#224; Grande Echelle actualis&#233;e quotidiennement.</Abstract>
+        <Abstract>Représentation cartographique de la base de production du Référentiel à Grande Echelle actualisée quotidiennement.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
@@ -331,8 +332,8 @@
         <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
         <Style>
           <Name>normal</Name>
-          <Title>Donn&#233;es Brutes</Title>
-          <Abstract>Donn&#233;es brutes sans changement de palette</Abstract>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="300" height="2141">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.MAPS.BDUNI.J1-legend.png" />
@@ -353,7 +354,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -363,7 +364,7 @@
         <Style>
           <Name>SCAN50_1950</Name>
           <Title>SCAN 50 historique</Title>
-          <Abstract>L&#233;gende des la couche SCAN 50 historique</Abstract>
+          <Abstract>Légende des la couche SCAN 50 historique</Abstract>
           <LegendURL width="300" height="8771">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950-legend.png" />
@@ -371,8 +372,8 @@
         </Style>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -384,7 +385,7 @@
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
         <Title>Plan IGN v2</Title>
-        <Abstract>Cartographie multi-&#233;chelles sur le territoire national, issue des bases de donn&#233;es vecteur de l&#8217;IGN, mis &#224; jour r&#233;guli&#232;rement et r&#233;alis&#233;e selon un processus enti&#232;rement automatis&#233;.</Abstract>
+        <Abstract>Cartographie multi-échelles sur le territoire national, issue des bases de données vecteur de l’IGN, mis à jour régulièrement et réalisée selon un processus entièrement automatisé.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-175</westBoundLongitude>
           <eastBoundLongitude>175</eastBoundLongitude>
@@ -393,7 +394,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19480910.888822876" miny="-19971868.880408570" maxx="19480910.888822876" maxy="19971868.880408563" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -402,8 +403,8 @@
         </Attribution>
         <Style>
           <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
-          <Title>Donn&#233;es GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
-          <Abstract>Style et l&#233;gende associ&#233;s au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
+          <Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
+          <Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
           <LegendURL width="300" height="6000">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2-legend.png" />
@@ -414,8 +415,8 @@
       </Layer>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V1</Name>
-        <Title>Plan Terrier V1 (XVIIIe si&#232;cle)</Title>
-        <Abstract>Plan Terrier, cartographie ancienne du XVIII&#232;me si&#232;cle sur la Corse</Abstract>
+        <Title>Plan Terrier V1 (XVIIIe siècle)</Title>
+        <Abstract>Plan Terrier, cartographie ancienne du XVIIIème siècle sur la Corse</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>8.36284</westBoundLongitude>
           <eastBoundLongitude>9.75281</eastBoundLongitude>
@@ -424,7 +425,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="930946.938991112" miny="5050289.227149944" maxx="1085678.224829400" maxy="5329859.191288478" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -433,8 +434,8 @@
         </Attribution>
         <Style>
           <Name>nolegend</Name>
-          <Title>Donn&#233;es sans l&#233;gende</Title>
-          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <Title>Données sans légende</Title>
+          <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -445,8 +446,8 @@
       </Layer>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V2</Name>
-        <Title>Plan Terrier V2 (XVIIIe si&#232;cle)</Title>
-        <Abstract>Plan Terrier, cartographie ancienne du XVIII&#232;me si&#232;cle sur la Corse version est une version num&#233;ris&#233;e par les archives militaires du Minist&#232;re de la D&#233;fense</Abstract>
+        <Title>Plan Terrier V2 (XVIIIe siècle)</Title>
+        <Abstract>Plan Terrier, cartographie ancienne du XVIIIème siècle sur la Corse version est une version numérisée par les archives militaires du Ministère de la Défense</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>8.36284</westBoundLongitude>
           <eastBoundLongitude>9.75282</eastBoundLongitude>
@@ -455,7 +456,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="930946.921179994" miny="5050288.939878392" maxx="1085678.496448957" maxy="5329859.191288478" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -464,8 +465,8 @@
         </Attribution>
         <Style>
           <Name>nolegend</Name>
-          <Title>Donn&#233;es sans l&#233;gende</Title>
-          <Abstract>Sans aucun fichier de l&#233;gende</Abstract>
+          <Title>Données sans légende</Title>
+          <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -476,8 +477,8 @@
       </Layer>
       <Layer>
         <Name>SCAN1000_PYR-JPEG_WLD_WM</Name>
-        <Title>SCAN1000 France m&#233;tropolitaine</Title>
-        <Abstract>Le produit SCAN 1000&#174; version 2 est une collection d'images num&#233;riques en couleurs, obtenues par rast&#233;risation des donn&#233;es vecteur de la carte nationale France (901) &#224; l'&#233;chelle 1 :1,000,000i&#232;me. Le produit couvre l'ensemble du territoire fran&#231;ais m&#233;tropolitain et la Corse.  </Abstract>
+        <Title>SCAN1000 France métropolitaine</Title>
+        <Abstract>Le produit SCAN 1000® version 2 est une collection d'images numériques en couleurs, obtenues par rastérisation des données vecteur de la carte nationale France (901) à l'échelle 1 :1,000,000ième. Le produit couvre l'ensemble du territoire français métropolitain et la Corse.  </Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-6.42088</westBoundLongitude>
           <eastBoundLongitude>13.55</eastBoundLongitude>
@@ -486,7 +487,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-714769.200024620" miny="4908038.000082985" maxx="1508377.348080072" maxy="6700213.720609010" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -495,8 +496,8 @@
         </Attribution>
         <Style>
           <Name>SCAN1000</Name>
-          <Title>L&#233;gende du 1/1000000</Title>
-          <Abstract>L&#233;gende associ&#233;e au Scan1000</Abstract>
+          <Title>Légende du 1/1000000</Title>
+          <Abstract>Légende associée au Scan1000</Abstract>
           <LegendURL width="300" height="2200">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SCAN1000_PYR-JPEG_WLD_WM-legend.png" />
@@ -508,7 +509,7 @@
       <Layer>
         <Name>SCANDEP_PYR-JPEG_FXX_WM</Name>
         <Title>SCANDEP WM FXX 2011</Title>
-        <Abstract>Le produit SCAN D&#233;partemental&#174; version 3 est une collection d'images cartographiques num&#233;riques en couleur, obtenues par rast&#233;risation des donn&#233;es vecteur de la s&#233;rie &#171; Cartes d&#233;partementales &#187; &#233;dit&#233;es par l'IGN. Ces images couvrent l'ensemble du territoire fran&#231;ais m&#233;tropolitain.  </Abstract>
+        <Abstract>Le produit SCAN Départemental® version 3 est une collection d'images cartographiques numériques en couleur, obtenues par rastérisation des données vecteur de la série « Cartes départementales » éditées par l'IGN. Ces images couvrent l'ensemble du territoire français métropolitain.  </Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-6.42088</westBoundLongitude>
           <eastBoundLongitude>11.4297</eastBoundLongitude>
@@ -517,7 +518,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-714769.200024620" miny="4984314.712419308" maxx="1272349.972449013" maxy="6649917.574096406" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -526,8 +527,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -538,8 +539,8 @@
       </Layer>
       <Layer>
         <Name>SCANREG_PYR-JPEG_WLD_WM</Name>
-        <Title>Scan R&#233;gional FXX WM 08-2021</Title>
-        <Abstract>Le produit SCAN R&#233;gional&#174; version 2 est une collection d'images cartographiques num&#233;riques en couleur, obtenues par rast&#233;risation des donn&#233;es vecteur de la s&#233;rie &#171; Cartes r&#233;gionales &#187; &#233;dit&#233;es par l'IGN. Ces images couvrent l'ensemble du territoire fran&#231;ais m&#233;tropolitain.</Abstract>
+        <Title>Scan Régional FXX WM 08-2021</Title>
+        <Abstract>Le produit SCAN Régional® version 2 est une collection d'images cartographiques numériques en couleur, obtenues par rastérisation des données vecteur de la série « Cartes régionales » éditées par l'IGN. Ces images couvrent l'ensemble du territoire français métropolitain.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-6.42088</westBoundLongitude>
           <eastBoundLongitude>12.138</eastBoundLongitude>
@@ -548,7 +549,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-714769.200024620" miny="4984314.712419308" maxx="1351193.854159675" maxy="6700233.345527072" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -557,8 +558,8 @@
         </Attribution>
         <Style>
           <Name>SCANREG</Name>
-          <Title>L&#233;gende du 1/1000000</Title>
-          <Abstract>L&#233;gende associ&#233;e au SCANREGIONAL</Abstract>
+          <Title>Légende du 1/1000000</Title>
+          <Abstract>Légende associée au SCANREGIONAL</Abstract>
           <LegendURL width="300" height="2200">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SCANREG_PYR-JPEG_WLD_WM-legend.png" />

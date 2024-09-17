@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4098">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4136">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -393,8 +394,8 @@
     </FeatureType>
     <FeatureType>
       <Name>AOC-VITICOLES:aire_parcellaire</Name>
-      <Title>D&#233;limitation parcellaire AOC viticole</Title>
-      <Abstract>Selon les r&#232;glements europ&#233;ens n&#176;110/2008 du 15 janvier 2008, n&#176;1151/2012 du 21 novembre 2012 et n&#176;1308/2013 de l&#8217;OCM , le cahier des charges des appellations d&#233;finit l&#8217;aire g&#233;ographique. Le terme de &#171; d&#233;limitation parcellaire &#187; d&#233;signe une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations tr&#232;s localis&#233;es des &#233;l&#233;ments du milieu physique. Elle correspond &#224; l'aire de production de la mati&#232;re premi&#232;re. Elle est incluse dans l'aire g&#233;ographique. Donn&#233;es produites par l'Institut National des Origines et la Qualit&#233; (INAO)</Abstract>
+      <Title>Délimitation parcellaire AOC viticole</Title>
+      <Abstract>Selon les règlements européens n°110/2008 du 15 janvier 2008, n°1151/2012 du 21 novembre 2012 et n°1308/2013 de l’OCM , le cahier des charges des appellations définit l’aire géographique. Le terme de « délimitation parcellaire » désigne une aire qui repose sur les limites administratives du cadastre (les parcelles) et dont le maillage suffisamment fin permet de tenir compte de variations très localisées des éléments du milieu physique. Elle correspond à l'aire de production de la matière première. Elle est incluse dans l'aire géographique. Données produites par l'Institut National des Origines et la Qualité (INAO)</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-2.111875 41.31265625</ows:LowerCorner>
@@ -413,8 +414,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_limite_propriete</Name>
-      <Title>PCI Vecteur : Bornes de limite de propri&#233;t&#233;</Title>
-      <Abstract>Bornes de limite de propri&#233;t&#233; avril 2023</Abstract>
+      <Title>PCI Vecteur : Bornes de limite de propriété</Title>
+      <Abstract>Bornes de limite de propriété avril 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -423,8 +424,8 @@
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:batiment</Name>
-      <Title>PCI Vecteur : B&#226;timents</Title>
-      <Abstract>B&#226;timents avril 2023</Abstract>
+      <Title>PCI Vecteur : Bâtiments</Title>
+      <Abstract>Bâtiments avril 2023</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>

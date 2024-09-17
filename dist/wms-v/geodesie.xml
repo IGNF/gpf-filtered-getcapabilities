@@ -1,8 +1,9 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7575" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7632" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-    <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+    <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+    <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
     <KeywordList>
       <Keyword>WMS</Keyword>
       <Keyword>GEOSERVER</Keyword>
@@ -10,14 +11,14 @@
     <OnlineResource xlink:type="simple" xlink:href="http://geoserver.org" />
     <ContactInformation>
       <ContactPersonPrimary>
-        <ContactPerson>G&#233;oportail SAV</ContactPerson>
+        <ContactPerson>Géoportail SAV</ContactPerson>
         <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
         <AddressType />
         <Address>73 avenue de Paris</Address>
-        <City>Saint Mand&#233;</City>
+        <City>Saint Mandé</City>
         <StateOrProvince />
         <PostCode>94160</PostCode>
         <Country>France</Country>
@@ -98,8 +99,8 @@
       <Format>JSON</Format>
     </Exception>
     <Layer>
-      <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-      <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+      <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+      <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
       <CRS>EPSG:2154</CRS>
       <CRS>EPSG:21781</CRS>
       <CRS>EPSG:23030</CRS>
@@ -224,10 +225,10 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>BDGEODESIQUE-RGP_BDD-POI_WLD</Name>
-        <Title>R&#233;seau GNSS permanent</Title>
-        <Abstract>R&#233;seau de stations permanentes permettant un acc&#232;s qualifi&#233; aux donn&#233;es d'observation des constellations de satellites de positionnement (GPS, GLONASS, Galileo &#8230;).</Abstract>
+        <Title>Réseau GNSS permanent</Title>
+        <Abstract>Réseau de stations permanentes permettant un accès qualifié aux données d'observation des constellations de satellites de positionnement (GPS, GLONASS, Galileo …).</Abstract>
         <KeywordList>
-          <Keyword>Sites G&#233;od&#233;siques</Keyword>
+          <Keyword>Sites Géodésiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -239,7 +240,7 @@
         <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
         <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -258,10 +259,10 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDGEODESIQUE-RN_BDD-POI_WLD</Name>
-        <Title>R&#233;seau de nivellement</Title>
-        <Abstract>R&#233;seau de pr&#232;s de quatre-cent mille rep&#232;res mat&#233;rialis&#233;s r&#233;partis en mailles le long des voies de communication et dont l'altitude est d&#233;termin&#233;e avec une tr&#232;s grande pr&#233;cision.</Abstract>
+        <Title>Réseau de nivellement</Title>
+        <Abstract>Réseau de près de quatre-cent mille repères matérialisés répartis en mailles le long des voies de communication et dont l'altitude est déterminée avec une très grande précision.</Abstract>
         <KeywordList>
-          <Keyword>Sites G&#233;od&#233;siques</Keyword>
+          <Keyword>Sites Géodésiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -273,7 +274,7 @@
         <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
         <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -292,10 +293,10 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDGEODESIQUE-SITE-RBF_BDD-POI_WLD</Name>
-        <Title>R&#233;seau de base fran&#231;ais (RBF)</Title>
-        <Abstract>R&#233;seau de bornes et rep&#232;res, constitu&#233; d&#8217;un millier de sites d&#233;termin&#233;s et entretenus avec exactitude en coordonn&#233;es, altitude et gravim&#233;trie. </Abstract>
+        <Title>Réseau de base français (RBF)</Title>
+        <Abstract>Réseau de bornes et repères, constitué d’un millier de sites déterminés et entretenus avec exactitude en coordonnées, altitude et gravimétrie. </Abstract>
         <KeywordList>
-          <Keyword>Sites G&#233;od&#233;siques</Keyword>
+          <Keyword>Sites Géodésiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -307,7 +308,7 @@
         <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
         <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -326,10 +327,10 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDGEODESIQUE-SITE-RDF_BDD-POI_WLD</Name>
-        <Title>R&#233;seau de d&#233;tail fran&#231;ais (RDF)</Title>
-        <Abstract>R&#233;seau de bornes et rep&#232;res, constitu&#233; d&#8217;environ soixante-quinze mille sites connus en coordonn&#233;es et dont seule l&#8217;information documentaire est entretenue.</Abstract>
+        <Title>Réseau de détail français (RDF)</Title>
+        <Abstract>Réseau de bornes et repères, constitué d’environ soixante-quinze mille sites connus en coordonnées et dont seule l’information documentaire est entretenue.</Abstract>
         <KeywordList>
-          <Keyword>Sites G&#233;od&#233;siques</Keyword>
+          <Keyword>Sites Géodésiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -341,7 +342,7 @@
         <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
         <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -360,10 +361,10 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDGEODESIQUE-TRIPLET_BDD-POI_WLD</Name>
-        <Title>Triplets de rep&#232;res de nivellement</Title>
-        <Abstract>Composante du r&#233;seau de nivellement constitu&#233;e de groupes d&#8217;au moins trois rep&#232;res faisant l&#8217;objet d&#8217;un entretien r&#233;gulier. Cette composante est en cours de constitution et comprendra environ treize mille cinq-cents triplets.</Abstract>
+        <Title>Triplets de repères de nivellement</Title>
+        <Abstract>Composante du réseau de nivellement constituée de groupes d’au moins trois repères faisant l’objet d’un entretien régulier. Cette composante est en cours de constitution et comprendra environ treize mille cinq-cents triplets.</Abstract>
         <KeywordList>
-          <Keyword>Sites G&#233;od&#233;siques</Keyword>
+          <Keyword>Sites Géodésiques</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -375,7 +376,7 @@
         <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
         <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>

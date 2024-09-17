@@ -1,8 +1,9 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7575" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7632" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-    <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+    <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+    <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
     <KeywordList>
       <Keyword>WMS</Keyword>
       <Keyword>GEOSERVER</Keyword>
@@ -10,14 +11,14 @@
     <OnlineResource xlink:type="simple" xlink:href="http://geoserver.org" />
     <ContactInformation>
       <ContactPersonPrimary>
-        <ContactPerson>G&#233;oportail SAV</ContactPerson>
+        <ContactPerson>Géoportail SAV</ContactPerson>
         <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
         <AddressType />
         <Address>73 avenue de Paris</Address>
-        <City>Saint Mand&#233;</City>
+        <City>Saint Mandé</City>
         <StateOrProvince />
         <PostCode>94160</PostCode>
         <Country>France</Country>
@@ -98,8 +99,8 @@
       <Format>JSON</Format>
     </Exception>
     <Layer>
-      <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-      <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+      <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+      <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
       <CRS>EPSG:2154</CRS>
       <CRS>EPSG:21781</CRS>
       <CRS>EPSG:23030</CRS>
@@ -225,7 +226,7 @@
       <Layer queryable="1">
         <Name>DGAC-PEB-POI_BDD_WLD_WM</Name>
         <Title>Plan d'exposition au bruit, documents d'approbation (PEB)</Title>
-        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement expos&#233;s au bruit engendr&#233; par les a&#233;ronefs (A, B, C et/ou D et d&#233;finis &#224; partir des pr&#233;visions de d&#233;veloppement de l'activit&#233; a&#233;rienne, de l'extension pr&#233;visible des infrastructures et des proc&#233;dures de circulation a&#233;rienne.  Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>
@@ -259,7 +260,7 @@
       <Layer queryable="1">
         <Name>DGAC-PEB_BDD_FXX_WM_WMS</Name>
         <Title>Plan d'exposition au bruit (PEB)</Title>
-        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement expos&#233;s au bruit engendr&#233; par les a&#233;ronefs (A, B, C et/ou D et d&#233;finis &#224; partir des pr&#233;visions de d&#233;veloppement de l'activit&#233; a&#233;rienne, de l'extension pr&#233;visible des infrastructures et des proc&#233;dures de circulation a&#233;rienne. Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>
@@ -292,8 +293,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>DGAC-PGS-POI_BDD_FXX_WM_WM</Name>
-        <Title>Plan de g&#234;ne sonore, documents d'approbation (PGS)</Title>
-        <Abstract>Arr&#234;t&#233; pr&#233;fectoral d'approbation, pour chaque a&#233;rodrome, du plan de g&#234;ne sonore. Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Title>Plan de gêne sonore, documents d'approbation (PGS)</Title>
+        <Abstract>Arrêté préfectoral d'approbation, pour chaque aérodrome, du plan de gêne sonore. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>
@@ -326,8 +327,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>DGAC-PGS_BDD_FXX_WM_WMS</Name>
-        <Title>Plan de g&#234;ne sonore (PGS)</Title>
-        <Abstract>Les plans de g&#234;ne sonore identifient trois type de zones de bruit (I, II, III) &#233;tablies sur la base du trafic estim&#233;, des proc&#233;dures de circulation a&#233;rienne applicables et des infrastructures qui seront en service dans l'ann&#233;e suivant la date de publication de l'arr&#234;t&#233; approuvant le PGS.  Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Title>Plan de gêne sonore (PGS)</Title>
+        <Abstract>Les plans de gêne sonore identifient trois type de zones de bruit (I, II, III) établies sur la base du trafic estimé, des procédures de circulation aérienne applicables et des infrastructures qui seront en service dans l'année suivant la date de publication de l'arrêté approuvant le PGS.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>
@@ -360,8 +361,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.1TE</Name>
-        <Title>Tron&#231;ons routiers 1TE</Title>
-        <Abstract>Tron&#231;ons routiers 1TE</Abstract>
+        <Title>Tronçons routiers 1TE</Title>
+        <Abstract>Tronçons routiers 1TE</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -375,7 +376,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -394,8 +395,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.2TE48</Name>
-        <Title>Tron&#231;ons routiers 2TE48</Title>
-        <Abstract>Tron&#231;ons routiers 2TE48</Abstract>
+        <Title>Tronçons routiers 2TE48</Title>
+        <Abstract>Tronçons routiers 2TE48</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -409,7 +410,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -443,7 +444,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -477,7 +478,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -496,8 +497,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.PN</Name>
-        <Title>Franchissements passage &#224; niveau</Title>
-        <Abstract>Franchissements passage &#224; niveau</Abstract>
+        <Title>Franchissements passage à niveau</Title>
+        <Abstract>Franchissements passage à niveau</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -511,7 +512,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -530,8 +531,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.PND</Name>
-        <Title>Franchissements passage &#224; niveau difficile</Title>
-        <Abstract>Franchissements passage &#224; niveau difficile</Abstract>
+        <Title>Franchissements passage à niveau difficile</Title>
+        <Abstract>Franchissements passage à niveau difficile</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -545,7 +546,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -564,8 +565,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.TE120</Name>
-        <Title>Tron&#231;ons routiers TE120</Title>
-        <Abstract>Tron&#231;ons routiers TE120</Abstract>
+        <Title>Tronçons routiers TE120</Title>
+        <Abstract>Tronçons routiers TE120</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -579,7 +580,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -598,8 +599,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.TE72</Name>
-        <Title>Tron&#231;ons routiers TE72</Title>
-        <Abstract>Tron&#231;ons routiers TE72</Abstract>
+        <Title>Tronçons routiers TE72</Title>
+        <Abstract>Tronçons routiers TE72</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -613,7 +614,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.5" miny="41.2" maxx="9.9" maxy="51.3" />
         <BoundingBox CRS="EPSG:4326" minx="41.2" miny="-5.5" maxx="51.3" maxy="9.9" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -632,8 +633,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>SECUROUTE.TE.TE94</Name>
-        <Title>Tron&#231;ons routiers TE94</Title>
-        <Abstract>Tron&#231;ons routiers TE94</Abstract>
+        <Title>Tronçons routiers TE94</Title>
+        <Abstract>Tronçons routiers TE94</Abstract>
         <KeywordList>
           <Keyword>transport</Keyword>
         </KeywordList>
@@ -647,7 +648,7 @@
         <BoundingBox CRS="CRS:84" minx="-5.625" miny="40.7359375" maxx="10.1953125" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="40.7359375" miny="-5.625" maxx="51.9734375" maxy="10.1953125" />
         <Attribution>
-          <Title>D&#233;l&#233;gation &#224; la s&#233;curit&#233; routi&#232;re - transports exceptionnels</Title>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
           <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
           <LogoURL height="208" width="958">
             <Format>image/jpg</Format>
@@ -666,8 +667,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>TRANSPORTS.AIRNOISE</Name>
-        <Title>Plan de Servitudes A&#233;ronautiques (PSA)</Title>
-        <Abstract>Les plans de servitudes a&#233;ronautiques d&#233;finissent les servitudes destin&#233;es &#224; assurer la s&#233;curit&#233; des approches et des d&#233;collages des a&#233;ronefs aux abords des a&#233;rodromes et &#224; faciliter la maintenance des &#233;quipements de ceux-ci. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable.  Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Title>Plan de Servitudes Aéronautiques (PSA)</Title>
+        <Abstract>Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>
@@ -700,8 +701,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>TRANSPORTS.AIRNOISE.DOCS</Name>
-        <Title>Plan de servitudes a&#233;ronautiques, documents d'approbation (PSA)</Title>
-        <Abstract>Arr&#234;t&#233; minist&#233;riel ou d&#233;cret en Conseil d'Etat approuvant les servitudes a&#233;ronautiques aux abords de l'a&#233;rodrome. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable. Sources : Minist&#232;re de l'Ecologie, du D&#233;veloppement durable et de l'Energie</Abstract>
+        <Title>Plan de servitudes aéronautiques, documents d'approbation (PSA)</Title>
+        <Abstract>Arrêté ministériel ou décret en Conseil d'Etat approuvant les servitudes aéronautiques aux abords de l'aérodrome. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
         <KeywordList>
           <Keyword>Ville et urbanisme</Keyword>
         </KeywordList>

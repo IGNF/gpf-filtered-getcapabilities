@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS service</Name>
@@ -259,7 +260,7 @@
       <Layer>
         <Name>ELEVATION.CONTOUR.LINE</Name>
         <Title>Courbes de niveau</Title>
-        <Abstract>Le produit &#171; Courbes de niveau &#187; est un mod&#232;le num&#233;rique de terrain sous forme de courbes de m&#234;me altitude, appel&#233;es aussi &#171; isopl&#232;thes d&#8217;altitude &#187;, ou plus techniquement &#171; isohypses &#187;. Ces courbes permettent la description du relief fran&#231;ais.</Abstract>
+        <Abstract>Le produit « Courbes de niveau » est un modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude », ou plus techniquement « isohypses ». Ces courbes permettent la description du relief français.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -268,7 +269,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -277,8 +278,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -299,7 +300,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:WGS84G" minx="-64.000000000" miny="-23.000000000" maxx="168.000000000" maxy="52.000000000" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -308,8 +309,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -320,8 +321,8 @@
       </Layer>
       <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES</Name>
-        <Title>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</Title>
-        <Abstract>Mod&#232;le Num&#233;rique de Terrain issu du RGEALTI</Abstract>
+        <Title>Modèle Numérique de Terrain issu du RGEALTI</Title>
+        <Abstract>Modèle Numérique de Terrain issu du RGEALTI</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-62.9528</westBoundLongitude>
           <eastBoundLongitude>45.3043</eastBoundLongitude>
@@ -330,7 +331,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:WGS84G" minx="-62.952807690" miny="-13.007809420" maxx="45.304315330" maxy="51.105279680" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -339,8 +340,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -348,8 +349,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -360,8 +361,8 @@
       </Layer>
       <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES.MNS</Name>
-        <Title>Mod&#232;le num&#233;rique de surface</Title>
-        <Abstract>Mod&#232;le num&#233;rique de surface (MNS)</Abstract>
+        <Title>Modèle numérique de surface</Title>
+        <Abstract>Modèle numérique de surface (MNS)</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.1968</westBoundLongitude>
           <eastBoundLongitude>55.8639</eastBoundLongitude>
@@ -371,8 +372,8 @@
         <BoundingBox CRS="IGNF:WGS84G" minx="-63.196777590" miny="-21.433778410" maxx="55.863926030" maxy="51.220046620" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -380,8 +381,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -392,8 +393,8 @@
       </Layer>
       <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES.MNS.SHADOW</Name>
-        <Title>Estompage appliqu&#233; au Mod&#232;le Num&#233;rique de Surface</Title>
-        <Abstract>Mod&#232;le Num&#233;rique de Surface (MNS) avec un style par d&#233;faut produisant de l'estompage.</Abstract>
+        <Title>Estompage appliqué au Modèle Numérique de Surface</Title>
+        <Abstract>Modèle Numérique de Surface (MNS) avec un style par défaut produisant de l'estompage.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.1968</westBoundLongitude>
           <eastBoundLongitude>55.8639</eastBoundLongitude>
@@ -403,8 +404,8 @@
         <BoundingBox CRS="IGNF:WGS84G" minx="-63.196777590" miny="-21.433778410" maxx="55.863926030" maxy="51.220046620" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -416,7 +417,7 @@
       <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
         <Title>Estompage</Title>
-        <Abstract>Couche d'ombrage calcul&#233;e &#224; partir des donn&#233;es altim&#233;triques de l'IGN permettant de mieux appr&#233;hender le relief. L'estompage propos&#233; est r&#233;alis&#233; &#224; partir des donn&#233;es MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45&#176;, l'autre z&#233;nithal.</Abstract>
+        <Abstract>Couche d'ombrage calculée à partir des données altimétriques de l'IGN permettant de mieux appréhender le relief. L'estompage proposé est réalisé à partir des données MNT BDAlti au pas de 25m avec deux soleils : un au nord-est de hauteur 45°, l'autre zénithal.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.187</westBoundLongitude>
           <eastBoundLongitude>55.8884</eastBoundLongitude>
@@ -425,7 +426,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7033940.731836968" miny="-2440465.299339484" maxx="6221468.490851594" maxy="6607472.687901211" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -435,7 +436,7 @@
         <Style>
           <Name>estompage_grayscale</Name>
           <Title>Estompage</Title>
-          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
+          <Abstract>Estompage calculé à partir de données en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -456,7 +457,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:WGS84G" minx="-180.000416670" miny="-56.000416670" maxx="180.000416670" maxy="61.000416670" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -465,8 +466,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -474,8 +475,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -483,8 +484,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -493,7 +494,7 @@
         <Style>
           <Name>estompage_grayscale</Name>
           <Title>Estompage</Title>
-          <Abstract>Estompage calcul&#233; &#224; partir de donn&#233;es en niveau de gris</Abstract>
+          <Abstract>Estompage calculé à partir de données en niveau de gris</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -505,7 +506,7 @@
       <Layer>
         <Name>ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD</Name>
         <Title>Seuils de pente pour l'agriculture</Title>
-        <Abstract>La carte exp&#233;rimentale des seuils de pente pour l'agriculture est d&#233;riv&#233;e du MNT RGEAlti, mod&#232;le num&#233;rique de terrain maill&#233; au pas de 1 m. Les seuils de repr&#233;sentation de cette carte sont : 7% &#224; 10% : bleu, 10% &#224; 15% : mauve, 15% &#224; 20% : orange, plus de 20% : rouge. Donn&#233;es disponibles en France M&#233;tropolitaine du 1/4265 au 1/69885283 - mise &#224; jour du 30/06/2017.</Abstract>
+        <Abstract>La carte expérimentale des seuils de pente pour l'agriculture est dérivée du MNT RGEAlti, modèle numérique de terrain maillé au pas de 1 m. Les seuils de représentation de cette carte sont : 7% à 10% : bleu, 10% à 15% : mauve, 15% à 20% : orange, plus de 20% : rouge. Données disponibles en France Métropolitaine du 1/4265 au 1/69885283 - mise à jour du 30/06/2017.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5.15047</westBoundLongitude>
           <eastBoundLongitude>9.57054</eastBoundLongitude>
@@ -514,7 +515,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -536,7 +537,7 @@
       <Layer queryable="1">
         <Name>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</Name>
         <Title>Masque de source du RGE Alti</Title>
-        <Abstract>Informations sur la pr&#233;cision du RGEAlti.</Abstract>
+        <Abstract>Informations sur la précision du RGEAlti.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -545,7 +546,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -555,7 +556,7 @@
         <Style>
           <Name>Graphe de source du RGE Alti</Name>
           <Title>Graphe de source du RGE Alti</Title>
-          <Abstract>L&#233;gende de la couche Graphe de source du RGE Alti</Abstract>
+          <Abstract>Légende de la couche Graphe de source du RGE Alti</Abstract>
           <LegendURL width="300" height="330">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY.png" />
@@ -567,7 +568,7 @@
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN</Name>
         <Title>Carte des pentes</Title>
-        <Abstract>Carte des zones ayant une valeur de pente sup&#233;rieure &#224; 30&#176;-35&#176;-40&#176;-45&#176; d'apr&#232;s la BD ALTI au pas de 5m</Abstract>
+        <Abstract>Carte des zones ayant une valeur de pente supérieure à 30°-35°-40°-45° d'après la BD ALTI au pas de 5m</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.1614</westBoundLongitude>
           <eastBoundLongitude>56.0018</eastBoundLongitude>
@@ -576,7 +577,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031094.530681094" miny="-2456939.031972390" maxx="6234093.127435748" maxy="6638833.999242652" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -585,8 +586,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -607,7 +608,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:LAMB93" minx="2482.248273666" miny="6023733.529840448" maxx="1258958.016463462" maxy="7144727.681720356" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -616,8 +617,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -625,8 +626,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -634,8 +635,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -656,7 +657,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:UTM20W84MART" minx="-1069473.583201071" miny="1783963.217587612" maxx="14753516.799781973" maxy="18691283.129681349" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -665,8 +666,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -674,8 +675,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -683,8 +684,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -705,7 +706,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:UTM22RGFG95" minx="94210.005829061" miny="229548.965007200" maxx="433293.651204882" maxy="641263.048430298" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -714,8 +715,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -723,8 +724,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -732,8 +733,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -754,7 +755,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:UTM20W84MART" minx="689572.059957398" miny="1590596.960914388" maxx="737533.774916752" maxy="1646416.879702487" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -763,8 +764,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -772,8 +773,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -781,8 +782,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -804,8 +805,8 @@
         <BoundingBox CRS="IGNF:RGM04UTM38S" minx="496994.997651344" miny="8561980.937878001" maxx="533048.799428520" maxy="8604019.629873119" />
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -813,8 +814,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -822,8 +823,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -835,7 +836,7 @@
       <Layer>
         <Name>RGEALTI-MNT_PYR-ZIP_REU_RGR92UTM40S_WMS</Name>
         <Title>RGEALTI-MNT_PYR-ZIP_REU_RGR92UTM40S_WMS</Title>
-        <Abstract>Mod&#232;le Num&#233;rique de la R&#233;union</Abstract>
+        <Abstract>Modèle Numérique de la Réunion</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>55.1961</westBoundLongitude>
           <eastBoundLongitude>55.8466</eastBoundLongitude>
@@ -844,7 +845,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:RGR92UTM40S" minx="312307.350992236" miny="7632368.556997707" maxx="380442.128782203" maxy="7694612.605508389" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -853,8 +854,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -862,8 +863,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -871,8 +872,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -893,7 +894,7 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:RGSPM06U21" minx="535729.024953111" miny="5176700.649305612" maxx="570529.340502584" maxy="5222303.039405371" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL width="50" height="50">
             <Format>image/gif</Format>
@@ -902,8 +903,8 @@
         </Attribution>
         <Style>
           <Name>normal</Name>
-          <Title>L&#233;gende g&#233;n&#233;rique</Title>
-          <Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</Abstract>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -911,8 +912,8 @@
         </Style>
         <Style>
           <Name>hypso</Name>
-          <Title>Teinte Hypsom&#233;trique</Title>
-          <Abstract>Teinte hypsom&#233;trique</Abstract>
+          <Title>Teinte Hypsométrique</Title>
+          <Abstract>Teinte hypsométrique</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
@@ -920,8 +921,8 @@
         </Style>
         <Style>
           <Name>hypso_noalpha</Name>
-          <Title>Teintes Hypsom&#233;triques Sans Transparence</Title>
-          <Abstract>Teintes hypsom&#233;triques sans transparence</Abstract>
+          <Title>Teintes Hypsométriques Sans Transparence</Title>
+          <Abstract>Teintes hypsométriques sans transparence</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />

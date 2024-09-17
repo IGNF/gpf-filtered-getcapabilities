@@ -1,8 +1,9 @@
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="6915" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="6972" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-    <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+    <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+    <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
     <KeywordList>
       <Keyword>WMS</Keyword>
       <Keyword>GEOSERVER</Keyword>
@@ -10,14 +11,14 @@
     <OnlineResource xlink:type="simple" xlink:href="http://geoserver.org" />
     <ContactInformation>
       <ContactPersonPrimary>
-        <ContactPerson>G&#233;oportail SAV</ContactPerson>
+        <ContactPerson>Géoportail SAV</ContactPerson>
         <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
         <AddressType />
         <Address>73 avenue de Paris</Address>
-        <City>Saint Mand&#233;</City>
+        <City>Saint Mandé</City>
         <StateOrProvince />
         <PostCode>94160</PostCode>
         <Country>France</Country>
@@ -98,8 +99,8 @@
       <Format>JSON</Format>
     </Exception>
     <Layer>
-      <Title>Service de consultation (WMS) des donn&#233;es raster de la G&#233;oplateforme</Title>
-      <Abstract>G&#233;oplateforme - Service de consultation (WMS) des donn&#233;es vecteur de la Geoplateforme.</Abstract>
+      <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
+      <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
       <CRS>EPSG:2154</CRS>
       <CRS>EPSG:21781</CRS>
       <CRS>EPSG:23030</CRS>
@@ -225,7 +226,7 @@
       <Layer queryable="1">
         <Name>CADASTRALPARCELS.COMMUNES</Name>
         <Title>Communes - BD PARCELLAIRE</Title>
-        <Abstract>Affichage des communes cadastrales (NB : les contours des communes de la BD TOPO&#174; et de la BD PARCELLAIRE&#174; ne sont pas exactement superposables ; en effet, l'origine de la donn&#233;e n'est pas la m&#234;me pour ces deux ba ses (uniquement cadastre, &#233;ventuellement ajust&#233;, pour la BD PARCELLAIRE&#174;). Donn&#233;e &#233;tablie d'apr&#232;s les plans cadastraux transmis par la DGFiP (Direction g&#233;n&#233;rale des Finances publiques).</Abstract>
+        <Abstract>Affichage des communes cadastrales (NB : les contours des communes de la BD TOPO® et de la BD PARCELLAIRE® ne sont pas exactement superposables ; en effet, l'origine de la donnée n'est pas la même pour ces deux ba ses (uniquement cadastre, éventuellement ajusté, pour la BD PARCELLAIRE®). Donnée établie d'après les plans cadastraux transmis par la DGFiP (Direction générale des Finances publiques).</Abstract>
         <KeywordList>
           <Keyword>Parcelles cadastrales</Keyword>
         </KeywordList>
@@ -239,7 +240,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15313141" miny="-21.38974728" maxx="55.83668585" maxy="51.0888974" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38974728" miny="-63.15313141" maxx="51.0888974" maxy="55.83668585" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -258,8 +259,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>CADASTRALPARCELS.GRAPHE</Name>
-        <Title>Graphe de mosa&#239;quage des parcelles cadastrales</Title>
-        <Abstract>Graphe de mosa&#239;quage des parcelles cadastrales</Abstract>
+        <Title>Graphe de mosaïquage des parcelles cadastrales</Title>
+        <Abstract>Graphe de mosaïquage des parcelles cadastrales</Abstract>
         <KeywordList>
           <Keyword>Parcelles cadastrales</Keyword>
         </KeywordList>
@@ -273,7 +274,7 @@
         <BoundingBox CRS="CRS:84" minx="-61.809585" miny="-21.38984989" maxx="55.8366799" maxy="51.08900031" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38984989" miny="-61.809585" maxx="51.08900031" maxy="55.8366799" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>
@@ -293,7 +294,7 @@
       <Layer queryable="1">
         <Name>CADASTRALPARCELS.SECTIONS</Name>
         <Title>Sections cadastrales - BD PARCELLAIRE</Title>
-        <Abstract>Affichage des divisions cadastrales (partie du plan cadastral correspondant &#224; une section ou &#224; une subdivision de section). Donn&#233;e &#233;tablie d'apr&#232;s les plans cadastraux transmis par la DGFiP (Direction g&#233;n&#233;rale des Finances publiques).</Abstract>
+        <Abstract>Affichage des divisions cadastrales (partie du plan cadastral correspondant à une section ou à une subdivision de section). Donnée établie d'après les plans cadastraux transmis par la DGFiP (Direction générale des Finances publiques).</Abstract>
         <KeywordList>
           <Keyword>Parcelles cadastrales</Keyword>
         </KeywordList>
@@ -307,7 +308,7 @@
         <BoundingBox CRS="CRS:84" minx="-63.15313141" miny="-21.38974728" maxx="55.83668585" maxy="51.0888974" />
         <BoundingBox CRS="EPSG:4326" minx="-21.38974728" miny="-63.15313141" maxx="51.0888974" maxy="55.83668585" />
         <Attribution>
-          <Title>Institut national de l'information g&#233;ographique et foresti&#232;re</Title>
+          <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
           <LogoURL height="50" width="50">
             <Format>image/gif</Format>

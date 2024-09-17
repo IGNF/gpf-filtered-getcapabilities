@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4093">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2201">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -315,8 +316,8 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-MOSAIQUAGE:graphe_bdortho</Name>
-      <Title>Graphe de mosaiquage France Enti&#232;re de la BDORTHO.</Title>
-      <Abstract>Graphe de mosaiquage France Enti&#232;re de la BDORTHO.</Abstract>
+      <Title>Graphe de mosaiquage France Entière de la BDORTHO.</Title>
+      <Abstract>Graphe de mosaiquage France Entière de la BDORTHO.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -328,8 +329,8 @@
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS:arrete</Name>
-      <Title>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD)</Title>
-      <Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition octobre 203</Abstract>
+      <Title>Zones interdites à la captation aérienne des données (ZICAD)</Title>
+      <Abstract>Zones interdites à la captation aérienne des données (ZICAD) fixées par voie d'arrêté (arrêté du 02-01-2023 fixant la liste des zones interdites à la prise de vue aérienne par appareil photographique, cinématographique ou tout autre capteur). Édition octobre 203</Abstract>
       <ows:Keywords>
         <ows:Keyword>ZIPVA</ows:Keyword>
       </ows:Keywords>

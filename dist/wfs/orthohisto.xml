@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2163">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4136">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -315,8 +316,8 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965.GRAPHE-MOSAIQUAGE:graphe</Name>
-      <Title>Graphe de mosaiquage de la couche photographies a&#233;riennes historiques 1950-1965</Title>
-      <Abstract>Graphe de mosaiquage de la couche photographies a&#233;riennes historiques 1950-1965.</Abstract>
+      <Title>Graphe de mosaiquage de la couche photographies aériennes historiques 1950-1965</Title>
+      <Abstract>Graphe de mosaiquage de la couche photographies aériennes historiques 1950-1965.</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDORTHOHISTORIQUE</ows:Keyword>
       </ows:Keywords>
@@ -328,8 +329,8 @@
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2000-2005:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2000-2005</Title>
-      <Abstract>Graphe de mosa&#239;quage BDORTHO 2000-2005</Abstract>
+      <Title>Graphe de mosaïquage BDORTHO 2000-2005</Title>
+      <Abstract>Graphe de mosaïquage BDORTHO 2000-2005</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -341,7 +342,7 @@
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2006-2010:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2006-2010 </Title>
+      <Title>Graphe de mosaïquage BDORTHO 2006-2010 </Title>
       <Abstract>graphe bdortho millesimees</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
@@ -354,8 +355,8 @@
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2011-2015</Title>
-      <Abstract>Graphe de mosa&#239;quage BDORTHO 2011-2015</Abstract>
+      <Title>Graphe de mosaïquage BDORTHO 2011-2015</Title>
+      <Abstract>Graphe de mosaïquage BDORTHO 2011-2015</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -367,8 +368,8 @@
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020:graphe_bdortho</Name>
-      <Title>Graphe de mosa&#239;quage BDORTHO 2016-2020</Title>
-      <Abstract>Graphe de mosa&#239;quage BDORTHO 2016-2020</Abstract>
+      <Title>Graphe de mosaïquage BDORTHO 2016-2020</Title>
+      <Abstract>Graphe de mosaïquage BDORTHO 2016-2020</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>

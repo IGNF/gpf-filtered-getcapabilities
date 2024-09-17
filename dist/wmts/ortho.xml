@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -78,17 +79,17 @@
   <Contents>
     <Layer>
       <ows:Title>Ortho 20 cm</ows:Title>
-      <ows:Abstract>Le produit BD ORTHO&#174; V3 est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert. La BD ORTHO&#174; V3 se compose d'images num&#233;riques (sans habillage ni surcharge) et d'indications de g&#233;or&#233;f&#233;rencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000i&#232;me pour mettre en valeur le territoire, enrichir la visualisation des donn&#233;es et des projets.</ows:Abstract>
+      <ows:Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-180 -80</ows:LowerCorner>
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>HR.ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -204,18 +205,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es</ows:Title>
-      <ows:Abstract>Zones interdites &#224; la captation a&#233;rienne des donn&#233;es (ZICAD) fix&#233;es par voie d'arr&#234;t&#233; (arr&#234;t&#233; du 02-01-2023 fixant la liste des zones interdites &#224; la prise de vue a&#233;rienne par appareil photographique, cin&#233;matographique ou tout autre capteur). &#201;dition octobre 2023 </ows:Abstract>
+      <ows:Title>Zones interdites à la captation aérienne des données</ows:Title>
+      <ows:Abstract>Zones interdites à la captation aérienne des données (ZICAD) fixées par voie d'arrêté (arrêté du 02-01-2023 fixant la liste des zones interdites à la prise de vue aérienne par appareil photographique, cinématographique ou tout autre capteur). Édition octobre 2023 </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.309 -47.0456</ows:LowerCorner>
         <ows:UpperCorner>168.298 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -310,18 +311,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes</ows:Title>
-      <ows:Abstract>Photographies a&#233;riennes</ows:Abstract>
+      <ows:Title>Photographies aériennes</ows:Title>
+      <ows:Abstract>Photographies aériennes</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-180 -80</ows:LowerCorner>
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -494,17 +495,17 @@
     </Layer>
     <Layer>
       <ows:Title>Ortho 50 cm</ows:Title>
-      <ows:Abstract>Le produit BD ORTHO&#174; est une collection de mosa&#239;ques d'orthophotographies num&#233;riques en couleurs ou en Infra Rouge couleurs, rectifi&#233;es dans la projection adapt&#233;e au territoire couvert.</ows:Abstract>
+      <ows:Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-180 -80</ows:LowerCorner>
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -614,17 +615,17 @@
     </Layer>
     <Layer>
       <ows:Title>Ortholittorale 2000</ows:Title>
-      <ows:Abstract>Donn&#233;e issue du R&#233;f&#233;rentiel g&#233;ographique du littoral. Zone de couverture de l'orthophotographie : c&#244;te de la mer du Nord, de la Manche et de l'Atlantique.</ows:Abstract>
+      <ows:Abstract>Donnée issue du Référentiel géographique du littoral. Zone de couverture de l'orthophotographie : côte de la mer du Nord, de la Manche et de l'Atlantique.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.21565 43.301</ows:LowerCorner>
         <ows:UpperCorner>2.60783 51.1233</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.COAST2000</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -728,18 +729,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Donn&#233;es ortho-r&#233;ctifi&#233;es ant&#233;rieures au passage d'Irma</ows:Title>
-      <ows:Abstract>Ce flux regroupe des donn&#233;es ortho-rectifi&#233;es issues des prises de vue a&#233;riennes de Saint Martin (2017) et Saint Barth&#233;l&#233;my (2016).</ows:Abstract>
+      <ows:Title>Données ortho-réctifiées antérieures au passage d'Irma</ows:Title>
+      <ows:Abstract>Ce flux regroupe des données ortho-rectifiées issues des prises de vue aériennes de Saint Martin (2017) et Saint Barthélémy (2016).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1986 17.8626</ows:LowerCorner>
         <ows:UpperCorner>-62.7828 18.1701</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ILESDUNORD</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -900,10 +901,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1057,17 +1058,17 @@
     </Layer>
     <Layer>
       <ows:Title>ortho-express IRC 2023</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1221,17 +1222,17 @@
     </Layer>
     <Layer>
       <ows:Title>Ortho-express IRC 2024</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1392,10 +1393,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1500,17 +1501,17 @@
     </Layer>
     <Layer>
       <ows:Title>ortho-express 2023</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1664,17 +1665,17 @@
     </Layer>
     <Layer>
       <ows:Title>Ortho-express 2024</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2024</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1828,17 +1829,17 @@
     </Layer>
     <Layer>
       <ows:Title>PCRS</ows:Title>
-      <ows:Abstract>Donn&#233;es du Plan Corps de Rue Simplifi&#233;</ows:Abstract>
+      <ows:Abstract>Données du Plan Corps de Rue Simplifié</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5 40</ows:LowerCorner>
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PCRS.LAMB93</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Donn&#233;es Brutes</ows:Title>
-        <ows:Abstract>Donn&#233;es brutes sans changement de palette</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
@@ -1975,18 +1976,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes tr&#232;s haute r&#233;solution</ows:Title>
-      <ows:Abstract>Orthophotographies a&#233;riennes d'une r&#233;solution de 10cm &#224; 5cm selon disponibilit&#233;. </ows:Abstract>
+      <ows:Title>Photographies aériennes très haute résolution</ows:Title>
+      <ows:Abstract>Orthophotographies aériennes d'une résolution de 10cm à 5cm selon disponibilité. </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>0.0354912 43.1533</ows:LowerCorner>
         <ows:UpperCorner>6.02353 49.6969</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>THR.ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />

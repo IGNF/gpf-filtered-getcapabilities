@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4101">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4136">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -316,7 +317,7 @@
     <FeatureType>
       <Name>STATISTICALUNITS.IRIS:contours_iris</Name>
       <Title>CONTOURS IRIS 2021</Title>
-      <Abstract>Contours g&#233;om&#233;triques des IRIS de l'INSEE &#233;dition 2022</Abstract>
+      <Abstract>Contours géométriques des IRIS de l'INSEE édition 2022</Abstract>
       <ows:Keywords>
         <ows:Keyword>Statistiques</ows:Keyword>
       </ows:Keywords>
@@ -349,7 +350,7 @@
     <FeatureType>
       <Name>STATISTICALUNITS.IRISGE:iris_ge</Name>
       <Title>IRIS Grande Echelle</Title>
-      <Abstract>Contours g&#233;om&#233;triques des IRIS de l'INSEE &#224; grande &#233;chelle toute la France 2022</Abstract>
+      <Abstract>Contours géométriques des IRIS de l'INSEE à grande échelle toute la France 2022</Abstract>
       <ows:Keywords>
         <ows:Keyword>Statistiques</ows:Keyword>
       </ows:Keywords>
@@ -371,8 +372,8 @@
     </FeatureType>
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:stations_classees</Name>
-      <Title>Stations class&#233;es</Title>
-      <Abstract>Stations class&#233;es</Abstract>
+      <Title>Stations classées</Title>
+      <Abstract>Stations classées</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
@@ -391,8 +392,8 @@
     </FeatureType>
     <FeatureType>
       <Name>TRACES.RANDO.HIVERNALE:traces_rando_hivernale</Name>
-      <Title>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Title>
-      <Abstract>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</Abstract>
+      <Title>Trace de randonnée hivernale (à ski, à raquette)</Title>
+      <Abstract>Trace de randonnée hivernale (à ski, à raquette)</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>5.43859375 44.199804688</ows:LowerCorner>
@@ -401,8 +402,8 @@
     </FeatureType>
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:villages_etape</Name>
-      <Title>Villages &#233;tape</Title>
-      <Abstract>Villages &#233;tape</Abstract>
+      <Title>Villages étape</Title>
+      <Abstract>Villages étape</Abstract>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
@@ -412,7 +413,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:aerodrome</Name>
       <Title>aerodrome</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -425,7 +426,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:arrondissement</Name>
       <Title>arrondissement</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -438,7 +439,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:arrondissement_municipal</Name>
       <Title>arrondissement_municipal</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -451,7 +452,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:bassin_versant_topographique</Name>
       <Title>bassin_versant_topographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -464,7 +465,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:cimetiere</Name>
       <Title>cimetiere</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -477,7 +478,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:collectivite_territoriale</Name>
       <Title>collectivite_territoriale</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -490,7 +491,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:commune</Name>
       <Title>commune</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -503,7 +504,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:commune_associee_ou_deleguee</Name>
       <Title>commune_associee_ou_deleguee</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -516,7 +517,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:construction_lineaire</Name>
       <Title>construction_lineaire</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -529,7 +530,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:construction_ponctuelle</Name>
       <Title>construction_ponctuelle</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -542,7 +543,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:construction_surfacique</Name>
       <Title>construction_surfacique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -555,7 +556,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:cours_d_eau</Name>
       <Title>cours_d_eau</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -568,7 +569,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:departement</Name>
       <Title>departement</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -581,7 +582,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:detail_hydrographique</Name>
       <Title>detail_hydrographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -594,7 +595,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:detail_orographique</Name>
       <Title>detail_orographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -607,7 +608,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:epci</Name>
       <Title>epci</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -620,7 +621,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:equipement_de_transport</Name>
       <Title>equipement_de_transport</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -633,7 +634,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:lieu_dit_non_habite</Name>
       <Title>lieu_dit_non_habite</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -646,7 +647,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:ligne_electrique</Name>
       <Title>ligne_electrique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -659,7 +660,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:limite_terre_mer</Name>
       <Title>limite_terre_mer</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -672,7 +673,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:noeud_hydrographique</Name>
       <Title>noeud_hydrographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -685,7 +686,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:occupation_du_sol</Name>
       <Title>occupation_du_sol</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -698,7 +699,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:parc_ou_reserve</Name>
       <Title>parc_ou_reserve</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -711,7 +712,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:piste_d_aerodrome</Name>
       <Title>piste_d_aerodrome</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -724,7 +725,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:plan_d_eau</Name>
       <Title>plan_d_eau</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -737,7 +738,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:region</Name>
       <Title>region</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -750,7 +751,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:reservoir</Name>
       <Title>reservoir</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -763,7 +764,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:rond_point</Name>
       <Title>rond_point</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -776,7 +777,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:route_numerotee_ou_nommee</Name>
       <Title>route_numerotee_ou_nommee</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -789,7 +790,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:surface_hydrographique</Name>
       <Title>surface_hydrographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -802,7 +803,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:transport_par_cable</Name>
       <Title>transport_par_cable</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -815,7 +816,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:troncon_de_route</Name>
       <Title>troncon_de_route</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -828,7 +829,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:troncon_hydrographique</Name>
       <Title>troncon_hydrographique</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -841,7 +842,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:voie_ferree_nommee</Name>
       <Title>voie_ferree_nommee</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -854,7 +855,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:zone_d_activite_ou_d_interet</Name>
       <Title>zone_d_activite_ou_d_interet</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -867,7 +868,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:zone_d_habitation</Name>
       <Title>zone_d_habitation</Title>
-      <Abstract>BD CARTO&#174; V5</Abstract>
+      <Abstract>BD CARTO® V5</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>

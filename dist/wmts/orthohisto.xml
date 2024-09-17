@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -77,8 +78,8 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes historiques 1950-1965</ows:Title>
-      <ows:Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 50, telle qu'elle se pr&#233;sentait avant les grands am&#233;nagements des ann&#233;es 60. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</ows:Abstract>
+      <ows:Title>Photographies aériennes historiques 1950-1965</ows:Title>
+      <ows:Abstract>Couverture en photographies aériennes de la France des années 50, telle qu'elle se présentait avant les grands aménagements des années 60. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-67.7214 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8464 51.0945</ows:UpperCorner>
@@ -95,10 +96,10 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="999999" />
       </Style>
       <Style>
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -245,7 +246,7 @@
     </Layer>
     <Layer>
       <ows:Title>BDOrtho Historique 1965-1980</ows:Title>
-      <ows:Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 1965 &#224; 1980. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</ows:Abstract>
+      <ows:Abstract>Couverture en photographies aériennes de la France des années 1965 à 1980. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-6 40</ows:LowerCorner>
         <ows:UpperCorner>10 52</ows:UpperCorner>
@@ -382,7 +383,7 @@
     </Layer>
     <Layer>
       <ows:Title>Ortho Historique 1980-1995</ows:Title>
-      <ows:Abstract>Couverture en photographies a&#233;riennes de la France des ann&#233;es 11980 &#224; 1995. Cette couverture a &#233;t&#233; r&#233;alis&#233;e &#224; partir des photographies a&#233;riennes historiques num&#233;ris&#233;es par l'IGN. Elle est disponible sur la France m&#233;tropolitaine, les d&#233;partements et r&#233;gions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivit&#233;s d'Outre-Mer sauf la Polyn&#233;sie fran&#231;aise. Les photographies sont orthorectifi&#233;es, c'est-&#224;-dire corrig&#233;es des d&#233;formations dues &#224; la prise de vue et au relief du terrain, et assembl&#233;es pour fournir une visualisation continue superposable avec le R&#233;f&#233;rentiel &#224; Grande Echelle (RGE&#174;) ou les cartes.</ows:Abstract>
+      <ows:Abstract>Couverture en photographies aériennes de la France des années 11980 à 1995. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5 40</ows:LowerCorner>
         <ows:UpperCorner>10 52</ows:UpperCorner>
@@ -519,17 +520,17 @@
     </Layer>
     <Layer>
       <ows:Title>ortho-express IRC 2021</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2021</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -690,10 +691,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2013</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -854,10 +855,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2014</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1018,10 +1019,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2015</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1182,10 +1183,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2016</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1346,10 +1347,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1510,10 +1511,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2018</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1674,10 +1675,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2019</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1838,10 +1839,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2002,10 +2003,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2159,10 +2160,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2021</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2316,10 +2317,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2022</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2466,17 +2467,17 @@
     </Layer>
     <Layer>
       <ows:Title>ortho-express 2021</ows:Title>
-      <ows:Abstract>L&#8217;Ortho Express est une mosa&#239;que d&#8217;ortho&#8208;images num&#233;riques. Elle se diff&#233;rencie des autres produits orthophotographiques de l&#8217;IGN par le fait que, par souci de minimiser les d&#233;lais de sa production, elle r&#233;sulte d&#8217;un traitement massivement automatis&#233; . L&#8217;Ortho Express vise en premier lieu &#224; r&#233;pondre &#224; une exigence sur les d&#233;lais de production. Il s&#8217;agit donc d&#8217;un produit dont les caract&#233;ristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2021</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2644,10 +2645,10 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.SOCLE-ASP.2018</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2800,18 +2801,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Orthophotographie d&#8217;urgence Alex</ows:Title>
-      <ows:Abstract>Orthophotographie r&#233;alis&#233;e suite au passage de la temp&#234;te Alex dans les Alpes Maritimes</ows:Abstract>
+      <ows:Title>Orthophotographie d’urgence Alex</ows:Title>
+      <ows:Abstract>Orthophotographie réalisée suite au passage de la tempête Alex dans les Alpes Maritimes</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>7.07917 43.8095</ows:LowerCorner>
         <ows:UpperCorner>7.64199 44.1903</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2929,18 +2930,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2000</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2000.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2000</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2000.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 14.372</ows:LowerCorner>
         <ows:UpperCorner>7.13497 49.0193</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2000</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3044,18 +3045,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2000-2005</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires pour les ann&#233;es 2000 &#224; 2005</ows:Abstract>
+      <ows:Title>Photographies aériennes 2000-2005</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires pour les années 2000 à 2005</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2000-2005</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3159,18 +3160,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2001</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2001.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2001</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2001.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 4.47153</ows:LowerCorner>
         <ows:UpperCorner>7.23234 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2001</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3274,18 +3275,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2002</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2002</ows:Abstract>
+      <ows:Title>Photographies aériennes 2002</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2002</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 4.49867</ows:LowerCorner>
         <ows:UpperCorner>9.68861 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2002</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3389,18 +3390,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2003</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2003.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2003</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2003.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2003</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3504,18 +3505,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2004</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2004.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2004</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2004.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2004</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3619,18 +3620,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2005</ows:Title>
-      <ows:Abstract> Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2005.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2005</ows:Title>
+      <ows:Abstract> Prises de vues aériennes des territoires disponibles à la fin de l'année 2005.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2005</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3734,18 +3735,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2006</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2006.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2006</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2006.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2006</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3849,18 +3850,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2006-2010</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin des ann&#233;es 2006 &#224; 2010</ows:Abstract>
+      <ows:Title>Photographies aériennes 2006-2010</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin des années 2006 à 2010</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2006-2010</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3969,18 +3970,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2007</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2007.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2007</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2007.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2007</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4084,18 +4085,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2008</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2008.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2008</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2008.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2008</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4199,18 +4200,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2009</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2009.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2009</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2009.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2009</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4314,18 +4315,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2010</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2010.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2010</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2010.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2010</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4429,18 +4430,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2011</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2011.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2011</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2011.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2011</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4544,18 +4545,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2011-2015</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin des ann&#233;es 2011 &#224; 2015</ows:Abstract>
+      <ows:Title>Photographies aériennes 2011-2015</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin des années 2011 à 2015</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2011-2015</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4659,18 +4660,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2012</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2012.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2012</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2012.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2012</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4774,18 +4775,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2013</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2013.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2013</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2013.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2013</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -4931,18 +4932,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2014</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2014.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2014</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2014.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2014</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5088,18 +5089,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2015</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2015.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2015</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2015.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2015</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5245,18 +5246,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2016</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2016 (travail en cours).</ows:Abstract>
+      <ows:Title>Photographies aériennes 2016</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2016 (travail en cours).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2016</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5402,18 +5403,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2017</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2017.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2017</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2017.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1607 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8464 50.3856</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5559,18 +5560,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2018</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2018.</ows:Abstract>
+      <ows:Title>Photographies aériennes 2018</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2018.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-180 -89</ows:LowerCorner>
         <ows:UpperCorner>180 89</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2018</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5716,18 +5717,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2019</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2019</ows:Abstract>
+      <ows:Title>Photographies aériennes 2019</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2019</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-3.74871 41.3125</ows:LowerCorner>
         <ows:UpperCorner>9.66314 50.1928</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2019</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -5831,18 +5832,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Photographies a&#233;riennes 2020</ows:Title>
-      <ows:Abstract>Prises de vues a&#233;riennes des territoires disponibles &#224; la fin de l'ann&#233;e 2020</ows:Abstract>
+      <ows:Title>Photographies aériennes 2020</ows:Title>
+      <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2020</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-2.68142 42.9454</ows:LowerCorner>
         <ows:UpperCorner>7.74363 49.4512</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />

@@ -1,7 +1,8 @@
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2163">
+<?xml version='1.0' encoding='UTF-8'?>
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3202">
   <ows:ServiceIdentification>
-    <ows:Title>Service de t&#233;l&#233;chargement direct (WFS) de la G&#233;oplateforme</ows:Title>
-    <ows:Abstract>G&#233;oplateforme - Service de t&#233;l&#233;chargement direct des donn&#233;es de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
+    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
@@ -10,7 +11,7 @@
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>G&#233;oportail SAV</ows:IndividualName>
+      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
@@ -19,7 +20,7 @@
         </ows:Phone>
         <ows:Address>
           <ows:DeliveryPoint />
-          <ows:City>Saint Mand&#233;</ows:City>
+          <ows:City>Saint Mandé</ows:City>
           <ows:AdministrativeArea />
           <ows:PostalCode>94160</ows:PostalCode>
           <ows:Country>France</ows:Country>
@@ -315,10 +316,10 @@
   <FeatureTypeList>
     <FeatureType>
       <Name>BDGEODESIQUE:rgp</Name>
-      <Title>BDG&#233;od&#233;sique rgp</Title>
-      <Abstract>Fiches signal&#233;tiques des rep&#232;res de nivellement (points mat&#233;rialis&#233;s dont l'altitude est d&#233;termin&#233;e avec pr&#233;cision) et des sites g&#233;od&#233;siques (ensembles de points mat&#233;rialis&#233;s dont les coordonn&#233;es, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec pr&#233;cision). </Abstract>
+      <Title>BDGéodésique rgp</Title>
+      <Abstract>Fiches signalétiques des repères de nivellement (points matérialisés dont l'altitude est déterminée avec précision) et des sites géodésiques (ensembles de points matérialisés dont les coordonnées, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec précision). </Abstract>
       <ows:Keywords>
-        <ows:Keyword>BDG&#233;od&#233;sique</ows:Keyword>
+        <ows:Keyword>BDGéodésique</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
@@ -328,10 +329,10 @@
     </FeatureType>
     <FeatureType>
       <Name>BDGEODESIQUE:rn</Name>
-      <Title>BDG&#233;od&#233;sique rl</Title>
-      <Abstract>Fiches signal&#233;tiques des rep&#232;res de nivellement (points mat&#233;rialis&#233;s dont l'altitude est d&#233;termin&#233;e avec pr&#233;cision) et des sites g&#233;od&#233;siques (ensembles de points mat&#233;rialis&#233;s dont les coordonn&#233;es, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec pr&#233;cision). </Abstract>
+      <Title>BDGéodésique rl</Title>
+      <Abstract>Fiches signalétiques des repères de nivellement (points matérialisés dont l'altitude est déterminée avec précision) et des sites géodésiques (ensembles de points matérialisés dont les coordonnées, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec précision). </Abstract>
       <ows:Keywords>
-        <ows:Keyword>BDG&#233;od&#233;sique</ows:Keyword>
+        <ows:Keyword>BDGéodésique</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
@@ -341,10 +342,10 @@
     </FeatureType>
     <FeatureType>
       <Name>BDGEODESIQUE:site</Name>
-      <Title>BDG&#233;od&#233;sique site</Title>
-      <Abstract>Fiches signal&#233;tiques des rep&#232;res de nivellement (points mat&#233;rialis&#233;s dont l'altitude est d&#233;termin&#233;e avec pr&#233;cision) et des sites g&#233;od&#233;siques (ensembles de points mat&#233;rialis&#233;s dont les coordonn&#233;es, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec pr&#233;cision). </Abstract>
+      <Title>BDGéodésique site</Title>
+      <Abstract>Fiches signalétiques des repères de nivellement (points matérialisés dont l'altitude est déterminée avec précision) et des sites géodésiques (ensembles de points matérialisés dont les coordonnées, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec précision). </Abstract>
       <ows:Keywords>
-        <ows:Keyword>BDG&#233;od&#233;sique</ows:Keyword>
+        <ows:Keyword>BDGéodésique</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
@@ -354,10 +355,10 @@
     </FeatureType>
     <FeatureType>
       <Name>BDGEODESIQUE:triplet</Name>
-      <Title>BDG&#233;od&#233;sique triplet</Title>
-      <Abstract>Fiches signal&#233;tiques des rep&#232;res de nivellement (points mat&#233;rialis&#233;s dont l'altitude est d&#233;termin&#233;e avec pr&#233;cision) et des sites g&#233;od&#233;siques (ensembles de points mat&#233;rialis&#233;s dont les coordonn&#233;es, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec pr&#233;cision). </Abstract>
+      <Title>BDGéodésique triplet</Title>
+      <Abstract>Fiches signalétiques des repères de nivellement (points matérialisés dont l'altitude est déterminée avec précision) et des sites géodésiques (ensembles de points matérialisés dont les coordonnées, bidimensionnelles ou tridimensionnelles suivant le type de point, sont connues avec précision). </Abstract>
       <ows:Keywords>
-        <ows:Keyword>BDG&#233;od&#233;sique</ows:Keyword>
+        <ows:Keyword>BDGéodésique</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>

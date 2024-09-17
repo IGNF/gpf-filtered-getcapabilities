@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -77,18 +78,18 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Zonage informatif des obligations l&#233;gales de d&#233;broussaillement</ows:Title>
-      <ows:Abstract>Zonage informatif des obligations l&#233;gales de d&#233;broussaillement</ows:Abstract>
+      <ows:Title>Zonage informatif des obligations légales de débroussaillement</ows:Title>
+      <ows:Abstract>Zonage informatif des obligations légales de débroussaillement</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DEBROUSSAILLEMENT</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Donn&#233;es sans l&#233;gende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de l&#233;gende</ows:Abstract>
+        <ows:Title>Données sans légende</ows:Title>
+        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>nolegend</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -197,8 +198,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>For&#234;ts publiques</ows:Title>
-      <ows:Abstract>Localisation des for&#234;ts publiques domaniales et non domaniales (communales, sectionales, d&#233;partementales et d'&#233;tablissements publics) g&#233;r&#233;es par l'Office national des for&#234;ts (ONF).</ows:Abstract>
+      <ows:Title>Forêts publiques</ows:Title>
+      <ows:Abstract>Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d'établissements publics) gérées par l'Office national des forêts (ONF).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -206,7 +207,7 @@
       <ows:Identifier>FORETS.PUBLIQUES</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>FORETS PUBLIQUES ONF</ows:Title>
-        <ows:Abstract>L&#233;gende des for&#234;ts publiques ONF</ows:Abstract>
+        <ows:Abstract>Légende des forêts publiques ONF</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>ONF</ows:Keyword>
         </ows:Keywords>
@@ -325,17 +326,17 @@
     </Layer>
     <Layer>
       <ows:Title>Carroyage DFCI</ows:Title>
-      <ows:Abstract>Le &#171; carroyage DFCI &#187; est un syst&#232;me de maillage g&#233;ographique utilis&#233; en France par les acteurs de la D&#233;fense des For&#234;ts Contre les Incendies (DFCI). Le territoire m&#233;tropolitain est couvert par des carr&#233;s de 100 km de c&#244;t&#233;, identifiables par deux lettres. Chaque carr&#233; de 100 km est divis&#233; en 25 carr&#233;s de 20 km de c&#244;t&#233;, num&#233;rot&#233;s par des chiffres pairs de 0 &#224; 8. Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. L'unit&#233; &#233;l&#233;mentaire est un carreau de 2 kilom&#232;tres de c&#244;t&#233;, d&#233;fini par 6 caract&#232;res (exemple : KD42F7). Pour d&#233;signer un point &#224; l'int&#233;rieur de l'unit&#233; &#233;l&#233;mentaire, la pr&#233;cision est obtenue en d&#233;coupant ce carr&#233; en cinq zones num&#233;rot&#233;es de 1 &#224; 5. Il a &#233;t&#233; cr&#233;&#233; sur une grille qui s'appuie sur la projection Lambert II &#233;tendue. Depuis 2009, il est re-projet&#233; en Lambert 93 avec une l&#233;g&#232;re d&#233;formation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carr&#233; de 20 km est divis&#233; en 100 carr&#233;s de 2 km de c&#244;t&#233;, num&#233;rot&#233;s par un groupe compos&#233; d'une lettre et d'un chiffre. Les carr&#233;s de 2 km sont d&#233;nomm&#233;s de A &#224; L (sauf I et J) pour les abscisses, et num&#233;rot&#233;s de 0 &#224; 9 pour les ordonn&#233;es. Date des donn&#233;es : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - P&#244;NT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</ows:Abstract>
+      <ows:Abstract>Le « carroyage DFCI » est un système de maillage géographique utilisé en France par les acteurs de la Défense des Forêts Contre les Incendies (DFCI). Le territoire métropolitain est couvert par des carrés de 100 km de côté, identifiables par deux lettres. Chaque carré de 100 km est divisé en 25 carrés de 20 km de côté, numérotés par des chiffres pairs de 0 à 8. Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. L'unité élémentaire est un carreau de 2 kilomètres de côté, défini par 6 caractères (exemple : KD42F7). Pour désigner un point à l'intérieur de l'unité élémentaire, la précision est obtenue en découpant ce carré en cinq zones numérotées de 1 à 5. Il a été créé sur une grille qui s'appuie sur la projection Lambert II étendue. Depuis 2009, il est re-projeté en Lambert 93 avec une légère déformation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. Les carrés de 2 km sont dénommés de A à L (sauf I et J) pour les abscisses, et numérotés de 0 à 9 pour les ordonnées. Date des données : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - PôNT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEM.DFCI</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -430,18 +431,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;gions foresti&#232;res nationales</ows:Title>
-      <ows:Abstract>Cette cartographie repr&#233;sente des zones homog&#232;nes du point de vue des types de for&#234;t ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
+      <ows:Title>Régions forestières nationales</ows:Title>
+      <ows:Abstract>Cette cartographie représente des zones homogènes du point de vue des types de forêt ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTAREAS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -531,18 +532,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Carte foresti&#232;re v1 (1987-2004)</ows:Title>
-      <ows:Abstract>La cartographie foresti&#232;re est une base de donn&#233;es cartographique des formations v&#233;g&#233;tales foresti&#232;res et naturelles. Elle couvre l'ensemble du territoire de France m&#233;tropolitaine. Elle est r&#233;alis&#233;e par interpr&#233;tation de photographies a&#233;riennes infrarouges et affin&#233;e par des contr&#244;les sur le terrain (le seuil minimal de surface cartographi&#233;e est de 2,25 ha).</ows:Abstract>
+      <ows:Title>Carte forestière v1 (1987-2004)</ows:Title>
+      <ows:Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTINVENTORY.V1</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -632,27 +633,27 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Carte foresti&#232;re (v2 : 2006-)</ows:Title>
-      <ows:Abstract>Localisation de 32 types de formations v&#233;g&#233;tales sur le territoire. Carte en cours de r&#233;alisation depuis 2006.</ows:Abstract>
+      <ows:Title>Carte forestière (v2 : 2006-)</ows:Title>
+      <ows:Abstract>Localisation de 32 types de formations végétales sur le territoire. Carte en cours de réalisation depuis 2006.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTINVENTORY.V2</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Style>
-        <ows:Title>Donn&#233;es LANDCOVER.FORESTINVENTORY.V2</ows:Title>
-        <ows:Abstract>Style et l&#233;gende associ&#233;s au flux LANDCOVER.FORESTINVENTORY.V2</ows:Abstract>
+        <ows:Title>Données LANDCOVER.FORESTINVENTORY.V2</ows:Title>
+        <ows:Abstract>Style et légende associés au flux LANDCOVER.FORESTINVENTORY.V2</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>LANDCOVER.FORESTINVENTORY.V2</ows:Identifier>
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
@@ -747,18 +748,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Sylvo&#233;cor&#233;gions</ows:Title>
-      <ows:Abstract>D&#233;coupage de la France m&#233;tropolitaine prenant en compte les facteurs biog&#233;ographiques d&#233;terminant la production foresti&#232;re et la r&#233;partition des grands types d&#8217;habitat forestier.</ows:Abstract>
+      <ows:Title>Sylvoécorégions</ows:Title>
+      <ows:Abstract>Découpage de la France métropolitaine prenant en compte les facteurs biogéographiques déterminant la production forestière et la répartition des grands types d’habitat forestier.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.SYLVOECOREGIONS</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -848,18 +849,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Sylvo&#233;cor&#233;gions d'alluvions r&#233;centes</ows:Title>
-      <ows:Abstract>Affichage des cinq sylvo&#233;cor&#233;gions d&#8217;alluvions r&#233;centes correspondant aux cinq vall&#233;es des bassins des grands fleuves fran&#231;ais et de leurs affluents, &#224; enjeux importants. </ows:Abstract>
+      <ows:Title>Sylvoécorégions d'alluvions récentes</ows:Title>
+      <ows:Abstract>Affichage des cinq sylvoécorégions d’alluvions récentes correspondant aux cinq vallées des bassins des grands fleuves français et de leurs affluents, à enjeux importants. </ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.SYLVOECOREGIONS.ALLUVIUM</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -949,8 +950,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Biotopes d'esp&#232;ces prot&#233;g&#233;es</ows:Title>
-      <ows:Abstract>Conservation de l'habitat d'esp&#232;ces prot&#233;g&#233;es. Outil r&#233;glementaires de niveau d&#233;partemental.Mise &#224; jour 04-2023</ows:Abstract>
+      <ows:Title>Biotopes d'espèces protégées</ows:Title>
+      <ows:Abstract>Conservation de l'habitat d'espèces protégées. Outil réglementaires de niveau départemental.Mise à jour 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -958,7 +959,7 @@
       <ows:Identifier>PROTECTEDAREAS.APB</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.APB</ows:Title>
-        <ows:Abstract>L&#233;gende APB</ows:Abstract>
+        <ows:Abstract>Légende APB</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -1055,18 +1056,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Arr&#234;t&#233;s de protection de g&#233;otope</ows:Title>
-      <ows:Abstract>Sites d'int&#233;r&#234;t g&#233;ologique faisant l'objet d&#8217;une interdiction de destruction, d'alt&#233;ration ou de d&#233;gradation du site, ainsi que de pr&#233;l&#232;vement, de destruction ou de d&#233;gradation de fossiles, min&#233;raux et concr&#233;tions pr&#233;sents sur ces sites appel&#233;s &#171; aires de protection de g&#233;otope&#187;.</ows:Abstract>
+      <ows:Title>Arrêtés de protection de géotope</ows:Title>
+      <ows:Abstract>Sites d'intérêt géologique faisant l'objet d’une interdiction de destruction, d'altération ou de dégradation du site, ainsi que de prélèvement, de destruction ou de dégradation de fossiles, minéraux et concrétions présents sur ces sites appelés « aires de protection de géotope».</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APG</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1161,18 +1162,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Arr&#234;t&#233;s de protection d&#8217;habitats naturels</ows:Title>
-      <ows:Abstract>Dispositif visant &#224; prot&#233;ger un habitat naturel (r&#233;cif corallien, tourbi&#232;re, prairie, etc.) en tant que tel, sans qu'il soit besoin d'&#233;tablir qu'il constitue par ailleurs un habitat d'esp&#232;ces prot&#233;g&#233;es. Mise &#224; jour 04-2023</ows:Abstract>
+      <ows:Title>Arrêtés de protection d’habitats naturels</ows:Title>
+      <ows:Abstract>Dispositif visant à protéger un habitat naturel (récif corallien, tourbière, prairie, etc.) en tant que tel, sans qu'il soit besoin d'établir qu'il constitue par ailleurs un habitat d'espèces protégées. Mise à jour 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APHN</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1267,18 +1268,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Arr&#234;t&#233;s listes de sites d'int&#233;r&#234;t g&#233;ologique</ows:Title>
-      <ows:Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</ows:Abstract>
+      <ows:Title>Arrêtés listes de sites d'intérêt géologique</ows:Title>
+      <ows:Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APLG</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Donn&#233;es sans l&#233;gende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de l&#233;gende</ows:Abstract>
+        <ows:Title>Données sans légende</ows:Title>
+        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>nolegend</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1373,8 +1374,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves de biosph&#232;re</ows:Title>
-      <ows:Abstract>R&#233;serves naturelles reconnues par le Programme sur l'Homme et la Biosph&#232;re cr&#233;&#233; par l'Unesco. 09-2022</ows:Abstract>
+      <ows:Title>Réserves de biosphère</ows:Title>
+      <ows:Abstract>Réserves naturelles reconnues par le Programme sur l'Homme et la Biosphère créé par l'Unesco. 09-2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -1382,7 +1383,7 @@
       <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.BIOS</ows:Title>
-        <ows:Abstract>L&#233;gende BIOS</ows:Abstract>
+        <ows:Abstract>Légende BIOS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -1479,18 +1480,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>G&#233;oparcs</ows:Title>
-      <ows:Abstract>Les g&#233;oparcs mondiaux UNESCO sont des espaces g&#233;ographiques unifi&#233;s, o&#249; les sites et paysages de port&#233;e g&#233;ologique internationale sont g&#233;r&#233;s selon un concept global de protection, d&#8217;&#233;ducation et de d&#233;veloppement durable</ows:Abstract>
+      <ows:Title>Géoparcs</ows:Title>
+      <ows:Abstract>Les géoparcs mondiaux UNESCO sont des espaces géographiques unifiés, où les sites et paysages de portée géologique internationale sont gérés selon un concept global de protection, d’éducation et de développement durable</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.GP</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1585,18 +1586,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Inventaire National du Patrimoine G&#233;ologique (INPG)</ows:Title>
-      <ows:Abstract>L'Inventaire National du Patrimoine G&#233;ologique (INPG) est un programme initi&#233; en 2007 de connaissance g&#233;ologique du territoire m&#233;tropolitain et outre-mer, dans lequel chaque site g&#233;ologique naturel est renseign&#233; sur une application web d&#233;di&#233;e (InvenTerre) de fa&#231;on textuelle avec une &#233;valuation patrimoniale et une cartographie associ&#233;es.</ows:Abstract>
+      <ows:Title>Inventaire National du Patrimoine Géologique (INPG)</ows:Title>
+      <ows:Abstract>L'Inventaire National du Patrimoine Géologique (INPG) est un programme initié en 2007 de connaissance géologique du territoire métropolitain et outre-mer, dans lequel chaque site géologique naturel est renseigné sur une application web dédiée (InvenTerre) de façon textuelle avec une évaluation patrimoniale et une cartographie associées.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.INPG</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1691,8 +1692,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Conservatoire du littoral - sites sous responsabilit&#233; du conservatoire</ows:Title>
-      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces c&#244;tiers et lacustres. Leur acc&#232;s au public est encourag&#233; mais reste d&#233;fini dans des limites compatibles avec la vuln&#233;rabilit&#233; de chaque site</ows:Abstract>
+      <ows:Title>Conservatoire du littoral - sites sous responsabilité du conservatoire</ows:Title>
+      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -1700,7 +1701,7 @@
       <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Title>
-        <ows:Abstract>L&#233;gende CDL PARCELS</ows:Abstract>
+        <ows:Abstract>Légende CDL PARCELS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -1792,18 +1793,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Conservatoire du littoral : Les p&#233;rim&#232;tres autoris&#233;s</ows:Title>
-      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces c&#244;tiers et lacustres. Leur acc&#232;s au public est encourag&#233; mais reste d&#233;fini dans des limites compatibles avec la vuln&#233;rabilit&#233; de chaque site.</ows:Abstract>
+      <ows:Title>Conservatoire du littoral : Les périmètres autorisés</ows:Title>
+      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PERIMETER</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1899,17 +1900,17 @@
     </Layer>
     <Layer>
       <ows:Title>Terrains des conservatoires d'espaces naturels</ows:Title>
-      <ows:Abstract>Les conservatoires d'espaces naturels organisent la ma&#238;trise fonci&#232;re de terrains en vue d'assurer la protection des esp&#232;ces qui y r&#233;sident. 05-2022</ows:Abstract>
+      <ows:Abstract>Les conservatoires d'espaces naturels organisent la maîtrise foncière de terrains en vue d'assurer la protection des espèces qui y résident. 05-2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CONSERVATOIRES</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2004,18 +2005,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>p&#233;rim&#232;tres de protection de r&#233;serves naturelles</ows:Title>
-      <ows:Abstract>Un p&#233;rim&#232;tre de protection peut &#234;tre institu&#233; en p&#233;riph&#233;rie d&#8217;une r&#233;serve naturelle. Il concerne des espaces qui n&#8217;ont pas &#233;t&#233; class&#233;s en r&#233;serve et qui constituent une zone &#171; tampon &#187; autour de l&#8217;espace class&#233;. Ils am&#233;liorent les &#233;changes &#233;cologiques entre la r&#233;serve et sa p&#233;riph&#233;rie. 04-2023</ows:Abstract>
+      <ows:Title>périmètres de protection de réserves naturelles</ows:Title>
+      <ows:Abstract>Un périmètre de protection peut être institué en périphérie d’une réserve naturelle. Il concerne des espaces qui n’ont pas été classés en réserve et qui constituent une zone « tampon » autour de l’espace classé. Ils améliorent les échanges écologiques entre la réserve et sa périphérie. 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.RN.PERIMETER</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2153,7 +2154,7 @@
     </Layer>
     <Layer>
       <ows:Title>Parcs nationaux</ows:Title>
-      <ows:Abstract>Les parcs nationaux sont de vastes espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est &#224; la fois de prot&#233;ger des processus &#233;cologiques &#224; large &#233;chelle et de fournir des possibilit&#233;s de d&#233;couverte de la nature. Mise &#224; jour 04-2023</ows:Abstract>
+      <ows:Abstract>Les parcs nationaux sont de vastes espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est à la fois de protéger des processus écologiques à large échelle et de fournir des possibilités de découverte de la nature. Mise à jour 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -2161,7 +2162,7 @@
       <ows:Identifier>PROTECTEDAREAS.PN</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.PN</ows:Title>
-        <ows:Abstract>L&#233;gende PN</ows:Abstract>
+        <ows:Abstract>Légende PN</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -2259,17 +2260,17 @@
     </Layer>
     <Layer>
       <ows:Title>Parcs naturels marins</ows:Title>
-      <ows:Abstract>Zones maritimes identifi&#233;es pour leur biodiversit&#233; ou par les activit&#233;s humaines faisant l'objet de protection. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</ows:Abstract>
+      <ows:Abstract>Zones maritimes identifiées pour leur biodiversité ou par les activités humaines faisant l'objet de protection. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PNM</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2364,8 +2365,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Parcs naturels r&#233;gionaux</ows:Title>
-      <ows:Abstract>Les parcs naturels r&#233;gionaux ont pour but de valoriser de vastes espaces de fort int&#233;r&#234;t culturel et naturel, et de veiller au d&#233;veloppement durable de ces territoires dont le caract&#232;re rural est souvent tr&#232;s affirm&#233;. 04-2023</ows:Abstract>
+      <ows:Title>Parcs naturels régionaux</ows:Title>
+      <ows:Abstract>Les parcs naturels régionaux ont pour but de valoriser de vastes espaces de fort intérêt culturel et naturel, et de veiller au développement durable de ces territoires dont le caractère rural est souvent très affirmé. 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -2373,7 +2374,7 @@
       <ows:Identifier>PROTECTEDAREAS.PNR</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.PNR</ows:Title>
-        <ows:Abstract>L&#233;gende PNR</ows:Abstract>
+        <ows:Abstract>Légende PNR</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -2470,8 +2471,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Points de Rencontre de Secours en For&#234;t (PRSF)</ows:Title>
-      <ows:Abstract>Les Points de Rencontre de Secours en For&#234;t (PRSF) sont suppos&#233;es connus des services de secours. Ils permettent de faciliter la localisation d'un bless&#233; par les services de secours.</ows:Abstract>
+      <ows:Title>Points de Rencontre de Secours en Forêt (PRSF)</ows:Title>
+      <ows:Abstract>Les Points de Rencontre de Secours en Forêt (PRSF) sont supposées connus des services de secours. Ils permettent de faciliter la localisation d'un blessé par les services de secours.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -2479,7 +2480,7 @@
       <ows:Identifier>PROTECTEDAREAS.PRSF</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>POINT RENCONTRE SECOURS FORET</ows:Title>
-        <ows:Abstract>L&#233;gende Points de Rencontre de Secours en For&#234;t (PRSF)</ows:Abstract>
+        <ows:Abstract>Légende Points de Rencontre de Secours en Forêt (PRSF)</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>PRSF</ows:Keyword>
         </ows:Keywords>
@@ -2584,7 +2585,7 @@
     </Layer>
     <Layer>
       <ows:Title>Zones humides d'importance internationale</ows:Title>
-      <ows:Abstract>Un site Ramsar est un espace d&#233;sign&#233; en application de la Convention relative aux zones humides d'importance internationale, particuli&#232;rement comme habitats des oiseaux d'eau, dont le trait&#233; a &#233;t&#233; sign&#233; en 1971 sur les bords de la mer Caspienne (Iran). 16-11-2021</ows:Abstract>
+      <ows:Abstract>Un site Ramsar est un espace désigné en application de la Convention relative aux zones humides d'importance internationale, particulièrement comme habitats des oiseaux d'eau, dont le traité a été signé en 1971 sur les bords de la mer Caspienne (Iran). 16-11-2021</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -2592,7 +2593,7 @@
       <ows:Identifier>PROTECTEDAREAS.RAMSAR</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.RAMSAR</ows:Title>
-        <ows:Abstract>L&#233;gende RAMSAR</ows:Abstract>
+        <ows:Abstract>Légende RAMSAR</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -2689,18 +2690,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves biologiques </ows:Title>
-      <ows:Abstract>Une r&#233;serve biologique est un espace prot&#233;g&#233; en milieu forestier ou en milieu associ&#233; &#224; la for&#234;t (landes, mares, tourbi&#232;res, dunes). Ce statut s'applique aux for&#234;ts g&#233;r&#233;es par l'Office National des For&#234;ts et a pour but la protection d'habitats remarquables ou repr&#233;sentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</ows:Abstract>
+      <ows:Title>Réserves biologiques </ows:Title>
+      <ows:Abstract>Une réserve biologique est un espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes). Ce statut s'applique aux forêts gérées par l'Office National des Forêts et a pour but la protection d'habitats remarquables ou représentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RB</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2795,18 +2796,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves Int&#233;grales de Parcs Nationaux</ows:Title>
-      <ows:Abstract>Au sein d'un c&#339;ur de parc national, il peut &#234;tre institu&#233; une &#171; r&#233;serve int&#233;grale &#187; afin d'assurer, dans un but scientifique, une protection plus grande de certains &#233;l&#233;ments de la faune et de la flore. 05-2022</ows:Abstract>
+      <ows:Title>Réserves Intégrales de Parcs Nationaux</ows:Title>
+      <ows:Abstract>Au sein d'un cœur de parc national, il peut être institué une « réserve intégrale » afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore. 05-2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RIPN</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2901,8 +2902,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves naturelles nationales</ows:Title>
-      <ows:Abstract>Les r&#233;serves naturelles sont des espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversit&#233; que parfois sur celui de la g&#233;odiversit&#233;. 04-2023</ows:Abstract>
+      <ows:Title>Réserves naturelles nationales</ows:Title>
+      <ows:Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. 04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
@@ -2910,7 +2911,7 @@
       <ows:Identifier>PROTECTEDAREAS.RN</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.RN</ows:Title>
-        <ows:Abstract>L&#233;gende RN</ows:Abstract>
+        <ows:Abstract>Légende RN</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3007,8 +3008,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves Naturelles de Corse</ows:Title>
-      <ows:Abstract>Les r&#233;serves naturelles sont des espaces prot&#233;g&#233;s terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversit&#233; que parfois sur celui de la g&#233;odiversit&#233;. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</ows:Abstract>
+      <ows:Title>Réserves Naturelles de Corse</ows:Title>
+      <ows:Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -3016,7 +3017,7 @@
       <ows:Identifier>PROTECTEDAREAS.RNC</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.RNC</ows:Title>
-        <ows:Abstract>L&#233;gende RNC</ows:Abstract>
+        <ows:Abstract>Légende RNC</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3113,18 +3114,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves nationales de chasse et de faune sauvage</ows:Title>
-      <ows:Abstract>Les r&#233;serves nationales de chasse et de faune sauvage sont des espaces prot&#233;g&#233;s terrestres ou marins dont la gestion est principalement assur&#233;e par l'Office National de la Chasse et de la Faune Sauvage.09-2022</ows:Abstract>
+      <ows:Title>Réserves nationales de chasse et de faune sauvage</ows:Title>
+      <ows:Abstract>Les réserves nationales de chasse et de faune sauvage sont des espaces protégés terrestres ou marins dont la gestion est principalement assurée par l'Office National de la Chasse et de la Faune Sauvage.09-2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RNCF</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3220,7 +3221,7 @@
     </Layer>
     <Layer>
       <ows:Title>Sites Natura 2000 au titre de la Directive Habitats</ows:Title>
-      <ows:Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</ows:Abstract>
+      <ows:Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -3228,7 +3229,7 @@
       <ows:Identifier>PROTECTEDAREAS.SIC</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.SIC</ows:Title>
-        <ows:Abstract>L&#233;gende SIC</ows:Abstract>
+        <ows:Abstract>Légende SIC</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3325,18 +3326,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Sites inscrits au patrimoine mondial de l&#8217;UNESCO (biens naturels ou mixtes)</ows:Title>
-      <ows:Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est consid&#233;r&#233; comme h&#233;ritage commun de l'humanit&#233;. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</ows:Abstract>
+      <ows:Title>Sites inscrits au patrimoine mondial de l’UNESCO (biens naturels ou mixtes)</ows:Title>
+      <ows:Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est considéré comme héritage commun de l'humanité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.UNESCO</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3431,7 +3432,7 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones &#233;cologiques de nature remarquable (ZNIEFF1)</ows:Title>
+      <ows:Title>Zones écologiques de nature remarquable (ZNIEFF1)</ows:Title>
       <ows:Abstract>Inventaire des espaces naturels abritant la nature remarquable.09-2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
@@ -3440,7 +3441,7 @@
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF1</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.ZNIEFF1</ows:Title>
-        <ows:Abstract>L&#233;gende ZNIEFF1</ows:Abstract>
+        <ows:Abstract>Légende ZNIEFF1</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3537,18 +3538,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones naturelles d&#8217;int&#233;r&#234;t &#233;cologique faunistique et floristique (ZNIEFF) marine type I</ows:Title>
-      <ows:Abstract>Espaces marin homog&#232;nes d&#8217;un point de vue &#233;cologique abritant au moins une esp&#232;ce ou un habitat rare ou menac&#233;, d&#8217;int&#233;r&#234;t local ou r&#233;gional, national ou communautaire. Espaces marin d&#8217;int&#233;r&#234;t fonctionnel pour le fonctionnement &#233;cologique local.</ows:Abstract>
+      <ows:Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type I</ows:Title>
+      <ows:Abstract>Espaces marin homogènes d’un point de vue écologique abritant au moins une espèce ou un habitat rare ou menacé, d’intérêt local ou régional, national ou communautaire. Espaces marin d’intérêt fonctionnel pour le fonctionnement écologique local.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF1.SEA</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3644,7 +3645,7 @@
     </Layer>
     <Layer>
       <ows:Title>Zones fonctionnelles de nature remarquable (ZNIEFF2)</ows:Title>
-      <ows:Abstract>Inventaire des espaces fonctionnels indispensables &#224; la nature remarquable.&lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des donn&#233;es" target="_blank"&gt;Date des donn&#233;es&lt;/a&gt;</ows:Abstract>
+      <ows:Abstract>Inventaire des espaces fonctionnels indispensables à la nature remarquable.&lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -3652,7 +3653,7 @@
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF2</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.ZNIEFF2</ows:Title>
-        <ows:Abstract>L&#233;gende ZNIEFF2</ows:Abstract>
+        <ows:Abstract>Légende ZNIEFF2</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3749,18 +3750,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones naturelles d&#8217;int&#233;r&#234;t &#233;cologique faunistique et floristique (ZNIEFF) marine type II</ows:Title>
-      <ows:Abstract>Grands ensembles naturels ou peu modifi&#233;s marin offrant des potentialit&#233;s biologiques importantes.</ows:Abstract>
+      <ows:Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type II</ows:Title>
+      <ows:Abstract>Grands ensembles naturels ou peu modifiés marin offrant des potentialités biologiques importantes.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF2.SEA</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3855,8 +3856,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zones_de_protection_renforc&#233;e</ows:Title>
-      <ows:Abstract>L'arr&#234;t&#233; pr&#233;fectoral fixant la liste d&#233;partementale de sites d'int&#233;r&#234;t g&#233;ologique est un outil r&#232;glementaire qui vise &#224; prot&#233;ger, par des mesures g&#233;n&#233;rales, les sites g&#233;ologiques qui sont mentionn&#233;s en son sein. Il s'agit d'un des deux outils mis en place par le d&#233;cret du 28 d&#233;cembre 2015 codifi&#233; aux articles R.411-17-1 et 17-2 du code de l'environnement et pr&#233;cis&#233; par la Note du 1er d&#233;cembre 2016 relative &#224; la protection des sites d'int&#233;r&#234;t g&#233;ologique</ows:Abstract>
+      <ows:Title>Zones_de_protection_renforcée</ows:Title>
+      <ows:Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
@@ -3864,7 +3865,7 @@
       <ows:Identifier>PROTECTEDAREAS.ZPR</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.BIOS</ows:Title>
-        <ows:Abstract>L&#233;gende BIOS</ows:Abstract>
+        <ows:Abstract>Légende BIOS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -3962,7 +3963,7 @@
     </Layer>
     <Layer>
       <ows:Title>Sites NATURA 2000 au titre de la Directive Oiseaux</ows:Title>
-      <ows:Abstract>Le r&#233;seau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union europ&#233;enne et est un &#233;l&#233;ment cl&#233; de l'objectif visant &#224; enrayer l'&#233;rosion de la biodiversit&#233;.04-2023</ows:Abstract>
+      <ows:Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -3970,7 +3971,7 @@
       <ows:Identifier>PROTECTEDAREAS.ZPS</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDAREAS.ZPS</ows:Title>
-        <ows:Abstract>L&#233;gende ZPS</ows:Abstract>
+        <ows:Abstract>Légende ZPS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>
@@ -4067,8 +4068,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>R&#233;serves naturelles r&#233;gionales</ows:Title>
-      <ows:Abstract>Les r&#233;serves naturelles r&#233;gionales sont g&#233;r&#233;es prioritairement &#224; des fins de conservation de la nature. Elles sont plac&#233;es sous la responsabilit&#233; exclusive des conseils r&#233;gionaux.04-2023</ows:Abstract>
+      <ows:Title>Réserves naturelles régionales</ows:Title>
+      <ows:Abstract>Les réserves naturelles régionales sont gérées prioritairement à des fins de conservation de la nature. Elles sont placées sous la responsabilité exclusive des conseils régionaux.04-2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
@@ -4076,7 +4077,7 @@
       <ows:Identifier>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Identifier>
       <Style isDefault="true">
         <ows:Title>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Title>
-        <ows:Abstract>L&#233;gende RR</ows:Abstract>
+        <ows:Abstract>Légende RR</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>environnement</ows:Keyword>
         </ows:Keywords>

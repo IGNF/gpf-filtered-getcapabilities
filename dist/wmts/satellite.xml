@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -78,17 +79,17 @@
   <Contents>
     <Layer>
       <ows:Title>PLEIADES - 2012</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pl&#233;iades de l'ann&#233;e 2012.</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pléiades de l'année 2012.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-53.2686 -21.3539</ows:LowerCorner>
         <ows:UpperCorner>55.5544 50.6037</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2012</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -235,17 +236,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2013</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2013</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2013</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2013</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -392,17 +393,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2014</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2014</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2014</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2014</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -549,17 +550,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2015</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2015</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2015</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.196 -37.8942</ows:LowerCorner>
         <ows:UpperCorner>77.6156 51.0283</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2015</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -706,17 +707,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2016</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2016</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2016</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-54.1373 -21.32</ows:LowerCorner>
         <ows:UpperCorner>55.8441 50.6549</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2016</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -863,17 +864,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2017</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2017</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2017</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1796 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8465 51.1117</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1020,17 +1021,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2018</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2018</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2018</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1702 -21.4094</ows:LowerCorner>
         <ows:UpperCorner>55.8649 51.0841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2018</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1177,17 +1178,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2019</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2019</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2019</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1702 -21.4094</ows:LowerCorner>
         <ows:UpperCorner>55.8649 51.1117</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2019</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1334,17 +1335,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2020</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2020</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2020</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1724 -13.0169</ows:LowerCorner>
         <ows:UpperCorner>45.3136 51.1117</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1491,17 +1492,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2021</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2021</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2021</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.8234 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8464 51.13</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2021</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1648,17 +1649,17 @@
     </Layer>
     <Layer>
       <ows:Title>PLEIADES - 2022</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Pleiades de l'ann&#233;e 2022</ows:Abstract>
+      <ows:Abstract>Agrégation des images Pleiades de l'année 2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6648 -13.0259</ows:LowerCorner>
         <ows:UpperCorner>45.3136 51.1117</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1805,17 +1806,17 @@
     </Layer>
     <Layer>
       <ows:Title>RAPIDEYE 2010</ows:Title>
-      <ows:Abstract>&#65532;Image satellitaire de la France m&#233;tropolitaine effectu&#233;e en 2010 par les satellites de t&#233;l&#233;d&#233;tection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</ows:Abstract>
+      <ows:Abstract>￼Image satellitaire de la France métropolitaine effectuée en 2010 par les satellites de télédétection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.80725 41.2014</ows:LowerCorner>
         <ows:UpperCorner>10.961 50.9218</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2010</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -1941,17 +1942,17 @@
     </Layer>
     <Layer>
       <ows:Title>RAPIDEYE - 2011</ows:Title>
-      <ows:Abstract>Image satellitaire de la France m&#233;tropolitaine effectu&#233;e en 2011 par les satellites de t&#233;l&#233;d&#233;tection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</ows:Abstract>
+      <ows:Abstract>Image satellitaire de la France métropolitaine effectuée en 2011 par les satellites de télédétection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.80725 41.0227</ows:LowerCorner>
         <ows:UpperCorner>10.961 51.1752</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2011</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2076,18 +2077,18 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Mill&#233;sime Spot 2013</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2013</ows:Abstract>
+      <ows:Title>Millésime Spot 2013</ows:Title>
+      <ows:Abstract>Agrégation des images Spot de l'année 2013</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>0.563585 44.8809</ows:LowerCorner>
         <ows:UpperCorner>4.29191 50.3879</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2013</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2227,17 +2228,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2014</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2014. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la couverture SPOT 6-7 : &lt;br/&gt;CNES, IGN, GEOSUD&lt;/b&gt;</ows:Abstract>
+      <ows:Abstract>Agrégation des images Spot de l'année 2014. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la couverture SPOT 6-7 : &lt;br/&gt;CNES, IGN, GEOSUD&lt;/b&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2014</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2382,17 +2383,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2015</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2015. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la t&#233;l&#233;mesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</ows:Abstract>
+      <ows:Abstract>Agrégation des images Spot de l'année 2015. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la télémesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.8141 -21.4104</ows:LowerCorner>
         <ows:UpperCorner>55.856 51.106</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2015</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2537,17 +2538,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2016</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2016. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la t&#233;l&#233;mesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</ows:Abstract>
+      <ows:Abstract>Agrégation des images Spot de l'année 2016. &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Financeurs de la télémesure SPOT 6-7 : &lt;br/&gt;CIRAD, CNES, CNRS, IGN, IRD, Irstea, GEOSUD&lt;/b&gt;</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.85 -21.4104</ows:LowerCorner>
         <ows:UpperCorner>55.8562 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2016</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2692,17 +2693,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2017</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2017</ows:Abstract>
+      <ows:Abstract>Agrégation des images Spot de l'année 2017</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.8534 -21.4104</ows:LowerCorner>
         <ows:UpperCorner>55.8562 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2847,17 +2848,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2018</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images Spot de l'ann&#233;e 2018</ows:Abstract>
+      <ows:Abstract>Agrégation des images Spot de l'année 2018</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2018</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -2997,17 +2998,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2019</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images SPOT 2019</ows:Abstract>
+      <ows:Abstract>Agrégation des images SPOT 2019</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2019</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3147,17 +3148,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2020</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images SPOT 2020</ows:Abstract>
+      <ows:Abstract>Agrégation des images SPOT 2020</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3297,17 +3298,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 - 2021</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images SPOT 2021</ows:Abstract>
+      <ows:Abstract>Agrégation des images SPOT 2021</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2021</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3447,17 +3448,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 2022</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images SPOT 2022</ows:Abstract>
+      <ows:Abstract>Agrégation des images SPOT 2022</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2022</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
@@ -3597,17 +3598,17 @@
     </Layer>
     <Layer>
       <ows:Title>SPOT 6-7 2023</ows:Title>
-      <ows:Abstract>Agr&#233;gation des images SPOT 2023</ows:Abstract>
+      <ows:Abstract>Agrégation des images SPOT 2023</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.57103 41.2593</ows:LowerCorner>
         <ows:UpperCorner>10.7394 51.1123</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHO-SAT.SPOT.2023</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>L&#233;gende g&#233;n&#233;rique</ows:Title>
-        <ows:Abstract>Fichier de l&#233;gende g&#233;n&#233;rique &#8211; pour la compatibilit&#233; avec certains syst&#232;mes</ows:Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />

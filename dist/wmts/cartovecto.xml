@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
@@ -77,18 +78,18 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</ows:Title>
-      <ows:Abstract>Trace de randonn&#233;e hivernale (&#224; ski, &#224; raquette)</ows:Abstract>
+      <ows:Title>Trace de randonnée hivernale (à ski, à raquette)</ows:Title>
+      <ows:Abstract>Trace de randonnée hivernale (à ski, à raquette)</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>5.44835 44.1893</ows:LowerCorner>
         <ows:UpperCorner>7.20036 46.4052</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRACES.RANDO.HIVERNALE</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Donn&#233;es Brutes</ows:Title>
-        <ows:Abstract>Donn&#233;es brutes sans changement de palette</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
-          <ows:Keyword>D&#233;faut</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
         <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
