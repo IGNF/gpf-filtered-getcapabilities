@@ -78,374 +78,21 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Zonage informatif des obligations légales de débroussaillement</ows:Title>
-      <ows:Abstract>Zonage informatif des obligations légales de débroussaillement</ows:Abstract>
+      <ows:Title>OCS GE 2016-2017 - zones construites</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2016-2017 - zones construites</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>DEBROUSSAILLEMENT</ows:Identifier>
+      <ows:Identifier>OCSGE.CONSTRUCTION.2016-2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>nolegend</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_18</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2156</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4313</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7957</MinTileCol>
-            <MaxTileCol>8627</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15915</MinTileCol>
-            <MaxTileCol>17255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>24492</MaxTileRow>
-            <MinTileCol>31830</MinTileCol>
-            <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43822</MinTileRow>
-            <MaxTileRow>48985</MaxTileRow>
-            <MinTileCol>63660</MinTileCol>
-            <MaxTileCol>69020</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>87645</MinTileRow>
-            <MaxTileRow>97970</MaxTileRow>
-            <MinTileCol>127321</MinTileCol>
-            <MaxTileCol>138041</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Forêts publiques</ows:Title>
-      <ows:Abstract>Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d'établissements publics) gérées par l'Office national des forêts (ONF).</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>FORETS.PUBLIQUES</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>FORETS PUBLIQUES ONF</ows:Title>
-        <ows:Abstract>Légende des forêts publiques ONF</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>ONF</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>FORETS PUBLIQUES ONF</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/onf_forets_publiques.png" width="302" height="78" minScaleDenominator="8000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_3_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>2</MinTileRow>
-            <MaxTileRow>4</MaxTileRow>
-            <MinTileCol>2</MinTileCol>
-            <MaxTileCol>5</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>8</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>10</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>10</MinTileRow>
-            <MaxTileRow>17</MaxTileRow>
-            <MinTileCol>10</MinTileCol>
-            <MaxTileCol>20</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Carroyage DFCI</ows:Title>
-      <ows:Abstract>Le « carroyage DFCI » est un système de maillage géographique utilisé en France par les acteurs de la Défense des Forêts Contre les Incendies (DFCI). Le territoire métropolitain est couvert par des carrés de 100 km de côté, identifiables par deux lettres. Chaque carré de 100 km est divisé en 25 carrés de 20 km de côté, numérotés par des chiffres pairs de 0 à 8. Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. L'unité élémentaire est un carreau de 2 kilomètres de côté, défini par 6 caractères (exemple : KD42F7). Pour désigner un point à l'intérieur de l'unité élémentaire, la précision est obtenue en découpant ce carré en cinq zones numérotées de 1 à 5. Il a été créé sur une grille qui s'appuie sur la projection Lambert II étendue. Depuis 2009, il est re-projeté en Lambert 93 avec une légère déformation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. Les carrés de 2 km sont dénommés de A à L (sauf I et J) pour les abscisses, et numérotés de 0 à 9 pour les ordonnées. Date des données : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - PôNT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>GEOGRAPHICALGRIDSYSTEM.DFCI</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2156</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4313</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7957</MinTileCol>
-            <MaxTileCol>8627</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15915</MinTileCol>
-            <MaxTileCol>17255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>24492</MaxTileRow>
-            <MinTileCol>31830</MinTileCol>
-            <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Régions forestières nationales</ows:Title>
-      <ows:Abstract>Cette cartographie représente des zones homogènes du point de vue des types de forêt ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.FORESTAREAS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -532,21 +179,122 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Carte forestière v1 (1987-2004)</ows:Title>
-      <ows:Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</ows:Abstract>
+      <ows:Title>OCS GE 2017-2020 - zones construites</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2017-2020 - zones construites</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
+        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.FORESTINVENTORY.V1</ows:Identifier>
+      <ows:Identifier>OCSGE.CONSTRUCTION.2017-2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>9189</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>18378</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21467</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>36757</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42934</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>OCS GE 2021-2023 - zones construites</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2021-2023 - zones construites</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>OCSGE.CONSTRUCTION.2021-2023</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -633,136 +381,21 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Carte forestière (v2 : 2006-)</ows:Title>
-      <ows:Abstract>Localisation de 32 types de formations végétales sur le territoire. Carte en cours de réalisation depuis 2006.</ows:Abstract>
+      <ows:Title>OCS GE 2016-2017 - couvertures</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2016-2017 - couvertures</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.FORESTINVENTORY.V2</ows:Identifier>
+      <ows:Identifier>OCSGE.COUVERTURE.2016-2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Style>
-        <ows:Title>Données LANDCOVER.FORESTINVENTORY.V2</ows:Title>
-        <ows:Abstract>Style et légende associés au flux LANDCOVER.FORESTINVENTORY.V2</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>LANDCOVER.FORESTINVENTORY.V2</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2156</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4313</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7957</MinTileCol>
-            <MaxTileCol>8627</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15915</MinTileCol>
-            <MaxTileCol>17255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>24492</MaxTileRow>
-            <MinTileCol>31830</MinTileCol>
-            <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Sylvoécorégions</ows:Title>
-      <ows:Abstract>Découpage de la France métropolitaine prenant en compte les facteurs biogéographiques déterminant la production forestière et la répartition des grands types d’habitat forestier.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.SYLVOECOREGIONS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -849,21 +482,122 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Sylvoécorégions d'alluvions récentes</ows:Title>
-      <ows:Abstract>Affichage des cinq sylvoécorégions d’alluvions récentes correspondant aux cinq vallées des bassins des grands fleuves français et de leurs affluents, à enjeux importants. </ows:Abstract>
+      <ows:Title>OCS GE 2017-2020 - couvertures</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2017-2020 - couvertures</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
+        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
+        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.SYLVOECOREGIONS.ALLUVIUM</ows:Identifier>
+      <ows:Identifier>OCSGE.COUVERTURE.2017-2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>9189</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>18378</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21467</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>36757</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42934</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>OCS GE 2021-2023 - couvertures</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2021-2023 - couvertures</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>OCSGE.COUVERTURE.2021-2023</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -950,452 +684,124 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Biotopes d'espèces protégées</ows:Title>
-      <ows:Abstract>Conservation de l'habitat d'espèces protégées. Outil réglementaires de niveau départemental.Mise à jour 04-2023</ows:Abstract>
+      <ows:Title>OCS GE 2016-2017 - usages</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2016-2017 - usages</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.APB</ows:Identifier>
+      <ows:Identifier>OCSGE.USAGE.2016-2017</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.APB</ows:Title>
-        <ows:Abstract>Légende APB</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.APB</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" width="300" height="71" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Arrêtés de protection de géotope</ows:Title>
-      <ows:Abstract>Sites d'intérêt géologique faisant l'objet d’une interdiction de destruction, d'altération ou de dégradation du site, ainsi que de prélèvement, de destruction ou de dégradation de fossiles, minéraux et concrétions présents sur ces sites appelés « aires de protection de géotope».</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.APG</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
             <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Arrêtés de protection d’habitats naturels</ows:Title>
-      <ows:Abstract>Dispositif visant à protéger un habitat naturel (récif corallien, tourbière, prairie, etc.) en tant que tel, sans qu'il soit besoin d'établir qu'il constitue par ailleurs un habitat d'espèces protégées. Mise à jour 04-2023</ows:Abstract>
+      <ows:Title>OCS GE 2017-2020 - usages</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2017-2020 - usages</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
+        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
+        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.APHN</ows:Identifier>
+      <ows:Identifier>OCSGE.USAGE.2017-2020</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Arrêtés listes de sites d'intérêt géologique</ows:Title>
-      <ows:Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.APLG</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>nolegend</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves de biosphère</ows:Title>
-      <ows:Abstract>Réserves naturelles reconnues par le Programme sur l'Homme et la Biosphère créé par l'Unesco. 09-2022</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.BIOS</ows:Title>
-        <ows:Abstract>Légende BIOS</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.BIOS-legend.png" width="300" height="95" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
         <TileMatrixSetLimits>
@@ -1417,296 +823,84 @@
             <TileMatrix>8</TileMatrix>
             <MinTileRow>85</MinTileRow>
             <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
+            <MinTileCol>83</MinTileCol>
             <MaxTileCol>167</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
+            <MinTileRow>171</MinTileRow>
             <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
+            <MinTileCol>166</MinTileCol>
             <MaxTileCol>335</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
+            <MinTileRow>342</MinTileRow>
             <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>9189</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>18378</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21467</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>36757</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42934</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Géoparcs</ows:Title>
-      <ows:Abstract>Les géoparcs mondiaux UNESCO sont des espaces géographiques unifiés, où les sites et paysages de portée géologique internationale sont gérés selon un concept global de protection, d’éducation et de développement durable</ows:Abstract>
+      <ows:Title>OCS GE 2021-2023 - usages</ows:Title>
+      <ows:Abstract>Occupation du sol grande échelle 2021-2023 - usages</ows:Abstract>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.GP</ows:Identifier>
+      <ows:Identifier>OCSGE.USAGE.2021-2023</ows:Identifier>
       <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Inventaire National du Patrimoine Géologique (INPG)</ows:Title>
-      <ows:Abstract>L'Inventaire National du Patrimoine Géologique (INPG) est un programme initié en 2007 de connaissance géologique du territoire métropolitain et outre-mer, dans lequel chaque site géologique naturel est renseigné sur une application web dédiée (InvenTerre) de façon textuelle avec une évaluation patrimoniale et une cartographie associées.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.INPG</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Conservatoire du littoral - sites sous responsabilité du conservatoire</ows:Title>
-      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Title>
-        <ows:Abstract>Légende CDL PARCELS</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.MNHN.CDL.PARCELS-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -1715,2460 +909,79 @@
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
             <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Conservatoire du littoral : Les périmètres autorisés</ows:Title>
-      <ows:Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PERIMETER</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Terrains des conservatoires d'espaces naturels</ows:Title>
-      <ows:Abstract>Les conservatoires d'espaces naturels organisent la maîtrise foncière de terrains en vue d'assurer la protection des espèces qui y résident. 05-2022</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.MNHN.CONSERVATOIRES</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>périmètres de protection de réserves naturelles</ows:Title>
-      <ows:Abstract>Un périmètre de protection peut être institué en périphérie d’une réserve naturelle. Il concerne des espaces qui n’ont pas été classés en réserve et qui constituent une zone « tampon » autour de l’espace classé. Ils améliorent les échanges écologiques entre la réserve et sa périphérie. 04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.MNHN.RN.PERIMETER</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_0_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>0</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>0</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>0</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>1</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>1</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>2</TileMatrix>
-            <MinTileRow>1</MinTileRow>
-            <MaxTileRow>2</MaxTileRow>
-            <MinTileCol>1</MinTileCol>
-            <MaxTileCol>2</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>2</MinTileRow>
-            <MaxTileRow>5</MaxTileRow>
-            <MinTileCol>2</MinTileCol>
-            <MaxTileCol>5</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>10</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>11</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>10</MinTileRow>
-            <MaxTileRow>21</MaxTileRow>
-            <MinTileCol>10</MinTileCol>
-            <MaxTileCol>23</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Parcs nationaux</ows:Title>
-      <ows:Abstract>Les parcs nationaux sont de vastes espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est à la fois de protéger des processus écologiques à large échelle et de fournir des possibilités de découverte de la nature. Mise à jour 04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.PN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.PN</ows:Title>
-        <ows:Abstract>Légende PN</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.PN</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PN-legend.png" width="300" height="78" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Parcs naturels marins</ows:Title>
-      <ows:Abstract>Zones maritimes identifiées pour leur biodiversité ou par les activités humaines faisant l'objet de protection. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.PNM</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Parcs naturels régionaux</ows:Title>
-      <ows:Abstract>Les parcs naturels régionaux ont pour but de valoriser de vastes espaces de fort intérêt culturel et naturel, et de veiller au développement durable de ces territoires dont le caractère rural est souvent très affirmé. 04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.PNR</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.PNR</ows:Title>
-        <ows:Abstract>Légende PNR</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.PNR</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PNR-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Points de Rencontre de Secours en Forêt (PRSF)</ows:Title>
-      <ows:Abstract>Les Points de Rencontre de Secours en Forêt (PRSF) sont supposées connus des services de secours. Ils permettent de faciliter la localisation d'un blessé par les services de secours.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.PRSF</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POINT RENCONTRE SECOURS FORET</ows:Title>
-        <ows:Abstract>Légende Points de Rencontre de Secours en Forêt (PRSF)</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>PRSF</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>POINT RENCONTRE SECOURS FORET</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PRSF-legend.png" width="300" height="59" minScaleDenominator="4000" maxScaleDenominator="40000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_17</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43698</MinTileRow>
-            <MaxTileRow>73544</MaxTileRow>
-            <MinTileCol>42462</MinTileCol>
-            <MaxTileCol>85897</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones humides d'importance internationale</ows:Title>
-      <ows:Abstract>Un site Ramsar est un espace désigné en application de la Convention relative aux zones humides d'importance internationale, particulièrement comme habitats des oiseaux d'eau, dont le traité a été signé en 1971 sur les bords de la mer Caspienne (Iran). 16-11-2021</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RAMSAR</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.RAMSAR</ows:Title>
-        <ows:Abstract>Légende RAMSAR</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.RAMSAR</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.RAMSAR-legend.png" width="300" height="51" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves biologiques </ows:Title>
-      <ows:Abstract>Une réserve biologique est un espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes). Ce statut s'applique aux forêts gérées par l'Office National des Forêts et a pour but la protection d'habitats remarquables ou représentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RB</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves Intégrales de Parcs Nationaux</ows:Title>
-      <ows:Abstract>Au sein d'un cœur de parc national, il peut être institué une « réserve intégrale » afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore. 05-2022</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RIPN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves naturelles nationales</ows:Title>
-      <ows:Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. 04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.RN</ows:Title>
-        <ows:Abstract>Légende RN</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.RN</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legends/PROTECTEDAREAS.RN-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves Naturelles de Corse</ows:Title>
-      <ows:Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RNC</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.RNC</ows:Title>
-        <ows:Abstract>Légende RNC</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.RNC</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legends/PROTECTEDAREAS.RNC-legend.png" width="300" height="51" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves nationales de chasse et de faune sauvage</ows:Title>
-      <ows:Abstract>Les réserves nationales de chasse et de faune sauvage sont des espaces protégés terrestres ou marins dont la gestion est principalement assurée par l'Office National de la Chasse et de la Faune Sauvage.09-2022</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.RNCF</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Sites Natura 2000 au titre de la Directive Habitats</ows:Title>
-      <ows:Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.SIC</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.SIC</ows:Title>
-        <ows:Abstract>Légende SIC</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.SIC</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.SIC-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Sites inscrits au patrimoine mondial de l’UNESCO (biens naturels ou mixtes)</ows:Title>
-      <ows:Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est considéré comme héritage commun de l'humanité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.UNESCO</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones écologiques de nature remarquable (ZNIEFF1)</ows:Title>
-      <ows:Abstract>Inventaire des espaces naturels abritant la nature remarquable.09-2022</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZNIEFF1</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.ZNIEFF1</ows:Title>
-        <ows:Abstract>Légende ZNIEFF1</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.ZNIEFF1</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legends/PROTECTEDAREAS.ZNIEFF1-legend.png" width="300" height="78" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type I</ows:Title>
-      <ows:Abstract>Espaces marin homogènes d’un point de vue écologique abritant au moins une espèce ou un habitat rare ou menacé, d’intérêt local ou régional, national ou communautaire. Espaces marin d’intérêt fonctionnel pour le fonctionnement écologique local.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZNIEFF1.SEA</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones fonctionnelles de nature remarquable (ZNIEFF2)</ows:Title>
-      <ows:Abstract>Inventaire des espaces fonctionnels indispensables à la nature remarquable.&lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZNIEFF2</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.ZNIEFF2</ows:Title>
-        <ows:Abstract>Légende ZNIEFF2</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.ZNIEFF2</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legends/PROTECTEDAREAS.ZNIEFF2-legend.png" width="300" height="78" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type II</ows:Title>
-      <ows:Abstract>Grands ensembles naturels ou peu modifiés marin offrant des potentialités biologiques importantes.</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZNIEFF2.SEA</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones_de_protection_renforcée</ows:Title>
-      <ows:Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -53.6279</ows:LowerCorner>
-        <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZPR</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.BIOS</ows:Title>
-        <ows:Abstract>Légende BIOS</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.BIOS-legend.png" width="300" height="95" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>43</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>46</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>86</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>93</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>173</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>186</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>346</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>373</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>693</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>747</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1386</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1494</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2773</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2988</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>5547</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5976</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>11094</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>11953</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>22189</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>23906</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>44378</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>47813</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Sites NATURA 2000 au titre de la Directive Oiseaux</ows:Title>
-      <ows:Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDAREAS.ZPS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDAREAS.ZPS</ows:Title>
-        <ows:Abstract>Légende ZPS</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDAREAS.ZPS</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.ZPS-legend.png" width="300" height="57" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Réserves naturelles régionales</ows:Title>
-      <ows:Abstract>Les réserves naturelles régionales sont gérées prioritairement à des fins de conservation de la nature. Elles sont placées sous la responsabilité exclusive des conseils régionaux.04-2023</ows:Abstract>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Title>
-        <ows:Abstract>Légende RR</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>environnement</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legends/PROTECTEDSITES.MNHN.RESERVES-REGIONALES-legend.png" width="300" height="51" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
