@@ -1343,6 +1343,68 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>LANDCOVER.GRID.CLC12_DOM</Name>
+        <Title>Raster CORINE Land Cover - DOM - 2012</Title>
+        <Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 2012 en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de l'observation et des statistiques du ministère chargé de l'environnement. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover DOM 2012 a été réalisée à partir de CORINE Land Cover DOM 2006 révisée et de la base des changements 2006-2012.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-89</southBoundLatitude>
+          <northBoundLatitude>89</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-30240971.958386172" maxx="20037508.342789244" maxy="30240971.958386205" />
+        <Attribution>
+          <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL width="294" height="171">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>CORINE Land Cover - DOM</Name>
+          <Title>CORINE Land Cover - DOM</Title>
+          <Abstract>Légende des couches CORINE Land Cover - DOM</Abstract>
+          <LegendURL width="300" height="1205">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/CLC_DOM.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>136494.693366386</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>LANDCOVER.GRID.CLC12_FR</Name>
+        <Title>Raster CORINE Land Cover - France métropolitaine - 2012</Title>
+        <Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 2012 en 44 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de l'observation et des statistiques du ministère chargé de l'environnement. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et plus généralement de l'aménagement de l'espace. La base de données CORINE Land Cover 2012, dite CLC 2012, a été réalisée à partir de CLC 2006 révisée et de la base des changements 2006-2012.</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.68494</westBoundLongitude>
+          <eastBoundLongitude>10.8556</eastBoundLongitude>
+          <southBoundLatitude>41.1779</southBoundLatitude>
+          <northBoundLatitude>51.1827</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-632844.192957493" miny="5038616.115278067" maxx="1208438.408196521" maxy="6653671.293844355" />
+        <Attribution>
+          <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ecologie.gouv.fr/" />
+          <LogoURL width="294" height="171">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mtect.png" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>CORINE Land Cover - France métropolitaine</Name>
+          <Title>CORINE Land Cover - France métropolitaine</Title>
+          <Abstract>Légende des couches CORINE Land Cover - France métropolitaine</Abstract>
+          <LegendURL width="300" height="1205">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/CLC_FR.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>136494.693366386</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>LANDCOVER.GRID.CLC90_FR</Name>
         <Title>Raster CORINE Land Cover - 1990</Title>
         <Abstract>Raster au pas de 25m de l'inventaire biophysique de l'occupation des sols en 1990 en 44 postes pour la Métropole. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover 1990, dite CLC 1990, a été réalisée à partir d'images satellitaires de l'année 1990 et de données d'appui. </Abstract>
