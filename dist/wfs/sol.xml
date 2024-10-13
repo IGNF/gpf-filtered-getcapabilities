@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4786">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2202">
   <ows:ServiceIdentification>
     <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
     <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
@@ -315,149 +315,6 @@
   </ows:OperationsMetadata>
   <FeatureTypeList>
     <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_1_limite_administrative</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_2_surface_administrative</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_1_troncon_de_route</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_2_troncon_de_voie_ferree</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_3_troncon_de_cours_d_eau</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_1_ocs_ancien</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_2_ocs_ancien_sans_bati</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_1_batiment</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_2_batiment_hors_zone_urbaine</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_3_zone_urbaine</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
-      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:z_1_chantier</Name>
-      <Title>BD CARTO Etat-major</Title>
-      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation du sol</ows:Keyword>
-      </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
-        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-    </FeatureType>
-    <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:a_1_limite_administrative</Name>
       <Title>BD CARTO Etat-major</Title>
       <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Source : IGN</Abstract>
@@ -598,6 +455,149 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>2.27143298 44.00271216</ows:LowerCorner>
         <ows:UpperCorner>7.33718287 46.80272707</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_1_limite_administrative</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_2_surface_administrative</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_1_troncon_de_route</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_2_troncon_de_voie_ferree</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_3_troncon_de_cours_d_eau</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_1_ocs_ancien</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_2_ocs_ancien_sans_bati</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_1_batiment</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_2_batiment_hors_zone_urbaine</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_3_zone_urbaine</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:z_1_chantier</Name>
+      <Title>BD CARTO Etat-major</Title>
+      <Abstract>Représentation de l'occupation du sol de la France métropolitaine au 19e siècle. La production des données est réalisée à partir des cartes d'Etat-major, élaborées entre 1825 et 1866. Elle est complétée par des mises à jour partielles (ajout des voies de chemin de fer notamment) jusqu'en 1889. Seul le niveau 3 de géoréférencement de niveau 3 est visible sur le site Géoportail. Il existe un géoréférencement de niveau 4 de meilleure qualité disponible. Source : IGN</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.52303725 43.09602342</ows:LowerCorner>
+        <ows:UpperCorner>7.35518119 51.08427873</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
