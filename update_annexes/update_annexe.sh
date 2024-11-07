@@ -8,7 +8,7 @@ do
 	user=`curl --request POST \
 	  	  --url https://sso.geopf.fr/realms/geoplateforme/protocol/openid-connect/token \
 		  --header "content-type: application/x-www-form-urlencoded" \
-		  -d 'client_id='$1'&client_secret='$2'&grant_type=password'`
+		  -d 'client_id='$1'&client_secret='$2'&grant_type=client_credentials'`
 
 	token=`echo $user | jq '.access_token' | cut -d'"' -f2`
 done
