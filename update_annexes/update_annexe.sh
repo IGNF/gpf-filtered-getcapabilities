@@ -4,12 +4,11 @@ while [ "$token" == "null" ] && [[ $compteur != 10 ]]
 do
 	sleep 5
  	compteur=$((compteur+1))
-	totp=`python3 update_annexes/totp.py --totp_key $3`
 
 	user=`curl --request POST \
 	  	  --url https://sso.geopf.fr/realms/geoplateforme/protocol/openid-connect/token \
 		  --header "content-type: application/x-www-form-urlencoded" \
-		  -d 'client_id=gpf-warehouse&username='$1'&password='$2'&client_secret=BK2G7Vvkn7UDc8cV7edbCnHdYminWVw2&grant_type=password&totp='$totp`
+		  -d 'client_id='$1'&client_secret='$2'&grant_type=password'`
 
 	token=`echo $user | jq '.access_token' | cut -d'"' -f2`
 done
