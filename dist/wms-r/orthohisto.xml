@@ -31,8 +31,8 @@
     <Fees>none</Fees>
     <AccessConstraints>none</AccessConstraints>
     <LayerLimit>2</LayerLimit>
-    <MaxWidth>10000</MaxWidth>
-    <MaxHeight>10000</MaxHeight>
+    <MaxWidth>5000</MaxWidth>
+    <MaxHeight>5000</MaxHeight>
   </Service>
   <Capability>
     <Request>
@@ -289,7 +289,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965</Name>
         <Title>Photographies aériennes historiques 1950-1965</Title>
-        <Abstract>Couverture en photographies aériennes de la France des années 50, telle qu'elle se présentait avant les grands aménagements des années 60. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
+        <Abstract>Couverture en photographies aériennes de la France des années 1950-1965. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-67.7214</westBoundLongitude>
           <eastBoundLongitude>55.8464</eastBoundLongitude>
@@ -337,7 +337,7 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1965-1980</Name>
-        <Title>BDOrtho Historique 1965-1980</Title>
+        <Title>Photographies aériennes historiques 1965-1980</Title>
         <Abstract>Couverture en photographies aériennes de la France des années 1965 à 1980. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
@@ -360,8 +360,8 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.1980-1995</Name>
-        <Title>Ortho Historique 1980-1995</Title>
-        <Abstract>Couverture en photographies aériennes de la France des années 11980 à 1995. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
+        <Title>Photographies aériennes historiques 1980-1995</Title>
+        <Abstract>Couverture en photographies aériennes de la France des années 1980 à 1995. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
           <eastBoundLongitude>10</eastBoundLongitude>

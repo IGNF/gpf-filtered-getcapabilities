@@ -1353,6 +1353,114 @@
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
     </Layer>
+    <Layer>
+      <ows:Title>Estompage haute résolution issu des données MNT IGN</ows:Title>
+      <ows:Abstract>Ombrage calculé à partir du RGEAlti avec gdal : gdaldem hillshade -alt 80 -az 315 -z 2</ows:Abstract>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.27131 41.2735</ows:LowerCorner>
+        <ows:UpperCorner>9.67502 51.1791</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_17</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1079</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1368</MinTileRow>
+            <MaxTileRow>1531</MaxTileRow>
+            <MinTileCol>1988</MinTileCol>
+            <MaxTileCol>2158</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2736</MinTileRow>
+            <MaxTileRow>3063</MaxTileRow>
+            <MinTileCol>3976</MinTileCol>
+            <MaxTileCol>4316</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5472</MinTileRow>
+            <MaxTileRow>6126</MaxTileRow>
+            <MinTileCol>7952</MinTileCol>
+            <MaxTileCol>8632</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10944</MinTileRow>
+            <MaxTileRow>12252</MaxTileRow>
+            <MinTileCol>15904</MinTileCol>
+            <MaxTileCol>17264</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21888</MinTileRow>
+            <MaxTileRow>24505</MaxTileRow>
+            <MinTileCol>31808</MinTileCol>
+            <MaxTileCol>34529</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43776</MinTileRow>
+            <MaxTileRow>49010</MaxTileRow>
+            <MinTileCol>63616</MinTileCol>
+            <MaxTileCol>69058</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
     <TileMatrixSet>
       <ows:Identifier>2154_10cm</ows:Identifier>
       <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>

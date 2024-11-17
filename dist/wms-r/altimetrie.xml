@@ -31,8 +31,8 @@
     <Fees>none</Fees>
     <AccessConstraints>none</AccessConstraints>
     <LayerLimit>2</LayerLimit>
-    <MaxWidth>10000</MaxWidth>
-    <MaxHeight>10000</MaxHeight>
+    <MaxWidth>5000</MaxWidth>
+    <MaxHeight>5000</MaxHeight>
   </Service>
   <Capability>
     <Request>
@@ -624,6 +624,167 @@
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
+        <Title>Estompage haute résolution issu des données MNT IGN</Title>
+        <Abstract>Ombrage calculé à partir du RGEAlti</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.27131</westBoundLongitude>
+          <eastBoundLongitude>9.67502</eastBoundLongitude>
+          <southBoundLatitude>41.2735</southBoundLatitude>
+          <northBoundLatitude>51.1791</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-586799.326571254" miny="5052763.345603028" maxx="1077017.837783191" maxy="6653041.399474845" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNH</Name>
+        <Title>MNH issu de LiDAR HD</Title>
+        <Abstract>Données MNH dérivées des données LiDAR HD</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>2.80335</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>51.0937</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:4326" minx="45.383857740" miny="-1.570458550" maxx="51.093712320" maxy="2.803349640" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>0.019158636</MinScaleDenominator>
+        <MaxScaleDenominator>2511.160714286</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNH_2154</Name>
+        <Title>MNH issu de LiDAR HD en projection native</Title>
+        <Abstract>Données MNH dérivées des données LiDAR HD (projection native : EPSG:2154)</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>-0.0853193</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>46.3787</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:2154" minx="342517.961583313" miny="6480766.749453573" maxx="462904.848598777" maxy="6596695.148159069" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1785.714285714</MinScaleDenominator>
+        <MaxScaleDenominator>468114285.714285672</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNS</Name>
+        <Title>MNS issu de LiDAR HD</Title>
+        <Abstract>Données MNS dérivées des données LiDAR HD</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>2.80335</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>51.0937</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:4326" minx="45.383857740" miny="-1.570458550" maxx="51.093712320" maxy="2.803349640" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>0.019158636</MinScaleDenominator>
+        <MaxScaleDenominator>2511.160714286</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNS_2154</Name>
+        <Title>MNS issu de LiDAR HD en projection native</Title>
+        <Abstract>Données MNS dérivées des données LiDAR HD (projection native : EPSG:2154)</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>-0.0853193</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>46.3787</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:2154" minx="342517.961583313" miny="6480766.749453573" maxx="462904.848598777" maxy="6596695.148159069" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1785.714285714</MinScaleDenominator>
+        <MaxScaleDenominator>468114285.714285672</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNT</Name>
+        <Title>MNT issu de LiDAR HD</Title>
+        <Abstract>Données MNT dérivées des données LiDAR HD</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>2.80335</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>51.0937</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:4326" minx="45.383857740" miny="-1.570458550" maxx="51.093712320" maxy="2.803349640" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>0.019158636</MinScaleDenominator>
+        <MaxScaleDenominator>2511.160714286</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNT_2154</Name>
+        <Title>MNT issu de LiDAR HD en projection native</Title>
+        <Abstract>Données MNT dérivées des données LiDAR HD (projection native : EPSG:2154)</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.57046</westBoundLongitude>
+          <eastBoundLongitude>-0.0853193</eastBoundLongitude>
+          <southBoundLatitude>45.3839</southBoundLatitude>
+          <northBoundLatitude>46.3787</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:2154" minx="342517.961583313" miny="6480766.749453573" maxx="462904.848598777" maxy="6596695.148159069" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1785.714285714</MinScaleDenominator>
+        <MaxScaleDenominator>468114285.714285672</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>RGEALTI-MNT_PYR-ZIP_FXX_LAMB93_WMS</Name>
