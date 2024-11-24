@@ -578,7 +578,6 @@ wms-r,environnement,PROTECTEDAREAS.MNHN.RN.PERIMETER
 wms-r,environnement,PROTECTEDAREAS.PN
 wms-r,environnement,PROTECTEDAREAS.PNM
 wms-r,environnement,PROTECTEDAREAS.PNR
-wms-r,environnement,PROTECTEDAREAS.PRSF
 wms-r,environnement,PROTECTEDAREAS.RAMSAR
 wms-r,environnement,PROTECTEDAREAS.RB
 wms-r,environnement,PROTECTEDAREAS.RIPN
@@ -597,6 +596,7 @@ wms-r,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES
 wms-v,environnement,DEBROUSSAILLEMENT
 wms-v,environnement,INPE
 wms-v,environnement,MESURES_COMPENSATOIRES
+wms-v,environnement,PROTECTEDAREAS.PRSF
 wmts,environnement,DEBROUSSAILLEMENT
 wmts,environnement,FORETS.PUBLIQUES
 wmts,environnement,GEOGRAPHICALGRIDSYSTEM.DFCI
@@ -720,6 +720,15 @@ wmts,ocsge,OCSGE.USAGE.2017
 wmts,ocsge,OCSGE.USAGE.2019
 wmts,ocsge,OCSGE.VISU.2016
 wmts,ocsge,OCSGE.VISU.2019
+wms-r,ocsge-ng,OCSGE.CONSTRUCTION.2016-2017
+wms-r,ocsge-ng,OCSGE.CONSTRUCTION.2017-2020
+wms-r,ocsge-ng,OCSGE.CONSTRUCTION.2021-2023
+wms-r,ocsge-ng,OCSGE.COUVERTURE.2016-2017
+wms-r,ocsge-ng,OCSGE.COUVERTURE.2017-2020
+wms-r,ocsge-ng,OCSGE.COUVERTURE.2021-2023
+wms-r,ocsge-ng,OCSGE.USAGE.2016-2017
+wms-r,ocsge-ng,OCSGE.USAGE.2017-2020
+wms-r,ocsge-ng,OCSGE.USAGE.2021-2023
 wmts,ocsge-ng,OCSGE.CONSTRUCTION.2016-2017
 wmts,ocsge-ng,OCSGE.CONSTRUCTION.2017-2020
 wmts,ocsge-ng,OCSGE.CONSTRUCTION.2021-2023

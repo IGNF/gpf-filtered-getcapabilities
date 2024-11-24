@@ -31,8 +31,8 @@
     <Fees>none</Fees>
     <AccessConstraints>none</AccessConstraints>
     <LayerLimit>2</LayerLimit>
-    <MaxWidth>5000</MaxWidth>
-    <MaxHeight>5000</MaxHeight>
+    <MaxWidth>9660</MaxWidth>
+    <MaxHeight>9660</MaxHeight>
   </Service>
   <Capability>
     <Request>
@@ -842,37 +842,6 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>PROTECTEDAREAS.PRSF</Name>
-        <Title>Points de Rencontre de Secours en Forêt (PRSF)</Title>
-        <Abstract>Les Points de Rencontre de Secours en Forêt (PRSF) sont supposées connus des services de secours. Ils permettent de faciliter la localisation d'un blessé par les services de secours. </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Office National des Forêts (ONF)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.onf.fr" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/onf.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>POINT RENCONTRE SECOURS FORET</Name>
-          <Title>POINT RENCONTRE SECOURS FORET</Title>
-          <Abstract>Légende Points de Rencontre de Secours en Forêt (PRSF)</Abstract>
-          <LegendURL width="300" height="59">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PRSF-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
