@@ -1,30 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3055">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2736">
   <ows:ServiceIdentification>
-    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
-    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
+    <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>WFS</ows:Keyword>
+      <ows:Keyword>Géoplateforme</ows:Keyword>
+      <ows:Keyword>Public</ows:Keyword>
+    </ows:Keywords>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
-    <ows:AccessConstraints />
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
+      <ows:IndividualName />
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
-          <ows:Voice />
+          <ows:Voice>01 43 98 80 00</ows:Voice>
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City>Saint Mandé</ows:City>
+          <ows:DeliveryPoint>73 avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode>94160</ows:PostalCode>
+          <ows:PostalCode>94165</ows:PostalCode>
           <ows:Country>France</ows:Country>
-          <ows:ElectronicMailAddress>geop_services@geoportail.fr</ows:ElectronicMailAddress>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>

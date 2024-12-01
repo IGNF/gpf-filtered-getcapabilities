@@ -659,37 +659,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>PROTECTEDAREAS.MNHN.CDL.PERIMETER</Name>
-        <Title>Conservatoire du littoral : Les périmètres autorisés</Title>
-        <Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site.</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Conservatoire du littoral</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.conservatoire-du-littoral.fr/" />
-          <LogoURL width="430" height="117">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/conserv_litto.png" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>PROTECTEDAREAS.MNHN.CONSERVATOIRES</Name>
         <Title>Terrains des conservatoires d'espaces naturels</Title>
         <Abstract>Les conservatoires d'espaces naturels organisent la maîtrise foncière de terrains en vue d'assurer la protection des espèces qui y résident. 05-2022</Abstract>

@@ -1,34 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8697" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8466" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
-    <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
+    <Title>Service WMS Vecteur public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Vecteur publiques de la Géoplateforme</Abstract>
     <KeywordList>
       <Keyword>WMS</Keyword>
-      <Keyword>GEOSERVER</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
     </KeywordList>
-    <OnlineResource xlink:type="simple" xlink:href="http://geoserver.org" />
+    <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr" />
     <ContactInformation>
       <ContactPersonPrimary>
-        <ContactPerson>Géoportail SAV</ContactPerson>
+        <ContactPerson />
         <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
         <AddressType />
         <Address>73 avenue de Paris</Address>
-        <City>Saint Mandé</City>
+        <City>SAINT-MANDÉ Cedex</City>
         <StateOrProvince />
-        <PostCode>94160</PostCode>
+        <PostCode>94165</PostCode>
         <Country>France</Country>
       </ContactAddress>
-      <ContactVoiceTelephone />
+      <ContactVoiceTelephone>01 43 98 80 00</ContactVoiceTelephone>
       <ContactFacsimileTelephone />
-      <ContactElectronicMailAddress>geop_services@geoportail.fr</ContactElectronicMailAddress>
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>none</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
   </Service>
   <Capability>
     <Request>
@@ -99,8 +100,10 @@
       <Format>JSON</Format>
     </Exception>
     <Layer>
-      <Title>Service de consultation (WMS) des données raster de la Géoplateforme</Title>
-      <Abstract>Géoplateforme - Service de consultation (WMS) des données vecteur de la Geoplateforme.</Abstract>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
+      <CRS>EPSG:5490</CRS>
+      <CRS>EPSG:4967</CRS>
       <CRS>EPSG:2154</CRS>
       <CRS>EPSG:21781</CRS>
       <CRS>EPSG:23030</CRS>
@@ -225,8 +228,8 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>BAN.DATA.GOUV</Name>
-        <Title>BAN édition 2024-11-18</Title>
-        <Abstract>BAN édition 2024-11-18</Abstract>
+        <Title>BAN édition 2024-11-25</Title>
+        <Abstract>BAN édition 2024-11-25</Abstract>
         <KeywordList>
           <Keyword>adresse</Keyword>
         </KeywordList>

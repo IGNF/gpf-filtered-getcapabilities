@@ -1,30 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4532">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2736">
   <ows:ServiceIdentification>
-    <ows:Title>Service de téléchargement direct (WFS) de la Géoplateforme</ows:Title>
-    <ows:Abstract>Géoplateforme - Service de téléchargement direct des données de la Geoplateforme.</ows:Abstract>
+    <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
+    <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>WFS</ows:Keyword>
+      <ows:Keyword>Géoplateforme</ows:Keyword>
+      <ows:Keyword>Public</ows:Keyword>
+    </ows:Keywords>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees />
-    <ows:AccessConstraints />
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>IGN</ows:ProviderName>
     <ows:ServiceContact>
-      <ows:IndividualName>Géoportail SAV</ows:IndividualName>
+      <ows:IndividualName />
       <ows:PositionName>custodian</ows:PositionName>
       <ows:ContactInfo>
         <ows:Phone>
-          <ows:Voice />
+          <ows:Voice>01 43 98 80 00</ows:Voice>
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City>Saint Mandé</ows:City>
+          <ows:DeliveryPoint>73 avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode>94160</ows:PostalCode>
+          <ows:PostalCode>94165</ows:PostalCode>
           <ows:Country>France</ows:Country>
-          <ows:ElectronicMailAddress>geop_services@geoportail.fr</ows:ElectronicMailAddress>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -405,7 +410,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:arrondissement</Name>
       <Title>PCI Vecteur : Arrondissements</Title>
-      <Abstract>Arrondissements avril 2023</Abstract>
+      <Abstract>Arrondissements</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>arrondissement</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -415,7 +424,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_limite_propriete</Name>
       <Title>PCI Vecteur : Bornes de limite de propriété</Title>
-      <Abstract>Bornes de limite de propriété avril 2023</Abstract>
+      <Abstract>Bornes de limite de propriété</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>borne_limite_propriete</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -425,7 +438,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:batiment</Name>
       <Title>PCI Vecteur : Bâtiments</Title>
-      <Abstract>Bâtiments avril 2023</Abstract>
+      <Abstract>Bâtiments</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>batiment</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -435,7 +452,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:commune</Name>
       <Title>PCI Vecteur : Communes</Title>
-      <Abstract>Communes avril 2023</Abstract>
+      <Abstract>Communes</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>commune</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -445,7 +466,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:feuille</Name>
       <Title>PCI Vecteur : Feuilles</Title>
-      <Abstract>Feuilles avril 2023</Abstract>
+      <Abstract>Feuilles</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>feuille</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -455,7 +480,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_parcelle</Name>
       <Title>PCI Vecteur : Lien bornes parcelles</Title>
-      <Abstract>Lien bornes parcelles avril 2023</Abstract>
+      <Abstract>Lien bornes parcelles</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>borne_parcelle</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -465,7 +494,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:localisant</Name>
       <Title>PCI Vecteur : Localisants</Title>
-      <Abstract>Localisants avril 2023</Abstract>
+      <Abstract>Localisants</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>localisant</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -475,7 +508,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle</Name>
       <Title>PCI Vecteur : Parcelles</Title>
-      <Abstract>Parcelles avril 2023</Abstract>
+      <Abstract>Parcelles</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>parcelle</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
@@ -485,7 +522,11 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:subdivision_fiscale</Name>
       <Title>PCI Vecteur : Subdivisions fiscales</Title>
-      <Abstract>Subdivisions fiscales avril 2023</Abstract>
+      <Abstract>Subdivisions fiscales</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>subdivision_fiscale</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
