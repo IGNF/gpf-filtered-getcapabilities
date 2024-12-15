@@ -626,29 +626,6 @@
         <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>IGNF_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
-        <Title>Estompage haute résolution issu des données MNT IGN</Title>
-        <Abstract>Ombrage calculé à partir du RGEAlti</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.27131</westBoundLongitude>
-          <eastBoundLongitude>9.67502</eastBoundLongitude>
-          <southBoundLatitude>41.2735</southBoundLatitude>
-          <northBoundLatitude>51.1791</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-586799.326571254" miny="5052763.345603028" maxx="1077017.837783191" maxy="6653041.399474845" />
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer>
         <Name>IGNF_LIDAR-HD_MNH</Name>
         <Title>MNH issu de LiDAR HD</Title>
         <Abstract>Données MNH dérivées des données LiDAR HD</Abstract>
