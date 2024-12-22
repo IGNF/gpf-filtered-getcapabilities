@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2471">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="2406">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -360,7 +360,7 @@
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.FORESTINVENTORY.V1:resu_bdv1_shape</Name>
-      <Title>BDForêt V1</Title>
+      <Title>BD Forêt v1 (1987-2004)</Title>
       <Abstract>BDForêt V1</Abstract>
       <ows:Keywords>
         <ows:Keyword>Occupation des terres</ows:Keyword>
@@ -373,7 +373,7 @@
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.FORESTINVENTORY.V2:formation_vegetale</Name>
-      <Title>Carte forestière (v2 : 2006-)</Title>
+      <Title>BD Forêt v2 (2006-2019)</Title>
       <Abstract>Localisation de 32 types de formations végétales sur le territoire. </Abstract>
       <ows:Keywords>
         <ows:Keyword>BDFORET</ows:Keyword>
