@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="5187">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="5402">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -395,6 +395,20 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.14490145 -21.38398375</ows:LowerCorner>
         <ows:UpperCorner>55.83443328 51.08708741</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>PROTECTEDAREAS.MNHN.CDL.PERIMETER:perimetre_autorise</Name>
+      <Title>Conservatoire du littoral : périmètres autorisés</Title>
+      <Abstract>L’intervention foncière du Conservatoire du littoral est plus particulièrement justifiée dans au moins un de ces quatre critères : - Lorsque le terrain fait l’objet de pressions en faveur de l’urbanisation mettant en échec la réglementation existante ou de menaces d’artificialisation irréversible du milieu ; - Lorsque le terrain connaît un processus de dégradation qui appelle une gestion patrimoniale pour restaurer la biodiversité et les paysages ; - Lorsque le terrain est inaccessible et que son ouverture au public est souhaitable ; - Lorsque la maîtrise foncière permet d’assurer la pérennité d’activités économiques traditionnelles garantes d’un paysage caractéristique ou d’équilibres écologiques remarquables. Ces interventions du Conservatoire répondent à quatre préoccupations : - C’est sur la zone côtière immédiate que les pressions sont les plus fortes ; - Il faut veiller à une répartition équilibrée des acquisitions ; - Certains grands sites nationaux ont une importance particulière, en fonction de critères écologiques, esthétiques et paysagers ; - Ces interventions doivent être appréciées au regard des interactions entre les espaces concernés et leur environnement et donc en termes de fonctionnalité au sein d’une zone plus large et plus complexe sur le plan des écosystèmes.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Environnement, zones naturelles, paysages, écosystèmes</ows:Keyword>
+        <ows:Keyword>Mer et littoral</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.193359375 -21.431132812</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.16890625</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
