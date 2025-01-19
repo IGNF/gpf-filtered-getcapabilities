@@ -1066,11 +1066,11 @@ wfs,transports,DGAC-PEB_BDD_FXX_WM:fxx_peb_wm
 wfs,transports,DGAC-PEB-POI_BDD_WLD_WM:aerodrome_avec_peb_wm
 wfs,transports,DGAC-PGS_BDD_FXX_WM:fxx_pgs_wm
 wfs,transports,DGAC-PGS-POI_BDD_FXX_WM:aerodrome_avec_pgs_wm
-wfs,transports,SECUROUT.TE:n_te_franchissement_p
-wfs,transports,SECUROUT.TE:n_te_prescription
-wfs,transports,SECUROUT.TE:n_te_rel_franpres
-wfs,transports,SECUROUT.TE:n_te_rel_tronpres
-wfs,transports,SECUROUT.TE:n_te_troncon_l
+wfs,transports,SECUROUT.TE:franchissement_te
+wfs,transports,SECUROUT.TE:prescription_te
+wfs,transports,SECUROUT.TE:franchissement_te_lien_prescription
+wfs,transports,SECUROUT.TE:troncon_te_lien_prescription
+wfs,transports,SECUROUT.TE:troncon_te
 wfs,transports,TRANSPORTS.AIRNOISE.DOCS:dgac_psa_poi_wm
 wfs,transports,TRANSPORTS.AIRNOISE:psa_l_wm
 wfs,transports,TRANSPORTS.AIRNOISE:psa_p_wm
