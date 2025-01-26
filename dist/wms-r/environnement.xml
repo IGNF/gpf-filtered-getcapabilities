@@ -690,37 +690,6 @@
         <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>PROTECTEDAREAS.MNHN.RN.PERIMETER</Name>
-        <Title>périmètres de protection de réserves naturelles</Title>
-        <Abstract>Un périmètre de protection peut être institué en périphérie d’une réserve naturelle. Il concerne des espaces qui n’ont pas été classés en réserve et qui constituent une zone « tampon » autour de l’espace classé. Ils améliorent les échanges écologiques entre la réserve et sa périphérie. 04-2023</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
-          <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
         <Name>PROTECTEDAREAS.PN</Name>
         <Title>Parcs nationaux</Title>
         <Abstract>Les parcs nationaux sont de vastes espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est à la fois de protéger des processus écologiques à large échelle et de fournir des possibilités de découverte de la nature. Mise à jour 04-2023</Abstract>

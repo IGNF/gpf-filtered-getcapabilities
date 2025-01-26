@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9494" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10028" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -284,6 +284,41 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=MESURES_COMPENSATOIRES" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>PROTECTEDAREAS.MNHN.CDL.PERIMETER</Name>
+        <Title>Conservatoire du littoral : périmètres autorisés</Title>
+        <Abstract>L’intervention foncière du Conservatoire du littoral est plus particulièrement justifiée dans au moins un de ces quatre critères : 
+- Lorsque le terrain fait l’objet de pressions en faveur de l’urbanisation mettant en échec la réglementation existante ou de menaces d’artificialisation irréversible du milieu ; 
+- Lorsque le terrain connaît un processus de dégradation qui appelle une gestion patrimoniale pour restaurer la biodiversité et les paysages ; 
+- Lorsque le terrain est inaccessible et que son ouverture au public est souhaitable ; 
+- Lorsque la maîtrise foncière permet d’assurer la pérennité d’activités économiques traditionnelles garantes d’un paysage caractéristique ou d’équilibres écologiques remarquables. Ces interventions du Conservatoire répondent à quatre préoccupations : 
+- C’est sur la zone côtière immédiate que les pressions sont les plus fortes ; 
+- Il faut veiller à une répartition équilibrée des acquisitions ; 
+- Certains grands sites nationaux ont une importance particulière, en fonction de critères écologiques, esthétiques et paysagers ; 
+- Ces interventions doivent être appréciées au regard des interactions entre les espaces concernés et leur environnement et donc en termes de fonctionnalité au sein d’une zone plus large et plus complexe sur le plan des écosystèmes.</Abstract>
+        <KeywordList>
+          <Keyword>Environnement, zones naturelles, paysages, écosystèmes</Keyword>
+          <Keyword>Mer et littoral</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.193359375</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.431132812</southBoundLatitude>
+          <northBoundLatitude>51.16890625</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.193359375" miny="-21.431132812" maxx="55.8984375" maxy="51.16890625" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.431132812" miny="-63.193359375" maxx="51.16890625" maxy="55.8984375" />
+        <Style>
+          <Name>default-style-PROTECTEDAREAS.MNHN.CDL.PERIMETER</Name>
+          <Title>PROTECTEDAREAS.MNHN.CDL.PERIMETER style</Title>
+          <Abstract>Default style for PROTECTEDAREAS.MNHN.CDL.PERIMETER layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=PROTECTEDAREAS.MNHN.CDL.PERIMETER" />
           </LegendURL>
         </Style>
       </Layer>
