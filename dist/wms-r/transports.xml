@@ -289,255 +289,7 @@
       <Layer queryable="1">
         <Name>SECUROUTE.TE.1TE</Name>
         <Title>Tronçons routiers 1TE</Title>
-        <Abstract>Tronçons routiers 1TE</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>RESEAU ROUTIER 1TE</Name>
-          <Title>RESEAU ROUTIER 1TE</Title>
-          <Abstract>Légende securoute réseau routier 1TE</Abstract>
-          <LegendURL width="300" height="250">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.1TE-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>34942641.501794860</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.2TE48</Name>
-        <Title>Tronçons routiers 2TE48</Title>
-        <Abstract>Tronçons routiers 2TE48</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>RESEAU ROUTIER 2TE48</Name>
-          <Title>RESEAU ROUTIER 2TE48</Title>
-          <Abstract>Légende securoute réseau routier 2TE48</Abstract>
-          <LegendURL width="300" height="203">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.2TE48-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.ALL</Name>
-        <Title>Tous les franchissements</Title>
-        <Abstract>Tous les franchissements </Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>TOUS LES FRANCHISSEMENTS</Name>
-          <Title>TOUS LES FRANCHISSEMENTS</Title>
-          <Abstract>Légende securoute franchissements ALL</Abstract>
-          <LegendURL width="300" height="224">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.ALL.GE-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.OA</Name>
-        <Title>Autres franchissements</Title>
-        <Abstract>Autres franchissements</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>AUTRES FRANCHISSEMENTS</Name>
-          <Title>AUTRES FRANCHISSEMENTS</Title>
-          <Abstract>Légende securoute franchissements OA</Abstract>
-          <LegendURL width="300" height="77">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.OA.GE-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.PN</Name>
-        <Title>Franchissements passage à niveau</Title>
-        <Abstract>Franchissements passage à niveau</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU</Name>
-          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU</Title>
-          <Abstract>Légende securoute franchissements PN</Abstract>
-          <LegendURL width="300" height="78">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PN.GE-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.PND</Name>
-        <Title>Franchissements passage à niveau difficile</Title>
-        <Abstract>Franchissements passage à niveau difficile</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Name>
-          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Title>
-          <Abstract>Légende securoute franchissements PND</Abstract>
-          <LegendURL width="300" height="94">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PND.GE-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.TE120</Name>
-        <Title>Tronçons routiers TE120</Title>
-        <Abstract>Tronçons routiers TE120</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>RESEAU ROUTIER TE120</Name>
-          <Title>RESEAU ROUTIER TE120</Title>
-          <Abstract>Légende securoute réseau routier TE120</Abstract>
-          <LegendURL width="300" height="56">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE120-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.TE72</Name>
-        <Title>Tronçons routiers TE72</Title>
-        <Abstract>Tronçons routiers TE72</Abstract>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
-        <Attribution>
-          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
-          <LogoURL width="958" height="208">
-            <Format>image/jpg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>RESEAU ROUTIER TE72</Name>
-          <Title>RESEAU ROUTIER TE72</Title>
-          <Abstract>Légende securoute réseau routier TE72</Abstract>
-          <LegendURL width="300" height="153">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE72-legend.png" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>SECUROUTE.TE.TE94</Name>
-        <Title>Tronçons routiers TE94</Title>
-        <Abstract>Tronçons routiers TE94</Abstract>
+        <Abstract> Troncons routiers 1TE; Edition : 2024-12-15</Abstract>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-63.3725</westBoundLongitude>
           <eastBoundLongitude>55.9259</eastBoundLongitude>
@@ -563,7 +315,255 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.2TE48</Name>
+        <Title>Tronçons routiers 2TE48</Title>
+        <Abstract> Troncons routiers 2TE48; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER 2TE48</Name>
+          <Title>RESEAU ROUTIER 2TE48</Title>
+          <Abstract>Légende securoute réseau routier 2TE48</Abstract>
+          <LegendURL width="300" height="203">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.2TE48-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.ALL</Name>
+        <Title>Tous les franchissements</Title>
+        <Abstract> Tous les franchissements; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>TOUS LES FRANCHISSEMENTS</Name>
+          <Title>TOUS LES FRANCHISSEMENTS</Title>
+          <Abstract>Légende securoute franchissements ALL</Abstract>
+          <LegendURL width="300" height="224">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.ALL.GE-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.OA</Name>
+        <Title>Autres franchissements</Title>
+        <Abstract> Franchissements ouvrage d'art; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>AUTRES FRANCHISSEMENTS</Name>
+          <Title>AUTRES FRANCHISSEMENTS</Title>
+          <Abstract>Légende securoute franchissements OA</Abstract>
+          <LegendURL width="300" height="77">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.OA.GE-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.PN</Name>
+        <Title>Franchissements passage à niveau</Title>
+        <Abstract> Franchissements passage a niveau; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU</Name>
+          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU</Title>
+          <Abstract>Légende securoute franchissements PN</Abstract>
+          <LegendURL width="300" height="78">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PN.GE-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.PND</Name>
+        <Title>Franchissements passage à niveau difficile</Title>
+        <Abstract> Franchissements passage a niveau difficile; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Name>
+          <Title>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Title>
+          <Abstract>Légende securoute franchissements PND</Abstract>
+          <LegendURL width="300" height="94">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.PND.GE-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE120</Name>
+        <Title>Tronçons routiers TE120</Title>
+        <Abstract> Troncons routiers TE120; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE120</Name>
+          <Title>RESEAU ROUTIER TE120</Title>
+          <Abstract>Légende securoute réseau routier TE120</Abstract>
+          <LegendURL width="300" height="56">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE120-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE72</Name>
+        <Title>Tronçons routiers TE72</Title>
+        <Abstract> Troncons routiers TE72; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE72</Name>
+          <Title>RESEAU ROUTIER TE72</Title>
+          <Abstract>Légende securoute réseau routier TE72</Abstract>
+          <LegendURL width="300" height="153">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE72-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SECUROUTE.TE.TE94</Name>
+        <Title>Tronçons routiers TE94</Title>
+        <Abstract> Troncons routiers TE94; Edition : 2024-12-15</Abstract>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.3725</westBoundLongitude>
+          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.3121</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <Attribution>
+          <Title>Délégation à la sécurité routière - transports exceptionnels</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/transports-exceptionnels" />
+          <LogoURL width="958" height="208">
+            <Format>image/jpg</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dsr-te.jpg" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>RESEAU ROUTIER TE94</Name>
+          <Title>RESEAU ROUTIER TE94</Title>
+          <Abstract>Légende securoute réseau routier TE94</Abstract>
+          <LegendURL width="300" height="103">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE94-legend.png" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.187724357</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>TRANSPORTNETWORKS.ROADS.DIRECTION</Name>
