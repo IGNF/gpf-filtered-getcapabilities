@@ -34,12 +34,16 @@ def getCapabilities(url):
   return capabilities
 
 def createKeyServiceLayersFile(
-  url="https://data.geopf.fr/annexes/ressources/capabilities/services.csv",
+  url=["https://data.geopf.fr/annexes/ressources/capabilities/services.csv","https://data.geopf.fr/annexes/ressources/capabilities/services-gpu.csv"],
   filePath="resources_by_key.csv"):
   with requests.Session() as s:
-    download = s.get(url)
+    download = s.get(url[0])
     decoded_content = download.content.decode("latin1")
     reader = csv.DictReader(decoded_content.splitlines(), delimiter=";")
+  with requests.Session() as s:
+    download_gpu = s.get(url[1])
+    decoded_content_gpu = download_gpu.content.decode("latin1")
+    reader_gpu = csv.DictReader(decoded_content_gpu.splitlines(), delimiter=";")
   with open(filePath, "w", newline='', encoding="utf-8") as csvFile:
     fieldnames = ["service", "key", "layer"]
     writer = csv.DictWriter(csvFile, fieldnames=fieldnames, lineterminator='\n')
@@ -59,6 +63,21 @@ def createKeyServiceLayersFile(
       if row["Thématique"] == "cle personnelle *":
         continue
       if row["Thématique"] == "":
+        continue
+
+      newRow = {
+        "service": service,
+        "key": row["Thématique"],
+        "layer": row["Nom technique"].strip()
+      }
+      writer.writerow(newRow)
+      
+    for row in reader:
+      elif row["Service"] == "WMS Vecteur":
+        service = "wms-v"
+      elif row["Service"] == "WFS":
+        service = "wfs"
+      else:
         continue
 
       newRow = {
