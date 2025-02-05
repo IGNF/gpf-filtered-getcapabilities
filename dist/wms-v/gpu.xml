@@ -1,0 +1,1551 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="13177" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+  <Service>
+    <Name>WMS</Name>
+    <Title>Service WMS Vecteur public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Vecteur publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>IGN</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition>custodian</ContactPosition>
+      <ContactAddress>
+        <AddressType />
+        <Address>73 avenue de Paris</Address>
+        <City>SAINT-MANDÉ Cedex</City>
+        <StateOrProvince />
+        <PostCode>94165</PostCode>
+        <Country>France</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>01 43 98 80 00</ContactVoiceTelephone>
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?SERVICE=WMS&amp;" />
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?SERVICE=WMS&amp;" />
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>application/atom+xml</Format>
+        <Format>application/json;type=utfgrid</Format>
+        <Format>application/pdf</Format>
+        <Format>application/rss+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml;mode=networklink</Format>
+        <Format>application/vnd.google-earth.kmz</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/geotiff8</Format>
+        <Format>image/gif</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/svg+xml</Format>
+        <Format>image/tiff</Format>
+        <Format>image/tiff8</Format>
+        <Format>image/vnd.jpeg-png</Format>
+        <Format>image/vnd.jpeg-png8</Format>
+        <Format>text/html; subtype=openlayers</Format>
+        <Format>text/html; subtype=openlayers2</Format>
+        <Format>text/html; subtype=openlayers3</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>text/xml</Format>
+        <Format>application/vnd.ogc.gml/3.1.1</Format>
+        <Format>text/xml; subtype=gml/3.1.1</Format>
+        <Format>text/html</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+      <Format>INIMAGE</Format>
+      <Format>BLANK</Format>
+      <Format>JSON</Format>
+    </Exception>
+    <Layer>
+      <Title>WMS layers</Title>
+      <Abstract>WMS layers</Abstract>
+      <CRS>EPSG:5490</CRS>
+      <CRS>EPSG:4967</CRS>
+      <CRS>EPSG:2154</CRS>
+      <CRS>EPSG:21781</CRS>
+      <CRS>EPSG:23030</CRS>
+      <CRS>EPSG:23031</CRS>
+      <CRS>EPSG:23032</CRS>
+      <CRS>EPSG:27561</CRS>
+      <CRS>EPSG:27562</CRS>
+      <CRS>EPSG:27563</CRS>
+      <CRS>EPSG:27564</CRS>
+      <CRS>EPSG:27571</CRS>
+      <CRS>EPSG:27572</CRS>
+      <CRS>EPSG:27573</CRS>
+      <CRS>EPSG:27574</CRS>
+      <CRS>EPSG:27581</CRS>
+      <CRS>EPSG:27582</CRS>
+      <CRS>EPSG:27583</CRS>
+      <CRS>EPSG:27584</CRS>
+      <CRS>EPSG:27591</CRS>
+      <CRS>EPSG:27592</CRS>
+      <CRS>EPSG:27593</CRS>
+      <CRS>EPSG:27594</CRS>
+      <CRS>EPSG:2969</CRS>
+      <CRS>EPSG:2970</CRS>
+      <CRS>EPSG:2971</CRS>
+      <CRS>EPSG:2972</CRS>
+      <CRS>EPSG:2973</CRS>
+      <CRS>EPSG:2975</CRS>
+      <CRS>EPSG:2976</CRS>
+      <CRS>EPSG:2977</CRS>
+      <CRS>EPSG:2978</CRS>
+      <CRS>EPSG:2980</CRS>
+      <CRS>EPSG:2981</CRS>
+      <CRS>EPSG:2987</CRS>
+      <CRS>EPSG:2988</CRS>
+      <CRS>EPSG:2989</CRS>
+      <CRS>EPSG:2990</CRS>
+      <CRS>EPSG:3034</CRS>
+      <CRS>EPSG:3035</CRS>
+      <CRS>EPSG:3042</CRS>
+      <CRS>EPSG:3043</CRS>
+      <CRS>EPSG:3044</CRS>
+      <CRS>EPSG:3170</CRS>
+      <CRS>EPSG:3171</CRS>
+      <CRS>EPSG:3172</CRS>
+      <CRS>EPSG:32620</CRS>
+      <CRS>EPSG:32621</CRS>
+      <CRS>EPSG:32622</CRS>
+      <CRS>EPSG:32630</CRS>
+      <CRS>EPSG:32631</CRS>
+      <CRS>EPSG:32632</CRS>
+      <CRS>EPSG:32701</CRS>
+      <CRS>EPSG:32705</CRS>
+      <CRS>EPSG:32706</CRS>
+      <CRS>EPSG:32707</CRS>
+      <CRS>EPSG:32738</CRS>
+      <CRS>EPSG:32739</CRS>
+      <CRS>EPSG:32740</CRS>
+      <CRS>EPSG:3296</CRS>
+      <CRS>EPSG:3297</CRS>
+      <CRS>EPSG:3298</CRS>
+      <CRS>EPSG:3302</CRS>
+      <CRS>EPSG:3303</CRS>
+      <CRS>EPSG:3304</CRS>
+      <CRS>EPSG:3305</CRS>
+      <CRS>EPSG:3306</CRS>
+      <CRS>EPSG:3727</CRS>
+      <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:3942</CRS>
+      <CRS>EPSG:3943</CRS>
+      <CRS>EPSG:3944</CRS>
+      <CRS>EPSG:3945</CRS>
+      <CRS>EPSG:3946</CRS>
+      <CRS>EPSG:3947</CRS>
+      <CRS>EPSG:3948</CRS>
+      <CRS>EPSG:3949</CRS>
+      <CRS>EPSG:3950</CRS>
+      <CRS>EPSG:4171</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4275</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:4463</CRS>
+      <CRS>EPSG:4467</CRS>
+      <CRS>EPSG:4470</CRS>
+      <CRS>EPSG:4471</CRS>
+      <CRS>EPSG:4558</CRS>
+      <CRS>EPSG:4559</CRS>
+      <CRS>EPSG:4621</CRS>
+      <CRS>EPSG:4622</CRS>
+      <CRS>EPSG:4623</CRS>
+      <CRS>EPSG:4624</CRS>
+      <CRS>EPSG:4625</CRS>
+      <CRS>EPSG:4626</CRS>
+      <CRS>EPSG:4627</CRS>
+      <CRS>EPSG:4628</CRS>
+      <CRS>EPSG:4629</CRS>
+      <CRS>EPSG:4630</CRS>
+      <CRS>EPSG:4632</CRS>
+      <CRS>EPSG:4633</CRS>
+      <CRS>EPSG:4636</CRS>
+      <CRS>EPSG:4637</CRS>
+      <CRS>EPSG:4638</CRS>
+      <CRS>EPSG:4639</CRS>
+      <CRS>EPSG:4641</CRS>
+      <CRS>EPSG:4642</CRS>
+      <CRS>EPSG:4643</CRS>
+      <CRS>EPSG:4644</CRS>
+      <CRS>EPSG:4687</CRS>
+      <CRS>EPSG:4688</CRS>
+      <CRS>EPSG:4689</CRS>
+      <CRS>EPSG:4690</CRS>
+      <CRS>EPSG:4691</CRS>
+      <CRS>EPSG:4692</CRS>
+      <CRS>EPSG:4749</CRS>
+      <CRS>EPSG:4807</CRS>
+      <CRS>CRS:84</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180.0</westBoundLongitude>
+        <eastBoundLongitude>180.0</eastBoundLongitude>
+        <southBoundLatitude>-89.9</southBoundLatitude>
+        <northBoundLatitude>89.9</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+      <Layer queryable="1">
+        <Name>agricole</Name>
+        <Title>Zones agricoles protégées</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A9 et A10</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-agricole</Name>
+          <Title>agricole style</Title>
+          <Abstract>Default style for agricole layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=agricole" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>assainissement</Name>
+        <Title>Eau et assainissement</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5 et A6</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-assainissement</Name>
+          <Title>assainissement style</Title>
+          <Abstract>Default style for assainissement layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=assainissement" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>associations</Name>
+        <Title>Associations syndicales</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5 et A6</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-associations</Name>
+          <Title>associations style</Title>
+          <Abstract>Default style for associations layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=associations" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>canalisation</Name>
+        <Title>Canalisations</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6, I1, I3 et I5</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-canalisation</Name>
+          <Title>canalisation style</Title>
+          <Abstract>Default style for canalisation layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=canalisation" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>carriere</Name>
+        <Title>Mines et carrières</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories I6 et I7</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-carriere</Name>
+          <Title>carriere style</Title>
+          <Abstract>Default style for carriere layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=carriere" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>chaleur_froid</Name>
+        <Title>Réseaux de chaleur et froid</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie I9</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-chaleur_froid</Name>
+          <Title>chaleur_froid style</Title>
+          <Abstract>Default style for chaleur_froid layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=chaleur_froid" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>cimetieres</Name>
+        <Title>Cimetières</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie INT1</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-cimetieres</Name>
+          <Title>cimetieres style</Title>
+          <Abstract>Default style for cimetieres layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cimetieres" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>circulation_aerienne</Name>
+        <Title>Circulation aérienne</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories T4, T5, T6 et T7</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-circulation_aerienne</Name>
+          <Title>circulation_aerienne style</Title>
+          <Abstract>Default style for circulation_aerienne layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=circulation_aerienne" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>communication</Name>
+        <Title>Communication</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6, T1, T2, T3, T4, T5, T6, T7, T9, EL3, EL4, EL5, EL6, EL7, EL8 et EL11</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-communication</Name>
+          <Title>communication style</Title>
+          <Abstract>Default style for communication layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=communication" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>conchylicoles</Name>
+        <Title>Etablissements conchylicoles</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie AS2</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-conchylicoles</Name>
+          <Title>conchylicoles style</Title>
+          <Abstract>Default style for conchylicoles layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=conchylicoles" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>conservation_du_patrimoine</Name>
+        <Title>Conservation du patrimoine</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories  A1, A4, A7, A8, A9, A10, AC1, AC2, AC3, AC4, AC4bis, AS1, EL9, EL10 et JS1</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-conservation_du_patrimoine</Name>
+          <Title>conservation_du_patrimoine style</Title>
+          <Abstract>Default style for conservation_du_patrimoine layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=conservation_du_patrimoine" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>cours_d_eau</Name>
+        <Title>Cours d'eau</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie EL3</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-cours_d_eau</Name>
+          <Title>cours_d_eau style</Title>
+          <Abstract>Default style for cours_d_eau layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cours_d_eau" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>defense</Name>
+        <Title>Défense nationale</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-defense</Name>
+          <Title>defense style</Title>
+          <Abstract>Default style for defense layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=defense" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>defense_nationale</Name>
+        <Title>Défense nationale</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-defense_nationale</Name>
+          <Title>defense_nationale style</Title>
+          <Abstract>Default style for defense_nationale layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=defense_nationale" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>document</Name>
+        <Title>Emprise des documents d'urbanisme (petite échelle)</Title>
+        <Abstract>Emprise des Documents d'urbanisme (PLUi ,PLU, POS, CC) pour une visualisation à petite échelle de l’emprise et du type de document</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-document</Name>
+          <Title>document style</Title>
+          <Abstract>Default style for document layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=document" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>du</Name>
+        <Title>Documents d'urbanisme</Title>
+        <Abstract>PLU, POS, CC</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-du</Name>
+          <Title>du style</Title>
+          <Abstract>Default style for du layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=du" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>eaux</Name>
+        <Title>Eaux</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie AS1 et A4</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-eaux</Name>
+          <Title>eaux style</Title>
+          <Abstract>Default style for eaux layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=eaux" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>electricite</Name>
+        <Title>Electricité</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie I4</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-electricite</Name>
+          <Title>electricite style</Title>
+          <Abstract>Default style for electricite layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=electricite" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>energie</Name>
+        <Title>Energie</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories I2, I3, I4 et I9</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-energie</Name>
+          <Title>energie style</Title>
+          <Abstract>Default style for energie layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=energie" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>energie_hydraulique</Name>
+        <Title>Energie hydraulique</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie I2</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-energie_hydraulique</Name>
+          <Title>energie_hydraulique style</Title>
+          <Abstract>Default style for energie_hydraulique layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=energie_hydraulique" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>forets</Name>
+        <Title>Forêts</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A1, A7 et A8</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-forets</Name>
+          <Title>forets style</Title>
+          <Abstract>Default style for forets layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=forets" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>gaz</Name>
+        <Title>Gaz</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie I3</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-gaz</Name>
+          <Title>gaz style</Title>
+          <Abstract>Default style for gaz layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=gaz" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>gaz_hydrocarbures_produits_chimiques</Name>
+        <Title>Transport de gaz, hydrocarbures et produits chimiques</Title>
+        <Abstract>Servitude d’Utilité Publique de catégories I1, I3 et I5</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-gaz_hydrocarbures_produits_chimiques</Name>
+          <Title>gaz_hydrocarbures_produits_chimiques style</Title>
+          <Abstract>Default style for gaz_hydrocarbures_produits_chimiques layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=gaz_hydrocarbures_produits_chimiques" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>info</Name>
+        <Title>Périmètres d'information</Title>
+        <Abstract>Périmètres d'information des documents d'urbanisme</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-info</Name>
+          <Title>info style</Title>
+          <Abstract>Default style for info layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=info" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>info_psmv</Name>
+        <Title>Périmètres d'information des PSMV</Title>
+        <Abstract>Périmètres d'information des PSMV</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-info_psmv</Name>
+          <Title>info_psmv style</Title>
+          <Abstract>Default style for info_psmv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=info_psmv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>littoral</Name>
+        <Title>Littoral</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie EL9</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-littoral</Name>
+          <Title>littoral style</Title>
+          <Abstract>Default style for littoral layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=littoral" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>mines_carrieres</Name>
+        <Title>Mines et carrières</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories I6,I7 et I10</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-mines_carrieres</Name>
+          <Title>mines_carrieres style</Title>
+          <Abstract>Default style for mines_carrieres layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=mines_carrieres" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>monument_historique</Name>
+        <Title>Monuments historiques</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie AC1</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-monument_historique</Name>
+          <Title>monument_historique style</Title>
+          <Abstract>Default style for monument_historique layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=monument_historique" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>monument_naturel_site</Name>
+        <Title>Monuments naturels et sites</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie AC2</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-monument_naturel_site</Name>
+          <Title>monument_naturel_site style</Title>
+          <Abstract>Default style for monument_naturel_site layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=monument_naturel_site" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>municipality</Name>
+        <Title>Communes au RNU</Title>
+        <Abstract>Communes couvertes par le Règlement National d'Urbanisme (RNU)</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-municipality</Name>
+          <Title>municipality style</Title>
+          <Abstract>Default style for municipality layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=municipality" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>navigation_maritime</Name>
+        <Title>Navigation maritime</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie EL8</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-navigation_maritime</Name>
+          <Title>navigation_maritime style</Title>
+          <Abstract>Default style for navigation_maritime layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=navigation_maritime" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ouvrage_defense</Name>
+        <Title>Ouvrages de défense</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-ouvrage_defense</Name>
+          <Title>ouvrage_defense style</Title>
+          <Abstract>Default style for ouvrage_defense layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ouvrage_defense" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ouvrage_plan_prevention_risque</Name>
+        <Title>Ouvrages et plans de prévention des risques</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories EL2BIS, PM1, PM1BIS, PM2,PM3, PM4, PM5, PM6 et PM7</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-ouvrage_plan_prevention_risque</Name>
+          <Title>ouvrage_plan_prevention_risque style</Title>
+          <Abstract>Default style for ouvrage_plan_prevention_risque layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ouvrage_plan_prevention_risque" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>patrimoine_architectural</Name>
+        <Title>Patrimoine architectural et urbain</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AC4 et AC4bis</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-patrimoine_architectural</Name>
+          <Title>patrimoine_architectural style</Title>
+          <Abstract>Default style for patrimoine_architectural layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=patrimoine_architectural" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>patrimoine_culturel</Name>
+        <Title>Patrimoine culturel</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AC1, AC2, AC4 et AC4bis</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-patrimoine_culturel</Name>
+          <Title>patrimoine_culturel style</Title>
+          <Abstract>Default style for patrimoine_culturel layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=patrimoine_culturel" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>patrimoine_naturel</Name>
+        <Title>Patrimoine naturel</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AS1, A1, A4, A7, A8, A9, A10, AC3, EL9 et EL10</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-patrimoine_naturel</Name>
+          <Title>patrimoine_naturel style</Title>
+          <Abstract>Default style for patrimoine_naturel layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=patrimoine_naturel" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>patrimoine_sportif</Name>
+        <Title>Patrimoine sportif</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie JS1</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-patrimoine_sportif</Name>
+          <Title>patrimoine_sportif style</Title>
+          <Abstract>Default style for patrimoine_sportif layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=patrimoine_sportif" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>prescription</Name>
+        <Title>Prescriptions</Title>
+        <Abstract>Prescriptions des documents d'urbanisme</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-prescription</Name>
+          <Title>prescription style</Title>
+          <Abstract>Default style for prescription layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=prescription" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>prescription_psmv</Name>
+        <Title>Prescriptions des PSMV</Title>
+        <Abstract>Prescriptions des PSMV</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-prescription_psmv</Name>
+          <Title>prescription_psmv style</Title>
+          <Abstract>Default style for prescription_psmv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=prescription_psmv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>psmv</Name>
+        <Title>Plan de sauvegarde et de mise en valeur</Title>
+        <Abstract>Plan de sauvegarde et de mise en valeur</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-psmv</Name>
+          <Title>psmv style</Title>
+          <Abstract>Default style for psmv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=psmv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>remontee_piste_ski</Name>
+        <Title>Remontées mécaniques et pistes de ski</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories EL4 et T2</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-remontee_piste_ski</Name>
+          <Title>remontee_piste_ski style</Title>
+          <Abstract>Default style for remontee_piste_ski layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=remontee_piste_ski" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>reseau_routier</Name>
+        <Title>Réseaux routiers</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories EL5, EL6, EL7 et EL11</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-reseau_routier</Name>
+          <Title>reseau_routier style</Title>
+          <Abstract>Default style for reseau_routier layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=reseau_routier" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>reserve_parc</Name>
+        <Title>Réserves naturelles et parcs</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories AC3 et EL10</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-reserve_parc</Name>
+          <Title>reserve_parc style</Title>
+          <Abstract>Default style for reserve_parc layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=reserve_parc" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ressources_equipement</Name>
+        <Title>Ressources et équipements</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6,I1, I2, I3, I4, I5, I6, I7, I9, I10, T1, T2, T3, T4, T5, T6, T7, T8, T9, EL3, EL4, EL5, EL6, EL7, EL8, EL11, PT1, PT2 et PT3</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-ressources_equipement</Name>
+          <Title>ressources_equipement style</Title>
+          <Abstract>Default style for ressources_equipement layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ressources_equipement" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>salubrite_publique</Name>
+        <Title>Salubrité publique</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories INT1 et AS2</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-salubrite_publique</Name>
+          <Title>salubrite_publique style</Title>
+          <Abstract>Default style for salubrite_publique layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=salubrite_publique" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>salubrite_securite_publique</Name>
+        <Title>Salubrité et sécurité publique</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories EL2BIS,INT1, AS2, PM1, PM1BIS, PM2, PM3, PM4, PM5, PM6 et PM7</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-salubrite_securite_publique</Name>
+          <Title>salubrite_securite_publique style</Title>
+          <Abstract>Default style for salubrite_securite_publique layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=salubrite_securite_publique" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>scot</Name>
+        <Title>Schéma de Cohérence Territoriale</Title>
+        <Abstract>Schéma de Cohérence Territoriale</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-scot</Name>
+          <Title>scot style</Title>
+          <Abstract>Default style for scot layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=scot" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>securite_publique</Name>
+        <Title>Sécurité publique</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories EL2bis, PM1, PM1bis, PM2, PM3, PM4, PM5, PM6 et PM7</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-securite_publique</Name>
+          <Title>securite_publique style</Title>
+          <Abstract>Default style for securite_publique layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=securite_publique" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>sport</Name>
+        <Title>Installations sportives</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie JS1</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-sport</Name>
+          <Title>sport style</Title>
+          <Abstract>Default style for sport layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=sport" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>sup</Name>
+        <Title>Servitude d'Utilité Publique</Title>
+        <Abstract>Servitude d'Utilité Publique (toutes catégories)</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-sup</Name>
+          <Title>sup style</Title>
+          <Abstract>Default style for sup layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=sup" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>telecommunication</Name>
+        <Title>Communications électroniques</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories T8, PT1, PT2 et PT3</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-telecommunication</Name>
+          <Title>telecommunication style</Title>
+          <Abstract>Default style for telecommunication layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=telecommunication" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>transport_cable</Name>
+        <Title>Transport par câble en milieu urbain</Title>
+        <Abstract>Servitude d'Utilité Publique de catégorie T9</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-transport_cable</Name>
+          <Title>transport_cable style</Title>
+          <Abstract>Default style for transport_cable layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=transport_cable" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>transport_ferroviaire</Name>
+        <Title>Transports ferroviaires ou guidés</Title>
+        <Abstract>Servitude d'Utilité Publique de catégories T1 et T3</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-transport_ferroviaire</Name>
+          <Title>transport_ferroviaire style</Title>
+          <Abstract>Default style for transport_ferroviaire layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=transport_ferroviaire" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>zone_secteur</Name>
+        <Title>Zonages</Title>
+        <Abstract>Zonages des documents d'urbanisme</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-zone_secteur</Name>
+          <Title>zone_secteur style</Title>
+          <Abstract>Default style for zone_secteur layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=zone_secteur" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>zone_secteur_psmv</Name>
+        <Title>Zonages des PSMV</Title>
+        <Abstract>Zonages des PSMV</Abstract>
+        <KeywordList />
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-89.9</southBoundLatitude>
+          <northBoundLatitude>89.9</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
+        <Style>
+          <Name>default-style-zone_secteur_psmv</Name>
+          <Title>zone_secteur_psmv style</Title>
+          <Abstract>Default style for zone_secteur_psmv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=zone_secteur_psmv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>
