@@ -72,7 +72,7 @@ def createKeyServiceLayersFile(
       }
       writer.writerow(newRow)
       
-    for row in reader:
+    for row in reader_gpu:
       if row["Service"] == "WMS Vecteur":
         service = "wms-v"
       elif row["Service"] == "WFS":
