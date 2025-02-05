@@ -73,7 +73,7 @@ def createKeyServiceLayersFile(
       writer.writerow(newRow)
       
     for row in reader:
-      elif row["Service"] == "WMS Vecteur":
+      if row["Service"] == "WMS Vecteur":
         service = "wms-v"
       elif row["Service"] == "WFS":
         service = "wfs"
