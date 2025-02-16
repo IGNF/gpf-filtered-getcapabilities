@@ -2,20 +2,15 @@
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
-    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>WMS</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>TMS</ows:Keyword>
-    </ows:Keywords>
+    <ows:Abstract>Ce service diffuse les données WMTS-TMS publiques de la Géoplateforme</ows:Abstract>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ROK4 Team</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ProviderSite xlink:href="https://cartes.gouv.fr/" />
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName />
@@ -25,12 +20,12 @@
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City />
+          <ows:DeliveryPoint>73 Avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode />
-          <ows:Country />
-          <ows:ElectronicMailAddress />
+          <ows:PostalCode>94165</ows:PostalCode>
+          <ows:Country>France</ows:Country>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -39,7 +34,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -52,7 +47,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -65,7 +60,7 @@
     <ows:Operation name="GetFeatureInfo">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -80,14 +75,17 @@
     <Layer>
       <ows:Title>Photographies aériennes historiques 1950-1965</ows:Title>
       <ows:Abstract>Couverture en photographies aériennes de la France des années 50, telle qu'elle se présentait avant les grands aménagements des années 60. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Orthophotographies</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-67.7214 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8464 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>BDOrthoHistorique</ows:Title>
-        <ows:Abstract>noir rendu transparent</ows:Abstract>
+      <Style>
+        <Title>BDOrthoHistorique</Title>
+        <Abstract>noir rendu transparent</Abstract>
         <ows:Keywords>
           <ows:Keyword>noir</ows:Keyword>
           <ows:Keyword>transparent</ows:Keyword>
@@ -96,8 +94,8 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="999999" />
       </Style>
       <Style>
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -247,14 +245,17 @@
     <Layer>
       <ows:Title>Photographies aériennes historiques 1965-1980</ows:Title>
       <ows:Abstract>Couverture en photographies aériennes de la France des années 1965 à 1980. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDORTHO</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-6 40</ows:LowerCorner>
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.1965-1980</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>BDOrthoHistorique</ows:Title>
-        <ows:Abstract>noir rendu transparent</ows:Abstract>
+      <Style>
+        <Title>BDOrthoHistorique</Title>
+        <Abstract>noir rendu transparent</Abstract>
         <ows:Keywords>
           <ows:Keyword>noir</ows:Keyword>
           <ows:Keyword>transparent</ows:Keyword>
@@ -384,14 +385,18 @@
     <Layer>
       <ows:Title>Photographies aériennes historiques 1980-1995</ows:Title>
       <ows:Abstract>Couverture en photographies aériennes de la France des années 11980 à 1995. Cette couverture a été réalisée à partir des photographies aériennes historiques numérisées par l'IGN. Elle est disponible sur la France métropolitaine, les départements et régions d'Outre-Mer (la Guyane n'est que partiellement couverte) et les collectivités d'Outre-Mer sauf la Polynésie française. Les photographies sont orthorectifiées, c'est-à-dire corrigées des déformations dues à la prise de vue et au relief du terrain, et assemblées pour fournir une visualisation continue superposable avec le Référentiel à Grande Echelle (RGE®) ou les cartes.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BDORTHO</ows:Keyword>
+        <ows:Keyword>Historique</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5 40</ows:LowerCorner>
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.1980-1995</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>BDOrthoHistorique</ows:Title>
-        <ows:Abstract>noir rendu transparent</ows:Abstract>
+      <Style>
+        <Title>BDOrthoHistorique</Title>
+        <Abstract>noir rendu transparent</Abstract>
         <ows:Keywords>
           <ows:Keyword>noir</ows:Keyword>
           <ows:Keyword>transparent</ows:Keyword>
@@ -521,14 +526,18 @@
     <Layer>
       <ows:Title>ortho-express IRC 2021</ows:Title>
       <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>ortho-express</ows:Keyword>
+        <ows:Keyword>ortho</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2021</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -685,14 +694,17 @@
     <Layer>
       <ows:Title>BDORTHO 2013 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2013 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-3.74871 42.5538</ows:LowerCorner>
         <ows:UpperCorner>7.17132 50.3767</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2013</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -849,14 +861,17 @@
     <Layer>
       <ows:Title>BDORTHO 2014 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2014 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-2.37153 43.1508</ows:LowerCorner>
         <ows:UpperCorner>7.22637 49.6341</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1013,14 +1028,17 @@
     <Layer>
       <ows:Title>BDORTHO 2015 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2015 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.20863 42.3163</ows:LowerCorner>
         <ows:UpperCorner>8.25674 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2015</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1177,14 +1195,17 @@
     <Layer>
       <ows:Title>BDORTHO 2016 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2016 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-3.74871 41.3215</ows:LowerCorner>
         <ows:UpperCorner>9.66314 50.1839</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1341,14 +1362,17 @@
     <Layer>
       <ows:Title>BDORTHO 2017 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2017 en infrarouge fausses couleurs</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.185295 42.9454</ows:LowerCorner>
         <ows:UpperCorner>7.74363 46.4137</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1505,14 +1529,17 @@
     <Layer>
       <ows:Title>BDORTHO 2018 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2018 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1702 2.10403</ows:LowerCorner>
         <ows:UpperCorner>8.25765 51.1124</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2018</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1669,14 +1696,17 @@
     <Layer>
       <ows:Title>BDORTHO 2019 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2019 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-3.74871 41.3125</ows:LowerCorner>
         <ows:UpperCorner>9.66314 50.1928</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1833,14 +1863,17 @@
     <Layer>
       <ows:Title>BDORTHO 2020 en infrarouge fausses couleurs</ows:Title>
       <ows:Abstract>BDORTHO 2020 en infrarouge fausses couleurs.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>IRC</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-2.68142 42.9454</ows:LowerCorner>
         <ows:UpperCorner>7.74363 49.4512</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2020</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1997,14 +2030,17 @@
     <Layer>
       <ows:Title>ORTHO-ASP_PAC2020</ows:Title>
       <ows:Abstract>ortho ASP PAC 2020</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>ortho PAC 2020</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2020</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2154,14 +2190,18 @@
     <Layer>
       <ows:Title>ORTHO-ASP_PAC2021</ows:Title>
       <ows:Abstract>orthos ASP PAC 2021</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>PAC 2021</ows:Keyword>
+        <ows:Keyword>bdortho</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2021</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2311,14 +2351,18 @@
     <Layer>
       <ows:Title>ORTHO-ASP_PAC2022</ows:Title>
       <ows:Abstract>orthos ASP PAC 2022</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>PAC 2022</ows:Keyword>
+        <ows:Keyword>bdortho</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2022</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2468,14 +2512,18 @@
     <Layer>
       <ows:Title>ortho-express 2021</ows:Title>
       <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>ortho-express</ows:Keyword>
+        <ows:Keyword>ortho</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2021</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2639,14 +2687,17 @@
     <Layer>
       <ows:Title>bdortho-asp ortho-socle 2018</ows:Title>
       <ows:Abstract>bdortho-asp et ortho-socle 2018</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>ortho</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.SOCLE-ASP.2018</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2803,14 +2854,17 @@
     <Layer>
       <ows:Title>Orthophotographie d’urgence Alex</ows:Title>
       <ows:Abstract>Orthophotographie réalisée suite au passage de la tempête Alex dans les Alpes Maritimes</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Orthophotographie</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>7.07917 43.8095</ows:LowerCorner>
         <ows:UpperCorner>7.64199 44.1903</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2932,14 +2986,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2000</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2000.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 14.372</ows:LowerCorner>
         <ows:UpperCorner>7.13497 49.0193</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2000</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3047,14 +3104,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2000-2005</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires pour les années 2000 à 2005</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2000-2005</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3162,14 +3222,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2001</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2001.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 4.47153</ows:LowerCorner>
         <ows:UpperCorner>7.23234 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2001</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3277,14 +3340,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2002</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2002</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 4.49867</ows:LowerCorner>
         <ows:UpperCorner>9.68861 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2002</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3392,14 +3458,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2003</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2003.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.2472 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 50.3765</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2003</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3507,14 +3576,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2004</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2004.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2004</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3622,14 +3694,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2005</ows:Title>
       <ows:Abstract> Prises de vues aériennes des territoires disponibles à la fin de l'année 2005.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2005</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3737,14 +3812,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2006</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2006.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2006</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3852,14 +3930,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2006-2010</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin des années 2006 à 2010</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2006-2010</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3868,9 +3949,8 @@
       </Style>
       <Format>image/jpeg</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3972,14 +4052,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2007</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2007.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2007</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4087,14 +4170,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2008</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2008.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2008</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4202,14 +4288,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2009</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2009.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2009</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4317,14 +4406,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2010</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2010.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2010</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4432,14 +4524,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2011</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2011.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2011</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4547,14 +4642,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2011-2015</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin des années 2011 à 2015</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2011-2015</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4662,14 +4760,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2012</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2012.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données Historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2012</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4777,14 +4878,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2013</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2013.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2013</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -4934,14 +5038,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2014</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2014.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5091,14 +5198,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2015</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2015.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2015</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5248,14 +5358,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2016</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2016 (travail en cours).</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-178.187 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8561 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5405,14 +5518,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2017</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2017.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1607 -21.4013</ows:LowerCorner>
         <ows:UpperCorner>55.8464 50.3856</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5562,14 +5678,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2018</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2018.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Donnees historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-180 -89</ows:LowerCorner>
         <ows:UpperCorner>180 89</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2018</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5719,14 +5838,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2019</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-3.74871 41.3125</ows:LowerCorner>
         <ows:UpperCorner>9.66314 50.1928</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -5834,14 +5956,17 @@
     <Layer>
       <ows:Title>Photographies aériennes 2020</ows:Title>
       <ows:Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2020</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Données historiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-2.68142 42.9454</ows:LowerCorner>
         <ows:UpperCorner>7.74363 49.4512</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2020</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -6471,6 +6596,145 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>12600</MatrixWidth>
         <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_10cm_6_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>11702857.1428571445321722</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>13</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>5851428.5714285722660861</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>26</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2925714.2857142861330431</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7</MatrixWidth>
+        <MatrixHeight>52</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1462857.1428571430665215</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>13</MatrixWidth>
+        <MatrixHeight>103</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25</MatrixWidth>
+        <MatrixHeight>206</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>50</MatrixWidth>
+        <MatrixHeight>411</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>99</MatrixWidth>
+        <MatrixHeight>822</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>197</MatrixWidth>
+        <MatrixHeight>1643</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

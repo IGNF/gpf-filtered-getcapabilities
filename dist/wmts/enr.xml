@@ -2,20 +2,15 @@
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
-    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>WMS</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>TMS</ows:Keyword>
-    </ows:Keywords>
+    <ows:Abstract>Ce service diffuse les données WMTS-TMS publiques de la Géoplateforme</ows:Abstract>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ROK4 Team</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ProviderSite xlink:href="https://cartes.gouv.fr/" />
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName />
@@ -25,12 +20,12 @@
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City />
+          <ows:DeliveryPoint>73 Avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode />
-          <ows:Country />
-          <ows:ElectronicMailAddress />
+          <ows:PostalCode>94165</ows:PostalCode>
+          <ows:Country>France</ows:Country>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -39,7 +34,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -52,7 +47,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -65,7 +60,7 @@
     <ows:Operation name="GetFeatureInfo">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -80,14 +75,18 @@
     <Layer>
       <ows:Title>Cartographie biométhane d’accès aux réseaux</ows:Title>
       <ows:Abstract>Cette cartographie indique un premier ordre degrandeur du critère technico-économique exprimé en euro/Normalm3/h (€/Nm3/h): plus la valeur de ce critère est basse, meilleures sont les possibilités pour les opérateurs de réseau de réaliser des renforcements pour accueillir du biométhane sur la zone. </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>biomethane</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ACCES.BIOMETHANE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ACCES.BIOMETHANE</ows:Title>
-        <ows:Abstract>Légende ENR des accès biométhane</ows:Abstract>
+      <Style>
+        <Title>ACCES.BIOMETHANE</Title>
+        <Abstract>Légende ENR des accès biométhane</Abstract>
         <ows:Keywords>
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
@@ -96,9 +95,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -186,14 +184,17 @@
     <Layer>
       <ows:Title>Estimation de besoins de chaleur - secteur industriel</ows:Title>
       <ows:Abstract>Estimation de besoins de chaleur - secteur industriel</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BESOIN.CHALEUR.INDUSTRIEL</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>BESOIN.CHALEUR.INDUSTRIEL</ows:Title>
-        <ows:Abstract>Légende ENR des besoins en chaleur industriels</ows:Abstract>
+      <Style>
+        <Title>BESOIN.CHALEUR.INDUSTRIEL</Title>
+        <Abstract>Légende ENR des besoins en chaleur industriels</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -202,9 +203,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -306,14 +306,18 @@
     <Layer>
       <ows:Title>Cadastres solaires locaux</ows:Title>
       <ows:Abstract>Cadastres solaires locaux</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Solaire</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRES.SOLAIRES.LOCAUX</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>CADASTRES.SOLAIRES.LOCAUX</ows:Title>
-        <ows:Abstract>Légende ENR des cadastres solaires locaux</ows:Abstract>
+      <Style>
+        <Title>CADASTRES.SOLAIRES.LOCAUX</Title>
+        <Abstract>Légende ENR des cadastres solaires locaux</Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -322,9 +326,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -412,14 +415,17 @@
     <Layer>
       <ows:Title>Capacité d'acceuil pour le raccordement aux réseaux de transport et de distribution des installations de production d'électricité - S3RENR (MW)</ows:Title>
       <ows:Abstract>Capacités d'acceuil en mégawatts disponibles pour le raccordement d'installations de production d'électricité aux réseaux de transport et de distribution en France métropolitaine (hors Corse) réservées au titre du S3RENR. Capacités restantes à affecter (capacités sans travaux et capacités disponibles sur le réseau public de transport).</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>electricite</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Title>
-        <ows:Abstract>Légende ENR des capacités d'acceuil électriques</ows:Abstract>
+      <Style>
+        <Title>CAPACITE.ACCUEIL.ELECTRIQUE</Title>
+        <Abstract>Légende ENR des capacités d'acceuil électriques</Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -428,9 +434,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -518,14 +523,17 @@
     <Layer>
       <ows:Title>Consommation annuelle d’électricité par commune</ows:Title>
       <ows:Abstract>Consommation annuelle d’électricité par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>electricite</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CONSO.ELEC.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>CONSO.ELEC.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR de la consommation annuelle d'électricité par commune</ows:Abstract>
+      <Style>
+        <Title>CONSO.ELEC.COMMUNE</Title>
+        <Abstract>Légende ENR de la consommation annuelle d'électricité par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -534,9 +542,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -624,14 +631,17 @@
     <Layer>
       <ows:Title>Consommation annuelle de gaz par commune</ows:Title>
       <ows:Abstract>Consommation annuelle de gaz par commune </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>gaz</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CONSO.GAZ.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>CONSO.GAZ.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR de la consommation annuelle de gaz par commune</ows:Abstract>
+      <Style>
+        <Title>CONSO.GAZ.COMMUNE</Title>
+        <Abstract>Légende ENR de la consommation annuelle de gaz par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>GAZ</ows:Keyword>
         </ows:Keywords>
@@ -640,9 +650,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -730,14 +739,17 @@
     <Layer>
       <ows:Title>Délaissés autoroutiers</ows:Title>
       <ows:Abstract>Délaissés autoroutiers</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>autoroute</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DELAISSES.AUTOROUTIERS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>DELAISSES.AUTOROUTIERS</ows:Title>
-        <ows:Abstract>Légende ENR des délaissés autoroutiers</ows:Abstract>
+      <Style>
+        <Title>DELAISSES.AUTOROUTIERS</Title>
+        <Abstract>Légende ENR des délaissés autoroutiers</Abstract>
         <ows:Keywords>
           <ows:Keyword>AUTOROUTE</ows:Keyword>
         </ows:Keywords>
@@ -746,9 +758,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -836,14 +847,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires aeronautiques civiles</ows:Title>
       <ows:Abstract>Contraintes réglementaires aeronautiques civiles</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.AERO.CIVIL</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENR.AERO.CIVIL</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique civil</ows:Abstract>
+      <Style>
+        <Title>ENR.AERO.CIVIL</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique civil</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -852,9 +866,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -956,14 +969,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires aeronautiques militaires</ows:Title>
       <ows:Abstract>Contraintes réglementaires aeronautiques militaires</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.AERO.MILITAIRE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENR.AERO.MILITAIRE</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique militaire</ows:Abstract>
+      <Style>
+        <Title>ENR.AERO.MILITAIRE</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées à l'aéronautique militaire</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -972,9 +988,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -1076,14 +1091,18 @@
     <Layer>
       <ows:Title>Grands sites de France</ows:Title>
       <ows:Abstract>Emprise des sites appartenant au réseau Grand Site de France</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Grands sites de France</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.GRANDS.SITES.FRANCE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENR.GRANDS.SITES.FRANCE</ows:Title>
-        <ows:Abstract>Légende ENR des grands sites de France</ows:Abstract>
+      <Style>
+        <Title>ENR.GRANDS.SITES.FRANCE</Title>
+        <Abstract>Légende ENR des grands sites de France</Abstract>
         <ows:Keywords>
           <ows:Keyword>Grands sites de France</ows:Keyword>
         </ows:Keywords>
@@ -1092,9 +1111,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1182,14 +1200,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires liées aux habitatons</ows:Title>
       <ows:Abstract>Contraintes réglementaires liées aux habitations</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.PERIMETRE.HABITATION</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PERIMETRE.HABITATION</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux habitations</ows:Abstract>
+      <Style>
+        <Title>PERIMETRE.HABITATION</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées aux habitations</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1297,14 +1318,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires liées aux pentes</ows:Title>
       <ows:Abstract>Contraintes réglementaires liées aux pentes</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.PERIMETRE.PENTE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PERIMETRE.PENTE</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux pentes</ows:Abstract>
+      <Style>
+        <Title>PERIMETRE.PENTE</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées aux pentes</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1313,9 +1337,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -1417,14 +1440,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires liées aux routes</ows:Title>
       <ows:Abstract>Contraintes réglementaires liées aux routes</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.PERIMETRE.ROUTE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PERIMETRE.ROUTE</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux routes</ows:Abstract>
+      <Style>
+        <Title>PERIMETRE.ROUTE</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées aux routes</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1532,14 +1558,17 @@
     <Layer>
       <ows:Title>Contraintes réglementaires liées aux voies ferrées</ows:Title>
       <ows:Abstract>Contraintes réglementaires liées aux voies ferrées</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENR.PERIMETRE.VOIE.FERREE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PERIMETRE.VOIE.FERREE</ows:Title>
-        <ows:Abstract>Légende ENR des contraintes réglementaires liées aux voies ferrées</ows:Abstract>
+      <Style>
+        <Title>PERIMETRE.VOIE.FERREE</Title>
+        <Abstract>Légende ENR des contraintes réglementaires liées aux voies ferrées</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -1633,14 +1662,18 @@
     <Layer>
       <ows:Title>Estimation des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Title>
       <ows:Abstract>Estimation des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Chaleur</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.BESOINS.CHAUD</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.BESOINS.CHAUD</ows:Title>
-        <ows:Abstract>Légende ENR des estimations des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
+      <Style>
+        <Title>ENREZO.BESOINS.CHAUD</Title>
+        <Abstract>Légende ENR des estimations des besoins de chaleur des bâtiments des secteurs résidentiels et tertiaires</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -1649,9 +1682,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1739,14 +1771,18 @@
     <Layer>
       <ows:Title>Estimation des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Title>
       <ows:Abstract>Estimation des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Froid</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.BESOINS.FROID</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.BESOINS.FROID</ows:Title>
-        <ows:Abstract>Légende ENR des estimations des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</ows:Abstract>
+      <Style>
+        <Title>ENREZO.BESOINS.FROID</Title>
+        <Abstract>Légende ENR des estimations des besoins de froid des bâtiments des secteurs résidentiels et tertiaires</Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -1755,9 +1791,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1845,14 +1880,18 @@
     <Layer>
       <ows:Title>Localisation et caractérisation des Data Center en France</ows:Title>
       <ows:Abstract>Localisation et caractérisation des Data Center en France</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Chaleur</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.CHALEUR.FATALE.DATACENTER</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.CHALEUR.FATALE.DATACENTER</ows:Title>
-        <ows:Abstract>Légende ENR des localisations et caractérisations des Data Center en France</ows:Abstract>
+      <Style>
+        <Title>ENREZO.CHALEUR.FATALE.DATACENTER</Title>
+        <Abstract>Légende ENR des localisations et caractérisations des Data Center en France</Abstract>
         <ows:Keywords>
           <ows:Keyword>Chaleur</ows:Keyword>
         </ows:Keywords>
@@ -1861,9 +1900,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1951,14 +1989,18 @@
     <Layer>
       <ows:Title>Localisation et estimation du gisement de chaleur fatale des STEP en France</ows:Title>
       <ows:Abstract>Localisation et estimation du gisement de chaleur fatale des STEP en France</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Chaleur</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.CHALEUR.FATALE.STEP</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.CHALEUR.FATALE.STEP</ows:Title>
-        <ows:Abstract>Légende ENR des localisations et estimations du gisement de chaleur fatale des STEP en France</ows:Abstract>
+      <Style>
+        <Title>ENREZO.CHALEUR.FATALE.STEP</Title>
+        <Abstract>Légende ENR des localisations et estimations du gisement de chaleur fatale des STEP en France</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -1967,9 +2009,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2057,14 +2098,18 @@
     <Layer>
       <ows:Title>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Title>
       <ows:Abstract>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Chaleur</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.CHAUD</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.ZONE.POTENTIEL.CHAUD</ows:Title>
-        <ows:Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
+      <Style>
+        <Title>ENREZO.ZONE.POTENTIEL.CHAUD</Title>
+        <Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de chaleur</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2073,9 +2118,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2163,14 +2207,18 @@
     <Layer>
       <ows:Title>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Title>
       <ows:Abstract>Zones d’opportunité « à pfort otentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Chaleur</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FORT.CHAUD</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.ZONE.POTENTIEL.FORT.CHAUD</ows:Title>
-        <ows:Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de chaleur</ows:Abstract>
+      <Style>
+        <Title>ENREZO.ZONE.POTENTIEL.FORT.CHAUD</Title>
+        <Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de chaleur</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -2179,9 +2227,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2269,14 +2316,18 @@
     <Layer>
       <ows:Title>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Title>
       <ows:Abstract>Zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Froid</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FORT.FROID</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.ZONE.POTENTIEL.FORT.FROID</ows:Title>
-        <ows:Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
+      <Style>
+        <Title>ENREZO.ZONE.POTENTIEL.FORT.FROID</Title>
+        <Abstract>Légende ENR des zones d’opportunité « à fort potentiel » pour la création ou l’extension de réseaux de froid</Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -2285,9 +2336,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2375,14 +2425,18 @@
     <Layer>
       <ows:Title>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Title>
       <ows:Abstract>Zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Froid</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ENREZO.ZONE.POTENTIEL.FROID</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>ENREZO.ZONE.POTENTIEL.FROID</ows:Title>
-        <ows:Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</ows:Abstract>
+      <Style>
+        <Title>ENREZO.ZONE.POTENTIEL.FROID</Title>
+        <Abstract>Légende ENR des zones d’opportunité « à potentiel » pour la création ou l’extension de réseaux de froid</Abstract>
         <ows:Keywords>
           <ows:Keyword>FROID</ows:Keyword>
         </ows:Keywords>
@@ -2391,9 +2445,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2481,14 +2534,18 @@
     <Layer>
       <ows:Title>Réseaux de distribution de gaz</ows:Title>
       <ows:Abstract>Réseaux de distribution de gaz</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Gaz</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.DISTRIBUTION</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>GAZ.RESEAU.DISTRIBUTION</ows:Title>
-        <ows:Abstract>Légende ENR des réseaux de distribution de gaz</ows:Abstract>
+      <Style>
+        <Title>GAZ.RESEAU.DISTRIBUTION</Title>
+        <Abstract>Légende ENR des réseaux de distribution de gaz</Abstract>
         <ows:Keywords>
           <ows:Keyword>Gaz</ows:Keyword>
         </ows:Keywords>
@@ -2497,9 +2554,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2587,14 +2643,18 @@
     <Layer>
       <ows:Title>Réseaux de transport de gaz</ows:Title>
       <ows:Abstract>Réseaux de transport de gaz</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Gaz</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.TRANSPORT</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>GAZ.RESEAU.TRANSPORT</ows:Title>
-        <ows:Abstract>Légende ENR des résseaux de transport de gaz</ows:Abstract>
+      <Style>
+        <Title>GAZ.RESEAU.TRANSPORT</Title>
+        <Abstract>Légende ENR des résseaux de transport de gaz</Abstract>
         <ows:Keywords>
           <ows:Keyword>Gaz</ows:Keyword>
         </ows:Keywords>
@@ -2603,9 +2663,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2693,14 +2752,17 @@
     <Layer>
       <ows:Title>Localisation des mâts éolien</ows:Title>
       <ows:Abstract>Localisation des mâts éolien</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LOCALISATION.MATS.EOLIEN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>LOCALISATION.MATS.EOLIEN</ows:Title>
-        <ows:Abstract>Légende ENR des capacités d'acceuil électriques</ows:Abstract>
+      <Style>
+        <Title>LOCALISATION.MATS.EOLIEN</Title>
+        <Abstract>Légende ENR des capacités d'acceuil électriques</Abstract>
         <ows:Keywords>
           <ows:Keyword>ELECTRICITE</ows:Keyword>
         </ows:Keywords>
@@ -2709,9 +2771,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2799,14 +2860,18 @@
     <Layer>
       <ows:Title>OFB zonages exclus des aires d'accélération</ows:Title>
       <ows:Abstract>OFB zonages exclus des aires d'accélération</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Enr</ows:Keyword>
+        <ows:Keyword>OFB</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OFB.ZONES.EXCLUES</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>OFB.ZONES.EXCLUES</ows:Title>
-        <ows:Abstract>Légende OFB des zonages exclus des aires d'accélération</ows:Abstract>
+      <Style>
+        <Title>OFB.ZONES.EXCLUES</Title>
+        <Abstract>Légende OFB des zonages exclus des aires d'accélération</Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -2815,9 +2880,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2905,14 +2969,18 @@
     <Layer>
       <ows:Title>OFB zonages exclus des aires d'accélération sauf toitures</ows:Title>
       <ows:Abstract>OFB zonages exclus des aires d'accélération sauf toitures</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Enr</ows:Keyword>
+        <ows:Keyword>OFB</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OFB.ZONES.EXCLUES.SAUF.TOITURE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>OFB.ZONES.EXCLUES.SAUF.TOITURE</ows:Title>
-        <ows:Abstract>Légende OFB des zonages exclus des aires d'accélération sauf toitures</ows:Abstract>
+      <Style>
+        <Title>OFB.ZONES.EXCLUES.SAUF.TOITURE</Title>
+        <Abstract>Légende OFB des zonages exclus des aires d'accélération sauf toitures</Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -2921,9 +2989,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -3011,14 +3078,18 @@
     <Layer>
       <ows:Title>OFB zones nécessitant l'avis du gestionnaire</ows:Title>
       <ows:Abstract>OFB zones nécessitant l'avis du gestionnaire</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Enr</ows:Keyword>
+        <ows:Keyword>OFB</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE</ows:Title>
-        <ows:Abstract>Légende OFB des zonages nécessitant l'avis du gestionnaire</ows:Abstract>
+      <Style>
+        <Title>OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE</Title>
+        <Abstract>Légende OFB des zonages nécessitant l'avis du gestionnaire</Abstract>
         <ows:Keywords>
           <ows:Keyword>OFB</ows:Keyword>
         </ows:Keywords>
@@ -3027,9 +3098,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -3117,14 +3187,18 @@
     <Layer>
       <ows:Title>Parkings de plus de 500m²</ows:Title>
       <ows:Abstract>Parkings de plus de 500m²</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>parking</ows:Keyword>
+        <ows:Keyword>solaire</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PARKING.SUP.500</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PARKING.SUP.500</ows:Title>
-        <ows:Abstract>Légende ENR des parkings de plus du 500m²</ows:Abstract>
+      <Style>
+        <Title>PARKING.SUP.500</Title>
+        <Abstract>Légende ENR des parkings de plus du 500m²</Abstract>
         <ows:Keywords>
           <ows:Keyword>PARKING</ows:Keyword>
         </ows:Keywords>
@@ -3133,9 +3207,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3237,14 +3310,17 @@
     <Layer>
       <ows:Title>Puissance cumulée électrique installée par filière renouvelable par commune</ows:Title>
       <ows:Abstract>Puissance cumulée électrique installée par filière renouvelable par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>energie</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PART.ENR.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PART.ENR.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR des parts des énergies renouvelables par commune</ows:Abstract>
+      <Style>
+        <Title>PART.ENR.COMMUNE</Title>
+        <Abstract>Légende ENR des parts des énergies renouvelables par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>COMMUNE</ows:Keyword>
         </ows:Keywords>
@@ -3253,9 +3329,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3357,14 +3432,18 @@
     <Layer>
       <ows:Title>Points d'injection de Biométhane en France en service</ows:Title>
       <ows:Abstract>Ce jeu de données présente la liste des points d'injection de biométhane dans les réseaux de gaz naturel en France et la capacité de production de biométhane en GWh/an</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>biomethane</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POINTS.INJECTION.BIOMETHANE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POINTS.INJECTION.BIOMETHANE</ows:Title>
-        <ows:Abstract>Légende ENR des points d'injection biométhane</ows:Abstract>
+      <Style>
+        <Title>POINTS.INJECTION.BIOMETHANE</Title>
+        <Abstract>Légende ENR des points d'injection biométhane</Abstract>
         <ows:Keywords>
           <ows:Keyword>BIOMETHANE</ows:Keyword>
         </ows:Keywords>
@@ -3373,9 +3452,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -3463,14 +3541,17 @@
     <Layer>
       <ows:Title>Potentiel éolien terrestre - couche "clé en main"</ows:Title>
       <ows:Abstract>Potentiel éolien terrestre - couche "clé en main"</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.EOLIEN.REGLEMENTAIRE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.EOLIEN.REGLE</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel éolien</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.EOLIEN.REGLE</Title>
+        <Abstract>Légende ENR du potentiel éolien</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -3479,9 +3560,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -3569,14 +3649,17 @@
     <Layer>
       <ows:Title>Potentiel hydroélectrique sur nouveaux ouvrages</ows:Title>
       <ows:Abstract>Potentiel hydroélectrique sur nouveaux ouvrages</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>hydro</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.HYDRO</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.HYDRO</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel hydroélectrique</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.HYDRO</Title>
+        <Abstract>Légende ENR du potentiel hydroélectrique</Abstract>
         <ows:Keywords>
           <ows:Keyword>HYDRO</ows:Keyword>
         </ows:Keywords>
@@ -3585,9 +3668,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3689,14 +3771,17 @@
     <Layer>
       <ows:Title>Potentiel solaire sur toiture (méthode simplifiée)</ows:Title>
       <ows:Abstract>Potentiel solaire sur toiture (méthode simplifiée)</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>solaire</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.BATIMENT</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.SOLAIRE.BATIMENT</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel solaire des bâtiments</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.SOLAIRE.BATIMENT</Title>
+        <Abstract>Légende ENR du potentiel solaire des bâtiments</Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -3705,9 +3790,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3809,14 +3893,17 @@
     <Layer>
       <ows:Title>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovoltaïques</ows:Title>
       <ows:Abstract>Potentiel solaire au sol - friches susceptibles d'accueillir des installations photovoltaïques</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>solaire</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.FRICHE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.SOLAIRE.FRICHE</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel solaire des friches</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.SOLAIRE.FRICHE</Title>
+        <Abstract>Légende ENR du potentiel solaire des friches</Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -3825,9 +3912,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -3929,14 +4015,17 @@
     <Layer>
       <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Title>
       <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>solaire</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.PARKING500</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.SOLAIRE.PARKING500</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel solaire des parkings</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.SOLAIRE.PARKING500</Title>
+        <Abstract>Légende ENR du potentiel solaire des parkings</Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -3945,9 +4034,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -4035,14 +4123,18 @@
     <Layer>
       <ows:Title>Potentiel solaire sur le réseau routier national (DIR)</ows:Title>
       <ows:Abstract>Potentiel solaire sur le réseau routier national (DIR)</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Solaire</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.RRN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.SOLAIRE.RRN</ows:Title>
-        <ows:Abstract>Légende OFB du potentiel solaire sur le réseau routier national (DIR)</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.SOLAIRE.RRN</Title>
+        <Abstract>Légende OFB du potentiel solaire sur le réseau routier national (DIR)</Abstract>
         <ows:Keywords>
           <ows:Keyword>Solaire</ows:Keyword>
         </ows:Keywords>
@@ -4051,9 +4143,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -4141,14 +4232,18 @@
     <Layer>
       <ows:Title>Potentiel solaire sol</ows:Title>
       <ows:Abstract>Zones potentiellements propices à l'installation de solaire sol.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Solaire</ows:Keyword>
+        <ows:Keyword>Enr</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.SOL</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>POTENTIEL.SOLAIRE.SOL</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel solaire des sols</ows:Abstract>
+      <Style>
+        <Title>POTENTIEL.SOLAIRE.SOL</Title>
+        <Abstract>Légende ENR du potentiel solaire des sols</Abstract>
         <ows:Keywords>
           <ows:Keyword>SOLAIRE</ows:Keyword>
         </ows:Keywords>
@@ -4157,9 +4252,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -4247,14 +4341,17 @@
     <Layer>
       <ows:Title>Puissance cumulée installée des installations éoliennes par commune</ows:Title>
       <ows:Abstract>Puissance cumulée installée des installations éoliennes par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROD.INSTALLATION.EOLIEN</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROD.INSTALLATION.EOLIEN</ows:Title>
-        <ows:Abstract>Légende ENR de la production des installations éoliennes</ows:Abstract>
+      <Style>
+        <Title>PROD.INSTALLATION.EOLIEN</Title>
+        <Abstract>Légende ENR de la production des installations éoliennes</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -4263,9 +4360,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4367,14 +4463,17 @@
     <Layer>
       <ows:Title>Puissance cumulée installée des installations hydrauliques par commune</ows:Title>
       <ows:Abstract>Puissance cumulée installée des installations hydrauliques par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>hydrolique</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROD.INSTALLATION.HYDRO</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROD.INSTALLATION.HYDRO</ows:Title>
-        <ows:Abstract>Légende ENR de la production des installations hydros</ows:Abstract>
+      <Style>
+        <Title>PROD.INSTALLATION.HYDRO</Title>
+        <Abstract>Légende ENR de la production des installations hydros</Abstract>
         <ows:Keywords>
           <ows:Keyword>HYDRO</ows:Keyword>
         </ows:Keywords>
@@ -4383,9 +4482,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4487,14 +4585,17 @@
     <Layer>
       <ows:Title>Puissance cumulée installée des installations photovoltaïques par commune</ows:Title>
       <ows:Abstract>Puissance cumulée installée des installations photovoltaïques par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>solaire</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROD.INSTALLATION.PV</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PROD.INSTALLATION.PV</ows:Title>
-        <ows:Abstract>Légende ENR de la production des installations photovoltaiques</ows:Abstract>
+      <Style>
+        <Title>PROD.INSTALLATION.PV</Title>
+        <Abstract>Légende ENR de la production des installations photovoltaiques</Abstract>
         <ows:Keywords>
           <ows:Keyword>PHOTOVOLTAIQUE</ows:Keyword>
         </ows:Keywords>
@@ -4503,9 +4604,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4607,14 +4707,17 @@
     <Layer>
       <ows:Title>Productible en injection de biométhane annuel par commune</ows:Title>
       <ows:Abstract>Productible en injection de biométhane annuel par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>biomethane</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PRODUCTIBLE.BIOMETHANE.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PRODUCTIBLE.BIOMETHANE.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR productible biométhane par commune</ows:Abstract>
+      <Style>
+        <Title>PRODUCTIBLE.BIOMETHANE.COMMUNE</Title>
+        <Abstract>Légende ENR productible biométhane par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -4623,9 +4726,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4727,14 +4829,17 @@
     <Layer>
       <ows:Title>Productible en éolien annuel par commune</ows:Title>
       <ows:Abstract>Productible en éolien annuel par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>eolien</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PRODUCTIBLE.EOLIEN.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PRODUCTIBLE.EOLIEN.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR productible éolien par commune</ows:Abstract>
+      <Style>
+        <Title>PRODUCTIBLE.EOLIEN.COMMUNE</Title>
+        <Abstract>Légende ENR productible éolien par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>EOLIEN</ows:Keyword>
         </ows:Keywords>
@@ -4743,9 +4848,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4847,14 +4951,17 @@
     <Layer>
       <ows:Title>Productible en méthanisation annuel par commune</ows:Title>
       <ows:Abstract>Productible en méthanisation annuel par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>methanisation</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PRODUCTIBLE.METHANISATION.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PRODUCTIBLE.METHANISATION.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR productible méthanisation par commune</ows:Abstract>
+      <Style>
+        <Title>PRODUCTIBLE.METHANISATION.COMMUNE</Title>
+        <Abstract>Légende ENR productible méthanisation par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>METHANISATION</ows:Keyword>
         </ows:Keywords>
@@ -4863,9 +4970,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -4967,14 +5073,17 @@
     <Layer>
       <ows:Title>Productible en photovoltaique annuel par commune</ows:Title>
       <ows:Abstract>Productible en photovoltaique annuel par commune</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>photovoltaique</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PRODUCTIBLE.PHOTOVOLTAIQUE.COMMUNE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PRODUCTIBLE.PHOTOVOLTAIQUE.COMMUNE</ows:Title>
-        <ows:Abstract>Légende ENR productible photovoltaique par commune</ows:Abstract>
+      <Style>
+        <Title>PRODUCTIBLE.PHOTOVOLTAIQUE.COMMUNE</Title>
+        <Abstract>Légende ENR productible photovoltaique par commune</Abstract>
         <ows:Keywords>
           <ows:Keyword>PHOTOVOLTAIQUE</ows:Keyword>
         </ows:Keywords>
@@ -4983,9 +5092,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5087,14 +5195,17 @@
     <Layer>
       <ows:Title>Puissances cumulées des installations par commune biométhane</ows:Title>
       <ows:Abstract>Puissances cumulées des installations par commune biométhane</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>biomethane</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PUISSANCE.INSTALLEE.BIOMETHANE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</ows:Title>
-        <ows:Abstract>Légende ENR des puissances méthanisation et biométhane</ows:Abstract>
+      <Style>
+        <Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</Title>
+        <Abstract>Légende ENR des puissances méthanisation et biométhane</Abstract>
         <ows:Keywords>
           <ows:Keyword>PUISSANCE</ows:Keyword>
         </ows:Keywords>
@@ -5103,9 +5214,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5207,14 +5317,17 @@
     <Layer>
       <ows:Title>Puissances cumulées des installations par commune méthanisation</ows:Title>
       <ows:Abstract>Puissances cumulées des installations par commune méthanisation</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>methanisation</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PUISSANCE.INSTALLEE.METHANISATION</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</ows:Title>
-        <ows:Abstract>Légende ENR des puissances méthanisation et biométhane</ows:Abstract>
+      <Style>
+        <Title>PUISSANCE.INSTALLEE.METHANISATION.BIOMETHANE</Title>
+        <Abstract>Légende ENR des puissances méthanisation et biométhane</Abstract>
         <ows:Keywords>
           <ows:Keyword>PUISSANCE</ows:Keyword>
         </ows:Keywords>
@@ -5223,9 +5336,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5327,14 +5439,17 @@
     <Layer>
       <ows:Title>Potentiel méthanisable par canton</ows:Title>
       <ows:Abstract>Potentiel méthanisable par canton</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>methane</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>REPARTITION.POTENTIEL.METHANISATION.2050</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>REPARTITION.POTENTIEL.METHANISATION.2050</ows:Title>
-        <ows:Abstract>Légende ENR du potentiel méthanisation 2050</ows:Abstract>
+      <Style>
+        <Title>REPARTITION.POTENTIEL.METHANISATION.2050</Title>
+        <Abstract>Légende ENR du potentiel méthanisation 2050</Abstract>
         <ows:Keywords>
           <ows:Keyword>METHANISATION</ows:Keyword>
         </ows:Keywords>
@@ -5343,9 +5458,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5447,14 +5561,17 @@
     <Layer>
       <ows:Title>Localisation des installations de production de chaleur par Biogaz</ows:Title>
       <ows:Abstract>Localisation des installations de production de chaleur par Biogaz</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.BIOGAZ</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.BIOGAZ</ows:Title>
-        <ows:Abstract>Légende ENR des sites de production de chaleur biogaz</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.BIOGAZ</Title>
+        <Abstract>Légende ENR des sites de production de chaleur biogaz</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -5463,9 +5580,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5567,14 +5683,17 @@
     <Layer>
       <ows:Title>Localisation des installations de production d'électricité pouvant valoriser de la chaleur</ows:Title>
       <ows:Abstract>Localisation des installations de production d'électricité pouvant valoriser de la chaleur</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.COGENERATION</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.COGENERATION</ows:Title>
-        <ows:Abstract>Légende ENR des sites de production de chaleur cogénération</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.COGENERATION</Title>
+        <Abstract>Légende ENR des sites de production de chaleur cogénération</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -5583,9 +5702,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5687,14 +5805,17 @@
     <Layer>
       <ows:Title>Localisation des installations de production de chaleur par incinération des déchets</ows:Title>
       <ows:Abstract>Localisation des installations de production de chaleur par incinération des déchets</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.DECHETS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.DECHETS</ows:Title>
-        <ows:Abstract>Légende ENR des sites de production de chaleur déchets</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.DECHETS</Title>
+        <Abstract>Légende ENR des sites de production de chaleur déchets</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -5703,9 +5824,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5807,14 +5927,17 @@
     <Layer>
       <ows:Title>Localisation des installations de production de chaleur par méthanisation</ows:Title>
       <ows:Abstract>Localisation des installations de production de chaleur par méthanisation</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.METHANISATON</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.METHANISATON</ows:Title>
-        <ows:Abstract>Légende ENR des sites de production de chaleur méthanisation</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.METHANISATON</Title>
+        <Abstract>Légende ENR des sites de production de chaleur méthanisation</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -5823,9 +5946,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -5927,14 +6049,17 @@
     <Layer>
       <ows:Title>Localisation des réseaux de chaleur et de froid linéaires</ows:Title>
       <ows:Abstract>Localisation des réseaux de chaleur et de froid linéaires</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE</ows:Title>
-        <ows:Abstract>Légende ENR des des réseaux de chaleur et de froid linéaires</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE</Title>
+        <Abstract>Légende ENR des des réseaux de chaleur et de froid linéaires</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -6042,14 +6167,17 @@
     <Layer>
       <ows:Title>Localisation des réseaux de chaleur et de froid ponctuels</ows:Title>
       <ows:Abstract>Localisation des réseaux de chaleur et de froid ponctuels</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>chaleur</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SITE.PRODUCTION.CHALEUR.RCF.POINT</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>SITE.PRODUCTION.CHALEUR.RCF.POINT</ows:Title>
-        <ows:Abstract>Légende ENR des des réseaux de chaleur et de froid ponctuels</ows:Abstract>
+      <Style>
+        <Title>SITE.PRODUCTION.CHALEUR.RCF.POINT</Title>
+        <Abstract>Légende ENR des des réseaux de chaleur et de froid ponctuels</Abstract>
         <ows:Keywords>
           <ows:Keyword>CHALEUR</ows:Keyword>
         </ows:Keywords>
@@ -6058,9 +6186,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -6677,6 +6804,145 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>12600</MatrixWidth>
         <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_10cm_6_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>11702857.1428571445321722</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>13</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>5851428.5714285722660861</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>26</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2925714.2857142861330431</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7</MatrixWidth>
+        <MatrixHeight>52</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1462857.1428571430665215</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>13</MatrixWidth>
+        <MatrixHeight>103</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25</MatrixWidth>
+        <MatrixHeight>206</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>50</MatrixWidth>
+        <MatrixHeight>411</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>99</MatrixWidth>
+        <MatrixHeight>822</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>197</MatrixWidth>
+        <MatrixHeight>1643</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

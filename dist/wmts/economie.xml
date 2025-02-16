@@ -2,20 +2,15 @@
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
-    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>WMS</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>TMS</ows:Keyword>
-    </ows:Keywords>
+    <ows:Abstract>Ce service diffuse les données WMTS-TMS publiques de la Géoplateforme</ows:Abstract>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ROK4 Team</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ProviderSite xlink:href="https://cartes.gouv.fr/" />
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName />
@@ -25,12 +20,12 @@
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City />
+          <ows:DeliveryPoint>73 Avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode />
-          <ows:Country />
-          <ows:ElectronicMailAddress />
+          <ows:PostalCode>94165</ows:PostalCode>
+          <ows:Country>France</ows:Country>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -39,7 +34,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -52,7 +47,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -65,7 +60,7 @@
     <ows:Operation name="GetFeatureInfo">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -80,14 +75,17 @@
     <Layer>
       <ows:Title>Zones franches urbaines</ows:Title>
       <ows:Abstract>Zones franches créées au sein de quartiers de plus de 8 500 habitants particulièrement défavorisés, en tenant compte des éléments de nature à faciliter l’implantation d’entreprises ou le développement d’activités économiques.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Zones de gestion</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>AREAMANAGEMENT.ZFU</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -181,14 +179,17 @@
     <Layer>
       <ows:Title>Zones urbaines sensibles</ows:Title>
       <ows:Abstract>Zones urbaines caractérisées par la présence de grands ensembles ou de quartiers d’habitat dégradé et par un déséquilibre accentué entre l’habitat et l’emploi.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Zones de gestion</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>AREAMANAGEMENT.ZUS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -282,14 +283,17 @@
     <Layer>
       <ows:Title>Quartiers prioritaires</ows:Title>
       <ows:Abstract>&lt;div style="text-align:justify;"&gt;Les quartiers prioritaires de la politique de la ville sont issus de la loi de programmation pour la ville et cohésion urbaine n° 2014-173 du 21 février 2014.&lt;br/&gt; &lt;div style="text-decoration:underline;"&gt;&lt;a href="http://www.ville.gouv.fr/?geographie-prioritaire-de-la" alt="http://www.ville.gouv.fr/?geographie-prioritaire-de-la"&gt;Téléchargement des données&lt;/a&gt;&lt;/div&gt;&lt;br/&gt; Sources : Commissariat Général à l'Egalité des Territoires :  1er janvier 2015&lt;/div&gt;</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Ville et urbanisme</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>COMMUNES.PRIORITYDISCTRICT</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -390,14 +394,17 @@
     <Layer>
       <ows:Title>Zonage du dispositif Pinel en Bretagne 2020-2021</ows:Title>
       <ows:Abstract>La réduction d'impôt « Pinel » (code général des impôts) s'applique à l’investissement locatif réalisé dans les zones où la tension entre l'offre et la demande de logements est la plus forte. La loi n°2019-1479 du 28 décembre 2019 de finances pour 2020, prévoit à titre expérimental, un dispositif dérogatoire au droit commun pour la Bretagne. Ainsi, les communes ou parties de communes éligibles à la réduction d'impôt « Pinel » sont fixées par arrêté du préfet de région. Cet arrêté est pris après avis du président du conseil régional et du comité régional de l'habitat et de l'hébergement. Cet article prévoit également que le préfet de région fixe, par arrêté, les plafonds de loyer et de ressources du locataire pour chaque commune ou partie de commune éligible et par type de logement. L’une des particularités de cette expérimentation réside dans l’éligibilité du dispositif qui peut être limitée à une partie seulement du territoire communal. Lorsqu’une commune n’est éligible que pour une partie de son territoire, deux approches sont distinguées, à savoir à la maille de l’IRIS (correspondant à un quartier) ou à la maille du carreau de 200 mètres sur 200 mètres.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>zonage</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15012 47.2719</ows:LowerCorner>
         <ows:UpperCorner>-1.00687 48.9064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DREAL.ZONAGE_PINEL</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -406,9 +413,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_18</TileMatrixSet>
@@ -510,14 +516,17 @@
     <Layer>
       <ows:Title>% des 0-17 ans (secret signalé)</ows:Title>
       <ows:Abstract>Nombre d’individus âgés de 0 à 17 ans dans la population (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.ENFANTS.0.17.ANS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -526,9 +535,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -616,14 +624,17 @@
     <Layer>
       <ows:Title>Surface moyenne des logements (secret signalé)</ows:Title>
       <ows:Abstract>Surface moyenne des logements (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -632,9 +643,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -722,14 +732,17 @@
     <Layer>
       <ows:Title>Niveau de vie winsorisé des individus (secret signalé)</ows:Title>
       <ows:Abstract>Niveau de vie des individus, retraité des valeurs extrêmes (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.NIVEAU.DE.VIE.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -738,9 +751,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -828,14 +840,17 @@
     <Layer>
       <ows:Title>% familles monoparentales (secret signalé)</ows:Title>
       <ows:Abstract>Part des familles monoparentales (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.FAMILLES.MONOPARENTALES.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -844,9 +859,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -934,14 +948,17 @@
     <Layer>
       <ows:Title>% des 25-39 ans (secret signalé)</ows:Title>
       <ows:Abstract>Nombre d’individus âgés de 25 à 39 ans dans la population (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.INDIVIDUS.25.39.ANS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -950,9 +967,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1040,14 +1056,17 @@
     <Layer>
       <ows:Title>% des 40-54 ans (secret signalé)</ows:Title>
       <ows:Abstract>Nombre d’individus âgés de 40 à 54 ans dans la population (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.INDIVIDUS.40.54.ANS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1056,9 +1075,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1146,14 +1164,17 @@
     <Layer>
       <ows:Title>% des 55-64 ans (secret signalé)</ows:Title>
       <ows:Abstract>Nombre d’individus âgés de 55 à 64 ans dans la population (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.INDIVIDUS.55.64.ANS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1162,9 +1183,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1252,14 +1272,17 @@
     <Layer>
       <ows:Title>% de logements construits après 1990 (secret signalé)</ows:Title>
       <ows:Abstract>Part des logements construits après 1990 (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.APRES.1990.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1268,9 +1291,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1358,14 +1380,17 @@
     <Layer>
       <ows:Title>% de logements construits avant 1945 (secret signalé)</ows:Title>
       <ows:Abstract>Part des logements construits avant 1945 (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.AVANT.1945.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1374,9 +1399,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1464,14 +1488,17 @@
     <Layer>
       <ows:Title>% de logements collectifs (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages habitant en logement collectif (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.COLLECTIFS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1480,9 +1507,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1570,14 +1596,17 @@
     <Layer>
       <ows:Title>% de logements construits entre 1945 et 1970 (secret signalé)</ows:Title>
       <ows:Abstract>Part des logements construits entre 1945 et 1970 (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.CONSTRUITS.1945.1970.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1586,9 +1615,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1676,14 +1704,17 @@
     <Layer>
       <ows:Title>% de logements construits entre 1970 et 1990 (secret signalé)</ows:Title>
       <ows:Abstract>Part des logements construits entre 1970 et 1990 (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.CONSTRUITS.1970.1990.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1692,9 +1723,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1782,14 +1812,17 @@
     <Layer>
       <ows:Title>% de logements sociaux (secret signalé)</ows:Title>
       <ows:Abstract>Nombre de ménages habitant en logement social – voir définition- (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.SOCIAUX.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1798,9 +1831,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1888,14 +1920,17 @@
     <Layer>
       <ows:Title>% ménages de 1 personne (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages de 1 personne (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.1.PERSONNE.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -1904,9 +1939,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1994,14 +2028,17 @@
     <Layer>
       <ows:Title>% ménages de 5 personnes ou + (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages de 5 personnes ou plus (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.5.PERSONNES.OUPLUS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2010,9 +2047,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2100,14 +2136,17 @@
     <Layer>
       <ows:Title>% ménages en maison (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages vivant en maison (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.MAISON.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2116,9 +2155,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2206,14 +2244,17 @@
     <Layer>
       <ows:Title>% ménages pauvres (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages pauvres (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.PAUVRES.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2222,9 +2263,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2312,14 +2352,17 @@
     <Layer>
       <ows:Title>% ménages propriétaires (secret signalé)</ows:Title>
       <ows:Abstract>Part des ménages propriétaires (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.PROPRIETAIRES.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2328,9 +2371,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2418,14 +2460,17 @@
     <Layer>
       <ows:Title>% des plus de 65 ans (secret signalé)</ows:Title>
       <ows:Abstract>Nombre d’individus âgés de plus de 65 ans dans la population (les cases hachurées correspondent aux données secrétisées) </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.PLUS.65.ANS.SECRET</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2434,9 +2479,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2524,14 +2568,17 @@
     <Layer>
       <ows:Title>Densité de population</ows:Title>
       <ows:Abstract>Nombre d'individus par km² </ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Statistiques</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.POPULATION</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>INSEE</ows:Title>
-        <ows:Abstract>Légende INSEE</ows:Abstract>
+      <Style>
+        <Title>INSEE</Title>
+        <Abstract>Légende INSEE</Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -2540,9 +2587,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -3145,6 +3191,145 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>12600</MatrixWidth>
         <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_10cm_6_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>11702857.1428571445321722</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>13</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>5851428.5714285722660861</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>26</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2925714.2857142861330431</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7</MatrixWidth>
+        <MatrixHeight>52</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1462857.1428571430665215</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>13</MatrixWidth>
+        <MatrixHeight>103</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25</MatrixWidth>
+        <MatrixHeight>206</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>50</MatrixWidth>
+        <MatrixHeight>411</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>99</MatrixWidth>
+        <MatrixHeight>822</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>197</MatrixWidth>
+        <MatrixHeight>1643</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

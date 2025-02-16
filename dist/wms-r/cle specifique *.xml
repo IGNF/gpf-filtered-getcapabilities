@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
-    <Name>WMS service</Name>
-    <Title>WMS/WMTS/TMS server</Title>
-    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
-    <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>WMTS</Keyword>
-      <Keyword>TMS</Keyword>
-    </KeywordList>
-    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <Name>WMS</Name>
+    <Title>Service WMS Raster public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
@@ -18,18 +13,18 @@
       <ContactPosition />
       <ContactAddress>
         <AddressType />
-        <Address />
-        <City />
+        <Address>73 avenue de Paris</Address>
+        <City>SAINT-MANDÉ Cedex</City>
         <StateOrProvince />
-        <PostCode />
-        <Country />
+        <PostCode>94165</PostCode>
+        <Country>France</Country>
       </ContactAddress>
       <ContactVoiceTelephone />
       <ContactFacsimileTelephone />
-      <ContactElectronicMailAddress />
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>none</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>9660</MaxWidth>
     <MaxHeight>9660</MaxHeight>
@@ -41,7 +36,7 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -55,21 +50,20 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
       </GetMap>
       <GetFeatureInfo>
         <Format>text/plain</Format>
-        <Format>text/html</Format>
         <Format>text/xml</Format>
-        <Format>application/xml</Format>
+        <Format>text/html</Format>
         <Format>application/json</Format>
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -130,11 +124,10 @@
       <CRS>IGNF:GUAD48UTM20</CRS>
       <CRS>IGNF:GUADANNUTM20</CRS>
       <CRS>EPSG:2971</CRS>
-      <CRS>IGNF:C67IG95UTM22</CRS>
       <CRS>IGNF:CSG67UTM22</CRS>
       <CRS>EPSG:2972</CRS>
-      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>EPSG:2973</CRS>
       <CRS>IGNF:MART38UTM20</CRS>
       <CRS>IGNF:MARTFDUTM20</CRS>
@@ -193,17 +186,15 @@
       <CRS>EPSG:3298</CRS>
       <CRS>IGNF:RGPFUTM7S</CRS>
       <CRS>EPSG:3302</CRS>
-      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>EPSG:3303</CRS>
       <CRS>EPSG:3304</CRS>
       <CRS>IGNF:TAHI79UTM6S</CRS>
       <CRS>EPSG:3305</CRS>
       <CRS>EPSG:3306</CRS>
-      <CRS>IGNF:MAUPITIUTM5S</CRS>
       <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
-      <CRS>IGNF:WGS84WMSV</CRS>
       <CRS>EPSG:3942</CRS>
       <CRS>IGNF:RGF93CC42</CRS>
       <CRS>EPSG:3943</CRS>
@@ -228,7 +219,6 @@
       <CRS>EPSG:4275</CRS>
       <CRS>EPSG:4326</CRS>
       <CRS>EPSG:4463</CRS>
-      <CRS>IGNF:RGSPM06G</CRS>
       <CRS>EPSG:4467</CRS>
       <CRS>IGNF:RGSPM06U21</CRS>
       <CRS>EPSG:4470</CRS>
@@ -240,7 +230,6 @@
       <CRS>EPSG:4622</CRS>
       <CRS>EPSG:4623</CRS>
       <CRS>EPSG:4624</CRS>
-      <CRS>IGNF:RGFG95G</CRS>
       <CRS>EPSG:4625</CRS>
       <CRS>EPSG:4626</CRS>
       <CRS>EPSG:4627</CRS>
@@ -266,7 +255,6 @@
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
       <CRS>EPSG:5490</CRS>
-      <CRS>IGNF:RGAF09UTM20</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -285,7 +273,7 @@
         <southBoundLatitude>-90</southBoundLatitude>
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
-      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
+      <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
     </Layer>
   </Capability>
 </WMS_Capabilities>

@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
-    <Name>WMS service</Name>
-    <Title>WMS/WMTS/TMS server</Title>
-    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
-    <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>WMTS</Keyword>
-      <Keyword>TMS</Keyword>
-    </KeywordList>
-    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <Name>WMS</Name>
+    <Title>Service WMS Raster public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
@@ -18,18 +13,18 @@
       <ContactPosition />
       <ContactAddress>
         <AddressType />
-        <Address />
-        <City />
+        <Address>73 avenue de Paris</Address>
+        <City>SAINT-MANDÉ Cedex</City>
         <StateOrProvince />
-        <PostCode />
-        <Country />
+        <PostCode>94165</PostCode>
+        <Country>France</Country>
       </ContactAddress>
       <ContactVoiceTelephone />
       <ContactFacsimileTelephone />
-      <ContactElectronicMailAddress />
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>none</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>9660</MaxWidth>
     <MaxHeight>9660</MaxHeight>
@@ -41,7 +36,7 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -55,21 +50,20 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
       </GetMap>
       <GetFeatureInfo>
         <Format>text/plain</Format>
-        <Format>text/html</Format>
         <Format>text/xml</Format>
-        <Format>application/xml</Format>
+        <Format>text/html</Format>
         <Format>application/json</Format>
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -130,11 +124,10 @@
       <CRS>IGNF:GUAD48UTM20</CRS>
       <CRS>IGNF:GUADANNUTM20</CRS>
       <CRS>EPSG:2971</CRS>
-      <CRS>IGNF:C67IG95UTM22</CRS>
       <CRS>IGNF:CSG67UTM22</CRS>
       <CRS>EPSG:2972</CRS>
-      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>EPSG:2973</CRS>
       <CRS>IGNF:MART38UTM20</CRS>
       <CRS>IGNF:MARTFDUTM20</CRS>
@@ -193,17 +186,15 @@
       <CRS>EPSG:3298</CRS>
       <CRS>IGNF:RGPFUTM7S</CRS>
       <CRS>EPSG:3302</CRS>
-      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>EPSG:3303</CRS>
       <CRS>EPSG:3304</CRS>
       <CRS>IGNF:TAHI79UTM6S</CRS>
       <CRS>EPSG:3305</CRS>
       <CRS>EPSG:3306</CRS>
-      <CRS>IGNF:MAUPITIUTM5S</CRS>
       <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
-      <CRS>IGNF:WGS84WMSV</CRS>
       <CRS>EPSG:3942</CRS>
       <CRS>IGNF:RGF93CC42</CRS>
       <CRS>EPSG:3943</CRS>
@@ -228,7 +219,6 @@
       <CRS>EPSG:4275</CRS>
       <CRS>EPSG:4326</CRS>
       <CRS>EPSG:4463</CRS>
-      <CRS>IGNF:RGSPM06G</CRS>
       <CRS>EPSG:4467</CRS>
       <CRS>IGNF:RGSPM06U21</CRS>
       <CRS>EPSG:4470</CRS>
@@ -240,7 +230,6 @@
       <CRS>EPSG:4622</CRS>
       <CRS>EPSG:4623</CRS>
       <CRS>EPSG:4624</CRS>
-      <CRS>IGNF:RGFG95G</CRS>
       <CRS>EPSG:4625</CRS>
       <CRS>EPSG:4626</CRS>
       <CRS>EPSG:4627</CRS>
@@ -266,7 +255,6 @@
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
       <CRS>EPSG:5490</CRS>
-      <CRS>IGNF:RGAF09UTM20</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -285,24 +273,33 @@
         <southBoundLatitude>-90</southBoundLatitude>
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
-      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
+      <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Name>
         <Title>Carte des pentes pour l'agriculture sur la métropole</Title>
         <Abstract>Carte des zones ayant une valeur de pente supérieure à 10% - source : RGEALTI 2017 au pas de 5m - disponible jusqu'au 1/17062 - métropole uniquement - mise à jour le 12/10/2017</Abstract>
+        <KeywordList>
+          <Keyword>agriculture</Keyword>
+          <Keyword>seuil</Keyword>
+          <Keyword>pente</Keyword>
+          <Keyword>pac</Keyword>
+          <Keyword>erosion</Keyword>
+          <Keyword>labour</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.1614</westBoundLongitude>
-          <eastBoundLongitude>56.0018</eastBoundLongitude>
-          <southBoundLatitude>-21.5446</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-63.161392040000003</westBoundLongitude>
+          <eastBoundLongitude>56.001810249999998</eastBoundLongitude>
+          <southBoundLatitude>-21.544624580000001</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031093.999687123" miny="-2456938.999658408" maxx="6234093.000531528" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031093.9996871231" maxx="6234093.0005315281" miny="-2456938.9996584076" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -311,29 +308,33 @@
           <Abstract>Style et légende associés au flux SLOPES.PAC</Abstract>
           <LegendURL width="300" height="50">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>17061.836670798</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>17061.836670798282</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>HYDROGRAPHY.BCAE.LATEST</Name>
         <Title>Cours d'eau BCAE dernière édition</Title>
         <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 décembre 2024. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</Abstract>
+        <KeywordList>
+          <Keyword>BCAE</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.15047</westBoundLongitude>
-          <eastBoundLongitude>9.57054</eastBoundLongitude>
-          <southBoundLatitude>41.3252</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
+          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
+          <southBoundLatitude>41.325209639999997</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -342,29 +343,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>4265.459167700</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>4265.4591676995706</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE.LATEST</Name>
         <Title>Registre parcellaire graphique (RPG)</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants édition 2023-01-01</Abstract>
+        <KeywordList>
+          <Keyword>Usages des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
           <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -373,29 +378,33 @@
           <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>LANDUSE.AGRICULTURE2007</Name>
         <Title>Registre parcellaire graphique (RPG) 2007</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2007.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.2635</westBoundLongitude>
-          <eastBoundLongitude>56.0237</eastBoundLongitude>
-          <southBoundLatitude>-21.419</southBoundLatitude>
-          <northBoundLatitude>51.2203</northBoundLatitude>
+          <westBoundLongitude>-63.26351579</westBoundLongitude>
+          <eastBoundLongitude>56.023733059999998</eastBoundLongitude>
+          <southBoundLatitude>-21.418997579999999</southBoundLatitude>
+          <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -404,29 +413,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>LANDUSE.AGRICULTURE2008</Name>
         <Title>Registre parcellaire graphique (RPG) 2008</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2008.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.2635</westBoundLongitude>
-          <eastBoundLongitude>56.0237</eastBoundLongitude>
-          <southBoundLatitude>-21.419</southBoundLatitude>
-          <northBoundLatitude>51.2203</northBoundLatitude>
+          <westBoundLongitude>-63.26351579</westBoundLongitude>
+          <eastBoundLongitude>56.023733059999998</eastBoundLongitude>
+          <southBoundLatitude>-21.418997579999999</southBoundLatitude>
+          <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -435,29 +448,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>LANDUSE.AGRICULTURE2009</Name>
         <Title>Registre parcellaire graphique (RPG) 2009</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2009.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.2635</westBoundLongitude>
-          <eastBoundLongitude>56.0237</eastBoundLongitude>
-          <southBoundLatitude>-21.419</southBoundLatitude>
-          <northBoundLatitude>51.2203</northBoundLatitude>
+          <westBoundLongitude>-63.26351579</westBoundLongitude>
+          <eastBoundLongitude>56.023733059999998</eastBoundLongitude>
+          <southBoundLatitude>-21.418997579999999</southBoundLatitude>
+          <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.363535022" miny="-2441910.274965857" maxx="6236533.436577486" maxy="6660361.658521811" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -466,29 +483,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2010</Name>
         <Title>Registre parcellaire graphique (RPG) 2010</Title>
         <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2010.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -497,29 +518,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2011</Name>
         <Title>Registre parcellaire graphique (RPG) 2011</Title>
         <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2011.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -528,29 +553,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2012</Name>
         <Title>Registre parcellaire graphique (RPG) 2012</Title>
         <Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2012</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -559,29 +588,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2013</Name>
         <Title>Registre parcellaire graphique (RPG) 2013</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -590,29 +623,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2014</Name>
         <Title>Registre parcellaire graphique (RPG) 2014</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -621,29 +658,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2015</Name>
         <Title>Registre parcellaire graphique 2015</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -652,29 +693,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2016</Name>
         <Title>Registre parcellaire graphique 2016</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -683,29 +728,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2017</Name>
         <Title> Registre parcellaire graphique 2017</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017.</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -714,29 +763,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2018</Name>
         <Title>Registre parcellaire graphique 2018</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -745,29 +798,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2019</Name>
         <Title>Registre parcellaire graphique 2019</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019</Abstract>
+        <KeywordList>
+          <Keyword>Usages des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -776,29 +833,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2020</Name>
         <Title>Registre parcellaire graphique 2020</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020</Abstract>
+        <KeywordList>
+          <Keyword>Usages des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -807,29 +868,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2021</Name>
         <Title>Registre parcellaire graphique 2021</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021</Abstract>
+        <KeywordList>
+          <Keyword>Usages des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -838,29 +903,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2022</Name>
         <Title>Registre parcellaire graphique 2022</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
+        <KeywordList>
+          <Keyword>Usages des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
           <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -869,29 +938,33 @@
           <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE2023</Name>
         <Title>Registre parcellaire graphique 2023</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
           <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.430296729" miny="-2448680.002491324" maxx="6225642.710155538" maxy="6676687.391409849" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -900,29 +973,34 @@
           <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>PRAIRIES.SENSIBLES.BCAE</Name>
         <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>
         <Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE.</Abstract>
+        <KeywordList>
+          <Keyword>bcae</Keyword>
+          <Keyword>prairie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.15047</westBoundLongitude>
-          <eastBoundLongitude>9.57054</eastBoundLongitude>
-          <southBoundLatitude>41.3252</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
+          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
+          <southBoundLatitude>41.325209639999997</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -931,11 +1009,11 @@
           <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
     </Layer>
   </Capability>

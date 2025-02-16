@@ -2,20 +2,15 @@
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
-    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>WMS</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>TMS</ows:Keyword>
-    </ows:Keywords>
+    <ows:Abstract>Ce service diffuse les données WMTS-TMS publiques de la Géoplateforme</ows:Abstract>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ROK4 Team</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ProviderSite xlink:href="https://cartes.gouv.fr/" />
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName />
@@ -25,12 +20,12 @@
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City />
+          <ows:DeliveryPoint>73 Avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode />
-          <ows:Country />
-          <ows:ElectronicMailAddress />
+          <ows:PostalCode>94165</ows:PostalCode>
+          <ows:Country>France</ows:Country>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -39,7 +34,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -52,7 +47,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -65,7 +60,7 @@
     <ows:Operation name="GetFeatureInfo">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -80,14 +75,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle - zones construites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt;</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -181,14 +179,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2002 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2002</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2002</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -282,14 +283,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2011 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2011</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2011</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -383,14 +387,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2014 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2014</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -484,14 +491,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2016 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2016</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -585,14 +595,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2017 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).&lt;/br&gt;</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -686,14 +699,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2019 - zones contruites</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG). Source : IGN - 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.291052 43.3043</ows:LowerCorner>
         <ows:UpperCorner>1.2122 44.0864</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.CONSTRUCTIONS.2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -787,14 +803,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -888,14 +907,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2002 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2002</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2002</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -989,14 +1011,17 @@
     <Layer>
       <ows:Title>OCS GE 2010 - couvertures</ows:Title>
       <ows:Abstract>Occupation du sol grande échelle 2010 - couvertures</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2010</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données Brutes</ows:Title>
-        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+      <Style>
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1090,14 +1115,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2011 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2011</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2011</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1191,14 +1219,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2014 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2014</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1292,14 +1323,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2016 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2016</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1393,14 +1427,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2017 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2017</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1494,14 +1531,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2019 - couverture</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG). Source : IGN - 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol </ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.291052 43.3043</ows:LowerCorner>
         <ows:UpperCorner>1.2122 44.0864</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.COUVERTURE.2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1510,9 +1550,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1600,14 +1639,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1701,14 +1743,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2002 - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2002</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2002</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1802,14 +1847,17 @@
     <Layer>
       <ows:Title>OCS GE 2010 - usages</ows:Title>
       <ows:Abstract>Occupation du sol grande échelle 2010 - usages</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2010</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données Brutes</ows:Title>
-        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+      <Style>
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1903,14 +1951,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2011 - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2011</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2011</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2004,14 +2055,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2014 - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2014</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.13902 41.366</ows:LowerCorner>
         <ows:UpperCorner>9.55982 51.089</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2105,14 +2159,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2016 - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt; Source : IGN - 2016</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2206,14 +2263,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2017 - usage </ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).&lt;/br&gt;</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.6644 14.2395</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2307,14 +2367,17 @@
     <Layer>
       <ows:Title>Occupation du sol grande échelle 2019 - usage</ows:Title>
       <ows:Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG) Source : IGN - 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.291052 43.3043</ows:LowerCorner>
         <ows:UpperCorner>1.2122 44.0864</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.USAGE.2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2323,9 +2386,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2413,14 +2475,17 @@
     <Layer>
       <ows:Title>Visualisation OCSGE 2016</ows:Title>
       <ows:Abstract>Résultat IA aggloméré à l'ortho 2016</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.318517 43.2815</ows:LowerCorner>
         <ows:UpperCorner>1.22575 44.0543</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.VISU.2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2528,14 +2593,17 @@
     <Layer>
       <ows:Title>Visualisation OCSGE 2019</ows:Title>
       <ows:Abstract>Résultat IA aggloméré à l'ortho 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>occupation du sol</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-0.321664 43.2815</ows:LowerCorner>
         <ows:UpperCorner>1.22575 44.1082</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>OCSGE.VISU.2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -3158,6 +3226,145 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>12600</MatrixWidth>
         <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_10cm_6_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>11702857.1428571445321722</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>13</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>5851428.5714285722660861</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>26</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2925714.2857142861330431</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7</MatrixWidth>
+        <MatrixHeight>52</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1462857.1428571430665215</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>13</MatrixWidth>
+        <MatrixHeight>103</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25</MatrixWidth>
+        <MatrixHeight>206</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>50</MatrixWidth>
+        <MatrixHeight>411</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>99</MatrixWidth>
+        <MatrixHeight>822</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>197</MatrixWidth>
+        <MatrixHeight>1643</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

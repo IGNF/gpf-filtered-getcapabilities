@@ -2,20 +2,15 @@
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>WMS/WMTS/TMS server</ows:Title>
-    <ows:Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>WMS</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>TMS</ows:Keyword>
-    </ows:Keywords>
+    <ows:Abstract>Ce service diffuse les données WMTS-TMS publiques de la Géoplateforme</ows:Abstract>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ROK4 Team</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://github.com/rok4/documentation" />
+    <ows:ProviderSite xlink:href="https://cartes.gouv.fr/" />
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName />
@@ -25,12 +20,12 @@
           <ows:Facsimile />
         </ows:Phone>
         <ows:Address>
-          <ows:DeliveryPoint />
-          <ows:City />
+          <ows:DeliveryPoint>73 Avenue de Paris</ows:DeliveryPoint>
+          <ows:City>SAINT-MANDÉ Cedex</ows:City>
           <ows:AdministrativeArea />
-          <ows:PostalCode />
-          <ows:Country />
-          <ows:ElectronicMailAddress />
+          <ows:PostalCode>94165</ows:PostalCode>
+          <ows:Country>France</ows:Country>
+          <ows:ElectronicMailAddress>geoplateforme@ign.fr</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -39,7 +34,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -52,7 +47,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -65,7 +60,7 @@
     <ows:Operation name="GetFeatureInfo">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wmts">
+          <ows:Get xlink:href="https://data.geopf.fr/wmts?SERVICE=WMTS&amp;">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>KVP</ows:Value>
@@ -80,14 +75,22 @@
     <Layer>
       <ows:Title>Carte des pentes pour l'agriculture sur la métropole</ows:Title>
       <ows:Abstract>Carte des zones ayant une valeur de pente supérieure à 10% - source : RGEALTI 2017 au pas de 5m - disponible jusqu'au 1/17062 - métropole uniquement - mise à jour le 12/10/2017</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>agriculture</ows:Keyword>
+        <ows:Keyword>seuil</ows:Keyword>
+        <ows:Keyword>pente</ows:Keyword>
+        <ows:Keyword>pac</ows:Keyword>
+        <ows:Keyword>erosion</ows:Keyword>
+        <ows:Keyword>labour</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.1614 -21.5446</ows:LowerCorner>
         <ows:UpperCorner>56.0018 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -95,8 +98,8 @@
         <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Style>
-        <ows:Title>Données GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</ows:Title>
-        <ows:Abstract>Style et légende associés au flux SLOPES.PAC</ows:Abstract>
+        <Title>Données GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC</Title>
+        <Abstract>Style et légende associés au flux SLOPES.PAC</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -225,14 +228,17 @@
     <Layer>
       <ows:Title>Cours d'eau BCAE dernière édition</ows:Title>
       <ows:Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 décembre 2024. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>BCAE</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>HYDROGRAPHY.BCAE.LATEST</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -333,14 +339,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG)</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants édition 2023-01-01</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE.LATEST</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données Brutes</ows:Title>
-        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+      <Style>
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -349,9 +358,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -439,14 +447,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2007</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2007.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.2635 -21.419</ows:LowerCorner>
         <ows:UpperCorner>56.0237 51.2203</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2007</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -540,14 +551,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2008</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2008.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.2635 -21.419</ows:LowerCorner>
         <ows:UpperCorner>56.0237 51.2203</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2008</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -641,14 +655,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2009</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2009.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.2635 -21.419</ows:LowerCorner>
         <ows:UpperCorner>56.0237 51.2203</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2009</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -742,14 +759,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2010</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2010.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2010</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -758,9 +778,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -848,14 +867,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2011</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2011.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2011</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -864,9 +886,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -954,14 +975,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2012</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de culture déclarées par les exploitants en 2012</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2012</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -970,9 +994,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_0_16</TileMatrixSet>
@@ -1102,14 +1125,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2013</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2013</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1118,9 +1144,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_0_16</TileMatrixSet>
@@ -1250,14 +1275,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique (RPG) 2014</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2014</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1266,9 +1294,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_0_16</TileMatrixSet>
@@ -1398,14 +1425,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2015</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2015</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1414,9 +1444,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1504,14 +1533,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2016</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2016</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1520,9 +1552,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1610,14 +1641,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2017</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2017</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1626,9 +1660,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1716,14 +1749,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2018</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usage des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2018</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1732,9 +1768,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1822,14 +1857,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2019</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usage de sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2019</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1838,9 +1876,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -1928,14 +1965,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2020</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2020</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1944,9 +1984,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2034,14 +2073,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2021</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2021</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
+      <Style>
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2050,9 +2092,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2140,14 +2181,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2022</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2022</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données Brutes</ows:Title>
-        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+      <Style>
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2156,9 +2200,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2246,14 +2289,17 @@
     <Layer>
       <ows:Title>Registre parcellaire graphique 2023</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usage des sols</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDUSE.AGRICULTURE2023</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données Brutes</ows:Title>
-        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
+      <Style>
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2262,9 +2308,8 @@
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>application/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
@@ -2352,14 +2397,18 @@
     <Layer>
       <ows:Title>Préservation des prairies et pâturages permanents en zone Natura 2000</ows:Title>
       <ows:Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>bcae</ows:Keyword>
+        <ows:Keyword>prairie</ows:Keyword>
+      </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PRAIRIES.SENSIBLES.BCAE</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Données sans légende</ows:Title>
-        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
+      <Style>
+        <Title>Données sans légende</Title>
+        <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -2968,6 +3017,145 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>12600</MatrixWidth>
         <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_10cm_6_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>11702857.1428571445321722</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>13</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>5851428.5714285722660861</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>26</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2925714.2857142861330431</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7</MatrixWidth>
+        <MatrixHeight>52</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1462857.1428571430665215</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>13</MatrixWidth>
+        <MatrixHeight>103</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25</MatrixWidth>
+        <MatrixHeight>206</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>50</MatrixWidth>
+        <MatrixHeight>411</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>99</MatrixWidth>
+        <MatrixHeight>822</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>197</MatrixWidth>
+        <MatrixHeight>1643</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

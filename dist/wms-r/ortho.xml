@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
-    <Name>WMS service</Name>
-    <Title>WMS/WMTS/TMS server</Title>
-    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
-    <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>WMTS</Keyword>
-      <Keyword>TMS</Keyword>
-    </KeywordList>
-    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <Name>WMS</Name>
+    <Title>Service WMS Raster public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
@@ -18,18 +13,18 @@
       <ContactPosition />
       <ContactAddress>
         <AddressType />
-        <Address />
-        <City />
+        <Address>73 avenue de Paris</Address>
+        <City>SAINT-MANDÉ Cedex</City>
         <StateOrProvince />
-        <PostCode />
-        <Country />
+        <PostCode>94165</PostCode>
+        <Country>France</Country>
       </ContactAddress>
       <ContactVoiceTelephone />
       <ContactFacsimileTelephone />
-      <ContactElectronicMailAddress />
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>none</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>9660</MaxWidth>
     <MaxHeight>9660</MaxHeight>
@@ -41,7 +36,7 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -55,21 +50,20 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
       </GetMap>
       <GetFeatureInfo>
         <Format>text/plain</Format>
-        <Format>text/html</Format>
         <Format>text/xml</Format>
-        <Format>application/xml</Format>
+        <Format>text/html</Format>
         <Format>application/json</Format>
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -130,11 +124,10 @@
       <CRS>IGNF:GUAD48UTM20</CRS>
       <CRS>IGNF:GUADANNUTM20</CRS>
       <CRS>EPSG:2971</CRS>
-      <CRS>IGNF:C67IG95UTM22</CRS>
       <CRS>IGNF:CSG67UTM22</CRS>
       <CRS>EPSG:2972</CRS>
-      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>EPSG:2973</CRS>
       <CRS>IGNF:MART38UTM20</CRS>
       <CRS>IGNF:MARTFDUTM20</CRS>
@@ -193,17 +186,15 @@
       <CRS>EPSG:3298</CRS>
       <CRS>IGNF:RGPFUTM7S</CRS>
       <CRS>EPSG:3302</CRS>
-      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>EPSG:3303</CRS>
       <CRS>EPSG:3304</CRS>
       <CRS>IGNF:TAHI79UTM6S</CRS>
       <CRS>EPSG:3305</CRS>
       <CRS>EPSG:3306</CRS>
-      <CRS>IGNF:MAUPITIUTM5S</CRS>
       <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
-      <CRS>IGNF:WGS84WMSV</CRS>
       <CRS>EPSG:3942</CRS>
       <CRS>IGNF:RGF93CC42</CRS>
       <CRS>EPSG:3943</CRS>
@@ -228,7 +219,6 @@
       <CRS>EPSG:4275</CRS>
       <CRS>EPSG:4326</CRS>
       <CRS>EPSG:4463</CRS>
-      <CRS>IGNF:RGSPM06G</CRS>
       <CRS>EPSG:4467</CRS>
       <CRS>IGNF:RGSPM06U21</CRS>
       <CRS>EPSG:4470</CRS>
@@ -240,7 +230,6 @@
       <CRS>EPSG:4622</CRS>
       <CRS>EPSG:4623</CRS>
       <CRS>EPSG:4624</CRS>
-      <CRS>IGNF:RGFG95G</CRS>
       <CRS>EPSG:4625</CRS>
       <CRS>EPSG:4626</CRS>
       <CRS>EPSG:4627</CRS>
@@ -266,7 +255,6 @@
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
       <CRS>EPSG:5490</CRS>
-      <CRS>IGNF:RGAF09UTM20</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -285,24 +273,28 @@
         <southBoundLatitude>-90</southBoundLatitude>
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
-      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
+      <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer queryable="1">
         <Name>HR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Ortho 20 cm</Title>
         <Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets. </Abstract>
+        <KeywordList>
+          <Keyword>Photographies</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -311,29 +303,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS</Name>
         <Title>Zones interdites à la captation aérienne des données</Title>
         <Abstract>Zones interdites à la captation aérienne des données (ZICAD) fixées par voie d'arrêté (arrêté du 26 juin 2024 fixant la liste des zones interdites à la prise de vue aérienne par appareil photographique, cinématographique ou tout autre capteur). Édition : 2024-10-01</Abstract>
+        <KeywordList>
+          <Keyword>ZIPVA</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.309</westBoundLongitude>
-          <eastBoundLongitude>168.298</eastBoundLongitude>
-          <southBoundLatitude>-22.9723</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-178.30925077000001</westBoundLongitude>
+          <eastBoundLongitude>168.29811083999999</eastBoundLongitude>
+          <southBoundLatitude>-22.97230716</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" miny="-2628670.000403985" maxx="18734860.000178713" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" maxx="18734860.000178713" miny="-2628670.0004039854" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -342,29 +338,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Photographies aériennes</Title>
         <Abstract>Photographies aériennes</Abstract>
+        <KeywordList>
+          <Keyword>Photographies</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -373,52 +373,60 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>266.591197981</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>266.59119798122282</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO</Name>
         <Title>Ortho 50 cm</Title>
         <Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert.</Abstract>
+        <KeywordList>
+          <Keyword>bdortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC</Name>
         <Title>BDORTHO en infrarouge fausses couleurs</Title>
         <Abstract>BDORTHO en infrarouge fausses couleurs </Abstract>
+        <KeywordList>
+          <Keyword>IRC</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180</westBoundLongitude>
           <eastBoundLongitude>180</eastBoundLongitude>
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" miny="-15538711.096309224" maxx="20037508.342789244" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -427,29 +435,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023</Name>
         <Title>ortho-express IRC 2023</Title>
         <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <KeywordList>
+          <Keyword>IRC</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -458,29 +470,34 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024</Name>
         <Title>Ortho-express IRC 2024</Title>
         <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <KeywordList>
+          <Keyword>ortho-express</Keyword>
+          <Keyword>ortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -489,29 +506,34 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024</Name>
         <Title>ORTHO-ASP_PAC2024</Title>
         <Abstract>ortho ASP PAC 2024</Abstract>
+        <KeywordList>
+          <Keyword>PAC 2024</Keyword>
+          <Keyword>bdortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://agriculture.gouv.fr/" />
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
           <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" />
+            <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -520,29 +542,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>2132.729583850</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023</Name>
         <Title>ortho-express 2023</Title>
         <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <KeywordList>
+          <Keyword>ortho-express</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -551,29 +577,34 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2024</Name>
         <Title>Ortho-express 2024</Title>
         <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <KeywordList>
+          <Keyword>ortho-express</Keyword>
+          <Keyword>ortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.5</westBoundLongitude>
-          <eastBoundLongitude>179.5</eastBoundLongitude>
-          <southBoundLatitude>-75</southBoundLatitude>
-          <northBoundLatitude>75</northBoundLatitude>
+          <westBoundLongitude>-179.49999463</westBoundLongitude>
+          <eastBoundLongitude>179.49999463</eastBoundLongitude>
+          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
+          <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" miny="-12932243.000164609" maxx="19981847.999606941" maxy="12932243.000164600" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -582,29 +613,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.364791925</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.028717875</MaxScaleDenominator>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.TPM.OMBRES</Name>
         <Title>Orthophotographies PCRS TPM traitement ombre</Title>
         <Abstract>Orthophotographies très haute résolution avec traitements sur les ombres sur la communauté d'agglomérations de Toulon Provence Méditerrannée. Diffusion limitée.</Abstract>
+        <KeywordList>
+          <Keyword>ortho</Keyword>
+        </KeywordList>
+        <CRS>IGNF:LAMB93</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>5.74439</westBoundLongitude>
-          <eastBoundLongitude>6.53881</eastBoundLongitude>
-          <southBoundLatitude>42.9604</southBoundLatitude>
-          <northBoundLatitude>43.2474</northBoundLatitude>
+          <westBoundLongitude>5.7443867400000004</westBoundLongitude>
+          <eastBoundLongitude>6.5388050599999996</eastBoundLongitude>
+          <southBoundLatitude>42.96042963</southBoundLatitude>
+          <northBoundLatitude>43.247394540000002</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="IGNF:LAMB93" minx="922979.011129579" miny="6210678.264465539" maxx="988915.841217765" maxy="6245120.969551470" />
+        <BoundingBox CRS="IGNF:LAMB93" minx="922979.01112957881" maxx="988915.84121776547" miny="6210678.2644655388" maxy="6245120.9695514701" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -613,26 +648,31 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>178.571428571</MinScaleDenominator>
-        <MaxScaleDenominator>365714.285714286</MaxScaleDenominator>
+        <MinScaleDenominator>178.57142857142856</MinScaleDenominator>
+        <MaxScaleDenominator>365714.28571428568</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PCRS.LAMB93</Name>
         <Title>PCRS</Title>
         <Abstract>Données du Plan Corps de Rue Simplifié</Abstract>
+        <KeywordList>
+          <Keyword>PCRS</Keyword>
+          <Keyword>Raster</Keyword>
+        </KeywordList>
+        <CRS>EPSG:2154</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-5</westBoundLongitude>
           <eastBoundLongitude>10</eastBoundLongitude>
           <southBoundLatitude>40</southBoundLatitude>
           <northBoundLatitude>52</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:2154" minx="14409.692309676" miny="5877034.141047161" maxx="1300132.244088568" maxy="7239966.249635384" />
+        <BoundingBox CRS="EPSG:2154" minx="14409.692309675855" maxx="1300132.2440885678" miny="5877034.1410471611" maxy="7239966.2496353844" />
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" />
+          <OnlineResource xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -640,34 +680,38 @@
           <Abstract>Données brutes sans changement de palette</Abstract>
           <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="http://ign.fr" />
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>178.571428571</MinScaleDenominator>
+        <MinScaleDenominator>178.57142857142856</MinScaleDenominator>
         <MaxScaleDenominator>11702857.142857142</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>THR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Photographies aériennes très haute résolution</Title>
         <Abstract>Orthophotographies aériennes d'une résolution de 10cm à 5cm selon disponibilité.</Abstract>
+        <KeywordList>
+          <Keyword>Orthos</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>0.0354912</westBoundLongitude>
-          <eastBoundLongitude>6.02353</eastBoundLongitude>
-          <southBoundLatitude>43.1533</southBoundLatitude>
-          <northBoundLatitude>49.6969</northBoundLatitude>
+          <westBoundLongitude>0.035491219999999997</westBoundLongitude>
+          <eastBoundLongitude>6.0235265199999999</eastBoundLongitude>
+          <southBoundLatitude>43.15334876</southBoundLatitude>
+          <northBoundLatitude>49.696926619999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="3950.864538032" miny="5335342.296170763" maxx="670535.904986179" maxy="6393953.372811806" />
+        <BoundingBox CRS="EPSG:3857" minx="3950.8645380320463" maxx="670535.9049861792" miny="5335342.2961707627" maxy="6393953.3728118064" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>266.591197981</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>266.59119798122282</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
     </Layer>
   </Capability>

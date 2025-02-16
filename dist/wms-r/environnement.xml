@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
-    <Name>WMS service</Name>
-    <Title>WMS/WMTS/TMS server</Title>
-    <Abstract>This server provide WMS, WMTS and TMS raster and vector data broadcast</Abstract>
-    <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>WMTS</Keyword>
-      <Keyword>TMS</Keyword>
-    </KeywordList>
-    <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" />
+    <Name>WMS</Name>
+    <Title>Service WMS Raster public de la Géoplateforme</Title>
+    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
@@ -18,18 +13,18 @@
       <ContactPosition />
       <ContactAddress>
         <AddressType />
-        <Address />
-        <City />
+        <Address>73 avenue de Paris</Address>
+        <City>SAINT-MANDÉ Cedex</City>
         <StateOrProvince />
-        <PostCode />
-        <Country />
+        <PostCode>94165</PostCode>
+        <Country>France</Country>
       </ContactAddress>
       <ContactVoiceTelephone />
       <ContactFacsimileTelephone />
-      <ContactElectronicMailAddress />
+      <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>none</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>9660</MaxWidth>
     <MaxHeight>9660</MaxHeight>
@@ -41,7 +36,7 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -55,21 +50,20 @@
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
       </GetMap>
       <GetFeatureInfo>
         <Format>text/plain</Format>
-        <Format>text/html</Format>
         <Format>text/xml</Format>
-        <Format>application/xml</Format>
+        <Format>text/html</Format>
         <Format>application/json</Format>
         <DCPType>
           <HTTP>
             <Get>
-              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms" xlink:type="simple" />
+              <OnlineResource xlink:href="https://data.geopf.fr/wms-r/wms?SERVICE=WMS&amp;" xlink:type="simple" />
             </Get>
           </HTTP>
         </DCPType>
@@ -130,11 +124,10 @@
       <CRS>IGNF:GUAD48UTM20</CRS>
       <CRS>IGNF:GUADANNUTM20</CRS>
       <CRS>EPSG:2971</CRS>
-      <CRS>IGNF:C67IG95UTM22</CRS>
       <CRS>IGNF:CSG67UTM22</CRS>
       <CRS>EPSG:2972</CRS>
-      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>IGNF:UTM22RGFG95</CRS>
+      <CRS>IGNF:RGFG95UTM22</CRS>
       <CRS>EPSG:2973</CRS>
       <CRS>IGNF:MART38UTM20</CRS>
       <CRS>IGNF:MARTFDUTM20</CRS>
@@ -193,17 +186,15 @@
       <CRS>EPSG:3298</CRS>
       <CRS>IGNF:RGPFUTM7S</CRS>
       <CRS>EPSG:3302</CRS>
-      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>IGNF:IGN63UTM7S</CRS>
+      <CRS>IGNF:ATUO63UTM7S</CRS>
       <CRS>EPSG:3303</CRS>
       <CRS>EPSG:3304</CRS>
       <CRS>IGNF:TAHI79UTM6S</CRS>
       <CRS>EPSG:3305</CRS>
       <CRS>EPSG:3306</CRS>
-      <CRS>IGNF:MAUPITIUTM5S</CRS>
       <CRS>EPSG:3727</CRS>
       <CRS>EPSG:3857</CRS>
-      <CRS>IGNF:WGS84WMSV</CRS>
       <CRS>EPSG:3942</CRS>
       <CRS>IGNF:RGF93CC42</CRS>
       <CRS>EPSG:3943</CRS>
@@ -228,7 +219,6 @@
       <CRS>EPSG:4275</CRS>
       <CRS>EPSG:4326</CRS>
       <CRS>EPSG:4463</CRS>
-      <CRS>IGNF:RGSPM06G</CRS>
       <CRS>EPSG:4467</CRS>
       <CRS>IGNF:RGSPM06U21</CRS>
       <CRS>EPSG:4470</CRS>
@@ -240,7 +230,6 @@
       <CRS>EPSG:4622</CRS>
       <CRS>EPSG:4623</CRS>
       <CRS>EPSG:4624</CRS>
-      <CRS>IGNF:RGFG95G</CRS>
       <CRS>EPSG:4625</CRS>
       <CRS>EPSG:4626</CRS>
       <CRS>EPSG:4627</CRS>
@@ -266,7 +255,6 @@
       <CRS>EPSG:4749</CRS>
       <CRS>EPSG:4807</CRS>
       <CRS>EPSG:5490</CRS>
-      <CRS>IGNF:RGAF09UTM20</CRS>
       <CRS>IGNF:CSG67GEO</CRS>
       <CRS>IGNF:GUAD48GEO</CRS>
       <CRS>IGNF:GUADFM49GEO</CRS>
@@ -285,24 +273,28 @@
         <southBoundLatitude>-90</southBoundLatitude>
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
-      <BoundingBox CRS="CRS:84" minx="-180" miny="-90" maxx="180" maxy="90" />
+      <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer queryable="1">
         <Name>FORETS.PUBLIQUES</Name>
         <Title>Forêts publiques</Title>
         <Abstract>Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d'établissements publics) gérées par l'Office national des forêts (ONF).</Abstract>
+        <KeywordList>
+          <Keyword>FORETS</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Office National des Forêts (ONF)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.onf.fr" />
+          <OnlineResource xlink:href="http://www.onf.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/onf.gif" />
+            <OnlineResource xlink:href="http://www.onf.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -311,29 +303,33 @@
           <Abstract>Légende des forêts publiques ONF</Abstract>
           <LegendURL width="302" height="78">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/onf_forets_publiques.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/onf_forets_publiques.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>69885283.003589630</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>69885283.00358963</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>GEOGRAPHICALGRIDSYSTEM.DFCI</Name>
         <Title>Carroyage DFCI</Title>
         <Abstract>Le « carroyage DFCI » est un système de maillage géographique utilisé en France par les acteurs de la Défense des Forêts Contre les Incendies (DFCI). Le territoire métropolitain est couvert par des carrés de 100 km de côté, identifiables par deux lettres. Chaque carré de 100 km est divisé en 25 carrés de 20 km de côté, numérotés par des chiffres pairs de 0 à 8. Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. L'unité élémentaire est un carreau de 2 kilomètres de côté, défini par 6 caractères (exemple : KD42F7). Pour désigner un point à l'intérieur de l'unité élémentaire, la précision est obtenue en découpant ce carré en cinq zones numérotées de 1 à 5. Il a été créé sur une grille qui s'appuie sur la projection Lambert II étendue. Depuis 2009, il est re-projeté en Lambert 93 avec une légère déformation des angles et des surfaces. Carroyage DFCI (2 km) : Chaque carré de 20 km est divisé en 100 carrés de 2 km de côté, numérotés par un groupe composé d'une lettre et d'un chiffre. Les carrés de 2 km sont dénommés de A à L (sauf I et J) pour les abscisses, et numérotés de 0 à 9 pour les ordonnées. Date des données : 7 juin 2016 Source : couches 100, 50, 20 et 2 km : Entente Valablre - PôNT, couche 1 km : avec l'aimable autorisation de Geonov (www.geonov.fr)</Abstract>
+        <KeywordList>
+          <Keyword>DFCI</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.15047</westBoundLongitude>
-          <eastBoundLongitude>9.57054</eastBoundLongitude>
-          <southBoundLatitude>41.3252</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
+          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
+          <southBoundLatitude>41.325209639999997</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Établissement public pour la préservation et la lutte face aux risques naturels majeurs</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.valabre.com" />
+          <OnlineResource xlink:href="https://www.valabre.com" xlink:type="simple" />
           <LogoURL width="1772" height="1063">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/valabre.png" />
+            <OnlineResource xlink:href="https://www.valabre.com" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -342,29 +338,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>LANDCOVER.FORESTINVENTORY.V1</Name>
         <Title>BD Forêt v1 (1987-2004)</Title>
         <Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</Abstract>
+        <KeywordList>
+          <Keyword>Occupation des terres</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.15047</westBoundLongitude>
-          <eastBoundLongitude>9.57054</eastBoundLongitude>
-          <southBoundLatitude>41.3252</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
+          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
+          <southBoundLatitude>41.325209639999997</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -373,29 +373,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>LANDCOVER.FORESTINVENTORY.V2</Name>
         <Title>BD Forêt v2 (2006-2019)</Title>
         <Abstract>Localisation de 32 types de formations végétales sur le territoire. Carte en cours de réalisation depuis 2006.</Abstract>
+        <KeywordList>
+          <Keyword>Forêt</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.15047</westBoundLongitude>
-          <eastBoundLongitude>9.57054</eastBoundLongitude>
-          <southBoundLatitude>41.3252</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
+          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
+          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
+          <southBoundLatitude>41.325209639999997</southBoundLatitude>
+          <northBoundLatitude>51.099054180000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.000535047" miny="5060429.000568376" maxx="1065388.000091807" maxy="6638833.999242652" />
+        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
           <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+            <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -404,29 +408,33 @@
           <Abstract>Style et légende associés au flux LANDCOVER.FORESTINVENTORY.V2</Abstract>
           <LegendURL width="300" height="69">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.APB</Name>
         <Title>Biotopes d'espèces protégées</Title>
         <Abstract>Conservation de l'habitat d'espèces protégées. Outil réglementaires de niveau départemental. mise à jour 04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -435,29 +443,33 @@
           <Abstract>Légende APB</Abstract>
           <LegendURL width="300" height="71">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.APG</Name>
         <Title>Arrêtés de protection de géotope</Title>
         <Abstract>Sites d'intérêt géologique faisant l'objet d’une interdiction de destruction, d'altération ou de dégradation du site, ainsi que de prélèvement, de destruction ou de dégradation de fossiles, minéraux et concrétions présents sur ces sites appelés « aires de protection de géotope».</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -466,29 +478,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.APHN</Name>
         <Title>Arrêtés de protection d’habitats naturels</Title>
         <Abstract>Dispositif visant à protéger un habitat naturel (récif corallien, tourbière, prairie, etc.) en tant que tel, sans qu'il soit besoin d'établir qu'il constitue par ailleurs un habitat d'espèces protégées. Mise à jour 04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>82.645006140000007</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700000003</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="9200000.000111768" miny="-7099999.9998455187" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -497,29 +513,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>PROTECTEDAREAS.APLG</Name>
         <Title>Arrêtés listes de sites d'intérêt géologique</Title>
         <Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</Abstract>
+        <KeywordList>
+          <Keyword>geologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>82.645006140000007</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700000003</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="9200000.000111768" miny="-7099999.9998455187" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -528,29 +548,33 @@
           <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.BIOS</Name>
         <Title>Réserves de biosphère</Title>
         <Abstract>Réserves naturelles reconnues par le Programme sur l'Homme et la Biosphère créé par l'Unesco. 09-2022</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -559,29 +583,33 @@
           <Abstract>Légende BIOS</Abstract>
           <LegendURL width="300" height="95">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.BIOS-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.BIOS-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.GP</Name>
         <Title>Géoparcs</Title>
         <Abstract>Les géoparcs mondiaux UNESCO sont des espaces géographiques unifiés, où les sites et paysages de portée géologique internationale sont gérés selon un concept global de protection, d’éducation et de développement durable</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -590,29 +618,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.INPG</Name>
         <Title>Inventaire National du Patrimoine Géologique (INPG)</Title>
         <Abstract>L'Inventaire National du Patrimoine Géologique (INPG) est un programme initié en 2007 de connaissance géologique du territoire métropolitain et outre-mer, dans lequel chaque site géologique naturel est renseigné sur une application web dédiée (InvenTerre) de façon textuelle avec une évaluation patrimoniale et une cartographie associées.</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>82.645006140000007</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700000003</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="9200000.000111768" miny="-7099999.9998455187" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -621,29 +653,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>PROTECTEDAREAS.MNHN.CDL.PARCELS</Name>
         <Title>Conservatoire du littoral - sites sous responsabilité du conservatoire</Title>
         <Abstract>Les sites du conservatoire du littoral ont pour vocation la sauvegarde des espaces côtiers et lacustres. Leur accès au public est encouragé mais reste défini dans des limites compatibles avec la vulnérabilité de chaque site</Abstract>
+        <KeywordList>
+          <Keyword>Littoral</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Conservatoire du littoral</Title>
-          <OnlineResource xlink:type="simple" xlink:href="https://www.conservatoire-du-littoral.fr/" />
+          <OnlineResource xlink:href="https://www.conservatoire-du-littoral.fr/" xlink:type="simple" />
           <LogoURL width="430" height="117">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/conserv_litto.png" />
+            <OnlineResource xlink:href="https://www.conservatoire-du-littoral.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -652,29 +688,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.MNHN.CONSERVATOIRES</Name>
         <Title>Terrains des conservatoires d'espaces naturels</Title>
         <Abstract>Les conservatoires d'espaces naturels organisent la maîtrise foncière de terrains en vue d'assurer la protection des espèces qui y résident. 05-2022</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -683,29 +723,33 @@
           <Abstract>Légende APB</Abstract>
           <LegendURL width="300" height="71">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.APB-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.PN</Name>
         <Title>Parcs nationaux</Title>
         <Abstract>Les parcs nationaux sont de vastes espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, et dont le but est à la fois de protéger des processus écologiques à large échelle et de fournir des possibilités de découverte de la nature. Mise à jour 04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -714,29 +758,33 @@
           <Abstract>Légende PN</Abstract>
           <LegendURL width="300" height="78">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PN-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PN-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.PNM</Name>
         <Title>Parcs naturels marins</Title>
         <Abstract>Zones maritimes identifiées pour leur biodiversité ou par les activités humaines faisant l'objet de protection. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -745,29 +793,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.PNR</Name>
         <Title>Parcs naturels régionaux</Title>
         <Abstract>Les parcs naturels régionaux ont pour but de valoriser de vastes espaces de fort intérêt culturel et naturel, et de veiller au développement durable de ces territoires dont le caractère rural est souvent très affirmé. 04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -776,29 +828,33 @@
           <Abstract>Légende PNR</Abstract>
           <LegendURL width="300" height="57">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PNR-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.PNR-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RAMSAR</Name>
         <Title>Zones humides d'importance internationale</Title>
         <Abstract>Un site Ramsar est un espace désigné en application de la Convention relative aux zones humides d'importance internationale, particulièrement comme habitats des oiseaux d'eau, dont le traité a été signé en 1971 sur les bords de la mer Caspienne (Iran). 16-11-2021</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -807,29 +863,33 @@
           <Abstract>Légende RAMSAR</Abstract>
           <LegendURL width="300" height="51">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.RAMSAR-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.RAMSAR-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RB</Name>
         <Title>Réserves biologiques</Title>
         <Abstract>Une réserve biologique est un espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes). Ce statut s'applique aux forêts gérées par l'Office National des Forêts et a pour but la protection d'habitats remarquables ou représentatifs. &lt;br/&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -838,29 +898,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RIPN</Name>
         <Title>Réserves Intégrales de Parcs Nationaux</Title>
         <Abstract>Au sein d'un cœur de parc national, il peut être institué une « réserve intégrale » afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore. 05-2022</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -869,29 +933,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RN</Name>
         <Title>Réserves naturelles nationales</Title>
         <Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. 04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>82.645006140000007</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700000003</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="9200000.000111768" miny="-7099999.9998455187" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -900,29 +968,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RNC</Name>
         <Title>Réserves Naturelles de Corse</Title>
         <Abstract>Les réserves naturelles sont des espaces protégés terrestres ou marins dont le patrimoine naturel est exceptionnel, tant sur le plan de la biodiversité que parfois sur celui de la géodiversité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</Abstract>
+        <KeywordList>
+          <Keyword>Biodiversité</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -931,29 +1003,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.RNCF</Name>
         <Title>Réserves nationales de chasse et de faune sauvage</Title>
         <Abstract>Les réserves nationales de chasse et de faune sauvage sont des espaces protégés terrestres ou marins dont la gestion est principalement assurée par l'Office National de la Chasse et de la Faune Sauvage.09-2022</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -962,29 +1038,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.SIC</Name>
         <Title>Sites Natura 2000 au titre de la Directive Habitats</Title>
         <Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -993,29 +1073,33 @@
           <Abstract>Légende SIC</Abstract>
           <LegendURL width="300" height="57">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.SIC-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.SIC-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.UNESCO</Name>
         <Title>Sites inscrits au patrimoine mondial de l’UNESCO (biens naturels ou mixtes)</Title>
         <Abstract>Un bien naturel ou mixte (naturel et culturel) inscrit au patrimoine mondial de l'UNESCO est un espace qui, du fait de sa valeur patrimoniale exceptionnelle, est considéré comme héritage commun de l'humanité. &lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1024,29 +1108,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZNIEFF1</Name>
         <Title>Zones écologiques de nature remarquable (ZNIEFF1)</Title>
         <Abstract>Inventaire des espaces naturels abritant la nature remarquable 09-2022</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1055,29 +1143,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZNIEFF1.SEA</Name>
         <Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type I</Title>
         <Abstract>Espaces marin homogènes d’un point de vue écologique abritant au moins une espèce ou un habitat rare ou menacé, d’intérêt local ou régional, national ou communautaire. Espaces marin d’intérêt fonctionnel pour le fonctionnement écologique local.</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1086,29 +1178,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZNIEFF2</Name>
         <Title>Zones fonctionnelles de nature remarquable (ZNIEFF2)</Title>
         <Abstract>Inventaire des espaces fonctionnels indispensables à la nature remarquable.&lt;/br&gt;&lt;a href="https://data.geopf.fr/annexes/ressources/fiches/mnhn/actualite_donnees_mnhn.pdf" alt="Date des données" target="_blank"&gt;Date des données&lt;/a&gt;</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1117,29 +1213,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZNIEFF2.SEA</Name>
         <Title>Zones naturelles d’intérêt écologique faunistique et floristique (ZNIEFF) marine type II</Title>
         <Abstract>Grands ensembles naturels ou peu modifiés marin offrant des potentialités biologiques importantes.</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1148,29 +1248,33 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZPR</Name>
         <Title>Zones de protection renforcée </Title>
         <Abstract>L'arrêté préfectoral fixant la liste départementale de sites d'intérêt géologique est un outil règlementaire qui vise à protéger, par des mesures générales, les sites géologiques qui sont mentionnés en son sein. Il s'agit d'un des deux outils mis en place par le décret du 28 décembre 2015 codifié aux articles R.411-17-1 et 17-2 du code de l'environnement et précisé par la Note du 1er décembre 2016 relative à la protection des sites d'intérêt géologique</Abstract>
+        <KeywordList>
+          <Keyword>protection</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>82.645</eastBoundLongitude>
-          <southBoundLatitude>-53.6279</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>82.645006140000007</eastBoundLongitude>
+          <southBoundLatitude>-53.627912700000003</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-7099999.999845519" maxx="9200000.000111768" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="9200000.000111768" miny="-7099999.9998455187" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1179,29 +1283,33 @@
           <Abstract>Sans aucun fichier de légende</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDAREAS.ZPS</Name>
         <Title>Sites NATURA 2000 au titre de la Directive Oiseaux</Title>
         <Abstract>Le réseau Natura 2000 s'inscrit au coeur de la politique de conservation de la nature de l'Union européenne et est un élément clé de l'objectif visant à enrayer l'érosion de la biodiversité.04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Ecologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1210,29 +1318,33 @@
           <Abstract>Légende ZPS</Abstract>
           <LegendURL width="300" height="57">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.ZPS-legend.png" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PROTECTEDAREAS.ZPS-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
         <Name>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</Name>
         <Title>Réserves naturelles régionales</Title>
         <Abstract>Les réserves naturelles régionales sont gérées prioritairement à des fins de conservation de la nature. Elles sont placées sous la responsabilité exclusive des conseils régionaux.04-2023</Abstract>
+        <KeywordList>
+          <Keyword>Biodiversité</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.3725</westBoundLongitude>
-          <eastBoundLongitude>55.9259</eastBoundLongitude>
-          <southBoundLatitude>-21.4756</southBoundLatitude>
-          <northBoundLatitude>51.3121</northBoundLatitude>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.823665781" miny="-2448678.407895471" maxx="6225638.767219175" maxy="6676690.824966663" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
         <Attribution>
           <Title>Muséum national d'Histoire naturelle</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://inpn.mnhn.fr/" />
+          <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
           <LogoURL width="50" height="57">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/mnhn.gif" />
+            <OnlineResource xlink:href="http://inpn.mnhn.fr/" xlink:type="simple" />
+            <Format />
           </LogoURL>
         </Attribution>
         <Style>
@@ -1241,11 +1353,11 @@
           <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.918335399</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.375448715</MaxScaleDenominator>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
     </Layer>
   </Capability>
