@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7175" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7463" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -227,172 +227,122 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
-        <Name>BDGEODESIQUE-RGP_BDD-POI_WLD</Name>
-        <Title>Réseau GNSS permanent</Title>
-        <Abstract>Réseau de stations permanentes permettant un accès qualifié aux données d'observation des constellations de satellites de positionnement (GPS, GLONASS, Galileo …).</Abstract>
-        <KeywordList>
-          <Keyword>Sites Géodésiques</Keyword>
-        </KeywordList>
+        <Name>IGNF_GEODESIE-RBF</Name>
+        <Title>RBF</Title>
+        <Abstract>Réseau de points matérialisés dont les coordonnées, altitude et gravimétrie sont connues avec précision</Abstract>
+        <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.180792</westBoundLongitude>
-          <eastBoundLongitude>140.009732</eastBoundLongitude>
-          <southBoundLatitude>-66.68794411</southBoundLatitude>
-          <northBoundLatitude>51.81018838</northBoundLatitude>
+          <westBoundLongitude>-175.0</westBoundLongitude>
+          <eastBoundLongitude>175.0</eastBoundLongitude>
+          <southBoundLatitude>-75.0</southBoundLatitude>
+          <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
-        <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-175.0" miny="-75.0" maxx="175.0" maxy="85.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-75.0" miny="-175.0" maxx="85.0" maxy="175.0" />
         <Style>
-          <Name>default-style-BDGEODESIQUE-RGP_BDD-POI_WLD</Name>
-          <Title>BDGEODESIQUE-RGP_BDD-POI_WLD style</Title>
-          <Abstract>Default style for BDGEODESIQUE-RGP_BDD-POI_WLD layer</Abstract>
+          <Name>default-style-IGNF_GEODESIE-RBF</Name>
+          <Title>IGNF_GEODESIE-RBF style</Title>
+          <Abstract>Default style for IGNF_GEODESIE-RBF layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDGEODESIQUE-RGP_BDD-POI_WLD" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_GEODESIE-RBF" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDGEODESIQUE-RN_BDD-POI_WLD</Name>
-        <Title>Réseau de nivellement</Title>
-        <Abstract>Réseau de près de quatre-cent mille repères matérialisés répartis en mailles le long des voies de communication et dont l'altitude est déterminée avec une très grande précision.</Abstract>
-        <KeywordList>
-          <Keyword>Sites Géodésiques</Keyword>
-        </KeywordList>
+        <Name>IGNF_GEODESIE-RDF</Name>
+        <Title>RDF</Title>
+        <Abstract>Réseau de points matérialisés dont les coordonnées sont connues avec précision</Abstract>
+        <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.180792</westBoundLongitude>
-          <eastBoundLongitude>140.009732</eastBoundLongitude>
-          <southBoundLatitude>-66.68794411</southBoundLatitude>
-          <northBoundLatitude>51.81018838</northBoundLatitude>
+          <westBoundLongitude>-175.0</westBoundLongitude>
+          <eastBoundLongitude>175.0</eastBoundLongitude>
+          <southBoundLatitude>-75.0</southBoundLatitude>
+          <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
-        <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-175.0" miny="-75.0" maxx="175.0" maxy="85.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-75.0" miny="-175.0" maxx="85.0" maxy="175.0" />
         <Style>
-          <Name>default-style-BDGEODESIQUE-RN_BDD-POI_WLD</Name>
-          <Title>BDGEODESIQUE-RN_BDD-POI_WLD style</Title>
-          <Abstract>Default style for BDGEODESIQUE-RN_BDD-POI_WLD layer</Abstract>
+          <Name>default-style-IGNF_GEODESIE-RDF</Name>
+          <Title>IGNF_GEODESIE-RDF style</Title>
+          <Abstract>Default style for IGNF_GEODESIE-RDF layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDGEODESIQUE-RN_BDD-POI_WLD" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_GEODESIE-RDF" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDGEODESIQUE-SITE-RBF_BDD-POI_WLD</Name>
-        <Title>Réseau de base français (RBF)</Title>
-        <Abstract>Réseau de bornes et repères, constitué d’un millier de sites déterminés et entretenus avec exactitude en coordonnées, altitude et gravimétrie. </Abstract>
-        <KeywordList>
-          <Keyword>Sites Géodésiques</Keyword>
-        </KeywordList>
+        <Name>IGNF_GEODESIE-RGP</Name>
+        <Title>RGP</Title>
+        <Abstract>Réseau de stations permanentes permettant un accès qualifié aux données d'observation des constellations de satellites de positionnement (GPS, GLONASS, Galileo …)</Abstract>
+        <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.180792</westBoundLongitude>
-          <eastBoundLongitude>140.009732</eastBoundLongitude>
-          <southBoundLatitude>-66.68794411</southBoundLatitude>
-          <northBoundLatitude>51.81018838</northBoundLatitude>
+          <westBoundLongitude>-175.0</westBoundLongitude>
+          <eastBoundLongitude>175.0</eastBoundLongitude>
+          <southBoundLatitude>-75.0</southBoundLatitude>
+          <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
-        <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-175.0" miny="-75.0" maxx="175.0" maxy="85.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-75.0" miny="-175.0" maxx="85.0" maxy="175.0" />
         <Style>
-          <Name>default-style-BDGEODESIQUE-SITE-RBF_BDD-POI_WLD</Name>
-          <Title>BDGEODESIQUE-SITE-RBF_BDD-POI_WLD style</Title>
-          <Abstract>Default style for BDGEODESIQUE-SITE-RBF_BDD-POI_WLD layer</Abstract>
+          <Name>default-style-IGNF_GEODESIE-RGP</Name>
+          <Title>IGNF_GEODESIE-RGP style</Title>
+          <Abstract>Default style for IGNF_GEODESIE-RGP layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDGEODESIQUE-SITE-RBF_BDD-POI_WLD" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_GEODESIE-RGP" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDGEODESIQUE-SITE-RDF_BDD-POI_WLD</Name>
-        <Title>Réseau de détail français (RDF)</Title>
-        <Abstract>Réseau de bornes et repères, constitué d’environ soixante-quinze mille sites connus en coordonnées et dont seule l’information documentaire est entretenue.</Abstract>
-        <KeywordList>
-          <Keyword>Sites Géodésiques</Keyword>
-        </KeywordList>
+        <Name>IGNF_GEODESIE-RN</Name>
+        <Title>RN</Title>
+        <Abstract>Réseau de repères matérialisés répartis en mailles le long des voies de communication et dont l'altitude est déterminée avec une très grande précision.</Abstract>
+        <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.180792</westBoundLongitude>
-          <eastBoundLongitude>140.009732</eastBoundLongitude>
-          <southBoundLatitude>-66.68794411</southBoundLatitude>
-          <northBoundLatitude>51.81018838</northBoundLatitude>
+          <westBoundLongitude>-175.0</westBoundLongitude>
+          <eastBoundLongitude>175.0</eastBoundLongitude>
+          <southBoundLatitude>-75.0</southBoundLatitude>
+          <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
-        <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-175.0" miny="-75.0" maxx="175.0" maxy="85.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-75.0" miny="-175.0" maxx="85.0" maxy="175.0" />
         <Style>
-          <Name>default-style-BDGEODESIQUE-SITE-RDF_BDD-POI_WLD</Name>
-          <Title>BDGEODESIQUE-SITE-RDF_BDD-POI_WLD style</Title>
-          <Abstract>Default style for BDGEODESIQUE-SITE-RDF_BDD-POI_WLD layer</Abstract>
+          <Name>default-style-IGNF_GEODESIE-RN</Name>
+          <Title>IGNF_GEODESIE-RN style</Title>
+          <Abstract>Default style for IGNF_GEODESIE-RN layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDGEODESIQUE-SITE-RDF_BDD-POI_WLD" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_GEODESIE-RN" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>BDGEODESIQUE-TRIPLET_BDD-POI_WLD</Name>
-        <Title>Triplets de repères de nivellement</Title>
-        <Abstract>Composante du réseau de nivellement constituée de groupes d’au moins trois repères faisant l’objet d’un entretien régulier. Cette composante est en cours de constitution et comprendra environ treize mille cinq-cents triplets.</Abstract>
-        <KeywordList>
-          <Keyword>Sites Géodésiques</Keyword>
-        </KeywordList>
+        <Name>IGNF_GEODESIE-TRIPLET</Name>
+        <Title>TRIPLET</Title>
+        <Abstract>Composante du réseau de nivellement constituée de groupes d’au moins trois repères faisant l’objet d’un entretien régulier</Abstract>
+        <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-178.180792</westBoundLongitude>
-          <eastBoundLongitude>140.009732</eastBoundLongitude>
-          <southBoundLatitude>-66.68794411</southBoundLatitude>
-          <northBoundLatitude>51.81018838</northBoundLatitude>
+          <westBoundLongitude>-175.0</westBoundLongitude>
+          <eastBoundLongitude>175.0</eastBoundLongitude>
+          <southBoundLatitude>-75.0</southBoundLatitude>
+          <northBoundLatitude>85.0</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-178.180792" miny="-66.68794411" maxx="140.009732" maxy="51.81018838" />
-        <BoundingBox CRS="EPSG:4326" minx="-66.68794411" miny="-178.180792" maxx="51.81018838" maxy="140.009732" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-175.0" miny="-75.0" maxx="175.0" maxy="85.0" />
+        <BoundingBox CRS="EPSG:4326" minx="-75.0" miny="-175.0" maxx="85.0" maxy="175.0" />
         <Style>
-          <Name>default-style-BDGEODESIQUE-TRIPLET_BDD-POI_WLD</Name>
-          <Title>BDGEODESIQUE-TRIPLET_BDD-POI_WLD style</Title>
-          <Abstract>Default style for BDGEODESIQUE-TRIPLET_BDD-POI_WLD layer</Abstract>
+          <Name>default-style-IGNF_GEODESIE-TRIPLET</Name>
+          <Title>IGNF_GEODESIE-TRIPLET style</Title>
+          <Abstract>Default style for IGNF_GEODESIE-TRIPLET layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDGEODESIQUE-TRIPLET_BDD-POI_WLD" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_GEODESIE-TRIPLET" />
           </LegendURL>
         </Style>
       </Layer>
