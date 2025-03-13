@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7463" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7646" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -465,6 +465,32 @@
         </Style>
       </Layer>
       <Layer queryable="1">
+        <Name>Noms_regions</Name>
+        <Title>ADMINEXPRESS COG Noms regions</Title>
+        <Abstract>Parcellaire cadastral édition : 2024-02-22</Abstract>
+        <KeywordList>
+          <Keyword>Unités administratives</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.875</westBoundLongitude>
+          <eastBoundLongitude>55.8984375</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-61.875" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.875" maxx="51.27109375" maxy="55.8984375" />
+        <Style>
+          <Name>default-style-Noms_regions</Name>
+          <Title>Noms_regions style</Title>
+          <Abstract>Default style for Noms_regions layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=Noms_regions" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
         <Name>POI.MUSEUM</Name>
         <Title>Musées</Title>
         <Abstract>Établissement ouvert au public exposant une grande collection d'objets, de documents, etc., relatifs aux arts et aux sciences et pouvant servir à leur histoire. Source : IGN BD Uni 2024</Abstract>
@@ -533,6 +559,40 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES</Name>
+        <Title>Gares</Title>
+        <Abstract>Les gares permettent le débarquement et l'embarquement de passagers dans des trains ou des autocars. Les gares peuvent avoir plusieurs accès donnant dans différentes voiries. On inclut également les gares et points d'embarquement des remontées mécaniques de montagne.</Abstract>
+        <KeywordList>
+          <Keyword>Transports</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.08590976</westBoundLongitude>
+          <eastBoundLongitude>55.71007054</eastBoundLongitude>
+          <southBoundLatitude>-21.37873339</southBoundLatitude>
+          <northBoundLatitude>51.0306278</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.08590976" miny="-21.37873339" maxx="55.71007054" maxy="51.0306278" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.37873339" miny="-63.08590976" maxx="51.0306278" maxy="55.71007054" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES</Name>
+          <Title>UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES style</Title>
+          <Abstract>Default style for UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES" />
           </LegendURL>
         </Style>
       </Layer>

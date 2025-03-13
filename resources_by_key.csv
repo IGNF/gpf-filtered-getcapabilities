@@ -40,6 +40,9 @@ wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:region
 wms-r,administratif,ADMINEXPRESS-COG.LATEST
 wms-r,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wms-r,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
+wms-v,administratif,Noms_communes
+wms-v,administratif,Noms_departements
+wms-v,administratif,Noms_regions
 wmts,administratif,ADMINEXPRESS-COG.LATEST
 wmts,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wmts,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
@@ -141,12 +144,9 @@ wms-r,altimetrie,RGEALTI-MNT_PYR-ZIP_MTQ_WGS84UTM20_WMS
 wms-r,altimetrie,RGEALTI-MNT_PYR-ZIP_MYT_RGM04UTM38S_WMS
 wms-r,altimetrie,RGEALTI-MNT_PYR-ZIP_REU_RGR92UTM40S_WMS
 wms-r,altimetrie,RGEALTI-MNT_PYR-ZIP_SPM_RGSPM06U21_WMS
-wms-r,altimetrie,IGNF_LIDAR-HD_MNH
-wms-r,altimetrie,IGNF_LIDAR-HD_MNH_2154
-wms-r,altimetrie,IGNF_LIDAR-HD_MNS
-wms-r,altimetrie,IGNF_LIDAR-HD_MNS_2154
-wms-r,altimetrie,IGNF_LIDAR-HD_MNT
-wms-r,altimetrie,IGNF_LIDAR-HD_MNT_2154
+wms-r,altimetrie,IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
+wms-r,altimetrie,IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
+wms-r,altimetrie,IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
 wms-v,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY
 wmts,altimetrie,ELEVATION.CONTOUR.LINE
 wmts,altimetrie,ELEVATION.ELEVATIONGRIDCOVERAGE
@@ -160,6 +160,9 @@ wmts,altimetrie,ELEVATION.SLOPES
 wmts,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY
 wmts,altimetrie,GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN
 wmts,altimetrie,IGNF_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
+wmts,altimetrie,IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
+wmts,altimetrie,IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
+wmts,altimetrie,IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
 wfs,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE:graphe_scan25
 wfs,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950.GRAPHE:ta_france_cartes_50k_1950_date_wm
 wms-r,cartes,GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10
@@ -897,6 +900,11 @@ wms-v,parcellaire,CADASTRALPARCELS.COMMUNES
 wms-v,parcellaire,CADASTRALPARCELS.GRAPHE
 wms-v,parcellaire,CADASTRALPARCELS.SECTIONS
 wms-v,parcellaire,CADASTRALPARCELS.PCI_VECTEUR
+wms-v,parcellaire,parcellaire_express_batiment_noir
+wms-v,parcellaire,parcellaire_express_batiment_orange
+wms-v,parcellaire,parcellaire_express_numero
+wms-v,parcellaire,parcellaire_express_parcelle_noir
+wms-v,parcellaire,parcellaire_express_parcelle_orange
 wmts,parcellaire,Aire-Parcellaire
 wmts,parcellaire,CADASTRALPARCELS.HEATMAP
 wmts,parcellaire,CADASTRALPARCELS.HISTO.2008-2013.PARCELS
@@ -1047,6 +1055,7 @@ wfs,topographie,BDTOPO_V3:zone_d_habitation
 wfs,topographie,BDTOPO_V3:zone_de_vegetation
 wms-v,topographie,BDTOPO-GEOPO-BATI_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G
+wms-v,topographie,Noms_regions
 wms-v,topographie,BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G
@@ -1057,6 +1066,7 @@ wms-v,topographie,hedge.hedge
 wms-v,topographie,POI.MUSEUM
 wms-v,topographie,TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE
+wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES
 wms-r,topographie,IGNF_HYDROGRAPHY.HYDROGRAPHY
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.RAILWAYS
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.ROADS

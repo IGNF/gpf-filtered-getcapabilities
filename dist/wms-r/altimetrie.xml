@@ -654,6 +654,93 @@
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
+        <Title>MNH issu de LiDAR HD</Title>
+        <Abstract>Estompage issu du MNH LiDAR HD</Abstract>
+        <KeywordList>
+          <Keyword>MNx</Keyword>
+          <Keyword>LIDAR HD</Keyword>
+          <Keyword>estompage</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.5</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>41.5</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-612257.19936300465" maxx="1113194.9079327357" miny="5086373.6492873617" maxy="6800125.4543973068" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
+        <Title>MNS issu de LiDAR HD en projection native</Title>
+        <Abstract>Estompage issu du MNS LiDAR HD</Abstract>
+        <KeywordList>
+          <Keyword>MNx</Keyword>
+          <Keyword>LIDAR HD</Keyword>
+          <Keyword>estompage</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.5</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>41.5</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-612257.19936300465" maxx="1113194.9079327357" miny="5086373.6492873617" maxy="6800125.4543973068" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</Name>
+        <Title>MNT issu de LiDAR HD</Title>
+        <Abstract>Estompage issu du MNT LiDAR HD</Abstract>
+        <KeywordList>
+          <Keyword>MNx</Keyword>
+          <Keyword>LIDAR HD</Keyword>
+          <Keyword>estompage</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.5</westBoundLongitude>
+          <eastBoundLongitude>10</eastBoundLongitude>
+          <southBoundLatitude>41.5</southBoundLatitude>
+          <northBoundLatitude>52</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-612257.19936300465" maxx="1113194.9079327357" miny="5086373.6492873617" maxy="6800125.4543973068" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>RGEALTI-MNT_PYR-ZIP_FXX_LAMB93_WMS</Name>
         <Title>RGEALTI-MNT_PYR-ZIP_FXX_LAMB93_WMS1</Title>
         <Abstract>MNT RGEALTI</Abstract>
