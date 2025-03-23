@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4074">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3165">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -346,6 +346,58 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:arrondissement</Name>
+      <Title>Arrondissement COG</Title>
+      <Abstract>Arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:arrondissement</Name>
+      <Title>Arrondissement COG</Title>
+      <Abstract>Arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:arrondissement</Name>
+      <Title>Arrondissement COG</Title>
+      <Abstract>Arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:arrondissement</Name>
+      <Title>Arrondissement COG</Title>
+      <Abstract>Arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:arrondissement</Name>
       <Title>Arrondissement COG CARTO</Title>
       <Abstract>Arrondissement ADMINEXPRESS COG CARTO</Abstract>
@@ -356,6 +408,58 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83662923 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:arrondissement_departemental</Name>
+      <Title>Arrondissement departemantal COG</Title>
+      <Abstract>Arrondissement departemental ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:arrondissement_departemental</Name>
+      <Title>Arrondissement departemantal COG</Title>
+      <Abstract>Arrondissement departemental ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:arrondissement_departemental</Name>
+      <Title>Arrondissement departemantal COG</Title>
+      <Abstract>Arrondissement departemental ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2017:arrondissement_departemental</Name>
+      <Title>Arrondissement départemental COG</Title>
+      <Abstract>Arrondissement départemental ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -373,6 +477,84 @@
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:arrondissement_municipal</Name>
+      <Title>Arrondissement municipal COG</Title>
+      <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:arrondissement_municipal</Name>
       <Title>Arrondissement municipal COG</Title>
       <Abstract>Arrondissement municipal ADMINEXPRESS COG</Abstract>
       <ows:Keywords>
@@ -424,6 +606,71 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:canton</Name>
+      <Title>Canton COG</Title>
+      <Abstract>Canton ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:canton</Name>
+      <Title>Canton COG</Title>
+      <Abstract>Canton ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:canton</Name>
+      <Title>Canton COG</Title>
+      <Abstract>Canton ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:canton</Name>
+      <Title>Canton COG</Title>
+      <Abstract>Canton ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:canton</Name>
+      <Title>Canton COG</Title>
+      <Abstract>Canton ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:canton</Name>
       <Title>Canton COG CARTO</Title>
       <Abstract>Canton ADMINEXPRESS COG CARTO</Abstract>
@@ -437,7 +684,124 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:chef_lieu</Name>
+      <Title>Chef-lieu COG</Title>
+      <Abstract>Chef-lieu ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:chef_lieu</Name>
+      <Title>Chef-lieu COG</Title>
+      <Abstract>Chef-lieu ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:chef_lieu</Name>
+      <Title>Chef-lieu COG</Title>
+      <Abstract>Chef-lieu ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2017:chef_lieu</Name>
+      <Title>Chef-lieu COG CARTO</Title>
+      <Abstract>Chef-lieu COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:chflieu_entite_rattachee</Name>
+      <Title>Chef-lieu Entité rattachée COG</Title>
+      <Abstract>Chef Entité rattachée ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:chflieu_arrondissement_municipal</Name>
+      <Title>Chef-lieu d'arrondissement COG</Title>
+      <Abstract>Chef-lieu d'arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:chflieu_arrondissement_municipal</Name>
+      <Title>Chef-lieu d'arrondissement COG</Title>
+      <Abstract>Chef-lieu d'arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:chflieu_arrondissement_municipal</Name>
+      <Title>Chef-lieu d'arrondissement COG</Title>
+      <Abstract>Chef-lieu d'arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:chflieu_arrondissement_municipal</Name>
+      <Title>Chef-lieu d'arrondissement COG</Title>
+      <Abstract>Chef-lieu d'arrondissement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:chflieu_arrondissement_municipal</Name>
       <Title>Chef-lieu d'arrondissement COG</Title>
       <Abstract>Chef-lieu d'arrondissement ADMINEXPRESS COG</Abstract>
       <ows:Keywords>
@@ -502,6 +866,58 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:chflieu_commune</Name>
+      <Title>Chef-lieu de commune COG</Title>
+      <Abstract>Chef-lieu de commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:chflieu_commune</Name>
+      <Title>Chef-lieu de commune COG</Title>
+      <Abstract>Chef-lieu de commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:chflieu_commune</Name>
+      <Title>Chef-lieu de commune COG</Title>
+      <Abstract>Chef-lieu de commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:chflieu_commune</Name>
+      <Title>Chef-lieu de commune COG</Title>
+      <Abstract>Chef-lieu de commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:chflieu_commune</Name>
       <Title>Chef-lieu de commune COG CARTO</Title>
       <Abstract>Chef-lieu de commune ADMINEXPRESS COG CARTO</Abstract>
@@ -554,6 +970,58 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:chflieu_commune_associee_ou_deleguee</Name>
+      <Title>Chef-lieu de commune associée ou déléguée COG CARTO</Title>
+      <Abstract>Chef-lieu de commune associée ou déléguée ADMINEXPRESS COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:chflieu_commune_associee_ou_deleguee</Name>
+      <Title>Chef-lieu de commune associée ou déléguée COG CARTO</Title>
+      <Abstract>Chef-lieu de commune associée ou déléguée ADMINEXPRESS COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:chflieu_commune_associee_ou_deleguee</Name>
+      <Title>Chef-lieu de commune associée ou déléguée COG CARTO</Title>
+      <Abstract>Chef-lieu de commune associée ou déléguée ADMINEXPRESS COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:chflieu_commune_associee_ou_deleguee</Name>
+      <Title>Chef-lieu de commune associée ou déléguée COG CARTO</Title>
+      <Abstract>Chef-lieu de commune associée ou déléguée ADMINEXPRESS COG CARTO</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:collectivite_territoriale</Name>
       <Title>Collectivité territoriale</Title>
       <Abstract>Limites administrative mises à jour en continu</Abstract>
@@ -568,6 +1036,58 @@
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:collectivite_territoriale</Name>
+      <Title>Collectivité territoriale COG</Title>
+      <Abstract>Collectivité territoriale ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:collectivite_territoriale</Name>
+      <Title>Collectivité territoriale COG</Title>
+      <Abstract>Collectivité territoriale ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:collectivite_territoriale</Name>
+      <Title>Collectivité territoriale COG</Title>
+      <Abstract>Collectivité territoriale ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:collectivite_territoriale</Name>
+      <Title>Collectivité territoriale COG</Title>
+      <Abstract>Collectivité territoriale ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:collectivite_territoriale</Name>
       <Title>Collectivité territoriale COG</Title>
       <Abstract>Collectivité territoriale ADMINEXPRESS COG</Abstract>
       <ows:Keywords>
@@ -620,6 +1140,162 @@
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:commune_associee_ou_deleguee</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:commune_associee_ou_deleguee</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:commune_associee_ou_deleguee</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:commune_associee_ou_deleguee</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:commune</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:commune_associee_ou_deleguee</Name>
+      <Title>Commune COG</Title>
+      <Abstract>Commune ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2017:commune</Name>
       <Title>Commune COG</Title>
       <Abstract>Commune ADMINEXPRESS COG</Abstract>
       <ows:Keywords>
@@ -697,6 +1373,110 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2017:departement</Name>
+      <Title>Département COG</Title>
+      <Abstract>Departement ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:departement</Name>
       <Title>Département COG CARTO</Title>
       <Abstract>Departement ADMINEXPRESS COG CARTO</Abstract>
@@ -736,6 +1516,97 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:epci</Name>
+      <Title>EPCI COG</Title>
+      <Abstract>EPCI ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:epci</Name>
       <Title>EPCI COG CARTO</Title>
       <Abstract>EPCI ADMINEXPRESS COG CARTO</Abstract>
@@ -746,6 +1617,19 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83662923 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:entite_rattachee</Name>
+      <Title>Entité rattachée COG</Title>
+      <Abstract>Entité rattachée ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -763,6 +1647,110 @@
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2018:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2019:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2020:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2021:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2022:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2023:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2024:region</Name>
+      <Title>Région COG</Title>
+      <Abstract>Région ADMINEXPRESS COG</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
+        <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>ADMINEXPRESS-COG.2017:region</Name>
       <Title>Région COG</Title>
       <Abstract>Région ADMINEXPRESS COG</Abstract>
       <ows:Keywords>
