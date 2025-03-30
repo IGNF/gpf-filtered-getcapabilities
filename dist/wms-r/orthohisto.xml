@@ -471,12 +471,12 @@
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-3.74870774</westBoundLongitude>
-          <eastBoundLongitude>7.1713246399999999</eastBoundLongitude>
-          <southBoundLatitude>42.553802210000001</southBoundLatitude>
-          <northBoundLatitude>50.376657860000002</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-80</southBoundLatitude>
+          <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-417304.23674960341" maxx="798308.20723805588" miny="5244300.730764172" maxy="6511763.6881821677" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -486,8 +486,8 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2014</Name>
@@ -560,12 +560,12 @@
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-3.74870774</westBoundLongitude>
-          <eastBoundLongitude>9.6631444299999991</eastBoundLongitude>
-          <southBoundLatitude>41.32145757</southBoundLatitude>
-          <northBoundLatitude>50.183868689999997</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-80</southBoundLatitude>
+          <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-417304.23674960341" maxx="1075696.3174094576" miny="5059872.8339326987" maxy="6478179.7607518202" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -583,8 +583,8 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2017</Name>
@@ -595,12 +595,12 @@
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-0.18529515999999999</westBoundLongitude>
-          <eastBoundLongitude>7.7436337200000001</eastBoundLongitude>
-          <southBoundLatitude>42.945353760000003</southBoundLatitude>
-          <northBoundLatitude>46.413720929999997</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-80</southBoundLatitude>
+          <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20626.962857658149" maxx="862017.36260002281" miny="5303657.8274110081" maxy="5846897.9841000922" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -610,8 +610,8 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2018</Name>
