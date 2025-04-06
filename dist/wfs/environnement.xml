@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4710">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4890">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -382,6 +382,46 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.52320944 41.32147402</ows:LowerCorner>
         <ows:UpperCorner>9.65507376 50.9718316</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2016:formations_vegetales_d976_2016</Name>
+      <Title>Cartographie des formations végétales 2016 de Mayotte</Title>
+      <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Formation végétale</ows:Keyword>
+        <ows:Keyword>Couverture du sol</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>Outre-mer</ows:Keyword>
+        <ows:Keyword>Sante-environnement</ows:Keyword>
+        <ows:Keyword>Aménagement du territoire</ows:Keyword>
+        <ows:Keyword>Biodiversité</ows:Keyword>
+        <ows:Keyword>Forêt</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4471</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>45.013046875 -13.00875</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 -12.632265625</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2023:formations_vegetales_d976_2023</Name>
+      <Title>Cartographie des formations végétales 2023 de Mayotte</Title>
+      <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Formation végétale</ows:Keyword>
+        <ows:Keyword>Couverture du sol</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>Outre-mer</ows:Keyword>
+        <ows:Keyword>Sante-environnement</ows:Keyword>
+        <ows:Keyword>Aménagement du territoire</ows:Keyword>
+        <ows:Keyword>Biodiversité</ows:Keyword>
+        <ows:Keyword>Forêt</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4471</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>45.013046875 -13.00875</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 -12.632265625</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7031" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7348" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -227,6 +227,108 @@
         <northBoundLatitude>89.9</northBoundLatitude>
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
+      <Layer queryable="1">
+        <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2016</Name>
+        <Title>Cartographie des formations végétales 2016 de Mayotte</Title>
+        <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+        <KeywordList>
+          <Keyword>Formation végétale</Keyword>
+          <Keyword>Couverture du sol</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>Outre-mer</Keyword>
+          <Keyword>Sante-environnement</Keyword>
+          <Keyword>Aménagement du territoire</Keyword>
+          <Keyword>Biodiversité</Keyword>
+          <Keyword>Forêt</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>45.013046875</westBoundLongitude>
+          <eastBoundLongitude>45.30796875</eastBoundLongitude>
+          <southBoundLatitude>-13.00875</southBoundLatitude>
+          <northBoundLatitude>-12.632265625</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="45.013046875" miny="-13.00875" maxx="45.30796875" maxy="-12.632265625" />
+        <BoundingBox CRS="EPSG:4326" minx="-13.00875" miny="45.013046875" maxx="-12.632265625" maxy="45.30796875" />
+        <Style>
+          <Name>default-style-IGNF_CARTO-FORMATIONS-VEGETALES_2016</Name>
+          <Title>IGNF_CARTO-FORMATIONS-VEGETALES_2016 style</Title>
+          <Abstract>Default style for IGNF_CARTO-FORMATIONS-VEGETALES_2016 layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_CARTO-FORMATIONS-VEGETALES_2016" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2023</Name>
+        <Title>Cartographie des formations végétales 2023 de Mayotte</Title>
+        <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+        <KeywordList>
+          <Keyword>Formation végétale</Keyword>
+          <Keyword>Couverture du sol</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>Outre-mer</Keyword>
+          <Keyword>Sante-environnement</Keyword>
+          <Keyword>Aménagement du territoire</Keyword>
+          <Keyword>Biodiversité</Keyword>
+          <Keyword>Forêt</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>45.013046875</westBoundLongitude>
+          <eastBoundLongitude>45.30796875</eastBoundLongitude>
+          <southBoundLatitude>-13.00875</southBoundLatitude>
+          <northBoundLatitude>-12.632265625</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="45.013046875" miny="-13.00875" maxx="45.30796875" maxy="-12.632265625" />
+        <BoundingBox CRS="EPSG:4326" minx="-13.00875" miny="45.013046875" maxx="-12.632265625" maxy="45.30796875" />
+        <Style>
+          <Name>default-style-IGNF_CARTO-FORMATIONS-VEGETALES_2023</Name>
+          <Title>IGNF_CARTO-FORMATIONS-VEGETALES_2023 style</Title>
+          <Abstract>Default style for IGNF_CARTO-FORMATIONS-VEGETALES_2023 layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_CARTO-FORMATIONS-VEGETALES_2023" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_SITES-UNESCO</Name>
+        <Title>Sites du patrimoine mondial de l'UNESCO</Title>
+        <Abstract>Sites du patrimoine mondial de l'UNESCO : Le patrimoine mondial est une appellation attribuée à des lieux ou des biens, situés à travers le monde, possédant une valeur universelle exceptionnelle. A ce titre, ils sont inscrits sur la Liste du patrimoine mondial afin d’être protégés pour que les générations futures puissent encore les apprécier à leur tour.</Abstract>
+        <KeywordList>
+          <Keyword>UNESCO</Keyword>
+          <Keyword>sites</Keyword>
+          <Keyword>patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-151.37512207</westBoundLongitude>
+          <eastBoundLongitude>166.876831055</eastBoundLongitude>
+          <southBoundLatitude>-49.334161377</southBoundLatitude>
+          <northBoundLatitude>51.040637207</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-151.37512207" miny="-49.334161377" maxx="166.876831055" maxy="51.040637207" />
+        <BoundingBox CRS="EPSG:4326" minx="-49.334161377" miny="-151.37512207" maxx="51.040637207" maxy="166.876831055" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="https://www.ign.fr/" />
+          <LogoURL height="50" width="50">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-IGNF_SITES-UNESCO</Name>
+          <Title>IGNF_SITES-UNESCO style</Title>
+          <Abstract>Default style for IGNF_SITES-UNESCO layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_SITES-UNESCO" />
+          </LegendURL>
+        </Style>
+      </Layer>
       <Layer queryable="1">
         <Name>INPE</Name>
         <Title>Inventaire national des plans d'eau</Title>
