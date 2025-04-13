@@ -275,6 +275,41 @@
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
+      <Layer>
+        <Name>IGNF_COSIA_2021-2023_WMS</Name>
+        <Title>COSIA 2021-2023</Title>
+        <Abstract>COSIA 2021-2023</Abstract>
+        <KeywordList>
+          <Keyword>COSIA</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.7923999896657796</westBoundLongitude>
+          <eastBoundLongitude>3.1777999796657799</eastBoundLongitude>
+          <southBoundLatitude>42.332900020334229</southBoundLatitude>
+          <northBoundLatitude>43.596799989665776</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-199529.05414746338" maxx="353751.07557926973" miny="5210977.4315843834" maxy="5403256.5999391489" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer queryable="1">
         <Name>OCSGE.ARTIF.2016-2017</Name>
         <Title>OCS GE 2016-2017 - artificialisation</Title>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4890">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="5532">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -320,6 +320,67 @@
   </ows:OperationsMetadata>
   <FeatureTypeList>
     <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:nuage-bloc</Name>
+      <Title>Bloc de nuages de points LiDAR HD.</Title>
+      <Abstract>Liste des blocs des nuages de points LiDAR HD.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>lidarhd</ows:Keyword>
+        <ows:Keyword>nuages</ows:Keyword>
+        <ows:Keyword>altimetrie</ows:Keyword>
+        <ows:Keyword>points</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mnh-bloc</Name>
+      <Title>Blocs MNH issus de LiDAR HD</Title>
+      <Abstract>Liste des blocs du MNH issus des données LiDAR HD </Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mnh</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mns-bloc</Name>
+      <Title>Blocs MNS issus de LiDAR HD</Title>
+      <Abstract>Liste des blocs du MNS issus des données LiDAR HD</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mns</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mnt-bloc</Name>
+      <Title>Blocs MNT issus de LiDAR HD</Title>
+      <Abstract>Liste des blocs du MNT issus des données LiDAR HD </Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mnt</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>ELEVATION.CONTOUR.LINE:courbe</Name>
       <Title>Courbes de niveau</Title>
       <Abstract>Le produit « Courbes de niveau » est un modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude », ou plus techniquement « isohypses ». Ces courbes permettent la description du relief français.</Abstract>
@@ -330,6 +391,67 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.15340092 -21.3896732</ows:LowerCorner>
         <ows:UpperCorner>55.83678733 51.12086835</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mnh-dalle</Name>
+      <Title>Dalles MNH issues de LiDAR HD</Title>
+      <Abstract>Liste des dalles du MNH issues des données LiDAR HD </Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mnh</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mns-dalle</Name>
+      <Title>Dalles MNS issues des données LiDAR HD</Title>
+      <Abstract>Liste des blocs du MNS issues des données LiDAR HD</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mns</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:mnt-dalle</Name>
+      <Title>Dalles MNT issues de LiDAR HD</Title>
+      <Abstract>Liste des dalles du MNT issues des données LiDAR HD</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>mnt</ows:Keyword>
+        <ows:Keyword>mnx</ows:Keyword>
+        <ows:Keyword>lidarhd</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_LIDAR-HD_TA:nuage-dalle</Name>
+      <Title>Dalles de nuages de points LiDAR HD.</Title>
+      <Abstract>Liste des dalles des nuages de points LiDAR HD.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>lidarhd</ows:Keyword>
+        <ows:Keyword>nuages</ows:Keyword>
+        <ows:Keyword>altimetrie</ows:Keyword>
+        <ows:Keyword>points</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-4.1675 41.31265625</ows:LowerCorner>
+        <ows:UpperCorner>9.7475 51.2346875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
