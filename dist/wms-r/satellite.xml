@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -289,7 +295,7 @@
           <southBoundLatitude>-21.353853399999998</southBoundLatitude>
           <northBoundLatitude>50.603690180000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-5929838.2730080066" maxx="6184282.3251583967" miny="-2434122.1872028313" maxy="6551488.2538435701" />
+        <BoundingBox CRS="EPSG:3857" minx="-5929838.2730080066" maxx="6184282.3251583967" miny="-2434122.1872028303" maxy="6551488.2538435711" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -324,7 +330,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -359,7 +365,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -394,7 +400,7 @@
           <southBoundLatitude>-37.894191059999997</southBoundLatitude>
           <northBoundLatitude>51.028296410000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19836738.940121476" maxx="8640128.4428856708" miny="-4564489.3225135719" maxy="6626300.5571739832" />
+        <BoundingBox CRS="EPSG:3857" minx="-19836738.940121476" maxx="8640128.4428856708" miny="-4564489.322513571" maxy="6626300.557173986" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -429,7 +435,7 @@
           <southBoundLatitude>-21.31996242</southBoundLatitude>
           <northBoundLatitude>50.654902700000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6026540.6341229519" maxx="6216532.9642292839" miny="-2430071.8375432338" maxy="6560475.5390422745" />
+        <BoundingBox CRS="EPSG:3857" minx="-6026540.6341229519" maxx="6216532.9642292839" miny="-2430071.8375432324" maxy="6560475.5390422735" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -464,7 +470,7 @@
           <southBoundLatitude>-21.401263109999999</southBoundLatitude>
           <northBoundLatitude>51.11174235</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7033123.4430598775" maxx="6216803.9526053062" miny="-2439789.7479478614" maxy="6641083.5035203956" />
+        <BoundingBox CRS="EPSG:3857" minx="-7033123.4430598775" maxx="6216803.9526053062" miny="-2439789.747947861" maxy="6641083.5035203993" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -499,7 +505,7 @@
           <southBoundLatitude>-21.409383219999999</southBoundLatitude>
           <northBoundLatitude>51.084093039999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" maxx="6218852.9447938381" miny="-2440760.6450872398" maxy="6636182.3097766414" />
+        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" maxx="6218852.9447938381" miny="-2440760.6450872379" maxy="6636182.3097766396" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -534,7 +540,7 @@
           <southBoundLatitude>-21.409383219999999</southBoundLatitude>
           <northBoundLatitude>51.11174235</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" maxx="6218852.9447938381" miny="-2440760.6450872398" maxy="6641083.5035203956" />
+        <BoundingBox CRS="EPSG:3857" minx="-7032071.050857815" maxx="6218852.9447938381" miny="-2440760.6450872379" maxy="6641083.5035203993" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -569,7 +575,7 @@
           <southBoundLatitude>-13.016858109999999</southBoundLatitude>
           <northBoundLatitude>51.11174235</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7032324.4106792752" maxx="5044281.649333599" miny="-1461658.3367885093" maxy="6641083.5035203956" />
+        <BoundingBox CRS="EPSG:3857" minx="-7032324.4106792752" maxx="5044281.649333599" miny="-1461658.3367885083" maxy="6641083.5035203993" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -604,7 +610,7 @@
           <southBoundLatitude>-21.401263109999999</southBoundLatitude>
           <northBoundLatitude>51.130000729999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6882151.9763627173" maxx="6216796.2793528065" miny="-2439789.7479478614" maxy="6644321.6426266208" />
+        <BoundingBox CRS="EPSG:3857" minx="-6882151.9763627173" maxx="6216796.2793528065" miny="-2439789.747947861" maxy="6644321.6426266236" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -639,7 +645,7 @@
           <southBoundLatitude>-21.373251410000002</southBoundLatitude>
           <northBoundLatitude>51.11174235</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6864490.4734578086" maxx="6202895.6765012816" miny="-2436440.8869171133" maxy="6641083.5035203956" />
+        <BoundingBox CRS="EPSG:3857" minx="-6864490.4734578086" maxx="6202895.6765012816" miny="-2436440.8869171138" maxy="6641083.5035203993" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -674,7 +680,7 @@
           <southBoundLatitude>41.20142749</southBoundLatitude>
           <northBoundLatitude>50.921799999999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-646460.63054487016" maxx="1220173.9104042263" miny="5042097.7250443716" maxy="6607472.687901211" />
+        <BoundingBox CRS="EPSG:3857" minx="-646460.63054487016" maxx="1220173.9104042263" miny="5042097.7250443725" maxy="6607472.687901211" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -709,7 +715,7 @@
           <southBoundLatitude>41.022722590000001</southBoundLatitude>
           <northBoundLatitude>51.17519257</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-646460.63054487016" maxx="1220173.9104042263" miny="5015693.8186260229" maxy="6652341.9633273538" />
+        <BoundingBox CRS="EPSG:3857" minx="-646460.63054487016" maxx="1220173.9104042263" miny="5015693.818626022" maxy="6652341.9633273557" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -744,7 +750,7 @@
           <southBoundLatitude>44.880939419999997</southBoundLatitude>
           <northBoundLatitude>50.387858440000002</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="62737.961822879857" maxx="477773.03869506007" miny="5602797.2688626666" maxy="6513719.0215589078" />
+        <BoundingBox CRS="EPSG:3857" minx="62737.961822879857" maxx="477773.03869506007" miny="5602797.2688626656" maxy="6513719.0215589087" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -779,7 +785,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -814,7 +820,7 @@
           <southBoundLatitude>-21.410362840000001</southBoundLatitude>
           <northBoundLatitude>51.106015229999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6881118.5095872851" maxx="6217866.2399969045" miny="-2440877.778951888" maxy="6640068.0575548671" />
+        <BoundingBox CRS="EPSG:3857" minx="-6881118.5095872851" maxx="6217866.2399969045" miny="-2440877.7789518884" maxy="6640068.0575548671" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -849,7 +855,7 @@
           <southBoundLatitude>-21.410362840000001</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6885115.8867481556" maxx="6217889.0549265426" miny="-2440877.778951888" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-6885115.8867481556" maxx="6217889.0549265426" miny="-2440877.7789518884" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -884,7 +890,7 @@
           <southBoundLatitude>-21.410362840000001</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6885486.9368748674" maxx="6217889.0549265426" miny="-2440877.778951888" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-6885486.9368748674" maxx="6217889.0549265426" miny="-2440877.7789518884" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -919,7 +925,7 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -954,7 +960,7 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -989,7 +995,7 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -1024,7 +1030,7 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -1059,7 +1065,7 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
@@ -1094,7 +1100,42 @@
           <southBoundLatitude>41.259349039999996</southBoundLatitude>
           <northBoundLatitude>51.112287649999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.1785172541" maxy="6641180.1943985363" />
+        <BoundingBox CRS="EPSG:3857" minx="-620163.80200637574" maxx="1195507.6997856258" miny="5050671.178517255" maxy="6641180.1943985363" />
+        <Attribution>
+          <Title>Centre national d'études spatiales (CNES)</Title>
+          <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.4591676995706</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHO-SAT.SPOT.2024</Name>
+        <Title>SPOT 2024</Title>
+        <Abstract>Agrégation des images SPOT 2024</Abstract>
+        <KeywordList>
+          <Keyword>Images satellitaires</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.188379166918426</westBoundLongitude>
+          <eastBoundLongitude>9.6299952144039125</eastBoundLongitude>
+          <southBoundLatitude>41.258118641881737</southBoundLatitude>
+          <northBoundLatitude>50.942888340069381</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-577567.72690378816" maxx="1072006.1636091047" miny="5050488.9779944243" maxy="6611197.5422417885" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />

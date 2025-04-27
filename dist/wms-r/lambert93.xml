@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -289,7 +295,7 @@
           <southBoundLatitude>41.184410290000002</southBoundLatitude>
           <northBoundLatitude>50.921799999999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="IGNF:LAMB93" minx="-63350.156944756513" maxx="1368966.2522776381" miny="6009115.5347447302" maxy="7128563.3746996103" />
+        <BoundingBox CRS="IGNF:LAMB93" minx="-63350.156944756163" maxx="1368966.2522776378" miny="6009115.534744733" maxy="7128563.3746996112" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />

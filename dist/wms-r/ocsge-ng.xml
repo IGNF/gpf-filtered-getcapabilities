@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -276,6 +282,146 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
+        <Name>IGNF_COSIA_2021-2023_WMS</Name>
+        <Title>COSIA 2021-2023</Title>
+        <Abstract>COSIA 2021-2023</Abstract>
+        <KeywordList>
+          <Keyword>COSIA</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.7923999896657796</westBoundLongitude>
+          <eastBoundLongitude>3.1777999796657799</eastBoundLongitude>
+          <southBoundLatitude>42.332900020334229</southBoundLatitude>
+          <northBoundLatitude>43.596799989665776</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-199529.05414746338" maxx="353751.07557926973" miny="5210977.4315843852" maxy="5403256.5999391507" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.ARTIF.2016-2017</Name>
+        <Title>OCS GE 2016-2017 - artificialisation</Title>
+        <Abstract>Occupation du sol grande échelle 2016-2017 - artificialisation</Abstract>
+        <KeywordList>
+          <Keyword>Occupation du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.ARTIF.2017-2020</Name>
+        <Title>OCS GE 2017-2020 - artificialisation</Title>
+        <Abstract>Occupation du sol grande échelle 2017-2020 - artificialisation</Abstract>
+        <KeywordList>
+          <Keyword>Occupation du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.ARTIF.2021-2023</Name>
+        <Title>OCS GE 2021-2023 - artificialisation</Title>
+        <Abstract>Occupation du sol grande échelle 2021-2023 - artificialisation</Abstract>
+        <KeywordList>
+          <Keyword>Occupation du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>OCSGE.CONSTRUCTION.2016-2017</Name>
         <Title>OCS GE 2016-2017 - zones construites</Title>
         <Abstract>Occupation du sol grande échelle 2016-2017 - zones construites</Abstract>
@@ -289,7 +435,7 @@
           <southBoundLatitude>41.325200000000002</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -324,7 +470,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -359,7 +505,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -394,7 +540,7 @@
           <southBoundLatitude>41.325200000000002</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -429,7 +575,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -464,7 +610,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -499,7 +645,7 @@
           <southBoundLatitude>41.325200000000002</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-573351.03733075561" maxx="1065383.1866370246" miny="5060427.5715970807" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -534,7 +680,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -569,7 +715,7 @@
           <southBoundLatitude>-21.399799999999999</southBoundLatitude>
           <northBoundLatitude>51.0991</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184656" maxy="6638842.1216269005" />
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8857902698" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />

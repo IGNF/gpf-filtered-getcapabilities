@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -364,7 +370,7 @@
           <southBoundLatitude>-21.4756</southBoundLatitude>
           <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -399,7 +405,7 @@
           <southBoundLatitude>-21.418997579999999</southBoundLatitude>
           <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658576" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -434,7 +440,7 @@
           <southBoundLatitude>-21.418997579999999</southBoundLatitude>
           <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658576" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -469,7 +475,7 @@
           <southBoundLatitude>-21.418997579999999</southBoundLatitude>
           <northBoundLatitude>51.220336639999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658572" maxy="6660361.6585218105" />
+        <BoundingBox CRS="EPSG:3857" minx="-7042462.3635350224" maxx="6236533.4365774859" miny="-2441910.2749658576" maxy="6660361.6585218105" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -504,7 +510,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -539,7 +545,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -574,7 +580,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -609,7 +615,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -644,7 +650,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -679,7 +685,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -714,7 +720,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -749,7 +755,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -784,7 +790,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -819,7 +825,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -854,7 +860,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -889,7 +895,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -924,7 +930,7 @@
           <southBoundLatitude>-21.4756</southBoundLatitude>
           <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -959,7 +965,7 @@
           <southBoundLatitude>-21.4756</southBoundLatitude>
           <northBoundLatitude>51.312100000000001</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913242" maxy="6676687.3914098488" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />

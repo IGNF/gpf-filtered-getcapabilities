@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -289,7 +295,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -324,7 +330,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -359,7 +365,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -394,7 +400,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -429,7 +435,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -464,7 +470,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -499,7 +505,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -534,7 +540,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -569,7 +575,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -604,7 +610,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -639,7 +645,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -674,7 +680,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -709,7 +715,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -744,7 +750,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -779,7 +785,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -814,7 +820,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -849,7 +855,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -884,7 +890,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -919,7 +925,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -954,7 +960,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -989,7 +995,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1024,7 +1030,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>47.174737069999999</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="5970642.3950749207" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="5970642.3950749198" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1059,7 +1065,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1094,7 +1100,7 @@
           <southBoundLatitude>40.575989819999997</southBoundLatitude>
           <northBoundLatitude>51.442817580000003</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814227" maxy="6699999.9999499731" />
+        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1129,7 +1135,7 @@
           <southBoundLatitude>-21.482481929999999</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734488" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734483" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1164,7 +1170,7 @@
           <southBoundLatitude>41.177891369999998</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.1152780671" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.115278068" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1199,7 +1205,7 @@
           <southBoundLatitude>-21.482481929999999</southBoundLatitude>
           <northBoundLatitude>16.60766602</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734488" maxy="1875202.4429837016" />
+        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734483" maxy="1875202.4429837016" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1234,7 +1240,7 @@
           <southBoundLatitude>41.177891369999998</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.1152780671" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.115278068" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1269,7 +1275,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1304,7 +1310,7 @@
           <southBoundLatitude>-21.482481929999999</southBoundLatitude>
           <northBoundLatitude>51.296292440000002</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734488" maxy="6673872.7235079426" />
+        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734483" maxy="6673872.7235079426" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1339,7 +1345,7 @@
           <southBoundLatitude>-21.482481929999999</southBoundLatitude>
           <northBoundLatitude>16.60766602</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734488" maxy="1875202.4429837016" />
+        <BoundingBox CRS="EPSG:3857" minx="-6891373.6306598708" maxx="6226786.0180989252" miny="-2449503.2700734483" maxy="1875202.4429837016" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1409,7 +1415,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1444,7 +1450,7 @@
           <southBoundLatitude>41.177891369999998</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.1152780671" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.115278068" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1479,7 +1485,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1514,7 +1520,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1549,7 +1555,7 @@
           <southBoundLatitude>41.177891369999998</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.1152780671" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.115278068" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1584,7 +1590,7 @@
           <southBoundLatitude>41.177891369999998</southBoundLatitude>
           <northBoundLatitude>51.182678629999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.1152780671" maxy="6653671.2938443553" />
+        <BoundingBox CRS="EPSG:3857" minx="-632844.19295749348" maxx="1208438.408196521" miny="5038616.115278068" maxy="6653671.2938443553" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1619,7 +1625,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1654,7 +1660,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1689,7 +1695,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1724,7 +1730,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1759,7 +1765,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1794,7 +1800,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1829,7 +1835,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />
@@ -1864,7 +1870,7 @@
           <southBoundLatitude>-89</southBoundLatitude>
           <northBoundLatitude>89</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386172" maxy="30240971.958386205" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-30240971.958386149" maxy="30240971.958386149" />
         <Attribution>
           <Title>Ministère de la Transition écologique et de la Cohésion des territoires</Title>
           <OnlineResource xlink:href="https://www.ecologie.gouv.fr/" xlink:type="simple" />

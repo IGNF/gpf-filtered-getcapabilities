@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -289,7 +295,7 @@
           <southBoundLatitude>47.271904390000003</southBoundLatitude>
           <northBoundLatitude>48.906431179999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573308.26726919785" maxx="-112084.46274927622" miny="5986569.2723845569" maxy="6258999.6105984105" />
+        <BoundingBox CRS="EPSG:3857" minx="-573308.26726919785" maxx="-112084.46274927622" miny="5986569.2723845569" maxy="6258999.6105984114" />
         <Attribution>
           <Title>Direction de l'habitat, de l'urbanisme et des paysages (DHUP)</Title>
           <OnlineResource xlink:href="https://www.ecologique-solidaire.gouv.fr/direction-generale-lamenagement-du-logement-et-nature-dgaln#e0" xlink:type="simple" />
@@ -324,7 +330,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -359,7 +365,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -394,7 +400,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -429,7 +435,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -464,7 +470,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -499,7 +505,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -534,7 +540,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -569,7 +575,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -604,7 +610,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -639,7 +645,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -674,7 +680,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -709,7 +715,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -744,7 +750,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -779,7 +785,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -814,7 +820,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -849,7 +855,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -884,7 +890,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -919,7 +925,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -954,7 +960,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
@@ -989,7 +995,7 @@
           <southBoundLatitude>-21.475586669999998</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.407895471" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
           <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />

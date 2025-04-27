@@ -4,6 +4,12 @@
     <Name>WMS</Name>
     <Title>Service WMS Raster public de la Géoplateforme</Title>
     <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>Géoplateforme</Keyword>
+      <Keyword>Public</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+    </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
@@ -289,7 +295,7 @@
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -324,7 +330,7 @@
           <southBoundLatitude>-22.97230716</southBoundLatitude>
           <northBoundLatitude>51.312119279999997</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" maxx="18734860.000178713" miny="-2628670.0004039854" maxy="6676690.8249666635" />
+        <BoundingBox CRS="EPSG:3857" minx="-19849294.999446526" maxx="18734860.000178713" miny="-2628670.0004039854" maxy="6676690.8249666644" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -359,7 +365,7 @@
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -394,7 +400,7 @@
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -421,7 +427,7 @@
           <southBoundLatitude>-80</southBoundLatitude>
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.096309224" maxy="15538711.096309226" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -456,7 +462,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -492,7 +498,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -528,7 +534,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
           <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
@@ -563,7 +569,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -599,7 +605,7 @@
           <southBoundLatitude>-74.999999740000007</southBoundLatitude>
           <northBoundLatitude>74.999999740000007</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.0001646" />
+        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -634,7 +640,7 @@
           <southBoundLatitude>42.96042963</southBoundLatitude>
           <northBoundLatitude>43.247394540000002</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="IGNF:LAMB93" minx="922979.01112957881" maxx="988915.84121776547" miny="6210678.2644655388" maxy="6245120.9695514701" />
+        <BoundingBox CRS="IGNF:LAMB93" minx="922979.01112957881" maxx="988915.84121776547" miny="6210678.2644655397" maxy="6245120.9695514711" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -670,7 +676,7 @@
           <southBoundLatitude>40</southBoundLatitude>
           <northBoundLatitude>52</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:2154" minx="14409.692309675855" maxx="1300132.2440885678" miny="5877034.1410471611" maxy="7239966.2496353844" />
+        <BoundingBox CRS="EPSG:2154" minx="14409.692309675971" maxx="1300132.2440885678" miny="5877034.141047162" maxy="7239966.2496353863" />
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" xlink:type="simple" />
