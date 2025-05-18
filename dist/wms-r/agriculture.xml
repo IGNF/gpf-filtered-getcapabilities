@@ -322,6 +322,30 @@
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>HYDROGRAPHY.BCAE.2025</Name>
+        <Title>Cours d'eau BCAE 2025</Title>
+        <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d’eau au titre des bonnes conditions agricoles et environnementales. Ce référentiel est en vigueur du 1er janvier 2025 au 31 décembre 2025.</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.4591676995706</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>HYDROGRAPHY.BCAE.LATEST</Name>
         <Title>Cours d'eau BCAE dernière édition</Title>
         <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2024 au 31 décembre 2024. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</Abstract>

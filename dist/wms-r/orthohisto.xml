@@ -398,42 +398,6 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2021</Name>
-        <Title>ortho-express IRC 2021</Title>
-        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte</Abstract>
-        <KeywordList>
-          <Keyword>ortho-express</Keyword>
-          <Keyword>ortho</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.49999463</westBoundLongitude>
-          <eastBoundLongitude>179.49999463</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
-          <northBoundLatitude>74.999999740000007</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
-      </Layer>
-      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2012</Name>
         <Title>BDORTHO 2012 en infrarouge fausses couleurs</Title>
         <Abstract>BDORTHO 2012 en infrarouge fausses couleurs</Abstract>
@@ -888,12 +852,12 @@
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2021</Name>
-        <Title>ortho-express 2021</Title>
-        <Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</Abstract>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024</Name>
+        <Title>ORTHO-ASP_PAC2024</Title>
+        <Abstract>ortho ASP PAC 2024</Abstract>
         <KeywordList>
-          <Keyword>ortho-express</Keyword>
-          <Keyword>ortho</Keyword>
+          <Keyword>PAC 2024</Keyword>
+          <Keyword>bdortho</Keyword>
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
@@ -904,11 +868,11 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
         <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
         <Style>
@@ -920,8 +884,8 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.SOCLE-ASP.2018</Name>

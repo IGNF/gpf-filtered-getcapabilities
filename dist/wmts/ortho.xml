@@ -1032,174 +1032,6 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>ortho-express IRC 2023</ows:Title>
-      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>ortho-express</ows:Keyword>
-        <ows:Keyword>ortho</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
-        <ows:UpperCorner>179.5 75</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2023</ows:Identifier>
-      <Style>
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/jpeg</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_0_19</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>0</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>0</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>0</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>1</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>1</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>2</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>3</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>3</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>1</MinTileRow>
-            <MaxTileRow>6</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>7</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>2</MinTileRow>
-            <MaxTileRow>13</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>15</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>26</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>31</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>11</MinTileRow>
-            <MaxTileRow>52</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>63</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>22</MinTileRow>
-            <MaxTileRow>105</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>127</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>45</MinTileRow>
-            <MaxTileRow>210</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>90</MinTileRow>
-            <MaxTileRow>421</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>511</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>181</MinTileRow>
-            <MaxTileRow>842</MaxTileRow>
-            <MinTileCol>1</MinTileCol>
-            <MaxTileCol>1022</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>363</MinTileRow>
-            <MaxTileRow>1684</MaxTileRow>
-            <MinTileCol>2</MinTileCol>
-            <MaxTileCol>2045</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>726</MinTileRow>
-            <MaxTileRow>3369</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>4090</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>1452</MinTileRow>
-            <MaxTileRow>6739</MaxTileRow>
-            <MinTileCol>11</MinTileCol>
-            <MaxTileCol>8180</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>2904</MinTileRow>
-            <MaxTileRow>13479</MaxTileRow>
-            <MinTileCol>22</MinTileCol>
-            <MaxTileCol>16361</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>5809</MinTileRow>
-            <MaxTileRow>26958</MaxTileRow>
-            <MinTileCol>45</MinTileCol>
-            <MaxTileCol>32722</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>11619</MinTileRow>
-            <MaxTileRow>53916</MaxTileRow>
-            <MinTileCol>91</MinTileCol>
-            <MaxTileCol>65444</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>23238</MinTileRow>
-            <MaxTileRow>107833</MaxTileRow>
-            <MinTileCol>182</MinTileCol>
-            <MaxTileCol>130889</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>46477</MinTileRow>
-            <MaxTileRow>215666</MaxTileRow>
-            <MinTileCol>364</MinTileCol>
-            <MaxTileCol>261779</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>19</TileMatrix>
-            <MinTileRow>92955</MinTileRow>
-            <MaxTileRow>431332</MaxTileRow>
-            <MinTileCol>728</MinTileCol>
-            <MaxTileCol>523559</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
       <ows:Title>Ortho-express IRC 2024</ows:Title>
       <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
       <ows:Keywords>
@@ -1368,136 +1200,17 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>ORTHO-ASP_PAC2024</ows:Title>
-      <ows:Abstract>orthos ASP PAC 2024</ows:Abstract>
+      <ows:Title>ORTHO-ASP_PAC2025</ows:Title>
+      <ows:Abstract>ortho ASP PAC 2025</ows:Abstract>
       <ows:Keywords>
-        <ows:Keyword>PAC 2024</ows:Keyword>
-        <ows:Keyword>bdortho</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-54.4984 3.73601</ows:LowerCorner>
-        <ows:UpperCorner>7.72339 50.1839</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2024</ows:Identifier>
-      <Style>
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/jpeg</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_18</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>31</MaxTileRow>
-            <MinTileCol>22</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>43</MinTileRow>
-            <MaxTileRow>62</MaxTileRow>
-            <MinTileCol>44</MinTileCol>
-            <MaxTileCol>66</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>86</MinTileRow>
-            <MaxTileRow>125</MaxTileRow>
-            <MinTileCol>89</MinTileCol>
-            <MaxTileCol>133</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>173</MinTileRow>
-            <MaxTileRow>250</MaxTileRow>
-            <MinTileCol>178</MinTileCol>
-            <MaxTileCol>266</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>346</MinTileRow>
-            <MaxTileRow>501</MaxTileRow>
-            <MinTileCol>356</MinTileCol>
-            <MaxTileCol>533</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>692</MinTileRow>
-            <MaxTileRow>1002</MaxTileRow>
-            <MinTileCol>713</MinTileCol>
-            <MaxTileCol>1067</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1385</MinTileRow>
-            <MaxTileRow>2005</MaxTileRow>
-            <MinTileCol>1427</MinTileCol>
-            <MaxTileCol>2135</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2771</MinTileRow>
-            <MaxTileRow>4010</MaxTileRow>
-            <MinTileCol>2855</MinTileCol>
-            <MaxTileCol>4271</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5543</MinTileRow>
-            <MaxTileRow>8021</MaxTileRow>
-            <MinTileCol>5711</MinTileCol>
-            <MaxTileCol>8543</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>11087</MinTileRow>
-            <MaxTileRow>16043</MaxTileRow>
-            <MinTileCol>11423</MinTileCol>
-            <MaxTileCol>17087</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>22174</MinTileRow>
-            <MaxTileRow>32087</MaxTileRow>
-            <MinTileCol>22846</MinTileCol>
-            <MaxTileCol>34174</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>44348</MinTileRow>
-            <MaxTileRow>64174</MaxTileRow>
-            <MinTileCol>45693</MinTileCol>
-            <MaxTileCol>68348</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>88696</MinTileRow>
-            <MaxTileRow>128349</MaxTileRow>
-            <MinTileCol>91387</MinTileCol>
-            <MaxTileCol>136696</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>ortho-express 2023</ows:Title>
-      <ows:Abstract>L’Ortho Express est une mosaïque d’ortho‐images numériques. Elle se différencie des autres produits orthophotographiques de l’IGN par le fait que, par souci de minimiser les délais de sa production, elle résulte d’un traitement massivement automatisé . L’Ortho Express vise en premier lieu à répondre à une exigence sur les délais de production. Il s’agit donc d’un produit dont les caractéristiques techniques sont contraintes par cette exigence forte.</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>ortho-express</ows:Keyword>
-        <ows:Keyword>ortho</ows:Keyword>
+        <ows:Keyword>BDOrtho</ows:Keyword>
+        <ows:Keyword>PAC 2025</ows:Keyword>
       </ows:Keywords>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-179.5 -75</ows:LowerCorner>
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023</ows:Identifier>
+      <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-ASP_PAC2025</ows:Identifier>
       <Style>
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1509,7 +1222,7 @@
       </Style>
       <Format>image/jpeg</Format>
       <TileMatrixSetLink>
-        <TileMatrixSet>PM_0_19</TileMatrixSet>
+        <TileMatrixSet>PM_0_18</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
             <TileMatrix>0</TileMatrix>
@@ -1643,13 +1356,6 @@
             <MaxTileRow>215666</MaxTileRow>
             <MinTileCol>364</MinTileCol>
             <MaxTileCol>261779</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>19</TileMatrix>
-            <MinTileRow>92955</MinTileRow>
-            <MaxTileRow>431332</MaxTileRow>
-            <MinTileCol>728</MinTileCol>
-            <MaxTileCol>523559</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
