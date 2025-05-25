@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="6981" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7529" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -229,8 +229,8 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
-        <Title>BDTopo Bâtiment édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Bâtiment édition 2024-12-15</Abstract>
+        <Title>BDTopo Bâtiment édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Bâtiment édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -263,8 +263,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Hydrographie édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Hydrographie édition 2024-12-15</Abstract>
+        <Title>BDTopo Hydrographie édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Hydrographie édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -297,8 +297,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Orographie édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Orographie édition 2024-12-15</Abstract>
+        <Title>BDTopo Orographie édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Orographie édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -331,8 +331,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau routier édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Réseau routier édition 2024-12-15</Abstract>
+        <Title>BDTopo Réseau routier édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Réseau routier édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -365,8 +365,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau de transport d'énergie édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2024-12-15</Abstract>
+        <Title>BDTopo Réseau de transport d'énergie édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -399,8 +399,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
-        <Title>BDTopo Végétation édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Végétation édition 2024-12-15</Abstract>
+        <Title>BDTopo Végétation édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Végétation édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -433,8 +433,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
-        <Title>BDTopo Zone d'activités édition 2024-12-15</Title>
-        <Abstract>BDTopo thème Zone d'activités édition 2024-12-15</Abstract>
+        <Title>BDTopo Zone d'activités édition 2025-03-15</Title>
+        <Abstract>BDTopo thème Zone d'activités édition 2025-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
