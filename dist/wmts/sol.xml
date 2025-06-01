@@ -88,7 +88,7 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDCARTO_ETAT-MAJOR.NIVEAU3</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -196,7 +196,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDCARTO_ETAT-MAJOR.NIVEAU4</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -304,7 +304,7 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_COSIA_2017-2020</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
@@ -422,7 +422,7 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_COSIA_2021-2023</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
@@ -540,7 +540,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INRA.CARTE.SOLS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>CARTE DES SOLS</Title>
         <Abstract>Légende de la carte des sols de l'INRA</Abstract>
         <ows:Keywords>

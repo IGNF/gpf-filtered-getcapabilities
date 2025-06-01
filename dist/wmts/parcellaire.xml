@@ -90,7 +90,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>Aire-Parcellaire</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -254,7 +254,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.HEATMAP</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>DECALAGE DE LA REPRESENTATION CADASTRALE</Title>
         <Abstract>Légende du décalage de la représentation cadastrale</Abstract>
         <ows:Keywords>
@@ -376,7 +376,7 @@
         <ows:UpperCorner>55.8464 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.HISTO.2008-2013.PARCELS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>BD Parcellaire Noire et transparente</Title>
         <Abstract>tracé noir sur fond transparent</Abstract>
         <ows:Keywords>
@@ -551,7 +551,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -731,7 +731,7 @@
         <ows:UpperCorner>55.8464 51.091</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>BD Parcellaire Noire et transparente</Title>
         <Abstract>tracé noir sur fond transparent</Abstract>
         <ows:Keywords>

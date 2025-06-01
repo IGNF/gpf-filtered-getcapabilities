@@ -88,7 +88,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.CONTOUR.LINE</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -206,7 +206,7 @@
         <ows:UpperCorner>168 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -317,7 +317,7 @@
         <ows:UpperCorner>45.3043 51.1053</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -407,7 +407,7 @@
         <ows:UpperCorner>55.8639 51.22</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES.MNS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -532,7 +532,7 @@
         <ows:UpperCorner>55.8884 50.9218</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Estompage</Title>
         <Abstract>Estompage calculé à partir de données en niveau de gris</Abstract>
         <ows:Keywords>
@@ -671,7 +671,7 @@
         <ows:UpperCorner>180 61.0004</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.SRTM3</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -777,7 +777,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.THRESHOLD</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Valeur de pente en %</Title>
         <Abstract>Valeur de pente en %</Abstract>
         <ows:Keywords>
@@ -910,7 +910,7 @@
         <ows:UpperCorner>55.9472 51.1388</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.LEVEL0</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1028,7 +1028,7 @@
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.SLOPES</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1118,7 +1118,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Graphe de source du RGE Alti</Title>
         <Abstract>Légende de la couche Graphe de source du RGE Alti</Abstract>
         <ows:Keywords>
@@ -1226,7 +1226,7 @@
         <ows:UpperCorner>56.0018 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1376,7 +1376,7 @@
         <ows:UpperCorner>9.67502 51.1791</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1489,7 +1489,7 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
@@ -1651,7 +1651,7 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
@@ -1813,7 +1813,7 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>

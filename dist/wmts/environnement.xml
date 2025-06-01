@@ -88,7 +88,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DEBROUSSAILLEMENT</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données sans légende</Title>
         <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
@@ -210,7 +210,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>FORETS.PUBLIQUES</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>FORETS PUBLIQUES ONF</Title>
         <Abstract>Légende des forêts publiques ONF</Abstract>
         <ows:Keywords>
@@ -339,7 +339,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEM.DFCI</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -448,7 +448,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INPE</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>INPE</Title>
         <Abstract>Légende de l'inventaire national des plans d'eau</Abstract>
         <ows:Keywords>
@@ -556,7 +556,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTAREAS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -660,7 +660,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTINVENTORY.V1</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -764,7 +764,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.FORESTINVENTORY.V2</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -881,7 +881,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.SYLVOECOREGIONS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -985,7 +985,7 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LANDCOVER.SYLVOECOREGIONS.ALLUVIUM</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1089,7 +1089,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APB</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.APB</Title>
         <Abstract>Légende APB</Abstract>
         <ows:Keywords>
@@ -1197,7 +1197,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APG</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1305,7 +1305,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APHN</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1413,7 +1413,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.APLG</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données sans légende</Title>
         <Abstract>Sans aucun fichier de légende</Abstract>
         <ows:Keywords>
@@ -1521,7 +1521,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.BIOS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.BIOS</Title>
         <Abstract>Légende BIOS</Abstract>
         <ows:Keywords>
@@ -1629,7 +1629,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.GP</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1737,7 +1737,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.INPG</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -1845,7 +1845,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PARCELS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.MNHN.CDL.PARCELS</Title>
         <Abstract>Légende CDL PARCELS</Abstract>
         <ows:Keywords>
@@ -1949,7 +1949,7 @@
         <ows:UpperCorner>55.8522 51.097</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CDL.PERIMETER</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Données Brutes</Title>
         <Abstract>Données brutes sans changement de palette</Abstract>
         <ows:Keywords>
@@ -2057,7 +2057,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.CONSERVATOIRES</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -2165,7 +2165,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.MNHN.RN.PERIMETER</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -2315,7 +2315,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PN</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.PN</Title>
         <Abstract>Légende PN</Abstract>
         <ows:Keywords>
@@ -2423,7 +2423,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PNM</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -2531,7 +2531,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PNR</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.PNR</Title>
         <Abstract>Légende PNR</Abstract>
         <ows:Keywords>
@@ -2640,7 +2640,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PRSF</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>POINT RENCONTRE SECOURS FORET</Title>
         <Abstract>Légende Points de Rencontre de Secours en Forêt (PRSF)</Abstract>
         <ows:Keywords>
@@ -2755,7 +2755,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RAMSAR</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.RAMSAR</Title>
         <Abstract>Légende RAMSAR</Abstract>
         <ows:Keywords>
@@ -2863,7 +2863,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RB</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -2971,7 +2971,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RIPN</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -3079,7 +3079,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RN</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.RN</Title>
         <Abstract>Légende RN</Abstract>
         <ows:Keywords>
@@ -3187,7 +3187,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RNC</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.RNC</Title>
         <Abstract>Légende RNC</Abstract>
         <ows:Keywords>
@@ -3295,7 +3295,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.RNCF</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -3403,7 +3403,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.SIC</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.SIC</Title>
         <Abstract>Légende SIC</Abstract>
         <ows:Keywords>
@@ -3511,7 +3511,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.UNESCO</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -3619,7 +3619,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF1</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.ZNIEFF1</Title>
         <Abstract>Légende ZNIEFF1</Abstract>
         <ows:Keywords>
@@ -3727,7 +3727,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF1.SEA</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -3835,7 +3835,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF2</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.ZNIEFF2</Title>
         <Abstract>Légende ZNIEFF2</Abstract>
         <ows:Keywords>
@@ -3943,7 +3943,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZNIEFF2.SEA</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
         <ows:Keywords>
@@ -4051,7 +4051,7 @@
         <ows:UpperCorner>82.645 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZPR</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.BIOS</Title>
         <Abstract>Légende BIOS</Abstract>
         <ows:Keywords>
@@ -4159,7 +4159,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.ZPS</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDAREAS.ZPS</Title>
         <Abstract>Légende ZPS</Abstract>
         <ows:Keywords>
@@ -4267,7 +4267,7 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</ows:Identifier>
-      <Style>
+      <Style isDefault="true">
         <Title>PROTECTEDSITES.MNHN.RESERVES-REGIONALES</Title>
         <Abstract>Légende RR</Abstract>
         <ows:Keywords>
