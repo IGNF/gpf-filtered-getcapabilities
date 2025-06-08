@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3315">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3274">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -1093,11 +1093,11 @@
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
-      <fes:Function name="centroid">
+      <fes:Function name="Centroid">
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
-          <fes:Argument name="geometry">
-            <fes:Type>gml:AbstractGeometryType</fes:Type>
+          <fes:Argument name="features">
+            <fes:Type>xs:string</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
@@ -1524,6 +1524,17 @@
           </fes:Argument>
           <fes:Argument name="geometry2">
             <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+        </fes:Arguments>
+      </fes:Function>
+      <fes:Function name="div">
+        <fes:Returns>xs:int</fes:Returns>
+        <fes:Arguments>
+          <fes:Argument name="dividend">
+            <fes:Type>xs:int</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="divisor">
+            <fes:Type>xs:int</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
@@ -2518,6 +2529,17 @@
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
+      <fes:Function name="lin">
+        <fes:Returns>xs:boolean</fes:Returns>
+        <fes:Arguments>
+          <fes:Argument name="item">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="source">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+        </fes:Arguments>
+      </fes:Function>
       <fes:Function name="list">
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
@@ -3031,6 +3053,17 @@
           </fes:Argument>
           <fes:Argument name="index">
             <fes:Type>xs:int</fes:Type>
+          </fes:Argument>
+        </fes:Arguments>
+      </fes:Function>
+      <fes:Function name="pointOnLine">
+        <fes:Returns>xs:string</fes:Returns>
+        <fes:Arguments>
+          <fes:Argument name="linestring">
+            <fes:Type>xs:string</fes:Type>
+          </fes:Argument>
+          <fes:Argument name="percentage">
+            <fes:Type>xs:double</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
