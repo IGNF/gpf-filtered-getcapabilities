@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3274">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4111">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -330,6 +330,19 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.51063483 41.35555653</ows:LowerCorner>
         <ows:UpperCorner>9.65203797 50.9519425</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>TOURBIERES_ZONES-HUMIDES.BCAE:bcae</Name>
+      <Title>Protection des zones humides et des tourbières BCAE 2</Title>
+      <Abstract>Dans le cadre d'une convention avec le MASAF, la norme BCAE 2 relative à la conditionnalité de la Politique Agricole Commune a pour objet de protéger les zones humides et des tourbières et entrera en vigueur à compter de 2025. Elle vise à protéger ces milieux à fort enjeux y compris lorsqu’ils ne sont pas pleinement fonctionnels en raison d’action anthropique (drainage par exemple) qui limite temporairement l’expression de leurs fonctionnalités. Cette protection est assurée par le respect d’exigences spécifiques aux zones humides et aux tourbières</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Occupation des terres</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.787109375 -21.245898438</ows:LowerCorner>
+        <ows:UpperCorner>55.72265625 50.919921875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

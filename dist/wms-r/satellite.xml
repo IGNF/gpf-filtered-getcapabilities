@@ -667,6 +667,41 @@
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2023</Name>
+        <Title>PLEIADES 2023</Title>
+        <Abstract>Agrégation des images PLEIADES 2023</Abstract>
+        <KeywordList>
+          <Keyword>Images satellitaires</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.24021184813185</westBoundLongitude>
+          <eastBoundLongitude>-60.78760694937224</eastBoundLongitude>
+          <southBoundLatitude>14.379817471897336</southBoundLatitude>
+          <northBoundLatitude>14.88866622139008</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6817229.1990062371" maxx="-6766845.4521457748" miny="1617828.3838322358" maxy="1676372.6515446368" />
+        <Attribution>
+          <Title>Centre national d'études spatiales (CNES)</Title>
+          <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>4265.4591676995706</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2010</Name>
         <Title>Couche RapidEye 2010</Title>
         <Abstract>Image satellitaire de la France métropolitaine effectuée en 2010 par les satellites de télédétection RapidEye dans le cadre du projet EQUIPEX GEOSUD.</Abstract>

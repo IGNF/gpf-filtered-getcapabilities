@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3274">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4111">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -322,301 +322,421 @@
     <FeatureType>
       <Name>wfs_sup:acte_sup</Name>
       <Title>Acte de servitude d'utilité publique</Title>
-      <Abstract>Liste des actes instituant une servitude d'utilité publique</Abstract>
+      <Abstract>Liste des actes instituant une servitude d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>acte_sup_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:assiette_sup_l</Name>
       <Title>Assiette de servitude d'utilité publique</Title>
-      <Abstract>Assiettes linéaires liées aux servitudes</Abstract>
+      <Abstract>Assiettes linéaires liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_assiette_sup_l_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:assiette_sup_p</Name>
       <Title>Assiette de servitude d'utilité publique</Title>
-      <Abstract>Assiettes ponctuelles liées aux servitudes</Abstract>
+      <Abstract>Assiettes ponctuelles liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_assiette_sup_p_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:assiette_sup_s</Name>
       <Title>Assiette de servitude d'utilité publique</Title>
-      <Abstract>Assiettes surfaciques liées aux servitudes</Abstract>
+      <Abstract>Assiettes surfaciques liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_assiette_sup_s_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:municipality</Name>
       <Title>Communes</Title>
-      <Abstract>Emprise communale</Abstract>
+      <Abstract>Emprise communale, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>municipality</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:doc_urba</Name>
       <Title>Document d'urbanisme</Title>
-      <Abstract>Classe sémantique décrivant le document d'urbanisme</Abstract>
+      <Abstract>Classe sémantique décrivant le document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>doc_urba_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:doc_urba_com</Name>
       <Title>Document d'urbanisme</Title>
-      <Abstract>Classe sémantique décrivant le document d'urbanisme</Abstract>
+      <Abstract>Classe sémantique décrivant le document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>doc_urba_com_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:document</Name>
       <Title>Document d'urbanisme</Title>
-      <Abstract>Emprise du document d'urbanisme</Abstract>
+      <Abstract>Emprise du document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>document_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_scot:doc_urba</Name>
       <Title>Document d'urbanisme</Title>
-      <Abstract>Classe sémantique décrivant le Schéma de Cohérence Territorial</Abstract>
+      <Abstract>Classe sémantique décrivant le Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>doc_urba_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-61.5234375 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.546875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_scot:doc_urba_com</Name>
       <Title>Document d'urbanisme</Title>
-      <Abstract>Relations entre le Schéma de Cohérence Territorial et les communes auxquelles il s'applique</Abstract>
+      <Abstract>Relations entre le Schéma de Cohérence Territorial et les communes auxquelles il s'applique, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>doc_urba_com_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-61.5234375 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.546875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:habillage_txt</Name>
       <Title>Etiquette ponctuelle de l’habillage du plan</Title>
-      <Abstract>Étiquette ponctuelle portée sur le document d'urbanisme pour l’habillage du plan</Abstract>
+      <Abstract>Étiquette ponctuelle portée sur le document d'urbanisme pour l’habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>habillage_txt_prod</ows:Keyword>
+        <ows:Keyword>features</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:generateur_sup_l</Name>
       <Title>Générateur de servitude d'utilité publique</Title>
-      <Abstract>Générateurs linéaires liés aux servitudes</Abstract>
+      <Abstract>Générateurs linéaires liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_generateur_sup_l_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:generateur_sup_p</Name>
       <Title>Générateur de servitude d'utilité publique</Title>
-      <Abstract>Générateurs ponctuels liés aux servitudes</Abstract>
+      <Abstract>Générateurs ponctuels liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_generateur_sup_p_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:generateur_sup_s</Name>
       <Title>Générateur de servitude d'utilité publique</Title>
-      <Abstract>Générateurs surfaciques liés aux servitudes</Abstract>
+      <Abstract>Générateurs surfaciques liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>filtre_generateur_sup_s_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:habillage_lin</Name>
       <Title>Habillages linéaires</Title>
-      <Abstract>Objet linéaire indicatif porté sur le document d'urbanisme pour l'habillage du plan</Abstract>
+      <Abstract>Objet linéaire indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>habillage_lin_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:habillage_pct</Name>
       <Title>Habillages ponctuels</Title>
-      <Abstract>Objet ponctuel indicatif porté sur le document d'urbanisme pour l'habillage du plan</Abstract>
+      <Abstract>Objet ponctuel indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>habillage_pct_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:habillage_surf</Name>
       <Title>Habillages surfaciques</Title>
-      <Abstract>Objet surfacique indicatif porté sur le document d'urbanisme pour l'habillage du plan</Abstract>
+      <Abstract>Objet surfacique indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>habillage_surf_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:info_lin</Name>
       <Title>Informations linéaires</Title>
-      <Abstract>Périmètre linéaire à reporter à titre d’information</Abstract>
+      <Abstract>Périmètre linéaire à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>info_lin_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:info_pct</Name>
       <Title>Informations ponctuelles</Title>
-      <Abstract>Périmètre ponctuel à reporter à titre d’information</Abstract>
+      <Abstract>Périmètre ponctuel à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>info_pct_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:info_surf</Name>
       <Title>Informations surfaciques</Title>
-      <Abstract>Périmètre surfacique à reporter à titre d’information</Abstract>
+      <Abstract>Périmètre surfacique à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>info_surf_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:gestionnaire_sup</Name>
       <Title>Organisme gestionnaire ou organisme ressource de la servitude</Title>
-      <Abstract>Gestionnaires de servitude d'utilité publique</Abstract>
+      <Abstract>Gestionnaires de servitude d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>gestionnaire_sup_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_scot:perimetre_scot</Name>
       <Title>Perimetre du Schéma de cohérence territorial</Title>
-      <Abstract>Périmètre publié du Schéma de Cohérence Territorial</Abstract>
+      <Abstract>Périmètre publié du Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>perimetre_scot_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-61.5234375 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.546875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:prescription_lin</Name>
       <Title>Prescriptions linéaires</Title>
-      <Abstract>Prescriptions linéaires se superposant au zonage</Abstract>
+      <Abstract>Prescriptions linéaires se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>prescription_lin_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:prescription_pct</Name>
       <Title>Prescriptions ponctuelles</Title>
-      <Abstract>Prescriptions ponctuelles se superposant au zonage</Abstract>
+      <Abstract>Prescriptions ponctuelles se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>prescription_pct_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:prescription_surf</Name>
       <Title>Prescriptions surfaciques</Title>
-      <Abstract>Prescriptions surfaciques se superposant au zonage</Abstract>
+      <Abstract>Prescriptions surfaciques se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>prescription_surf_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:servitude_acte_sup</Name>
       <Title>Relation entre ACTE_SUP et SERVITUDE</Title>
-      <Abstract>Relation entre les SUP et les actes les instituant</Abstract>
+      <Abstract>Relation entre les SUP et les actes les instituant, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>servitude_acte_sup_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_scot:scot</Name>
       <Title>Schéma de cohérence territorial</Title>
-      <Abstract>Etat du Schéma de Cohérence Territorial</Abstract>
+      <Abstract>Etat du Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>scot_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-61.5234375 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.546875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:secteur_cc</Name>
       <Title>Secteurs de la carte communale</Title>
-      <Abstract>Secteurs de carte communale</Abstract>
+      <Abstract>Secteurs de carte communale, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>secteur_cc_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_sup:servitude</Name>
       <Title>Servitude d'utilité publique</Title>
-      <Abstract>Liste des servitudes d'utilité publique</Abstract>
+      <Abstract>Liste des servitudes d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>servitude_prod</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -49.86640625</ows:LowerCorner>
-        <ows:UpperCorner>78.046875 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>wfs_du:zone_urba</Name>
       <Title>Zonage du document d'urbanisme</Title>
-      <Abstract>Zonage du document d'urbanisme</Abstract>
+      <Abstract>Zonage du document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>zone_urba_prod</ows:Keyword>
+        <ows:Keyword>features</ows:Keyword>
+      </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
-        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+        <ows:LowerCorner>-180.0 -89.9</ows:LowerCorner>
+        <ows:UpperCorner>180.0 89.9</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
   </FeatureTypeList>
