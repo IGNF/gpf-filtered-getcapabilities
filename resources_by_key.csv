@@ -75,12 +75,30 @@ wfs,administratif,ADMINEXPRESS-COG.2024:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG.2024:departement
 wfs,administratif,ADMINEXPRESS-COG.2024:epci
 wfs,administratif,ADMINEXPRESS-COG.2024:region
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:canton
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_ epci
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ canton
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_region
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:departement
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:epci
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:region
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG.LATEST:canton
-wfs,administratif,ADMINEXPRESS-COG.LATEST:cheflieu_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG.LATEST:cheflieu_commune
-wfs,administratif,ADMINEXPRESS-COG.LATEST:cheflieu_commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_d_ epci
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ canton
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_region
 wfs,administratif,ADMINEXPRESS-COG.LATEST:collectivite_territoriale
 wfs,administratif,ADMINEXPRESS-COG.LATEST:commune
 wfs,administratif,ADMINEXPRESS-COG.LATEST:commune_associee_ou_deleguee
@@ -497,6 +515,7 @@ wms-r,cle specifique *,SCAN100_PYR-JPEG_WLD_WM
 wms-r,cle specifique *,SCAN25TOUR_PYR-JPEG_WLD_WM
 wms-r,cle specifique *,SCANOACI_PYR-JPEG_WLD_WM
 wmts,cle specifique *,GEOGRAPHICALGRIDSYSTEMS.MAPS
+wmts,cle specifique *,SCAN100_PYR-JPEG_WLD_WM_WMTS_3D
 wmts,cle specifique *,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR
 wmts,cle specifique *,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR.L93
 wmts,cle specifique *,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-OACI
@@ -920,6 +939,7 @@ wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2016-2020
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1950-1965
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1965-1980
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1980-1995
+wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.IRC.2012
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.IRC.2013
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.IRC.2014
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.IRC.2015

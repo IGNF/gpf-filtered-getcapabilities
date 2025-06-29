@@ -283,7 +283,7 @@
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
         <Name>OCSGE.CONSTRUCTIONS</Name>
-        <Title>Occupation du sol grande échelle - zones construites</Title>
+        <Title>Occupation du sol grande échelle - zones construites - ancienne génération</Title>
         <Abstract>La composante Occupation du sol grande échelle retenue par l’IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l’usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d’occupation des sols à grande échelle (CNIG).</Abstract>
         <KeywordList>
           <Keyword>Occupation du sol</Keyword>
@@ -318,7 +318,7 @@
       </Layer>
       <Layer>
         <Name>OCSGE.COUVERTURE</Name>
-        <Title>Occupation du sol grande échelle - couverture</Title>
+        <Title>Occupation du sol grande échelle - couverture - ancienne génération</Title>
         <Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle</Abstract>
         <KeywordList>
           <Keyword>Occupation du sol</Keyword>
@@ -353,7 +353,7 @@
       </Layer>
       <Layer>
         <Name>OCSGE.USAGE</Name>
-        <Title>Occupation du sol grande échelle - usage</Title>
+        <Title>Occupation du sol grande échelle - usage - ancienne génération</Title>
         <Abstract>La composante Occupation du sol grande échelle retenue par l'IGN partitionne le territoire en deux vues, physionomique (la couverture) et fonctionnel (l'usage principal). La zone construite, calculée à partir de ces deux informations, délimite les espaces construits des espaces naturels, agricoles et forestiers. Les données respectent les préconisations nationales pour la production des bases de données d'occupation des sols à grande échelle (CNIG).</Abstract>
         <KeywordList>
           <Keyword>Occupation du sol</Keyword>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7662" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8343" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -230,7 +230,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-ADMINISTRATIF_WLD_WGS84G</Name>
         <Title>BDCarto ADMINISTRATIF</Title>
-        <Abstract>BDCarto thème ADMINISTRATIF édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème ADMINISTRATIF édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -254,7 +254,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-BATI_WLD_WGS84G</Name>
         <Title>BDCarto BATI</Title>
-        <Abstract>BDCarto thème BATI édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème BATI édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -278,7 +278,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-HYDROGRAPHIE_WLD_WGS84G</Name>
         <Title>BDCarto HYDROGRAPHIE</Title>
-        <Abstract>BDCarto thème HYDROGRAPHIE édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème HYDROGRAPHIE édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -302,7 +302,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-LIEUX_NOMMES_WLD_WGS84G</Name>
         <Title>BDCarto LIEUX_NOMMES</Title>
-        <Abstract>BDCarto thème LIEUX_NOMMES édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème LIEUX_NOMMES édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -326,7 +326,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-OCCUPATION_DU_SOL_WLD_WGS84G</Name>
         <Title>BDCarto OCCUPATION_DU_SOL</Title>
-        <Abstract>BDCarto thème OCCUPATION_DU_SOL édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème OCCUPATION_DU_SOL édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -350,7 +350,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-SERVICE_ET_ACTIVITES_WLD_WGS84G</Name>
         <Title>BDCarto SERVICE_ET_ACTIVITES</Title>
-        <Abstract>BDCarto thème SERVICE_ET_ACTIVITES édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème SERVICE_ET_ACTIVITES édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -374,7 +374,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-TRANSPORT_WLD_WGS84G</Name>
         <Title>BDCarto TRANSPORT</Title>
-        <Abstract>BDCarto thème TRANSPORT édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème TRANSPORT édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -398,7 +398,7 @@
       <Layer queryable="1">
         <Name>BDCARTO-ZONES_REGLEMENTEES_WLD_WGS84G</Name>
         <Title>BDCarto ZONES_REGLEMENTEES</Title>
-        <Abstract>BDCarto thème ZONES_REGLEMENTEES édition 2024-09-15</Abstract>
+        <Abstract>BDCarto thème ZONES_REGLEMENTEES édition 2025-03-15</Abstract>
         <KeywordList />
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
