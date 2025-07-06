@@ -695,33 +695,6 @@
         <MinScaleDenominator>178.57142857142856</MinScaleDenominator>
         <MaxScaleDenominator>11702857.142857142</MaxScaleDenominator>
       </Layer>
-      <Layer>
-        <Name>THR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
-        <Title>Photographies aériennes très haute résolution</Title>
-        <Abstract>Orthophotographies aériennes d'une résolution de 10cm à 5cm selon disponibilité.</Abstract>
-        <KeywordList>
-          <Keyword>Orthos</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>0.035491219999999997</westBoundLongitude>
-          <eastBoundLongitude>6.0235265199999999</eastBoundLongitude>
-          <southBoundLatitude>43.15334876</southBoundLatitude>
-          <northBoundLatitude>49.696926619999999</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="3950.8645380320463" maxx="670535.9049861792" miny="5335342.2961707627" maxy="6393953.3728118064" />
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>266.59119798122282</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
     </Layer>
   </Capability>
 </WMS_Capabilities>

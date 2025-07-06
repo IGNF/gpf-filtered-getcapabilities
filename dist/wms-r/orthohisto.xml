@@ -643,7 +643,7 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2020</Name>
@@ -654,12 +654,12 @@
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-2.68141798</westBoundLongitude>
-          <eastBoundLongitude>7.7436337200000001</eastBoundLongitude>
-          <southBoundLatitude>42.945353760000003</southBoundLatitude>
-          <northBoundLatitude>49.451229810000001</northBoundLatitude>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-80</southBoundLatitude>
+          <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-298494.0841375282" maxx="862017.36260002281" miny="5303657.827411009" maxy="6351775.3847082378" />
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -670,7 +670,7 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC.2021</Name>

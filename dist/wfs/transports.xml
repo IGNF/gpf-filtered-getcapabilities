@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="4688">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3591">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -387,14 +387,14 @@
     <FeatureType>
       <Name>TRANSPORTS.DRONES.RESTRICTIONS:carte_restriction_drones_lf</Name>
       <Title>Restrictions UAS catégorie Ouverte et Aéromodélisme </Title>
-      <Abstract>{quote}Zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, à jour au 07-2024. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 30 mars 2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote}</Abstract>
+      <Abstract>{quote}Zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, en Guyane, aux Antilles françaises, Saint-Pierre et Miquelon, Mayotte, La Réunion et aux Terres Australes, à jour au 07-2025. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 30 mars 2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote}</Abstract>
       <ows:Keywords>
         <ows:Keyword>Drone</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-7.99999703 40.84341536</ows:LowerCorner>
-        <ows:UpperCorner>10.70000198 51.09333213</ows:UpperCorner>
+        <ows:LowerCorner>-63.6328125 -45.188125</ows:LowerCorner>
+        <ows:UpperCorner>67.5 51.16890625</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>

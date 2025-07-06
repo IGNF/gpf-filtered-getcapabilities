@@ -634,18 +634,18 @@
       <Layer queryable="1">
         <Name>TRANSPORTS.DRONES.RESTRICTIONS</Name>
         <Title>Restrictions UAS catégorie Ouverte et Aéromodélisme</Title>
-        <Abstract>Représentation des zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, à jour au 07-2024. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 09/11/2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.</Abstract>
+        <Abstract>Représentation des zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, en Guyane, aux Antilles françaises, Saint-Pierre et Miquelon, Mayotte, La Réunion et aux Terres Australes, à jour au 07-2025. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 09/11/2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.</Abstract>
         <KeywordList>
           <Keyword>Drone</Keyword>
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-9.88146813</westBoundLongitude>
-          <eastBoundLongitude>11.678098690000001</eastBoundLongitude>
-          <southBoundLatitude>40.575989819999997</southBoundLatitude>
-          <northBoundLatitude>51.442817580000003</northBoundLatitude>
+          <westBoundLongitude>-63.78459528763802</westBoundLongitude>
+          <eastBoundLongitude>67.548454080555715</eastBoundLongitude>
+          <southBoundLatitude>-44.628134370370717</southBoundLatitude>
+          <northBoundLatitude>51.215921979026518</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-1100000.0005215611" maxx="1299999.9996043954" miny="4950000.0000814255" maxy="6699999.999949974" />
+        <BoundingBox CRS="EPSG:3857" minx="-7100468.6678749016" maxx="7519459.5121202851" miny="-5563167.6068414329" maxy="6659577.0617710333" />
         <Attribution>
           <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
           <OnlineResource xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" xlink:type="simple" />
