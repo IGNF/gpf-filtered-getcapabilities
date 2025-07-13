@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd" updateSequence="3591">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/ows/schemas/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4207">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -38,8 +38,8 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="AcceptVersions">
@@ -67,8 +67,8 @@
     <ows:Operation name="DescribeFeatureType">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="outputFormat">
@@ -80,8 +80,8 @@
     <ows:Operation name="GetFeature">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resultType">
@@ -96,9 +96,11 @@
           <ows:Value>GML2</ows:Value>
           <ows:Value>KML</ows:Value>
           <ows:Value>SHAPE-ZIP</ows:Value>
+          <ows:Value>application/geo+json</ows:Value>
           <ows:Value>application/json</ows:Value>
           <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
           <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
+          <ows:Value>application/vnd.ogc.fg+json</ows:Value>
           <ows:Value>csv</ows:Value>
           <ows:Value>gml3</ows:Value>
           <ows:Value>gml32</ows:Value>
@@ -127,8 +129,8 @@
     <ows:Operation name="GetPropertyValue">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resolve">
@@ -146,23 +148,23 @@
     <ows:Operation name="ListStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="DescribeStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="CreateStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="language">
@@ -174,82 +176,10 @@
     <ows:Operation name="DropStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
         </ows:HTTP>
       </ows:DCP>
-    </ows:Operation>
-    <ows:Operation name="LockFeature">
-      <ows:DCP>
-        <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
-        </ows:HTTP>
-      </ows:DCP>
-      <ows:Parameter name="releaseAction">
-        <ows:AllowedValues>
-          <ows:Value>ALL</ows:Value>
-          <ows:Value>SOME</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
-    </ows:Operation>
-    <ows:Operation name="GetFeatureWithLock">
-      <ows:DCP>
-        <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
-        </ows:HTTP>
-      </ows:DCP>
-      <ows:Parameter name="resultType">
-        <ows:AllowedValues>
-          <ows:Value>results</ows:Value>
-          <ows:Value>hits</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
-      <ows:Parameter name="outputFormat">
-        <ows:AllowedValues>
-          <ows:Value>application/gml+xml; version=3.2</ows:Value>
-          <ows:Value>GML2</ows:Value>
-          <ows:Value>KML</ows:Value>
-          <ows:Value>SHAPE-ZIP</ows:Value>
-          <ows:Value>application/json</ows:Value>
-          <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
-          <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
-          <ows:Value>csv</ows:Value>
-          <ows:Value>gml3</ows:Value>
-          <ows:Value>gml32</ows:Value>
-          <ows:Value>json</ows:Value>
-          <ows:Value>text/csv</ows:Value>
-          <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
-          <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
-          <ows:Value>text/xml; subtype=gml/3.2</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
-      <ows:Parameter name="resolve">
-        <ows:AllowedValues>
-          <ows:Value>none</ows:Value>
-          <ows:Value>local</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
-    </ows:Operation>
-    <ows:Operation name="Transaction">
-      <ows:DCP>
-        <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
-        </ows:HTTP>
-      </ows:DCP>
-      <ows:Parameter name="inputFormat">
-        <ows:AllowedValues>
-          <ows:Value>application/gml+xml; version=3.2</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
-      <ows:Parameter name="releaseAction">
-        <ows:AllowedValues>
-          <ows:Value>ALL</ows:Value>
-          <ows:Value>SOME</ows:Value>
-        </ows:AllowedValues>
-      </ows:Parameter>
     </ows:Operation>
     <ows:Constraint name="ImplementsBasicWFS">
       <ows:NoValues />
@@ -257,11 +187,11 @@
     </ows:Constraint>
     <ows:Constraint name="ImplementsTransactionalWFS">
       <ows:NoValues />
-      <ows:DefaultValue>TRUE</ows:DefaultValue>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
     </ows:Constraint>
     <ows:Constraint name="ImplementsLockingWFS">
       <ows:NoValues />
-      <ows:DefaultValue>TRUE</ows:DefaultValue>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
     </ows:Constraint>
     <ows:Constraint name="KVPEncoding">
       <ows:NoValues />
@@ -317,6 +247,25 @@
         <ows:Value>wfs:StoredQuery</ows:Value>
       </ows:AllowedValues>
     </ows:Constraint>
+    <ows:ExtendedCapabilities>
+      <inspire_dls:ExtendedCapabilities>
+        <inspire_common:MetadataUrl>
+          <inspire_common:URL>https://data.geopf.fr/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;ID=GPF.WFS.xml&amp;OUTPUTSCHEMA=http://www.isotc211.org/2005/gmd</inspire_common:URL>
+          <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
+        </inspire_common:MetadataUrl>
+        <inspire_common:SupportedLanguages>
+          <inspire_common:DefaultLanguage>
+            <inspire_common:Language>fre</inspire_common:Language>
+          </inspire_common:DefaultLanguage>
+        </inspire_common:SupportedLanguages>
+        <inspire_common:ResponseLanguage>
+          <inspire_common:Language>fre</inspire_common:Language>
+        </inspire_common:ResponseLanguage>
+        <inspire_dls:SpatialDataSetIdentifier>
+          <inspire_common:Code>https://data.geopf.fr/csw?REQUEST=GetCapabilities&amp;VERSION=2.0.2&amp;SERVICE=CSW</inspire_common:Code>
+        </inspire_dls:SpatialDataSetIdentifier>
+      </inspire_dls:ExtendedCapabilities>
+    </ows:ExtendedCapabilities>
   </ows:OperationsMetadata>
   <FeatureTypeList>
     <FeatureType>
@@ -327,6 +276,121 @@
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
@@ -340,6 +404,121 @@
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
@@ -353,6 +532,121 @@
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
@@ -366,6 +660,121 @@
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
@@ -379,6 +788,121 @@
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
@@ -392,6 +916,121 @@
         <ows:Keyword>adresse</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-149.765625 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.9921875 51.27109375</ows:UpperCorner>
