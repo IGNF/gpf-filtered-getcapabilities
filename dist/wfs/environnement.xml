@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/ows/schemas/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4207">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 https://data.geopf.fr/wfs/schemas/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4382">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -38,8 +38,8 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="AcceptVersions">
@@ -67,8 +67,8 @@
     <ows:Operation name="DescribeFeatureType">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="outputFormat">
@@ -80,8 +80,8 @@
     <ows:Operation name="GetFeature">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resultType">
@@ -129,8 +129,8 @@
     <ows:Operation name="GetPropertyValue">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resolve">
@@ -148,23 +148,23 @@
     <ows:Operation name="ListStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="DescribeStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="CreateStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="language">
@@ -176,8 +176,8 @@
     <ows:Operation name="DropStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/ows/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
