@@ -282,6 +282,30 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
+        <Name>BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</Name>
+        <Title>Carte de Cassini</Title>
+        <Abstract>Planches numérisées colorisées de la carte de Cassini détenue par la BNF</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.3948581400000002</westBoundLongitude>
+          <eastBoundLongitude>9.9628200899999992</eastBoundLongitude>
+          <southBoundLatitude>40.93430017</southBoundLatitude>
+          <northBoundLatitude>51.883872660000002</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-711872.35184002051" maxx="1109056.059283796" miny="5002655.7784051234" maxy="6779155.3161378503" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>34123.673341596535</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10</Name>
         <Title>Carte de l'état-major - environs de Paris (1818 - 1824)</Title>
         <Abstract>Carte des environs de Paris au 1 : 10 000 établie entre 1818 et 1824.</Abstract>

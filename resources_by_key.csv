@@ -75,6 +75,21 @@ wfs,administratif,ADMINEXPRESS-COG.2024:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG.2024:departement
 wfs,administratif,ADMINEXPRESS-COG.2024:epci
 wfs,administratif,ADMINEXPRESS-COG.2024:region
+wfs,administratif,ADMINEXPRESS-COG.2025:arrondissement
+wfs,administratif,ADMINEXPRESS-COG.2025:arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG.2025:canton
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_d_ epci
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ canton
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_region
+wfs,administratif,ADMINEXPRESS-COG.2025:collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.2025:commune
+wfs,administratif,ADMINEXPRESS-COG.2025:commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG.2025:departement
+wfs,administratif,ADMINEXPRESS-COG.2025:epci
+wfs,administratif,ADMINEXPRESS-COG.2025:region
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG.LATEST:canton
@@ -91,38 +106,55 @@ wfs,administratif,ADMINEXPRESS-COG.LATEST:departement
 wfs,administratif,ADMINEXPRESS-COG.LATEST:epci
 wfs,administratif,ADMINEXPRESS-COG.LATEST:region
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:canton
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:canton
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_ epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_ epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ canton
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ canton
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ commune
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ commune
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_departement
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_region
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_region
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:collectivite_territoriale
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:collectivite_territoriale
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:departement
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:departement
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:region
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:region
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:arrondissement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:arrondissement_municipal
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:canton
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_de_ collectivite_territoriale
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_de_ commune
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_de_commune_associee_ou_deleguee
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_de_departement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:chef_lieu_de_region
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:collectivite_territoriale
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:commune
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:commune_associee_ou_deleguee
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:departement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:epci
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.2025:region
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:arrondissement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:arrondissement_municipal
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:canton
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_ collectivite_territoriale
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_commune_associee_ou_deleguee
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_departement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_region
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:collectivite_territoriale
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:commune
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:commune_associee_ou_deleguee
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:departement
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:epci
+wfs,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST:region
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement_municipal
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:canton
@@ -148,8 +180,11 @@ wms-r,administratif,ADMINEXPRESS-COG.2021
 wms-r,administratif,ADMINEXPRESS-COG.2022
 wms-r,administratif,ADMINEXPRESS-COG.2023
 wms-r,administratif,ADMINEXPRESS-COG.2024
+wms-r,administratif,ADMINEXPRESS-COG.2025
 wms-r,administratif,ADMINEXPRESS-COG.LATEST
 wms-r,administratif,ADMINEXPRESS-COG-CARTO.LATEST
+wms-r,administratif,ADMINEXPRESS-COG-CARTO-PE.2025
+wms-r,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST
 wms-r,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
 wms-v,administratif,Noms_communes
 wms-v,administratif,Noms_departements
@@ -162,8 +197,11 @@ wmts,administratif,ADMINEXPRESS-COG.2021
 wmts,administratif,ADMINEXPRESS-COG.2022
 wmts,administratif,ADMINEXPRESS-COG.2023
 wmts,administratif,ADMINEXPRESS-COG.2024
+wmts,administratif,ADMINEXPRESS-COG.2025
 wmts,administratif,ADMINEXPRESS-COG.LATEST
 wmts,administratif,ADMINEXPRESS-COG-CARTO.LATEST
+wmts,administratif,ADMINEXPRESS-COG-CARTO-PE.2025
+wmts,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST
 wmts,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
 wfs,adresse,BAN.DATA.GOUV:ban
 wfs,adresse,BAN-PLUS:adresse
@@ -302,6 +340,7 @@ wmts,altimetrie,IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
 wmts,altimetrie,IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
 wfs,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE:graphe_scan25
 wfs,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950.GRAPHE:ta_france_cartes_50k_1950_date_wm
+wms-r,cartes,BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI
 wms-r,cartes,GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10
 wms-r,cartes,GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40
 wms-r,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.BDUNI.J1
@@ -690,6 +729,7 @@ wfs,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES:rnr
 wfs,environnement,PRSF_BDD_GLP_2023:prs_glp
 wfs,environnement,PRSF_BDD_GUF_2023:prs_guf
 wfs,environnement,PRSF_BDD_REU_2023:prs_reu
+wms-r,environnement,DEBROUSSAILLEMENT
 wms-r,environnement,FORETS.PUBLIQUES
 wms-r,environnement,GEOGRAPHICALGRIDSYSTEM.DFCI
 wms-r,environnement,LANDCOVER.FORESTINVENTORY.V1
@@ -721,7 +761,6 @@ wms-r,environnement,PROTECTEDAREAS.ZNIEFF2.SEA
 wms-r,environnement,PROTECTEDAREAS.ZPR
 wms-r,environnement,PROTECTEDAREAS.ZPS
 wms-r,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES
-wms-r,environnement,DEBROUSSAILLEMENT
 wms-v,environnement,DEBROUSSAILLEMENT
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2016
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2023
@@ -739,36 +778,36 @@ wmts,environnement,LANDCOVER.FORESTINVENTORY.V1
 wmts,environnement,LANDCOVER.FORESTINVENTORY.V2
 wmts,environnement,LANDCOVER.SYLVOECOREGIONS
 wmts,environnement,LANDCOVER.SYLVOECOREGIONS.ALLUVIUM
-wmts,environnement,PROTECTEDAREAS.APB
-wmts,environnement,PROTECTEDAREAS.APG
-wmts,environnement,PROTECTEDAREAS.APHN
-wmts,environnement,PROTECTEDAREAS.APLG
-wmts,environnement,PROTECTEDAREAS.BIOS
-wmts,environnement,PROTECTEDAREAS.GP
-wmts,environnement,PROTECTEDAREAS.INPG
-wmts,environnement,PROTECTEDAREAS.MNHN.CDL.PARCELS
+wmts,environnement,Patrinat_APB
+wmts,environnement,Patrinat_APG
+wmts,environnement,Patrinat_APHN
+wmts,environnement,Patrinat_APLG
+wmts,environnement,Patrinat_BIOS
+wmts,environnement,Patrinat_GEOPARC
+wmts,environnement,Patrinat_INPG
+wmts,environnement,Patrinat_CDL
 wmts,environnement,PROTECTEDAREAS.MNHN.CDL.PERIMETER
-wmts,environnement,PROTECTEDAREAS.MNHN.CONSERVATOIRES
-wmts,environnement,PROTECTEDAREAS.MNHN.RN.PERIMETER
-wmts,environnement,PROTECTEDAREAS.PN
-wmts,environnement,PROTECTEDAREAS.PNM
-wmts,environnement,PROTECTEDAREAS.PNR
+wmts,environnement,Patrinat_CEN
+wmts,environnement,Patrinat_PPRNN
+wmts,environnement,Patrinat_PN
+wmts,environnement,Patrinat_PNM
+wmts,environnement,Patrinat_PNR
 wmts,environnement,PROTECTEDAREAS.PRSF
-wmts,environnement,PROTECTEDAREAS.RAMSAR
-wmts,environnement,PROTECTEDAREAS.RB
-wmts,environnement,PROTECTEDAREAS.RIPN
-wmts,environnement,PROTECTEDAREAS.RN
-wmts,environnement,PROTECTEDAREAS.RNC
-wmts,environnement,PROTECTEDAREAS.RNCF
-wmts,environnement,PROTECTEDAREAS.SIC
-wmts,environnement,PROTECTEDAREAS.UNESCO
-wmts,environnement,PROTECTEDAREAS.ZNIEFF1
-wmts,environnement,PROTECTEDAREAS.ZNIEFF1.SEA
-wmts,environnement,PROTECTEDAREAS.ZNIEFF2
-wmts,environnement,PROTECTEDAREAS.ZNIEFF2.SEA
-wmts,environnement,PROTECTEDAREAS.ZPR
-wmts,environnement,PROTECTEDAREAS.ZPS
-wmts,environnement,PROTECTEDSITES.MNHN.RESERVES-REGIONALES
+wmts,environnement,Patrinat_RAMSAR
+wmts,environnement,Patrinat_RB
+wmts,environnement,Patrinat_RIPN
+wmts,environnement,Patrinat_RNN
+wmts,environnement,Patrinat_RNC
+wmts,environnement,Patrinat_RNCF
+wmts,environnement,Patrinat_SIC
+wmts,environnement,Patrinat_BPM
+wmts,environnement,Patrinat_ZNIEFF1
+wmts,environnement,Patrinat_ZNIEFF1_MER
+wmts,environnement,Patrinat_ZNIEFF2
+wmts,environnement,Patrinat_ZNIEFF2_MER
+wmts,environnement,Patrinat_ZPR
+wmts,environnement,Patrinat_ZPS
+wmts,environnement,Patrinat_RNR
 wfs,essentiels,BDTOPO_V3:batiment
 wfs,essentiels,BDTOPO_V3:troncon_de_route
 wfs,essentiels,CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle
@@ -1202,6 +1241,7 @@ wmts,topographie,TRANSPORTNETWORKS.RAILWAYS
 wmts,topographie,TRANSPORTNETWORKS.ROADS
 wmts,topographie,TRANSPORTNETWORKS.RUNWAYS
 wmts,topographie,UTILITYANDGOVERNMENTALSERVICES.ALL
+wmts,topographie,IGNF_BD-HAIE-V1_2020
 wfs,transports,DGAC-PEB_BDD_FXX_WM:fxx_peb_wm
 wfs,transports,DGAC-PEB-POI_BDD_WLD_WM:aerodrome_avec_peb_wm
 wfs,transports,DGAC-PGS_BDD_FXX_WM:fxx_pgs_wm

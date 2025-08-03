@@ -597,6 +597,41 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>ADMINEXPRESS-COG.2025</Name>
+        <Title>ADMINEXPRESS COG ; Edition : 2025-01-01</Title>
+        <Abstract>Limites administratives Express COG code officiel géographique ; Edition : 2025-01-01</Abstract>
+        <KeywordList>
+          <Keyword>Unités administratives</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>ADMINEXPRESS-COG</Name>
+          <Title>Légende du 1/1000000</Title>
+          <Abstract>Légende associée a ADMINEXPRESS-COG</Abstract>
+          <LegendURL width="300" height="600">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG.LATEST-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>ADMINEXPRESS-COG.LATEST</Name>
         <Title>ADMINEXPRESS COG ; Dernière édition</Title>
         <Abstract>Limites administratives Express COG code officiel géographique ; Dernière édition</Abstract>
