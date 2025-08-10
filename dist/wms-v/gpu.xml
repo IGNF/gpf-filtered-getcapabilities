@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7777" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="10051" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -243,9 +243,12 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>agricole</Name>
-        <Title>Zones agricoles protégées</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A9 et A10</Abstract>
-        <KeywordList />
+        <Title>SUP - Zones agricoles protégées</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A9, A10 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -267,9 +270,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>assainissement</Name>
-        <Title>Eau et assainissement</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5 et A6</Abstract>
-        <KeywordList />
+        <Title>SUP - Eau et assainissement</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A2, A3, A5, A6 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -291,9 +297,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>associations</Name>
-        <Title>Associations syndicales</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5 et A6</Abstract>
-        <KeywordList />
+        <Title>SUP - Associations syndicales</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A2, A3, A5, A6 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -315,9 +324,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>canalisation</Name>
-        <Title>Canalisations</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6, I1, I3 et I5</Abstract>
-        <KeywordList />
+        <Title>SUP - Canalisations</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I3, A2, A3, A5, A6 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -338,34 +350,13 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>carriere</Name>
-        <Title>Mines et carrières</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories I6 et I7</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.0</westBoundLongitude>
-          <eastBoundLongitude>180.0</eastBoundLongitude>
-          <southBoundLatitude>-89.9</southBoundLatitude>
-          <northBoundLatitude>89.9</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
-        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
-        <Style>
-          <Name>default-style-carriere</Name>
-          <Title>carriere style</Title>
-          <Abstract>Default style for carriere layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=carriere" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>chaleur_froid</Name>
-        <Title>Réseaux de chaleur et froid</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie I9</Abstract>
-        <KeywordList />
+        <Title>SUP - Réseaux de chaleur et froid</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I9 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -387,9 +378,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>cimetieres</Name>
-        <Title>Cimetières</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie INT1</Abstract>
-        <KeywordList />
+        <Title>SUP - Cimetières</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories INT1 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -411,9 +405,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>circulation_aerienne</Name>
-        <Title>Circulation aérienne</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories T4, T5, T6 et T7</Abstract>
-        <KeywordList />
+        <Title>SUP - Circulation aérienne</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories T4, T5, T6, T7 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -435,9 +432,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>communication</Name>
-        <Title>Communication</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6, T1, T2, T3, T4, T5, T6, T7, T9, EL3, EL4, EL5, EL6, EL7, EL8 et EL11</Abstract>
-        <KeywordList />
+        <Title>SUP - Communication</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL3, EL8, T1, T3, EL5, EL6, EL7, EL11, T4, T5, T6, T7, EL4, T2, A2, A3, A5, A6, T9 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -459,9 +459,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>conchylicoles</Name>
-        <Title>Etablissements conchylicoles</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie AS2</Abstract>
-        <KeywordList />
+        <Title>SUP - Etablissements conchylicoles</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AS2 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -483,9 +486,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>conservation_du_patrimoine</Name>
-        <Title>Conservation du patrimoine</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories  A1, A4, A7, A8, A9, A10, AC1, AC2, AC3, AC4, AC4bis, AS1, EL9, EL10 et JS1</Abstract>
-        <KeywordList />
+        <Title>SUP - Conservation du patrimoine</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A1, A4, A7, A8, A9, A10, AC3, AS1, EL9, EL10, AC1, AC2, AC4, AC4BIS, JS1 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -507,9 +513,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>cours_d_eau</Name>
-        <Title>Cours d'eau</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie EL3</Abstract>
-        <KeywordList />
+        <Title>SUP - Cours d'eau</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL3 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -530,34 +539,13 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>defense</Name>
-        <Title>Défense nationale</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.0</westBoundLongitude>
-          <eastBoundLongitude>180.0</eastBoundLongitude>
-          <southBoundLatitude>-89.9</southBoundLatitude>
-          <northBoundLatitude>89.9</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
-        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
-        <Style>
-          <Name>default-style-defense</Name>
-          <Title>defense style</Title>
-          <Abstract>Default style for defense layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=defense" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>defense_nationale</Name>
-        <Title>Défense nationale</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
-        <KeywordList />
+        <Title>SUP - Défense nationale</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5, AR6 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -580,8 +568,11 @@
       <Layer queryable="1">
         <Name>document</Name>
         <Title>Emprise des documents d'urbanisme (petite échelle)</Title>
-        <Abstract>Emprise des Documents d'urbanisme (PLUi ,PLU, POS, CC) pour une visualisation à petite échelle de l’emprise et du type de document</Abstract>
-        <KeywordList />
+        <Abstract>Emprise des Documents d'urbanisme (PLUi ,PLU, POS, CC, PSMV) pour une visualisation à petite échelle de l’emprise et du type de document publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -603,9 +594,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>du</Name>
-        <Title>Documents d'urbanisme</Title>
-        <Abstract>PLU, POS, CC</Abstract>
-        <KeywordList />
+        <Title>Ensemble des données issues des documents d'urbanisme (PLU, PLUi, PSMV, POS, CC) publiés sur le Géoportail de l'Urbanisme</Title>
+        <Abstract>Ensemble des données issues des documents d'urbanisme (PLU, PLUi, PSMV, POS, CC) publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -627,9 +621,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>eaux</Name>
-        <Title>Eaux</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie AS1 et A4</Abstract>
-        <KeywordList />
+        <Title>SUP - Eaux</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A4, AS1 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -651,9 +648,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>electricite</Name>
-        <Title>Electricité</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie I4</Abstract>
-        <KeywordList />
+        <Title>SUP - Electricité</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I4 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -675,9 +675,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>energie</Name>
-        <Title>Energie</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories I2, I3, I4 et I9</Abstract>
-        <KeywordList />
+        <Title>SUP - Energie</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I4, I5, I2, I9 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -699,9 +702,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>energie_hydraulique</Name>
-        <Title>Energie hydraulique</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie I2</Abstract>
-        <KeywordList />
+        <Title>SUP - Energie hydraulique</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I2 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -723,9 +729,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>forets</Name>
-        <Title>Forêts</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A1, A7 et A8</Abstract>
-        <KeywordList />
+        <Title>SUP - Forêts</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A1, A7, A8 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -747,9 +756,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>gaz</Name>
-        <Title>Gaz</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie I3</Abstract>
-        <KeywordList />
+        <Title>SUP - Gaz</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I5 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -771,9 +783,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>gaz_hydrocarbures_produits_chimiques</Name>
-        <Title>Transport de gaz, hydrocarbures et produits chimiques</Title>
-        <Abstract>Servitude d’Utilité Publique de catégories I1, I3 et I5</Abstract>
-        <KeywordList />
+        <Title>SUP - Transport de gaz, hydrocarbures et produits chimiques</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I3 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -796,8 +811,11 @@
       <Layer queryable="1">
         <Name>info</Name>
         <Title>Périmètres d'information</Title>
-        <Abstract>Périmètres d'information des documents d'urbanisme</Abstract>
-        <KeywordList />
+        <Abstract>Périmètres d'information des documents d'urbanisme (PLU, PLUi, POS, CC) publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -820,8 +838,11 @@
       <Layer queryable="1">
         <Name>info_psmv</Name>
         <Title>Périmètres d'information des PSMV</Title>
-        <Abstract>Périmètres d'information des PSMV</Abstract>
-        <KeywordList />
+        <Abstract>Périmètres d'information des PSMV publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -843,9 +864,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>littoral</Name>
-        <Title>Littoral</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie EL9</Abstract>
-        <KeywordList />
+        <Title>SUP - Littoral</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL9 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -867,9 +891,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>mines_carrieres</Name>
-        <Title>Mines et carrières</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories I6,I7 et I10</Abstract>
-        <KeywordList />
+        <Title>SUP - Mines et carrières</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I6 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -891,9 +918,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>monument_historique</Name>
-        <Title>Monuments historiques</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie AC1</Abstract>
-        <KeywordList />
+        <Title>SUP - Monuments historiques</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AC1 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -915,9 +945,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>monument_naturel_site</Name>
-        <Title>Monuments naturels et sites</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie AC2</Abstract>
-        <KeywordList />
+        <Title>SUP - Monuments naturels et sites</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AC2 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -940,8 +973,11 @@
       <Layer queryable="1">
         <Name>municipality</Name>
         <Title>Communes au RNU</Title>
-        <Abstract>Communes couvertes par le Règlement National d'Urbanisme (RNU)</Abstract>
-        <KeywordList />
+        <Abstract>Communes couvertes par le Règlement National d'Urbanisme (RNU) tel que renseigné sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -963,9 +999,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>navigation_maritime</Name>
-        <Title>Navigation maritime</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie EL8</Abstract>
-        <KeywordList />
+        <Title>SUP - Navigation maritime</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL8 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -986,34 +1025,13 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>ouvrage_defense</Name>
-        <Title>Ouvrages de défense</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AR1, AR2, AR3, AR4, AR5 et AR6</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.0</westBoundLongitude>
-          <eastBoundLongitude>180.0</eastBoundLongitude>
-          <southBoundLatitude>-89.9</southBoundLatitude>
-          <northBoundLatitude>89.9</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
-        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
-        <Style>
-          <Name>default-style-ouvrage_defense</Name>
-          <Title>ouvrage_defense style</Title>
-          <Abstract>Default style for ouvrage_defense layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ouvrage_defense" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>patrimoine_architectural</Name>
-        <Title>Patrimoine architectural et urbain</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AC4 et AC4bis</Abstract>
-        <KeywordList />
+        <Title>SUP - Patrimoine architectural et urbain</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AC4, AC4BIS publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1035,9 +1053,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>patrimoine_culturel</Name>
-        <Title>Patrimoine culturel</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AC1, AC2, AC4 et AC4bis</Abstract>
-        <KeywordList />
+        <Title>SUP - Patrimoine culturel</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AC1, AC2, AC4, AC4BIS publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1059,9 +1080,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>patrimoine_naturel</Name>
-        <Title>Patrimoine naturel</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AS1, A1, A4, A7, A8, A9, A10, AC3, EL9 et EL10</Abstract>
-        <KeywordList />
+        <Title>SUP - Patrimoine naturel</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories A1, A7, A8, EL9, A4, AS1, AC3, EL10, A9, A10 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1083,9 +1107,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>patrimoine_sportif</Name>
-        <Title>Patrimoine sportif</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie JS1</Abstract>
-        <KeywordList />
+        <Title>SUP - Patrimoine sportif</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories JS1 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1108,8 +1135,11 @@
       <Layer queryable="1">
         <Name>prescription</Name>
         <Title>Prescriptions</Title>
-        <Abstract>Prescriptions des documents d'urbanisme</Abstract>
-        <KeywordList />
+        <Abstract>Prescriptions des documents d'urbanisme (PLU, PLUi, POS, CC) publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1132,8 +1162,11 @@
       <Layer queryable="1">
         <Name>prescription_psmv</Name>
         <Title>Prescriptions des PSMV</Title>
-        <Abstract>Prescriptions des PSMV</Abstract>
-        <KeywordList />
+        <Abstract>Prescriptions des PSMV publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1155,9 +1188,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>psmv</Name>
-        <Title>Plan de sauvegarde et de mise en valeur</Title>
-        <Abstract>Plan de sauvegarde et de mise en valeur</Abstract>
-        <KeywordList />
+        <Title>PSMV</Title>
+        <Abstract>Plans de Sauvegarde et de Mise en Valeur publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1179,9 +1215,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>remontee_piste_ski</Name>
-        <Title>Remontées mécaniques et pistes de ski</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories EL4 et T2</Abstract>
-        <KeywordList />
+        <Title>SUP - Remontées mécaniques et pistes de ski</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL4, T2 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1203,9 +1242,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>reseau_routier</Name>
-        <Title>Réseaux routiers</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories EL5, EL6, EL7 et EL11</Abstract>
-        <KeywordList />
+        <Title>SUP - Réseaux routiers</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL5, EL6, EL7, EL11 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1227,9 +1269,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>reserve_parc</Name>
-        <Title>Réserves naturelles et parcs</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories AC3 et EL10</Abstract>
-        <KeywordList />
+        <Title>SUP - Réserves naturelles et parcs</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AC3, EL10 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1251,9 +1296,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>ressources_equipement</Name>
-        <Title>Ressources et équipements</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories A2, A3, A5, A6,I1, I2, I3, I4, I5, I6, I7, I9, I10, T1, T2, T3, T4, T5, T6, T7, T8, T9, EL3, EL4, EL5, EL6, EL7, EL8, EL11, PT1, PT2 et PT3</Abstract>
-        <KeywordList />
+        <Title>SUP - Ressources et équipements</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories I2, I4, I5, I9, I6, A2, A3, A5, A6, I3, EL3, EL4, EL5, EL6, EL7, EL8, EL11, T1, T2, T3, T4, T5, T6, T7, T9, PT1, PT2, PT3 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1275,9 +1323,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>salubrite_publique</Name>
-        <Title>Salubrité publique</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories INT1 et AS2</Abstract>
-        <KeywordList />
+        <Title>SUP - Salubrité publique</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories INT1, AS2 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1299,9 +1350,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>salubrite_securite_publique</Name>
-        <Title>Salubrité et sécurité publique</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories EL2BIS,INT1, AS2, PM1, PM1BIS, PM2, PM3, PM4, PM5, PM6 et PM7</Abstract>
-        <KeywordList />
+        <Title>SUP - Salubrité et sécurité publique</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories AS2, INT1, EL2BIS, I7, I10, PM1, PM1BIS, PM2, PM3, PM4, PM5, PM6, PM7, PM8 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1325,7 +1379,10 @@
         <Name>scot</Name>
         <Title>Schéma de Cohérence Territoriale</Title>
         <Abstract>Schéma de Cohérence Territoriale</Abstract>
-        <KeywordList />
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1347,9 +1404,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>securite_publique</Name>
-        <Title>Sécurité publique</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories EL2bis, PM1, PM1bis, PM2, PM3, PM4, PM5, PM6 et PM7</Abstract>
-        <KeywordList />
+        <Title>SUP - Sécurité publique</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories EL2BIS, I7, I10, PM1, PM1BIS, PM2, PM3, PM4, PM5, PM6, PM7, PM8 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1370,34 +1430,13 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>sport</Name>
-        <Title>Installations sportives</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie JS1</Abstract>
-        <KeywordList />
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180.0</westBoundLongitude>
-          <eastBoundLongitude>180.0</eastBoundLongitude>
-          <southBoundLatitude>-89.9</southBoundLatitude>
-          <northBoundLatitude>89.9</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
-        <BoundingBox CRS="EPSG:4326" minx="-89.9" miny="-180.0" maxx="89.9" maxy="180.0" />
-        <Style>
-          <Name>default-style-sport</Name>
-          <Title>sport style</Title>
-          <Abstract>Default style for sport layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=sport" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>sup</Name>
-        <Title>Servitude d'Utilité Publique</Title>
-        <Abstract>Servitude d'Utilité Publique (toutes catégories)</Abstract>
-        <KeywordList />
+        <Title>SUP - Servitudes d'Utilité Publique</Title>
+        <Abstract>Servitudes d'Utilité Publique (toutes catégories) publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1419,9 +1458,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>telecommunication</Name>
-        <Title>Communications électroniques</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories T8, PT1, PT2 et PT3</Abstract>
-        <KeywordList />
+        <Title>SUP - Communications électroniques</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories PT1, PT2, PT3 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1443,9 +1485,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>transport_cable</Name>
-        <Title>Transport par câble en milieu urbain</Title>
-        <Abstract>Servitude d'Utilité Publique de catégorie T9</Abstract>
-        <KeywordList />
+        <Title>SUP - Transport par câble en milieu urbain</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories T9 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1467,9 +1512,12 @@
       </Layer>
       <Layer queryable="1">
         <Name>transport_ferroviaire</Name>
-        <Title>Transports ferroviaires ou guidés</Title>
-        <Abstract>Servitude d'Utilité Publique de catégories T1 et T3</Abstract>
-        <KeywordList />
+        <Title>SUP - Transports ferroviaires ou guidés</Title>
+        <Abstract>Servitudes d'Utilité Publique de catégories T1, T3 publiées sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1492,8 +1540,11 @@
       <Layer queryable="1">
         <Name>zone_secteur</Name>
         <Title>Zonages</Title>
-        <Abstract>Zonages des documents d'urbanisme</Abstract>
-        <KeywordList />
+        <Abstract>Zonages des documents d'urbanisme (PLU, PLUi, POS, CC) publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>
@@ -1516,8 +1567,11 @@
       <Layer queryable="1">
         <Name>zone_secteur_psmv</Name>
         <Title>Zonages des PSMV</Title>
-        <Abstract>Zonages des PSMV</Abstract>
-        <KeywordList />
+        <Abstract>Zonages des PSMV publiés sur le Géoportail de l'Urbanisme</Abstract>
+        <KeywordList>
+          <Keyword>urbanisme</Keyword>
+          <Keyword>usage des sols</Keyword>
+        </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
           <westBoundLongitude>-180.0</westBoundLongitude>

@@ -351,6 +351,76 @@
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
+      <Layer>
+        <Name>IGNF_COSIA_2017-2020</Name>
+        <Title>COSIA 2017-2020</Title>
+        <Abstract>COSIA 2017-2020</Abstract>
+        <KeywordList>
+          <Keyword>COSIA</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285603</westBoundLongitude>
+          <eastBoundLongitude>55.846499999999999</eastBoundLongitude>
+          <southBoundLatitude>-21.399799999999999</southBoundLatitude>
+          <northBoundLatitude>51.0991</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.809011614" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_COSIA_2021-2023</Name>
+        <Title>COSIA 2021-2023</Title>
+        <Abstract>COSIA 2021-2023</Abstract>
+        <KeywordList>
+          <Keyword>COSIA</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180</westBoundLongitude>
+          <eastBoundLongitude>180</eastBoundLongitude>
+          <southBoundLatitude>-80</southBoundLatitude>
+          <northBoundLatitude>80</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer queryable="1">
         <Name>INRA.CARTE.SOLS</Name>
         <Title>carte des sols France entière</Title>
