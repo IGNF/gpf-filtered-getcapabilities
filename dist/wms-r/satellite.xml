@@ -668,19 +668,54 @@
       </Layer>
       <Layer>
         <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2023</Name>
-        <Title>PLEIADES 2023</Title>
-        <Abstract>Agrégation des images PLEIADES 2023</Abstract>
+        <Title>PLEIADES - 2023</Title>
+        <Abstract>Agrégation des images Pleiades de l'année 2023</Abstract>
         <KeywordList>
           <Keyword>Images satellitaires</Keyword>
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.189065535126531</westBoundLongitude>
+          <westBoundLongitude>-63.189064845126403</westBoundLongitude>
           <eastBoundLongitude>-51.592509960186405</eastBoundLongitude>
           <southBoundLatitude>1.9325361423132255</southBoundLatitude>
-          <northBoundLatitude>18.142937129597712</northBoundLatitude>
+          <northBoundLatitude>18.142936439597708</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7034174.5990730785" maxx="-5743251.9375148453" miny="215169.74127008635" maxy="2054285.8859123848" />
+        <BoundingBox CRS="EPSG:3857" minx="-7034174.5222626152" maxx="-5743251.9375148453" miny="215169.74127008635" maxy="2054285.8050833291" />
+        <Attribution>
+          <Title>Centre national d'études spatiales (CNES)</Title>
+          <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/cnes.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2024</Name>
+        <Title>PLEIADES - 2024</Title>
+        <Abstract>Agrégation des images Pleiades de l'année 2024</Abstract>
+        <KeywordList>
+          <Keyword>Images satellitaires</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.179621459135902</westBoundLongitude>
+          <eastBoundLongitude>-56.095829762481372</eastBoundLongitude>
+          <southBoundLatitude>17.980164009551867</southBoundLatitude>
+          <northBoundLatitude>47.15888923283692</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7033123.289342789" maxx="-6244559.2047855873" miny="2035226.9075217515" maxy="5968047.5120951599" />
         <Attribution>
           <Title>Centre national d'études spatiales (CNES)</Title>
           <OnlineResource xlink:href="http://www.cnes.fr/" xlink:type="simple" />

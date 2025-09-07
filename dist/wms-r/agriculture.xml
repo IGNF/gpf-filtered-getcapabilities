@@ -1010,6 +1010,41 @@
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
+      <Layer queryable="1">
+        <Name>LANDUSE.AGRICULTURE2024</Name>
+        <Title>Registre parcellaire graphique 2024</Title>
+        <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer>
         <Name>PRAIRIES.SENSIBLES.BCAE</Name>
         <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>

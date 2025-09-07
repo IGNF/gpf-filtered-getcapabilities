@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9120" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8719" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -469,8 +469,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>COMMUNESTOURISTIQUES</Name>
-        <Title>COMMUNES_TOURISTIQUES édition 2025-06-05</Title>
-        <Abstract>COMMUNES_TOURISTIQUES édition 2025-06-05</Abstract>
+        <Title>COMMUNES_TOURISTIQUES édition 2025-09-01</Title>
+        <Abstract>COMMUNES_TOURISTIQUES édition 2025-09-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -537,8 +537,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>STATIONSCLASSEES</Name>
-        <Title>STATIONS_CLASSEES édition 2025-06-05</Title>
-        <Abstract>STATIONS_CLASSEES édition 2025-06-05</Abstract>
+        <Title>STATIONS_CLASSEES édition 2025-09-01</Title>
+        <Abstract>STATIONS_CLASSEES édition 2025-09-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -571,8 +571,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>STATIONSVERTES</Name>
-        <Title>STATIONS_VERTES édition 2025-06-05</Title>
-        <Abstract>STATIONS_VERTES édition 2025-06-05</Abstract>
+        <Title>STATIONS_VERTES édition 2025-09-01</Title>
+        <Abstract>STATIONS_VERTES édition 2025-09-01</Abstract>
         <KeywordList>
           <Keyword>station</Keyword>
         </KeywordList>
@@ -697,8 +697,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>VILLAGESETAPE</Name>
-        <Title>VILLAGES_ETAPE édition 2025-06-05</Title>
-        <Abstract>VILLAGES_ETAPE édition 2025-06-05</Abstract>
+        <Title>VILLAGES_ETAPE édition 2025-09-01</Title>
+        <Abstract>VILLAGES_ETAPE édition 2025-09-01</Abstract>
         <KeywordList>
           <Keyword>village</Keyword>
         </KeywordList>

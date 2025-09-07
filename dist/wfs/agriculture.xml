@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="6085">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3752">
   <ows:ServiceIdentification>
     <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
     <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
@@ -530,9 +530,10 @@
         <ows:Keyword>bcae</ows:Keyword>
         <ows:Keyword>prairie</ows:Keyword>
       </ows:Keywords>
-      <DefaultCRS>urn:ogc:def:crs:EPSG::2154</DefaultCRS>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::3857</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
@@ -598,7 +599,6 @@
       <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
-      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
@@ -905,6 +905,134 @@
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>RPG.2014:rpg_2014</Name>
+      <Title>Registre parcellaire graphique (RPG) 2014</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Agriculture</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
+        <ows:UpperCorner>55.83259967 51.07512792</ows:UpperCorner>
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
@@ -2444,6 +2572,262 @@
       </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
+      <Name>RPG.2024:codes_cultures</Name>
+      <Title>Registre parcellaire graphique (RPG) 2024 : Codes des cultures</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>RPG.2024:parcelles_graphiques</Name>
+      <Title>Registre parcellaire graphique (RPG) 2024 : Parcelles graphiques</Title>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Usages des sols</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>RPG.LATEST:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) : codes culture</Title>
       <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
@@ -3456,11 +3840,11 @@
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
-      <fes:Function name="Centroid">
+      <fes:Function name="centroid">
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
-          <fes:Argument name="features">
-            <fes:Type>xs:string</fes:Type>
+          <fes:Argument name="geometry">
+            <fes:Type>gml:AbstractGeometryType</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
