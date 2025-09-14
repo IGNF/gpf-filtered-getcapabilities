@@ -282,6 +282,41 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer queryable="1">
+        <Name>DEBROUSSAILLEMENT</Name>
+        <Title>Zonage informatif des obligations légales de débroussaillement</Title>
+        <Abstract>Zonage informatif des obligations légales de débroussaillement</Abstract>
+        <KeywordList>
+          <Keyword>débroussaillement</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.1894993102856128</westBoundLongitude>
+          <eastBoundLongitude>10.423399310285612</eastBoundLongitude>
+          <southBoundLatitude>41.001200689714388</southBoundLatitude>
+          <northBoundLatitude>51.31209931028561</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-689011.9114863124" maxx="1160327.5035559533" miny="5012518.7669194285" maxy="6676687.2685792977" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Données sans légende</Title>
+          <Abstract>Sans aucun fichier de légende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>FORETS.PUBLIQUES</Name>
         <Title>Forêts publiques</Title>
         <Abstract>Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d'établissements publics) gérées par l'Office national des forêts (ONF).</Abstract>
@@ -346,6 +381,43 @@
           <LegendURL width="200" height="200">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_FORETS-ANCIENNES</Name>
+        <Title>Forêts anciennes</Title>
+        <Abstract>Une forêt est ancienne si l’usage du sol est forestier depuis au moins le milieu du XIXème siècle. Les données sont issues du croisement BD CARTO® EM et BD Forêt® V2.</Abstract>
+        <KeywordList>
+          <Keyword>forêt ancienne</Keyword>
+          <Keyword>forêt disparue</Keyword>
+          <Keyword>forêt récente</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
@@ -1365,6 +1437,37 @@
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ZONES-A-PROSPECTER-FORETS-SUBNATURELLES</Name>
+        <Title>Zones à prospecter pour les forêts subnaturelles</Title>
+        <Abstract>Cartographie des zones à prospecter pour l’identification des forêts subnaturelles</Abstract>
+        <KeywordList>
+          <Keyword>forêts</Keyword>
+          <Keyword>écologie</Keyword>
+          <Keyword>maturité</Keyword>
+          <Keyword>vieilles forêts</Keyword>
+          <Keyword>forêts subnaturelles</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>34942641.50179486</MaxScaleDenominator>
       </Layer>
     </Layer>
   </Capability>
