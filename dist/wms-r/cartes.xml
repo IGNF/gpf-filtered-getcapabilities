@@ -586,44 +586,9 @@
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>SCANDEP_PYR-JPEG_FXX_WM</Name>
-        <Title>SCANDEP WM FXX 2011</Title>
-        <Abstract>Le produit SCAN Départemental® version 3 est une collection d'images cartographiques numériques en couleur, obtenues par rastérisation des données vecteur de la série « Cartes départementales » éditées par l'IGN. Ces images couvrent l'ensemble du territoire français métropolitain.  </Abstract>
-        <KeywordList>
-          <Keyword>Cartes</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-6.4208809699999998</westBoundLongitude>
-          <eastBoundLongitude>11.42971427</eastBoundLongitude>
-          <southBoundLatitude>40.809712670000003</southBoundLatitude>
-          <northBoundLatitude>51.161536609999999</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-714769.2000246204" maxx="1272349.9724490126" miny="4984314.7124193078" maxy="6649917.5740964059" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>68247.346683193202</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
-      </Layer>
-      <Layer>
         <Name>SCANREG_PYR-JPEG_WLD_WM</Name>
-        <Title>Scan Régional FXX WM 08-2021</Title>
-        <Abstract>Le produit SCAN Régional® version 2 est une collection d'images cartographiques numériques en couleur, obtenues par rastérisation des données vecteur de la série « Cartes régionales » éditées par l'IGN. Ces images couvrent l'ensemble du territoire français métropolitain.</Abstract>
+        <Title>Scan Régional</Title>
+        <Abstract>Le produit SCAN Régional® version 2 est une collection d'images cartographiques numériques en couleur, obtenues par rastérisation des données vecteur de la série « Cartes régionales » éditées par l'IGN. Ces images couvrent l'ensemble du territoire français métropolitain. Édition: 01-07-2025</Abstract>
         <KeywordList>
           <Keyword>Cartes</Keyword>
         </KeywordList>
