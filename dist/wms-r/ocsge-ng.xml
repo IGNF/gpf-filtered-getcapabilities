@@ -2,19 +2,18 @@
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service WMS Raster public de la Géoplateforme</Title>
-    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <Title>API Géoplateforme - Diffusion d'images WMS-Raster</Title>
+    <Abstract>Permet un affichage d'images avec des possibilités de personnalisation (style, système de référence géodésique, emprise, format et taille d’image).</Abstract>
     <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>Géoplateforme</Keyword>
-      <Keyword>Public</Keyword>
+      <Keyword>WMS 1.3.0</Keyword>
       <Keyword>infoMapAccessService</Keyword>
+      <Keyword>Public</Keyword>
     </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
-        <ContactOrganization>ROK4 Team</ContactOrganization>
+        <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition />
       <ContactAddress>
@@ -25,12 +24,12 @@
         <PostCode>94165</PostCode>
         <Country>France</Country>
       </ContactAddress>
-      <ContactVoiceTelephone />
+      <ContactVoiceTelephone>01 43 98 80 00</ContactVoiceTelephone>
       <ContactFacsimileTelephone />
       <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>5010</MaxWidth>
     <MaxHeight>5010</MaxHeight>
@@ -281,6 +280,54 @@
         <northBoundLatitude>90</northBoundLatitude>
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
+      <Layer queryable="1">
+        <Name>IGNF_PHOTOVOLTAIQUE-SOL_2017-2020</Name>
+        <Title>Installations photovoltaïques au sol</Title>
+        <Abstract>Cette base de données permet de localiser les installations de production photovoltaïque au sol sur l’ensemble du territoire métropolitain et des départements et régions d’outre-mer (DROM). Produite via détection automatique par IA, à partir de prises de vues aériennes et avec corrections par des photo-interprètes, cette base constitue un outil essentiel pour le suivi des énergies renouvelables et le calcul de l’artificialisation des sols.</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_PHOTOVOLTAIQUE-SOL_2021-2023</Name>
+        <Title>Installations photovoltaïques au sol</Title>
+        <Abstract>Cette base de données permet de localiser les installations de production photovoltaïque au sol sur l’ensemble du territoire métropolitain et des départements et régions d’outre-mer (DROM). Produite via détection automatique par IA, à partir de prises de vues aériennes et avec corrections par des photo-interprètes, cette base constitue un outil essentiel pour le suivi des énergies renouvelables et le calcul de l’artificialisation des sols.</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer queryable="1">
         <Name>OCSGE.ARTIF.2016-2017</Name>
         <Title>OCS GE 2016-2017 - artificialisation</Title>

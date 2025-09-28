@@ -2,19 +2,18 @@
 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service WMS Raster public de la Géoplateforme</Title>
-    <Abstract>Ce service diffuse les données WMS Raster publiques de la Géoplateforme</Abstract>
+    <Title>API Géoplateforme - Diffusion d'images WMS-Raster</Title>
+    <Abstract>Permet un affichage d'images avec des possibilités de personnalisation (style, système de référence géodésique, emprise, format et taille d’image).</Abstract>
     <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>Géoplateforme</Keyword>
-      <Keyword>Public</Keyword>
+      <Keyword>WMS 1.3.0</Keyword>
       <Keyword>infoMapAccessService</Keyword>
+      <Keyword>Public</Keyword>
     </KeywordList>
     <OnlineResource xlink:href="https://cartes.gouv.fr/" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
-        <ContactOrganization>ROK4 Team</ContactOrganization>
+        <ContactOrganization>IGN</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition />
       <ContactAddress>
@@ -25,12 +24,12 @@
         <PostCode>94165</PostCode>
         <Country>France</Country>
       </ContactAddress>
-      <ContactVoiceTelephone />
+      <ContactVoiceTelephone>01 43 98 80 00</ContactVoiceTelephone>
       <ContactFacsimileTelephone />
       <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</AccessConstraints>
     <LayerLimit>2</LayerLimit>
     <MaxWidth>5010</MaxWidth>
     <MaxHeight>5010</MaxHeight>
