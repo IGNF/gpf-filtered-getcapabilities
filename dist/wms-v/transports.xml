@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7831" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7751" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -242,74 +242,6 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
-        <Name>DGAC-PEB-POI_BDD_WLD_WM</Name>
-        <Title>Plan d'exposition au bruit, documents d'approbation (PEB)</Title>
-        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
-        <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
-        </KeywordList>
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.525833</westBoundLongitude>
-          <eastBoundLongitude>55.516342</eastBoundLongitude>
-          <southBoundLatitude>-21.321536</southBoundLatitude>
-          <northBoundLatitude>50.687222</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.525833" miny="-21.321536" maxx="55.516342" maxy="50.687222" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.321536" miny="-61.525833" maxx="50.687222" maxy="55.516342" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>default-style-DGAC-PEB-POI_BDD_WLD_WM</Name>
-          <Title>DGAC-PEB-POI_BDD_WLD_WM style</Title>
-          <Abstract>Default style for DGAC-PEB-POI_BDD_WLD_WM layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=DGAC-PEB-POI_BDD_WLD_WM" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
-        <Name>DGAC-PEB_BDD_FXX_WM_WMS</Name>
-        <Title>Plan d'exposition au bruit (PEB)</Title>
-        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zone de bruit diversement exposés au bruit engendré par les aéronefs (A, B, C et/ou D et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
-        <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
-        </KeywordList>
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.598904</westBoundLongitude>
-          <eastBoundLongitude>55.582677</eastBoundLongitude>
-          <southBoundLatitude>-21.335064</southBoundLatitude>
-          <northBoundLatitude>50.700964</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.598904" miny="-21.335064" maxx="55.582677" maxy="50.700964" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.335064" miny="-61.598904" maxx="50.700964" maxy="55.582677" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>default-style-DGAC-PEB_BDD_FXX_WM_WMS</Name>
-          <Title>DGAC-PEB_BDD_FXX_WM_WMS style</Title>
-          <Abstract>Default style for DGAC-PEB_BDD_FXX_WM_WMS layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=DGAC-PEB_BDD_FXX_WM_WMS" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>DGAC-PGS-POI_BDD_FXX_WM_WM</Name>
         <Title>Plan de gêne sonore, documents d'approbation (PGS)</Title>
         <Abstract>Arrêté préfectoral d'approbation, pour chaque aérodrome, du plan de gêne sonore. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
@@ -344,104 +276,172 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>DGAC-PGS_BDD_FXX_WM_WMS</Name>
-        <Title>Plan de gêne sonore (PGS)</Title>
-        <Abstract>Les plans de gêne sonore identifient trois type de zones de bruit (I, II, III) établies sur la base du trafic estimé, des procédures de circulation aérienne applicables et des infrastructures qui seront en service dans l'année suivant la date de publication de l'arrêté approuvant le PGS.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
+        <Name>dgac_peb_arrete_wmsv</Name>
+        <Title>DGAC Plan d'Exposition au Bruit, documents d'Approbation (PEB)</Title>
+        <Abstract>Documents d'approbation des PEB</Abstract>
         <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
+          <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-1.645795</westBoundLongitude>
-          <eastBoundLongitude>7.551737</eastBoundLongitude>
-          <southBoundLatitude>43.365423</southBoundLatitude>
-          <northBoundLatitude>49.489555</northBoundLatitude>
+          <westBoundLongitude>-61.528930664</westBoundLongitude>
+          <eastBoundLongitude>55.51940918</eastBoundLongitude>
+          <southBoundLatitude>-21.322717285</southBoundLatitude>
+          <northBoundLatitude>50.689465332</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-1.645795" miny="43.365423" maxx="7.551737" maxy="49.489555" />
-        <BoundingBox CRS="EPSG:4326" minx="43.365423" miny="-1.645795" maxx="49.489555" maxy="7.551737" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-61.528930664" miny="-21.322717285" maxx="55.51940918" maxy="50.689465332" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.322717285" miny="-61.528930664" maxx="50.689465332" maxy="55.51940918" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_d_Exposition_au_Bruit_documents_d_approbation_PEB" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_d_Exposition_au_Bruit_documents_d_approbation_PEB" />
+        </MetadataURL>
         <Style>
-          <Name>default-style-DGAC-PGS_BDD_FXX_WM_WMS</Name>
-          <Title>DGAC-PGS_BDD_FXX_WM_WMS style</Title>
-          <Abstract>Default style for DGAC-PGS_BDD_FXX_WM_WMS layer</Abstract>
+          <Name>default-style-dgac_peb_arrete_wmsv</Name>
+          <Title>dgac_peb_arrete_wmsv style</Title>
+          <Abstract>Default style for dgac_peb_arrete_wmsv layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=DGAC-PGS_BDD_FXX_WM_WMS" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_peb_arrete_wmsv" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>TRANSPORTS.AIRNOISE</Name>
-        <Title>Plan de Servitudes Aéronautiques (PSA)</Title>
-        <Abstract>Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable.  Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
+        <Name>dgac_peb_plan_wmsv</Name>
+        <Title>DGAC Plan d'Exposition au Bruit (PEB)</Title>
+        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zones de bruit diversement exposés au bruit engendré par les aéronefs (A,B,C et/ou D) et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne.</Abstract>
         <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
+          <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-149.706171</westBoundLongitude>
-          <eastBoundLongitude>167.604044</eastBoundLongitude>
-          <southBoundLatitude>-22.666306</southBoundLatitude>
-          <northBoundLatitude>51.07972</northBoundLatitude>
+          <westBoundLongitude>-61.611328125</westBoundLongitude>
+          <eastBoundLongitude>55.634765625</eastBoundLongitude>
+          <southBoundLatitude>-21.421484375</southBoundLatitude>
+          <northBoundLatitude>50.744335938</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-149.706171" miny="-22.666306" maxx="167.604044" maxy="51.07972" />
-        <BoundingBox CRS="EPSG:4326" minx="-22.666306" miny="-149.706171" maxx="51.07972" maxy="167.604044" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-61.611328125" miny="-21.421484375" maxx="55.634765625" maxy="50.744335938" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.611328125" maxx="50.744335938" maxy="55.634765625" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_d_Exposition_au_Bruit_documents_d_approbation_PEB" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_d_Exposition_au_Bruit_documents_d_approbation_PEB" />
+        </MetadataURL>
         <Style>
-          <Name>default-style-TRANSPORTS.AIRNOISE</Name>
-          <Title>TRANSPORTS.AIRNOISE style</Title>
-          <Abstract>Default style for TRANSPORTS.AIRNOISE layer</Abstract>
+          <Name>default-style-dgac_peb_plan_wmsv</Name>
+          <Title>dgac_peb_plan_wmsv style</Title>
+          <Abstract>Default style for dgac_peb_plan_wmsv layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=TRANSPORTS.AIRNOISE" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_peb_plan_wmsv" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>TRANSPORTS.AIRNOISE.DOCS</Name>
-        <Title>Plan de servitudes aéronautiques, documents d'approbation (PSA)</Title>
-        <Abstract>Arrêté ministériel ou décret en Conseil d'Etat approuvant les servitudes aéronautiques aux abords de l'aérodrome. Les donn&amp;eacute;es sont fournies &amp;agrave; titre informatif et n'ont aucune valeur r&amp;eacute;glementaire. Seul le document papier officiel consultable en mairie ou en pr&amp;eacute;fecture est opposable. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
+        <Name>dgac_pgs_plan_wmsv</Name>
+        <Title>DGAC Plan de Gêne Sonore (PGS)</Title>
+        <Abstract>Les plans de gêne sonore délimitent des zones dans lesquelles les riverains peuvent bénéficier d’une aide à l’insonorisation de leur logement.</Abstract>
         <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
+          <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-149.611389</westBoundLongitude>
-          <eastBoundLongitude>167.455278</eastBoundLongitude>
-          <southBoundLatitude>-22.588611</southBoundLatitude>
-          <northBoundLatitude>50.960933</northBoundLatitude>
+          <westBoundLongitude>-1.647949219</westBoundLongitude>
+          <eastBoundLongitude>7.55859375</eastBoundLongitude>
+          <southBoundLatitude>43.34777832</southBoundLatitude>
+          <northBoundLatitude>49.493286133</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-149.611389" miny="-22.588611" maxx="167.455278" maxy="50.960933" />
-        <BoundingBox CRS="EPSG:4326" minx="-22.588611" miny="-149.611389" maxx="50.960933" maxy="167.455278" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="CRS:84" minx="-1.647949219" miny="43.34777832" maxx="7.55859375" maxy="49.493286133" />
+        <BoundingBox CRS="EPSG:4326" minx="43.34777832" miny="-1.647949219" maxx="49.493286133" maxy="7.55859375" />
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_PGS" />
+        </MetadataURL>
         <Style>
-          <Name>default-style-TRANSPORTS.AIRNOISE.DOCS</Name>
-          <Title>TRANSPORTS.AIRNOISE.DOCS style</Title>
-          <Abstract>Default style for TRANSPORTS.AIRNOISE.DOCS layer</Abstract>
+          <Name>default-style-dgac_pgs_plan_wmsv</Name>
+          <Title>dgac_pgs_plan_wmsv style</Title>
+          <Abstract>Default style for dgac_pgs_plan_wmsv layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=TRANSPORTS.AIRNOISE.DOCS" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_pgs_plan_wmsv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>dgac_psa_arrete_wmsv</Name>
+        <Title>DGAC Plan de Servitudes Aéronautique, documents d'approbation (PSA)</Title>
+        <Abstract>Documents d'approbation des PSA</Abstract>
+        <KeywordList>
+          <Keyword>transportation</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-149.611816406</westBoundLongitude>
+          <eastBoundLongitude>167.459106445</eastBoundLongitude>
+          <southBoundLatitude>-22.590228271</southBoundLatitude>
+          <northBoundLatitude>51.040637207</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-149.611816406" miny="-22.590228271" maxx="167.459106445" maxy="51.040637207" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.590228271" miny="-149.611816406" maxx="51.040637207" maxy="167.459106445" />
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
+        </MetadataURL>
+        <Style>
+          <Name>default-style-dgac_psa_arrete_wmsv</Name>
+          <Title>dgac_psa_arrete_wmsv style</Title>
+          <Abstract>Default style for dgac_psa_arrete_wmsv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_psa_arrete_wmsv" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>dgac_psa_plan_wmsv</Name>
+        <Title>DGAC Plan de Servitudes Aéronautiques  (PSA)</Title>
+        <Abstract>**Plan de servitudes aéronautiques (PSA)**
+
+Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci.
+Plan de servitudes aéronautiques (PSA).
+
+Téléchargement des documents d’approbation des plans de servitudes aéronautiques (PSA). Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci.
+
+Pour obtenir la donnée vectorielle des PSA civils, veuillez contatcter le service géomatique : snia-geomatique-bf@aviation-civile.gouv.fr</Abstract>
+        <KeywordList>
+          <Keyword>Aménagement, urbanisme, bâtiment</Keyword>
+          <Keyword>Transport</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-149.765625</westBoundLongitude>
+          <eastBoundLongitude>167.6953125</eastBoundLongitude>
+          <southBoundLatitude>-22.826171875</southBoundLatitude>
+          <northBoundLatitude>51.27109375</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-149.765625" miny="-22.826171875" maxx="167.6953125" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.826171875" miny="-149.765625" maxx="51.27109375" maxy="167.6953125" />
+        <Style>
+          <Name>default-style-dgac_psa_plan_wmsv</Name>
+          <Title>dgac_psa_plan_wmsv style</Title>
+          <Abstract>Default style for dgac_psa_plan_wmsv layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_psa_plan_wmsv" />
           </LegendURL>
         </Style>
       </Layer>

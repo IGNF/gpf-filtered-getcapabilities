@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7831" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8999" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -634,6 +634,40 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=STATISTICALUNITS.IRIS" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>STATISTICALUNITS.IRIS.PE</Name>
+        <Title>IRIS PE</Title>
+        <Abstract>Contours géométriques des IRIS de l'INSEE. Sources: INSEE, IGN 2025-01-01</Abstract>
+        <KeywordList>
+          <Keyword>Statistiques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.8098218</westBoundLongitude>
+          <eastBoundLongitude>55.83665387</eastBoundLongitude>
+          <southBoundLatitude>-21.38929713</southBoundLatitude>
+          <northBoundLatitude>51.08898944</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-61.8098218" miny="-21.38929713" maxx="55.83665387" maxy="51.08898944" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38929713" miny="-61.8098218" maxx="51.08898944" maxy="55.83665387" />
+        <Attribution>
+          <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.insee.fr/" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-STATISTICALUNITS.IRIS.PE</Name>
+          <Title>STATISTICALUNITS.IRIS.PE style</Title>
+          <Abstract>Default style for STATISTICALUNITS.IRIS.PE layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=STATISTICALUNITS.IRIS.PE" />
           </LegendURL>
         </Style>
       </Layer>
