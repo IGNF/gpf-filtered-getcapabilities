@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7751" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9228" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -359,13 +359,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-1.647949219" miny="43.34777832" maxx="7.55859375" maxy="49.493286133" />
         <BoundingBox CRS="EPSG:4326" minx="43.34777832" miny="-1.647949219" maxx="49.493286133" maxy="7.55859375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_PGS" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
         </MetadataURL>
         <Style>
           <Name>default-style-dgac_pgs_plan_wmsv</Name>
@@ -393,13 +393,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-149.611816406" miny="-22.590228271" maxx="167.459106445" maxy="51.040637207" />
         <BoundingBox CRS="EPSG:4326" minx="-22.590228271" miny="-149.611816406" maxx="51.040637207" maxy="167.459106445" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Servitudes_Aeronautique_PSA" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Servitudes_Aeronautique_PSA" />
         </MetadataURL>
         <Style>
           <Name>default-style-dgac_psa_arrete_wmsv</Name>
@@ -413,18 +413,10 @@
       </Layer>
       <Layer queryable="1">
         <Name>dgac_psa_plan_wmsv</Name>
-        <Title>DGAC Plan de Servitudes Aéronautiques  (PSA)</Title>
-        <Abstract>**Plan de servitudes aéronautiques (PSA)**
-
-Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci.
-Plan de servitudes aéronautiques (PSA).
-
-Téléchargement des documents d’approbation des plans de servitudes aéronautiques (PSA). Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci.
-
-Pour obtenir la donnée vectorielle des PSA civils, veuillez contatcter le service géomatique : snia-geomatique-bf@aviation-civile.gouv.fr</Abstract>
+        <Title>DGAC Plan de Servitudes Aéronautique (PSA)</Title>
+        <Abstract>Les plans de servitudes aéronautiques définissent les servitudes destinées à assurer la sécurité des approches et des décollages des aéronefs aux abords des aérodromes et à faciliter la maintenance des équipements de ceux-ci.</Abstract>
         <KeywordList>
-          <Keyword>Aménagement, urbanisme, bâtiment</Keyword>
-          <Keyword>Transport</Keyword>
+          <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
@@ -435,6 +427,14 @@ Pour obtenir la donnée vectorielle des PSA civils, veuillez contatcter le servi
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-149.765625" miny="-22.826171875" maxx="167.6953125" maxy="51.27109375" />
         <BoundingBox CRS="EPSG:4326" minx="-22.826171875" miny="-149.765625" maxx="51.27109375" maxy="167.6953125" />
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Servitudes_Aeronautique_PSA" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Servitudes_Aeronautique_PSA" />
+        </MetadataURL>
         <Style>
           <Name>default-style-dgac_psa_plan_wmsv</Name>
           <Title>dgac_psa_plan_wmsv style</Title>

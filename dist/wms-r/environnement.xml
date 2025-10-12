@@ -462,6 +462,30 @@
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_NATURE-EN-VILLE_2021-2023</Name>
+        <Title>Nature en Ville 2021-2023</Title>
+        <Abstract>Base de données nationale cartographiant les surfaces végétalisées et surfaces d’eau en contexte urbain. Créée par croisement de CoSIA et du RPG. Couvre les communes urbaines denses et intermédiaires selon l’indice de densité INSEE.</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.16139931028561</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285608</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099098620285751</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078974" miny="-2439614.7315545054" maxy="6638841.8770486657" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer>
         <Name>LANDCOVER.FORESTINVENTORY.V1</Name>
         <Title>BD Forêt v1 (1987-2004)</Title>
