@@ -313,8 +313,8 @@
         <ows:Keyword>Altitude</ows:Keyword>
       </ows:Keywords>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-62.9528 -13.0078</ows:LowerCorner>
-        <ows:UpperCorner>45.3043 51.1053</ows:UpperCorner>
+        <ows:LowerCorner>-62.9528 -24</ows:LowerCorner>
+        <ows:UpperCorner>58 51.1053</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES</ows:Identifier>
       <Style isDefault="true">
@@ -333,65 +333,65 @@
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>13</MinTileRow>
-            <MaxTileRow>36</MaxTileRow>
+            <MaxTileRow>40</MaxTileRow>
             <MinTileCol>41</MinTileCol>
-            <MaxTileCol>80</MaxTileCol>
+            <MaxTileCol>84</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>27</MinTileRow>
-            <MaxTileRow>73</MaxTileRow>
+            <MaxTileRow>81</MaxTileRow>
             <MinTileCol>83</MinTileCol>
-            <MaxTileCol>160</MaxTileCol>
+            <MaxTileCol>169</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
             <MinTileRow>55</MinTileRow>
-            <MaxTileRow>146</MaxTileRow>
+            <MaxTileRow>162</MaxTileRow>
             <MinTileCol>166</MinTileCol>
-            <MaxTileCol>320</MaxTileCol>
+            <MaxTileCol>338</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
             <MinTileRow>110</MinTileRow>
-            <MaxTileRow>292</MaxTileRow>
+            <MaxTileRow>324</MaxTileRow>
             <MinTileCol>332</MinTileCol>
-            <MaxTileCol>640</MaxTileCol>
+            <MaxTileCol>676</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
             <MinTileRow>221</MinTileRow>
-            <MaxTileRow>585</MaxTileRow>
+            <MaxTileRow>648</MaxTileRow>
             <MinTileCol>665</MinTileCol>
-            <MaxTileCol>1281</MaxTileCol>
+            <MaxTileCol>1353</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
             <MinTileRow>442</MinTileRow>
-            <MaxTileRow>1171</MaxTileRow>
+            <MaxTileRow>1297</MaxTileRow>
             <MinTileCol>1331</MinTileCol>
-            <MaxTileCol>2563</MaxTileCol>
+            <MaxTileCol>2707</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
             <MinTileRow>885</MinTileRow>
-            <MaxTileRow>2343</MaxTileRow>
+            <MaxTileRow>2594</MaxTileRow>
             <MinTileCol>2663</MinTileCol>
-            <MaxTileCol>5126</MaxTileCol>
+            <MaxTileCol>5415</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
             <MinTileRow>1770</MinTileRow>
-            <MaxTileRow>4687</MaxTileRow>
+            <MaxTileRow>5188</MaxTileRow>
             <MinTileCol>5326</MinTileCol>
-            <MaxTileCol>10253</MaxTileCol>
+            <MaxTileCol>10831</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
             <MinTileRow>3540</MinTileRow>
-            <MaxTileRow>9375</MaxTileRow>
+            <MaxTileRow>10376</MaxTileRow>
             <MinTileCol>10653</MinTileCol>
-            <MaxTileCol>20507</MaxTileCol>
+            <MaxTileCol>21663</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
@@ -5091,6 +5091,73 @@
         <MatrixWidth>2048</MatrixWidth>
         <MatrixHeight>2048</MatrixHeight>
       </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4096</MatrixWidth>
+        <MatrixHeight>4096</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>68247.3466831932167125</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8192</MatrixWidth>
+        <MatrixHeight>8192</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16384</MatrixWidth>
+        <MatrixHeight>16384</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32768</MatrixWidth>
+        <MatrixHeight>32768</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>65536</MatrixWidth>
+        <MatrixHeight>65536</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>131072</MatrixWidth>
+        <MatrixHeight>131072</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>262144</MatrixWidth>
+        <MatrixHeight>262144</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>PM_12_18</ows:Identifier>
+      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>12</ows:Identifier>
         <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
