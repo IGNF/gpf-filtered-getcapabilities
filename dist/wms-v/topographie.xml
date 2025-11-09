@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7800" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8477" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -308,6 +308,40 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-DIFF-HYDROGRAPHIE" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>BDTOPO-DIFF-RESEAU_ROUTIER</Name>
+        <Title>Différentiel BDTOPO® Réseau routier édition 2025-09-15</Title>
+        <Abstract>Différentiel BD TOPO® édition 2025-09-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
+        <KeywordList>
+          <Keyword>bd topo, differentiel, geometrie, semantique</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.15333395</westBoundLongitude>
+          <eastBoundLongitude>55.83675903</eastBoundLongitude>
+          <southBoundLatitude>-21.38972034</southBoundLatitude>
+          <northBoundLatitude>51.18890976</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.15333395" miny="-21.38972034" maxx="55.83675903" maxy="51.18890976" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38972034" miny="-63.15333395" maxx="51.18890976" maxy="55.83675903" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-BDTOPO-DIFF-RESEAU_ROUTIER</Name>
+          <Title>BDTOPO-DIFF-RESEAU_ROUTIER style</Title>
+          <Abstract>Default style for BDTOPO-DIFF-RESEAU_ROUTIER layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=BDTOPO-DIFF-RESEAU_ROUTIER" />
           </LegendURL>
         </Style>
       </Layer>

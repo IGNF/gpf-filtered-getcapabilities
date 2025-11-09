@@ -205,6 +205,226 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>DGCL.2025 : Voirie communale retenue DGF</ows:Title>
+      <ows:Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR).</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DSR</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
+        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>DGCL.2025.voirie-communale</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>9189</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>18378</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21467</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>36757</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42934</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>DGCL.2025 : Voirie départementale retenue DGF</ows:Title>
+      <ows:Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF des départements.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DSR</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
+        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>DGCL.2025.voirie-departementale</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>9189</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>18378</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21467</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>36757</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42934</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Noms</ows:Title>
       <ows:Abstract>Noms ; Edition : 2025-09-15</ows:Abstract>
       <ows:Keywords>

@@ -281,168 +281,17 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer queryable="1">
-        <Name>BDCARTO_ETAT-MAJOR.NIVEAU3</Name>
-        <Title>BD CARTO Etat-major N3</Title>
-        <Abstract>BDCARTO ETAT-MAJOR NIVEAU 3</Abstract>
-        <KeywordList>
-          <Keyword>BD CARTO</Keyword>
-        </KeywordList>
+        <Name>IGNF_POI-ADMINISTRATION-LOCALE</Name>
+        <Title>POI Administration Locale</Title>
+        <Abstract>Englobe les structures territoriales telles que mairies, préfectures, intercommunalités, conseils départementaux et régionaux, qui coordonnent les services publics de proximité (source : DILA).</Abstract>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.5</westBoundLongitude>
-          <eastBoundLongitude>10</eastBoundLongitude>
-          <southBoundLatitude>41</southBoundLatitude>
-          <northBoundLatitude>52</northBoundLatitude>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-612257.19936300465" maxx="1113194.9079327357" miny="5012341.6638475172" maxy="6800125.4543973068" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>BDCARTO_ETAT-MAJOR3</Name>
-          <Title>Légende du 1/1000000</Title>
-          <Abstract>Légende associée a BDCARTO ETAT-MAJOR NIVEAU3</Abstract>
-          <LegendURL width="300" height="2200">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR-legend.png" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>BDCARTO_ETAT-MAJOR.NIVEAU4</Name>
-        <Title>BD CARTO Etat-major N4</Title>
-        <Abstract>BDCARTO ETAT-MAJOR NIVEAU 4</Abstract>
-        <KeywordList>
-          <Keyword>BD CARTO</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
-          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
-          <southBoundLatitude>41.325209639999997</southBoundLatitude>
-          <northBoundLatitude>51.099054180000003</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>BDCARTO_ETAT-MAJOR4</Name>
-          <Title>Légende du 1/1000000</Title>
-          <Abstract>Légende associée a BDCARTO ETAT-MAJOR NIVEAU4</Abstract>
-          <LegendURL width="300" height="2200">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR.NIVEAU4-legend.png" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>IGNF_COSIA_2017-2020</Name>
-        <Title>COSIA 2017-2020</Title>
-        <Abstract>COSIA 2017-2020</Abstract>
-        <KeywordList>
-          <Keyword>COSIA</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.161399310285603</westBoundLongitude>
-          <eastBoundLongitude>55.846499999999999</eastBoundLongitude>
-          <southBoundLatitude>-21.399799999999999</southBoundLatitude>
-          <northBoundLatitude>51.0991</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7031094.809011614" maxx="6216803.9425865524" miny="-2439614.8140184646" maxy="6638842.1216268986" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Données Brutes</Title>
-          <Abstract>Données brutes sans changement de palette</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>IGNF_COSIA_2021-2023</Name>
-        <Title>COSIA 2021-2023</Title>
-        <Abstract>COSIA 2021-2023</Abstract>
-        <KeywordList>
-          <Keyword>COSIA</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180</westBoundLongitude>
-          <eastBoundLongitude>180</eastBoundLongitude>
-          <southBoundLatitude>-80</southBoundLatitude>
-          <northBoundLatitude>80</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Données Brutes</Title>
-          <Abstract>Données brutes sans changement de palette</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>IGNF_COSIA_2024</Name>
-        <Title>COSIA 2024</Title>
-        <Abstract>COSIA 2024</Abstract>
-        <KeywordList>
-          <Keyword>COSIA</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-180</westBoundLongitude>
-          <eastBoundLongitude>180</eastBoundLongitude>
-          <southBoundLatitude>-80</southBoundLatitude>
-          <northBoundLatitude>80</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-20037508.342789244" maxx="20037508.342789244" miny="-15538711.09630922" maxy="15538711.09630922" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
         <Style>
           <Name>normal</Name>
           <Title>Données Brutes</Title>
@@ -456,38 +305,171 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
-        <Name>INRA.CARTE.SOLS</Name>
-        <Title>carte des sols France entière</Title>
-        <Abstract>Identification des principaux types de sols.</Abstract>
-        <KeywordList>
-          <Keyword>sol</Keyword>
-        </KeywordList>
+        <Name>IGNF_POI-ASSOCIATIONS-CULTURE-JEUNESSE</Name>
+        <Title>POI Associations, Culture, Jeunesse</Title>
+        <Abstract>Concerne le soutien à la vie associative, aux activités culturelles, à la jeunesse et à l'engagement, à travers des structures comme les greffes des associations, le réseau Information Jeunesse ou les archives départementales. (source DILA)</Abstract>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
-          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
-          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
-          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
-        <Attribution>
-          <Title>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement</Title>
-          <OnlineResource xlink:href="https://www.inrae.fr/" xlink:type="simple" />
-          <LogoURL width="334" height="151">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/inrae.png" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
         <Style>
-          <Name>CARTE DES SOLS</Name>
-          <Title>CARTE DES SOLS</Title>
-          <Abstract>Légende de la carte des sols de l'INRA</Abstract>
-          <LegendURL width="300" height="620">
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INRA.CARTE.SOLS-legend.png" xlink:type="simple" />
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
           </LegendURL>
         </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-DROIT-JUSTICE</Name>
+        <Title>POI Droit, Justice</Title>
+        <Abstract>Englobe les juridictions (tribunaux, cours), les services pénitentiaires, les Points-Justice, et les dispositifs d'accès aux droits et à la médiation. (source : DILA)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-ECONOMIE-FINANCES-CONSOMMATION</Name>
+        <Title>POI Economie, Finances, Consommation</Title>
+        <Abstract>Traite de la régulation économique, des finances publiques, de la fiscalité et de la protection des consommateurs, avec des organismes comme les impôts, la Banque de France ou la DGCCRF. (source : DILA)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-ENSEIGNEMENT-RECHERCHE</Name>
+        <Title>POI Enseignement, Recherche</Title>
+        <Abstract>Regroupe les établissements éducatifs (écoles, universités), les structures d’orientation et de vie étudiante, ainsi que les acteurs publics de la recherche comme le CNRS ou les rectorats. (source : DILA, BDTOPO)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-SECURITE-DEFENSE</Name>
+        <Title>POI Sécurité, Défense</Title>
+        <Abstract>Réunit les institutions chargées de la sécurité intérieure (police et gendarmerie), de la défense nationale, et de la protection civile (SDIS, préfecture de police). (source : DILA)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-SOCIAL-SANTE</Name>
+        <Title>POI Social, Sante</Title>
+        <Abstract>Concerne les structures de protection sociale, de santé et d’aide aux personnes vulnérables, telles que la CAF, l’ARS, les hôpitaux, les centres de protection maternelle et infantile (PMI) ou les établissements médico-sociaux (sources : DILA, FINESS, BPE)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_POI-TRAVAIL-EMPLOI-FORMATION</Name>
+        <Title>POI Travail, Emploi, Formation</Title>
+        <Abstract>Rassemble les institutions chargées de l’insertion professionnelle, du droit du travail et de la formation continue, comme France Travail, les missions locales, l’AFPA ou les chambres consulaires. (source : DILA)</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
     </Layer>
