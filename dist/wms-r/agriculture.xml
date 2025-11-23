@@ -380,6 +380,160 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024</Name>
+        <Title>Parcelles catégorisées en terre arables, cultures permanentes, prairies permanentes et surfaces boisées 2024</Title>
+        <Abstract>Registre parcellaire graphique : couche représentant les types de couverture des sols des parcelles agricoles déclarées au RPG par les exploitants édition 2024</Abstract>
+        <KeywordList>
+          <Keyword>Prairies Permanentes</Keyword>
+          <Keyword>Couverture des sols</Keyword>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>Terres Arables</Keyword>
+          <Keyword>Cultures Permanentes</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
+        <Attribution>
+          <Title>Agence de services et de paiement (ASP)</Title>
+          <OnlineResource xlink:href="http://www.asp-public.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_RPG_PARCELLES-ELIGIBLES-IAE</Name>
+        <Title>Parcelles éligibles aux IAE</Title>
+        <Abstract>Cette couche recense les parcelles éligibles aux Infrastructures Agroecologiques (IEA) que ce soit au titre de l’écorégime ou pour la BCAE8</Abstract>
+        <KeywordList>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>Agro-écologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
+        <Attribution>
+          <Title>Agence de services et de paiement (ASP)</Title>
+          <OnlineResource xlink:href="http://www.asp-public.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_PRAIRIES-PERMANENTES_2024</Name>
+        <Title>Prairies Permanentes 2024</Title>
+        <Abstract>Les PRAIRIES PERMANENTES correspondent à toute surface sur laquelle la production d'herbe ou d'autres plantes fourragères herbacées, prédomine depuis 5 ans révolus ou plus (6ème déclaration PAC ou plus) édition 2024</Abstract>
+        <KeywordList>
+          <Keyword>Prairies Permanentes</Keyword>
+          <Keyword>herbes</Keyword>
+          <Keyword>Couverture des sols</Keyword>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>Cultures Permanentes</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
+        <Attribution>
+          <Title>Agence de services et de paiement (ASP)</Title>
+          <OnlineResource xlink:href="http://www.asp-public.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024</Name>
+        <Title>Zones de Densité Homogène (ZDH)</Title>
+        <Abstract>Registre parcellaire graphique : Zones de densité homogènes sur laquelle la végétation et les autres éléments naturels non agricoles (affleurements rocheux, zones de sol nu…) apparaissent homogènes lors de la photo-interprétation d’une parcelle ou d’un ensemble de parcelles de prairie permanente déclarées au RPG par les exploitants édition 2024</Abstract>
+        <KeywordList>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>ZDH</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372500000000002</westBoundLongitude>
+          <eastBoundLongitude>55.925899999999999</eastBoundLongitude>
+          <southBoundLatitude>-21.4756</southBoundLatitude>
+          <northBoundLatitude>51.312100000000001</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.4302967293" maxx="6225642.7101555383" miny="-2448680.0024913247" maxy="6676687.3914098507" />
+        <Attribution>
+          <Title>Agence de services et de paiement (ASP)</Title>
+          <OnlineResource xlink:href="http://www.asp-public.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données Brutes</Title>
+          <Abstract>Données brutes sans changement de palette</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://ign.fr" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>LANDUSE.AGRICULTURE.LATEST</Name>
         <Title>Registre parcellaire graphique (RPG)</Title>
         <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants édition 2024</Abstract>

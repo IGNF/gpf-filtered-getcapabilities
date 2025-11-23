@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8673" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9074" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -310,36 +310,36 @@
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>dgac_peb_plan_wmsv</Name>
-        <Title>DGAC Plan d'Exposition au Bruit (PEB)</Title>
-        <Abstract>Les plans d'exposition aux bruits identifient trois ou quatre types de zones de bruit diversement exposés au bruit engendré par les aéronefs (A,B,C et/ou D) et définis à partir des prévisions de développement de l'activité aérienne, de l'extension prévisible des infrastructures et des procédures de circulation aérienne.</Abstract>
+        <Name>dgac_pgs_arrete_wmsv</Name>
+        <Title>DGAC Plan de Gêne Sonore, documents d'approbation (PGS)</Title>
+        <Abstract>Documents d'approbation des PGS</Abstract>
         <KeywordList>
           <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-61.611328125</westBoundLongitude>
-          <eastBoundLongitude>55.634765625</eastBoundLongitude>
-          <southBoundLatitude>-21.421484375</southBoundLatitude>
-          <northBoundLatitude>50.744335938</northBoundLatitude>
+          <westBoundLongitude>-1.60949707</westBoundLongitude>
+          <eastBoundLongitude>7.53112793</eastBoundLongitude>
+          <southBoundLatitude>43.435571289</southBoundLatitude>
+          <northBoundLatitude>49.454876709</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-61.611328125" miny="-21.421484375" maxx="55.634765625" maxy="50.744335938" />
-        <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-61.611328125" maxx="50.744335938" maxy="55.634765625" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_d_Exposition_au_Bruit_PEB" />
-        </MetadataURL>
+        <BoundingBox CRS="CRS:84" minx="-1.60949707" miny="43.435571289" maxx="7.53112793" maxy="49.454876709" />
+        <BoundingBox CRS="EPSG:4326" minx="43.435571289" miny="-1.60949707" maxx="49.454876709" maxy="7.53112793" />
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_d_Exposition_au_Bruit_PEB" />
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_documents_d_approbation_PGS" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_documents_d_approbation_PGS" />
         </MetadataURL>
         <Style>
-          <Name>default-style-dgac_peb_plan_wmsv</Name>
-          <Title>dgac_peb_plan_wmsv style</Title>
-          <Abstract>Default style for dgac_peb_plan_wmsv layer</Abstract>
+          <Name>default-style-dgac_pgs_arrete_wmsv</Name>
+          <Title>dgac_pgs_arrete_wmsv style</Title>
+          <Abstract>Default style for dgac_pgs_arrete_wmsv layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_peb_plan_wmsv" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=dgac_pgs_arrete_wmsv" />
           </LegendURL>
         </Style>
       </Layer>
@@ -359,13 +359,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-1.647949219" miny="43.34777832" maxx="7.55859375" maxy="49.493286133" />
         <BoundingBox CRS="EPSG:4326" minx="43.34777832" miny="-1.647949219" maxx="49.493286133" maxy="7.55859375" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_PGS" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_PGS" />
         </MetadataURL>
         <Style>
           <Name>default-style-dgac_pgs_plan_wmsv</Name>

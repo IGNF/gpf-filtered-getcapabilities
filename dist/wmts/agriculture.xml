@@ -999,6 +999,448 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>Parcelles catégorisées en terre arables, cultures permanentes, prairies permanentes et surfaces boisées 2024</ows:Title>
+      <ows:Abstract>Registre parcellaire graphique : couche représentant les types de couverture des sols des parcelles agricoles déclarées au RPG par les exploitants édition 2024</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Prairies Permanentes</ows:Keyword>
+        <ows:Keyword>Couverture des sols</ows:Keyword>
+        <ows:Keyword>RPG</ows:Keyword>
+        <ows:Keyword>Agriculture</ows:Keyword>
+        <ows:Keyword>Terres Arables</ows:Keyword>
+        <ows:Keyword>Cultures Permanentes</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Parcelles éligibles aux IAE</ows:Title>
+      <ows:Abstract>Cette couche recense les parcelles éligibles aux Infrastructures Agroecologiques (IEA) que ce soit au titre de l’écorégime ou pour la BCAE8</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>RPG</ows:Keyword>
+        <ows:Keyword>Agriculture</ows:Keyword>
+        <ows:Keyword>Agro-écologie</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_RPG_PARCELLES-ELIGIBLES-IAE</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Prairies Permanentes 2024</ows:Title>
+      <ows:Abstract>Les PRAIRIES PERMANENTES correspondent à toute surface sur laquelle la production d'herbe ou d'autres plantes fourragères herbacées, prédomine depuis 5 ans révolus ou plus (6ème déclaration PAC ou plus) édition 2024</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Prairies Permanentes</ows:Keyword>
+        <ows:Keyword>herbes</ows:Keyword>
+        <ows:Keyword>Couverture des sols</ows:Keyword>
+        <ows:Keyword>RPG</ows:Keyword>
+        <ows:Keyword>Agriculture</ows:Keyword>
+        <ows:Keyword>Cultures Permanentes</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_RPG_PRAIRIES-PERMANENTES_2024</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Zones de Densité Homogène (ZDH)</ows:Title>
+      <ows:Abstract>Registre parcellaire graphique : Zones de densité homogènes sur laquelle la végétation et les autres éléments naturels non agricoles (affleurements rocheux, zones de sol nu…) apparaissent homogènes lors de la photo-interprétation d’une parcelle ou d’un ensemble de parcelles de prairie permanente déclarées au RPG par les exploitants édition 2024</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>RPG</ows:Keyword>
+        <ows:Keyword>Agriculture</ows:Keyword>
+        <ows:Keyword>ZDH</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Données Brutes</Title>
+        <Abstract>Données brutes sans changement de palette</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="http://ign.fr" width="100" height="100" maxScaleDenominator="30" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Registre parcellaire graphique (RPG)</ows:Title>
       <ows:Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants édition 2024</ows:Abstract>
       <ows:Keywords>
@@ -4238,6 +4680,73 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>100800</MatrixWidth>
         <MatrixHeight>840818</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>2154_5cm_14_20</ows:Identifier>
+      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>394</MatrixWidth>
+        <MatrixHeight>3285</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>788</MatrixWidth>
+        <MatrixHeight>6569</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1575</MatrixWidth>
+        <MatrixHeight>13138</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3150</MatrixWidth>
+        <MatrixHeight>26276</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>6300</MatrixWidth>
+        <MatrixHeight>52552</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>12600</MatrixWidth>
+        <MatrixHeight>105102</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
+        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>25200</MatrixWidth>
+        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

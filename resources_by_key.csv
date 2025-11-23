@@ -239,6 +239,10 @@ wfs,agriculture,RPG.2023:ilots_de_reference
 wfs,agriculture,RPG.2023:parcelles_graphiques
 wfs,agriculture,RPG.2024:codes_cultures
 wfs,agriculture,RPG.2024:parcelles_graphiques
+wfs,agriculture,IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024:parcelles_agricole_categorisees_2024
+wfs,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE:parcelles_eligibles_iae_2024
+wfs,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2024:prairies_permanentes_2024
+wfs,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024:surfaces_2024_zdh_20250621
 wfs,agriculture,RPG.LATEST:codes_cultures
 wfs,agriculture,RPG.LATEST:ilots_anonymes
 wfs,agriculture,RPG.LATEST:ilots_de_reference
@@ -266,6 +270,10 @@ wms-r,agriculture,LANDUSE.AGRICULTURE2021
 wms-r,agriculture,LANDUSE.AGRICULTURE2022
 wms-r,agriculture,LANDUSE.AGRICULTURE2023
 wms-r,agriculture,LANDUSE.AGRICULTURE2024
+wms-r,agriculture,IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024
+wms-r,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE
+wms-r,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2024
+wms-r,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024
 wms-r,agriculture,PRAIRIES.SENSIBLES.BCAE
 wms-r,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wmts,agriculture,GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC
@@ -295,6 +303,10 @@ wmts,agriculture,LANDUSE.AGRICULTURE2021
 wmts,agriculture,LANDUSE.AGRICULTURE2022
 wmts,agriculture,LANDUSE.AGRICULTURE2023
 wmts,agriculture,LANDUSE.AGRICULTURE2024
+wmts,agriculture,IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024
+wmts,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE
+wmts,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2024
+wmts,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024
 wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
@@ -926,8 +938,8 @@ wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1965-1980.GRAPHE-MOSAIQUAGE
 wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1980-1995.GRAPHE-MOSAIQUAGE
 wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2000-2005
 wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2006-2010
-wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2011-2015
-wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2016-2020
+wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015
+wms-v,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1950-1965
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1965-1980
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS.1980-1995
@@ -1230,7 +1242,7 @@ wms-v,topographie,BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G
-wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84
+wms-v,topographie,BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-VEGETATION_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G
 wms-v,topographie,hedge.hedge
@@ -1276,7 +1288,7 @@ wms-r,transports,SECUROUTE.TE.TE94
 wms-r,transports,TRANSPORTNETWORKS.ROADS.DIRECTION
 wms-r,transports,TRANSPORTS.DRONES.RESTRICTIONS
 wms-v,transports,dgac_peb_arrete_wmsv
-wms-v,transports,dgac_peb_plan_wmsv
+wms-v,transports,dgac_pgs_arrete_wmsv
 wms-v,transports,dgac_pgs_plan_wmsv
 wms-v,transports,dgac_psa_arrete_wmsv
 wms-v,transports,dgac_psa_plan_wmsv

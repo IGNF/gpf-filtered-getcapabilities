@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8673" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9074" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -375,6 +375,76 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-2006-2010" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015</Name>
+        <Title>Graphe de mosaïquage BDORTHO 2011-2015</Title>
+        <Abstract>Graphe de mosaïquage France Entière de la BDORTHO 2011-2015</Abstract>
+        <KeywordList>
+          <Keyword>graphe</Keyword>
+          <Keyword>bdortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.16551154</westBoundLongitude>
+          <eastBoundLongitude>55.8442806</eastBoundLongitude>
+          <southBoundLatitude>-21.39990125</southBoundLatitude>
+          <northBoundLatitude>51.09371233</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.16551154" miny="-21.39990125" maxx="55.8442806" maxy="51.09371233" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.39990125" miny="-63.16551154" maxx="51.09371233" maxy="55.8442806" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015</Name>
+          <Title>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015 style</Title>
+          <Abstract>Default style for ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015 layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020</Name>
+        <Title>Graphe de mosaïquage BDORTHO 2016-2020</Title>
+        <Abstract>Graphe de mosaïquage France Entière de la BDORTHO 2016-2020</Abstract>
+        <KeywordList>
+          <Keyword>graphe</Keyword>
+          <Keyword>bdortho</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.17011235</westBoundLongitude>
+          <eastBoundLongitude>55.8442806</eastBoundLongitude>
+          <southBoundLatitude>-21.3999015</southBoundLatitude>
+          <northBoundLatitude>51.11183578</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.17011235" miny="-21.3999015" maxx="55.8442806" maxy="51.11183578" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.3999015" miny="-63.17011235" maxx="51.11183578" maxy="55.8442806" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020</Name>
+          <Title>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020 style</Title>
+          <Abstract>Default style for ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020 layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020" />
           </LegendURL>
         </Style>
       </Layer>
