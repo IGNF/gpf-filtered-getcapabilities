@@ -887,41 +887,6 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>ORTHOIMAGERY.ORTHOPHOTOS.SOCLE-ASP.2018</Name>
-        <Title>bdortho-asp ortho-socle 2018</Title>
-        <Abstract>bdortho-asp et ortho-socle 2018</Abstract>
-        <KeywordList>
-          <Keyword>ortho</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-179.49999463</westBoundLongitude>
-          <eastBoundLongitude>179.49999463</eastBoundLongitude>
-          <southBoundLatitude>-74.999999740000007</southBoundLatitude>
-          <northBoundLatitude>74.999999740000007</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-19981847.999606941" maxx="19981847.999606941" miny="-12932243.000164609" maxy="12932243.000164609" />
-        <Attribution>
-          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
-          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
-          <LogoURL width="298" height="169">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
-        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
-      </Layer>
-      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.URGENCE.ALEX</Name>
         <Title>Orthophotographie d’urgence Alex</Title>
         <Abstract>Orthophotographie réalisée suite au passage de la tempête Alex dans les Alpes Maritimes</Abstract>
