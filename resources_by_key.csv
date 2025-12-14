@@ -312,12 +312,12 @@ wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
 wfs,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mnh-bloc
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mnh-dalle
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mns-bloc
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mns-dalle
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mnt-bloc
-wfs,altimetrie,IGNF_LIDAR-HD_TA:mnt-dalle
+wfs,altimetrie,IGNF_MNH_LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNH_LIDAR-HD:dalle
+wfs,altimetrie,IGNF_MNS_LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNS_LIDAR-HD:dalle
+wfs,altimetrie,IGNF_MNT_LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNT_LIDAR-HD:dalle
 wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:dalle
 wms-r,altimetrie,ELEVATION.CONTOUR.LINE
@@ -842,6 +842,7 @@ wmts,ocsge-ng,OCSGE.USAGE.2021-2023
 wfs,ortho,ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS:arrete
 wfs,ortho,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-MOSAIQUAGE:graphe_bdortho
 wfs,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.GRAPHE-MOSAIQUAGE:orthoexpress
+wfs,ortho,graphe_pcrs_anct
 wms-r,ortho,HR.ORTHOIMAGERY.ORTHOPHOTOS
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS
 wms-r,ortho,ORTHOIMAGERY.ORTHOPHOTOS
@@ -859,6 +860,7 @@ wms-r,ortho,PCRS.LAMB93
 wms-r,ortho,THR.ORTHOIMAGERY.ORTHOPHOTOS
 wms-v,ortho,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-MOSAIQUAGE
 wms-v,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.GRAPHE-MOSAIQUAGE
+wms-v,ortho,graphe_pcrs_anct
 wmts,ortho,HR.ORTHOIMAGERY.ORTHOPHOTOS
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS

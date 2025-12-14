@@ -771,6 +771,76 @@
         <MaxScaleDenominator>34123.673341596535</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>INSEE.FILOSOFI.PART.MENAGES.1.PERSONNE.SECRET</Name>
+        <Title>% ménages de 1 personne (secret signalé)</Title>
+        <Abstract>Part des ménages de 1 personne (les cases hachurées correspondent aux données secrétisées) </Abstract>
+        <KeywordList>
+          <Keyword>Statistiques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
+          <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>INSEE</Name>
+          <Title>INSEE</Title>
+          <Abstract>Légende INSEE</Abstract>
+          <LegendURL width="300" height="426">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.MENAGES.1.PERSONNE-tot-legend-2017.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>INSEE.FILOSOFI.PART.MENAGES.5.PERSONNES.OUPLUS.SECRET</Name>
+        <Title>% ménages de 5 personnes ou + (secret signalé)</Title>
+        <Abstract>Part des ménages de 5 personnes ou plus (les cases hachurées correspondent aux données secrétisées) </Abstract>
+        <KeywordList>
+          <Keyword>Statistiques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de la statistique et des études économiques (INSEE)</Title>
+          <OnlineResource xlink:href="http://www.insee.fr/" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>INSEE</Name>
+          <Title>INSEE</Title>
+          <Abstract>Légende INSEE</Abstract>
+          <LegendURL width="300" height="397">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INSEE.FILOSOFI.PART.MENAGES.5.PERSONNES.OUPLUS-tot-legend-2017.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>INSEE.FILOSOFI.PART.MENAGES.MAISON.SECRET</Name>
         <Title>% ménages en maison (secret signalé)</Title>
         <Abstract>Part des ménages vivant en maison (les cases hachurées correspondent aux données secrétisées) </Abstract>

@@ -444,7 +444,7 @@
       </Layer>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Name>
-        <Title>Plan IGN v2</Title>
+        <Title>Plan IGN</Title>
         <Abstract>Cartographie multi-échelles sur le territoire national, issue des bases de données vecteur de l’IGN, mis à jour régulièrement et réalisée selon un processus entièrement automatisé.</Abstract>
         <KeywordList>
           <Keyword>Plan IGN V2</Keyword>
@@ -476,6 +476,42 @@
         </Style>
         <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
         <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V1</Name>
+        <Title>Plan Terrier V1 (XVIIIe siècle)</Title>
+        <Abstract>Plan Terrier, cartographie ancienne du XVIIIème siècle sur la Corse</Abstract>
+        <KeywordList>
+          <Keyword>plan</Keyword>
+          <Keyword>terrier</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>8.3628386399999997</westBoundLongitude>
+          <eastBoundLongitude>9.7528134299999998</eastBoundLongitude>
+          <southBoundLatitude>41.2567697</southBoundLatitude>
+          <northBoundLatitude>43.117404989999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="930946.9389911124" maxx="1085678.2248294" miny="5050289.2271499457" maxy="5329859.1912884805" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>nolegend</Name>
+          <Title>Données sans légende</Title>
+          <Abstract>Sans aucun fichier de légende</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
         <Name>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V2</Name>
