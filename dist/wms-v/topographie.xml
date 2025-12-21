@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9745" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11673" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>Service WMS Vecteur public de la Géoplateforme</Title>
@@ -243,8 +243,8 @@
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
         <Name>BDTOPO-DIFF-BATI</Name>
-        <Title>Différentiel BDTOPO® Bâtiment édition 2025-09-15</Title>
-        <Abstract>Différentiel BD TOPO® édition 2025-09-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
+        <Title>Différentiel BDTOPO® Bâtiment édition 2025-12-15</Title>
+        <Abstract>Différentiel BD TOPO® édition 2025-12-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
         <KeywordList>
           <Keyword>semantique</Keyword>
           <Keyword>bd topo, differentiel</Keyword>
@@ -279,8 +279,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-DIFF-HYDROGRAPHIE</Name>
-        <Title>Différentiel BDTOPO® Hydrographie édition 2025-09-15</Title>
-        <Abstract>Différentiel BD TOPO® édition 2025-09-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
+        <Title>Différentiel BDTOPO® Hydrographie édition 2025-12-15</Title>
+        <Abstract>Différentiel BD TOPO® édition 2025-12-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
         <KeywordList>
           <Keyword>bd topo, differentiel, geometrie, semantique</Keyword>
         </KeywordList>
@@ -313,8 +313,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-DIFF-RESEAU_ROUTIER</Name>
-        <Title>Différentiel BDTOPO® Réseau routier édition 2025-09-15</Title>
-        <Abstract>Différentiel BD TOPO® édition 2025-09-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
+        <Title>Différentiel BDTOPO® Réseau routier édition 2025-12-15</Title>
+        <Abstract>Différentiel BD TOPO® édition 2025-12-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
         <KeywordList>
           <Keyword>bd topo, differentiel, geometrie, semantique</Keyword>
         </KeywordList>
@@ -347,8 +347,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-DIFF-ZONE-ACTIVITES</Name>
-        <Title>Différentiel BDTOPO® Zone d'activités édition 2025-09-15</Title>
-        <Abstract>Différentiel BD TOPO® édition 2025-09-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
+        <Title>Différentiel BDTOPO® Zone d'activités édition 2025-12-15</Title>
+        <Abstract>Différentiel BD TOPO® édition 2025-12-15 contient les différences géométriques et sémantiques sur l'ensemble du contenu BD TOPO® entre deux éditions trimestrielles successives BD TOPO®.</Abstract>
         <KeywordList>
           <Keyword>bd topo, differentiel, geometrie, semantique</Keyword>
         </KeywordList>
