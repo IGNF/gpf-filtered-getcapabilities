@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11214" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7963" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service WMS Vecteur public de la Géoplateforme</Title>
-    <Abstract>Ce service diffuse les données WMS Vecteur publiques de la Géoplateforme</Abstract>
+    <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
+    <Abstract>Permet un affichage d'images issues de données vectorielles avec des possibilités de personnalisation (style, système de référence géodésique, emprise, format et taille d’image).</Abstract>
     <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>Géoplateforme</Keyword>
-      <Keyword>Public</Keyword>
+      <Keyword>WMS 1.3.0</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
     </KeywordList>
     <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
-        <ContactOrganization>IGN</ContactOrganization>
+        <ContactOrganization>Institut national de l'information géographique et forestière (IGN-F)</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
@@ -29,7 +28,7 @@
       <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</AccessConstraints>
   </Service>
   <Capability>
     <Request>
@@ -101,7 +100,7 @@
     </Exception>
     <inspire_vs:ExtendedCapabilities>
       <inspire_common:MetadataUrl>
-        <inspire_common:URL>https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://www.isotc211.org/2005/gmd&amp;elementSetName=full&amp;ID=GPF.WMSvecteur.xml</inspire_common:URL>
+        <inspire_common:URL>https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=GeoPF_WMS-Vecteur</inspire_common:URL>
         <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
       </inspire_common:MetadataUrl>
       <inspire_common:SupportedLanguages>

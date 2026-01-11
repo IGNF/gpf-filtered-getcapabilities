@@ -487,6 +487,44 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>INRAE_GRAIN-BOCAGER</Name>
+        <Title>INRAE_GRAIN-BOCAGER</Title>
+        <Abstract>Le produit Grain Bocager est un ensemble de couches nationales de référence pour la gestion des bocages en lien avec la biodiversité forestière</Abstract>
+        <KeywordList>
+          <Keyword>bocages</Keyword>
+          <Keyword>bois</Keyword>
+          <Keyword>boisement</Keyword>
+          <Keyword>biodiversite</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1850417914280653</westBoundLongitude>
+          <eastBoundLongitude>9.6917121771465045</eastBoundLongitude>
+          <southBoundLatitude>41.258538538571955</southBoundLatitude>
+          <northBoundLatitude>51.130330494012654</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-577196.21196361526" maxx="1078876.4644749176" miny="5050551.1569921514" maxy="6644380.1383206658" />
+        <Attribution>
+          <Title>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement</Title>
+          <OnlineResource xlink:href="https://www.inrae.fr/" xlink:type="simple" />
+          <LogoURL width="334" height="151">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/inrae.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>grains_bocagers</Name>
+          <Title>Grains bocagers</Title>
+          <Abstract>Grains bocagers</Abstract>
+          <LegendURL width="100" height="100">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>17061.836670798282</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>LANDCOVER.FORESTINVENTORY.V1</Name>
         <Title>BD Forêt v1 (1987-2004)</Title>
         <Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</Abstract>

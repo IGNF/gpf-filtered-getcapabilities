@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="12171" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7963" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
-    <Title>Service WMS Vecteur public de la Géoplateforme</Title>
-    <Abstract>Ce service diffuse les données WMS Vecteur publiques de la Géoplateforme</Abstract>
+    <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
+    <Abstract>Permet un affichage d'images issues de données vectorielles avec des possibilités de personnalisation (style, système de référence géodésique, emprise, format et taille d’image).</Abstract>
     <KeywordList>
-      <Keyword>WMS</Keyword>
-      <Keyword>Géoplateforme</Keyword>
-      <Keyword>Public</Keyword>
+      <Keyword>WMS 1.3.0</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
     </KeywordList>
     <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr" />
     <ContactInformation>
       <ContactPersonPrimary>
         <ContactPerson />
-        <ContactOrganization>IGN</ContactOrganization>
+        <ContactOrganization>Institut national de l'information géographique et forestière (IGN-F)</ContactOrganization>
       </ContactPersonPrimary>
       <ContactPosition>custodian</ContactPosition>
       <ContactAddress>
@@ -29,7 +28,7 @@
       <ContactElectronicMailAddress>geoplateforme@ign.fr</ContactElectronicMailAddress>
     </ContactInformation>
     <Fees>none</Fees>
-    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</AccessConstraints>
+    <AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</AccessConstraints>
   </Service>
   <Capability>
     <Request>
@@ -101,7 +100,7 @@
     </Exception>
     <inspire_vs:ExtendedCapabilities>
       <inspire_common:MetadataUrl>
-        <inspire_common:URL>https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://www.isotc211.org/2005/gmd&amp;elementSetName=full&amp;ID=GPF.WMSvecteur.xml</inspire_common:URL>
+        <inspire_common:URL>https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=GeoPF_WMS-Vecteur</inspire_common:URL>
         <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
       </inspire_common:MetadataUrl>
       <inspire_common:SupportedLanguages>
@@ -381,8 +380,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
-        <Title>BDTopo Bâtiment édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Bâtiment édition 2025-09-15</Abstract>
+        <Title>BDTopo Bâtiment édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Bâtiment édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -415,8 +414,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Hydrographie édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Hydrographie édition 2025-09-15</Abstract>
+        <Title>BDTopo Hydrographie édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Hydrographie édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -449,8 +448,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Orographie édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Orographie édition 2025-09-15</Abstract>
+        <Title>BDTopo Orographie édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Orographie édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -483,8 +482,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau routier édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Réseau routier édition 2025-09-15</Abstract>
+        <Title>BDTopo Réseau routier édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Réseau routier édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -517,8 +516,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau de transport d'énergie édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2025-09-15</Abstract>
+        <Title>BDTopo Réseau de transport d'énergie édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -551,8 +550,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84G</Name>
-        <Title>BDTopo Voie ferrée édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Voie ferrée édition 2025-09-15</Abstract>
+        <Title>BDTopo Voie ferrée édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Voie ferrée édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -585,8 +584,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
-        <Title>BDTopo Végétation édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Végétation édition 2025-09-15</Abstract>
+        <Title>BDTopo Végétation édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Végétation édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -619,8 +618,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
-        <Title>BDTopo Zone d'activités édition 2025-09-15</Title>
-        <Abstract>BDTopo thème Zone d'activités édition 2025-09-15</Abstract>
+        <Title>BDTopo Zone d'activités édition 2025-12-15</Title>
+        <Abstract>BDTopo thème Zone d'activités édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -818,7 +817,7 @@
       <Layer queryable="1">
         <Name>hedge.hedge</Name>
         <Title>haies lineaires</Title>
-        <Abstract>Couche nationale de référence des haies linéaires en France métropolitaine édition 2025-09-15</Abstract>
+        <Abstract>Couche nationale de référence des haies linéaires en France métropolitaine édition 2025-12-15</Abstract>
         <KeywordList>
           <Keyword>haie</Keyword>
         </KeywordList>

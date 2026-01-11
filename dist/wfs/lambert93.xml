@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3348">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4649">
   <ows:ServiceIdentification>
-    <ows:Title>Service WFS public de la Géoplateforme</ows:Title>
-    <ows:Abstract>Ce service diffuse les données WFS publiques de la Géoplateforme</ows:Abstract>
+    <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
+    <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
     <ows:Keywords>
-      <ows:Keyword>WFS</ows:Keyword>
-      <ows:Keyword>Géoplateforme</ows:Keyword>
-      <ows:Keyword>Public</ows:Keyword>
+      <ows:Keyword>WFS 2.0.0</ows:Keyword>
+      <ows:Keyword>API OGC FEATURES 1.0.0</ows:Keyword>
+      <ows:Keyword>infoMapAccessService</ows:Keyword>
     </ows:Keywords>
     <ows:ServiceType>WFS</ows:ServiceType>
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
-    <ows:Fees />
-    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://geoservices.ign.fr/cgu-licences</ows:AccessConstraints>
+    <ows:Fees>none</ows:Fees>
+    <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
-    <ows:ProviderName>IGN</ows:ProviderName>
+    <ows:ProviderName>Géoplateforme par IGN</ows:ProviderName>
     <ows:ServiceContact>
       <ows:IndividualName />
       <ows:PositionName>custodian</ows:PositionName>
@@ -248,7 +248,7 @@
     <ows:ExtendedCapabilities>
       <inspire_dls:ExtendedCapabilities>
         <inspire_common:MetadataUrl>
-          <inspire_common:URL>https://data.geopf.fr/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;ID=GPF.WFS.xml&amp;OUTPUTSCHEMA=http://www.isotc211.org/2005/gmd</inspire_common:URL>
+          <inspire_common:URL>https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=GeoPF_WFS</inspire_common:URL>
           <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
         </inspire_common:MetadataUrl>
         <inspire_common:SupportedLanguages>

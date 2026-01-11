@@ -78,8 +78,464 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
+      <ows:Title>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
+      <ows:Abstract>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>sémantique</ows:Keyword>
+        <ows:Keyword>BD Topo</ows:Keyword>
+        <ows:Keyword>géometrie</ows:Keyword>
+        <ows:Keyword>différentiel</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>BDTOPO-DIFF-BATI</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_7_18</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43698</MinTileRow>
+            <MaxTileRow>73544</MaxTileRow>
+            <MinTileCol>42462</MinTileCol>
+            <MaxTileCol>85897</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87397</MinTileRow>
+            <MaxTileRow>147089</MaxTileRow>
+            <MinTileCol>84925</MinTileCol>
+            <MaxTileCol>171795</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
+      <ows:Abstract>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>sémantique</ows:Keyword>
+        <ows:Keyword>BD Topo</ows:Keyword>
+        <ows:Keyword>géometrie</ows:Keyword>
+        <ows:Keyword>différentiel</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>BDTOPO-DIFF-HYDROGRAPHIE</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_7_18</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43698</MinTileRow>
+            <MaxTileRow>73544</MaxTileRow>
+            <MinTileCol>42462</MinTileCol>
+            <MaxTileCol>85897</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87397</MinTileRow>
+            <MaxTileRow>147089</MaxTileRow>
+            <MinTileCol>84925</MinTileCol>
+            <MaxTileCol>171795</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
+      <ows:Abstract>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>sémantique</ows:Keyword>
+        <ows:Keyword>BD Topo</ows:Keyword>
+        <ows:Keyword>géometrie</ows:Keyword>
+        <ows:Keyword>différentiel</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>BDTOPO-DIFF-RESEAU_ROUTIER</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_7_18</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43698</MinTileRow>
+            <MaxTileRow>73544</MaxTileRow>
+            <MinTileCol>42462</MinTileCol>
+            <MaxTileCol>85897</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87397</MinTileRow>
+            <MaxTileRow>147089</MaxTileRow>
+            <MinTileCol>84925</MinTileCol>
+            <MaxTileCol>171795</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
+      <ows:Abstract>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>sémantique</ows:Keyword>
+        <ows:Keyword>BD Topo</ows:Keyword>
+        <ows:Keyword>géometrie</ows:Keyword>
+        <ows:Keyword>différentiel</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>BDTOPO-DIFF-ZONE_ACTIVITES</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Légende générique</Title>
+        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_7_18</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43698</MinTileRow>
+            <MaxTileRow>73544</MaxTileRow>
+            <MinTileCol>42462</MinTileCol>
+            <MaxTileCol>85897</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87397</MinTileRow>
+            <MaxTileRow>147089</MaxTileRow>
+            <MinTileCol>84925</MinTileCol>
+            <MaxTileCol>171795</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Bâtiments</ows:Title>
-      <ows:Abstract>Bâtiments ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Bâtiments ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Bâtiments</ows:Keyword>
       </ows:Keywords>
@@ -440,7 +896,7 @@
     </Layer>
     <Layer>
       <ows:Title>Noms</ows:Title>
-      <ows:Abstract>Noms ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Noms ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Divers</ows:Keyword>
       </ows:Keywords>
@@ -558,7 +1014,7 @@
     </Layer>
     <Layer>
       <ows:Title>Hydrographie</ows:Title>
-      <ows:Abstract>Hydrographie ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Hydrographie ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Hydrographie</ows:Keyword>
       </ows:Keywords>
@@ -808,7 +1264,7 @@
     </Layer>
     <Layer>
       <ows:Title>Points de repère routiers (PR)</ows:Title>
-      <ows:Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Echelles du 1/8.000.000 au 1/8.000; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Echelles du 1/8.000.000 au 1/8.000; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>PR</ows:Keyword>
       </ows:Keywords>
@@ -916,7 +1372,7 @@
     </Layer>
     <Layer>
       <ows:Title>Voie ferrée</ows:Title>
-      <ows:Abstract>Voie ferrée ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Voie ferrée ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Voies ferrées</ows:Keyword>
       </ows:Keywords>
@@ -1034,7 +1490,7 @@
     </Layer>
     <Layer>
       <ows:Title>Routes</ows:Title>
-      <ows:Abstract>Routes ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Routes ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Réseau routier</ows:Keyword>
       </ows:Keywords>
@@ -1270,7 +1726,7 @@
     </Layer>
     <Layer>
       <ows:Title>Réseau électrique</ows:Title>
-      <ows:Abstract>Réseau électrique ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Réseau électrique ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Energie</ows:Keyword>
       </ows:Keywords>
@@ -1360,7 +1816,7 @@
     </Layer>
     <Layer>
       <ows:Title>haies linéaires</ows:Title>
-      <ows:Abstract>Couche nationale de référence des haies linéaires en France métropolitaine ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Couche nationale de référence des haies linéaires en France métropolitaine ; Edition : 2025-12-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>haie</ows:Keyword>
       </ows:Keywords>

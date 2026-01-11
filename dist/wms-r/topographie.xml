@@ -281,6 +281,158 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
+        <Name>BDTOPO-DIFF-BATI</Name>
+        <Title>Différentiel BDTOPO® Bâtiments</Title>
+        <Abstract>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <KeywordList>
+          <Keyword>sémantique</Keyword>
+          <Keyword>BD Topo</Keyword>
+          <Keyword>géometrie</Keyword>
+          <Keyword>différentiel</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.1877243575</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>BDTOPO-DIFF-HYDROGRAPHIE</Name>
+        <Title>Différentiel BDTOPO® Hydrographie</Title>
+        <Abstract>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <KeywordList>
+          <Keyword>sémantique</Keyword>
+          <Keyword>BD Topo</Keyword>
+          <Keyword>géometrie</Keyword>
+          <Keyword>différentiel</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.1877243575</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>BDTOPO-DIFF-RESEAU_ROUTIER</Name>
+        <Title>Différentiel BDTOPO® Réseau routier</Title>
+        <Abstract>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <KeywordList>
+          <Keyword>sémantique</Keyword>
+          <Keyword>BD Topo</Keyword>
+          <Keyword>géometrie</Keyword>
+          <Keyword>différentiel</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.1877243575</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>BDTOPO-DIFF-ZONE_ACTIVITES</Name>
+        <Title>Différentiel BDTOPO® Zone d’activités</Title>
+        <Abstract>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <KeywordList>
+          <Keyword>sémantique</Keyword>
+          <Keyword>BD Topo</Keyword>
+          <Keyword>géometrie</Keyword>
+          <Keyword>différentiel</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372521499999998</westBoundLongitude>
+          <eastBoundLongitude>55.925864580000002</eastBoundLongitude>
+          <southBoundLatitude>-21.475586669999998</southBoundLatitude>
+          <northBoundLatitude>51.312119279999997</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054596.8236657809" maxx="6225638.7672191747" miny="-2448678.40789547" maxy="6676690.8249666644" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>4367830.1877243575</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>IGNF_HYDROGRAPHY.HYDROGRAPHY</Name>
         <Title>Hydrographie</Title>
         <Abstract>Lacs, réservoirs, rivières et cours d'eau.</Abstract>

@@ -1650,6 +1650,30 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
+        <Name>ORTHOIMAGERY.ORTHOPHOTOS2021-2023</Name>
+        <Title>Photographies aériennes 2021-2023</Title>
+        <Abstract>Prises de vues aériennes des territoires pour les années 2021 à 2023</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179</westBoundLongitude>
+          <eastBoundLongitude>179</eastBoundLongitude>
+          <southBoundLatitude>-75</southBoundLatitude>
+          <northBoundLatitude>75</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-19926188.851995971" maxx="19926188.851995971" miny="-12932243.111992029" maxy="12932243.111992029" />
+        <Style>
+          <Name>normal</Name>
+          <Title>Légende générique</Title>
+          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+          <LegendURL width="200" height="200">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1066.3647919248926</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS2022</Name>
         <Title>Photographies aériennes 2022</Title>
         <Abstract>Prises de vues aériennes des territoires disponibles à la fin de l'année 2022</Abstract>

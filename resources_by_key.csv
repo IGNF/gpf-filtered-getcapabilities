@@ -312,12 +312,12 @@ wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
 wfs,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra
-wfs,altimetrie,IGNF_MNH_LIDAR-HD:bloc
-wfs,altimetrie,IGNF_MNH_LIDAR-HD:dalle
-wfs,altimetrie,IGNF_MNS_LIDAR-HD:bloc
-wfs,altimetrie,IGNF_MNS_LIDAR-HD:dalle
-wfs,altimetrie,IGNF_MNT_LIDAR-HD:bloc
-wfs,altimetrie,IGNF_MNT_LIDAR-HD:dalle
+wfs,altimetrie,IGNF_MNH-LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNH-LIDAR-HD:dalle
+wfs,altimetrie,IGNF_MNS-LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNS-LIDAR-HD:dalle
+wfs,altimetrie,IGNF_MNT-LIDAR-HD:bloc
+wfs,altimetrie,IGNF_MNT-LIDAR-HD:dalle
 wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:dalle
 wms-r,altimetrie,ELEVATION.CONTOUR.LINE
@@ -736,6 +736,7 @@ wms-r,environnement,GEOGRAPHICALGRIDSYSTEM.DFCI
 wms-r,environnement,IGNF_FORETS-ANCIENNES
 wms-r,environnement,IGNF_MASQUE-FORET.2021-2023
 wms-r,environnement,IGNF_NATURE-EN-VILLE_2021-2023
+wms-r,environnement,INRAE_GRAIN-BOCAGER
 wms-r,environnement,LANDCOVER.FORESTINVENTORY.V1
 wms-r,environnement,LANDCOVER.FORESTINVENTORY.V2
 wms-r,environnement,ZONES-A-PROSPECTER-FORETS-SUBNATURELLES
@@ -754,6 +755,7 @@ wmts,environnement,IGNF_FORETS-ANCIENNES
 wmts,environnement,IGNF_MASQUE-FORET.2021-2023
 wmts,environnement,IGNF_NATURE-EN-VILLE_2021-2023
 wmts,environnement,INPE
+wmts,environnement,INRAE_GRAIN-BOCAGER
 wmts,environnement,LANDCOVER.FORESTAREAS
 wmts,environnement,LANDCOVER.FORESTINVENTORY.V1
 wmts,environnement,LANDCOVER.FORESTINVENTORY.V2
@@ -860,7 +862,7 @@ wms-r,ortho,PCRS.LAMB93
 wms-r,ortho,THR.ORTHOIMAGERY.ORTHOPHOTOS
 wms-v,ortho,ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE-MOSAIQUAGE
 wms-v,ortho,ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.GRAPHE-MOSAIQUAGE
-wms-v,ortho,graphe_pcrs_anct
+wms-v,ortho,GRAPHE.PCRS.ANCT
 wmts,ortho,HR.ORTHOIMAGERY.ORTHOPHOTOS
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS
 wmts,ortho,ORTHOIMAGERY.ORTHOPHOTOS
@@ -932,6 +934,7 @@ wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2018
 wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2019
 wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2020
 wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2021
+wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2021-2023
 wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2022
 wms-r,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2023
 wms-v,orthohisto,ORTHOIMAGERY.ORHOPHOTOS.URGENCE.ALEX.GRAPHE-MOSAIQUAGE
@@ -990,6 +993,7 @@ wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2018
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2019
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2020
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2021
+wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2021-2023
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2022
 wmts,orthohisto,ORTHOIMAGERY.ORTHOPHOTOS2023
 wfs,parcellaire,AOC-VITICOLES:aire_parcellaire
@@ -1235,10 +1239,10 @@ wfs,topographie,DGCL.2025:voirie_departementale
 wms-r,topographie,IGNF_HYDROGRAPHY.HYDROGRAPHY
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.RAILWAYS
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.ROADS
-wms-v,topographie,BDTOPO-DIFF-BATI
-wms-v,topographie,BDTOPO-DIFF-HYDROGRAPHIE
-wms-v,topographie,BDTOPO-DIFF-RESEAU_ROUTIER
-wms-v,topographie,BDTOPO-DIFF-ZONE-ACTIVITES
+wms-r,topographie,BDTOPO-DIFF-BATI
+wms-r,topographie,BDTOPO-DIFF-HYDROGRAPHIE
+wms-r,topographie,BDTOPO-DIFF-RESEAU_ROUTIER
+wms-r,topographie,BDTOPO-DIFF-ZONE_ACTIVITES
 wms-v,topographie,BDTOPO-GEOPO-BATI_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G
 wms-v,topographie,BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G
@@ -1253,6 +1257,10 @@ wms-v,topographie,POI.MUSEUM
 wms-v,topographie,TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE
+wms-v,topographie,BDTOPO-DIFF-BATI
+wms-v,topographie,BDTOPO-DIFF-HYDROGRAPHIE
+wms-v,topographie,BDTOPO-DIFF-RESEAU_ROUTIER
+wms-v,topographie,BDTOPO-DIFF-ZONE-ACTIVITES
 wmts,topographie,BUILDINGS.BUILDINGS
 wmts,topographie,DGCL.2025.voirie-communale
 wmts,topographie,DGCL.2025.voirie-departementale
@@ -1265,6 +1273,10 @@ wmts,topographie,TRANSPORTNETWORKS.RAILWAYS
 wmts,topographie,TRANSPORTNETWORKS.ROADS
 wmts,topographie,TRANSPORTNETWORKS.RUNWAYS
 wmts,topographie,UTILITYANDGOVERNMENTALSERVICES.ALL
+wmts,topographie,BDTOPO-DIFF-BATI
+wmts,topographie,BDTOPO-DIFF-HYDROGRAPHIE
+wmts,topographie,BDTOPO-DIFF-RESEAU_ROUTIER
+wmts,topographie,BDTOPO-DIFF-ZONE_ACTIVITES
 wfs,transports,dgac_psa_arrete_wfs:dgac_psa_arrete_wfs
 wfs,transports,SECUROUT.TE:franchissement_te
 wfs,transports,SECUROUT.TE:franchissement_te_lien_prescription

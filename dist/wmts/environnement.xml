@@ -897,6 +897,106 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>INRAE_GRAIN-BOCAGER</ows:Title>
+      <ows:Abstract>Le produit Grain Bocager est un ensemble de couches nationales de référence pour la gestion des bocages en lien avec la biodiversité forestière</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>bocages</ows:Keyword>
+        <ows:Keyword>bois</ows:Keyword>
+        <ows:Keyword>boisement</ows:Keyword>
+        <ows:Keyword>biodiversite</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-5.18504 41.2585</ows:LowerCorner>
+        <ows:UpperCorner>9.69171 51.1303</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>INRAE_GRAIN-BOCAGER</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Grains bocagers</Title>
+        <Abstract>Grains bocagers</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>transparent</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>grains_bocagers</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="999999" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_15</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1079</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1368</MinTileRow>
+            <MaxTileRow>1531</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2158</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2737</MinTileRow>
+            <MaxTileRow>3063</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4316</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5475</MinTileRow>
+            <MaxTileRow>6127</MaxTileRow>
+            <MinTileCol>7956</MinTileCol>
+            <MaxTileCol>8633</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10951</MinTileRow>
+            <MaxTileRow>12254</MaxTileRow>
+            <MinTileCol>15912</MinTileCol>
+            <MaxTileCol>17266</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Régions forestières nationales</ows:Title>
       <ows:Abstract>Cette cartographie représente des zones homogènes du point de vue des types de forêt ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
       <ows:Keywords>
