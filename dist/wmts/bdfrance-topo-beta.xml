@@ -78,341 +78,113 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Plan IGN</ows:Title>
-      <ows:Abstract>Cartographie multi-échelles sur le territoire national, issue des bases de données vecteur de l’IGN, mis à jour régulièrement et réalisée selon un processus entièrement automatisé. </ows:Abstract>
+      <ows:Title>BD France TOPO – thème végétation – beta</ows:Title>
+      <ows:Abstract>Jeux tests de la BD France TOPO – thème végétation proposent une cartographie de la végétation. Ils décrivent les grandes natures de végétation et d’occupation végétalisée du sol, organisées selon une nomenclature commune et déclinées, lorsque l’information est disponible, en natures détaillées.</ows:Abstract>
       <ows:Keywords>
-        <ows:Keyword>Plan IGN V2</ows:Keyword>
+        <ows:Keyword>zone agricole</ows:Keyword>
+        <ows:Keyword>zone herbacée</ows:Keyword>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>haie</ows:Keyword>
+        <ows:Keyword>lande ligneuse</ows:Keyword>
       </ows:Keywords>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-179.9 -85</ows:LowerCorner>
-        <ows:UpperCorner>179.9 85</ows:UpperCorner>
+        <ows:LowerCorner>-5.1505 41.3252</ows:LowerCorner>
+        <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Identifier>
+      <ows:Identifier>IGNF_BD-FRANCE-TOPO-VEGETATION</ows:Identifier>
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données brutes</Title>
+        <Abstract>Données brutes, sans modification de canal</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="280" height="69" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_0_19</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>0</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>0</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>0</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>1</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>1</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>2</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>3</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>3</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>7</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>7</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>15</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>15</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>31</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>31</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>63</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>63</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>127</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>127</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>255</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>511</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>511</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>1</MinTileRow>
-            <MaxTileRow>1022</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1023</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>3</MinTileRow>
-            <MaxTileRow>2044</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>2047</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>6</MinTileRow>
-            <MaxTileRow>4089</MaxTileRow>
-            <MinTileCol>1</MinTileCol>
-            <MaxTileCol>4094</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>13</MinTileRow>
-            <MaxTileRow>8178</MaxTileRow>
-            <MinTileCol>2</MinTileCol>
-            <MaxTileCol>8189</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>26</MinTileRow>
-            <MaxTileRow>16357</MaxTileRow>
-            <MinTileCol>4</MinTileCol>
-            <MaxTileCol>16379</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>53</MinTileRow>
-            <MaxTileRow>32714</MaxTileRow>
-            <MinTileCol>9</MinTileCol>
-            <MaxTileCol>32758</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>107</MinTileRow>
-            <MaxTileRow>65428</MaxTileRow>
-            <MinTileCol>18</MinTileCol>
-            <MaxTileCol>65517</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>214</MinTileRow>
-            <MaxTileRow>130857</MaxTileRow>
-            <MinTileCol>36</MinTileCol>
-            <MaxTileCol>131035</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>429</MinTileRow>
-            <MaxTileRow>261714</MaxTileRow>
-            <MinTileCol>72</MinTileCol>
-            <MaxTileCol>262071</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>19</TileMatrix>
-            <MinTileRow>858</MinTileRow>
-            <MaxTileRow>523429</MaxTileRow>
-            <MinTileCol>145</MinTileCol>
-            <MaxTileCol>524142</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Photographies aériennes</ows:Title>
-      <ows:Abstract>Photographies aériennes</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Photographies</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-180 -80</ows:LowerCorner>
-        <ows:UpperCorner>180 80</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_BD-ORTHO" />
-      <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/jpeg</Format>
       <InfoFormat>text/plain</InfoFormat>
       <InfoFormat>text/xml</InfoFormat>
       <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
-        <TileMatrixSet>PM_0_19</TileMatrixSet>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
         <TileMatrixSetLimits>
           <TileMatrixLimits>
-            <TileMatrix>0</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>0</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>0</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>1</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>1</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>2</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>3</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>4</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>3</TileMatrix>
-            <MinTileRow>0</MinTileRow>
-            <MaxTileRow>7</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>8</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>1</MinTileRow>
-            <MaxTileRow>14</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>15</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>3</MinTileRow>
-            <MaxTileRow>28</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>31</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
-            <MinTileRow>7</MinTileRow>
-            <MaxTileRow>56</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>63</MaxTileCol>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>23</MaxTileRow>
+            <MinTileCol>31</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
-            <MinTileRow>14</MinTileRow>
-            <MaxTileRow>113</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>127</MaxTileCol>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>47</MaxTileRow>
+            <MinTileCol>62</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
-            <MinTileRow>28</MinTileRow>
-            <MaxTileRow>227</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>255</MaxTileCol>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>95</MaxTileRow>
+            <MinTileCol>124</MinTileCol>
+            <MaxTileCol>134</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
-            <MinTileRow>57</MinTileRow>
-            <MaxTileRow>454</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>511</MaxTileCol>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>191</MaxTileRow>
+            <MinTileCol>248</MinTileCol>
+            <MaxTileCol>269</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
-            <MinTileRow>114</MinTileRow>
-            <MaxTileRow>909</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>1023</MaxTileCol>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>382</MaxTileRow>
+            <MinTileCol>497</MinTileCol>
+            <MaxTileCol>539</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>229</MinTileRow>
-            <MaxTileRow>1818</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>2047</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>765</MaxTileRow>
+            <MinTileCol>994</MinTileCol>
+            <MaxTileCol>1078</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>459</MinTileRow>
-            <MaxTileRow>3636</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>4095</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>1530</MaxTileRow>
+            <MinTileCol>1989</MinTileCol>
+            <MaxTileCol>2156</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>919</MinTileRow>
-            <MaxTileRow>7272</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>8191</MaxTileCol>
+            <MinTileRow>2738</MinTileRow>
+            <MaxTileRow>3061</MaxTileRow>
+            <MinTileCol>3978</MinTileCol>
+            <MaxTileCol>4313</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>1839</MinTileRow>
-            <MaxTileRow>14544</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>16383</MaxTileCol>
+            <MinTileRow>5477</MinTileRow>
+            <MaxTileRow>6123</MaxTileRow>
+            <MinTileCol>7957</MinTileCol>
+            <MaxTileCol>8627</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>3678</MinTileRow>
-            <MaxTileRow>29089</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>32767</MaxTileCol>
+            <MinTileRow>10955</MinTileRow>
+            <MaxTileRow>12246</MaxTileRow>
+            <MinTileCol>15915</MinTileCol>
+            <MaxTileCol>17255</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>7357</MinTileRow>
-            <MaxTileRow>58178</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>65535</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>14714</MinTileRow>
-            <MaxTileRow>116357</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>131071</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>18</TileMatrix>
-            <MinTileRow>29428</MinTileRow>
-            <MaxTileRow>232715</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>262143</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>19</TileMatrix>
-            <MinTileRow>58856</MinTileRow>
-            <MaxTileRow>465431</MaxTileRow>
-            <MinTileCol>0</MinTileCol>
-            <MaxTileCol>524287</MaxTileCol>
+            <MinTileRow>21911</MinTileRow>
+            <MaxTileRow>24492</MaxTileRow>
+            <MinTileCol>31830</MinTileCol>
+            <MaxTileCol>34510</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
