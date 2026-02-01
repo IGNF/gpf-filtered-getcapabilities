@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="6533">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3079">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -271,8 +271,10 @@
       <Title>Acte de servitude d'utilité publique</Title>
       <Abstract>Liste des actes instituant une servitude d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>acte_sup_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -400,8 +402,10 @@
       <Title>Assiette de servitude d'utilité publique</Title>
       <Abstract>Assiettes linéaires liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_assiette_sup_l_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -529,8 +533,10 @@
       <Title>Assiette de servitude d'utilité publique</Title>
       <Abstract>Assiettes ponctuelles liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_assiette_sup_p_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -658,8 +664,10 @@
       <Title>Assiette de servitude d'utilité publique</Title>
       <Abstract>Assiettes surfaciques liées aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_assiette_sup_s_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -787,8 +795,9 @@
       <Title>Communes</Title>
       <Abstract>Emprise communale, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>municipality</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -916,8 +925,10 @@
       <Title>Document d'urbanisme</Title>
       <Abstract>Classe sémantique décrivant le document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>doc_urba_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1045,8 +1056,10 @@
       <Title>Document d'urbanisme</Title>
       <Abstract>Classe sémantique décrivant le document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>doc_urba_com_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1174,8 +1187,10 @@
       <Title>Document d'urbanisme</Title>
       <Abstract>Emprise du document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>document_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1303,8 +1318,10 @@
       <Title>Document d'urbanisme</Title>
       <Abstract>Classe sémantique décrivant le Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>doc_urba_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>SCOT</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1432,8 +1449,10 @@
       <Title>Document d'urbanisme</Title>
       <Abstract>Relations entre le Schéma de Cohérence Territorial et les communes auxquelles il s'applique, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>doc_urba_com_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>SCOT</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1561,8 +1580,10 @@
       <Title>Etiquette ponctuelle de l’habillage du plan</Title>
       <Abstract>Étiquette ponctuelle portée sur le document d'urbanisme pour l’habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>habillage_txt_prod</ows:Keyword>
-        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1690,8 +1711,10 @@
       <Title>Générateur de servitude d'utilité publique</Title>
       <Abstract>Générateurs linéaires liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_generateur_sup_l_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1819,8 +1842,10 @@
       <Title>Générateur de servitude d'utilité publique</Title>
       <Abstract>Générateurs ponctuels liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_generateur_sup_p_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -1948,8 +1973,10 @@
       <Title>Générateur de servitude d'utilité publique</Title>
       <Abstract>Générateurs surfaciques liés aux servitudes, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>filtre_generateur_sup_s_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2077,8 +2104,10 @@
       <Title>Habillages linéaires</Title>
       <Abstract>Objet linéaire indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>habillage_lin_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2206,8 +2235,10 @@
       <Title>Habillages ponctuels</Title>
       <Abstract>Objet ponctuel indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>habillage_pct_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2335,8 +2366,10 @@
       <Title>Habillages surfaciques</Title>
       <Abstract>Objet surfacique indicatif porté sur le document d'urbanisme pour l'habillage du plan, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>habillage_surf_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2464,8 +2497,10 @@
       <Title>Informations linéaires</Title>
       <Abstract>Périmètre linéaire à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>info_lin_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2593,8 +2628,10 @@
       <Title>Informations ponctuelles</Title>
       <Abstract>Périmètre ponctuel à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>info_pct_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2722,8 +2759,10 @@
       <Title>Informations surfaciques</Title>
       <Abstract>Périmètre surfacique à reporter à titre d’information, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>info_surf_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2851,8 +2890,10 @@
       <Title>Organisme gestionnaire ou organisme ressource de la servitude</Title>
       <Abstract>Gestionnaires de servitude d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>gestionnaire_sup_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -2980,8 +3021,10 @@
       <Title>Perimetre du Schéma de cohérence territorial</Title>
       <Abstract>Périmètre publié du Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>perimetre_scot_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>SCOT</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3109,8 +3152,10 @@
       <Title>Prescriptions linéaires</Title>
       <Abstract>Prescriptions linéaires se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>prescription_lin_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3238,8 +3283,10 @@
       <Title>Prescriptions ponctuelles</Title>
       <Abstract>Prescriptions ponctuelles se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>prescription_pct_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3367,8 +3414,10 @@
       <Title>Prescriptions surfaciques</Title>
       <Abstract>Prescriptions surfaciques se superposant au zonage, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>prescription_surf_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3496,8 +3545,10 @@
       <Title>Relation entre ACTE_SUP et SERVITUDE</Title>
       <Abstract>Relation entre les SUP et les actes les instituant, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>servitude_acte_sup_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3625,8 +3676,10 @@
       <Title>Schéma de cohérence territorial</Title>
       <Abstract>Etat du Schéma de Cohérence Territorial, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>scot_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>SCOT</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3754,8 +3807,10 @@
       <Title>Secteurs de la carte communale</Title>
       <Abstract>Secteurs de carte communale, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>secteur_cc_prod</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -3883,8 +3938,10 @@
       <Title>Servitude d'utilité publique</Title>
       <Abstract>Liste des servitudes d'utilité publique, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>features</ows:Keyword>
-        <ows:Keyword>servitude_prod</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
+        <ows:Keyword>SUP</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
@@ -4012,8 +4069,10 @@
       <Title>Zonage du document d'urbanisme</Title>
       <Abstract>Zonage du document d'urbanisme, données issues du Géoportail de l'urbanisme</Abstract>
       <ows:Keywords>
-        <ows:Keyword>zone_urba_prod</ows:Keyword>
-        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>document d'urbanisme</ows:Keyword>
+        <ows:Keyword>urbanisme</ows:Keyword>
+        <ows:Keyword>planningCadastre</ows:Keyword>
+        <ows:Keyword>usage des sols</ows:Keyword>
       </ows:Keywords>
       <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
       <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>

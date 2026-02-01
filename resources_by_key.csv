@@ -251,6 +251,7 @@ wfs,agriculture,RPG.LATEST:parcelles_graphiques
 wfs,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE:bcae
 wms-r,agriculture,GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC
 wms-r,agriculture,HYDROGRAPHY.BCAE.2025
+wms-r,agriculture,HYDROGRAPHY.BCAE.2026
 wms-r,agriculture,HYDROGRAPHY.BCAE.LATEST
 wms-r,agriculture,LANDUSE.AGRICULTURE.LATEST
 wms-r,agriculture,LANDUSE.AGRICULTURE2007
@@ -284,6 +285,7 @@ wmts,agriculture,HYDROGRAPHY.BCAE.2022
 wmts,agriculture,HYDROGRAPHY.BCAE.2023
 wmts,agriculture,HYDROGRAPHY.BCAE.2024
 wmts,agriculture,HYDROGRAPHY.BCAE.2025
+wmts,agriculture,HYDROGRAPHY.BCAE.2026
 wmts,agriculture,HYDROGRAPHY.BCAE.LATEST
 wmts,agriculture,LANDUSE.AGRICULTURE.LATEST
 wmts,agriculture,LANDUSE.AGRICULTURE2007
@@ -312,13 +314,9 @@ wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
 wfs,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra
-wfs,altimetrie,IGNF_MNH-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_MNH-LIDAR-HD:dalle
-wfs,altimetrie,IGNF_MNS-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_MNS-LIDAR-HD:dalle
-wfs,altimetrie,IGNF_MNT-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_MNT-LIDAR-HD:dalle
-wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:bloc
 wfs,altimetrie,IGNF_NUAGES-DE-POINTS-LIDAR-HD:dalle
 wms-r,altimetrie,ELEVATION.CONTOUR.LINE
 wms-r,altimetrie,ELEVATION.ELEVATIONGRIDCOVERAGE
@@ -1126,12 +1124,14 @@ wms-r,sol,BDCARTO_ETAT-MAJOR.NIVEAU4
 wms-r,sol,IGNF_COSIA_2017-2020
 wms-r,sol,IGNF_COSIA_2021-2023
 wms-r,sol,IGNF_COSIA_2024-2026
+wmts,sol,PARCS-ET-JARDINS.2021-2023
 wms-r,sol,INRA.CARTE.SOLS
 wmts,sol,BDCARTO_ETAT-MAJOR.NIVEAU3
 wmts,sol,BDCARTO_ETAT-MAJOR.NIVEAU4
 wmts,sol,IGNF_COSIA_2017-2020
 wmts,sol,IGNF_COSIA_2021-2023
 wmts,sol,IGNF_COSIA_2024-2026
+wmts,sol,PARCS-ET-JARDINS.2021-2023
 wmts,sol,INRA.CARTE.SOLS
 wfs,topographie,BDTOPO_V3:aerodrome
 wfs,topographie,BDTOPO_V3:arrondissement
