@@ -88,6 +88,8 @@
         <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELLAIRE_EXPRESS.L93</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCELLAIRE-EXPRESS-PCI" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -191,6 +193,8 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELS.L93</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
       <Style isDefault="true">
         <Title>BD Parcellaire Noire et transparente</Title>
         <Abstract>tracé noir sur fond transparent</Abstract>
@@ -353,6 +357,8 @@
         <ows:UpperCorner>9.55802 51.0897</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2.L93</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -3889,55 +3895,6 @@
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>262144</MatrixWidth>
-        <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>PM_14_18</ows:Identifier>
-      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>14</ows:Identifier>
         <ScaleDenominator>34123.6733415965385738</ScaleDenominator>

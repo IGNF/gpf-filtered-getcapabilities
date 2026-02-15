@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3499">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="10530">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -393,6 +393,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC06_DOM:clc06_dom</Name>
@@ -521,6 +523,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC06R_DOM:clc06r_dom</Name>
@@ -649,6 +653,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12_DOM:clc12_dom</Name>
@@ -777,11 +783,13 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12R_DOM:clc12r_dom</Name>
       <Title>CORINE Land Cover - DOM - 2012 révisée</Title>
-      <Abstract>Inventaire biophysique de l'occupation des sols en 2012 en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le  Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover 2012 révisée, dite CLC 2012 révisée, est une correction de CLC 2012 réalisée à partir d'images satellitaires prises entre 2011 et 2012 et de données d'appui.</Abstract>
+      <Abstract>Inventaire biophysique de l'occupation des sols en 2012 en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover 2012 révisée, dite CLC 2012 révisée, est une correction de CLC 2012 réalisée à partir d'images satellitaires prises entre 2011 et 2012 et de données d'appui.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Occupation du sol</ows:Keyword>
       </ows:Keywords>
@@ -905,11 +913,13 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC18_DOM:clc18_dom</Name>
       <Title>CORINE Land Cover - DOM - 2018</Title>
-      <Abstract>Inventaire biophysique de l'occupation des sols en 2018 en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le  Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover DOM 2018 a été réalisée à partir de CORINE Land Cover DOM 2012 révisée et de la base des changements 2012-2018.</Abstract>
+      <Abstract>Inventaire biophysique de l'occupation des sols en 2018 en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base de données CORINE Land Cover DOM 2018 a été réalisée à partir de CORINE Land Cover DOM 2012 révisée et de la base des changements 2012-2018.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Occupation du sol</ows:Keyword>
       </ows:Keywords>
@@ -1033,6 +1043,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA06_DOM:cha06_dom</Name>
@@ -1161,6 +1173,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA12_DOM:cha12_dom</Name>
@@ -1289,11 +1303,13 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA18_DOM:cha18_dom</Name>
       <Title>CORINE Land Cover - DOM - Changements 2012-2018</Title>
-      <Abstract>Inventaire biophysique du changement d'occupation des sols entre 2012 et 2018 suivant la nomenclature CORINE Land Cover en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le  Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base des changements CORINE Land Cover DOM 2012-2018 a été réalisée à partir d'images satellitaires des périodes 2011-2012 et 2016-2017, et de données d'appui.</Abstract>
+      <Abstract>Inventaire biophysique du changement d'occupation des sols entre 2012 et 2018 suivant la nomenclature CORINE Land Cover en 50 postes. CORINE Land Cover est une base de données d’occupation des sols produite dans le cadre du programme européen d’observation de la Terre Copernicus. Cet inventaire biophysique de l’occupation des terres fournit une information géographique de référence pour 39 États européens. La continuité du programme et la diffusion des données CORINE Land Cover sont pilotées par l'Agence européenne pour l'environnement. Le producteur pour la France est le Service de la donnée et des études statistiques du ministère chargé de l’écologie. L'utilisation de cette base de données permet des applications variées adaptées aux problématiques de l'environnement et à celles de l'aménagement du territoire : production cartographique, exploitation à des fins statistiques ou bien encore analyses géographiques en combinaison avec d'autres bases de données. Outil de connaissance et d'analyse, CORINE Land Cover apporte également une aide à la décision comme instrument de suivi, de surveillance et de gestion de l'environnement, des milieux naturels et de l'aménagement de l'espace. La base des changements CORINE Land Cover DOM 2012-2018 a été réalisée à partir d'images satellitaires des périodes 2011-2012 et 2016-2017, et de données d'appui.</Abstract>
       <ows:Keywords>
         <ows:Keyword>Occupation du sol</ows:Keyword>
       </ows:Keywords>
@@ -1417,6 +1433,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC90_FR:clc90_fr</Name>
@@ -1545,6 +1563,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC00_FR:clc00_fr</Name>
@@ -1673,6 +1693,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC0OR_FR:clc00r_fr</Name>
@@ -1801,6 +1823,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC06_FR:clc06_fr</Name>
@@ -1929,6 +1953,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC06R_FR:clc06r_fr</Name>
@@ -2057,6 +2083,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12_FR:clc12_fr</Name>
@@ -2185,6 +2213,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12R_FR:clc12r_fr</Name>
@@ -2313,6 +2343,8 @@
         <ows:LowerCorner>-5.92004256 41.02799728</ows:LowerCorner>
         <ows:UpperCorner>11.09092433 51.07771878</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC18_FR:clc18_fr</Name>
@@ -2441,6 +2473,8 @@
         <ows:LowerCorner>-5.92004256 41.02799728</ows:LowerCorner>
         <ows:UpperCorner>11.09092433 51.07771878</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA00_FR:cha00_fr</Name>
@@ -2569,6 +2603,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA06_FR:cha06_fr</Name>
@@ -2697,6 +2733,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA12_FR:cha12_fr</Name>
@@ -2825,6 +2863,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA18_FR:cha18_fr</Name>
@@ -2953,6 +2993,8 @@
         <ows:LowerCorner>-5.92004256 41.02799728</ows:LowerCorner>
         <ows:UpperCorner>11.09092433 51.07771878</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

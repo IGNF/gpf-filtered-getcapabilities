@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4862">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="10530">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -393,6 +393,8 @@
         <ows:LowerCorner>-5.51063483 41.35555653</ows:LowerCorner>
         <ows:UpperCorner>9.65203797 50.9519425</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024:parcelles_agricole_categorisees_2024</Name>
@@ -526,6 +528,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_PARCELLES-ELIGIBLES-IAE:parcelles_eligibles_iae_2024</Name>
@@ -656,6 +660,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_PRAIRIES-PERMANENTES_2024:prairies_permanentes_2024</Name>
@@ -789,6 +795,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>TOURBIERES_ZONES-HUMIDES.BCAE:bcae</Name>
@@ -917,6 +925,8 @@
         <ows:LowerCorner>-61.787109375 -21.245898438</ows:LowerCorner>
         <ows:UpperCorner>55.72265625 50.919921875</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" />
     </FeatureType>
     <FeatureType>
       <Name>PRAIRIES.SENSIBLES.BCAE:prairies_sensibles</Name>
@@ -1046,6 +1056,8 @@
         <ows:LowerCorner>-5.12736132 41.34982303</ows:LowerCorner>
         <ows:UpperCorner>9.64817082 50.82288748</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2010:rpg_2010</Name>
@@ -1174,6 +1186,8 @@
         <ows:LowerCorner>-63.08582386 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2013:rpg_2013</Name>
@@ -1302,6 +1316,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2014:rpg_2014</Name>
@@ -1430,6 +1446,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07512792</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2015:parcelles_graphiques</Name>
@@ -1558,6 +1576,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2016:parcelles_graphiques</Name>
@@ -1686,6 +1706,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2017:parcelles_graphiques</Name>
@@ -1814,6 +1836,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2018:parcelles_graphiques</Name>
@@ -1942,6 +1966,8 @@
         <ows:LowerCorner>-63.08613261 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2019:parcelles_graphiques</Name>
@@ -2070,6 +2096,8 @@
         <ows:LowerCorner>-63.07282825 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2020:parcelles_graphiques</Name>
@@ -2198,6 +2226,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2021:parcelles_graphiques</Name>
@@ -2326,6 +2356,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2022:codes_cultures</Name>
@@ -2454,6 +2486,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2022:parcelles_graphiques</Name>
@@ -2582,6 +2616,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:codes_cultures</Name>
@@ -2710,6 +2746,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:ilots_de_reference</Name>
@@ -2838,6 +2876,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:parcelles_graphiques</Name>
@@ -2966,6 +3006,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2024:codes_cultures</Name>
@@ -3094,6 +3136,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2024:ilots_anonymes</Name>
@@ -3222,6 +3266,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2024:parcelles_graphiques</Name>
@@ -3350,6 +3396,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:codes_cultures</Name>
@@ -3478,6 +3526,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:parcelles_graphiques</Name>
@@ -3606,6 +3656,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:ilots_anonymes</Name>
@@ -3734,6 +3786,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2011:rpg_2011</Name>
@@ -3862,6 +3916,8 @@
         <ows:LowerCorner>-63.08582386 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2012:rpg_2012</Name>
@@ -3990,6 +4046,8 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024:surfaces_2024_zdh_20250621</Name>
@@ -4120,6 +4178,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

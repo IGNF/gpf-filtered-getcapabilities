@@ -303,6 +303,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_DEBROUSSAILLEMENT" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_DEBROUSSAILLEMENT" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>nolegend</Name>
           <Title>Données sans légende</Title>
@@ -338,6 +346,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/onf.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ONF_FORETS-PUBLIQUES" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ONF_FORETS-PUBLIQUES" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>FORETS PUBLIQUES ONF</Name>
           <Title>FORETS PUBLIQUES ONF</Title>
@@ -373,6 +389,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/valabre.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/VALABRE_CARROYAGE-DFCI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VALABRE_CARROYAGE-DFCI" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -410,6 +434,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORETS-ANCIENNES" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORETS-ANCIENNES" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Données brutes</Title>
@@ -450,6 +482,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MASQUE-FORET" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Données brutes</Title>
@@ -474,6 +514,14 @@
           <northBoundLatitude>51.099098620285751</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078974" miny="-2439614.7315545054" maxy="6638841.8770486657" />
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NATURE-EN-VILLE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_NATURE-EN-VILLE" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Données brutes</Title>
@@ -512,6 +560,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/inrae.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_GRAIN-BOCAGER" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INRAE_GRAIN-BOCAGER" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>grains_bocagers</Name>
           <Title>Grains bocagers</Title>
@@ -547,6 +603,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Légende générique</Title>
@@ -582,6 +646,14 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Données LANDCOVER.FORESTINVENTORY.V2</Title>
@@ -613,6 +685,14 @@
           <northBoundLatitude>51.099099310285609</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PNA-ZONES-A-PROSPECTER" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PNA-ZONES-A-PROSPECTER" xlink:type="simple" />
+        </MetadataURL>
         <Style>
           <Name>normal</Name>
           <Title>Données brutes</Title>

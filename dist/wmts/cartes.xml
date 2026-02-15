@@ -348,6 +348,8 @@
         <ows:UpperCorner>2.79738 49.5142</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-10K" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-10K" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -452,8 +454,9 @@
         <ows:UpperCorner>10.961 51.2745</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-40K" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-40K" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -793,6 +796,7 @@
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950</ows:Identifier>
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-50-HISTO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-50-HISTO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-50-HISTO" />
       <Style isDefault="true">
         <Title>SCAN 50 historique</Title>
         <Abstract>Légende des la couche SCAN 50 historique</Abstract>
@@ -921,6 +925,8 @@
         <ows:UpperCorner>179.9 85</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1317,7 +1323,7 @@
     </Layer>
     <Layer>
       <ows:Title>SCAN1000 France métropolitaine</ows:Title>
-      <ows:Abstract>Le produit SCAN 1000® version 2 est une collection d'images numériques en couleurs, obtenues par rastérisation des données vecteur de la carte nationale France (901) à l'échelle 1 :1,000,000ième. Le produit couvre l'ensemble du territoire français métropolitain et la Corse.  </ows:Abstract>
+      <ows:Abstract>Le produit SCAN 1000® version 2 est une collection d'images numériques en couleurs, obtenues par rastérisation des données vecteur de la carte nationale France (901) à l'échelle 1 :1,000,000ième. Le produit couvre l'ensemble du territoire français métropolitain et la Corse. </ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Cartes</ows:Keyword>
       </ows:Keywords>
@@ -1326,8 +1332,8 @@
         <ows:UpperCorner>13.55 51.444</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_CARTES_SCAN-1000</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-1000" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" />
       <Style isDefault="true">
         <Title>Légende du 1/1000000</Title>
         <Abstract>Légende associée au Scan1000</Abstract>
@@ -1433,6 +1439,8 @@
         <ows:UpperCorner>12.138 51.4441</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_CARTES_SCAN-REGIONAL</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-REGIONAL" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-REGIONAL" />
       <Style isDefault="true">
         <Title>Légende du 1/1000000</Title>
         <Abstract>Légende associée au SCANREGIONAL</Abstract>
@@ -4848,55 +4856,6 @@
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>262144</MatrixWidth>
-        <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>PM_14_18</ows:Identifier>
-      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>14</ows:Identifier>
         <ScaleDenominator>34123.6733415965385738</ScaleDenominator>

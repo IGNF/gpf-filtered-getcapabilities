@@ -432,30 +432,23 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Capacité d'acceuil pour le raccordement aux réseaux de transport et de distribution des installations de production d'électricité - S3RENR (MW)</ows:Title>
-      <ows:Abstract>Capacités d'acceuil en mégawatts disponibles pour le raccordement d'installations de production d'électricité aux réseaux de transport et de distribution en France métropolitaine (hors Corse) réservées au titre du S3RENR. Capacités restantes à affecter (capacités sans travaux et capacités disponibles sur le réseau public de transport).</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>electricite</ows:Keyword>
-      </ows:Keywords>
+      <ows:Title>Capacité d'accueil pour le raccordement aux réseaux de transport et de distribution des installations de production d'électricité - S3RENR (MW)</ows:Title>
+      <ows:Abstract>Capacité d'accueil en mégawatts disponibles pour le raccordement d'installations de production d'électricité aux réseaux de transport et de distribution en France métropolitaine (hors Corse) réservées au titre du S3RENR. Capacités restantes à affecter (capacités sans travaux et capacités disponibles sur le réseau public de transport).</ows:Abstract>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Identifier>
       <Style isDefault="true">
-        <Title>CAPACITE.ACCUEIL.ELECTRIQUE</Title>
-        <Abstract>Légende ENR des capacités d'acceuil électriques</Abstract>
+        <Title>Données brutes</Title>
+        <Abstract>Données brutes, sans modification de canal</Abstract>
         <ows:Keywords>
-          <ows:Keyword>ELECTRICITE</ows:Keyword>
+          <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
-        <ows:Identifier>CAPACITE.ACCUEIL.ELECTRIQUE</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/CAPACITE.ACCUEIL.ELECTRIQUE-legend.png" width="281" height="231" minScaleDenominator="2000" maxScaleDenominator="10000000" />
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="280" height="69" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
         <TileMatrixSet>PM_6_16</TileMatrixSet>
         <TileMatrixSetLimits>
@@ -2562,6 +2555,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.DISTRIBUTION</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>GAZ.RESEAU.DISTRIBUTION</Title>
         <Abstract>Légende ENR des réseaux de distribution de gaz</Abstract>
@@ -2671,6 +2666,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.TRANSPORT</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>GAZ.RESEAU.TRANSPORT</Title>
         <Abstract>Légende ENR des résseaux de transport de gaz</Abstract>
@@ -4032,8 +4029,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Title>
-      <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² (données déclaratives)</ows:Abstract>
+      <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² - multi-géométrie</ows:Title>
+      <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² - multi-géométrie</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>solaire</ows:Keyword>
       </ows:Keywords>
@@ -4057,8 +4054,22 @@
       <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSet>PM_4_16</TileMatrixSet>
         <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>8</MaxTileRow>
+            <MinTileCol>5</MinTileCol>
+            <MaxTileCol>10</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>17</MaxTileRow>
+            <MinTileCol>10</MinTileCol>
+            <MaxTileCol>20</MaxTileCol>
+          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>
@@ -4260,6 +4271,8 @@
         <ows:UpperCorner>55.6403 51.0571</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.SOL</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ENR_POTENTIEL-SOLAIRE-SOL" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-SOL" />
       <Style isDefault="true">
         <Title>POTENTIEL.SOLAIRE.SOL</Title>
         <Abstract>Légende ENR du potentiel solaire des sols</Abstract>
@@ -9612,55 +9625,6 @@
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>262144</MatrixWidth>
-        <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>PM_14_18</ows:Identifier>
-      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>14</ows:Identifier>
         <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
