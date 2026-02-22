@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="11075">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3338">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -393,8 +393,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:a_2_surface_administrative</Name>
@@ -523,8 +523,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:b_1_troncon_de_route</Name>
@@ -653,8 +653,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:b_2_troncon_de_voie_ferree</Name>
@@ -783,8 +783,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:b_3_troncon_de_cours_d_eau</Name>
@@ -913,8 +913,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:c_1_1_ocs_ancien</Name>
@@ -1043,8 +1043,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:c_1_2_ocs_ancien_sans_bati</Name>
@@ -1173,8 +1173,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:c_2_1_batiment</Name>
@@ -1303,8 +1303,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:c_2_2_batiment_hors_zone_urbaine</Name>
@@ -1433,8 +1433,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:c_3_zone_urbaine</Name>
@@ -1563,8 +1563,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU4:z_1_chantier</Name>
@@ -1693,8 +1693,8 @@
         <ows:LowerCorner>-5.5 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_1_limite_administrative</Name>
@@ -1823,8 +1823,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:a_2_surface_administrative</Name>
@@ -1953,8 +1953,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_1_troncon_de_route</Name>
@@ -2083,8 +2083,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_2_troncon_de_voie_ferree</Name>
@@ -2213,8 +2213,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:b_3_troncon_de_cours_d_eau</Name>
@@ -2343,8 +2343,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_1_ocs_ancien</Name>
@@ -2473,8 +2473,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_1_2_ocs_ancien_sans_bati</Name>
@@ -2603,8 +2603,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_1_batiment</Name>
@@ -2733,8 +2733,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_2_2_batiment_hors_zone_urbaine</Name>
@@ -2863,8 +2863,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:c_3_zone_urbaine</Name>
@@ -2993,8 +2993,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_ETAT-MAJOR.NIVEAU3:z_1_chantier</Name>
@@ -3123,8 +3123,8 @@
         <ows:LowerCorner>-5.74875 41.0</ows:LowerCorner>
         <ows:UpperCorner>10.0 52.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
     </FeatureType>
     <FeatureType>
       <Name>INRA.CARTE.SOLS:geoportail_vf</Name>
@@ -3253,8 +3253,8 @@
         <ows:LowerCorner>-5.52434099 41.32091623</ows:LowerCorner>
         <ows:UpperCorner>9.65579189 50.971321</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_CARTE-DES-SOLS" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INRAE_CARTE-DES-SOLS" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_CARTE-DES-SOLS" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

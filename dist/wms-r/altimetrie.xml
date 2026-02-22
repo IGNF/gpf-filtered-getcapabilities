@@ -303,13 +303,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COURBES-DE-NIVEAU" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COURBES-DE-NIVEAU" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COURBES-DE-NIVEAU" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -477,13 +477,13 @@
           <northBoundLatitude>51.220046619999998</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="IGNF:WGS84G" minx="-63.196777590000003" maxx="55.863926030000002" miny="-21.433778409999999" maxy="51.220046619999998" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-CORREL" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-CORREL" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-CORREL" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -652,13 +652,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>Graphe de source du RGE Alti</Name>
@@ -761,13 +761,13 @@
           <northBoundLatitude>80</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-20026376.393709917" maxx="20026376.393709917" miny="-15538711.09630922" maxy="15538711.09630922" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-LIDAR-HD" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-LIDAR-HD" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -902,13 +902,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1015,13 +1015,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1190,13 +1190,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>

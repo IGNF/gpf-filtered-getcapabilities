@@ -1526,8 +1526,8 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>

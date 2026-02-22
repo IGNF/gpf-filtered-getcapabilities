@@ -88,8 +88,8 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDCARTO_ETAT-MAJOR.NIVEAU3</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -428,8 +428,8 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_COSIA_2021-2023</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
