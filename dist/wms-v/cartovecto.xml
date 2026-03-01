@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="26693" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7466" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -286,13 +286,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDCARTO-BATI_WLD_WGS84G</Name>
@@ -318,13 +318,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDCARTO-HYDROGRAPHIE_WLD_WGS84G</Name>
@@ -382,13 +382,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDCARTO-OCCUPATION_DU_SOL_WLD_WGS84G</Name>
@@ -478,13 +478,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.77265625" maxx="55.8984375" maxy="51.9734375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.77265625" miny="-63.28125" maxx="51.9734375" maxy="55.8984375" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDCARTO-ZONES_REGLEMENTEES_WLD_WGS84G</Name>
@@ -520,13 +520,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/teragir.png" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=TERAGIR_CLEF-VERTE" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/TERAGIR_CLEF-VERTE" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=TERAGIR_CLEF-VERTE" />
         </MetadataURL>
         <Style>
           <Name>default-style-CLEFVERTE</Name>
@@ -604,13 +604,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/teragir.png" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=TERAGIR_PAVILLON-BLEU" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/TERAGIR_PAVILLON-BLEU" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=TERAGIR_PAVILLON-BLEU" />
         </MetadataURL>
         <Style>
           <Name>default-style-PAVILLONBLEU</Name>
@@ -772,13 +772,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CONTOURS-IRIS" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CONTOURS-IRIS" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CONTOURS-IRIS" />
         </MetadataURL>
         <Style>
           <Name>default-style-STATISTICALUNITS.IRIS.PE</Name>
@@ -846,13 +846,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="5.0" miny="44.0" maxx="7.5" maxy="47.0" />
         <BoundingBox CRS="EPSG:4326" minx="44.0" miny="5.0" maxx="47.0" maxy="7.5" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=PETZL_TRACES-RANDO-HIVERNALE" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/PETZL_TRACES-RANDO-HIVERNALE" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=PETZL_TRACES-RANDO-HIVERNALE" />
         </MetadataURL>
         <Style>
           <Name>default-style-TRACES.RANDO.HIVERNALE</Name>

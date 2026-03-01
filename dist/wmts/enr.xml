@@ -2555,8 +2555,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.DISTRIBUTION</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>GAZ.RESEAU.DISTRIBUTION</Title>
         <Abstract>Légende ENR des réseaux de distribution de gaz</Abstract>
@@ -2666,8 +2666,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GAZ.RESEAU.TRANSPORT</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>GAZ.RESEAU.TRANSPORT</Title>
         <Abstract>Légende ENR des résseaux de transport de gaz</Abstract>
@@ -4029,8 +4029,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² - multi-géométrie</ows:Title>
-      <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m² - multi-géométrie</ows:Abstract>
+      <ows:Title>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m²</ows:Title>
+      <ows:Abstract>Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500m²</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>solaire</ows:Keyword>
       </ows:Keywords>
@@ -4054,22 +4054,8 @@
       <InfoFormat>text/html</InfoFormat>
       <InfoFormat>application/json</InfoFormat>
       <TileMatrixSetLink>
-        <TileMatrixSet>PM_4_16</TileMatrixSet>
+        <TileMatrixSet>PM_6_18</TileMatrixSet>
         <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>4</TileMatrix>
-            <MinTileRow>5</MinTileRow>
-            <MaxTileRow>8</MaxTileRow>
-            <MinTileCol>5</MinTileCol>
-            <MaxTileCol>10</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>5</TileMatrix>
-            <MinTileRow>10</MinTileRow>
-            <MaxTileRow>17</MaxTileRow>
-            <MinTileCol>10</MinTileCol>
-            <MaxTileCol>20</MaxTileCol>
-          </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>
@@ -4146,6 +4132,20 @@
             <MaxTileRow>36772</MaxTileRow>
             <MinTileCol>21231</MinTileCol>
             <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43698</MinTileRow>
+            <MaxTileRow>73544</MaxTileRow>
+            <MinTileCol>42462</MinTileCol>
+            <MaxTileCol>85897</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87397</MinTileRow>
+            <MaxTileRow>147089</MaxTileRow>
+            <MinTileCol>84925</MinTileCol>
+            <MaxTileCol>171795</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
@@ -4271,8 +4271,8 @@
         <ows:UpperCorner>55.6403 51.0571</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>POTENTIEL.SOLAIRE.SOL</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ENR_POTENTIEL-SOLAIRE-SOL" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-SOL" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ENR_POTENTIEL-SOLAIRE-SOL" />
       <Style isDefault="true">
         <Title>POTENTIEL.SOLAIRE.SOL</Title>
         <Abstract>Légende ENR du potentiel solaire des sols</Abstract>

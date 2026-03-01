@@ -1174,8 +1174,8 @@
         <ows:LowerCorner>-2.111875 41.31265625</ows:LowerCorner>
         <ows:UpperCorner>9.589375 49.608125</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INAO_AOC-VITICOLES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:arrondissement</Name>

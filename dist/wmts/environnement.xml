@@ -88,9 +88,9 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DEBROUSSAILLEMENT</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_DEBROUSSAILLEMENT" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_DEBROUSSAILLEMENT" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_DEBROUSSAILLEMENT" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_DEBROUSSAILLEMENT" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_DEBROUSSAILLEMENT" />
       <Style isDefault="true">
         <Title>Données sans légende</Title>
         <Abstract>Sans aucun fichier de légende</Abstract>
@@ -213,8 +213,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>FORETS.PUBLIQUES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ONF_FORETS-PUBLIQUES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ONF_FORETS-PUBLIQUES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ONF_FORETS-PUBLIQUES" />
       <Style isDefault="true">
         <Title>FORETS PUBLIQUES ONF</Title>
         <Abstract>Légende des forêts publiques ONF</Abstract>
@@ -344,8 +344,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEM.DFCI</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VALABRE_CARROYAGE-DFCI" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/VALABRE_CARROYAGE-DFCI" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VALABRE_CARROYAGE-DFCI" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -456,8 +456,8 @@
         <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_FORETS-ANCIENNES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORETS-ANCIENNES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORETS-ANCIENNES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORETS-ANCIENNES" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
@@ -1672,8 +1672,8 @@
         <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ZONES-A-PROSPECTER-FORETS-SUBNATURELLES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PNA-ZONES-A-PROSPECTER" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PNA-ZONES-A-PROSPECTER" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PNA-ZONES-A-PROSPECTER" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>

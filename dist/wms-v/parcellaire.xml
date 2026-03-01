@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="26693" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7466" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -306,13 +306,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
         </MetadataURL>
         <Style>
           <Name>default-style-CADASTRALPARCELS.GRAPHE</Name>
@@ -348,13 +348,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
         </MetadataURL>
         <Style>
           <Name>default-style-CADASTRALPARCELS.PCI_VECTEUR</Name>
@@ -526,13 +526,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-63.28125" maxx="51.27109375" maxy="55.8984375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCELLAIRE-EXPRESS-PCI" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
         </MetadataURL>
         <Style>
           <Name>default-style-parcellaire_express_parcelle_noir</Name>
@@ -560,13 +560,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-63.28125" maxx="51.27109375" maxy="55.8984375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCELLAIRE-EXPRESS-PCI" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
         </MetadataURL>
         <Style>
           <Name>default-style-parcellaire_express_parcelle_orange</Name>
