@@ -281,6 +281,44 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
+        <Name>AN-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</Name>
+        <Title>Carte de Cassini – exemplaire du roi</Title>
+        <Abstract>Planches numérisées colorisées de la carte de Cassini détenue par la BNF</Abstract>
+        <KeywordList>
+          <Keyword>Cassini</Keyword>
+          <Keyword>carte</Keyword>
+          <Keyword>Archives nationales</Keyword>
+          <Keyword>roi</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-6.3948567602874711</westBoundLongitude>
+          <eastBoundLongitude>9.9628187102858199</eastBoundLongitude>
+          <southBoundLatitude>40.934301549712735</southBoundLatitude>
+          <northBoundLatitude>51.883872009996423</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-711872.19825112436" maxx="1109055.9056947161" miny="5002655.9817099189" maxy="6779155.1989127295" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ARCHIVES-NATIONALES_CASSINI-ROI" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ARCHIVES-NATIONALES_CASSINI-ROI" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données brutes</Title>
+          <Abstract>Données brutes, sans modification de canal</Abstract>
+          <LegendURL width="280" height="69">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>34123.673341596535</MinScaleDenominator>
+        <MaxScaleDenominator>559082264.02871788</MaxScaleDenominator>
+      </Layer>
+      <Layer>
         <Name>BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</Name>
         <Title>Carte de Cassini</Title>
         <Abstract>Planches numérisées colorisées de la carte de Cassini détenue par la BNF</Abstract>
@@ -437,13 +475,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-50-HISTO" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-50-HISTO" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-50-HISTO" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>SCAN50_1950</Name>
@@ -604,13 +642,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-1000" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>SCAN1000</Name>

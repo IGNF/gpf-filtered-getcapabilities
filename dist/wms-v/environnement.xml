@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7466" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7900" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -263,6 +263,45 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="45.013046875" miny="-13.00875" maxx="45.30796875" maxy="-12.632265625" />
         <BoundingBox CRS="EPSG:4326" minx="-13.00875" miny="45.013046875" maxx="-12.632265625" maxy="45.30796875" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CARTO-VEGETATION" />
+        </MetadataURL>
+        <Style>
+          <Name>default-style-IGNF_CARTO-FORMATIONS-VEGETALES_2016</Name>
+          <Title>IGNF_CARTO-FORMATIONS-VEGETALES_2016 style</Title>
+          <Abstract>Default style for IGNF_CARTO-FORMATIONS-VEGETALES_2016 layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_CARTO-FORMATIONS-VEGETALES_2016" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2022</Name>
+        <Title>Cartographie des formations végétales 2022 de la Martinique</Title>
+        <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.237792969</westBoundLongitude>
+          <eastBoundLongitude>-60.809326172</eastBoundLongitude>
+          <southBoundLatitude>14.387072754</southBoundLatitude>
+          <northBoundLatitude>14.880908203</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-61.237792969" miny="14.387072754" maxx="-60.809326172" maxy="14.880908203" />
+        <BoundingBox CRS="EPSG:4326" minx="14.387072754" miny="-61.237792969" maxx="14.880908203" maxy="-60.809326172" />
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CARTO-VEGETATION" />
@@ -272,12 +311,12 @@
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
         </MetadataURL>
         <Style>
-          <Name>default-style-IGNF_CARTO-FORMATIONS-VEGETALES_2016</Name>
-          <Title>IGNF_CARTO-FORMATIONS-VEGETALES_2016 style</Title>
-          <Abstract>Default style for IGNF_CARTO-FORMATIONS-VEGETALES_2016 layer</Abstract>
+          <Name>default-style-IGNF_CARTO-FORMATIONS-VEGETALES_2022</Name>
+          <Title>IGNF_CARTO-FORMATIONS-VEGETALES_2022 style</Title>
+          <Abstract>Default style for IGNF_CARTO-FORMATIONS-VEGETALES_2022 layer</Abstract>
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_CARTO-FORMATIONS-VEGETALES_2016" />
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=IGNF_CARTO-FORMATIONS-VEGETALES_2022" />
           </LegendURL>
         </Style>
       </Layer>
@@ -417,13 +456,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/cerema.png" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
         </MetadataURL>
         <Style>
           <Name>default-style-MESURES_COMPENSATOIRES</Name>
@@ -460,13 +499,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/fnedt.jpg" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PRSF" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
         </MetadataURL>
         <Style>
           <Name>default-style-PROTECTEDAREAS.PRSF</Name>

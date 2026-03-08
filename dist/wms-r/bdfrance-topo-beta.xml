@@ -317,11 +317,11 @@
         </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Données brutes</Title>
-          <Abstract>Données brutes, sans modification de canal</Abstract>
-          <LegendURL width="280" height="69">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          <Title>Données BD-FRANCE-TOPO-VEGETATION</Title>
+          <Abstract>Style et légende associés au flux BD-FRANCE-TOPO-VEGETATION</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BD-FRANCE-TOPO-VEGETATION-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>

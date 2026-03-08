@@ -78,6 +78,143 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
+      <ows:Title>Carte de Cassini – exemplaire du roi</ows:Title>
+      <ows:Abstract>Planches numérisées colorisées de la carte de Cassini détenue par la BNF</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Cassini</ows:Keyword>
+        <ows:Keyword>carte</ows:Keyword>
+        <ows:Keyword>Archives nationales</ows:Keyword>
+        <ows:Keyword>roi</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-6.39486 40.9343</ows:LowerCorner>
+        <ows:UpperCorner>9.96282 51.8839</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>AN-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ARCHIVES-NATIONALES_CASSINI-ROI" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ARCHIVES-NATIONALES_CASSINI-ROI" />
+      <Style isDefault="true">
+        <Title>Données brutes</Title>
+        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="280" height="69" minScaleDenominator="200" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/jpeg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_0_14</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>3</TileMatrix>
+            <MinTileRow>2</MinTileRow>
+            <MaxTileRow>3</MaxTileRow>
+            <MinTileCol>3</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>4</TileMatrix>
+            <MinTileRow>5</MinTileRow>
+            <MaxTileRow>6</MaxTileRow>
+            <MinTileCol>7</MinTileCol>
+            <MaxTileCol>8</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>5</TileMatrix>
+            <MinTileRow>10</MinTileRow>
+            <MaxTileRow>12</MaxTileRow>
+            <MinTileCol>15</MinTileCol>
+            <MaxTileCol>16</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>24</MaxTileRow>
+            <MinTileCol>30</MinTileCol>
+            <MaxTileCol>33</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>48</MaxTileRow>
+            <MinTileCol>61</MinTileCol>
+            <MaxTileCol>67</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>84</MinTileRow>
+            <MaxTileRow>96</MaxTileRow>
+            <MinTileCol>123</MinTileCol>
+            <MaxTileCol>135</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>169</MinTileRow>
+            <MaxTileRow>192</MaxTileRow>
+            <MinTileCol>246</MinTileCol>
+            <MaxTileCol>270</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>338</MinTileRow>
+            <MaxTileRow>384</MaxTileRow>
+            <MinTileCol>493</MinTileCol>
+            <MaxTileCol>540</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>677</MinTileRow>
+            <MaxTileRow>768</MaxTileRow>
+            <MinTileCol>987</MinTileCol>
+            <MaxTileCol>1080</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1355</MinTileRow>
+            <MaxTileRow>1536</MaxTileRow>
+            <MinTileCol>1975</MinTileCol>
+            <MaxTileCol>2161</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2710</MinTileRow>
+            <MaxTileRow>3073</MaxTileRow>
+            <MinTileCol>3950</MinTileCol>
+            <MaxTileCol>4322</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5420</MinTileRow>
+            <MaxTileRow>6146</MaxTileRow>
+            <MinTileCol>7900</MinTileCol>
+            <MaxTileCol>8645</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Carte de Cassini</ows:Title>
       <ows:Abstract>Planches numérisées colorisées de la carte de Cassini détenue par la BNF</ows:Abstract>
       <ows:WGS84BoundingBox>
@@ -454,9 +591,9 @@
         <ows:UpperCorner>10.961 51.2745</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-40K" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1332,8 +1469,8 @@
         <ows:UpperCorner>13.55 51.444</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_CARTES_SCAN-1000</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-1000" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" />
       <Style isDefault="true">
         <Title>Légende du 1/1000000</Title>
         <Abstract>Légende associée au Scan1000</Abstract>
@@ -1439,8 +1576,8 @@
         <ows:UpperCorner>12.138 51.4441</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_CARTES_SCAN-REGIONAL</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-REGIONAL" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-REGIONAL" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-REGIONAL" />
       <Style isDefault="true">
         <Title>Légende du 1/1000000</Title>
         <Abstract>Légende associée au SCANREGIONAL</Abstract>
@@ -4644,7 +4781,7 @@
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>
-      <ows:Identifier>PM_10_18</ows:Identifier>
+      <ows:Identifier>PM_10_16</ows:Identifier>
       <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>10</ows:Identifier>
@@ -4709,77 +4846,28 @@
         <MatrixWidth>65536</MatrixWidth>
         <MatrixHeight>65536</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>262144</MatrixWidth>
-        <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>
-      <ows:Identifier>PM_12_16</ows:Identifier>
+      <ows:Identifier>PM_10_18</ows:Identifier>
       <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
-        <ows:Identifier>12</ows:Identifier>
-        <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>545978.7734655464442426</ScaleDenominator>
         <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
-        <MatrixWidth>4096</MatrixWidth>
-        <MatrixHeight>4096</MatrixHeight>
+        <MatrixWidth>1024</MatrixWidth>
+        <MatrixHeight>1024</MatrixHeight>
       </TileMatrix>
       <TileMatrix>
-        <ows:Identifier>13</ows:Identifier>
-        <ScaleDenominator>68247.3466831932167125</ScaleDenominator>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>272989.3867327721563072</ScaleDenominator>
         <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
         <TileWidth>256</TileWidth>
         <TileHeight>256</TileHeight>
-        <MatrixWidth>8192</MatrixWidth>
-        <MatrixHeight>8192</MatrixHeight>
+        <MatrixWidth>2048</MatrixWidth>
+        <MatrixHeight>2048</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
-        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>PM_12_18</ows:Identifier>
-      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>12</ows:Identifier>
         <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
