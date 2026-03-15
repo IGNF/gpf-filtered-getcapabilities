@@ -97,16 +97,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMIN-EXPRESS-COG-CARTO-PE.LATEST</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -216,16 +216,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG-CARTO-PE.2025</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -326,16 +326,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG-CARTO.LATEST</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -436,8 +436,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2017</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -549,13 +549,13 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -659,13 +659,13 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -769,13 +769,13 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -876,16 +876,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2021</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -986,16 +986,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2022</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1099,13 +1099,13 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1206,16 +1206,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2024</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1316,16 +1316,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2025</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1426,16 +1426,16 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.LATEST</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1537,8 +1537,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST</ows:Identifier>
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_ADMIN-EXPRESS" />
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

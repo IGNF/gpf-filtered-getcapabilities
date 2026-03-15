@@ -90,16 +90,17 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>Aire-Parcellaire</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INAO_AOC-VITICOLES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Légende du 1/1000000</Title>
+        <Abstract>Légende associée a AOCViticole</Abstract>
         <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
+          <ows:Keyword>AOCViticole</ows:Keyword>
+          <ows:Keyword>1/1000000</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INAO-new-legend.png" width="300" height="140" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -256,8 +257,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.HEATMAP</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
       <Style isDefault="true">
         <Title>DECALAGE DE LA REPRESENTATION CADASTRALE</Title>
         <Abstract>Légende du décalage de la représentation cadastrale</Abstract>
@@ -380,9 +381,9 @@
         <ows:UpperCorner>55.8464 51.0945</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.HISTO.2008-2013.PARCELS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_BD-PARCELLAIRE" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_BD-PARCELLAIRE" />
       <Style isDefault="true">
         <Title>BD Parcellaire Noire et transparente</Title>
         <Abstract>tracé noir sur fond transparent</Abstract>
@@ -559,8 +560,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Identifier>
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCELLAIRE-EXPRESS-PCI" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

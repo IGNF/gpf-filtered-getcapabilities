@@ -312,9 +312,9 @@
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" xlink:type="simple" />
         </MetadataURL>
         <Style>
-          <Name>BDCARTO_ETAT-MAJOR3</Name>
-          <Title>Légende du 1/1000000</Title>
-          <Abstract>Légende associée a BDCARTO ETAT-MAJOR NIVEAU3</Abstract>
+          <Name>normal</Name>
+          <Title>Données BDCARTO_ETAT-MAJOR.NIVEAU3</Title>
+          <Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU3</Abstract>
           <LegendURL width="300" height="2200">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR-legend.png" xlink:type="simple" />
@@ -346,18 +346,18 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" xlink:type="simple" />
         </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" xlink:type="simple" />
+        </MetadataURL>
         <Style>
-          <Name>BDCARTO_ETAT-MAJOR4</Name>
-          <Title>Légende du 1/1000000</Title>
-          <Abstract>Légende associée a BDCARTO ETAT-MAJOR NIVEAU4</Abstract>
+          <Name>normal</Name>
+          <Title>Données BDCARTO_ETAT-MAJOR.NIVEAU4</Title>
+          <Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU4</Abstract>
           <LegendURL width="300" height="2200">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/BDCARTO_ETAT-MAJOR.NIVEAU4-legend.png" xlink:type="simple" />
@@ -389,13 +389,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -475,13 +475,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
