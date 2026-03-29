@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3613">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3875">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -12,6 +12,7 @@
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
     <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</ows:AccessConstraints>
+    <LayerLimit>2</LayerLimit>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>Géoplateforme par IGN</ows:ProviderName>
@@ -38,8 +39,8 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="AcceptVersions">
@@ -67,8 +68,8 @@
     <ows:Operation name="DescribeFeatureType">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="outputFormat">
@@ -80,8 +81,8 @@
     <ows:Operation name="GetFeature">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resultType">
@@ -127,8 +128,8 @@
     <ows:Operation name="GetPropertyValue">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resolve">
@@ -146,23 +147,23 @@
     <ows:Operation name="ListStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="DescribeStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="CreateStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="language">
@@ -174,8 +175,8 @@
     <ows:Operation name="DropStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
@@ -524,8 +525,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNH-LIDAR-HD" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNH-LIDAR-HD" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNH-LIDAR-HD" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_MNS-LIDAR-HD:dalle</Name>
@@ -786,8 +787,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNT-LIDAR-HD" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNT-LIDAR-HD" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNT-LIDAR-HD" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_NUAGES-DE-POINTS-LIDAR-HD:dalle</Name>
@@ -917,8 +918,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NUAGES-DE-POINTS-LIDAR-HD" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_NUAGES-DE-POINTS-LIDAR-HD" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NUAGES-DE-POINTS-LIDAR-HD" />
     </FeatureType>
     <FeatureType>
       <Name>ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra</Name>
@@ -1047,8 +1048,8 @@
         <ows:LowerCorner>-63.18904211 -21.42727734</ows:LowerCorner>
         <ows:UpperCorner>55.84453236 51.12965159</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RGE-ALTI" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RGE-ALTI" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

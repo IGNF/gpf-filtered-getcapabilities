@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="6333">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3875">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -12,6 +12,7 @@
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
     <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</ows:AccessConstraints>
+    <LayerLimit>2</LayerLimit>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>Géoplateforme par IGN</ows:ProviderName>
@@ -38,8 +39,8 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="AcceptVersions">
@@ -67,8 +68,8 @@
     <ows:Operation name="DescribeFeatureType">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="outputFormat">
@@ -80,8 +81,8 @@
     <ows:Operation name="GetFeature">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resultType">
@@ -127,8 +128,8 @@
     <ows:Operation name="GetPropertyValue">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resolve">
@@ -146,23 +147,23 @@
     <ows:Operation name="ListStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="DescribeStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="CreateStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="language">
@@ -174,8 +175,8 @@
     <ows:Operation name="DropStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
@@ -523,8 +524,8 @@
         <ows:LowerCorner>-5.52320944 41.32147402</ows:LowerCorner>
         <ows:UpperCorner>9.65507376 50.9718316</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2016:formations_vegetales_d976_2016</Name>
@@ -1057,8 +1058,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INPE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INPE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INPE" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_MASQUE-FORET.2021-2023:masque_foret</Name>
@@ -1322,8 +1323,8 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_lineaires</Name>
@@ -1452,8 +1453,8 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_polygones</Name>
@@ -1582,8 +1583,8 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_ponctuelles</Name>
@@ -1712,8 +1713,8 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>PRSF_BDD_GUF_2023:prs_guf</Name>

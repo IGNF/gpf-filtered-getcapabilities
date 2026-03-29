@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3315">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5504">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -12,6 +12,7 @@
     <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
     <ows:AccessConstraints>Conditions Générales d'Utilisation disponibles ici : https://cartes.gouv.fr/cgu</ows:AccessConstraints>
+    <LayerLimit>2</LayerLimit>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>Géoplateforme par IGN</ows:ProviderName>
@@ -38,8 +39,8 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="AcceptVersions">
@@ -67,8 +68,8 @@
     <ows:Operation name="DescribeFeatureType">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="outputFormat">
@@ -80,8 +81,8 @@
     <ows:Operation name="GetFeature">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resultType">
@@ -127,8 +128,8 @@
     <ows:Operation name="GetPropertyValue">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="resolve">
@@ -146,23 +147,23 @@
     <ows:Operation name="ListStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="DescribeStoredQueries">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
     <ows:Operation name="CreateStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
       <ows:Parameter name="language">
@@ -174,8 +175,8 @@
     <ows:Operation name="DropStoredQuery">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://data.geopf.fr/wfs/wfs" />
-          <ows:Post xlink:href="https://data.geopf.fr/wfs/wfs" />
+          <ows:Get xlink:href="https://data.geopf.fr/wfs" />
+          <ows:Post xlink:href="https://data.geopf.fr/wfs" />
         </ows:HTTP>
       </ows:DCP>
     </ows:Operation>
@@ -394,8 +395,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement_municipal</Name>
@@ -525,8 +526,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:canton</Name>
@@ -656,8 +657,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement</Name>
@@ -787,8 +788,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement_municipal</Name>
@@ -918,8 +919,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_commune_associee_ou_deleguee</Name>
@@ -1049,8 +1050,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_departement</Name>
@@ -1180,8 +1181,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_region</Name>
@@ -1311,8 +1312,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:collectivite_territoriale</Name>
@@ -1442,8 +1443,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:commune</Name>
@@ -1573,8 +1574,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:commune_associee_ou_deleguee</Name>
@@ -1704,8 +1705,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:departement</Name>
@@ -1835,8 +1836,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:epci</Name>
@@ -1966,8 +1967,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:region</Name>
@@ -2097,8 +2098,8 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:arrondissement_departemental</Name>
@@ -17047,8 +17048,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:arrondissement_municipal</Name>
@@ -17177,8 +17178,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:canton</Name>
@@ -17307,8 +17308,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:chef_lieu_d_arrondissement_municipal</Name>
@@ -17437,8 +17438,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:chef_lieu_de_region</Name>
@@ -17567,8 +17568,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:collectivite_territoriale</Name>
@@ -17697,8 +17698,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:commune</Name>
@@ -17827,8 +17828,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:commune_associee_ou_deleguee</Name>
@@ -17957,8 +17958,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:departement</Name>
@@ -18087,8 +18088,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:epci</Name>
@@ -18217,8 +18218,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.LATEST:region</Name>
@@ -18347,8 +18348,8 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>
