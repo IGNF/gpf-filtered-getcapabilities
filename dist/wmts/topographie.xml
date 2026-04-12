@@ -91,8 +91,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-BATI</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -207,8 +207,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-HYDROGRAPHIE</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -439,8 +439,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-ZONE_ACTIVITES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -671,8 +671,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>DGCL.2025 : Voirie communale retenue DGF</ows:Title>
-      <ows:Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR).</ows:Abstract>
+      <ows:Title>DGCL - DGF 2025 (DSR) : Longueur voirie communes</ows:Title>
+      <ows:Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR) - Edition 2025</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>DSR</ows:Keyword>
         <ows:Keyword>DGCL</ows:Keyword>
@@ -790,8 +790,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>DGCL.2025 : Voirie départementale retenue DGF</ows:Title>
-      <ows:Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF des départements.</ows:Abstract>
+      <ows:Title>DGCL - DGF 2025 (DFM) : Longueur voirie départements</ows:Title>
+      <ows:Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF (DFM) des départements - Edition 2025</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>DSR</ows:Keyword>
         <ows:Keyword>DGCL</ows:Keyword>
@@ -802,8 +802,8 @@
         <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DGCL.2025.voirie-departementale</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_VOIRIE-DGF" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -919,8 +919,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALNAMES.NAMES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1159,8 +1159,8 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_BD-HAIE-V1_2020</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1293,8 +1293,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1523,8 +1523,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.ROADS</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1855,8 +1855,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>hedge.hedge</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

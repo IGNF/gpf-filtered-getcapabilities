@@ -79,7 +79,7 @@
   <Contents>
     <Layer>
       <ows:Title>Ortho 20 cm</ows:Title>
-      <ows:Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets.</ows:Abstract>
+      <ows:Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>ortho</ows:Keyword>
       </ows:Keywords>
@@ -88,8 +88,8 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>HR.ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -219,8 +219,8 @@
         <ows:UpperCorner>168.298 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOS.RESTRICTEDAREAS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/SGDSN_ZICAD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=SGDSN_ZICAD" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/SGDSN_ZICAD" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -320,7 +320,7 @@
     </Layer>
     <Layer>
       <ows:Title>Photographies aériennes</ows:Title>
-      <ows:Abstract>Photographies aériennes</ows:Abstract>
+      <ows:Abstract>Photographies aériennes. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Photographies</ows:Keyword>
       </ows:Keywords>
@@ -331,8 +331,6 @@
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_BD-ORTHO" />
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -495,7 +493,7 @@
     </Layer>
     <Layer>
       <ows:Title>Ortho 50 cm</ows:Title>
-      <ows:Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert.</ows:Abstract>
+      <ows:Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>ortho</ows:Keyword>
       </ows:Keywords>
@@ -504,8 +502,8 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -904,7 +902,7 @@
     </Layer>
     <Layer>
       <ows:Title>BDORTHO en infrarouge fausses couleurs</ows:Title>
-      <ows:Abstract>BDORTHO en infrarouge fausses couleurs</ows:Abstract>
+      <ows:Abstract>BDORTHO en infrarouge fausses couleurs. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-IRC/geoportail_dates_des_prises_de_vues_aeriennes-IRC.pdf</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>IRC</ows:Keyword>
       </ows:Keywords>
@@ -1041,8 +1039,8 @@
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2024</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1211,8 +1209,8 @@
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.IRC-EXPRESS.2025</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1839,8 +1837,8 @@
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2025</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -2005,8 +2003,8 @@
         <ows:UpperCorner>179 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS2024</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -2133,9 +2131,9 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PCRS.LAMB93</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PCRS" />
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PCRS" />
       <ows:Metadata xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PCRS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PCRS" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
@@ -2286,8 +2284,8 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>THR.ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

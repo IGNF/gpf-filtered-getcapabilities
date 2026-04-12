@@ -284,7 +284,7 @@
       <Layer queryable="1">
         <Name>HR.ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Ortho 20 cm</Title>
-        <Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets. </Abstract>
+        <Abstract>Le produit BD ORTHO® V3 est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. La BD ORTHO® V3 se compose d'images numériques (sans habillage ni surcharge) et d'indications de géoréférencement. Le contenu informationnel permet localement une utilisation jusqu'au 1 :2,000ième pour mettre en valeur le territoire, enrichir la visualisation des données et des projets. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</Abstract>
         <KeywordList>
           <Keyword>Photographies</Keyword>
         </KeywordList>
@@ -370,7 +370,7 @@
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS</Name>
         <Title>Photographies aériennes</Title>
-        <Abstract>Photographies aériennes</Abstract>
+        <Abstract>Photographies aériennes. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</Abstract>
         <KeywordList>
           <Keyword>Photographies</Keyword>
         </KeywordList>
@@ -413,7 +413,7 @@
       <Layer queryable="1">
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO</Name>
         <Title>Ortho 50 cm</Title>
-        <Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert.</Abstract>
+        <Abstract>Le produit BD ORTHO® est une collection de mosaïques d'orthophotographies numériques en couleurs ou en Infra Rouge couleurs, rectifiées dans la projection adaptée au territoire couvert. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-RVB/geoportail_dates_des_prises_de_vues_aeriennes-RVB.pdf</Abstract>
         <KeywordList>
           <Keyword>bdortho</Keyword>
         </KeywordList>
@@ -448,7 +448,7 @@
       <Layer>
         <Name>ORTHOIMAGERY.ORTHOPHOTOS.IRC</Name>
         <Title>BDORTHO en infrarouge fausses couleurs</Title>
-        <Abstract>BDORTHO en infrarouge fausses couleurs </Abstract>
+        <Abstract>BDORTHO en infrarouge fausses couleurs. Date de prise de vue aérienne disponible via cet url: https://data.geopf.fr/annexes/ressources/fiches/photographies-aeriennes-IRC/geoportail_dates_des_prises_de_vues_aeriennes-IRC.pdf</Abstract>
         <KeywordList>
           <Keyword>IRC</Keyword>
         </KeywordList>
@@ -512,13 +512,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -556,13 +556,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -671,13 +671,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ORTHO-EXPRESS" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ORTHO-EXPRESS" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -820,7 +820,7 @@
         <BoundingBox CRS="EPSG:2154" minx="14409.692309675971" maxx="1300132.2440885678" miny="5877034.141047162" maxy="7239966.2496353863" />
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PCRS" xlink:type="simple" />
+          <OnlineResource xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" xlink:type="simple" />
         </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
@@ -828,7 +828,7 @@
         </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://geoservices.ign.fr/sites/default/files/2021-07/PCRS_1-0.xml" xlink:type="simple" />
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PCRS" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
