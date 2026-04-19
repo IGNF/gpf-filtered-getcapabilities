@@ -78,8 +78,8 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
-      <ows:Abstract>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Title>Bâtiments BDTopo Différentiel</ows:Title>
+      <ows:Abstract>Bâtiments différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>sémantique</ows:Keyword>
         <ows:Keyword>BD Topo</ows:Keyword>
@@ -194,8 +194,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
-      <ows:Abstract>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Title>Hydrographie BDTopo Différentiel</ows:Title>
+      <ows:Abstract>Hydrographie différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>sémantique</ows:Keyword>
         <ows:Keyword>BD Topo</ows:Keyword>
@@ -310,8 +310,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
-      <ows:Abstract>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Title>Réseau routier BDTopo Différentiel</ows:Title>
+      <ows:Abstract>Réseau routier différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>sémantique</ows:Keyword>
         <ows:Keyword>BD Topo</ows:Keyword>
@@ -323,8 +323,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-RESEAU_ROUTIER</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -426,8 +426,8 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</ows:Title>
-      <ows:Abstract>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</ows:Abstract>
+      <ows:Title>Zone d'activités BDTopo Différentiel</ows:Title>
+      <ows:Abstract>Zone d'activités BDTopo différentiel  entre les éditions 2025-12-15 et 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>sémantique</ows:Keyword>
         <ows:Keyword>BD Topo</ows:Keyword>
@@ -543,7 +543,7 @@
     </Layer>
     <Layer>
       <ows:Title>Bâtiments</ows:Title>
-      <ows:Abstract>Bâtiments ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Bâtiments ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Bâtiments</ows:Keyword>
       </ows:Keywords>
@@ -552,8 +552,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BUILDINGS.BUILDINGS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -683,8 +683,8 @@
         <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DGCL.2025.voirie-communale</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_VOIRIE-DGF" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -910,7 +910,7 @@
     </Layer>
     <Layer>
       <ows:Title>Noms</ows:Title>
-      <ows:Abstract>Noms ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Noms ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Divers</ows:Keyword>
       </ows:Keywords>
@@ -1030,7 +1030,7 @@
     </Layer>
     <Layer>
       <ows:Title>Hydrographie</ows:Title>
-      <ows:Abstract>Hydrographie ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Hydrographie ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Hydrographie</ows:Keyword>
       </ows:Keywords>
@@ -1039,8 +1039,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>HYDROGRAPHY.HYDROGRAPHY</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1159,8 +1159,8 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_BD-HAIE-V1_2020</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1284,7 +1284,7 @@
     </Layer>
     <Layer>
       <ows:Title>Points de repère routiers (PR)</ows:Title>
-      <ows:Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Echelles du 1/8.000.000 au 1/8.000; Edition : 2025-12-15</ows:Abstract>
+      <ows:Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Echelles du 1/8.000.000 au 1/8.000; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>PR</ows:Keyword>
       </ows:Keywords>
@@ -1293,8 +1293,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1394,7 +1394,7 @@
     </Layer>
     <Layer>
       <ows:Title>Voie ferrée</ows:Title>
-      <ows:Abstract>Voie ferrée ; Edition : 2025-12-15</ows:Abstract>
+      <ows:Abstract>Voie ferrée ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Voies ferrées</ows:Keyword>
       </ows:Keywords>
@@ -1403,8 +1403,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.RAILWAYS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1514,7 +1514,7 @@
     </Layer>
     <Layer>
       <ows:Title>Routes</ows:Title>
-      <ows:Abstract>Routes ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Routes ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Réseau routier</ows:Keyword>
       </ows:Keywords>
@@ -1523,8 +1523,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.ROADS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1634,7 +1634,7 @@
     </Layer>
     <Layer>
       <ows:Title>Aéroports</ows:Title>
-      <ows:Abstract>Aéroports ; Edition : 2025-12-15</ows:Abstract>
+      <ows:Abstract>Aéroports ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Réseaux de transports</ows:Keyword>
       </ows:Keywords>
@@ -1643,8 +1643,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.RUNWAYS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1754,7 +1754,7 @@
     </Layer>
     <Layer>
       <ows:Title>Réseau électrique</ows:Title>
-      <ows:Abstract>Réseau électrique ; Edition : 2025-09-15</ows:Abstract>
+      <ows:Abstract>Réseau électrique ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Energie</ows:Keyword>
       </ows:Keywords>
@@ -1846,7 +1846,7 @@
     </Layer>
     <Layer>
       <ows:Title>haies linéaires</ows:Title>
-      <ows:Abstract>Couche nationale de référence des haies linéaires en France métropolitaine ; Edition : 2025-12-15</ows:Abstract>
+      <ows:Abstract>Couche nationale de référence des haies linéaires en France métropolitaine ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>haie</ows:Keyword>
       </ows:Keywords>
@@ -1855,8 +1855,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>hedge.hedge</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-HAIE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-HAIE" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

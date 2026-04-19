@@ -283,8 +283,8 @@
       <BoundingBox CRS="CRS:84" minx="-180" maxx="180" miny="-90" maxy="90" />
       <Layer>
         <Name>BDTOPO-DIFF-BATI</Name>
-        <Title>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</Title>
-        <Abstract>Bâtiments BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <Title>Bâtiments BDTopo Différentiel</Title>
+        <Abstract>Bâtiments différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>sémantique</Keyword>
           <Keyword>BD Topo</Keyword>
@@ -329,8 +329,8 @@
       </Layer>
       <Layer>
         <Name>BDTOPO-DIFF-HYDROGRAPHIE</Name>
-        <Title>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</Title>
-        <Abstract>Hydrographie BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <Title>Hydrographie BDTopo Différentiel; Edition : 2026-03-15</Title>
+        <Abstract>Hydrographie BDTopo Différentiel; Edition : 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>sémantique</Keyword>
           <Keyword>BD Topo</Keyword>
@@ -375,8 +375,8 @@
       </Layer>
       <Layer>
         <Name>BDTOPO-DIFF-RESEAU_ROUTIER</Name>
-        <Title>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</Title>
-        <Abstract>Réseau routier BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <Title>Réseau routier BDTopo Différentiel</Title>
+        <Abstract>Réseau routier BDTopo différentiel entre les éditions 2025-12-15 et 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>sémantique</Keyword>
           <Keyword>BD Topo</Keyword>
@@ -421,8 +421,8 @@
       </Layer>
       <Layer>
         <Name>BDTOPO-DIFF-ZONE_ACTIVITES</Name>
-        <Title>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</Title>
-        <Abstract>Zone d'activités BDTopo Différentiel; Edition : 2025-12-15</Abstract>
+        <Title>Zone d'activités BDTopo Différentiel</Title>
+        <Abstract>Zone d'activités BDTopo différentiel entre les éditions 2025-12-15 et 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>sémantique</Keyword>
           <Keyword>BD Topo</Keyword>
@@ -488,13 +488,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -531,13 +531,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>

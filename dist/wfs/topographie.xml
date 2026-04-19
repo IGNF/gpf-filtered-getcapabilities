@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3464">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5647">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:arrondissement</Name>
       <Title>BDTOPO : Arrondissements</Title>
-      <Abstract>Arrondissements − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Arrondissements − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -401,7 +401,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:arrondissement_municipal</Name>
       <Title>BDTOPO : Arrondissements municipaux</Title>
-      <Abstract>Arrondissements municipaux − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Arrondissements municipaux − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement_municipal</ows:Keyword>
@@ -532,7 +532,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:itineraire_autre</Name>
       <Title>BDTOPO : Autres itinéraires</Title>
-      <Abstract>Autres itinéraires − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Autres itinéraires − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>itineraire_autre</ows:Keyword>
@@ -663,7 +663,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:aerodrome</Name>
       <Title>BDTOPO : Aérodromes</Title>
-      <Abstract>Aérodromes − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Aérodromes − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>aerodrome</ows:Keyword>
@@ -794,7 +794,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:bassin_versant_topographique</Name>
       <Title>BDTOPO : Bassins versants topographiques</Title>
-      <Abstract>Bassins versants topographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Bassins versants topographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>bassin_versant_topographique</ows:Keyword>
@@ -925,7 +925,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:batiment</Name>
       <Title>BDTOPO : Bâtiments</Title>
-      <Abstract>Bâtiments − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Bâtiments − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment</ows:Keyword>
@@ -1056,7 +1056,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:canalisation</Name>
       <Title>BDTOPO : Canalisations</Title>
-      <Abstract>Canalisations − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Canalisations − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canalisation</ows:Keyword>
@@ -1187,7 +1187,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:cimetiere</Name>
       <Title>BDTOPO : Cimetières</Title>
-      <Abstract>Cimetières − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Cimetières − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cimetiere</ows:Keyword>
@@ -1318,7 +1318,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:collectivite_territoriale</Name>
       <Title>BDTOPO : Collectivités territoriales</Title>
-      <Abstract>Collectivités territoriales − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Collectivités territoriales − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>collectivite_territoriale</ows:Keyword>
@@ -1449,7 +1449,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:commune</Name>
       <Title>BDTOPO : Communes</Title>
-      <Abstract>Communes − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Communes − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -1580,7 +1580,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:commune_associee_ou_deleguee</Name>
       <Title>BDTOPO : Communes associées ou déléguées</Title>
-      <Abstract>Communes associées ou déléguées − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Communes associées ou déléguées − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune_associee_ou_deleguee</ows:Keyword>
@@ -1711,7 +1711,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:condominium</Name>
       <Title>BDTOPO : Condominiums</Title>
-      <Abstract>Condominiums − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Condominiums − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>condominium</ows:Keyword>
@@ -1842,7 +1842,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:construction_lineaire</Name>
       <Title>BDTOPO : Constructions linéaires</Title>
-      <Abstract>Constructions linéaires − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Constructions linéaires − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_lineaire</ows:Keyword>
@@ -1973,7 +1973,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:construction_ponctuelle</Name>
       <Title>BDTOPO : Constructions ponctuelles</Title>
-      <Abstract>Constructions ponctuelles − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Constructions ponctuelles − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_ponctuelle</ows:Keyword>
@@ -2104,7 +2104,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:construction_surfacique</Name>
       <Title>BDTOPO : Constructions surfaciques</Title>
-      <Abstract>Constructions surfaciques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Constructions surfaciques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_surfacique</ows:Keyword>
@@ -2235,7 +2235,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:cours_d_eau</Name>
       <Title>BDTOPO : Cours d'eau</Title>
-      <Abstract>Cours d'eau − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Cours d'eau − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cours_d_eau</ows:Keyword>
@@ -2366,7 +2366,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:departement</Name>
       <Title>BDTOPO : Départements</Title>
-      <Abstract>Départements − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Départements − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>departement</ows:Keyword>
@@ -2497,7 +2497,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:detail_hydrographique</Name>
       <Title>BDTOPO : Détails hydrographiques</Title>
-      <Abstract>Détails hydrographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Détails hydrographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_hydrographique</ows:Keyword>
@@ -2628,7 +2628,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:detail_orographique</Name>
       <Title>BDTOPO : Détails orographiques</Title>
-      <Abstract>Détails orographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Détails orographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_orographique</ows:Keyword>
@@ -2759,7 +2759,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:epci</Name>
       <Title>BDTOPO : EPCI</Title>
-      <Abstract>EPCI − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>EPCI − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>epci</ows:Keyword>
@@ -2890,7 +2890,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:erp</Name>
       <Title>BDTOPO : ERP</Title>
-      <Abstract>ERP − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>ERP − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>erp</ows:Keyword>
@@ -3021,7 +3021,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:foret_publique</Name>
       <Title>BDTOPO : Forêts publiques</Title>
-      <Abstract>Forêts publiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Forêts publiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>foret_publique</ows:Keyword>
@@ -3152,7 +3152,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:haie</Name>
       <Title>BDTOPO : Haies</Title>
-      <Abstract>Haies − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Haies − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>haie</ows:Keyword>
@@ -3283,7 +3283,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:lieu_dit_non_habite</Name>
       <Title>BDTOPO : Lieux-dits non habités</Title>
-      <Abstract>Lieux-dits non habités − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Lieux-dits non habités − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lieu_dit_non_habite</ows:Keyword>
@@ -3414,7 +3414,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:ligne_orographique</Name>
       <Title>BDTOPO : Lignes orographiques</Title>
-      <Abstract>Lignes orographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Lignes orographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_orographique</ows:Keyword>
@@ -3545,7 +3545,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:ligne_electrique</Name>
       <Title>BDTOPO : Lignes électriques</Title>
-      <Abstract>Lignes électriques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Lignes électriques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_electrique</ows:Keyword>
@@ -3676,7 +3676,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:limite_terre_mer</Name>
       <Title>BDTOPO : Limites terre-mer</Title>
-      <Abstract>Limites terre-mer − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Limites terre-mer − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>limite_terre_mer</ows:Keyword>
@@ -3807,7 +3807,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:non_communication</Name>
       <Title>BDTOPO : Non-communications</Title>
-      <Abstract>Non-communications − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Non-communications − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>non_communication</ows:Keyword>
@@ -3938,7 +3938,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:noeud_hydrographique</Name>
       <Title>BDTOPO : Nœuds hydrographiques</Title>
-      <Abstract>Nœuds hydrographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Nœuds hydrographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>noeud_hydrographique</ows:Keyword>
@@ -4069,7 +4069,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:parc_ou_reserve</Name>
       <Title>BDTOPO : Parcs et réserves</Title>
-      <Abstract>Parcs et réserves − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Parcs et réserves − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>parc_ou_reserve</ows:Keyword>
@@ -4200,7 +4200,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:piste_d_aerodrome</Name>
       <Title>BDTOPO : Pistes d'aérodrome</Title>
-      <Abstract>Pistes d'aérodrome − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Pistes d'aérodrome − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>piste_d_aerodrome</ows:Keyword>
@@ -4331,7 +4331,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:plan_d_eau</Name>
       <Title>BDTOPO : Plans d'eau</Title>
-      <Abstract>Plans d'eau − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Plans d'eau − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>plan_d_eau</ows:Keyword>
@@ -4462,7 +4462,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:point_de_repere</Name>
       <Title>BDTOPO : Points de repère</Title>
-      <Abstract>Points de repère − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Points de repère − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_de_repere</ows:Keyword>
@@ -4593,7 +4593,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:point_du_reseau</Name>
       <Title>BDTOPO : Points de réseau</Title>
-      <Abstract>Points de réseau − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Points de réseau − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_du_reseau</ows:Keyword>
@@ -4724,7 +4724,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:poste_de_transformation</Name>
       <Title>BDTOPO : Postes de transformation</Title>
-      <Abstract>Postes de transformation − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Postes de transformation − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>poste_de_transformation</ows:Keyword>
@@ -4855,7 +4855,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:pylone</Name>
       <Title>BDTOPO : Pylônes</Title>
-      <Abstract>Pylônes − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Pylônes − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>pylone</ows:Keyword>
@@ -4986,7 +4986,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:route_numerotee_ou_nommee</Name>
       <Title>BDTOPO : Routes numérotées et routes nommées</Title>
-      <Abstract>Routes numérotées et routes nommées − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Routes numérotées et routes nommées − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>route_numerotee_ou_nommee</ows:Keyword>
@@ -5117,7 +5117,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:region</Name>
       <Title>BDTOPO : Régions</Title>
-      <Abstract>Régions − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Régions − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>region</ows:Keyword>
@@ -5248,7 +5248,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:reservoir</Name>
       <Title>BDTOPO : Réservoirs</Title>
-      <Abstract>Réservoirs − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Réservoirs − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>reservoir</ows:Keyword>
@@ -5379,7 +5379,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:section_de_points_de_repere</Name>
       <Title>BDTOPO : Sections de points de repère</Title>
-      <Abstract>Sections de points de repère − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Sections de points de repère − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>section_de_points_de_repere</ows:Keyword>
@@ -5510,7 +5510,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:surface_hydrographique</Name>
       <Title>BDTOPO : Surfaces hydrographiques</Title>
-      <Abstract>Surfaces hydrographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Surfaces hydrographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>surface_hydrographique</ows:Keyword>
@@ -5641,7 +5641,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:terrain_de_sport</Name>
       <Title>BDTOPO : Terrains de sport</Title>
-      <Abstract>Terrains de sport − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Terrains de sport − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>terrain_de_sport</ows:Keyword>
@@ -5772,7 +5772,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:toponymie</Name>
       <Title>BDTOPO : Toponymies</Title>
-      <Abstract>Toponymies − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Toponymies − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>toponymie</ows:Keyword>
@@ -5903,7 +5903,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:transport_par_cable</Name>
       <Title>BDTOPO : Transports par câble</Title>
-      <Abstract>Transports par câble − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Transports par câble − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>transport_par_cable</ows:Keyword>
@@ -6034,7 +6034,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_route</Name>
       <Title>BDTOPO : Tronçons de route</Title>
-      <Abstract>Tronçons de route − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Tronçons de route − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_route</ows:Keyword>
@@ -6165,7 +6165,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_voie_ferree</Name>
       <Title>BDTOPO : Tronçons de voie ferrée</Title>
-      <Abstract>Tronçons de voie ferrée − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Tronçons de voie ferrée − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_voie_ferree</ows:Keyword>
@@ -6296,7 +6296,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:troncon_hydrographique</Name>
       <Title>BDTOPO : Tronçons hydrographiques</Title>
-      <Abstract>Tronçons hydrographiques − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Tronçons hydrographiques − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_hydrographique</ows:Keyword>
@@ -6427,7 +6427,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:voie_ferree_nommee</Name>
       <Title>BDTOPO : Voies ferrées nommées</Title>
-      <Abstract>Voies ferrées nommées − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Voies ferrées nommées − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_ferree_nommee</ows:Keyword>
@@ -6558,7 +6558,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:voie_nommee</Name>
       <Title>BDTOPO : Voies nommées</Title>
-      <Abstract>Voies nommées − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Voies nommées − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_nommee</ows:Keyword>
@@ -6689,7 +6689,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_activite_ou_d_interet</Name>
       <Title>BDTOPO : Zones d'activité et zones d'intérêt</Title>
-      <Abstract>Zones d'activité et zones d'intérêt − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Zones d'activité et zones d'intérêt − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_activite_ou_d_interet</ows:Keyword>
@@ -6820,7 +6820,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_estran</Name>
       <Title>BDTOPO : Zones d'estran</Title>
-      <Abstract>Zones d'estran − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Zones d'estran − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_estran</ows:Keyword>
@@ -6951,7 +6951,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_habitation</Name>
       <Title>BDTOPO : Zones d'habitation</Title>
-      <Abstract>Zones d'habitation − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Zones d'habitation − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_habitation</ows:Keyword>
@@ -7082,7 +7082,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:zone_de_vegetation</Name>
       <Title>BDTOPO : Zones de végétation</Title>
-      <Abstract>Zones de végétation − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Zones de végétation − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_de_vegetation</ows:Keyword>
@@ -7213,7 +7213,7 @@
     <FeatureType>
       <Name>BDTOPO_V3:equipement_de_transport</Name>
       <Title>BDTOPO : Équipements de transport</Title>
-      <Abstract>Équipements de transport − BDTOPO® V3 2025-12-15</Abstract>
+      <Abstract>Équipements de transport − BDTOPO® V3 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>equipement_de_transport</ows:Keyword>
@@ -7608,7 +7608,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:adresse_ban</Name>
       <Title>Différentiel BDTOPO® : Adresses BAN</Title>
-      <Abstract>Adresses BAN − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Adresses BAN − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>adresse_ban</ows:Keyword>
@@ -7739,7 +7739,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:arrondissement</Name>
       <Title>Différentiel BDTOPO® : Arrondissements</Title>
-      <Abstract>Arrondissements − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Arrondissements − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -7870,7 +7870,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:itineraire_autre</Name>
       <Title>Différentiel BDTOPO® : Autres itinéraires</Title>
-      <Abstract>Autres itinéraires − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Autres itinéraires − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>itineraire_autre</ows:Keyword>
@@ -8001,7 +8001,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:aerodrome</Name>
       <Title>Différentiel BDTOPO® : Aérodromes</Title>
-      <Abstract>Aérodromes − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Aérodromes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>aerodrome</ows:Keyword>
@@ -8132,7 +8132,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment</Name>
       <Title>Différentiel BDTOPO® : Bâtiments</Title>
-      <Abstract>Bâtiments − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Bâtiments − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment</ows:Keyword>
@@ -8263,7 +8263,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment_rnb_lien_bdtopo</Name>
       <Title>Différentiel BDTOPO® : Bâtiments RNB lien BDTOPO</Title>
-      <Abstract>Bâtiments RNB lien BDTOPO − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Bâtiments RNB lien BDTOPO − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment_rnb_lien_bdtopo</ows:Keyword>
@@ -8394,7 +8394,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canalisation</Name>
       <Title>Différentiel BDTOPO® : Canalisations</Title>
-      <Abstract>Canalisations − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Canalisations − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canalisation</ows:Keyword>
@@ -8525,7 +8525,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canton</Name>
       <Title>Différentiel BDTOPO® : Cantons</Title>
-      <Abstract>Cantons − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Cantons − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canton</ows:Keyword>
@@ -8656,7 +8656,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cimetiere</Name>
       <Title>Différentiel BDTOPO® : Cimetières</Title>
-      <Abstract>Cimetières − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Cimetières − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cimetiere</ows:Keyword>
@@ -8787,7 +8787,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:collectivite_territoriale</Name>
       <Title>Différentiel BDTOPO® : Collectivités territoriales</Title>
-      <Abstract>Collectivités territoriales − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Collectivités territoriales − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>collectivite_territoriale</ows:Keyword>
@@ -8918,7 +8918,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune</Name>
       <Title>Différentiel BDTOPO® : Communes</Title>
-      <Abstract>Communes − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Communes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -9049,7 +9049,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune_associee_ou_deleguee</Name>
       <Title>Différentiel BDTOPO® : Communes associées ou déléguées</Title>
-      <Abstract>Communes associées ou déléguées − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Communes associées ou déléguées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune_associee_ou_deleguee</ows:Keyword>
@@ -9180,7 +9180,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_lineaire</Name>
       <Title>Différentiel BDTOPO® : Constructions linéaires</Title>
-      <Abstract>Constructions linéaires − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Constructions linéaires − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_lineaire</ows:Keyword>
@@ -9311,7 +9311,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_ponctuelle</Name>
       <Title>Différentiel BDTOPO® : Constructions ponctuelles</Title>
-      <Abstract>Constructions ponctuelles − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Constructions ponctuelles − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_ponctuelle</ows:Keyword>
@@ -9442,7 +9442,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_surfacique</Name>
       <Title>Différentiel BDTOPO® : Constructions surfaciques</Title>
-      <Abstract>Constructions surfaciques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Constructions surfaciques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_surfacique</ows:Keyword>
@@ -9573,7 +9573,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cours_d_eau</Name>
       <Title>Différentiel BDTOPO® : Cours d'eau</Title>
-      <Abstract>Cours d'eau − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Cours d'eau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cours_d_eau</ows:Keyword>
@@ -9704,7 +9704,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:departement</Name>
       <Title>Différentiel BDTOPO® : Départements</Title>
-      <Abstract>Départements − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Départements − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>departement</ows:Keyword>
@@ -9835,7 +9835,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Détails hydrographiques</Title>
-      <Abstract>Détails hydrographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Détails hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_hydrographique</ows:Keyword>
@@ -9966,7 +9966,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_orographique</Name>
       <Title>Différentiel BDTOPO® : Détails orographiques</Title>
-      <Abstract>Détails orographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Détails orographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_orographique</ows:Keyword>
@@ -10097,7 +10097,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:epci</Name>
       <Title>Différentiel BDTOPO® : EPCI</Title>
-      <Abstract>EPCI − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>EPCI − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>epci</ows:Keyword>
@@ -10228,7 +10228,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:erp</Name>
       <Title>Différentiel BDTOPO® : ERP</Title>
-      <Abstract>ERP − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>ERP − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>erp</ows:Keyword>
@@ -10359,7 +10359,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:lieu_dit_non_habite</Name>
       <Title>Différentiel BDTOPO® : Lieux-dits non habités</Title>
-      <Abstract>Lieux-dits non habités − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Lieux-dits non habités − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lieu_dit_non_habite</ows:Keyword>
@@ -10490,7 +10490,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_orographique</Name>
       <Title>Différentiel BDTOPO® : Lignes orographiques</Title>
-      <Abstract>Lignes orographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Lignes orographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_orographique</ows:Keyword>
@@ -10621,7 +10621,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_electrique</Name>
       <Title>Différentiel BDTOPO® : Lignes électriques</Title>
-      <Abstract>Lignes électriques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Lignes électriques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_electrique</ows:Keyword>
@@ -10752,7 +10752,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:limite_terre_mer</Name>
       <Title>Différentiel BDTOPO® : Limites terre-mer</Title>
-      <Abstract>Limites terre-mer − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Limites terre-mer − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>limite_terre_mer</ows:Keyword>
@@ -10883,7 +10883,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:non_communication</Name>
       <Title>Différentiel BDTOPO® : Non-communications</Title>
-      <Abstract>Non-communications − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Non-communications − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>non_communication</ows:Keyword>
@@ -11014,7 +11014,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:noeud_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Nœuds hydrographiques</Title>
-      <Abstract>Nœuds hydrographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Nœuds hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>noeud_hydrographique</ows:Keyword>
@@ -11145,7 +11145,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:piste_d_aerodrome</Name>
       <Title>Différentiel BDTOPO® : Pistes d'aérodrome</Title>
-      <Abstract>Pistes d'aérodrome − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Pistes d'aérodrome − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>piste_d_aerodrome</ows:Keyword>
@@ -11276,7 +11276,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:plan_d_eau</Name>
       <Title>Différentiel BDTOPO® : Plans d'eau</Title>
-      <Abstract>Plans d'eau − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Plans d'eau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>plan_d_eau</ows:Keyword>
@@ -11407,7 +11407,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_de_repere</Name>
       <Title>Différentiel BDTOPO® : Points de repère</Title>
-      <Abstract>Points de repère − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Points de repère − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_de_repere</ows:Keyword>
@@ -11538,7 +11538,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_du_reseau</Name>
       <Title>Différentiel BDTOPO® : Points de réseau</Title>
-      <Abstract>Points de réseau − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Points de réseau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_du_reseau</ows:Keyword>
@@ -11669,7 +11669,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:poste_de_transformation</Name>
       <Title>Différentiel BDTOPO® : Postes de transformation</Title>
-      <Abstract>Postes de transformation − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Postes de transformation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>poste_de_transformation</ows:Keyword>
@@ -11800,7 +11800,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:pylone</Name>
       <Title>Différentiel BDTOPO® : Pylônes</Title>
-      <Abstract>Pylônes − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Pylônes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>pylone</ows:Keyword>
@@ -11931,7 +11931,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:route_numerotee_ou_nommee</Name>
       <Title>Différentiel BDTOPO® : Routes numérotées et routes nommées</Title>
-      <Abstract>Routes numérotées et routes nommées − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Routes numérotées et routes nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>route_numerotee_ou_nommee</ows:Keyword>
@@ -12062,7 +12062,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:region</Name>
       <Title>Différentiel BDTOPO® : Régions</Title>
-      <Abstract>Régions − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Régions − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>region</ows:Keyword>
@@ -12193,7 +12193,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:reservoir</Name>
       <Title>Différentiel BDTOPO® : Réservoirs</Title>
-      <Abstract>Réservoirs − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Réservoirs − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>reservoir</ows:Keyword>
@@ -12324,7 +12324,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:section_de_points_de_repere</Name>
       <Title>Différentiel BDTOPO® : Sections de points de repère</Title>
-      <Abstract>Sections de points de repère − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Sections de points de repère − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>section_de_points_de_repere</ows:Keyword>
@@ -12455,7 +12455,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:surface_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Surfaces hydrographiques</Title>
-      <Abstract>Surfaces hydrographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Surfaces hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>surface_hydrographique</ows:Keyword>
@@ -12586,7 +12586,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:terrain_de_sport</Name>
       <Title>Différentiel BDTOPO® : Terrains de sport</Title>
-      <Abstract>Terrains de sport − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Terrains de sport − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>terrain_de_sport</ows:Keyword>
@@ -12717,7 +12717,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:transport_par_cable</Name>
       <Title>Différentiel BDTOPO® : Transports par câble</Title>
-      <Abstract>Transports par câble − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Transports par câble − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>transport_par_cable</ows:Keyword>
@@ -12848,7 +12848,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_route</Name>
       <Title>Différentiel BDTOPO® : Tronçons de route</Title>
-      <Abstract>Tronçons de route − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Tronçons de route − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_route</ows:Keyword>
@@ -12979,7 +12979,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_voie_ferree</Name>
       <Title>Différentiel BDTOPO® : Tronçons de voie ferrée</Title>
-      <Abstract>Tronçons de voie ferrée − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Tronçons de voie ferrée − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_voie_ferree</ows:Keyword>
@@ -13110,7 +13110,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Tronçons hydrographiques</Title>
-      <Abstract>Tronçons hydrographiques − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Tronçons hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_hydrographique</ows:Keyword>
@@ -13241,7 +13241,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_ferree_nommee</Name>
       <Title>Différentiel BDTOPO® : Voies ferrées nommées</Title>
-      <Abstract>Voies ferrées nommées − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Voies ferrées nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_ferree_nommee</ows:Keyword>
@@ -13372,7 +13372,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_nommee</Name>
       <Title>Différentiel BDTOPO® : Voies nommées</Title>
-      <Abstract>Voies nommées − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Voies nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_nommee</ows:Keyword>
@@ -13503,7 +13503,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_activite_ou_d_interet</Name>
       <Title>Différentiel BDTOPO® : Zones d'activité et zones d'intérêt</Title>
-      <Abstract>Zones d'activité et zones d'intérêt − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Zones d'activité et zones d'intérêt − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_activite_ou_d_interet</ows:Keyword>
@@ -13634,7 +13634,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_estran</Name>
       <Title>Différentiel BDTOPO® : Zones d'estran</Title>
-      <Abstract>Zones d'estran − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Zones d'estran − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_estran</ows:Keyword>
@@ -13765,7 +13765,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_habitation</Name>
       <Title>Différentiel BDTOPO® : Zones d'habitation</Title>
-      <Abstract>Zones d'habitation − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Zones d'habitation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_habitation</ows:Keyword>
@@ -13896,7 +13896,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_de_vegetation</Name>
       <Title>Différentiel BDTOPO® : Zones de végétation</Title>
-      <Abstract>Zones de végétation − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Zones de végétation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_de_vegetation</ows:Keyword>
@@ -14027,7 +14027,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:equipement_de_transport</Name>
       <Title>Différentiel BDTOPO® : Équipements de transport</Title>
-      <Abstract>Équipements de transport − Différentiel BDTOPO® 2025-12-15</Abstract>
+      <Abstract>Équipements de transport − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>equipement_de_transport</ows:Keyword>

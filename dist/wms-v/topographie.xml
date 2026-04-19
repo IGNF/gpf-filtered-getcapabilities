@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7593" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="11744" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -309,13 +309,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-DIFF-HYDROGRAPHIE</Name>
@@ -351,13 +351,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-DIFF-RESEAU_ROUTIER</Name>
@@ -413,8 +413,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-BATI_WLD_WGS84G</Name>
-        <Title>BDTopo Bâtiment édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Bâtiment édition 2025-12-15</Abstract>
+        <Title>BDTopo Bâtiment édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Bâtiment édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -455,8 +455,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Hydrographie édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Hydrographie édition 2025-12-15</Abstract>
+        <Title>BDTopo Hydrographie édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Hydrographie édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -477,13 +477,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-GEOPO-HYDROGRAPHIE_WLD_WGS84G</Name>
@@ -497,8 +497,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
-        <Title>BDTopo Orographie édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Orographie édition 2025-12-15</Abstract>
+        <Title>BDTopo Orographie édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Orographie édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -519,13 +519,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-GEOPO-OROGRAPHIE_WLD_WGS84G</Name>
@@ -539,8 +539,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau routier édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Réseau routier édition 2025-12-15</Abstract>
+        <Title>BDTopo Réseau routier édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Réseau routier édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -561,13 +561,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-GEOPO-RESEAU_ROUTIER_WLD_WGS84G</Name>
@@ -581,8 +581,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-TRANSPORT_ENERGIE_WLD_WGS84G</Name>
-        <Title>BDTopo Réseau de transport d'énergie édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2025-12-15</Abstract>
+        <Title>BDTopo Réseau de transport d'énergie édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Réseau de transport d'énergie édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -623,8 +623,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84G</Name>
-        <Title>BDTopo Voie ferrée édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Voie ferrée édition 2025-12-15</Abstract>
+        <Title>BDTopo Voie ferrée édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Voie ferrée édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -645,13 +645,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-GEOPO-TRANSPORT_VOIES_FERREES_WLD_WGS84G</Name>
@@ -665,8 +665,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-VEGETATION_WLD_WGS84G</Name>
-        <Title>BDTopo Végétation édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Végétation édition 2025-12-15</Abstract>
+        <Title>BDTopo Végétation édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Végétation édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -707,8 +707,8 @@
       </Layer>
       <Layer queryable="1">
         <Name>BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
-        <Title>BDTopo Zone d'activités édition 2025-12-15</Title>
-        <Abstract>BDTopo thème Zone d'activités édition 2025-12-15</Abstract>
+        <Title>BDTopo Zone d'activités édition 2026-03-15</Title>
+        <Abstract>BDTopo thème Zone d'activités édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>visu bdtopo</Keyword>
         </KeywordList>
@@ -729,13 +729,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G</Name>
@@ -761,13 +761,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-63.28125" miny="-21.421484375" maxx="55.8984375" maxy="51.27109375" />
         <BoundingBox CRS="EPSG:4326" minx="-21.421484375" miny="-63.28125" maxx="51.27109375" maxy="55.8984375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-Noms_routes</Name>
@@ -816,7 +816,7 @@
       <Layer queryable="1">
         <Name>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</Name>
         <Title>Points de repère routiers (PR)</Title>
-        <Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Edition 2025-12-15</Abstract>
+        <Abstract>Ensemble des points de repère situés sur les routes départementales, nationales ou infrastructures autoroutières concédées de France métropolitaine. Edition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>PR</Keyword>
           <Keyword>autoroutes</Keyword>
@@ -841,13 +841,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/insee.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</Name>
@@ -925,13 +925,13 @@
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
         </MetadataURL>
         <Style>
           <Name>default-style-UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE</Name>
@@ -946,7 +946,7 @@
       <Layer queryable="1">
         <Name>hedge.hedge</Name>
         <Title>haies lineaires</Title>
-        <Abstract>Couche nationale de référence des haies linéaires en France métropolitaine édition 2025-12-15</Abstract>
+        <Abstract>Couche nationale de référence des haies linéaires en France métropolitaine édition 2026-03-15</Abstract>
         <KeywordList>
           <Keyword>haie</Keyword>
         </KeywordList>
