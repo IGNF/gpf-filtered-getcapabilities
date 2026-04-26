@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4464">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3529">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>BDCARTO_V5:arrondissement</Name>
       <Title>BD CARTO® Arrondissements</Title>
-      <Abstract>Arrondissements - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Arrondissements - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -394,13 +394,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:arrondissement_municipal</Name>
       <Title>BD CARTO® Arrondissements municipaux</Title>
-      <Abstract>Arrondissements municipaux - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Arrondissements municipaux - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -524,13 +524,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:aerodrome</Name>
       <Title>BD CARTO® Aérodromes</Title>
-      <Abstract>Aérodromes - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Aérodromes - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -654,13 +654,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:bassin_versant_topographique</Name>
       <Title>BD CARTO® Bassins versants topographiques</Title>
-      <Abstract>Bassins versants topographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Bassins versants topographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -784,13 +784,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:cimetiere</Name>
       <Title>BD CARTO® Cimetières</Title>
-      <Abstract>Cimetières -BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Cimetières -BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -914,13 +914,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:collectivite_territoriale</Name>
       <Title>BD CARTO® Collectivités territoriales</Title>
-      <Abstract>Collectivités territoriales - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Collectivités territoriales - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1044,13 +1044,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:commune</Name>
       <Title>BD CARTO® Communes</Title>
-      <Abstract>Communes - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Communes - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1174,13 +1174,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:commune_associee_ou_deleguee</Name>
       <Title>BD CARTO® Communes associées ou déléguées</Title>
-      <Abstract>CCommunes associées ou déléguées - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>CCommunes associées ou déléguées - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1304,13 +1304,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:construction_lineaire</Name>
       <Title>BD CARTO® Constructions linéaires</Title>
-      <Abstract>Constructions linéaires - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Constructions linéaires - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1434,13 +1434,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:construction_ponctuelle</Name>
       <Title>BD CARTO® Constructions ponctuelles</Title>
-      <Abstract>Constructions ponctuelles - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Constructions ponctuelles - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1564,13 +1564,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:construction_surfacique</Name>
       <Title>BD CARTO® Constructions surfaciques</Title>
-      <Abstract>Constructions surfaciques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Constructions surfaciques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1694,13 +1694,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:cours_d_eau</Name>
       <Title>BD CARTO® Cours d'eau</Title>
-      <Abstract>Cours d'eau - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Cours d'eau - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1824,13 +1824,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:departement</Name>
       <Title>BD CARTO® Départements</Title>
-      <Abstract>Départements - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Départements - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -1954,13 +1954,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:detail_hydrographique</Name>
       <Title>BD CARTO® Détails hydrographiques</Title>
-      <Abstract>Détails hydrographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Détails hydrographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2084,13 +2084,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:detail_orographique</Name>
       <Title>BD CARTO® Détails orographiques</Title>
-      <Abstract>Détails orographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Détails orographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2214,13 +2214,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:epci</Name>
       <Title>BD CARTO® EPCI</Title>
-      <Abstract>EPCI - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>EPCI - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2344,13 +2344,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:lieu_dit_non_habite</Name>
       <Title>BD CARTO® Lieux-dits non habités</Title>
-      <Abstract>Lieux-dits non habités - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Lieux-dits non habités - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2474,13 +2474,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:ligne_electrique</Name>
       <Title>BD CARTO® Lignes électriques</Title>
-      <Abstract>Lignes électriques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Lignes électriques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2604,13 +2604,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:limite_terre_mer</Name>
       <Title>BD CARTO® Limites terre mer</Title>
-      <Abstract>Limites terre mer - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Limites terre mer - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2734,13 +2734,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:noeud_hydrographique</Name>
       <Title>BD CARTO® Nœuds hydrographiques</Title>
-      <Abstract>Nœuds hydrographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Nœuds hydrographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2864,13 +2864,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:occupation_du_sol</Name>
       <Title>BD CARTO® Occupation du sol</Title>
-      <Abstract>Occupation du sol - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Occupation du sol - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -2994,13 +2994,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:parc_ou_reserve</Name>
       <Title>BD CARTO® Parcs ou réserves</Title>
-      <Abstract>Parcs ou réserves - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Parcs ou réserves - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3124,13 +3124,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:piste_d_aerodrome</Name>
       <Title>BD CARTO® Pistes d'aérodrome</Title>
-      <Abstract>Pistes d'aérodrome - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Pistes d'aérodrome - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3254,13 +3254,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:plan_d_eau</Name>
       <Title>BD CARTO® Plans d'eau</Title>
-      <Abstract>Plans d'eau - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Plans d'eau - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3384,13 +3384,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:rond_point</Name>
       <Title>BD CARTO® Rond-points</Title>
-      <Abstract>Rond-points - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Rond-points - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3514,13 +3514,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:route_numerotee_ou_nommee</Name>
       <Title>BD CARTO® Routes numérotées ou nommées</Title>
-      <Abstract>Routes numérotées ou nommées - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Routes numérotées ou nommées - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3644,13 +3644,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:region</Name>
       <Title>BD CARTO® Régions</Title>
-      <Abstract>Régions - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Régions - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3774,13 +3774,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:reservoir</Name>
       <Title>BD CARTO® Réservoirs</Title>
-      <Abstract>Réservoirs - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Réservoirs - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -3904,13 +3904,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:surface_hydrographique</Name>
       <Title>BD CARTO® Surfaces hydrographiques</Title>
-      <Abstract>Surfaces hydrographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Surfaces hydrographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4034,13 +4034,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:transport_par_cable</Name>
       <Title>BD CARTO® Transport par câble</Title>
-      <Abstract>Transport par câble - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Transport par câble - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4164,13 +4164,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:troncon_hydrographique</Name>
       <Title>BD CARTO® Tronçons hydrographiques</Title>
-      <Abstract>Tronçons hydrographiques - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Tronçons hydrographiques - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4294,13 +4294,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:voie_ferree_nommee</Name>
       <Title>BD CARTO® Voies ferrées nommées</Title>
-      <Abstract>Voies ferrées nommées - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Voies ferrées nommées - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4424,13 +4424,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:zone_d_activite_ou_d_interet</Name>
       <Title>BD CARTO® Zones d'activité ou d'intérêt</Title>
-      <Abstract>Zones d'activité ou d'intérêt - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Zones d'activité ou d'intérêt - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4554,13 +4554,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:zone_d_habitation</Name>
       <Title>BD CARTO® Zones d'habitation</Title>
-      <Abstract>Zones d'habitation - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Zones d'habitation - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4684,13 +4684,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:troncon_de_route</Name>
       <Title>BD CARTO® troncon_de_route</Title>
-      <Abstract>Tronçons de route - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Tronçons de route - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4814,13 +4814,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>BDCARTO_V5:equipement_de_transport</Name>
       <Title>BD CARTO® Équipements de transport</Title>
-      <Abstract>Équipements de transport - BD CARTO® V5 2025-09-15</Abstract>
+      <Abstract>Équipements de transport - BD CARTO® V5 2025-09-15 ; Édition 2025-09-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDCARTO</ows:Keyword>
       </ows:Keywords>
@@ -4944,13 +4944,13 @@
         <ows:LowerCorner>-63.15371169 -21.38982666</ows:LowerCorner>
         <ows:UpperCorner>55.83677582 51.31504801</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO" />
     </FeatureType>
     <FeatureType>
       <Name>STATISTICALUNITS.IRIS:contours_iris</Name>
       <Title>CONTOURS IRIS</Title>
-      <Abstract>Contours géométriques des IRIS de l'INSEE</Abstract>
+      <Abstract>Contours géométriques des IRIS de l'INSEE ; Édition 2026-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Statistiques</ows:Keyword>
       </ows:Keywords>
@@ -5080,7 +5080,7 @@
     <FeatureType>
       <Name>STATISTICALUNITS.IRIS.PE:contours_iris_pe</Name>
       <Title>CONTOURS IRIS PE</Title>
-      <Abstract>Contours géométriques des IRIS de l'INSEE</Abstract>
+      <Abstract>Contours géométriques des IRIS de l'INSEE ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Statistiques</ows:Keyword>
       </ows:Keywords>
@@ -5210,7 +5210,7 @@
     <FeatureType>
       <Name>TERAGIR:clef_verte</Name>
       <Title>Clef verte</Title>
-      <Abstract>Clef verte</Abstract>
+      <Abstract>Clef verte ; Édition 2025-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>clef_verte</ows:Keyword>
@@ -5339,7 +5339,7 @@
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:communes_touristiques</Name>
       <Title>Communes touristiques</Title>
-      <Abstract>Communes touristiques</Abstract>
+      <Abstract>Communes touristiques ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>communes_touristiques</ows:Keyword>
@@ -5464,8 +5464,8 @@
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.640625 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
     </FeatureType>
     <FeatureType>
       <Name>STATISTICALUNITS.IRISGE:iris_ge</Name>
@@ -5600,7 +5600,7 @@
     <FeatureType>
       <Name>TERAGIR:pavillon_bleu</Name>
       <Title>Pavillon bleu</Title>
-      <Abstract>Pavillon bleu</Abstract>
+      <Abstract>Pavillon bleu ; Édition 2025-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>pavillon_bleu</ows:Keyword>
@@ -5729,7 +5729,7 @@
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:stations_classees</Name>
       <Title>Stations classées</Title>
-      <Abstract>Stations classées</Abstract>
+      <Abstract>Stations classées ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>stations_classees</ows:Keyword>
         <ows:Keyword>features</ows:Keyword>
@@ -5854,13 +5854,13 @@
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.640625 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
     </FeatureType>
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:stations_vertes</Name>
       <Title>Stations vertes</Title>
-      <Abstract>Stations vertes</Abstract>
+      <Abstract>Stations vertes ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>stations_vertes</ows:Keyword>
@@ -5985,13 +5985,13 @@
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.640625 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
     </FeatureType>
     <FeatureType>
       <Name>TRACES.RANDO.HIVERNALE:traces_rando_hivernale</Name>
       <Title>Trace de randonnée hivernale (à ski, à raquette)</Title>
-      <Abstract>Trace de randonnée hivernale (à ski, à raquette)</Abstract>
+      <Abstract>Trace de randonnée hivernale (à ski, à raquette) ; Édition 2025-12-10</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>traces_rando_hivernale</ows:Keyword>
@@ -6122,7 +6122,7 @@
     <FeatureType>
       <Name>LABELS.TOURISTIQUES:villages_etape</Name>
       <Title>Villages étape</Title>
-      <Abstract>Villages étape</Abstract>
+      <Abstract>Villages étape ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>villages_etape</ows:Keyword>
@@ -6247,8 +6247,8 @@
         <ows:LowerCorner>-151.875 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.640625 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ANETT_COMMUNE-TOURISTIQUE-ET-STATION-CLASSEE" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5647">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3529">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>BAN-PLUS:adresse</Name>
       <Title>BAN PLUS adresse</Title>
-      <Abstract>Base Nationale Adresse PLUS : adresse</Abstract>
+      <Abstract>Base Nationale Adresse PLUS : adresse ; Édition 2025-12-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -400,7 +400,7 @@
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_bati</Name>
       <Title>BAN PLUS lien adresse bâti</Title>
-      <Abstract>Base Nationale Adresse PLUS : lien adresse bâti</Abstract>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse bâti ; Édition 2025-12-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -530,7 +530,7 @@
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_parcelle</Name>
       <Title>BAN PLUS lien adresse parcelle</Title>
-      <Abstract>Base Nationale Adresse PLUS : lien adresse parcelle</Abstract>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse parcelle ; Édition 2025-12-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -660,7 +660,7 @@
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_support</Name>
       <Title>BAN PLUS lien adresse support</Title>
-      <Abstract>Base Nationale Adresse PLUS : lien adresse support</Abstract>
+      <Abstract>Base Nationale Adresse PLUS : lien adresse support ; Édition 2025-12-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -790,7 +790,7 @@
     <FeatureType>
       <Name>BAN-PLUS:lien_bati_parcelle</Name>
       <Title>BAN PLUS lien bâti parcelle</Title>
-      <Abstract>Base Nationale Adresse PLUS : lien bâti parcelle</Abstract>
+      <Abstract>Base Nationale Adresse PLUS : lien bâti parcelle ; Édition 2025-12-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>BAN PLUS</ows:Keyword>
       </ows:Keywords>
@@ -920,7 +920,7 @@
     <FeatureType>
       <Name>BAN.DATA.GOUV:ban</Name>
       <Title>Données Base Adresse Nationale</Title>
-      <Abstract>Données Base Adresse Nationale de 2026/02/16</Abstract>
+      <Abstract>Données Base Adresse Nationale de 2026/02/16 ; Édition 2026-04-20</Abstract>
       <ows:Keywords>
         <ows:Keyword>adresse</ows:Keyword>
       </ows:Keywords>
@@ -1044,8 +1044,8 @@
         <ows:LowerCorner>-149.765625 -22.475</ows:LowerCorner>
         <ows:UpperCorner>166.9921875 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

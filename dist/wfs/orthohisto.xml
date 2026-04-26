@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3663">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3762">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.1950-1965.GRAPHE-MOSAIQUAGE:graphe</Name>
       <Title>Graphe de mosaiquage de la couche photographies aériennes historiques 1950-1965</Title>
-      <Abstract>Graphe de mosaiquage de la couche photographies aériennes historiques 1950-1965.</Abstract>
+      <Abstract>Graphe de mosaiquage de la couche photographies aériennes historiques 1950-1965 ; Édition 1965-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>BDORTHOHISTORIQUE</ows:Keyword>
       </ows:Keywords>
@@ -400,7 +400,7 @@
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2000-2005:graphe_bdortho</Name>
       <Title>Graphe de mosaïquage BDORTHO 2000-2005</Title>
-      <Abstract>Graphe de mosaïquage BDORTHO 2000-2005</Abstract>
+      <Abstract>Graphe de mosaïquage BDORTHO 2000-2005 ; Édition 2005-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -524,13 +524,13 @@
         <ows:LowerCorner>-66.15805146 -21.39139475</ows:LowerCorner>
         <ows:UpperCorner>55.85384065 51.10341491</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
     </FeatureType>
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2006-2010:graphe_bdortho</Name>
       <Title>Graphe de mosaïquage BDORTHO 2006-2010 </Title>
-      <Abstract>graphe bdortho millesimees</Abstract>
+      <Abstract>graphe bdortho millesimees ; Édition 2010-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -660,7 +660,7 @@
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2011-2015:graphe_bdortho</Name>
       <Title>Graphe de mosaïquage BDORTHO 2011-2015</Title>
-      <Abstract>Graphe de mosaïquage BDORTHO 2011-2015</Abstract>
+      <Abstract>Graphe de mosaïquage BDORTHO 2011-2015 ; Édition 2015-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -790,7 +790,7 @@
     <FeatureType>
       <Name>ORTHOIMAGERY.ORTHOPHOTOS.GRAPHE.2016-2020:graphe_bdortho</Name>
       <Title>Graphe de mosaïquage BDORTHO 2016-2020</Title>
-      <Abstract>Graphe de mosaïquage BDORTHO 2016-2020</Abstract>
+      <Abstract>Graphe de mosaïquage BDORTHO 2016-2020 ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Graphe</ows:Keyword>
       </ows:Keywords>
@@ -914,8 +914,8 @@
         <ows:LowerCorner>-63.17011235 -21.3999015</ows:LowerCorner>
         <ows:UpperCorner>55.8442806 51.11183578</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

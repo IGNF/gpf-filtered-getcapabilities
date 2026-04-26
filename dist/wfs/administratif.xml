@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5605">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="7961">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - arrondissement</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - arrondissement</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - arrondissement ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -395,13 +395,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement_municipal</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - arrondissement municipal</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - arrondissement municipal</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - arrondissement municipal ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement_municipal</ows:Keyword>
@@ -526,13 +526,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:canton</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - canton</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - canton</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - canton ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canton</ows:Keyword>
@@ -657,13 +657,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>chef_lieu_d_arrondissement</ows:Keyword>
         <ows:Keyword>features</ows:Keyword>
@@ -788,13 +788,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement_municipal</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement municipal</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement municipal</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu d'arrondissement municipal ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>chef_lieu_d_arrondissement_municipal</ows:Keyword>
@@ -919,13 +919,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_commune_associee_ou_deleguee</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - chef lieu de commune associée ou déléguée</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de commune associée ou déléguée</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de commune associée ou déléguée ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>chef_lieu_de_commune_associee_ou_deleguee</ows:Keyword>
@@ -1050,13 +1050,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_departement</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - chef lieu de département</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de département</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de département ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>chef_lieu_de_departement</ows:Keyword>
@@ -1181,13 +1181,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_region</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - chef lieu de région</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de région</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - chef lieu de région ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>chef_lieu_de_region</ows:Keyword>
@@ -1312,13 +1312,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:collectivite_territoriale</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - collectivité territoriale</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - collectivité territoriale</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - collectivité territoriale ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>collectivite_territoriale</ows:Keyword>
@@ -1443,13 +1443,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:commune</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - commune</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - commune</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - commune ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -1574,13 +1574,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:commune_associee_ou_deleguee</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - commune associée ou déléguée</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - commune associée ou déléguée</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - commune associée ou déléguée ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune_associee_ou_deleguee</ows:Keyword>
@@ -1705,13 +1705,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:departement</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - département</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - département</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - département ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>departement</ows:Keyword>
@@ -1836,13 +1836,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:epci</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - epci</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - epci</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - epci ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>epci</ows:Keyword>
@@ -1967,13 +1967,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:region</Name>
       <Title>ADMIN EXPRESS mises a jour en continu - région</Title>
-      <Abstract>ADMIN EXPRESS mises a jour en continu - région</Abstract>
+      <Abstract>ADMIN EXPRESS mises a jour en continu - région ; Édition 2026-03-24</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>region</ows:Keyword>
@@ -2098,13 +2098,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:arrondissement_departemental</Name>
       <Title>ADMINEXPRESS COG 2017 Arrondissement départemental</Title>
-      <Abstract>ADMINEXPRESS COG 2017 Arrondissement départemental</Abstract>
+      <Abstract>ADMINEXPRESS COG 2017 Arrondissement départemental ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2228,13 +2228,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:chef_lieu</Name>
       <Title>ADMINEXPRESS COG 2017 Chef-lieu</Title>
-      <Abstract>ADMINEXPRESS COG 2017 Chef-lieu</Abstract>
+      <Abstract>ADMINEXPRESS COG 2017 Chef-lieu ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2358,13 +2358,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:commune</Name>
       <Title>ADMINEXPRESS COG 2017 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2017 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2017 Commune ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2488,13 +2488,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:departement</Name>
       <Title>ADMINEXPRESS COG 2017 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2017 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2017 Département ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2618,13 +2618,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2017:region</Name>
       <Title>ADMINEXPRESS COG 2017 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2017 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2017 Région ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2748,13 +2748,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:arrondissement_departemental</Name>
       <Title>ADMINEXPRESS COG 2018 Arrondissement départemental</Title>
-      <Abstract>ADMINEXPRESS COG 2018 Arrondissement départemental</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 Arrondissement départemental ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -2878,13 +2878,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:chef_lieu</Name>
       <Title>ADMINEXPRESS COG 2018 Chef-lieu</Title>
-      <Abstract>ADMINEXPRESS COG 2018 Chef-lieu</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 Chef-lieu ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3008,13 +3008,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:commune</Name>
       <Title>ADMINEXPRESS COG 2018 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2018 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 Commune ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3138,13 +3138,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:departement</Name>
       <Title>ADMINEXPRESS COG 2018 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2018 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 Département ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3268,13 +3268,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:epci</Name>
       <Title>ADMINEXPRESS COG 2018 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2018 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 EPCI ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3398,13 +3398,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2018:region</Name>
       <Title>ADMINEXPRESS COG 2018 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2018 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2018 Région ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3528,13 +3528,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:arrondissement_departemental</Name>
       <Title>ADMINEXPRESS COG 2019 Arrondissement départemental</Title>
-      <Abstract>ADMINEXPRESS COG 2019 Arrondissement départemental</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 Arrondissement départemental ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3658,13 +3658,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:chef_lieu</Name>
       <Title>ADMINEXPRESS COG 2019 Chef-lieu</Title>
-      <Abstract>ADMINEXPRESS COG 2019 Chef-lieu</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 Chef-lieu ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3788,13 +3788,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:commune</Name>
       <Title>ADMINEXPRESS COG 2019 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2019 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 Commune ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -3918,13 +3918,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:departement</Name>
       <Title>ADMINEXPRESS COG 2019 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2019 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 Département ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4048,13 +4048,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:epci</Name>
       <Title>ADMINEXPRESS COG 2019 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2019 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 EPCI ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4178,13 +4178,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2019:region</Name>
       <Title>ADMINEXPRESS COG 2019 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2019 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2019 Région ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4308,13 +4308,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:arrondissement_departemental</Name>
       <Title>ADMINEXPRESS COG 2020 Arrondissement départemental</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Arrondissement départemental</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Arrondissement départemental ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4444,7 +4444,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2020 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Arrondissement municipal ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4574,7 +4574,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:canton</Name>
       <Title>ADMINEXPRESS COG 2020 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Canton ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4704,7 +4704,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:chef_lieu</Name>
       <Title>ADMINEXPRESS COG 2020 Chef-lieu</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Chef-lieu</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Chef-lieu ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4834,7 +4834,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:commune</Name>
       <Title>ADMINEXPRESS COG 2020 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Commune ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -4964,7 +4964,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:departement</Name>
       <Title>ADMINEXPRESS COG 2020 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Département ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5094,7 +5094,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:epci</Name>
       <Title>ADMINEXPRESS COG 2020 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2020 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 EPCI ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5224,7 +5224,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2020:region</Name>
       <Title>ADMINEXPRESS COG 2020 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2020 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2020 Région ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5354,7 +5354,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:arrondissement</Name>
       <Title>ADMINEXPRESS COG 2021 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Arrondissement ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5478,13 +5478,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2021 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Arrondissement municipal ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5608,13 +5608,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:canton</Name>
       <Title>ADMINEXPRESS COG 2021 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Canton ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5738,13 +5738,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG 2021 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Collectivité territoriale ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5868,13 +5868,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:commune</Name>
       <Title>ADMINEXPRESS COG 2021 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Commune ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -5998,13 +5998,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG 2021 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Commune associée ou déléguée ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6128,13 +6128,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:departement</Name>
       <Title>ADMINEXPRESS COG 2021 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Département ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6258,13 +6258,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:epci</Name>
       <Title>ADMINEXPRESS COG 2021 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2021 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 EPCI ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6388,13 +6388,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2021:region</Name>
       <Title>ADMINEXPRESS COG 2021 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2021 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2021 Région ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6518,13 +6518,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:arrondissement</Name>
       <Title>ADMINEXPRESS COG 2022 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Arrondissement ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6648,13 +6648,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2022 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Arrondissement municipal ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6778,13 +6778,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:canton</Name>
       <Title>ADMINEXPRESS COG 2022 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Canton ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -6908,13 +6908,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG 2022 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Collectivité territoriale ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7038,13 +7038,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:commune</Name>
       <Title>ADMINEXPRESS COG 2022 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Commune ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7168,13 +7168,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG 2022 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Commune associée ou déléguée ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7298,13 +7298,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:departement</Name>
       <Title>ADMINEXPRESS COG 2022 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Département ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7428,13 +7428,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:epci</Name>
       <Title>ADMINEXPRESS COG 2022 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2022 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 EPCI ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7558,13 +7558,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2022:region</Name>
       <Title>ADMINEXPRESS COG 2022 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2022 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2022 Région ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7688,13 +7688,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:arrondissement</Name>
       <Title>ADMINEXPRESS COG 2023 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Arrondissement ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7818,13 +7818,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2023 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Arrondissement municipal ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -7948,13 +7948,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:canton</Name>
       <Title>ADMINEXPRESS COG 2023 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Canton ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8078,13 +8078,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG 2023 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Collectivité territoriale ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8208,13 +8208,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:commune</Name>
       <Title>ADMINEXPRESS COG 2023 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Commune ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8338,13 +8338,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG 2023 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Commune associée ou déléguée ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8468,13 +8468,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:departement</Name>
       <Title>ADMINEXPRESS COG 2023 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Département ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8598,13 +8598,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:epci</Name>
       <Title>ADMINEXPRESS COG 2023 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2023 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 EPCI ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8728,13 +8728,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2023:region</Name>
       <Title>ADMINEXPRESS COG 2023 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2023 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2023 Région ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8858,13 +8858,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:arrondissement</Name>
       <Title>ADMINEXPRESS COG 2024 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Arrondissement ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -8988,13 +8988,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2024 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Arrondissement municipal ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9118,13 +9118,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:canton</Name>
       <Title>ADMINEXPRESS COG 2024 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Canton ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9248,13 +9248,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG 2024 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Collectivité territoriale ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9378,13 +9378,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:commune</Name>
       <Title>ADMINEXPRESS COG 2024 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Commune ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9508,13 +9508,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG 2024 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Commune associée ou déléguée ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9638,13 +9638,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:departement</Name>
       <Title>ADMINEXPRESS COG 2024 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Département ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9768,13 +9768,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:epci</Name>
       <Title>ADMINEXPRESS COG 2024 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2024 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 EPCI ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -9898,13 +9898,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2024:region</Name>
       <Title>ADMINEXPRESS COG 2024 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2024 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2024 Région ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10028,13 +10028,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:arrondissement</Name>
       <Title>ADMINEXPRESS COG 2025 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Arrondissement ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10158,13 +10158,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2025 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Arrondissement municipal ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10288,13 +10288,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:canton</Name>
       <Title>ADMINEXPRESS COG 2025 Canton</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Canton ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10418,13 +10418,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:chef_lieu_d_arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG 2025 Chef-lieu d'Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Chef-lieu d'Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Chef-lieu d'Arrondissement municipal ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10548,13 +10548,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:chef_lieu_de_region</Name>
       <Title>ADMINEXPRESS COG 2025 Chef-lieu de Région</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Chef-lieu de Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Chef-lieu de Région ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10678,13 +10678,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG 2025 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Collectivité territoriale ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10808,13 +10808,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:commune</Name>
       <Title>ADMINEXPRESS COG 2025 Commune</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Commune ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -10938,13 +10938,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG 2025 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Commune associée ou déléguée ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11068,13 +11068,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:departement</Name>
       <Title>ADMINEXPRESS COG 2025 Département</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Département ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11198,13 +11198,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:epci</Name>
       <Title>ADMINEXPRESS COG 2025 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG 2025 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 EPCI ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11328,13 +11328,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG.2025:region</Name>
       <Title>ADMINEXPRESS COG 2025 Région</Title>
-      <Abstract>ADMINEXPRESS COG 2025 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG 2025 Région ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11458,13 +11458,13 @@
         <ows:LowerCorner>-63.0847418 -21.38963076</ows:LowerCorner>
         <ows:UpperCorner>55.83665387 51.08898944</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:arrondissement</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Arrondissement ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11594,7 +11594,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Arrondissement municipal ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11724,7 +11724,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:canton</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Canton</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Canton</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Canton ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11854,7 +11854,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -11984,7 +11984,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement_municipal</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement municipal</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement municipal</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu d'Arrondissement municipal ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12114,7 +12114,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Commune associée ou déléguée ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12244,7 +12244,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_departement</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Département</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Département</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Département ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12374,7 +12374,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_region</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Région</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Région</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Chef-lieu de Région ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12504,7 +12504,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:collectivite_territoriale</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Collectivité territoriale</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Collectivité territoriale</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Collectivité territoriale ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12634,7 +12634,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:commune</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Commune</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Commune</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Commune ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12764,7 +12764,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:commune_associee_ou_deleguee</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Commune associée ou déléguée</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Commune associée ou déléguée</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Commune associée ou déléguée ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -12894,7 +12894,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:departement</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Département</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Département</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Département ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -13024,7 +13024,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:epci</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 EPCI</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 EPCI</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 EPCI ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -13154,7 +13154,7 @@
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.2025:region</Name>
       <Title>ADMINEXPRESS COG CARTO PE 2025 Région</Title>
-      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Région</Abstract>
+      <Abstract>ADMINEXPRESS COG CARTO PE 2025 Région ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Unités administratives</ows:Keyword>
       </ows:Keywords>
@@ -13408,8 +13408,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:arrondissement_municipal</Name>
@@ -13538,8 +13538,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:canton</Name>
@@ -13668,8 +13668,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement</Name>
@@ -13798,8 +13798,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement_municipal</Name>
@@ -13928,8 +13928,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_commune_associee_ou_deleguee</Name>
@@ -14058,8 +14058,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_departement</Name>
@@ -14188,8 +14188,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_region</Name>
@@ -14318,8 +14318,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:collectivite_territoriale</Name>
@@ -14448,8 +14448,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:commune</Name>
@@ -14578,8 +14578,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:commune_associee_ou_deleguee</Name>
@@ -14708,8 +14708,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:departement</Name>
@@ -14838,8 +14838,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:epci</Name>
@@ -14968,8 +14968,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO-PE.LATEST:region</Name>
@@ -15098,8 +15098,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
     </FeatureType>
     <FeatureType>
       <Name>ADMINEXPRESS-COG-CARTO.LATEST:arrondissement</Name>

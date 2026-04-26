@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5647">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="7961">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>HYDROGRAPHY.BCAE.LATEST:bcae_cours_eau</Name>
       <Title>Bandes tampons des cours d'eau - dernière édition</Title>
-      <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2026 au 31 décembre 2026. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE.</Abstract>
+      <Abstract>Le code rural et de la pêche maritime prévoit que les agriculteurs qui demandent des aides de la PAC implantent des bandes enherbées le long de certains cours d'eau au titre des bonnes conditions agricoles et environnementales. Cette carte est en vigueur du 1er janvier 2026 au 31 décembre 2026. Pour les départements non métropolitains, veuillez-vous référer aux arrêtés préfectoraux relatifs aux BCAE ; Édition 2026-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>BCAE</ows:Keyword>
       </ows:Keywords>
@@ -394,8 +394,8 @@
         <ows:LowerCorner>-5.51063483 41.35555653</ows:LowerCorner>
         <ows:UpperCorner>9.65203797 50.9519425</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024:parcelles_agricole_categorisees_2024</Name>
@@ -535,7 +535,7 @@
     <FeatureType>
       <Name>IGNF_RPG_PARCELLES-ELIGIBLES-IAE:parcelles_eligibles_iae_2024</Name>
       <Title>Parcelles éligibles aux IAE</Title>
-      <Abstract>Cette couche recense les parcelles éligibles aux Infrastructures Agroecologiques (IEA) que ce soit au titre de l’écorégime ou pour la BCAE8</Abstract>
+      <Abstract>Cette couche recense les parcelles éligibles aux Infrastructures Agroecologiques (IEA) que ce soit au titre de l’écorégime ou pour la BCAE8 ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>RPG</ows:Keyword>
         <ows:Keyword>Agriculture</ows:Keyword>
@@ -661,8 +661,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_RPG_PRAIRIES-PERMANENTES_2024:prairies_permanentes_2024</Name>
@@ -796,13 +796,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>TOURBIERES_ZONES-HUMIDES.BCAE:bcae</Name>
       <Title>Protection des zones humides et des tourbières BCAE 2</Title>
-      <Abstract>Dans le cadre d'une convention avec le MASAF, la norme BCAE 2 relative à la conditionnalité de la Politique Agricole Commune a pour objet de protéger les zones humides et des tourbières et entrera en vigueur à compter de 2025. Elle vise à protéger ces milieux à fort enjeux y compris lorsqu’ils ne sont pas pleinement fonctionnels en raison d’action anthropique (drainage par exemple) qui limite temporairement l’expression de leurs fonctionnalités. Cette protection est assurée par le respect d’exigences spécifiques aux zones humides et aux tourbières</Abstract>
+      <Abstract>Dans le cadre d'une convention avec le MASAF, la norme BCAE 2 relative à la conditionnalité de la Politique Agricole Commune a pour objet de protéger les zones humides et des tourbières et entrera en vigueur à compter de 2025. Elle vise à protéger ces milieux à fort enjeux y compris lorsqu’ils ne sont pas pleinement fonctionnels en raison d’action anthropique (drainage par exemple) qui limite temporairement l’expression de leurs fonctionnalités. Cette protection est assurée par le respect d’exigences spécifiques aux zones humides et aux tourbières ; Édition 2025-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Occupation des terres</ows:Keyword>
       </ows:Keywords>
@@ -932,7 +932,7 @@
     <FeatureType>
       <Name>PRAIRIES.SENSIBLES.BCAE:prairies_sensibles</Name>
       <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>
-      <Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE.</Abstract>
+      <Abstract>Préservation des prairies et pâturages permanents en zone Natura 2000 - Couche pour la nouvelle PAC produite par l’Observatoire du développement rural (ODR) en lien avec l’INRAE ; Édition 2025-06-21</Abstract>
       <ows:Keywords>
         <ows:Keyword>bcae</ows:Keyword>
         <ows:Keyword>prairie</ows:Keyword>
@@ -1063,7 +1063,7 @@
     <FeatureType>
       <Name>RPG.2010:rpg_2010</Name>
       <Title>Registre parcellaire graphique (RPG) 2010</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2010</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2010 ; Édition 2010-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1187,13 +1187,13 @@
         <ows:LowerCorner>-63.08582386 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2013:rpg_2013</Name>
       <Title>Registre parcellaire graphique (RPG) 2013</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2013 ; Édition 2013-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1317,13 +1317,13 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83266635 51.07514669</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2014:rpg_2014</Name>
       <Title>Registre parcellaire graphique (RPG) 2014</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2014 ; Édition 2014-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1447,13 +1447,13 @@
         <ows:LowerCorner>-63.09061791 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07512792</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2015:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2015</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2015 ; Édition 2015-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1583,7 +1583,7 @@
     <FeatureType>
       <Name>RPG.2016:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2016</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2016 ; Édition 2016-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1713,7 +1713,7 @@
     <FeatureType>
       <Name>RPG.2017:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2017</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2017 ; Édition 2017-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -1843,7 +1843,7 @@
     <FeatureType>
       <Name>RPG.2018:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2018</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2018 ; Édition 2018-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usage des sols</ows:Keyword>
       </ows:Keywords>
@@ -1973,7 +1973,7 @@
     <FeatureType>
       <Name>RPG.2019:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2019</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2019 ; Édition 2019-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2097,13 +2097,13 @@
         <ows:LowerCorner>-63.07282825 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510064</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2020:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2020</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2020 ; Édition 2020-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2227,13 +2227,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2021:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2021</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2021 ; Édition 2021-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2363,7 +2363,7 @@
     <FeatureType>
       <Name>RPG.2022:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) 2022 : Codes des cultures</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022 ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2487,13 +2487,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2022:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2022 : Parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2022 ; Édition 2022-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2617,13 +2617,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) 2023 : Codes des cultures</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023 ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2747,13 +2747,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:ilots_de_reference</Name>
       <Title>Registre parcellaire graphique (RPG) 2023 : Ilots de référence</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023 ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -2877,13 +2877,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2023:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2023 : Parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2023 ; Édition 2023-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3007,13 +3007,13 @@
         <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2024:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) 2024 : Codes des cultures</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024 ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3143,7 +3143,7 @@
     <FeatureType>
       <Name>RPG.2024:ilots_anonymes</Name>
       <Title>Registre parcellaire graphique (RPG) 2024 : Ilots anonymes</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024 ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3273,7 +3273,7 @@
     <FeatureType>
       <Name>RPG.2024:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) 2024 : Parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2024 ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3403,7 +3403,7 @@
     <FeatureType>
       <Name>RPG.LATEST:codes_cultures</Name>
       <Title>Registre parcellaire graphique (RPG) : codes culture</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3527,13 +3527,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:parcelles_graphiques</Name>
       <Title>Registre parcellaire graphique (RPG) : parcelles graphiques</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3657,13 +3657,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.LATEST:ilots_anonymes</Name>
       <Title>Registre parcellaire graphique (RPG) {dpsg.edition} : Ilots anonymes</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants ; Édition 2024-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usages des sols</ows:Keyword>
       </ows:Keywords>
@@ -3787,13 +3787,13 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
     <FeatureType>
       <Name>RPG.2011:rpg_2011</Name>
       <Title>Registre parcellaire graphique 2011</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2011.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2011 ; Édition 2011-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Usage des sols</ows:Keyword>
       </ows:Keywords>
@@ -3923,7 +3923,7 @@
     <FeatureType>
       <Name>RPG.2012:rpg_2012</Name>
       <Title>Registre parcellaire graphique 2012</Title>
-      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2012.</Abstract>
+      <Abstract>Registre parcellaire graphique : zones de cultures déclarées par les exploitants en 2012 ; Édition 2012-01-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Agriculture</ows:Keyword>
       </ows:Keywords>
@@ -4179,8 +4179,8 @@
         <ows:LowerCorner>-63.07078975 -21.38541709</ows:LowerCorner>
         <ows:UpperCorner>55.83259967 51.07510062</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4644">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="9242">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -270,7 +270,7 @@
     <FeatureType>
       <Name>TRANSPORTS.DRONES.RESTRICTIONS:carte_restriction_drones_lf</Name>
       <Title>Restrictions UAS catégorie Ouverte et Aéromodélisme </Title>
-      <Abstract>{quote}Zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, en Guyane, aux Antilles françaises, Saint-Pierre et Miquelon, Mayotte, La Réunion et aux Terres Australes, à jour au 07-2025. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 30 mars 2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote}</Abstract>
+      <Abstract>{quote}Zones soumises à interdictions ou à restrictions pour l’usage, à titre de loisir, d’aéronefs télépilotés (ou drones), sur le territoire métropolitain, en Guyane, aux Antilles françaises, Saint-Pierre et Miquelon, Mayotte, La Réunion et aux Terres Australes, à jour au 07-2025. Elle intègre partiellement les interdictions s'appuyant sur des données non publiées à l'AIP et ne couvre pas les interdictions temporaires. Cette carte est basée sur l’arrêté « espace » du 30 mars 2017. La représentation des zones soumises à interdictions ou à restrictions n’engage pas la responsabilité des producteurs de la donnée. Le contour des agglomérations est fourni à titre purement indicatif. Consultez les interdictions temporaires sur https://www.sia.aviation-civile.gouv.fr/.{quote} ; Édition 2025-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Drone</ows:Keyword>
       </ows:Keywords>
@@ -398,7 +398,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:franchissement_te_lien_prescription</Name>
       <Title>Transports exceptionnels ,franchissements - prescription</Title>
-      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS ; Édition 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -528,7 +528,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:franchissement_te</Name>
       <Title>Transports exceptionnels Franchissements</Title>
-      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS ; Édition 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -658,7 +658,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:prescription_te</Name>
       <Title>Transports exceptionnels Prescriptions</Title>
-      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS ; Édition 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -788,7 +788,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:troncon_te</Name>
       <Title>Transports exceptionnels Troncons</Title>
-      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS ; Édition 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
@@ -918,7 +918,7 @@
     <FeatureType>
       <Name>SECUROUT.TE:troncon_te_lien_prescription</Name>
       <Title>Transports exceptionnels lien troncon - prescription</Title>
-      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS</Abstract>
+      <Abstract>Transports exceptionnels (troncons, franchissements et prescriptions) au format COVADIS ; Édition 2026-03-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>transport</ows:Keyword>
       </ows:Keywords>
