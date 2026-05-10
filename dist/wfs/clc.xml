@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4567">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3588">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -524,8 +524,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC06R_DOM:clc06r_dom</Name>
@@ -784,8 +784,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12R_DOM:clc12r_dom</Name>
@@ -914,8 +914,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC18_DOM:clc18_dom</Name>
@@ -1044,8 +1044,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA06_DOM:cha06_dom</Name>
@@ -1304,8 +1304,8 @@
         <ows:LowerCorner>-61.90315964 -21.48017901</ows:LowerCorner>
         <ows:UpperCorner>55.93309174 16.60478396</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA18_DOM:cha18_dom</Name>
@@ -1564,8 +1564,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC00_FR:clc00_fr</Name>
@@ -1694,8 +1694,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC0OR_FR:clc00r_fr</Name>
@@ -2084,8 +2084,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12_FR:clc12_fr</Name>
@@ -2214,8 +2214,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CLC12R_FR:clc12r_fr</Name>
@@ -2474,8 +2474,8 @@
         <ows:LowerCorner>-5.92004256 41.02799728</ows:LowerCorner>
         <ows:UpperCorner>11.09092433 51.07771878</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA00_FR:cha00_fr</Name>
@@ -2604,8 +2604,8 @@
         <ows:LowerCorner>-5.91658725 41.07509675</ows:LowerCorner>
         <ows:UpperCorner>9.99021512 51.17668018</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/MTECT_CORINE-LAND-COVER" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=MTECT_CORINE-LAND-COVER" />
     </FeatureType>
     <FeatureType>
       <Name>LANDCOVER.CHA06_FR:cha06_fr</Name>
@@ -3498,11 +3498,11 @@
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
-      <fes:Function name="centroid">
+      <fes:Function name="Centroid">
         <fes:Returns>xs:string</fes:Returns>
         <fes:Arguments>
-          <fes:Argument name="geometry">
-            <fes:Type>gml:AbstractGeometryType</fes:Type>
+          <fes:Argument name="features">
+            <fes:Type>xs:string</fes:Type>
           </fes:Argument>
         </fes:Arguments>
       </fes:Function>
