@@ -321,6 +321,53 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-PORTEUR-MASQUE-FORETV3</Name>
+        <Title> Accessibilité physique des forêts PORTEUR masque Forêt v3</Title>
+        <Abstract>Ce jeu de données calculé avec le masque Forêt v3, présente une cartographie de l’accessibilité physique des forêts aux engins d’exploitation PORTEUR, produite par l’IGN à partir de la méthodologie développée dans le cadre du projet ACCESSFOR. Il permet d’identifier les zones forestières accessibles ou non accessibles aux principaux engins d’exploitation PORTEUR.</Abstract>
+        <KeywordList>
+          <Keyword>forêts</Keyword>
+          <Keyword>porteur</Keyword>
+          <Keyword>skidder</Keyword>
+          <Keyword>accessibilité forestière</Keyword>
+          <Keyword>engins d’exploitation</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ACCESSIBILITE-PHYSIQUE-DES-FORETS" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ACCESSIBILITE-PHYSIQUE-DES-FORETS" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>ACCESSIBILITE-PHYSIQUE-FORETS</Title>
+          <Abstract>Légende Accessibilité physique des forêts</Abstract>
+          <LegendURL width="300" height="168">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/AccessFor.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER</Name>
         <Title>Accessibilité physique des forêts SKIDDER</Title>
         <Abstract>Ce jeu de données présente une cartographie de l’accessibilité physique des forêts aux engins d’exploitation SKIDDER, produite par l’IGN à partir de la méthodologie développée dans le cadre du projet ACCESSFOR. Il permet d’identifier les zones forestières accessibles ou non accessibles aux principaux engins d’exploitation SKIDDER.</Abstract>
@@ -354,6 +401,53 @@
           <LegendURL width="280" height="69">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER-MASQUE-FORETV3</Name>
+        <Title> Accessibilité physique des forêts SKIDDER masque Forêt v3</Title>
+        <Abstract>Ce jeu de données calculé avec le masque Forêt v3, présente une cartographie de l’accessibilité physique des forêts aux engins d’exploitation SKIDDER, produite par l’IGN à partir de la méthodologie développée dans le cadre du projet ACCESSFOR. Il permet d’identifier les zones forestières accessibles ou non accessibles aux principaux engins d’exploitation SKIDDER.</Abstract>
+        <KeywordList>
+          <Keyword>forêts</Keyword>
+          <Keyword>porteur</Keyword>
+          <Keyword>skidder</Keyword>
+          <Keyword>accessibilité forestière</Keyword>
+          <Keyword>engins d’exploitation</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ACCESSIBILITE-PHYSIQUE-DES-FORETS" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ACCESSIBILITE-PHYSIQUE-DES-FORETS" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>ACCESSIBILITE-PHYSIQUE-FORETS</Title>
+          <Abstract>Légende Accessibilité physique des forêts</Abstract>
+          <LegendURL width="300" height="168">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/AccessFor.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>

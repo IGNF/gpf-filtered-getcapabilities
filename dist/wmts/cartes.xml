@@ -91,8 +91,8 @@
         <ows:UpperCorner>9.96282 51.8839</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>AN-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ARCHIVES-NATIONALES_CASSINI-ROI" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ARCHIVES-NATIONALES_CASSINI-ROI" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ARCHIVES-NATIONALES_CASSINI-ROI" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
@@ -485,8 +485,8 @@
         <ows:UpperCorner>2.79738 49.5142</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR10</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-10K" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-10K" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-10K" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -591,8 +591,8 @@
         <ows:UpperCorner>10.961 51.2745</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-40K" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-40K" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
@@ -1065,13 +1065,13 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
+        <Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2-legend.png" width="300" height="6000" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>

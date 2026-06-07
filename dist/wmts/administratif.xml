@@ -316,6 +316,123 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>ADMINEXPRESS COG CARTO PE (PETITE ECHELLE); Edition 2026-01-01</ows:Title>
+      <ows:Abstract>Limites administratives d’ADMIN EXPRESS pour un usage cartographique et/ou statistique à petite échelle (édition 2026-01-01).</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>département</ows:Keyword>
+        <ows:Keyword>collectivité territoriale</ows:Keyword>
+        <ows:Keyword>région</ows:Keyword>
+        <ows:Keyword>commune</ows:Keyword>
+        <ows:Keyword>arrondissement</ows:Keyword>
+        <ows:Keyword>chef lieu commune</ows:Keyword>
+        <ows:Keyword>canton</ows:Keyword>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+        <ows:Keyword>petite échelle</ows:Keyword>
+        <ows:Keyword>epci</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>ADMINEXPRESS-COG-CARTO-PE.2026</ows:Identifier>
+      <Style isDefault="true">
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>ADMINEXPRESS COG CARTO</ows:Title>
       <ows:Abstract>Limites administratives Express COG-CARTO code officiel géographique ; Edition : 2026-01-01</ows:Abstract>
       <ows:Keywords>
@@ -436,8 +553,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2017</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -546,8 +663,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2018</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -656,8 +773,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2019</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -766,8 +883,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2020</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -986,8 +1103,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2022</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -1206,8 +1323,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2024</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -1316,8 +1433,118 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ADMINEXPRESS-COG.2025</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
+      <Style isDefault="true">
+        <Title>Données ADMINEXPRESS-COG</Title>
+        <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ADMINEXPRESS-COG-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>82</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>170</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>165</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>341</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>331</MinTileCol>
+            <MaxTileCol>671</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>682</MinTileRow>
+            <MaxTileRow>1149</MaxTileRow>
+            <MinTileCol>663</MinTileCol>
+            <MaxTileCol>1342</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1365</MinTileRow>
+            <MaxTileRow>2298</MaxTileRow>
+            <MinTileCol>1326</MinTileCol>
+            <MaxTileCol>2684</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2731</MinTileRow>
+            <MaxTileRow>4596</MaxTileRow>
+            <MinTileCol>2653</MinTileCol>
+            <MaxTileCol>5368</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5462</MinTileRow>
+            <MaxTileRow>9193</MaxTileRow>
+            <MinTileCol>5307</MinTileCol>
+            <MaxTileCol>10737</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10924</MinTileRow>
+            <MaxTileRow>18386</MaxTileRow>
+            <MinTileCol>10615</MinTileCol>
+            <MaxTileCol>21474</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21849</MinTileRow>
+            <MaxTileRow>36772</MaxTileRow>
+            <MinTileCol>21231</MinTileCol>
+            <MaxTileCol>42948</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>ADMINEXPRESS COG ; Edition : 2026-01-01</ows:Title>
+      <ows:Abstract>Limites administratives Express COG code officiel géographique ; Edition : 2026-01-01</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>Unités administratives</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
+        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>ADMINEXPRESS-COG.2026</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Données ADMINEXPRESS-COG</Title>
         <Abstract>Style et légende associés au flux ADMINEXPRESS-COG</Abstract>
@@ -1536,9 +1763,9 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>LIMITES_ADMINISTRATIVES_EXPRESS.LATEST</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_ADMIN-EXPRESS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS" />
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_ADMIN-EXPRESS" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

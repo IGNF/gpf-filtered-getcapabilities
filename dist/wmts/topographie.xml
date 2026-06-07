@@ -91,8 +91,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-BATI</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -207,8 +207,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-HYDROGRAPHIE</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -323,8 +323,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-RESEAU_ROUTIER</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -439,8 +439,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDTOPO-DIFF-ZONE_ACTIVITES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -552,8 +552,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BUILDINGS.BUILDINGS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -671,244 +671,6 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>DGCL - DGF 2025 (DSR) : Longueur voirie communes</ows:Title>
-      <ows:Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR) - Edition 2025</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>DSR</ows:Keyword>
-        <ows:Keyword>DGCL</ows:Keyword>
-        <ows:Keyword>voirie</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
-        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>DGCL.2025.voirie-communale</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_VOIRIE-DGF" />
-      <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_17</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>83</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>166</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>332</MinTileCol>
-            <MaxTileCol>670</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>1148</MaxTileRow>
-            <MinTileCol>664</MinTileCol>
-            <MaxTileCol>1341</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>2297</MaxTileRow>
-            <MinTileCol>1329</MinTileCol>
-            <MaxTileCol>2683</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>4594</MaxTileRow>
-            <MinTileCol>2658</MinTileCol>
-            <MaxTileCol>5366</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>9189</MaxTileRow>
-            <MinTileCol>5317</MinTileCol>
-            <MaxTileCol>10733</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>18378</MaxTileRow>
-            <MinTileCol>10634</MinTileCol>
-            <MaxTileCol>21467</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>36757</MaxTileRow>
-            <MinTileCol>21269</MinTileCol>
-            <MaxTileCol>42934</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43822</MinTileRow>
-            <MaxTileRow>73515</MaxTileRow>
-            <MinTileCol>42539</MinTileCol>
-            <MaxTileCol>85869</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>DGCL - DGF 2025 (DFM) : Longueur voirie départements</ows:Title>
-      <ows:Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF (DFM) des départements - Edition 2025</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>DSR</ows:Keyword>
-        <ows:Keyword>DGCL</ows:Keyword>
-        <ows:Keyword>voirie</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.1614 -21.3998</ows:LowerCorner>
-        <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>DGCL.2025.voirie-departementale</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_VOIRIE-DGF" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_VOIRIE-DGF" />
-      <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_17</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>83</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>166</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>332</MinTileCol>
-            <MaxTileCol>670</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>1148</MaxTileRow>
-            <MinTileCol>664</MinTileCol>
-            <MaxTileCol>1341</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>2297</MaxTileRow>
-            <MinTileCol>1329</MinTileCol>
-            <MaxTileCol>2683</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>4594</MaxTileRow>
-            <MinTileCol>2658</MinTileCol>
-            <MaxTileCol>5366</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>9189</MaxTileRow>
-            <MinTileCol>5317</MinTileCol>
-            <MaxTileCol>10733</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>18378</MaxTileRow>
-            <MinTileCol>10634</MinTileCol>
-            <MaxTileCol>21467</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>36757</MaxTileRow>
-            <MinTileCol>21269</MinTileCol>
-            <MaxTileCol>42934</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43822</MinTileRow>
-            <MaxTileRow>73515</MaxTileRow>
-            <MinTileCol>42539</MinTileCol>
-            <MaxTileCol>85869</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
       <ows:Title>Noms</ows:Title>
       <ows:Abstract>Noms ; Edition : 2026-03-15</ows:Abstract>
       <ows:Keywords>
@@ -919,8 +681,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALNAMES.NAMES</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1039,8 +801,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>HYDROGRAPHY.HYDROGRAPHY</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1293,8 +1055,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1403,8 +1165,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.RAILWAYS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1523,8 +1285,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.ROADS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1643,8 +1405,8 @@
         <ows:UpperCorner>55.9644 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTNETWORKS.RUNWAYS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -1763,8 +1525,8 @@
         <ows:UpperCorner>55.9259 71.5841</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>UTILITYANDGOVERNMENTALSERVICES.ALL</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>

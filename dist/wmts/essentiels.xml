@@ -88,9 +88,9 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <Style isDefault="true">
         <Title>Légende générique</Title>
         <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
@@ -271,16 +271,16 @@
         <ows:UpperCorner>179.9 85</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
+        <Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2-legend.png" width="300" height="6000" minScaleDenominator="200" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -442,8 +442,8 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNH-LIDAR-HD" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNH-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNH-LIDAR-HD" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
@@ -606,8 +606,8 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNS_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>
@@ -770,9 +770,9 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNT-LIDAR-HD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNT-LIDAR-HD" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MNT-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNT-LIDAR-HD" />
       <Style isDefault="true">
         <Title>Données brutes</Title>
         <Abstract>Données brutes, sans modification de canal</Abstract>

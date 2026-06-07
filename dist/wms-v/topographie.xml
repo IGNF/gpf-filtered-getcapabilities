@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7602" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7956" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -640,6 +640,244 @@
           <LegendURL width="20" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.MUSEUM" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.CENTRE</Name>
+        <Title>Complexes sportifs et terrains de sports</Title>
+        <Abstract>Localisation des complexes sportifs et terrains de sports en France métropolitaine. Source des données : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.CENTRE</Name>
+          <Title>POI.SPORT.CENTRE style</Title>
+          <Abstract>Default style for POI.SPORT.CENTRE layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.CENTRE" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.GOLF</Name>
+        <Title>Golf</Title>
+        <Abstract>Localisation des terrains de golf. Source des données : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.GOLF</Name>
+          <Title>POI.SPORT.GOLF style</Title>
+          <Abstract>Default style for POI.SPORT.GOLF layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.GOLF" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.ICE_RINK</Name>
+        <Title>Patinoires</Title>
+        <Abstract>Localisation des patinoires.Source : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.ICE_RINK</Name>
+          <Title>POI.SPORT.ICE_RINK style</Title>
+          <Abstract>Default style for POI.SPORT.ICE_RINK layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.ICE_RINK" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.RIDING</Name>
+        <Title>Centre équestres</Title>
+        <Abstract>Localisation des centres équestres. Source des données : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.RIDING</Name>
+          <Title>POI.SPORT.RIDING style</Title>
+          <Abstract>Default style for POI.SPORT.RIDING layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.RIDING" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.STADIUM</Name>
+        <Title>Stades</Title>
+        <Abstract>Localisation des stades. Source : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.STADIUM</Name>
+          <Title>POI.SPORT.STADIUM style</Title>
+          <Abstract>Default style for POI.SPORT.STADIUM layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.STADIUM" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.VELODROME</Name>
+        <Title>Vélodromes</Title>
+        <Abstract>Localisation des vélodromes. Source : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.VELODROME</Name>
+          <Title>POI.SPORT.VELODROME style</Title>
+          <Abstract>Default style for POI.SPORT.VELODROME layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.VELODROME" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>POI.SPORT.WATER</Name>
+        <Title>Piscines</Title>
+        <Abstract>Localisation des piscines. Source des données : BD Topo mars 2026</Abstract>
+        <KeywordList>
+          <Keyword>Histoire et patrimoine</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.07009946</westBoundLongitude>
+          <eastBoundLongitude>55.82676874</eastBoundLongitude>
+          <southBoundLatitude>-21.38680056</southBoundLatitude>
+          <northBoundLatitude>51.07327192</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-63.07009946" miny="-21.38680056" maxx="55.82676874" maxy="51.07327192" />
+        <BoundingBox CRS="EPSG:4326" minx="-21.38680056" miny="-63.07009946" maxx="51.07327192" maxy="55.82676874" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ign.fr" />
+          <LogoURL height="50" width="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>default-style-POI.SPORT.WATER</Name>
+          <Title>POI.SPORT.WATER style</Title>
+          <Abstract>Default style for POI.SPORT.WATER layer</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=POI.SPORT.WATER" />
           </LegendURL>
         </Style>
       </Layer>

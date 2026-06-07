@@ -3,6 +3,7 @@ wfs,administratif,ADMINEXPRESS-COG.2017:arrondissement_departemental
 wfs,administratif,ADMINEXPRESS-COG.2017:chef_lieu
 wfs,administratif,ADMINEXPRESS-COG.2017:commune
 wfs,administratif,ADMINEXPRESS-COG.2017:departement
+wfs,administratif,ADMINEXPRESS-COG.2017:epci
 wfs,administratif,ADMINEXPRESS-COG.2017:region
 wfs,administratif,ADMINEXPRESS-COG.2018:arrondissement_departemental
 wfs,administratif,ADMINEXPRESS-COG.2018:chef_lieu
@@ -11,7 +12,6 @@ wfs,administratif,ADMINEXPRESS-COG.2018:departement
 wfs,administratif,ADMINEXPRESS-COG.2018:epci
 wfs,administratif,ADMINEXPRESS-COG.2018:region
 wfs,administratif,ADMINEXPRESS-COG.2019:arrondissement_departemental
-wfs,administratif,ADMINEXPRESS-COG.2019:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG.2019:chef_lieu
 wfs,administratif,ADMINEXPRESS-COG.2019:commune
 wfs,administratif,ADMINEXPRESS-COG.2019:departement
@@ -24,7 +24,6 @@ wfs,administratif,ADMINEXPRESS-COG.2020:chef_lieu
 wfs,administratif,ADMINEXPRESS-COG.2020:cheflieu_entite_rattachee
 wfs,administratif,ADMINEXPRESS-COG.2020:commune
 wfs,administratif,ADMINEXPRESS-COG.2020:departement
-wfs,administratif,ADMINEXPRESS-COG.2020:entite_rattachee
 wfs,administratif,ADMINEXPRESS-COG.2020:epci
 wfs,administratif,ADMINEXPRESS-COG.2020:region
 wfs,administratif,ADMINEXPRESS-COG.2021:arrondissement
@@ -78,11 +77,12 @@ wfs,administratif,ADMINEXPRESS-COG.2024:region
 wfs,administratif,ADMINEXPRESS-COG.2025:arrondissement
 wfs,administratif,ADMINEXPRESS-COG.2025:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG.2025:canton
-wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_d_ epci
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_d_arrondissement
 wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ canton
-wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_commune
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_departement
 wfs,administratif,ADMINEXPRESS-COG.2025:chef_lieu_de_region
 wfs,administratif,ADMINEXPRESS-COG.2025:collectivite_territoriale
 wfs,administratif,ADMINEXPRESS-COG.2025:commune
@@ -90,14 +90,31 @@ wfs,administratif,ADMINEXPRESS-COG.2025:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG.2025:departement
 wfs,administratif,ADMINEXPRESS-COG.2025:epci
 wfs,administratif,ADMINEXPRESS-COG.2025:region
+wfs,administratif,ADMINEXPRESS-COG.2026:arrondissement
+wfs,administratif,ADMINEXPRESS-COG.2026:arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG.2026:canton
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_d_arrondissement
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_de_commune
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_de_commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_de_departement
+wfs,administratif,ADMINEXPRESS-COG.2026:chef_lieu_de_region
+wfs,administratif,ADMINEXPRESS-COG.2026:collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.2026:commune
+wfs,administratif,ADMINEXPRESS-COG.2026:commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG.2026:departement
+wfs,administratif,ADMINEXPRESS-COG.2026:epci
+wfs,administratif,ADMINEXPRESS-COG.2026:region
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement
 wfs,administratif,ADMINEXPRESS-COG.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG.LATEST:canton
-wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_d_ epci
 wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ canton
-wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_d_epci
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_canton
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_commune
+wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG.LATEST:chef_lieu_de_region
 wfs,administratif,ADMINEXPRESS-COG.LATEST:collectivite_territoriale
 wfs,administratif,ADMINEXPRESS-COG.LATEST:commune
@@ -108,12 +125,12 @@ wfs,administratif,ADMINEXPRESS-COG.LATEST:region
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:canton
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_ epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ canton
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_d_epci
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_canton
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_commune
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_departement
 wfs,administratif,ADMINEXPRESS-COG-CARTO.LATEST:chef_lieu_de_region
@@ -128,8 +145,8 @@ wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:canton
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_commune
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_departement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:chef_lieu_de_region
@@ -139,13 +156,29 @@ wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:departement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:epci
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2025:region
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:arrondissement
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:canton
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_d_arrondissement
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_d_arrondissement_municipal
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_de_commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_de_commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_de_departement
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:chef_lieu_de_region
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:commune_associee_ou_deleguee
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:departement
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:epci
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.2026:region
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:arrondissement_municipal
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:canton
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_ collectivite_territoriale
-wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_ commune
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_collectivite_territoriale
+wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_commune
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_departement
 wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:chef_lieu_de_region
@@ -158,11 +191,11 @@ wfs,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST:region
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:arrondissement_municipal
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:canton
-wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_ epci
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_arrondissement_municipal
-wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_ canton
-wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_ commune
+wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_d_epci
+wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_canton
+wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_commune
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_commune_associee_ou_deleguee
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_departement
 wfs,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST:chef_lieu_de_region
@@ -181,9 +214,11 @@ wms-r,administratif,ADMINEXPRESS-COG.2022
 wms-r,administratif,ADMINEXPRESS-COG.2023
 wms-r,administratif,ADMINEXPRESS-COG.2024
 wms-r,administratif,ADMINEXPRESS-COG.2025
+wms-r,administratif,ADMINEXPRESS-COG.2026
 wms-r,administratif,ADMINEXPRESS-COG.LATEST
 wms-r,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wms-r,administratif,ADMINEXPRESS-COG-CARTO-PE.2025
+wms-r,administratif,ADMINEXPRESS-COG-CARTO-PE.2026
 wms-r,administratif,ADMINEXPRESS-COG-CARTO-PE.LATEST
 wms-r,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
 wms-v,administratif,Noms_communes
@@ -198,9 +233,11 @@ wmts,administratif,ADMINEXPRESS-COG.2022
 wmts,administratif,ADMINEXPRESS-COG.2023
 wmts,administratif,ADMINEXPRESS-COG.2024
 wmts,administratif,ADMINEXPRESS-COG.2025
+wmts,administratif,ADMINEXPRESS-COG.2026
 wmts,administratif,ADMINEXPRESS-COG.LATEST
 wmts,administratif,ADMINEXPRESS-COG-CARTO.LATEST
 wmts,administratif,ADMINEXPRESS-COG-CARTO-PE.2025
+wmts,administratif,ADMINEXPRESS-COG-CARTO-PE.2026
 wmts,administratif,ADMIN-EXPRESS-COG-CARTO-PE.LATEST
 wmts,administratif,LIMITES_ADMINISTRATIVES_EXPRESS.LATEST
 wfs,adresse,BAN.DATA.GOUV:ban
@@ -314,6 +351,7 @@ wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
 wfs,altimetrie,ELEVATIONGRIDCOVERAGE.HIGHRES.QUALITY:source_fra
+wfs,altimetrie,IGNF_LIDAR-HD_METADONNEE:metadata
 wfs,altimetrie,IGNF_MNH-LIDAR-HD:dalle
 wfs,altimetrie,IGNF_MNS-LIDAR-HD:dalle
 wfs,altimetrie,IGNF_MNT-LIDAR-HD:dalle
@@ -451,6 +489,13 @@ wms-v,cartovecto,BDCARTO-ZONES_REGLEMENTEES_WLD_WGS84G
 wms-v,cartovecto,CLEFVERTE
 wms-v,cartovecto,COMMUNESTOURISTIQUES
 wms-v,cartovecto,PAVILLONBLEU
+wms-v,cartovecto,POI.SPORT.CENTRE
+wms-v,cartovecto,POI.SPORT.GOLF
+wms-v,cartovecto,POI.SPORT.ICE_RINK
+wms-v,cartovecto,POI.SPORT.RIDING
+wms-v,cartovecto,POI.SPORT.STADIUM
+wms-v,cartovecto,POI.SPORT.VELODROME
+wms-v,cartovecto,POI.SPORT.WATER
 wms-v,cartovecto,STATIONSCLASSEES
 wms-v,cartovecto,STATIONSVERTES
 wms-v,cartovecto,STATISTICALUNITS.IRIS
@@ -717,8 +762,11 @@ wmts,enr,SITE.PRODUCTION.CHALEUR.DECHETS
 wmts,enr,SITE.PRODUCTION.CHALEUR.METHANISATON
 wmts,enr,SITE.PRODUCTION.CHALEUR.RCF.LINEAIRE
 wmts,enr,SITE.PRODUCTION.CHALEUR.RCF.POINT
+wfs,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES:perimetre_intervention
 wfs,environnement,DEBROUSSAILLEMENT:debroussaillement
 wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2016:formations_vegetales_d976_2016
+wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2017:formations_vegetales_d972_2017
+wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2022:formations_vegetales_d972_2022
 wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2023:formations_vegetales_d976_2023
 wfs,environnement,IGNF_MASQUE-FORET.2021-2023:masque_foret
 wfs,environnement,INPE:inpe
@@ -728,7 +776,6 @@ wfs,environnement,MESURES_COMPENSATOIRES:emprises_commune
 wfs,environnement,MESURES_COMPENSATOIRES:emprises_lineaires
 wfs,environnement,MESURES_COMPENSATOIRES:emprises_polygones
 wfs,environnement,MESURES_COMPENSATOIRES:emprises_ponctuelles
-wfs,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES:perimetre_intervention
 wfs,environnement,PROTECTEDAREAS.PRSF:prs_fr
 wfs,environnement,PRSF_BDD_GLP_2023:prs_glp
 wfs,environnement,PRSF_BDD_GUF_2023:prs_guf
@@ -743,15 +790,17 @@ wms-r,environnement,INRAE_GRAIN-BOCAGER
 wms-r,environnement,LANDCOVER.FORESTINVENTORY.V1
 wms-r,environnement,LANDCOVER.FORESTINVENTORY.V2
 wms-r,environnement,ZONES-A-PROSPECTER-FORETS-SUBNATURELLES
+wms-v,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES
 wms-v,environnement,DEBROUSSAILLEMENT
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2016
+wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2017
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2022
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2023
 wms-v,environnement,IGNF_SITES-UNESCO
 wms-v,environnement,INPE
 wms-v,environnement,MESURES_COMPENSATOIRES
-wms-v,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES
 wms-v,environnement,PROTECTEDAREAS.PRSF
+wmts,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES
 wmts,environnement,DEBROUSSAILLEMENT
 wmts,environnement,FORETS.PUBLIQUES
 wmts,environnement,GEOGRAPHICALGRIDSYSTEM.DFCI
@@ -765,7 +814,6 @@ wmts,environnement,LANDCOVER.FORESTINVENTORY.V1
 wmts,environnement,LANDCOVER.FORESTINVENTORY.V2
 wmts,environnement,LANDCOVER.SYLVOECOREGIONS
 wmts,environnement,LANDCOVER.SYLVOECOREGIONS.ALLUVIUM
-wmts,environnement,CONSERVATOIRE_LITTORAL.PERIMETRES
 wmts,environnement,PROTECTEDAREAS.PRSF
 wmts,environnement,ZONES-A-PROSPECTER-FORETS-SUBNATURELLES
 wfs,essentiels,BDTOPO_V3:batiment
@@ -784,10 +832,41 @@ wmts,essentiels,IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW
 wmts,essentiels,ORTHOIMAGERY.ORTHOPHOTOS
 wfs,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-:acces_porteur
 wfs,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-:acces_skidder
+wfs,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-MASQUE-FORETV3:acces_porteur
+wfs,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-MASQUE-FORETV3:acces_skidder
+wfs,foret,NAVIFOREST_PUBLIC:itineraires-bois-ronds
 wms-r,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-PORTEUR
+wms-r,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-PORTEUR-MASQUE-FORETV3
 wms-r,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER
+wms-r,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER-MASQUE-FORETV3
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_BOISEMENT_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_BOISEMENT_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_FLUX_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_FLUX_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_PROPRIETE_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_PROPRIETE_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_VOLUME_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_VOLUME_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_BOISEMENT_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_BOISEMENT_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_FLUX_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_FLUX_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_PROPRIETE_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_PROPRIETE_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_VOLUME_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_REGIONS_VOLUME_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_BOISEMENT_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_BOISEMENT_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_FLUX_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_FLUX_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_PROPRIETE_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_PROPRIETE_DERNIERE-EDITION
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_VOLUME_2020-2024
+wms-v,foret,IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_VOLUME_DERNIERE-EDITION
 wmts,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-PORTEUR
+wmts,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-PORTEUR-MASQUE-FORETV3
 wmts,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER
+wmts,foret,IGNF_ACCESSIBILITE-PHYSIQUE-FORETS-SKIDDER-MASQUE-FORETV3
 wfs,geodesie,IGNF_GEODESIE:point-rbf
 wfs,geodesie,IGNF_GEODESIE:point-rdf
 wfs,geodesie,IGNF_GEODESIE:rgp
@@ -1060,6 +1139,7 @@ wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2023
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2024
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2025
+wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2026
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2010
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2011
 wms-r,satellite,ORTHOIMAGERY.ORTHO-SAT.SPOT.2013
@@ -1093,6 +1173,7 @@ wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2023
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2024
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2025
+wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2026
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2010
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.RAPIDEYE.2011
 wmts,satellite,ORTHOIMAGERY.ORTHO-SAT.SPOT.2013
@@ -1255,6 +1336,8 @@ wms-r,topographie,BDTOPO-DIFF-BATI
 wms-r,topographie,BDTOPO-DIFF-HYDROGRAPHIE
 wms-r,topographie,BDTOPO-DIFF-RESEAU_ROUTIER
 wms-r,topographie,BDTOPO-DIFF-ZONE_ACTIVITES
+wms-r,topographie,DGCL.2026.communale
+wms-r,topographie,DGCL.2026.voirie-departementale
 wms-r,topographie,IGNF_HYDROGRAPHY.HYDROGRAPHY
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.RAILWAYS
 wms-r,topographie,IGNF_TRANSPORTNETWORKS.ROADS
@@ -1273,6 +1356,13 @@ wms-v,topographie,BDTOPO-GEOPO-ZONE-ACTIVITES_WLD_WGS84G
 wms-v,topographie,hedge.hedge
 wms-v,topographie,Noms_routes
 wms-v,topographie,POI.MUSEUM
+wms-v,topographie,POI.SPORT.CENTRE
+wms-v,topographie,POI.SPORT.GOLF
+wms-v,topographie,POI.SPORT.ICE_RINK
+wms-v,topographie,POI.SPORT.RIDING
+wms-v,topographie,POI.SPORT.STADIUM
+wms-v,topographie,POI.SPORT.VELODROME
+wms-v,topographie,POI.SPORT.WATER
 wms-v,topographie,TRANSPORTNETWORK.COMMONTRANSPORTELEMENTS.MARKERPOST
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.IGN.POI.GARES
 wms-v,topographie,UTILITYANDGOVERNMENTALSERVICES.MININT.POI.ACCUEIL_POLICE-GENDARMERIE
@@ -1283,6 +1373,8 @@ wmts,topographie,BDTOPO-DIFF-ZONE_ACTIVITES
 wmts,topographie,BUILDINGS.BUILDINGS
 wmts,topographie,DGCL.2025.voirie-communale
 wmts,topographie,DGCL.2025.voirie-departementale
+wmts,topographie,DGCL.2026.communale
+wmts,topographie,DGCL.2026.voirie-departementale
 wmts,topographie,GEOGRAPHICALNAMES.NAMES
 wmts,topographie,hedge.hedge
 wmts,topographie,HYDROGRAPHY.HYDROGRAPHY
@@ -1322,15 +1414,6 @@ wms-v,transports,dgac_pgs_plan_wmsv
 wms-v,transports,dgac_psa_arrete_wmsv
 wms-v,transports,dgac_psa_plan_wmsv
 wms-v,transports,DGAC-PGS-POI_BDD_FXX_WM_WM
-wms-v,transports,SECUROUTE.TE.1TE
-wms-v,transports,SECUROUTE.TE.2TE48
-wms-v,transports,SECUROUTE.TE.ALL
-wms-v,transports,SECUROUTE.TE.OA
-wms-v,transports,SECUROUTE.TE.PN
-wms-v,transports,SECUROUTE.TE.PND
-wms-v,transports,SECUROUTE.TE.TE120
-wms-v,transports,SECUROUTE.TE.TE72
-wms-v,transports,SECUROUTE.TE.TE94
 wmts,transports,SECUROUTE.TE.1TE
 wmts,transports,SECUROUTE.TE.2TE48
 wmts,transports,SECUROUTE.TE.ALL
