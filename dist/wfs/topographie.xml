@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="7029">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3585">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -395,8 +395,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:arrondissement_municipal</Name>
@@ -526,8 +526,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:itineraire_autre</Name>
@@ -657,8 +657,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:aerodrome</Name>
@@ -788,8 +788,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:bassin_versant_topographique</Name>
@@ -919,8 +919,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:batiment</Name>
@@ -1050,8 +1050,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:canalisation</Name>
@@ -1181,8 +1181,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:cimetiere</Name>
@@ -1312,8 +1312,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:collectivite_territoriale</Name>
@@ -1443,8 +1443,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:commune</Name>
@@ -1574,8 +1574,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:commune_associee_ou_deleguee</Name>
@@ -1705,8 +1705,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:condominium</Name>
@@ -1836,8 +1836,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_lineaire</Name>
@@ -1967,8 +1967,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_ponctuelle</Name>
@@ -2098,8 +2098,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:construction_surfacique</Name>
@@ -2229,8 +2229,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:cours_d_eau</Name>
@@ -2360,8 +2360,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:departement</Name>
@@ -2491,8 +2491,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:detail_hydrographique</Name>
@@ -2622,8 +2622,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:detail_orographique</Name>
@@ -2753,8 +2753,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:epci</Name>
@@ -2884,8 +2884,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:erp</Name>
@@ -3015,8 +3015,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:foret_publique</Name>
@@ -3146,8 +3146,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:haie</Name>
@@ -3277,8 +3277,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:lieu_dit_non_habite</Name>
@@ -3408,8 +3408,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:ligne_orographique</Name>
@@ -3539,8 +3539,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:ligne_electrique</Name>
@@ -3670,8 +3670,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:limite_terre_mer</Name>
@@ -3801,8 +3801,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:non_communication</Name>
@@ -3932,8 +3932,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:noeud_hydrographique</Name>
@@ -4063,8 +4063,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:parc_ou_reserve</Name>
@@ -4194,8 +4194,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:piste_d_aerodrome</Name>
@@ -4325,8 +4325,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:plan_d_eau</Name>
@@ -4456,8 +4456,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:point_de_repere</Name>
@@ -4587,8 +4587,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:point_du_reseau</Name>
@@ -4718,8 +4718,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:poste_de_transformation</Name>
@@ -4849,8 +4849,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:pylone</Name>
@@ -4980,8 +4980,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:route_numerotee_ou_nommee</Name>
@@ -5111,8 +5111,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:region</Name>
@@ -5242,8 +5242,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:reservoir</Name>
@@ -5373,8 +5373,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:section_de_points_de_repere</Name>
@@ -5504,8 +5504,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:surface_hydrographique</Name>
@@ -5635,8 +5635,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:terrain_de_sport</Name>
@@ -5766,8 +5766,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:toponymie</Name>
@@ -5897,8 +5897,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:transport_par_cable</Name>
@@ -6028,8 +6028,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_route</Name>
@@ -6159,8 +6159,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_de_voie_ferree</Name>
@@ -6290,8 +6290,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:troncon_hydrographique</Name>
@@ -6421,8 +6421,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:voie_ferree_nommee</Name>
@@ -6552,8 +6552,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:voie_nommee</Name>
@@ -6683,8 +6683,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_activite_ou_d_interet</Name>
@@ -6814,8 +6814,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_estran</Name>
@@ -6945,8 +6945,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_d_habitation</Name>
@@ -7076,8 +7076,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:zone_de_vegetation</Name>
@@ -7207,8 +7207,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3:equipement_de_transport</Name>
@@ -7338,8 +7338,532 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
+    </FeatureType>
+    <FeatureType>
+      <Name>DGF_2025_:_voirie-retenue-departements</Name>
+      <Title>DGCL- DGF 2025 (DFM) : Voirie retenue pour les départements</Title>
+      <Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF des départements.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DGF</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+        <ows:Keyword>DFM</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>DGF_2025_:_voirie-retenue-communes</Name>
+      <Title>DGCL- DGF 2025 (DSR) : Voirie retenue pour les communes</Title>
+      <Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR)</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DSR</ows:Keyword>
+        <ows:Keyword>DGF</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>DGF_2026_:_voirie-retenue-departements</Name>
+      <Title>DGCL- DGF 2026 (DFM) : Voirie retenue pour les départements</Title>
+      <Abstract>Longueur de voirie départementale retenue pour la répartition de la DGF des départements.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DGF</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+        <ows:Keyword>DFM</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>DGF_2026_:_voirie-retenue-communes</Name>
+      <Title>DGCL- DGF 2026 (DSR) : Voirie retenue pour les communes</Title>
+      <Abstract>Longueur de voirie communale retenue dans le cadre de la répartition de la dotation de solidarité rurale (DSR)</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>DSR</ows:Keyword>
+        <ows:Keyword>DGF</ows:Keyword>
+        <ows:Keyword>DGCL</ows:Keyword>
+        <ows:Keyword>voirie</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.28125 -21.421484375</ows:LowerCorner>
+        <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:adresse_ban</Name>
@@ -7469,8 +7993,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:arrondissement</Name>
@@ -7600,8 +8124,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:itineraire_autre</Name>
@@ -7731,8 +8255,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:aerodrome</Name>
@@ -7862,8 +8386,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment</Name>
@@ -7993,8 +8517,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment_rnb_lien_bdtopo</Name>
@@ -8124,8 +8648,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canalisation</Name>
@@ -8255,8 +8779,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canton</Name>
@@ -8386,8 +8910,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cimetiere</Name>
@@ -8517,8 +9041,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:collectivite_territoriale</Name>
@@ -8648,8 +9172,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune</Name>
@@ -8779,8 +9303,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune_associee_ou_deleguee</Name>
@@ -8910,8 +9434,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_lineaire</Name>
@@ -9041,8 +9565,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_ponctuelle</Name>
@@ -9172,8 +9696,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_surfacique</Name>
@@ -9303,8 +9827,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cours_d_eau</Name>
@@ -9434,8 +9958,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:departement</Name>
@@ -9565,8 +10089,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_hydrographique</Name>
@@ -9696,8 +10220,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_orographique</Name>
@@ -9827,8 +10351,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:epci</Name>
@@ -9958,8 +10482,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:erp</Name>
@@ -10089,8 +10613,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:lieu_dit_non_habite</Name>
@@ -10220,8 +10744,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_orographique</Name>
@@ -10351,8 +10875,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_electrique</Name>
@@ -10482,8 +11006,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:limite_terre_mer</Name>
@@ -10613,8 +11137,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:non_communication</Name>
@@ -10744,8 +11268,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:noeud_hydrographique</Name>
@@ -10875,8 +11399,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:piste_d_aerodrome</Name>
@@ -11006,8 +11530,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:plan_d_eau</Name>
@@ -11137,8 +11661,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_de_repere</Name>
@@ -11268,8 +11792,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_du_reseau</Name>
@@ -11399,8 +11923,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:poste_de_transformation</Name>
@@ -11530,8 +12054,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:pylone</Name>
@@ -11661,8 +12185,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:route_numerotee_ou_nommee</Name>
@@ -11792,8 +12316,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:region</Name>
@@ -11923,8 +12447,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:reservoir</Name>
@@ -12054,8 +12578,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:section_de_points_de_repere</Name>
@@ -12185,8 +12709,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:surface_hydrographique</Name>
@@ -12316,8 +12840,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:terrain_de_sport</Name>
@@ -12447,8 +12971,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:transport_par_cable</Name>
@@ -12578,8 +13102,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_route</Name>
@@ -12709,8 +13233,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_voie_ferree</Name>
@@ -12840,8 +13364,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_hydrographique</Name>
@@ -12971,8 +13495,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_ferree_nommee</Name>
@@ -13102,8 +13626,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_nommee</Name>
@@ -13233,8 +13757,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_activite_ou_d_interet</Name>
@@ -13364,8 +13888,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_estran</Name>
@@ -13495,8 +14019,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_habitation</Name>
@@ -13626,8 +14150,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_de_vegetation</Name>
@@ -13757,8 +14281,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:equipement_de_transport</Name>
@@ -13888,8 +14412,8 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>
