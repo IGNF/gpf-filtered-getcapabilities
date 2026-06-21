@@ -638,8 +638,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>SECUROUTE.TE.PND</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TRANSPORTS-EXCEPTIONNELS" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TRANSPORTS-EXCEPTIONNELS" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TRANSPORTS-EXCEPTIONNELS" />
       <Style isDefault="true">
         <Title>FRANCHISSEMENTS PASSAGE A NIVEAU DIFFICILE</Title>
         <Abstract>Légende securoute franchissements PND</Abstract>
@@ -861,13 +861,13 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TRANSPORTS-EXCEPTIONNELS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TRANSPORTS-EXCEPTIONNELS" />
       <Style isDefault="true">
-        <Title>RESEAU ROUTIER TE94</Title>
-        <Abstract>Légende securoute réseau routier TE94</Abstract>
+        <Title>RESEAU ROUTIER TE72</Title>
+        <Abstract>Légende securoute réseau routier TE72</Abstract>
         <ows:Keywords>
           <ows:Keyword>TE</ows:Keyword>
         </ows:Keywords>
-        <ows:Identifier>RESEAU ROUTIER TE94</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE94-legend.png" width="300" height="103" minScaleDenominator="8000" maxScaleDenominator="10000000" />
+        <ows:Identifier>RESEAU ROUTIER TE72</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SECUROUTE.TE.TE72-legend.png" width="300" height="153" minScaleDenominator="8000" maxScaleDenominator="10000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -1134,8 +1134,8 @@
         <ows:UpperCorner>67.5485 51.2159</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>TRANSPORTS.DRONES.RESTRICTIONS</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=DGAC_RESTRICTIONS-UAS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_RESTRICTIONS-UAS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=DGAC_RESTRICTIONS-UAS" />
       <Style isDefault="true">
         <Title>Données TRANSPORTS.DRONES.RESTRICTIONS</Title>
         <Abstract>Style et légende associés au flux TRANSPORTS.DRONES.RESTRICTIONS</Abstract>

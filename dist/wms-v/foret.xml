@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="7647" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="8689" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -258,13 +258,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_BOISEMENT_2020-2024</Name>
@@ -363,13 +363,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_FLUX_DERNIERE-EDITION</Name>
@@ -398,13 +398,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_PROPRIETE_2020-2024</Name>
@@ -433,13 +433,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_PROPRIETE_DERNIERE-EDITION</Name>
@@ -468,13 +468,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_VOLUME_2020-2024</Name>
@@ -503,13 +503,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_DEPARTEMENTS_VOLUME_DERNIERE-EDITION</Name>
@@ -573,13 +573,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_REGIONS_BOISEMENT_DERNIERE-EDITION</Name>
@@ -608,13 +608,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_REGIONS_FLUX_2020-2024</Name>
@@ -713,13 +713,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_REGIONS_PROPRIETE_DERNIERE-EDITION</Name>
@@ -748,13 +748,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_REGIONS_VOLUME_2020-2024</Name>
@@ -783,13 +783,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_REGIONS_VOLUME_DERNIERE-EDITION</Name>
@@ -818,13 +818,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_BOISEMENT_2020-2024</Name>
@@ -853,13 +853,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_BOISEMENT_DERNIERE-EDITION</Name>
@@ -958,13 +958,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-4.8" miny="41.15" maxx="9.7475" maxy="51.2346875" />
         <BoundingBox CRS="EPSG:4326" minx="41.15" miny="-4.8" maxx="51.2346875" maxy="9.7475" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INDICATEURS_INVENTAIRE-FORESTIER-NATIONAL" />
         </MetadataURL>
         <Style>
           <Name>default-style-IGNF_INDICATEURS-FORESTIER_SYLVOECOREGIONS_PROPRIETE_2020-2024</Name>
