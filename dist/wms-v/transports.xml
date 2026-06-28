@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9870" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" updateSequence="9316" xsi:schemaLocation="http://www.opengis.net/wms https://data.geopf.fr/wms-v/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd">
   <Service>
     <Name>WMS</Name>
     <Title>API Géoplateforme - Diffusion d'images WMS-Vecteur</Title>
@@ -242,40 +242,6 @@
       </EX_GeographicBoundingBox>
       <BoundingBox CRS="CRS:84" minx="-180.0" miny="-89.9" maxx="180.0" maxy="89.9" />
       <Layer queryable="1">
-        <Name>DGAC-PGS-POI_BDD_FXX_WM_WM</Name>
-        <Title>Plan de gêne sonore, documents d'approbation (PGS)</Title>
-        <Abstract>Arrêté préfectoral d'approbation, pour chaque aérodrome, du plan de gêne sonore. Sources : Ministère de l'Ecologie, du Développement durable et de l'Energie</Abstract>
-        <KeywordList>
-          <Keyword>Ville et urbanisme</Keyword>
-        </KeywordList>
-        <CRS>EPSG:4326</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-1.607808</westBoundLongitude>
-          <eastBoundLongitude>7.529222</eastBoundLongitude>
-          <southBoundLatitude>43.436634</southBoundLatitude>
-          <northBoundLatitude>49.454422</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-1.607808" miny="43.436634" maxx="7.529222" maxy="49.454422" />
-        <BoundingBox CRS="EPSG:4326" minx="43.436634" miny="-1.607808" maxx="49.454422" maxy="7.529222" />
-        <Attribution>
-          <Title>DGAC (DTA, DSAC-IR, STAC et SNIA)</Title>
-          <OnlineResource xlink:type="simple" xlink:href="http://www.dac-s.aviation-civile.gouv.fr/spip.php?rubrique8" />
-          <LogoURL height="50" width="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/annexes/ressources/logos/dgac.gif" />
-          </LogoURL>
-        </Attribution>
-        <Style>
-          <Name>default-style-DGAC-PGS-POI_BDD_FXX_WM_WM</Name>
-          <Title>DGAC-PGS-POI_BDD_FXX_WM_WM style</Title>
-          <Abstract>Default style for DGAC-PGS-POI_BDD_FXX_WM_WM layer</Abstract>
-          <LegendURL width="20" height="20">
-            <Format>image/png</Format>
-            <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/wms-v/ows?service=WMS&amp;version=1.3.0&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=DGAC-PGS-POI_BDD_FXX_WM_WM" />
-          </LegendURL>
-        </Style>
-      </Layer>
-      <Layer queryable="1">
         <Name>dgac_peb_arrete_wmsv</Name>
         <Title>DGAC Plan d'Exposition au Bruit, documents d'approbation (PEB)</Title>
         <Abstract>Documents d'approbation des PEB</Abstract>
@@ -291,13 +257,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-61.528930664" miny="-21.322717285" maxx="55.51940918" maxy="50.689465332" />
         <BoundingBox CRS="EPSG:4326" minx="-21.322717285" miny="-61.528930664" maxx="50.689465332" maxy="55.51940918" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_d_Exposition_au_Bruit_PEB" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_d_Exposition_au_Bruit_PEB" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_d_Exposition_au_Bruit_PEB" />
         </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
@@ -363,13 +329,13 @@
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="CRS:84" minx="-1.647949219" miny="43.34777832" maxx="7.55859375" maxy="49.493286133" />
         <BoundingBox CRS="EPSG:4326" minx="43.34777832" miny="-1.647949219" maxx="49.493286133" maxy="7.55859375" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Gene_Sonore_PGS" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/catalogue/dataset/DGAC_Plan_de_Gene_Sonore_PGS" />
         </MetadataURL>
         <Style>
           <Name>default-style-dgac_pgs_plan_wmsv</Name>
@@ -384,19 +350,19 @@
       <Layer queryable="1">
         <Name>dgac_psa_arrete_wmsv</Name>
         <Title>DGAC Plan de Servitudes Aéronautique, documents d'approbation (PSA)</Title>
-        <Abstract>Documents d'approbation des PSA</Abstract>
+        <Abstract>**Documents d'approbation des PSA**</Abstract>
         <KeywordList>
           <Keyword>transportation</Keyword>
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-149.611816406</westBoundLongitude>
+          <westBoundLongitude>-176.204223633</westBoundLongitude>
           <eastBoundLongitude>167.459106445</eastBoundLongitude>
           <southBoundLatitude>-22.590228271</southBoundLatitude>
           <northBoundLatitude>51.040637207</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-149.611816406" miny="-22.590228271" maxx="167.459106445" maxy="51.040637207" />
-        <BoundingBox CRS="EPSG:4326" minx="-22.590228271" miny="-149.611816406" maxx="51.040637207" maxy="167.459106445" />
+        <BoundingBox CRS="CRS:84" minx="-176.204223633" miny="-22.590228271" maxx="167.459106445" maxy="51.040637207" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.590228271" miny="-176.204223633" maxx="51.040637207" maxy="167.459106445" />
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
@@ -424,20 +390,20 @@
         </KeywordList>
         <CRS>EPSG:4326</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-149.765625</westBoundLongitude>
+          <westBoundLongitude>-176.484375</westBoundLongitude>
           <eastBoundLongitude>167.6953125</eastBoundLongitude>
           <southBoundLatitude>-22.826171875</southBoundLatitude>
           <northBoundLatitude>51.27109375</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="CRS:84" minx="-149.765625" miny="-22.826171875" maxx="167.6953125" maxy="51.27109375" />
-        <BoundingBox CRS="EPSG:4326" minx="-22.826171875" miny="-149.765625" maxx="51.27109375" maxy="167.6953125" />
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
-        </MetadataURL>
+        <BoundingBox CRS="CRS:84" minx="-176.484375" miny="-22.826171875" maxx="167.6953125" maxy="51.27109375" />
+        <BoundingBox CRS="EPSG:4326" minx="-22.826171875" miny="-176.484375" maxx="51.27109375" maxy="167.6953125" />
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:type="simple" xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;elementSetName=full&amp;ID=DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_Plan_de_Servitudes_Aeronautique_documents_d_approbation_PSA" />
         </MetadataURL>
         <Style>
           <Name>default-style-dgac_psa_plan_wmsv</Name>

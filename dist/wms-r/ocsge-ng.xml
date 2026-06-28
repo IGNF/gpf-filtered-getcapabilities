@@ -325,13 +325,13 @@
           <northBoundLatitude>51.099099310285617</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -368,13 +368,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -474,6 +474,51 @@
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.ARTIF.2024-2026</Name>
+        <Title>OCS GE 2024-2026 - artificialisation</Title>
+        <Abstract>Occupation du sol grande échelle 2024-2026 - artificialisation</Abstract>
+        <KeywordList>
+          <Keyword>bloc 3</Keyword>
+          <Keyword>OCSGE</Keyword>
+          <Keyword>artificialisation</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.ARTIFICIALISATION</Title>
+          <Abstract>Style et légende associés au flux OCSGE.ARTIFICIALISATION</Abstract>
+          <LegendURL width="300" height="144">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE-ARTIFICIALISATION-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer>
         <Name>OCSGE.CONSTRUCTION.2016-2017</Name>
         <Title>OCS GE 2016-2017 - zones construites</Title>
@@ -497,13 +542,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -583,13 +628,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -598,6 +643,51 @@
           <LegendURL width="280" height="69">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.CONSTRUCTION.2024-2026</Name>
+        <Title>OCS GE 2024-2026 - zones construites</Title>
+        <Abstract>Occupation du sol grande échelle 2024-2026 - constructions</Abstract>
+        <KeywordList>
+          <Keyword>bloc 3</Keyword>
+          <Keyword>OCSGE</Keyword>
+          <Keyword>zones construites</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.CONSTRUCTION</Title>
+          <Abstract>Style et légende associés au flux OCSGE.CONSTRUCTION</Abstract>
+          <LegendURL width="300" height="50">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE.CONSTRUCTIONS-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
@@ -669,13 +759,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -733,6 +823,51 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>OCSGE.COUVERTURE.2024-2026</Name>
+        <Title>OCS GE 2024-2026 - couvertures</Title>
+        <Abstract>Occupation du sol grande échelle 2024-2026 - couvertures</Abstract>
+        <KeywordList>
+          <Keyword>bloc 3</Keyword>
+          <Keyword>couvertures</Keyword>
+          <Keyword>OCSGE</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.COUVERTURE</Title>
+          <Abstract>Style et légende associés au flux OCSGE.COUVERTURE</Abstract>
+          <LegendURL width="300" height="320">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE.COUVERTURE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>OCSGE.USAGE.2016-2017</Name>
         <Title>OCS GE 2016-2017 - usages</Title>
         <Abstract>Occupation du sol grande échelle 2016-2017 - usages</Abstract>
@@ -755,13 +890,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -841,6 +976,51 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données brutes</Title>
+          <Abstract>Données brutes, sans modification de canal</Abstract>
+          <LegendURL width="280" height="69">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE.USAGE.2024-2026</Name>
+        <Title>OCS GE 2024-2026 - usages</Title>
+        <Abstract>Occupation du sol grande échelle 2024-2026 - usages</Abstract>
+        <KeywordList>
+          <Keyword>bloc 3</Keyword>
+          <Keyword>OCSGE</Keyword>
+          <Keyword>usages</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161399310285617</westBoundLongitude>
+          <eastBoundLongitude>55.846499310285616</eastBoundLongitude>
+          <southBoundLatitude>-21.399799310285612</southBoundLatitude>
+          <northBoundLatitude>51.099099310285617</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
@@ -851,11 +1031,11 @@
         </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Données brutes</Title>
-          <Abstract>Données brutes, sans modification de canal</Abstract>
-          <LegendURL width="280" height="69">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          <Title>Données OCSGE.USAGE</Title>
+          <Abstract>Style et légende associés au flux OCSGE.USAGE</Abstract>
+          <LegendURL width="300" height="564">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ocsge/OCSGE_USAGE.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>

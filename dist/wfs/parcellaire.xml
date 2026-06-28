@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="4068">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3640">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -1175,13 +1175,13 @@
         <ows:LowerCorner>-2.111875 41.31265625</ows:LowerCorner>
         <ows:UpperCorner>9.589375 49.608125</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INAO_AOC-VITICOLES" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INAO_AOC-VITICOLES" />
     </FeatureType>
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:arrondissement</Name>
       <Title>PCI Vecteur : Arrondissements</Title>
-      <Abstract>Arrondissements ; Édition 2025-12-01</Abstract>
+      <Abstract>Arrondissements ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -1312,7 +1312,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_limite_propriete</Name>
       <Title>PCI Vecteur : Bornes de limite de propriété</Title>
-      <Abstract>Bornes de limite de propriété ; Édition 2025-12-01</Abstract>
+      <Abstract>Bornes de limite de propriété ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>borne_limite_propriete</ows:Keyword>
@@ -1443,7 +1443,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:batiment</Name>
       <Title>PCI Vecteur : Bâtiments</Title>
-      <Abstract>Bâtiments ; Édition 2025-12-01</Abstract>
+      <Abstract>Bâtiments ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment</ows:Keyword>
@@ -1574,7 +1574,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:commune</Name>
       <Title>PCI Vecteur : Communes</Title>
-      <Abstract>Communes ; Édition 2025-12-01</Abstract>
+      <Abstract>Communes ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -1705,7 +1705,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:feuille</Name>
       <Title>PCI Vecteur : Feuilles</Title>
-      <Abstract>Feuilles ; Édition 2025-12-01</Abstract>
+      <Abstract>Feuilles ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>feuille</ows:Keyword>
@@ -1836,7 +1836,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:borne_parcelle</Name>
       <Title>PCI Vecteur : Lien bornes parcelles</Title>
-      <Abstract>Lien bornes parcelles ; Édition 2025-12-01</Abstract>
+      <Abstract>Lien bornes parcelles ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>borne_parcelle</ows:Keyword>
@@ -1967,7 +1967,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:localisant</Name>
       <Title>PCI Vecteur : Localisants</Title>
-      <Abstract>Localisants ; Édition 2025-12-01</Abstract>
+      <Abstract>Localisants ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>localisant</ows:Keyword>
@@ -2098,7 +2098,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle</Name>
       <Title>PCI Vecteur : Parcelles</Title>
-      <Abstract>Parcelles ; Édition 2025-12-01</Abstract>
+      <Abstract>Parcelles ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>parcelle</ows:Keyword>
@@ -2229,7 +2229,7 @@
     <FeatureType>
       <Name>CADASTRALPARCELS.PARCELLAIRE_EXPRESS:subdivision_fiscale</Name>
       <Title>PCI Vecteur : Subdivisions fiscales</Title>
-      <Abstract>Subdivisions fiscales ; Édition 2025-12-01</Abstract>
+      <Abstract>Subdivisions fiscales ; Édition 2026-03-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>subdivision_fiscale</ows:Keyword>
