@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3593">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3743">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -7868,7 +7868,7 @@
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:adresse_ban</Name>
       <Title>Différentiel BDTOPO® : Adresses BAN</Title>
-      <Abstract>Adresses BAN − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Adresses BAN − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>adresse_ban</ows:Keyword>
@@ -7993,13 +7993,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:arrondissement</Name>
       <Title>Différentiel BDTOPO® : Arrondissements</Title>
-      <Abstract>Arrondissements − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Arrondissements − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>arrondissement</ows:Keyword>
@@ -8124,13 +8122,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:itineraire_autre</Name>
       <Title>Différentiel BDTOPO® : Autres itinéraires</Title>
-      <Abstract>Autres itinéraires − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Autres itinéraires − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>itineraire_autre</ows:Keyword>
@@ -8255,13 +8251,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:aerodrome</Name>
       <Title>Différentiel BDTOPO® : Aérodromes</Title>
-      <Abstract>Aérodromes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Aérodromes − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>aerodrome</ows:Keyword>
@@ -8386,13 +8380,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment</Name>
       <Title>Différentiel BDTOPO® : Bâtiments</Title>
-      <Abstract>Bâtiments − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Bâtiments − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment</ows:Keyword>
@@ -8517,13 +8509,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:batiment_rnb_lien_bdtopo</Name>
       <Title>Différentiel BDTOPO® : Bâtiments RNB lien BDTOPO</Title>
-      <Abstract>Bâtiments RNB lien BDTOPO − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Bâtiments RNB lien BDTOPO − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>batiment_rnb_lien_bdtopo</ows:Keyword>
@@ -8648,13 +8638,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canalisation</Name>
       <Title>Différentiel BDTOPO® : Canalisations</Title>
-      <Abstract>Canalisations − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Canalisations − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canalisation</ows:Keyword>
@@ -8779,13 +8767,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:canton</Name>
       <Title>Différentiel BDTOPO® : Cantons</Title>
-      <Abstract>Cantons − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Cantons − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>canton</ows:Keyword>
@@ -8910,13 +8896,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cimetiere</Name>
       <Title>Différentiel BDTOPO® : Cimetières</Title>
-      <Abstract>Cimetières − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Cimetières − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cimetiere</ows:Keyword>
@@ -9041,13 +9025,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:collectivite_territoriale</Name>
       <Title>Différentiel BDTOPO® : Collectivités territoriales</Title>
-      <Abstract>Collectivités territoriales − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Collectivités territoriales − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>collectivite_territoriale</ows:Keyword>
@@ -9172,13 +9154,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune</Name>
       <Title>Différentiel BDTOPO® : Communes</Title>
-      <Abstract>Communes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Communes − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune</ows:Keyword>
@@ -9303,13 +9283,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:commune_associee_ou_deleguee</Name>
       <Title>Différentiel BDTOPO® : Communes associées ou déléguées</Title>
-      <Abstract>Communes associées ou déléguées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Communes associées ou déléguées − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>commune_associee_ou_deleguee</ows:Keyword>
@@ -9434,13 +9412,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_lineaire</Name>
       <Title>Différentiel BDTOPO® : Constructions linéaires</Title>
-      <Abstract>Constructions linéaires − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Constructions linéaires − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_lineaire</ows:Keyword>
@@ -9565,13 +9541,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_ponctuelle</Name>
       <Title>Différentiel BDTOPO® : Constructions ponctuelles</Title>
-      <Abstract>Constructions ponctuelles − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Constructions ponctuelles − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_ponctuelle</ows:Keyword>
@@ -9696,13 +9670,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:construction_surfacique</Name>
       <Title>Différentiel BDTOPO® : Constructions surfaciques</Title>
-      <Abstract>Constructions surfaciques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Constructions surfaciques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>construction_surfacique</ows:Keyword>
@@ -9827,13 +9799,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:cours_d_eau</Name>
       <Title>Différentiel BDTOPO® : Cours d'eau</Title>
-      <Abstract>Cours d'eau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Cours d'eau − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>cours_d_eau</ows:Keyword>
@@ -9958,13 +9928,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:departement</Name>
       <Title>Différentiel BDTOPO® : Départements</Title>
-      <Abstract>Départements − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Départements − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>departement</ows:Keyword>
@@ -10089,13 +10057,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Détails hydrographiques</Title>
-      <Abstract>Détails hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Détails hydrographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_hydrographique</ows:Keyword>
@@ -10220,13 +10186,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:detail_orographique</Name>
       <Title>Différentiel BDTOPO® : Détails orographiques</Title>
-      <Abstract>Détails orographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Détails orographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>detail_orographique</ows:Keyword>
@@ -10351,13 +10315,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:epci</Name>
       <Title>Différentiel BDTOPO® : EPCI</Title>
-      <Abstract>EPCI − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>EPCI − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>epci</ows:Keyword>
@@ -10482,13 +10444,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:erp</Name>
       <Title>Différentiel BDTOPO® : ERP</Title>
-      <Abstract>ERP − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>ERP − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>erp</ows:Keyword>
@@ -10613,13 +10573,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:lieu_dit_non_habite</Name>
       <Title>Différentiel BDTOPO® : Lieux-dits non habités</Title>
-      <Abstract>Lieux-dits non habités − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Lieux-dits non habités − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lieu_dit_non_habite</ows:Keyword>
@@ -10744,13 +10702,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_orographique</Name>
       <Title>Différentiel BDTOPO® : Lignes orographiques</Title>
-      <Abstract>Lignes orographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Lignes orographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_orographique</ows:Keyword>
@@ -10875,13 +10831,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:ligne_electrique</Name>
       <Title>Différentiel BDTOPO® : Lignes électriques</Title>
-      <Abstract>Lignes électriques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Lignes électriques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>ligne_electrique</ows:Keyword>
@@ -11006,13 +10960,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:limite_terre_mer</Name>
       <Title>Différentiel BDTOPO® : Limites terre-mer</Title>
-      <Abstract>Limites terre-mer − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Limites terre-mer − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>limite_terre_mer</ows:Keyword>
@@ -11137,13 +11089,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:non_communication</Name>
       <Title>Différentiel BDTOPO® : Non-communications</Title>
-      <Abstract>Non-communications − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Non-communications − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>non_communication</ows:Keyword>
@@ -11268,13 +11218,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:noeud_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Nœuds hydrographiques</Title>
-      <Abstract>Nœuds hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Nœuds hydrographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>noeud_hydrographique</ows:Keyword>
@@ -11399,13 +11347,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:piste_d_aerodrome</Name>
       <Title>Différentiel BDTOPO® : Pistes d'aérodrome</Title>
-      <Abstract>Pistes d'aérodrome − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Pistes d'aérodrome − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>piste_d_aerodrome</ows:Keyword>
@@ -11530,13 +11476,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:plan_d_eau</Name>
       <Title>Différentiel BDTOPO® : Plans d'eau</Title>
-      <Abstract>Plans d'eau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Plans d'eau − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>plan_d_eau</ows:Keyword>
@@ -11661,13 +11605,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_de_repere</Name>
       <Title>Différentiel BDTOPO® : Points de repère</Title>
-      <Abstract>Points de repère − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Points de repère − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_de_repere</ows:Keyword>
@@ -11792,13 +11734,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:point_du_reseau</Name>
       <Title>Différentiel BDTOPO® : Points de réseau</Title>
-      <Abstract>Points de réseau − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Points de réseau − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>point_du_reseau</ows:Keyword>
@@ -11923,13 +11863,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:poste_de_transformation</Name>
       <Title>Différentiel BDTOPO® : Postes de transformation</Title>
-      <Abstract>Postes de transformation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Postes de transformation − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>poste_de_transformation</ows:Keyword>
@@ -12054,13 +11992,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:pylone</Name>
       <Title>Différentiel BDTOPO® : Pylônes</Title>
-      <Abstract>Pylônes − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Pylônes − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>pylone</ows:Keyword>
@@ -12185,13 +12121,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:route_numerotee_ou_nommee</Name>
       <Title>Différentiel BDTOPO® : Routes numérotées et routes nommées</Title>
-      <Abstract>Routes numérotées et routes nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Routes numérotées et routes nommées − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>route_numerotee_ou_nommee</ows:Keyword>
@@ -12316,13 +12250,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:region</Name>
       <Title>Différentiel BDTOPO® : Régions</Title>
-      <Abstract>Régions − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Régions − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>region</ows:Keyword>
@@ -12447,13 +12379,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:reservoir</Name>
       <Title>Différentiel BDTOPO® : Réservoirs</Title>
-      <Abstract>Réservoirs − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Réservoirs − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>reservoir</ows:Keyword>
@@ -12578,13 +12508,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:section_de_points_de_repere</Name>
       <Title>Différentiel BDTOPO® : Sections de points de repère</Title>
-      <Abstract>Sections de points de repère − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Sections de points de repère − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>section_de_points_de_repere</ows:Keyword>
@@ -12709,13 +12637,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:surface_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Surfaces hydrographiques</Title>
-      <Abstract>Surfaces hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Surfaces hydrographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>surface_hydrographique</ows:Keyword>
@@ -12840,13 +12766,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:terrain_de_sport</Name>
       <Title>Différentiel BDTOPO® : Terrains de sport</Title>
-      <Abstract>Terrains de sport − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Terrains de sport − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>terrain_de_sport</ows:Keyword>
@@ -12971,13 +12895,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:transport_par_cable</Name>
       <Title>Différentiel BDTOPO® : Transports par câble</Title>
-      <Abstract>Transports par câble − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Transports par câble − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>transport_par_cable</ows:Keyword>
@@ -13102,13 +13024,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_route</Name>
       <Title>Différentiel BDTOPO® : Tronçons de route</Title>
-      <Abstract>Tronçons de route − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Tronçons de route − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_route</ows:Keyword>
@@ -13233,13 +13153,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_de_voie_ferree</Name>
       <Title>Différentiel BDTOPO® : Tronçons de voie ferrée</Title>
-      <Abstract>Tronçons de voie ferrée − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Tronçons de voie ferrée − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_de_voie_ferree</ows:Keyword>
@@ -13364,13 +13282,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:troncon_hydrographique</Name>
       <Title>Différentiel BDTOPO® : Tronçons hydrographiques</Title>
-      <Abstract>Tronçons hydrographiques − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Tronçons hydrographiques − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>troncon_hydrographique</ows:Keyword>
@@ -13495,13 +13411,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_ferree_nommee</Name>
       <Title>Différentiel BDTOPO® : Voies ferrées nommées</Title>
-      <Abstract>Voies ferrées nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Voies ferrées nommées − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_ferree_nommee</ows:Keyword>
@@ -13626,13 +13540,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:voie_nommee</Name>
       <Title>Différentiel BDTOPO® : Voies nommées</Title>
-      <Abstract>Voies nommées − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Voies nommées − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>voie_nommee</ows:Keyword>
@@ -13757,13 +13669,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_activite_ou_d_interet</Name>
       <Title>Différentiel BDTOPO® : Zones d'activité et zones d'intérêt</Title>
-      <Abstract>Zones d'activité et zones d'intérêt − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Zones d'activité et zones d'intérêt − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_activite_ou_d_interet</ows:Keyword>
@@ -13888,13 +13798,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_estran</Name>
       <Title>Différentiel BDTOPO® : Zones d'estran</Title>
-      <Abstract>Zones d'estran − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Zones d'estran − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_estran</ows:Keyword>
@@ -14019,13 +13927,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_d_habitation</Name>
       <Title>Différentiel BDTOPO® : Zones d'habitation</Title>
-      <Abstract>Zones d'habitation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Zones d'habitation − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_d_habitation</ows:Keyword>
@@ -14150,13 +14056,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:zone_de_vegetation</Name>
       <Title>Différentiel BDTOPO® : Zones de végétation</Title>
-      <Abstract>Zones de végétation − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Zones de végétation − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>zone_de_vegetation</ows:Keyword>
@@ -14281,13 +14185,11 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
     <FeatureType>
       <Name>BDTOPO_V3_DIFF:equipement_de_transport</Name>
       <Title>Différentiel BDTOPO® : Équipements de transport</Title>
-      <Abstract>Équipements de transport − Différentiel BDTOPO® entre les éditions 2025-12-15 et 2026-03-15</Abstract>
+      <Abstract>Équipements de transport − Différentiel BDTOPO® 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>equipement_de_transport</ows:Keyword>
@@ -14412,8 +14314,6 @@
         <ows:LowerCorner>-63.28125 -21.77265625</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.9734375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-TOPO" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-TOPO" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>
