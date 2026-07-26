@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3598">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="5027">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -398,7 +398,7 @@
     <FeatureType>
       <Name>BAN-PLUS:adresse</Name>
       <Title>adresse</Title>
-      <Abstract>adresse ; BAN PLUS édition : 2026-03-15</Abstract>
+      <Abstract>adresse ; BAN PLUS édition : 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>adresse</ows:Keyword>
@@ -523,13 +523,13 @@
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_bati</Name>
       <Title>lien adresse batiment</Title>
-      <Abstract>lien adresse batiment ; BAN PLUS édition : 2026-03-15</Abstract>
+      <Abstract>lien adresse batiment ; BAN PLUS édition : 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lien_adresse_bati</ows:Keyword>
@@ -654,13 +654,13 @@
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_parcelle</Name>
       <Title>lien adresse parcelle</Title>
-      <Abstract>lien adresse parcelle ; BAN PLUS édition : 2026-03-15</Abstract>
+      <Abstract>lien adresse parcelle ; BAN PLUS édition : 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lien_adresse_parcelle</ows:Keyword>
@@ -785,13 +785,13 @@
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_adresse_support</Name>
       <Title>lien adresse support</Title>
-      <Abstract>lien adresse support ; BAN PLUS édition : 2026-03-15</Abstract>
+      <Abstract>lien adresse support ; BAN PLUS édition : 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>lien_adresse_support</ows:Keyword>
         <ows:Keyword>features</ows:Keyword>
@@ -916,13 +916,13 @@
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
     <FeatureType>
       <Name>BAN-PLUS:lien_bati_parcelle</Name>
       <Title>lien batiment parcelle</Title>
-      <Abstract>lien batiment parcelle ; BAN PLUS édition : 2026-03-15</Abstract>
+      <Abstract>lien batiment parcelle ; BAN PLUS édition : 2026-06-15</Abstract>
       <ows:Keywords>
         <ows:Keyword>features</ows:Keyword>
         <ows:Keyword>lien_bati_parcelle</ows:Keyword>
@@ -1047,8 +1047,8 @@
         <ows:LowerCorner>-61.80792925 -21.38749008</ows:LowerCorner>
         <ows:UpperCorner>55.83211236 51.0823567</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BAN-PLUS" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BAN-PLUS" />
     </FeatureType>
   </FeatureTypeList>
   <fes:Filter_Capabilities>
