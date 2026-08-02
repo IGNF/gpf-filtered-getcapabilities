@@ -2987,6 +2987,117 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
+      <ows:Title>Interdiction ZAER toutes EnR sauf toiture (loi APER)</ows:Title>
+      <ows:Abstract>Zonages environnementaux excluant toutes EnR (+éolien) des zones d'accélération sauf pour les toitures. Ces données sont issues de travaux réalisés par l'OFB dans le cadre de l'application de la loi APER.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>toitures</ows:Keyword>
+        <ows:Keyword>loi aper</ows:Keyword>
+        <ows:Keyword>enr</ows:Keyword>
+        <ows:Keyword>zaer</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.1619 -21.3896</ows:LowerCorner>
+        <ows:UpperCorner>55.8367 51.089</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>OFB_INTERDICTION-ZAER-SAUF-TOITURE</ows:Identifier>
+      <Style isDefault="true">
+        <Title>OFB_INTERDICTION-ZAER-SAUF-TOITURE</Title>
+        <Abstract>Style et légende associés au flux OFB_INTERDICTION-ZAER-SAUF-TOITURE-legend</Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ENR/OFB_INTERDICTION-ZAER-SAUF-TOITURE-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>21</MinTileRow>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>42</MinTileRow>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>85</MinTileRow>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>171</MinTileRow>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>342</MinTileRow>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>2739</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>5478</MinTileRow>
+            <MaxTileRow>9188</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>10957</MinTileRow>
+            <MaxTileRow>18377</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21466</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>21914</MinTileRow>
+            <MaxTileRow>36755</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42932</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
       <ows:Title>Parkings de plus de 500m²</ows:Title>
       <ows:Abstract>Parkings de plus de 500m²</ows:Abstract>
       <ows:Keywords>

@@ -733,8 +733,7 @@ wmts,enr,ENREZO.ZONE.POTENTIEL.FROID
 wmts,enr,GAZ.RESEAU.DISTRIBUTION
 wmts,enr,GAZ.RESEAU.TRANSPORT
 wmts,enr,LOCALISATION.MATS.EOLIEN
-wmts,enr,OFB.ZONES.EXCLUES
-wmts,enr,OFB.ZONES.EXCLUES.SAUF.TOITURE
+wmts,enr,OFB_INTERDICTION-ZAER-SAUF-TOITURE
 wmts,enr,OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE
 wmts,enr,PARKING.SUP.500
 wmts,enr,PART.ENR.COMMUNE
@@ -768,6 +767,7 @@ wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2016:formations_vegetales_d976
 wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2017:formations_vegetales_d972_2017
 wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2022:formations_vegetales_d972_2022
 wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2023:formations_vegetales_d976_2023
+wfs,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2024:formations_vegetales_d971_2024
 wfs,environnement,IGNF_MASQUE-FORET.2021-2023:masque_foret
 wfs,environnement,INPE:inpe
 wfs,environnement,LANDCOVER.FORESTINVENTORY.V1:resu_bdv1_shape
@@ -796,6 +796,7 @@ wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2016
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2017
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2022
 wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2023
+wms-v,environnement,IGNF_CARTO-FORMATIONS-VEGETALES_2024
 wms-v,environnement,IGNF_SITES-UNESCO
 wms-v,environnement,INPE
 wms-v,environnement,MESURES_COMPENSATOIRES
