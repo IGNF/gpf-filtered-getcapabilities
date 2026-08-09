@@ -94,8 +94,8 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ARCHIVES-NATIONALES_CASSINI-ROI" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ARCHIVES-NATIONALES_CASSINI-ROI" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -222,11 +222,11 @@
         <ows:UpperCorner>9.96282 51.8839</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/BNF_CASSINI-MARIE-ANTOINETTE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=BNF_CASSINI-MARIE-ANTOINETTE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/BNF_CASSINI-MARIE-ANTOINETTE" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -315,8 +315,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.1900TYPEMAPS</ows:Identifier>
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -384,8 +384,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.BONNE</ows:Identifier>
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -490,8 +490,8 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-10K" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-10K" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -594,11 +594,11 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40</ows:Identifier>
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-EM-40K" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-EM-40K" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-EM-40K" />
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -691,8 +691,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.MAPS.BDUNI.J1</ows:Identifier>
       <Style isDefault="true">
-        <Title>Données Brutes</Title>
-        <Abstract>Données brutes sans changement de palette</Abstract>
+        <ows:Title>Données Brutes</ows:Title>
+        <ows:Abstract>Données brutes sans changement de palette</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -851,8 +851,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.MAPS.OVERVIEW</ows:Identifier>
       <Style isDefault="true">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -933,12 +933,12 @@
         <ows:UpperCorner>179.5 75</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-50-HISTO" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-50-HISTO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-50-HISTO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-50-HISTO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_SCAN-50-HISTO" />
       <Style isDefault="true">
-        <Title>SCAN 50 historique</Title>
-        <Abstract>Légende des la couche SCAN 50 historique</Abstract>
+        <ows:Title>SCAN 50 historique</ows:Title>
+        <ows:Abstract>Légende des la couche SCAN 50 historique</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SCAN50</ows:Keyword>
           <ows:Keyword>1950</ows:Keyword>
@@ -947,8 +947,8 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950-legend.png" width="300" height="8771" minScaleDenominator="17000" maxScaleDenominator="70000000" />
       </Style>
       <Style isDefault="false">
-        <Title>Légende générique</Title>
-        <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
+        <ows:Title>Légende générique</ows:Title>
+        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1064,11 +1064,11 @@
         <ows:UpperCorner>179.9 85</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <Style isDefault="true">
-        <Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
-        <Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
+        <ows:Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Title>
+        <ows:Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1235,8 +1235,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V1</ows:Identifier>
       <Style isDefault="true">
-        <Title>Données sans légende</Title>
-        <Abstract>Sans aucun fichier de légende</Abstract>
+        <ows:Title>Données sans légende</ows:Title>
+        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1354,8 +1354,8 @@
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.TERRIER_V2</ows:Identifier>
       <Style isDefault="true">
-        <Title>Données sans légende</Title>
-        <Abstract>Sans aucun fichier de légende</Abstract>
+        <ows:Title>Données sans légende</ows:Title>
+        <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -1474,8 +1474,8 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-1000" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-1000" />
       <Style isDefault="true">
-        <Title>Légende du 1/1000000</Title>
-        <Abstract>Légende associée au Scan1000</Abstract>
+        <ows:Title>Légende du 1/1000000</ows:Title>
+        <ows:Abstract>Légende associée au Scan1000</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SCAN1000</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -1581,8 +1581,8 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_SCAN-REGIONAL" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-REGIONAL" />
       <Style isDefault="true">
-        <Title>Légende du 1/1000000</Title>
-        <Abstract>Légende associée au SCANREGIONAL</Abstract>
+        <ows:Title>Légende du 1/1000000</ows:Title>
+        <ows:Abstract>Légende associée au SCANREGIONAL</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>SCANREG</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>

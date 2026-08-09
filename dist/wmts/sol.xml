@@ -91,8 +91,8 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
       <Style isDefault="true">
-        <Title>Données BDCARTO_ETAT-MAJOR.NIVEAU3</Title>
-        <Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU3</Abstract>
+        <ows:Title>Données BDCARTO_ETAT-MAJOR.NIVEAU3</ows:Title>
+        <ows:Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU3</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>BDCARTO_ETAT-MAJOR3</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -199,11 +199,11 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>BDCARTO_ETAT-MAJOR.NIVEAU4</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-CARTO-EM" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-CARTO-EM" />
       <Style isDefault="true">
-        <Title>Données BDCARTO_ETAT-MAJOR.NIVEAU4</Title>
-        <Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU4</Abstract>
+        <ows:Title>Données BDCARTO_ETAT-MAJOR.NIVEAU4</ows:Title>
+        <ows:Abstract>Légende associée a BDCARTO_ETAT-MAJOR.NIVEAU4</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>BDCARTO_ETAT-MAJOR4</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -313,8 +313,8 @@
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <Style isDefault="true">
-        <Title>Données CoSIA</Title>
-        <Abstract>Légende associée a CoSIA</Abstract>
+        <ows:Title>Données CoSIA</ows:Title>
+        <ows:Abstract>Légende associée a CoSIA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CoSIA</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -431,11 +431,11 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_COSIA_2021-2023</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <Style isDefault="true">
-        <Title>Données CoSIA</Title>
-        <Abstract>Légende associée a CoSIA</Abstract>
+        <ows:Title>Données CoSIA</ows:Title>
+        <ows:Abstract>Légende associée a CoSIA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CoSIA</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -555,8 +555,8 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_COSIA" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_COSIA" />
       <Style isDefault="true">
-        <Title>Données CoSIA</Title>
-        <Abstract>Légende associée a CoSIA</Abstract>
+        <ows:Title>Données CoSIA</ows:Title>
+        <ows:Abstract>Légende associée a CoSIA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CoSIA</ows:Keyword>
           <ows:Keyword>1/1000000</ows:Keyword>
@@ -673,11 +673,11 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INRA.CARTE.SOLS</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_CARTE-DES-SOLS" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INRAE_CARTE-DES-SOLS" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_CARTE-DES-SOLS" />
       <Style isDefault="true">
-        <Title>CARTE DES SOLS</Title>
-        <Abstract>Légende de la carte des sols de l'INRA</Abstract>
+        <ows:Title>CARTE DES SOLS</ows:Title>
+        <ows:Abstract>Légende de la carte des sols de l'INRA</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>INSEE</ows:Keyword>
         </ows:Keywords>
@@ -786,11 +786,11 @@
         <ows:UpperCorner>9.5705 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PARCS-ET-JARDINS.2021-2023</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCS-JARDINS-PUBLICS-OUVERTS-PUBLIC" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PARCS-JARDINS-PUBLICS-OUVERTS-PUBLIC" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCS-JARDINS-PUBLICS-OUVERTS-PUBLIC" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>

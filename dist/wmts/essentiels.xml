@@ -92,8 +92,8 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PARCELLAIRE-EXPRESS-PCI" />
       <Style isDefault="true">
-        <Title>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</Title>
-        <Abstract>Style et légende associés au flux CADASTRALPARCELS.PARCELLAIRE_EXPRESS</Abstract>
+        <ows:Title>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Title>
+        <ows:Abstract>Style et légende associés au flux CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -101,8 +101,8 @@
         <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/CADASTRALPARCELS.PARCELLAIRE_EXPRESS-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Style isDefault="false">
-        <Title>PCI vecteur</Title>
-        <Abstract>Légende de la couche PCI vecteur</Abstract>
+        <ows:Title>PCI vecteur</ows:Title>
+        <ows:Abstract>Légende de la couche PCI vecteur</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>CADASTRALPARCELS.PARCELLAIRE_EXPRESS</ows:Keyword>
         </ows:Keywords>
@@ -271,11 +271,11 @@
         <ows:UpperCorner>179.9 85</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PLAN-IGN" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PLAN-IGN" />
       <Style isDefault="true">
-        <Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Title>
-        <Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</Abstract>
+        <ows:Title>Données GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Title>
+        <ows:Abstract>Style et légende associés au flux GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -442,11 +442,11 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNH_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNH-LIDAR-HD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNH-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNH-LIDAR-HD" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -609,8 +609,8 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNS-LIDAR-HD" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNS-LIDAR-HD" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -770,11 +770,11 @@
         <ows:UpperCorner>179.9 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNT-LIDAR-HD" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNT-LIDAR-HD" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MNT-LIDAR-HD" />
       <Style isDefault="true">
-        <Title>Données brutes</Title>
-        <Abstract>Données brutes, sans modification de canal</Abstract>
+        <ows:Title>Données brutes</ows:Title>
+        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
@@ -932,11 +932,11 @@
         <ows:UpperCorner>180 80</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>ORTHOIMAGERY.ORTHOPHOTOS</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-ORTHO" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO" />
       <Style isDefault="true">
-        <Title>ORTHOIMAGERY.ORTHOPHOTOS</Title>
-        <Abstract>Style et légende associés au flux ORTHOIMAGERY.ORTHOPHOTOS</Abstract>
+        <ows:Title>ORTHOIMAGERY.ORTHOPHOTOS</ows:Title>
+        <ows:Abstract>Style et légende associés au flux ORTHOIMAGERY.ORTHOPHOTOS</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
