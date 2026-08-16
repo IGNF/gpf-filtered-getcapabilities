@@ -78,325 +78,6 @@
   </ows:OperationsMetadata>
   <Contents>
     <Layer>
-      <ows:Title>Zones franches urbaines</ows:Title>
-      <ows:Abstract>Zones franches créées au sein de quartiers de plus de 8 500 habitants particulièrement défavorisés, en tenant compte des éléments de nature à faciliter l’implantation d’entreprises ou le développement d’activités économiques.</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Zones de gestion</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>AREAMANAGEMENT.ZFU</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Zones urbaines sensibles</ows:Title>
-      <ows:Abstract>Zones urbaines caractérisées par la présence de grands ensembles ou de quartiers d’habitat dégradé et par un déséquilibre accentué entre l’habitat et l’emploi.</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Zones de gestion</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>AREAMANAGEMENT.ZUS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Quartiers prioritaires</ows:Title>
-      <ows:Abstract>&lt;div style="text-align:justify;"&gt;Les quartiers prioritaires de la politique de la ville sont issus de la loi de programmation pour la ville et cohésion urbaine n° 2014-173 du 21 février 2014.&lt;br/&gt; &lt;div style="text-decoration:underline;"&gt;&lt;a href="http://www.ville.gouv.fr/?geographie-prioritaire-de-la" alt="http://www.ville.gouv.fr/?geographie-prioritaire-de-la"&gt;Téléchargement des données&lt;/a&gt;&lt;/div&gt;&lt;br/&gt; Sources : Commissariat Général à l'Egalité des Territoires :  1er janvier 2015&lt;/div&gt;</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Ville et urbanisme</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>COMMUNES.PRIORITYDISCTRICT</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_17</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>17</TileMatrix>
-            <MinTileRow>43698</MinTileRow>
-            <MaxTileRow>73544</MaxTileRow>
-            <MinTileCol>42462</MinTileCol>
-            <MaxTileCol>85897</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
       <ows:Title>Zonage du dispositif Pinel en Bretagne 2020-2021</ows:Title>
       <ows:Abstract>La réduction d'impôt « Pinel » (code général des impôts) s'applique à l’investissement locatif réalisé dans les zones où la tension entre l'offre et la demande de logements est la plus forte. La loi n°2019-1479 du 28 décembre 2019 de finances pour 2020, prévoit à titre expérimental, un dispositif dérogatoire au droit commun pour la Bretagne. Ainsi, les communes ou parties de communes éligibles à la réduction d'impôt « Pinel » sont fixées par arrêté du préfet de région. Cet arrêté est pris après avis du président du conseil régional et du comité régional de l'habitat et de l'hébergement. Cet article prévoit également que le préfet de région fixe, par arrêté, les plafonds de loyer et de ressources du locataire pour chaque commune ou partie de commune éligible et par type de logement. L’une des particularités de cette expérimentation réside dans l’éligibilité du dispositif qui peut être limitée à une partie seulement du territoire communal. Lorsqu’une commune n’est éligible que pour une partie de son territoire, deux approches sont distinguées, à savoir à la maille de l’IRIS (correspondant à un quartier) ou à la maille du carreau de 200 mètres sur 200 mètres.</ows:Abstract>
       <ows:Keywords>
@@ -529,8 +210,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.ENFANTS.0.17.ANS.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -639,8 +320,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.LOGEMENTS.SURFACE.MOYENNE.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -859,8 +540,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.FAMILLES.MONOPARENTALES.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1079,8 +760,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.INDIVIDUS.40.54.ANS.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1189,8 +870,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.INDIVIDUS.55.64.ANS.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1409,8 +1090,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.AVANT.1945.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1519,8 +1200,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.COLLECTIFS.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1629,8 +1310,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.LOGEMENTS.CONSTRUITS.1945.1970.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -1959,8 +1640,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.1.PERSONNE.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -2179,8 +1860,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.MAISON.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
@@ -2399,8 +2080,8 @@
         <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>INSEE.FILOSOFI.PART.MENAGES.PROPRIETAIRES.SECRET</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INSEE_DONNEES" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES" />
       <Style isDefault="true">
         <ows:Title>INSEE</ows:Title>
         <ows:Abstract>Légende INSEE</ows:Abstract>
