@@ -79,7 +79,7 @@
   <Contents>
     <Layer>
       <ows:Title>Parcellaire cadastral</ows:Title>
-      <ows:Abstract>Parcellaire cadastral édition : 2026-03-01</ows:Abstract>
+      <ows:Abstract>Parcellaire cadastral édition : 2026-06-01</ows:Abstract>
       <ows:Keywords>
         <ows:Keyword>Parcelles cadastrales</ows:Keyword>
       </ows:Keywords>
@@ -193,8 +193,8 @@
         <ows:UpperCorner>10 52</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>CADASTRALPARCELS.PARCELS.L93</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-PARCELLAIRE" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-PARCELLAIRE" />
       <Style isDefault="true">
         <ows:Title>BD Parcellaire Noire et transparente</ows:Title>
         <ows:Abstract>tracé noir sur fond transparent</ows:Abstract>

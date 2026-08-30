@@ -293,13 +293,13 @@
           <northBoundLatitude>51.099099310285617</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -325,13 +325,13 @@
           <northBoundLatitude>51.099099310285617</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-7031094.8090116149" maxx="6216803.8658078983" miny="-2439614.7315545054" maxy="6638841.9993630853" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INSTALLATIONS-PHOTOVOLTAIQUES-SOL" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -343,6 +343,147 @@
           </LegendURL>
         </Style>
         <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE-ARTIFICIALISATION-EXEMPTIONS_2016-2017</Name>
+        <Title>OCSGE Surfaces artificialisées avec Exemptions 2016-2017</Title>
+        <Abstract>Couche des surfaces artificialisées calculées à partir de l'OCS GE, prenant en compte les exemptions des parcs et jardins publics et des parcs photovoltaïques.</Abstract>
+        <KeywordList>
+          <Keyword>Artificialisation</Keyword>
+          <Keyword> Parcs et Jardins</Keyword>
+          <Keyword> OCS GE</Keyword>
+          <Keyword> ZAN</Keyword>
+          <Keyword> Parcs Photovoltaïques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
+          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
+          <southBoundLatitude>41.325200689714393</southBoundLatitude>
+          <northBoundLatitude>51.099099310285609</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.ARTIFICIALISATION</Title>
+          <Abstract>Style et légende associés au flux OCSGE.ARTIFICIALISATION</Abstract>
+          <LegendURL width="300" height="144">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE-ARTIFICIALISATION-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE-ARTIFICIALISATION-EXEMPTIONS_2017-2020</Name>
+        <Title>OCSGE Surfaces artificialisées avec Exemptions 2017-2020</Title>
+        <Abstract>Couche des surfaces artificialisées calculées à partir de l'OCS GE, prenant en compte les exemptions des parcs et jardins publics et des parcs photovoltaïques.</Abstract>
+        <KeywordList>
+          <Keyword>Artificialisation</Keyword>
+          <Keyword> Parcs et Jardins</Keyword>
+          <Keyword> OCS GE</Keyword>
+          <Keyword> ZAN</Keyword>
+          <Keyword> Parcs Photovoltaïques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161899310285619</westBoundLongitude>
+          <eastBoundLongitude>55.836699310285617</eastBoundLongitude>
+          <southBoundLatitude>-21.389599310285615</southBoundLatitude>
+          <northBoundLatitude>51.088999310285615</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031150.4687570119" maxx="6215712.9347981242" miny="-2438395.2368391212" maxy="6637051.795055219" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.ARTIFICIALISATION</Title>
+          <Abstract>Style et légende associés au flux OCSGE.ARTIFICIALISATION</Abstract>
+          <LegendURL width="300" height="144">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE-ARTIFICIALISATION-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>OCSGE-ARTIFICIALISATION-EXEMPTIONS_2021-2023</Name>
+        <Title>OCSGE Surfaces artificialisées avec Exemptions 2021-2023</Title>
+        <Abstract>Couche des surfaces artificialisées calculées à partir de l'OCS GE, prenant en compte les exemptions des parcs et jardins publics et des parcs photovoltaïques.</Abstract>
+        <KeywordList>
+          <Keyword>Artificialisation</Keyword>
+          <Keyword> Parcs et Jardins</Keyword>
+          <Keyword> OCS GE</Keyword>
+          <Keyword> ZAN</Keyword>
+          <Keyword> Parcs Photovoltaïques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161899310285619</westBoundLongitude>
+          <eastBoundLongitude>55.836699310285617</eastBoundLongitude>
+          <southBoundLatitude>-21.389599310285615</southBoundLatitude>
+          <northBoundLatitude>51.088999310285615</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031150.4687570119" maxx="6215712.9347981242" miny="-2438395.2368391212" maxy="6637051.795055219" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données OCSGE.ARTIFICIALISATION</Title>
+          <Abstract>Style et légende associés au flux OCSGE.ARTIFICIALISATION</Abstract>
+          <LegendURL width="300" height="144">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/OCSGE-ARTIFICIALISATION-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
@@ -499,13 +640,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE-ARTIFICIALISATION" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -716,13 +857,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_OCS-GE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_OCS-GE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
