@@ -193,8 +193,8 @@
         <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>DEBROUSSAILLEMENT</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_DEBROUSSAILLEMENT" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_DEBROUSSAILLEMENT" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_DEBROUSSAILLEMENT" />
       <Style isDefault="true">
         <ows:Title>Données sans légende</ows:Title>
         <ows:Abstract>Sans aucun fichier de légende</ows:Abstract>
@@ -660,31 +660,35 @@
       </TileMatrixSetLink>
     </Layer>
     <Layer>
-      <ows:Title>Masque Forêt 2021-2023</ows:Title>
-      <ows:Abstract>Le Masque Forêt V1 permet de localiser les surfaces de forêt présentes en France métropolitaine. Il contient également une information sur l’usage des forêts.</ows:Abstract>
+      <ows:Title>Masque cartographies des formations végétales Martinique 2004</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
       <ows:Keywords>
-        <ows:Keyword>localisation des forêts </ows:Keyword>
-        <ows:Keyword>forêts urbaines </ows:Keyword>
-        <ows:Keyword>forêt à usage agricole </ows:Keyword>
-        <ows:Keyword>forêt </ows:Keyword>
-        <ows:Keyword>limites des forêts </ows:Keyword>
-        <ows:Keyword>contours des forêts </ows:Keyword>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
       </ows:Keywords>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.52321 41.3215</ows:LowerCorner>
-        <ows:UpperCorner>9.65507 50.9718</ows:UpperCorner>
+        <ows:LowerCorner>-61.229 14.3886</ows:LowerCorner>
+        <ows:UpperCorner>-60.8097 14.8787</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <ows:Identifier>IGNF_MASQUE-FORET.2021-2023</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MASQUE-FORET" />
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2004</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
       <Style isDefault="true">
-        <ows:Title>Données IGNF_MASQUE-FORET.2021-2023</ows:Title>
-        <ows:Abstract>Style et légende associés au flux IGNF_MASQUE-FORET.2021-2023</ows:Abstract>
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_MASQUE-FORET_2021-2023-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
@@ -692,80 +696,902 @@
         <TileMatrixSetLimits>
           <TileMatrixLimits>
             <TileMatrix>6</TileMatrix>
+            <MinTileRow>29</MinTileRow>
+            <MaxTileRow>29</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>21</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>58</MinTileRow>
+            <MaxTileRow>58</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>42</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>117</MinTileRow>
+            <MaxTileRow>117</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>84</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>234</MinTileRow>
+            <MaxTileRow>235</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>169</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>469</MinTileRow>
+            <MaxTileRow>470</MaxTileRow>
+            <MinTileCol>337</MinTileCol>
+            <MaxTileCol>339</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>938</MinTileRow>
+            <MaxTileRow>941</MaxTileRow>
+            <MinTileCol>675</MinTileCol>
+            <MaxTileCol>678</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1876</MinTileRow>
+            <MaxTileRow>1882</MaxTileRow>
+            <MinTileCol>1351</MinTileCol>
+            <MaxTileCol>1356</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>3753</MinTileRow>
+            <MaxTileRow>3765</MaxTileRow>
+            <MinTileCol>2702</MinTileCol>
+            <MaxTileCol>2712</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>7507</MinTileRow>
+            <MaxTileRow>7530</MaxTileRow>
+            <MinTileCol>5405</MinTileCol>
+            <MaxTileCol>5424</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>15014</MinTileRow>
+            <MaxTileRow>15060</MaxTileRow>
+            <MinTileCol>10810</MinTileCol>
+            <MaxTileCol>10848</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>30028</MinTileRow>
+            <MaxTileRow>30120</MaxTileRow>
+            <MinTileCol>21621</MinTileCol>
+            <MaxTileCol>21697</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Guadeloupe 2010</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.8098 15.832</ows:LowerCorner>
+        <ows:UpperCorner>-61.002 16.5145</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2010</ows:Identifier>
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>29</MinTileRow>
+            <MaxTileRow>29</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>21</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>58</MinTileRow>
+            <MaxTileRow>58</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>42</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>116</MinTileRow>
+            <MaxTileRow>116</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>84</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>232</MinTileRow>
+            <MaxTileRow>233</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>169</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>464</MinTileRow>
+            <MaxTileRow>466</MaxTileRow>
+            <MinTileCol>336</MinTileCol>
+            <MaxTileCol>338</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>928</MinTileRow>
+            <MaxTileRow>932</MaxTileRow>
+            <MinTileCol>672</MinTileCol>
+            <MaxTileCol>676</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1857</MinTileRow>
+            <MaxTileRow>1865</MaxTileRow>
+            <MinTileCol>1344</MinTileCol>
+            <MaxTileCol>1353</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>3714</MinTileRow>
+            <MaxTileRow>3731</MaxTileRow>
+            <MinTileCol>2689</MinTileCol>
+            <MaxTileCol>2707</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>7429</MinTileRow>
+            <MaxTileRow>7462</MaxTileRow>
+            <MinTileCol>5378</MinTileCol>
+            <MaxTileCol>5415</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>14859</MinTileRow>
+            <MaxTileRow>14924</MaxTileRow>
+            <MinTileCol>10757</MinTileCol>
+            <MaxTileCol>10831</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>29719</MinTileRow>
+            <MaxTileRow>29848</MaxTileRow>
+            <MinTileCol>21515</MinTileCol>
+            <MaxTileCol>21662</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Mayotte 2016</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>45.0183 -13.0054</ows:LowerCorner>
+        <ows:UpperCorner>45.3 -12.6366</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2016</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>34</MinTileRow>
+            <MaxTileRow>34</MaxTileRow>
+            <MinTileCol>40</MinTileCol>
+            <MaxTileCol>40</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>68</MinTileRow>
+            <MaxTileRow>68</MaxTileRow>
+            <MinTileCol>80</MinTileCol>
+            <MaxTileCol>80</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>137</MinTileRow>
+            <MaxTileRow>137</MaxTileRow>
+            <MinTileCol>160</MinTileCol>
+            <MaxTileCol>160</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>274</MinTileRow>
+            <MaxTileRow>274</MaxTileRow>
+            <MinTileCol>320</MinTileCol>
+            <MaxTileCol>320</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>548</MinTileRow>
+            <MaxTileRow>549</MaxTileRow>
+            <MinTileCol>640</MinTileCol>
+            <MaxTileCol>640</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>1096</MinTileRow>
+            <MaxTileRow>1098</MaxTileRow>
+            <MinTileCol>1280</MinTileCol>
+            <MaxTileCol>1281</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>2192</MinTileRow>
+            <MaxTileRow>2197</MaxTileRow>
+            <MinTileCol>2560</MinTileCol>
+            <MaxTileCol>2563</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>4385</MinTileRow>
+            <MaxTileRow>4394</MaxTileRow>
+            <MinTileCol>5120</MinTileCol>
+            <MaxTileCol>5126</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>8771</MinTileRow>
+            <MaxTileRow>8789</MaxTileRow>
+            <MinTileCol>10240</MinTileCol>
+            <MaxTileCol>10253</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>17543</MinTileRow>
+            <MaxTileRow>17578</MaxTileRow>
+            <MinTileCol>20481</MinTileCol>
+            <MaxTileCol>20507</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>35087</MinTileRow>
+            <MaxTileRow>35156</MaxTileRow>
+            <MinTileCol>40963</MinTileCol>
+            <MaxTileCol>41014</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Martinique 2017</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.229 14.3886</ows:LowerCorner>
+        <ows:UpperCorner>-60.8097 14.8787</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2017</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>29</MinTileRow>
+            <MaxTileRow>29</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>21</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>58</MinTileRow>
+            <MaxTileRow>58</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>42</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>117</MinTileRow>
+            <MaxTileRow>117</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>84</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>234</MinTileRow>
+            <MaxTileRow>235</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>169</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>469</MinTileRow>
+            <MaxTileRow>470</MaxTileRow>
+            <MinTileCol>337</MinTileCol>
+            <MaxTileCol>339</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>938</MinTileRow>
+            <MaxTileRow>941</MaxTileRow>
+            <MinTileCol>675</MinTileCol>
+            <MaxTileCol>678</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1876</MinTileRow>
+            <MaxTileRow>1882</MaxTileRow>
+            <MinTileCol>1351</MinTileCol>
+            <MaxTileCol>1356</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>3753</MinTileRow>
+            <MaxTileRow>3765</MaxTileRow>
+            <MinTileCol>2702</MinTileCol>
+            <MaxTileCol>2712</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>7507</MinTileRow>
+            <MaxTileRow>7530</MaxTileRow>
+            <MinTileCol>5405</MinTileCol>
+            <MaxTileCol>5424</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>15014</MinTileRow>
+            <MaxTileRow>15060</MaxTileRow>
+            <MinTileCol>10810</MinTileCol>
+            <MaxTileCol>10848</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>30028</MinTileRow>
+            <MaxTileRow>30120</MaxTileRow>
+            <MinTileCol>21621</MinTileCol>
+            <MaxTileCol>21697</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Martinique 2022</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.229 14.3886</ows:LowerCorner>
+        <ows:UpperCorner>-60.8097 14.8787</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2022</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>29</MinTileRow>
+            <MaxTileRow>29</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>21</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>58</MinTileRow>
+            <MaxTileRow>58</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>42</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>117</MinTileRow>
+            <MaxTileRow>117</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>84</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>234</MinTileRow>
+            <MaxTileRow>235</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>169</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>469</MinTileRow>
+            <MaxTileRow>470</MaxTileRow>
+            <MinTileCol>337</MinTileCol>
+            <MaxTileCol>339</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>938</MinTileRow>
+            <MaxTileRow>941</MaxTileRow>
+            <MinTileCol>675</MinTileCol>
+            <MaxTileCol>678</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1876</MinTileRow>
+            <MaxTileRow>1882</MaxTileRow>
+            <MinTileCol>1351</MinTileCol>
+            <MaxTileCol>1356</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>3753</MinTileRow>
+            <MaxTileRow>3765</MaxTileRow>
+            <MinTileCol>2702</MinTileCol>
+            <MaxTileCol>2712</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>7507</MinTileRow>
+            <MaxTileRow>7530</MaxTileRow>
+            <MinTileCol>5405</MinTileCol>
+            <MaxTileCol>5424</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>15014</MinTileRow>
+            <MaxTileRow>15060</MaxTileRow>
+            <MinTileCol>10810</MinTileCol>
+            <MaxTileCol>10848</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>30028</MinTileRow>
+            <MaxTileRow>30120</MaxTileRow>
+            <MinTileCol>21621</MinTileCol>
+            <MaxTileCol>21697</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Mayotte 2023</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>45.0183 -13.0054</ows:LowerCorner>
+        <ows:UpperCorner>45.3 -12.6366</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2023</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>34</MinTileRow>
+            <MaxTileRow>34</MaxTileRow>
+            <MinTileCol>40</MinTileCol>
+            <MaxTileCol>40</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>68</MinTileRow>
+            <MaxTileRow>68</MaxTileRow>
+            <MinTileCol>80</MinTileCol>
+            <MaxTileCol>80</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>137</MinTileRow>
+            <MaxTileRow>137</MaxTileRow>
+            <MinTileCol>160</MinTileCol>
+            <MaxTileCol>160</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>274</MinTileRow>
+            <MaxTileRow>274</MaxTileRow>
+            <MinTileCol>320</MinTileCol>
+            <MaxTileCol>320</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>548</MinTileRow>
+            <MaxTileRow>549</MaxTileRow>
+            <MinTileCol>640</MinTileCol>
+            <MaxTileCol>640</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>1096</MinTileRow>
+            <MaxTileRow>1098</MaxTileRow>
+            <MinTileCol>1280</MinTileCol>
+            <MaxTileCol>1281</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>2192</MinTileRow>
+            <MaxTileRow>2197</MaxTileRow>
+            <MinTileCol>2560</MinTileCol>
+            <MaxTileCol>2563</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>4385</MinTileRow>
+            <MaxTileRow>4394</MaxTileRow>
+            <MinTileCol>5120</MinTileCol>
+            <MaxTileCol>5126</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>8771</MinTileRow>
+            <MaxTileRow>8789</MaxTileRow>
+            <MinTileCol>10240</MinTileCol>
+            <MaxTileCol>10253</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>17543</MinTileRow>
+            <MaxTileRow>17578</MaxTileRow>
+            <MinTileCol>20481</MinTileCol>
+            <MaxTileCol>20507</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>35087</MinTileRow>
+            <MaxTileRow>35156</MaxTileRow>
+            <MinTileCol>40963</MinTileCol>
+            <MaxTileCol>41014</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Masque cartographies des formations végétales Guadeloupe 2024</ows:Title>
+      <ows:Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.8098 15.832</ows:LowerCorner>
+        <ows:UpperCorner>-61.002 16.5145</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2024</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" />
+      <Style isDefault="true">
+        <ows:Title>Masque-Forêt DROM</ows:Title>
+        <ows:Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" width="300" height="70" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_16</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
+            <MinTileRow>29</MinTileRow>
+            <MaxTileRow>29</MaxTileRow>
+            <MinTileCol>21</MinTileCol>
+            <MaxTileCol>21</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>7</TileMatrix>
+            <MinTileRow>58</MinTileRow>
+            <MaxTileRow>58</MaxTileRow>
+            <MinTileCol>42</MinTileCol>
+            <MaxTileCol>42</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>8</TileMatrix>
+            <MinTileRow>116</MinTileRow>
+            <MaxTileRow>116</MaxTileRow>
+            <MinTileCol>84</MinTileCol>
+            <MaxTileCol>84</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>9</TileMatrix>
+            <MinTileRow>232</MinTileRow>
+            <MaxTileRow>233</MaxTileRow>
+            <MinTileCol>168</MinTileCol>
+            <MaxTileCol>169</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>10</TileMatrix>
+            <MinTileRow>464</MinTileRow>
+            <MaxTileRow>466</MaxTileRow>
+            <MinTileCol>336</MinTileCol>
+            <MaxTileCol>338</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>11</TileMatrix>
+            <MinTileRow>928</MinTileRow>
+            <MaxTileRow>932</MaxTileRow>
+            <MinTileCol>672</MinTileCol>
+            <MaxTileCol>676</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>12</TileMatrix>
+            <MinTileRow>1857</MinTileRow>
+            <MaxTileRow>1865</MaxTileRow>
+            <MinTileCol>1344</MinTileCol>
+            <MaxTileCol>1353</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>13</TileMatrix>
+            <MinTileRow>3714</MinTileRow>
+            <MaxTileRow>3731</MaxTileRow>
+            <MinTileCol>2689</MinTileCol>
+            <MaxTileCol>2707</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>14</TileMatrix>
+            <MinTileRow>7429</MinTileRow>
+            <MaxTileRow>7462</MaxTileRow>
+            <MinTileCol>5378</MinTileCol>
+            <MaxTileCol>5415</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>15</TileMatrix>
+            <MinTileRow>14859</MinTileRow>
+            <MaxTileRow>14924</MaxTileRow>
+            <MinTileCol>10757</MinTileCol>
+            <MaxTileCol>10831</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>16</TileMatrix>
+            <MinTileRow>29719</MinTileRow>
+            <MaxTileRow>29848</MaxTileRow>
+            <MinTileCol>21515</MinTileCol>
+            <MaxTileCol>21662</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
+      </TileMatrixSetLink>
+    </Layer>
+    <Layer>
+      <ows:Title>Nature en Ville 2017-2020</ows:Title>
+      <ows:Abstract>Base de données nationale cartographiant les surfaces végétalisées et surfaces d’eau en contexte urbain. Créée par croisement de CoSIA et du RPG. Couvre les communes urbaines denses et intermédiaires selon l’indice de densité INSEE.</ows:Abstract>
+      <ows:Keywords>
+        <ows:Keyword>données ouvertes</ows:Keyword>
+        <ows:Keyword>espaces verts</ows:Keyword>
+        <ows:Keyword>renaturation</ows:Keyword>
+        <ows:Keyword>intelligence artificielle</ows:Keyword>
+        <ows:Keyword>développement durable</ows:Keyword>
+        <ows:Keyword>couvert arboré</ows:Keyword>
+        <ows:Keyword>végétalisation</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+        <ows:Keyword>restauration de la nature</ows:Keyword>
+      </ows:Keywords>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-63.1619 -21.3896</ows:LowerCorner>
+        <ows:UpperCorner>55.8367 51.089</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <ows:Identifier>IGNF_NATURE-EN-VILLE_2017-2020</ows:Identifier>
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NATURE-EN-VILLE" />
+      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_NATURE-EN-VILLE" />
+      <Style isDefault="true">
+        <ows:Title>Données IGNF_NATURE-EN-VILLE</ows:Title>
+        <ows:Abstract>Style et légende associés au flux IGNF_NATURE-EN-VILLE</ows:Abstract>
+        <ows:Keywords>
+          <ows:Keyword>Défaut</ows:Keyword>
+        </ows:Keywords>
+        <ows:Identifier>normal</ows:Identifier>
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_NATURE-EN-VILLE-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
+      </Style>
+      <Format>image/png</Format>
+      <InfoFormat>text/plain</InfoFormat>
+      <InfoFormat>text/xml</InfoFormat>
+      <InfoFormat>text/html</InfoFormat>
+      <InfoFormat>application/json</InfoFormat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>PM_6_18</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>6</TileMatrix>
             <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
+            <MaxTileRow>35</MaxTileRow>
+            <MinTileCol>20</MinTileCol>
+            <MaxTileCol>41</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>7</TileMatrix>
             <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
+            <MaxTileRow>71</MaxTileRow>
+            <MinTileCol>41</MinTileCol>
+            <MaxTileCol>83</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>8</TileMatrix>
             <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
+            <MaxTileRow>143</MaxTileRow>
+            <MinTileCol>83</MinTileCol>
+            <MaxTileCol>167</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>9</TileMatrix>
             <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
+            <MaxTileRow>287</MaxTileRow>
+            <MinTileCol>166</MinTileCol>
+            <MaxTileCol>335</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>10</TileMatrix>
             <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>496</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
+            <MaxTileRow>574</MaxTileRow>
+            <MinTileCol>332</MinTileCol>
+            <MaxTileCol>670</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>11</TileMatrix>
-            <MinTileRow>685</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>992</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
+            <MinTileRow>684</MinTileRow>
+            <MaxTileRow>1148</MaxTileRow>
+            <MinTileCol>664</MinTileCol>
+            <MaxTileCol>1341</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>12</TileMatrix>
-            <MinTileRow>1371</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1985</MinTileCol>
-            <MaxTileCol>2157</MaxTileCol>
+            <MinTileRow>1369</MinTileRow>
+            <MaxTileRow>2297</MaxTileRow>
+            <MinTileCol>1329</MinTileCol>
+            <MaxTileCol>2683</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>13</TileMatrix>
-            <MinTileRow>2743</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3970</MinTileCol>
-            <MaxTileCol>4315</MaxTileCol>
+            <MinTileRow>2739</MinTileRow>
+            <MaxTileRow>4594</MaxTileRow>
+            <MinTileCol>2658</MinTileCol>
+            <MaxTileCol>5366</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>14</TileMatrix>
-            <MinTileRow>5487</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7940</MinTileCol>
-            <MaxTileCol>8631</MaxTileCol>
+            <MinTileRow>5478</MinTileRow>
+            <MaxTileRow>9188</MaxTileRow>
+            <MinTileCol>5317</MinTileCol>
+            <MaxTileCol>10733</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>15</TileMatrix>
-            <MinTileRow>10974</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15881</MinTileCol>
-            <MaxTileCol>17262</MaxTileCol>
+            <MinTileRow>10957</MinTileRow>
+            <MaxTileRow>18377</MaxTileRow>
+            <MinTileCol>10634</MinTileCol>
+            <MaxTileCol>21466</MaxTileCol>
           </TileMatrixLimits>
           <TileMatrixLimits>
             <TileMatrix>16</TileMatrix>
-            <MinTileRow>21948</MinTileRow>
-            <MaxTileRow>24493</MaxTileRow>
-            <MinTileCol>31762</MinTileCol>
-            <MaxTileCol>34525</MaxTileCol>
+            <MinTileRow>21914</MinTileRow>
+            <MaxTileRow>36755</MaxTileRow>
+            <MinTileCol>21269</MinTileCol>
+            <MaxTileCol>42932</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>17</TileMatrix>
+            <MinTileRow>43828</MinTileRow>
+            <MaxTileRow>73511</MaxTileRow>
+            <MinTileCol>42539</MinTileCol>
+            <MaxTileCol>85865</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>18</TileMatrix>
+            <MinTileRow>87656</MinTileRow>
+            <MaxTileRow>147022</MaxTileRow>
+            <MinTileCol>85078</MinTileCol>
+            <MaxTileCol>171731</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
@@ -792,13 +1618,13 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NATURE-EN-VILLE" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_NATURE-EN-VILLE" />
       <Style isDefault="true">
-        <ows:Title>Données brutes</ows:Title>
-        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
+        <ows:Title>Données IGNF_NATURE-EN-VILLE</ows:Title>
+        <ows:Abstract>Style et légende associés au flux IGNF_NATURE-EN-VILLE</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="280" height="69" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_NATURE-EN-VILLE-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -898,429 +1724,6 @@
             <MaxTileRow>147030</MaxTileRow>
             <MinTileCol>85079</MinTileCol>
             <MaxTileCol>171738</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Inventaire national des plans d'eau</ows:Title>
-      <ows:Abstract>Inventaire national des plans d'eau</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>National</ows:Keyword>
-        <ows:Keyword>Plan d'eau</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-63.3725 -21.4756</ows:LowerCorner>
-        <ows:UpperCorner>55.9259 51.3121</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>INPE</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INPE" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INPE" />
-      <Style isDefault="true">
-        <ows:Title>INPE</ows:Title>
-        <ows:Abstract>Légende de l'inventaire national des plans d'eau</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Plans d'eau</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>INPE</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/INPE-legend.png" width="295" height="416" minScaleDenominator="2000" maxScaleDenominator="10000000" />
-      </Style>
-      <Format>image/png</Format>
-      <InfoFormat>text/plain</InfoFormat>
-      <InfoFormat>text/xml</InfoFormat>
-      <InfoFormat>text/html</InfoFormat>
-      <InfoFormat>application/json</InfoFormat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>35</MaxTileRow>
-            <MinTileCol>20</MinTileCol>
-            <MaxTileCol>41</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>71</MaxTileRow>
-            <MinTileCol>41</MinTileCol>
-            <MaxTileCol>83</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>143</MaxTileRow>
-            <MinTileCol>82</MinTileCol>
-            <MaxTileCol>167</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>170</MinTileRow>
-            <MaxTileRow>287</MaxTileRow>
-            <MinTileCol>165</MinTileCol>
-            <MaxTileCol>335</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>341</MinTileRow>
-            <MaxTileRow>574</MaxTileRow>
-            <MinTileCol>331</MinTileCol>
-            <MaxTileCol>671</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>682</MinTileRow>
-            <MaxTileRow>1149</MaxTileRow>
-            <MinTileCol>663</MinTileCol>
-            <MaxTileCol>1342</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1365</MinTileRow>
-            <MaxTileRow>2298</MaxTileRow>
-            <MinTileCol>1326</MinTileCol>
-            <MaxTileCol>2684</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2731</MinTileRow>
-            <MaxTileRow>4596</MaxTileRow>
-            <MinTileCol>2653</MinTileCol>
-            <MaxTileCol>5368</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5462</MinTileRow>
-            <MaxTileRow>9193</MaxTileRow>
-            <MinTileCol>5307</MinTileCol>
-            <MaxTileCol>10737</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10924</MinTileRow>
-            <MaxTileRow>18386</MaxTileRow>
-            <MinTileCol>10615</MinTileCol>
-            <MaxTileCol>21474</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21849</MinTileRow>
-            <MaxTileRow>36772</MaxTileRow>
-            <MinTileCol>21231</MinTileCol>
-            <MaxTileCol>42948</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>INRAE_GRAIN-BOCAGER</ows:Title>
-      <ows:Abstract>Le produit Grain Bocager est un ensemble de couches nationales de référence pour la gestion des bocages en lien avec la biodiversité forestière</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>bocages</ows:Keyword>
-        <ows:Keyword>bois</ows:Keyword>
-        <ows:Keyword>boisement</ows:Keyword>
-        <ows:Keyword>biodiversite</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.18504 41.2585</ows:LowerCorner>
-        <ows:UpperCorner>9.69171 51.1303</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>INRAE_GRAIN-BOCAGER</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INRAE_GRAIN-BOCAGER" />
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_GRAIN-BOCAGER" />
-      <Style isDefault="true">
-        <ows:Title>Grains bocagers</ows:Title>
-        <ows:Abstract>Grains bocagers</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>transparent</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>grains_bocagers</ows:Identifier>
-        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="100" height="100" maxScaleDenominator="999999" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_15</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1079</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1368</MinTileRow>
-            <MaxTileRow>1531</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2158</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2737</MinTileRow>
-            <MaxTileRow>3063</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4316</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5475</MinTileRow>
-            <MaxTileRow>6127</MaxTileRow>
-            <MinTileCol>7956</MinTileCol>
-            <MaxTileCol>8633</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10951</MinTileRow>
-            <MaxTileRow>12254</MaxTileRow>
-            <MinTileCol>15912</MinTileCol>
-            <MaxTileCol>17266</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>Régions forestières nationales</ows:Title>
-      <ows:Abstract>Cette cartographie représente des zones homogènes du point de vue des types de forêt ou de paysage sur la base de conditions physiques dominantes (climat, sol, relief).</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation des terres</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.FORESTAREAS</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2156</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4313</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7957</MinTileCol>
-            <MaxTileCol>8627</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15915</MinTileCol>
-            <MaxTileCol>17255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>24492</MaxTileRow>
-            <MinTileCol>31830</MinTileCol>
-            <MaxTileCol>34510</MaxTileCol>
-          </TileMatrixLimits>
-        </TileMatrixSetLimits>
-      </TileMatrixSetLink>
-    </Layer>
-    <Layer>
-      <ows:Title>BD Forêt v1 (1987-2004)</ows:Title>
-      <ows:Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</ows:Abstract>
-      <ows:Keywords>
-        <ows:Keyword>Occupation des terres</ows:Keyword>
-      </ows:Keywords>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>-5.15047 41.3252</ows:LowerCorner>
-        <ows:UpperCorner>9.57054 51.0991</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <ows:Identifier>LANDCOVER.FORESTINVENTORY.V1</ows:Identifier>
-      <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" />
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" />
-      <Style isDefault="true">
-        <ows:Title>Légende générique</ows:Title>
-        <ows:Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</ows:Abstract>
-        <ows:Keywords>
-          <ows:Keyword>Défaut</ows:Keyword>
-        </ows:Keywords>
-        <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="200" height="200" minScaleDenominator="200" maxScaleDenominator="100000000" />
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>PM_6_16</TileMatrixSet>
-        <TileMatrixSetLimits>
-          <TileMatrixLimits>
-            <TileMatrix>6</TileMatrix>
-            <MinTileRow>21</MinTileRow>
-            <MaxTileRow>23</MaxTileRow>
-            <MinTileCol>31</MinTileCol>
-            <MaxTileCol>33</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>7</TileMatrix>
-            <MinTileRow>42</MinTileRow>
-            <MaxTileRow>47</MaxTileRow>
-            <MinTileCol>62</MinTileCol>
-            <MaxTileCol>67</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>8</TileMatrix>
-            <MinTileRow>85</MinTileRow>
-            <MaxTileRow>95</MaxTileRow>
-            <MinTileCol>124</MinTileCol>
-            <MaxTileCol>134</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>9</TileMatrix>
-            <MinTileRow>171</MinTileRow>
-            <MaxTileRow>191</MaxTileRow>
-            <MinTileCol>248</MinTileCol>
-            <MaxTileCol>269</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>10</TileMatrix>
-            <MinTileRow>342</MinTileRow>
-            <MaxTileRow>382</MaxTileRow>
-            <MinTileCol>497</MinTileCol>
-            <MaxTileCol>539</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>11</TileMatrix>
-            <MinTileRow>684</MinTileRow>
-            <MaxTileRow>765</MaxTileRow>
-            <MinTileCol>994</MinTileCol>
-            <MaxTileCol>1078</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>12</TileMatrix>
-            <MinTileRow>1369</MinTileRow>
-            <MaxTileRow>1530</MaxTileRow>
-            <MinTileCol>1989</MinTileCol>
-            <MaxTileCol>2156</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>13</TileMatrix>
-            <MinTileRow>2738</MinTileRow>
-            <MaxTileRow>3061</MaxTileRow>
-            <MinTileCol>3978</MinTileCol>
-            <MaxTileCol>4313</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>14</TileMatrix>
-            <MinTileRow>5477</MinTileRow>
-            <MaxTileRow>6123</MaxTileRow>
-            <MinTileCol>7957</MinTileCol>
-            <MaxTileCol>8627</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>15</TileMatrix>
-            <MinTileRow>10955</MinTileRow>
-            <MaxTileRow>12246</MaxTileRow>
-            <MinTileCol>15915</MinTileCol>
-            <MaxTileCol>17255</MaxTileCol>
-          </TileMatrixLimits>
-          <TileMatrixLimits>
-            <TileMatrix>16</TileMatrix>
-            <MinTileRow>21911</MinTileRow>
-            <MaxTileRow>24492</MaxTileRow>
-            <MinTileCol>31830</MinTileCol>
-            <MaxTileCol>34510</MaxTileCol>
           </TileMatrixLimits>
         </TileMatrixSetLimits>
       </TileMatrixSetLink>
@@ -1655,8 +2058,8 @@
         <ows:UpperCorner>55.8465 51.0991</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:Identifier>PROTECTEDAREAS.PRSF</ows:Identifier>
-      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PRSF" />
+      <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
       <Style isDefault="true">
         <ows:Title>POINT RENCONTRE SECOURS FORET</ows:Title>
         <ows:Abstract>Légende Points de Rencontre de Secours en Forêt (PRSF)</ows:Abstract>
@@ -1779,13 +2182,13 @@
       <ows:Metadata xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PNA-ZONES-A-PROSPECTER" />
       <ows:Metadata xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PNA-ZONES-A-PROSPECTER" />
       <Style isDefault="true">
-        <ows:Title>Données brutes</ows:Title>
-        <ows:Abstract>Données brutes, sans modification de canal</ows:Abstract>
+        <ows:Title>Données ZONES-A-PROSPECTER-FORETS-SUBNATURELLES</ows:Title>
+        <ows:Abstract>Style et légende associés au flux ZONES-A-PROSPECTER-FORETS-SUBNATURELLES</ows:Abstract>
         <ows:Keywords>
           <ows:Keyword>Défaut</ows:Keyword>
         </ows:Keywords>
         <ows:Identifier>normal</ows:Identifier>
-        <LegendURL format="image/jpeg" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" width="280" height="69" minScaleDenominator="200" maxScaleDenominator="100000000" />
+        <LegendURL format="image/png" xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ZONES-A-PROSPECTER-FORETS-SUBNATURELLES-legend.png" width="300" height="69" minScaleDenominator="1000" maxScaleDenominator="100000000" />
       </Style>
       <Format>image/png</Format>
       <InfoFormat>text/plain</InfoFormat>
@@ -2089,109 +2492,6 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>50400</MatrixWidth>
         <MatrixHeight>420409</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>2154_10cm_10_20</ows:Identifier>
-      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
-      <TileMatrix>
-        <ows:Identifier>10</ows:Identifier>
-        <ScaleDenominator>731428.5714285715332608</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>25</MatrixWidth>
-        <MatrixHeight>206</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>11</ows:Identifier>
-        <ScaleDenominator>365714.2857142857666304</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>50</MatrixWidth>
-        <MatrixHeight>411</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>12</ows:Identifier>
-        <ScaleDenominator>182857.1428571428833152</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>99</MatrixWidth>
-        <MatrixHeight>822</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>13</ows:Identifier>
-        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>197</MatrixWidth>
-        <MatrixHeight>1643</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>394</MatrixWidth>
-        <MatrixHeight>3285</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>788</MatrixWidth>
-        <MatrixHeight>6569</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>1575</MatrixWidth>
-        <MatrixHeight>13138</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>3150</MatrixWidth>
-        <MatrixHeight>26276</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>6300</MatrixWidth>
-        <MatrixHeight>52552</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>19</ows:Identifier>
-        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>12600</MatrixWidth>
-        <MatrixHeight>105102</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>20</ows:Identifier>
-        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>25200</MatrixWidth>
-        <MatrixHeight>210205</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>
@@ -2744,100 +3044,6 @@
         <MatrixWidth>99</MatrixWidth>
         <MatrixHeight>822</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>13</ows:Identifier>
-        <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>197</MatrixWidth>
-        <MatrixHeight>1643</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>45714.2857142857208288</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>394</MatrixWidth>
-        <MatrixHeight>3285</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>22857.1428571428604144</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>788</MatrixWidth>
-        <MatrixHeight>6569</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>11428.5714285714302072</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>1575</MatrixWidth>
-        <MatrixHeight>13138</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>5714.2857142857151036</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>3150</MatrixWidth>
-        <MatrixHeight>26276</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2857.1428571428575518</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>6300</MatrixWidth>
-        <MatrixHeight>52552</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>19</ows:Identifier>
-        <ScaleDenominator>1428.5714285714287759</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>12600</MatrixWidth>
-        <MatrixHeight>105102</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>20</ows:Identifier>
-        <ScaleDenominator>714.2857142857143879</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>25200</MatrixWidth>
-        <MatrixHeight>210205</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>21</ows:Identifier>
-        <ScaleDenominator>357.1428571428571940</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>50400</MatrixWidth>
-        <MatrixHeight>420409</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>22</ows:Identifier>
-        <ScaleDenominator>178.5714285714285970</ScaleDenominator>
-        <TopLeftCorner>0.0000000000000000 12000000.0000000000000000</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>100800</MatrixWidth>
-        <MatrixHeight>840818</MatrixHeight>
-      </TileMatrix>
-    </TileMatrixSet>
-    <TileMatrixSet>
-      <ows:Identifier>2154_5cm_13_22</ows:Identifier>
-      <ows:SupportedCRS>EPSG:2154</ows:SupportedCRS>
       <TileMatrix>
         <ows:Identifier>13</ows:Identifier>
         <ScaleDenominator>91428.5714285714416576</ScaleDenominator>
@@ -5129,6 +5335,208 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>1048576</MatrixWidth>
         <MatrixHeight>1048576</MatrixHeight>
+      </TileMatrix>
+    </TileMatrixSet>
+    <TileMatrixSet>
+      <ows:Identifier>PM_0_21</ows:Identifier>
+      <ows:SupportedCRS>EPSG:3857</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>0</ows:Identifier>
+        <ScaleDenominator>559082264.0287178958533332</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1</MatrixWidth>
+        <MatrixHeight>1</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>1</ows:Identifier>
+        <ScaleDenominator>279541132.0143589479266666</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2</MatrixWidth>
+        <MatrixHeight>2</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>2</ows:Identifier>
+        <ScaleDenominator>139770566.0071792920643929</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>4</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>3</ows:Identifier>
+        <ScaleDenominator>69885283.0035896460321965</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8</MatrixWidth>
+        <MatrixHeight>8</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>4</ows:Identifier>
+        <ScaleDenominator>34942641.5017948619934032</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16</MatrixWidth>
+        <MatrixHeight>16</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>5</ows:Identifier>
+        <ScaleDenominator>17471320.7508974309967016</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32</MatrixWidth>
+        <MatrixHeight>32</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>8735660.3754487154983508</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>64</MatrixWidth>
+        <MatrixHeight>64</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>4367830.1877243577491754</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>128</MatrixWidth>
+        <MatrixHeight>128</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>2183915.0938621788745877</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>256</MatrixWidth>
+        <MatrixHeight>256</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>1091957.5469310894372938</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>512</MatrixWidth>
+        <MatrixHeight>512</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>545978.7734655464442426</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1024</MatrixWidth>
+        <MatrixHeight>1024</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>272989.3867327721563072</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2048</MatrixWidth>
+        <MatrixHeight>2048</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>136494.6933663860781536</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4096</MatrixWidth>
+        <MatrixHeight>4096</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>68247.3466831932167125</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8192</MatrixWidth>
+        <MatrixHeight>8192</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>34123.6733415965385738</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>16384</MatrixWidth>
+        <MatrixHeight>16384</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>15</ows:Identifier>
+        <ScaleDenominator>17061.8366707982883188</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>32768</MatrixWidth>
+        <MatrixHeight>32768</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>16</ows:Identifier>
+        <ScaleDenominator>8530.9183353991441594</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>65536</MatrixWidth>
+        <MatrixHeight>65536</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>17</ows:Identifier>
+        <ScaleDenominator>4265.4591676995720797</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>131072</MatrixWidth>
+        <MatrixHeight>131072</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>18</ows:Identifier>
+        <ScaleDenominator>2132.7295838497824711</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>262144</MatrixWidth>
+        <MatrixHeight>262144</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>19</ows:Identifier>
+        <ScaleDenominator>1066.3647919248930199</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>524288</MatrixWidth>
+        <MatrixHeight>524288</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>20</ows:Identifier>
+        <ScaleDenominator>533.1823959624465100</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1048576</MatrixWidth>
+        <MatrixHeight>1048576</MatrixHeight>
+      </TileMatrix>
+      <TileMatrix>
+        <ows:Identifier>21</ows:Identifier>
+        <ScaleDenominator>266.5911979812228585</ScaleDenominator>
+        <TopLeftCorner>-20037508.3427891992032528 20037508.3427891992032528</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>2097152</MatrixWidth>
+        <MatrixHeight>2097152</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
     <TileMatrixSet>

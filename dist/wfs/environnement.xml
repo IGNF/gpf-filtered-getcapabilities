@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3700">
+<WFS_Capabilities xmlns="http://www.opengis.net/wfs/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd" updateSequence="3810">
   <ows:ServiceIdentification>
     <ows:Title>API Géoplateforme - Diffusion d'objets WFS ou API OGC features</ows:Title>
     <ows:Abstract>Permet la récupération d'extraits de bases de données via des requêtes fondées sur des critères et valeurs.</ows:Abstract>
@@ -528,6 +528,264 @@
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" />
     </FeatureType>
     <FeatureType>
+      <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2004:formations_vegetales_d971_2004</Name>
+      <Title>Cartographie des formations végétales 2004 de la Guadeloupe</Title>
+      <Abstract> La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>_config_pyramide_</ows:Keyword>
+        <ows:Keyword>(formation_vegetale/keywords.jsonc).content</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 15.8190625</ows:LowerCorner>
+        <ows:UpperCorner>-61.00078125 16.5146875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2010:formations_vegetales_d971_2010</Name>
+      <Title>Cartographie des formations végétales 2010 de la Guadeloupe</Title>
+      <Abstract> La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>_config_pyramide_</ows:Keyword>
+        <ows:Keyword>(formation_vegetale/keywords.jsonc).content</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 15.8190625</ows:LowerCorner>
+        <ows:UpperCorner>-61.00078125 16.5146875</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
       <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2016:formations_vegetales_d976_2016</Name>
       <Title>Cartographie des formations végétales 2016 de Mayotte</Title>
       <Abstract>La cartographie des formations végétales localise les formations végétales qui caractérisent les DROM exclusivement, les peuplements forestiers, ainsi que les formations arbustives, selon une nomenclature propre à chaque territoire couvert ; Édition 2016-01-01</Abstract>
@@ -661,8 +919,8 @@
         <ows:LowerCorner>45.013046875 -13.00875</ows:LowerCorner>
         <ows:UpperCorner>45.30796875 -12.632265625</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CARTO-VEGETATION" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2017:formations_vegetales_d972_2017</Name>
@@ -1056,8 +1314,8 @@
         <ows:LowerCorner>45.013046875 -13.00875</ows:LowerCorner>
         <ows:UpperCorner>45.30796875 -12.632265625</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_CARTO-VEGETATION" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_CARTO-VEGETATION" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_CARTO-FORMATIONS-VEGETALES_2024:formations_vegetales_d971_2024</Name>
@@ -1445,8 +1703,8 @@
         <ows:LowerCorner>-61.875 -21.421484375</ows:LowerCorner>
         <ows:UpperCorner>55.8984375 51.27109375</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INPE" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INPE" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_INPE" />
     </FeatureType>
     <FeatureType>
       <Name>IGNF_MASQUE-FORET.2021-2023:masque_foret</Name>
@@ -1580,13 +1838,972 @@
         <ows:LowerCorner>-5.52320944 41.32147402</ows:LowerCorner>
         <ows:UpperCorner>9.65507376 50.9718316</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET" />
       <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MASQUE-FORET" />
+      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET" />
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2004</Name>
+      <Title>Masque cartographies des formations végétales 2004</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2010</Name>
+      <Title>Masque cartographies des formations végétales 2010</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2016</Name>
+      <Title>Masque cartographies des formations végétales 2016</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4471</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2017</Name>
+      <Title>Masque cartographies des formations végétales 2017</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2022</Name>
+      <Title>Masque cartographies des formations végétales 2022</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2023</Name>
+      <Title>Masque cartographies des formations végétales 2023</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::4471</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5490</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+    <FeatureType>
+      <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES:masque-foret_2024</Name>
+      <Title>Masque cartographies des formations végétales 2024</Title>
+      <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>forêt</ows:Keyword>
+        <ows:Keyword>contours des forêts</ows:Keyword>
+        <ows:Keyword>biodiversité</ows:Keyword>
+        <ows:Keyword>limites des forêts</ows:Keyword>
+        <ows:Keyword>Données ouvertes</ows:Keyword>
+        <ows:Keyword>localisation des forêts</ows:Keyword>
+        <ows:Keyword>outre-mer</ows:Keyword>
+        <ows:Keyword>aménagement du territoire</ows:Keyword>
+        <ows:Keyword>formation végétale</ows:Keyword>
+        <ows:Keyword>couverture du sol</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::5490</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4967</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2154</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::21781</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23030</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23031</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::23032</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27561</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27562</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27563</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27564</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27571</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27572</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27573</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27574</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27581</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27582</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27583</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27584</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27591</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27592</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27593</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::27594</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2969</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2970</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2971</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2972</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2973</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2975</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2976</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2977</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2978</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2980</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2981</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2987</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2988</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2989</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::2990</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3042</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3170</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3172</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32620</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32631</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32701</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32705</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32706</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32707</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32738</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32739</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::32740</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3296</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3297</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3298</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3302</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3303</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3304</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3305</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3306</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3727</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3942</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3943</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3944</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3945</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3946</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3947</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3948</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3949</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3950</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4171</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4275</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4463</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4470</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4471</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4558</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4559</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4621</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4622</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4623</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4624</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4625</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4626</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4627</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4628</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4629</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4630</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4632</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4633</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4636</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4637</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4638</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4639</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4641</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4642</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4643</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4644</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4687</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4688</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4689</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4690</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4691</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4692</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4749</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4807</OtherCRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>-61.815703125 -13.002578125</ows:LowerCorner>
+        <ows:UpperCorner>45.30796875 16.498125</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_commune</Name>
-      <Title>Mesures compensatoires : emprises communes</Title>
-      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-01-01</Abstract>
+      <Title>Mesures compensatoires des atteintes à la biodiversité - emprises commune</Title>
+      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Mesures compensatoires</ows:Keyword>
       </ows:Keywords>
@@ -1710,13 +2927,11 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_lineaires</Name>
-      <Title>Mesures compensatoires : emprises linéaires</Title>
-      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-01-01</Abstract>
+      <Title>Mesures compensatoires des atteintes à la biodiversité - emprises linéaires</Title>
+      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Mesures compensatoires</ows:Keyword>
       </ows:Keywords>
@@ -1840,13 +3055,11 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_polygones</Name>
-      <Title>Mesures compensatoires : emprises polygones</Title>
-      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-01-01</Abstract>
+      <Title>Mesures compensatoires des atteintes à la biodiversité - emprises polygones</Title>
+      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Mesures compensatoires</ows:Keyword>
       </ows:Keywords>
@@ -1970,13 +3183,11 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>MESURES_COMPENSATOIRES:emprises_ponctuelles</Name>
-      <Title>Mesures compensatoires : emprises ponctuelles</Title>
-      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-01-01</Abstract>
+      <Title>Mesures compensatoires des atteintes à la biodiversité - emprises ponctuelles</Title>
+      <Abstract>Carte des mesures compensatoires des atteintes à la biodiversité. Une mesure compensatoire d’atteinte à la biodiversité n'intervient que sur l'impact résiduel d'un projet d'aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité. Elle vise à offrir une contrepartie positive à un impact dommageable non réductible provoqué par un projet, de façon à maintenir la biodiversité dans un état équivalent ou meilleur à celui observé avant sa réalisation ; Édition 2026-07-01</Abstract>
       <ows:Keywords>
         <ows:Keyword>Mesures compensatoires</ows:Keyword>
       </ows:Keywords>
@@ -2100,8 +3311,6 @@
         <ows:LowerCorner>-53.77737151 -21.37632972</ows:LowerCorner>
         <ows:UpperCorner>55.70531774 51.04258551</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/CEREMA_MESURES-COMPENSATOIRES" />
-      <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=CEREMA_MESURES-COMPENSATOIRES" />
     </FeatureType>
     <FeatureType>
       <Name>PRSF_BDD_REU_2023:prs_reu</Name>
@@ -2231,8 +3440,8 @@
         <ows:LowerCorner>55.28242418 -21.37413806</ows:LowerCorner>
         <ows:UpperCorner>55.82905815 -20.88254768</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
       <MetadataURL xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PRSF" />
+      <MetadataURL xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PRSF" />
     </FeatureType>
     <FeatureType>
       <Name>PRSF_BDD_GLP_2023:prs_glp</Name>

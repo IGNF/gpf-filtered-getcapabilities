@@ -347,13 +347,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/onf.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ONF_FORETS-PUBLIQUES" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/ONF_FORETS-PUBLIQUES" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=ONF_FORETS-PUBLIQUES" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>FORETS PUBLIQUES ONF</Name>
@@ -435,13 +435,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORETS-ANCIENNES" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORETS-ANCIENNES" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORETS-ANCIENNES" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -456,25 +456,29 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer>
-        <Name>IGNF_MASQUE-FORET.2021-2023</Name>
-        <Title>Masque Forêt 2021-2023</Title>
-        <Abstract>Le Masque Forêt V1 permet de localiser les surfaces de forêt présentes en France métropolitaine. Il contient également une information sur l’usage des forêts.</Abstract>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2004</Name>
+        <Title>Masque cartographies des formations végétales Martinique 2004</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
         <KeywordList>
-          <Keyword>localisation des forêts </Keyword>
-          <Keyword>forêts urbaines </Keyword>
-          <Keyword>forêt à usage agricole </Keyword>
-          <Keyword>forêt </Keyword>
-          <Keyword>limites des forêts </Keyword>
-          <Keyword>contours des forêts </Keyword>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
         </KeywordList>
         <CRS>EPSG:3857</CRS>
         <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.5232094399999996</westBoundLongitude>
-          <eastBoundLongitude>9.6550737600000005</eastBoundLongitude>
-          <southBoundLatitude>41.321474019999997</southBoundLatitude>
-          <northBoundLatitude>50.971831600000002</northBoundLatitude>
+          <westBoundLongitude>-61.228999310285609</westBoundLongitude>
+          <eastBoundLongitude>-60.80970068971439</eastBoundLongitude>
+          <southBoundLatitude>14.388600689714389</southBoundLatitude>
+          <northBoundLatitude>14.878699310285612</northBoundLatitude>
         </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-614840.86240540154" maxx="1074797.8945346973" miny="5059875.2722344724" maxy="6616312.5706292382" />
+        <BoundingBox CRS="EPSG:3857" minx="-6815981.0250026928" maxx="-6769304.916070383" miny="1618837.7697365677" maxy="1675224.6228727768" />
         <Attribution>
           <Title>Institut national de l'information géographique et forestière</Title>
           <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
@@ -483,24 +487,328 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET" xlink:type="simple" />
-        </MetadataURL>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MASQUE-FORET" xlink:type="simple" />
-        </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Données IGNF_MASQUE-FORET.2021-2023</Title>
-          <Abstract>Style et légende associés au flux IGNF_MASQUE-FORET.2021-2023</Abstract>
-          <LegendURL width="300" height="69">
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_MASQUE-FORET_2021-2023-legend.png" xlink:type="simple" />
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2010</Name>
+        <Title>Masque cartographies des formations végétales Guadeloupe 2010</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.809799310285598</westBoundLongitude>
+          <eastBoundLongitude>-61.0020006897144</eastBoundLongitude>
+          <southBoundLatitude>15.8320006897144</southBoundLatitude>
+          <northBoundLatitude>16.514499310285601</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6880635.3852554243" maxx="-6790711.6541499309" miny="1785275.6510940867" maxy="1864382.3130459976" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2016</Name>
+        <Title>Masque cartographies des formations végétales Mayotte 2016</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>45.018300689714394</westBoundLongitude>
+          <eastBoundLongitude>45.299999310285607</eastBoundLongitude>
+          <southBoundLatitude>-13.005399310285611</southBoundLatitude>
+          <northBoundLatitude>-12.636600689714388</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="5011414.3091574833" maxx="5042772.856156637" miny="-1460349.1371071215" maxy="-1418244.8436657225" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2017</Name>
+        <Title>Masque cartographies des formations végétales Martinique 2017</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.228999310285609</westBoundLongitude>
+          <eastBoundLongitude>-60.80970068971439</eastBoundLongitude>
+          <southBoundLatitude>14.388600689714389</southBoundLatitude>
+          <northBoundLatitude>14.878699310285612</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6815981.0250026928" maxx="-6769304.916070383" miny="1618837.7697365677" maxy="1675224.6228727768" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2022</Name>
+        <Title>Masque cartographies des formations végétales Martinique 2022</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.228999310285609</westBoundLongitude>
+          <eastBoundLongitude>-60.80970068971439</eastBoundLongitude>
+          <southBoundLatitude>14.388600689714389</southBoundLatitude>
+          <northBoundLatitude>14.878699310285612</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6815981.0250026928" maxx="-6769304.916070383" miny="1618837.7697365677" maxy="1675224.6228727768" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2023</Name>
+        <Title>Masque cartographies des formations végétales Mayotte 2023</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>45.018300689714394</westBoundLongitude>
+          <eastBoundLongitude>45.299999310285607</eastBoundLongitude>
+          <southBoundLatitude>-13.005399310285611</southBoundLatitude>
+          <northBoundLatitude>-12.636600689714388</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="5011414.3091574833" maxx="5042772.856156637" miny="-1460349.1371071215" maxy="-1418244.8436657225" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer>
+        <Name>IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_2024</Name>
+        <Title>Masque cartographies des formations végétales Guadeloupe 2024</Title>
+        <Abstract>La donnée « masque forêt » est déduite de la cartographie des végétations en prenant en compte uniquement les peuplements forestiers, sans en préciser la composition.</Abstract>
+        <KeywordList>
+          <Keyword>forêt</Keyword>
+          <Keyword>contours des forêts</Keyword>
+          <Keyword>biodiversité</Keyword>
+          <Keyword>limites des forêts</Keyword>
+          <Keyword>Données ouvertes</Keyword>
+          <Keyword>localisation des forêts</Keyword>
+          <Keyword>outre-mer</Keyword>
+          <Keyword>aménagement du territoire</Keyword>
+          <Keyword>formation végétale</Keyword>
+          <Keyword>couverture du sol</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-61.809799310285598</westBoundLongitude>
+          <eastBoundLongitude>-61.0020006897144</eastBoundLongitude>
+          <southBoundLatitude>15.8320006897144</southBoundLatitude>
+          <northBoundLatitude>16.514499310285601</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-6880635.3852554243" maxx="-6790711.6541499309" miny="1785275.6510940867" maxy="1864382.3130459976" />
+        <Attribution>
+          <Title>Institut national de l'information géographique et forestière</Title>
+          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
+          <LogoURL width="50" height="50">
+            <Format>image/gif</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/catalogue/dataset/IGNF_MASQUE-FORET-DROM" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_MASQUE-FORET-DROM" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Masque-Forêt DROM</Title>
+          <Abstract>Style et légende associés aux flux IGNF_MASQUE-CARTO-FORMATIONS-VEGETALES_xxxx</Abstract>
+          <LegendURL width="300" height="70">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/Masque-Foret-DROM.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_NATURE-EN-VILLE_2017-2020</Name>
+        <Title>Nature en Ville 2017-2020</Title>
+        <Abstract>Base de données nationale cartographiant les surfaces végétalisées et surfaces d’eau en contexte urbain. Créée par croisement de CoSIA et du RPG. Couvre les communes urbaines denses et intermédiaires selon l’indice de densité INSEE.</Abstract>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.161899310285619</westBoundLongitude>
+          <eastBoundLongitude>55.836699310285617</eastBoundLongitude>
+          <southBoundLatitude>-21.389599310285615</southBoundLatitude>
+          <northBoundLatitude>51.088999310285615</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7031150.4687570119" maxx="6215712.9347981242" miny="-2438395.2368391212" maxy="6637051.795055219" />
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_NATURE-EN-VILLE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_NATURE-EN-VILLE" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données IGNF_NATURE-EN-VILLE</Title>
+          <Abstract>Style et légende associés au flux IGNF_NATURE-EN-VILLE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_NATURE-EN-VILLE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
@@ -525,186 +833,15 @@
         </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Données brutes</Title>
-          <Abstract>Données brutes, sans modification de canal</Abstract>
-          <LegendURL width="280" height="69">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          <Title>Données IGNF_NATURE-EN-VILLE</Title>
+          <Abstract>Style et légende associés au flux IGNF_NATURE-EN-VILLE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/IGNF_NATURE-EN-VILLE-legend.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>2132.7295838497821</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>INRAE_GRAIN-BOCAGER</Name>
-        <Title>INRAE_GRAIN-BOCAGER</Title>
-        <Abstract>Le produit Grain Bocager est un ensemble de couches nationales de référence pour la gestion des bocages en lien avec la biodiversité forestière</Abstract>
-        <KeywordList>
-          <Keyword>bocages</Keyword>
-          <Keyword>bois</Keyword>
-          <Keyword>boisement</Keyword>
-          <Keyword>biodiversite</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.1850417914280653</westBoundLongitude>
-          <eastBoundLongitude>9.6917121771465045</eastBoundLongitude>
-          <southBoundLatitude>41.258538538571955</southBoundLatitude>
-          <northBoundLatitude>51.130330494012654</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-577196.21196361526" maxx="1078876.4644749176" miny="5050551.1569921514" maxy="6644380.1383206658" />
-        <Attribution>
-          <Title>Institut national de recherche pour l'agriculture, l'alimentation et l'environnement</Title>
-          <OnlineResource xlink:href="https://www.inrae.fr/" xlink:type="simple" />
-          <LogoURL width="334" height="151">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/inrae.png" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/INRAE_GRAIN-BOCAGER" xlink:type="simple" />
-        </MetadataURL>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=INRAE_GRAIN-BOCAGER" xlink:type="simple" />
-        </MetadataURL>
-        <Style>
-          <Name>grains_bocagers</Name>
-          <Title>Grains bocagers</Title>
-          <Abstract>Grains bocagers</Abstract>
-          <LegendURL width="100" height="100">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>17061.836670798282</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer>
-        <Name>LANDCOVER.FORESTINVENTORY.V1</Name>
-        <Title>BD Forêt v1 (1987-2004)</Title>
-        <Abstract>La cartographie forestière est une base de données cartographique des formations végétales forestières et naturelles. Elle couvre l'ensemble du territoire de France métropolitaine. Elle est réalisée par interprétation de photographies aériennes infrarouges et affinée par des contrôles sur le terrain (le seuil minimal de surface cartographiée est de 2,25 ha).</Abstract>
-        <KeywordList>
-          <Keyword>Occupation des terres</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
-          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
-          <southBoundLatitude>41.325209639999997</southBoundLatitude>
-          <northBoundLatitude>51.099054180000003</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" xlink:type="simple" />
-        </MetadataURL>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" xlink:type="simple" />
-        </MetadataURL>
-        <Style>
-          <Name>normal</Name>
-          <Title>Légende générique</Title>
-          <Abstract>Fichier de légende générique – pour la compatibilité avec certains systèmes</Abstract>
-          <LegendURL width="200" height="200">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>LANDCOVER.FORESTINVENTORY.V2</Name>
-        <Title>BD Forêt v2 (2006-2019)</Title>
-        <Abstract>Localisation de 32 types de formations végétales sur le territoire. Carte en cours de réalisation depuis 2006.</Abstract>
-        <KeywordList>
-          <Keyword>Forêt</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.1504727199999998</westBoundLongitude>
-          <eastBoundLongitude>9.5705432399999992</eastBoundLongitude>
-          <southBoundLatitude>41.325209639999997</southBoundLatitude>
-          <northBoundLatitude>51.099054180000003</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573348.00053504668" maxx="1065388.0000918065" miny="5060429.0005683759" maxy="6638833.9992426522" />
-        <Attribution>
-          <Title>Institut national de l'information géographique et forestière</Title>
-          <OnlineResource xlink:href="http://www.ign.fr" xlink:type="simple" />
-          <LogoURL width="50" height="50">
-            <Format>image/gif</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/ign.gif" xlink:type="simple" />
-          </LogoURL>
-        </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BD-FORET" xlink:type="simple" />
-        </MetadataURL>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-FORET" xlink:type="simple" />
-        </MetadataURL>
-        <Style>
-          <Name>normal</Name>
-          <Title>Données LANDCOVER.FORESTINVENTORY.V2</Title>
-          <Abstract>Style et légende associés au flux LANDCOVER.FORESTINVENTORY.V2</Abstract>
-          <LegendURL width="300" height="69">
-            <Format>image/png</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDCOVER.FORESTINVENTORY.V2-legend.png" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
-        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
-      </Layer>
-      <Layer queryable="1">
-        <Name>ZONES-A-PROSPECTER-FORETS-SUBNATURELLES</Name>
-        <Title>Zones à prospecter pour les forêts subnaturelles</Title>
-        <Abstract>Cartographie des zones à prospecter pour l’identification des forêts subnaturelles</Abstract>
-        <KeywordList>
-          <Keyword>forêts</Keyword>
-          <Keyword>écologie</Keyword>
-          <Keyword>maturité</Keyword>
-          <Keyword>vieilles forêts</Keyword>
-          <Keyword>forêts subnaturelles</Keyword>
-        </KeywordList>
-        <CRS>EPSG:3857</CRS>
-        <EX_GeographicBoundingBox>
-          <westBoundLongitude>-5.1504993102856131</westBoundLongitude>
-          <eastBoundLongitude>9.5704993102856104</eastBoundLongitude>
-          <southBoundLatitude>41.325200689714393</southBoundLatitude>
-          <northBoundLatitude>51.099099310285609</northBoundLatitude>
-        </EX_GeographicBoundingBox>
-        <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_PNA-ZONES-A-PROSPECTER" xlink:type="simple" />
-        </MetadataURL>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_PNA-ZONES-A-PROSPECTER" xlink:type="simple" />
-        </MetadataURL>
-        <Style>
-          <Name>normal</Name>
-          <Title>Données brutes</Title>
-          <Abstract>Données brutes, sans modification de canal</Abstract>
-          <LegendURL width="280" height="69">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
-          </LegendURL>
-        </Style>
-        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
-        <MaxScaleDenominator>34942641.50179486</MaxScaleDenominator>
       </Layer>
     </Layer>
   </Capability>
