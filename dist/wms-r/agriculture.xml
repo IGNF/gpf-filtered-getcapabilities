@@ -341,13 +341,13 @@
           <northBoundLatitude>51.099099310285609</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -373,13 +373,13 @@
           <northBoundLatitude>51.099099310285609</northBoundLatitude>
         </EX_GeographicBoundingBox>
         <BoundingBox CRS="EPSG:3857" minx="-573350.96055210126" maxx="1065383.1098583702" miny="5060427.6738358773" maxy="6638841.9993630843" />
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -437,6 +437,54 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>IGNF_RPG_GRANDES-CATEGORIES-PARCELLES_2025</Name>
+        <Title>RPG GCP 2025 - Grandes catégories de parcelles</Title>
+        <Abstract>Registre parcellaire graphique : couche représentant les types de couverture des sols des parcelles agricoles déclarées au RPG par les exploitants édition 2025</Abstract>
+        <KeywordList>
+          <Keyword>Prairies Permanentes</Keyword>
+          <Keyword>Couverture des sols</Keyword>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>Terres Arables</Keyword>
+          <Keyword>Cultures Permanentes</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données LANDUSE.AGRICULTURE</Title>
+          <Abstract>Style et légende associés au flux LANDUSE.AGRICULTURE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDUSE-AGRICULTURE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024</Name>
         <Title>RPG 2024 Parcelles agricoles catégorisées</Title>
         <Abstract>Registre parcellaire graphique : couche représentant les types de couverture des sols des parcelles agricoles déclarées au RPG par les exploitants édition 2024</Abstract>
@@ -485,6 +533,86 @@
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
       <Layer queryable="1">
+        <Name>IGNF_RPG_PARCELLES-BIO_2025</Name>
+        <Title>RPG PARCELLES-BIO 2025 - Parcelles biologiques</Title>
+        <Abstract>Registre parcellaire graphique : Parcelles biologiques déclarées dans le RPG edition 2025</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données LANDUSE.AGRICULTURE</Title>
+          <Abstract>Style et légende associés au flux LANDUSE.AGRICULTURE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDUSE-AGRICULTURE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_PARCELLES-ELIGIBLES-IAE_2025</Name>
+        <Title>RPG IAE 2025 - Parcelles éligibles IAE</Title>
+        <Abstract>Cette couche recense les parcelles éligibles aux Infrastructures Agroecologiques (IAE) que ce soit au titre de l'écorégime ou pour la BCAE8</Abstract>
+        <KeywordList>
+          <Keyword>Parcelle</Keyword>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agro-écologie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données LANDUSE.AGRICULTURE</Title>
+          <Abstract>Style et légende associés au flux LANDUSE.AGRICULTURE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDUSE-AGRICULTURE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
         <Name>IGNF_RPG_PRAIRIES-PERMANENTES_2024</Name>
         <Title>Prairies Permanentes 2024</Title>
         <Abstract>Les PRAIRIES PERMANENTES correspondent à toute surface sur laquelle la production d'herbe ou d'autres plantes fourragères herbacées, prédomine depuis 5 ans révolus ou plus (6ème déclaration PAC ou plus) édition 2024</Abstract>
@@ -512,6 +640,54 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données brutes</Title>
+          <Abstract>Données brutes, sans modification de canal</Abstract>
+          <LegendURL width="280" height="69">
+            <Format>image/jpeg</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_PRAIRIES-PERMANENTES_2025</Name>
+        <Title>RPG PP 2025 - Prairies permanentes</Title>
+        <Abstract>Les prairies permanentes correspondent à toute surface sur laquelle la production d'herbe ou d'autres plantes fourragères herbacées, prédomine depuis 5 ans révolus ou plus (6ème déclaration PAC ou plus) édition 2025</Abstract>
+        <KeywordList>
+          <Keyword>Prairies Permanentes</Keyword>
+          <Keyword>herbes</Keyword>
+          <Keyword>Couverture des sols</Keyword>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>Cultures Permanentes</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
@@ -522,11 +698,54 @@
         </MetadataURL>
         <Style>
           <Name>normal</Name>
-          <Title>Données brutes</Title>
-          <Abstract>Données brutes, sans modification de canal</Abstract>
-          <LegendURL width="280" height="69">
-            <Format>image/jpeg</Format>
-            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          <Title>IGNF_RPG_PRAIRIES-PERMANENTES</Title>
+          <Abstract>Style et légende associés au flux IGNF_RPG_PRAIRIES-PERMANENTES</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/PP.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_SURFACES-NON-AGRICOLES_2025</Name>
+        <Title>RPG SNA 2025 - Surfaces non agricoles</Title>
+        <Abstract>Registre parcellaire graphique : Surface non agricoles déclarées dans le RPG edition 2025</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title> IGNF_RPG_SURFACES-NON-AGRICOLES</Title>
+          <Abstract>Style et légende associés au flux IGNF_RPG_SURFACES-NON-AGRICOLES</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/SNA.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
@@ -557,13 +776,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/asp.gif" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -572,6 +791,51 @@
           <LegendURL width="280" height="69">
             <Format>image/jpeg</Format>
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>IGNF_RPG_ZONES-DENSITE-HOMOGENE_2025</Name>
+        <Title>RPG ZDH 2025 - Zones de Densité Homogène</Title>
+        <Abstract>Registre parcellaire graphique : Zones de densité homogènes sur laquelle la végétation et les autres éléments naturels non agricoles apparaissent homogènes lors de la photo-interprétation d'une parcelle ou d'un ensemble de parcelles de prairie permanente déclarées au RPG par les exploitants édition 2025</Abstract>
+        <KeywordList>
+          <Keyword>RPG</Keyword>
+          <Keyword>Agriculture</Keyword>
+          <Keyword>ZDH</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <Style>
+          <Name>normal</Name>
+          <Title>IGNF_RPG_ZONES-DENSITE-HOMOGENE</Title>
+          <Abstract>Style et légende associés au flux IGNF_RPG_ZONES-DENSITE-HOMOGENE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/ZDH.png" xlink:type="simple" />
           </LegendURL>
         </Style>
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
@@ -600,13 +864,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -643,13 +907,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -815,13 +1079,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="Other">
-          <Format>text/html</Format>
-          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="ISO19115:2003">
           <Format>application/xml</Format>
           <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="Other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -858,13 +1122,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -901,13 +1165,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1116,13 +1380,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1245,13 +1509,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1288,13 +1552,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_RPG" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>
@@ -1394,6 +1658,41 @@
         <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
         <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
       </Layer>
+      <Layer queryable="1">
+        <Name>LANDUSE.AGRICULTURE2025</Name>
+        <Title>RPG Parcelles 2025 – Parcelles agricoles déclarées à la PAC</Title>
+        <Abstract>Parcelles agricoles déclarées au RPG par les exploitants édition 2025</Abstract>
+        <KeywordList>
+          <Keyword>Usage des sols</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-63.372499310285619</westBoundLongitude>
+          <eastBoundLongitude>55.925899310285615</eastBoundLongitude>
+          <southBoundLatitude>-21.475599310285613</southBoundLatitude>
+          <northBoundLatitude>51.312099310285618</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857" minx="-7054594.3535180762" maxx="6225642.6333768843" miny="-2448679.9199845167" maxy="6676687.2685793005" />
+        <Attribution>
+          <Title>Ministère de l'Agriculture et de la Souveraineté Alimentaire</Title>
+          <OnlineResource xlink:href="https://agriculture.gouv.fr/" xlink:type="simple" />
+          <LogoURL width="298" height="169">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>normal</Name>
+          <Title>Données LANDUSE.AGRICULTURE</Title>
+          <Abstract>Style et légende associés au flux LANDUSE.AGRICULTURE</Abstract>
+          <LegendURL width="300" height="69">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/legendes/LANDUSE-AGRICULTURE-legend.png" xlink:type="simple" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8530.9183353991411</MinScaleDenominator>
+        <MaxScaleDenominator>8735660.3754487149</MaxScaleDenominator>
+      </Layer>
       <Layer>
         <Name>PRAIRIES.SENSIBLES.BCAE</Name>
         <Title>Préservation des prairies et pâturages permanents en zone Natura 2000</Title>
@@ -1418,13 +1717,13 @@
             <OnlineResource xlink:href="https://data.geopf.fr/annexes/ressources/logos/masa.png" xlink:type="simple" />
           </LogoURL>
         </Attribution>
-        <MetadataURL type="ISO19115:2003">
-          <Format>application/xml</Format>
-          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
-        </MetadataURL>
         <MetadataURL type="Other">
           <Format>text/html</Format>
           <OnlineResource xlink:href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BCAE" xlink:type="simple" />
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:href="https://data.geopf.fr/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;OUTPUTSCHEMA=http://standards.iso.org/iso/19115/-3/mdb/2.0&amp;elementSetName=full&amp;ID=IGNF_BCAE" xlink:type="simple" />
         </MetadataURL>
         <Style>
           <Name>normal</Name>

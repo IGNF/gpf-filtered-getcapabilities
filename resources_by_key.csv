@@ -281,6 +281,18 @@ wfs,agriculture,RPG.2023:parcelles_graphiques
 wfs,agriculture,RPG.2024:codes_cultures
 wfs,agriculture,RPG.2024:ilots_anonymes
 wfs,agriculture,RPG.2024:parcelles_graphiques
+wfs,agriculture,LANDUSE.AGRICULTURE2025:codes_cultures
+wfs,agriculture,LANDUSE.AGRICULTURE2025:ilots_anonymes
+wfs,agriculture,LANDUSE.AGRICULTURE2025:parcelles_graphiques
+wfs,agriculture,IGNF_RPG_GRANDES-CATEGORIES-PARCELLES_2025:grandes_categories_parcelles
+wfs,agriculture,IGNF_RPG_PARCELLES-BIO_2025:parcelles-bio
+wfs,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE_2025:parcelles_eligibles_iae
+wfs,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2025:prairies_permanentes
+wfs,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025:surfaces_non_agricoles_autres_elements
+wfs,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025:surfaces_non_agricoles_element_artificialise
+wfs,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025:surfaces_non_agricoles_vegetation_ponctuelle
+wfs,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025:surfaces_non_agricoles_vegetation_surfacique
+wfs,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2025:zones_densite_homogene
 wfs,agriculture,RPG.LATEST:codes_cultures
 wfs,agriculture,RPG.LATEST:ilots_anonymes
 wfs,agriculture,RPG.LATEST:ilots_de_reference
@@ -294,6 +306,12 @@ wms-r,agriculture,IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024
 wms-r,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE
 wms-r,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2024
 wms-r,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024
+wms-r,agriculture,IGNF_RPG_GRANDES-CATEGORIES-PARCELLES_2025
+wms-r,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE_2025
+wms-r,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2025
+wms-r,agriculture,IGNF_RPG_PARCELLES-BIO_2025
+wms-r,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025
+wms-r,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2025
 wms-r,agriculture,LANDUSE.AGRICULTURE.LATEST
 wms-r,agriculture,LANDUSE.AGRICULTURE2007
 wms-r,agriculture,LANDUSE.AGRICULTURE2008
@@ -313,6 +331,7 @@ wms-r,agriculture,LANDUSE.AGRICULTURE2021
 wms-r,agriculture,LANDUSE.AGRICULTURE2022
 wms-r,agriculture,LANDUSE.AGRICULTURE2023
 wms-r,agriculture,LANDUSE.AGRICULTURE2024
+wms-r,agriculture,LANDUSE.AGRICULTURE2025
 wms-r,agriculture,PRAIRIES.SENSIBLES.BCAE
 wms-r,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wmts,agriculture,GEOGRAPHICALGRIDSYSTEMS.SLOPES.PAC
@@ -328,6 +347,12 @@ wmts,agriculture,IGNF_RPG_PARCELLES-AGRICOLES-CATEGORISEES_2024
 wmts,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE
 wmts,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2024
 wmts,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2024
+wmts,agriculture,IGNF_RPG_GRANDES-CATEGORIES-PARCELLES_2025
+wmts,agriculture,IGNF_RPG_PARCELLES-ELIGIBLES-IAE_2025
+wmts,agriculture,IGNF_RPG_PRAIRIES-PERMANENTES_2025
+wmts,agriculture,IGNF_RPG_PARCELLES-BIO_2025
+wmts,agriculture,IGNF_RPG_SURFACES-NON-AGRICOLES_2025
+wmts,agriculture,IGNF_RPG_ZONES-DENSITE-HOMOGENE_2025
 wmts,agriculture,LANDUSE.AGRICULTURE.LATEST
 wmts,agriculture,LANDUSE.AGRICULTURE2007
 wmts,agriculture,LANDUSE.AGRICULTURE2008
@@ -347,6 +372,7 @@ wmts,agriculture,LANDUSE.AGRICULTURE2021
 wmts,agriculture,LANDUSE.AGRICULTURE2022
 wmts,agriculture,LANDUSE.AGRICULTURE2023
 wmts,agriculture,LANDUSE.AGRICULTURE2024
+wmts,agriculture,LANDUSE.AGRICULTURE2025
 wmts,agriculture,PRAIRIES.SENSIBLES.BCAE
 wmts,agriculture,TOURBIERES_ZONES-HUMIDES.BCAE
 wfs,altimetrie,ELEVATION.CONTOUR.LINE:courbe
@@ -404,6 +430,7 @@ wms-r,cartes,GEOGRAPHICALGRIDSYSTEMS.TERRIER_V2
 wms-r,cartes,SCAN1000_PYR-JPEG_WLD_WM
 wms-r,cartes,SCANDEP_PYR-JPEG_FXX_WM
 wms-r,cartes,SCANREG_PYR-JPEG_WLD_WM
+wms-r,cartes,IGNF_PLAN-IGN-HD
 wms-v,cartes,GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25.GRAPHE-MOSAIQUAGE
 wmts,cartes,AN-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI
 wmts,cartes,BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI
@@ -419,6 +446,7 @@ wmts,cartes,GEOGRAPHICALGRIDSYSTEMS.TERRIER_V1
 wmts,cartes,GEOGRAPHICALGRIDSYSTEMS.TERRIER_V2
 wmts,cartes,IGNF_CARTES_SCAN-1000
 wmts,cartes,IGNF_CARTES_SCAN-REGIONAL
+wmts,cartes,IGNF_PLAN-IGN-HD
 wfs,cartovecto,BDCARTO_V5:aerodrome
 wfs,cartovecto,BDCARTO_V5:arrondissement
 wfs,cartovecto,BDCARTO_V5:arrondissement_municipal
